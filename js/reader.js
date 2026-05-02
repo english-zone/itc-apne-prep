@@ -63,7 +63,17 @@ async function onPassageSelect(e) {
 
 function renderPassage(data) {
   const container = document.getElementById('readingContent');
-  const paragraphs = data.paragraphs || [data.text] || ['No content available.'];
+  // دعم كل الأشكال الممكنة: paragraphs (مصفوفة)، content (نص واحد)، text (نص واحد)
+  let paragraphs = data.paragraphs;
+  if (!paragraphs && data.content) {
+    paragraphs = [data.content];
+  } else if (!paragraphs && data.text) {
+    paragraphs = [data.text];
+  }
+  if (!paragraphs || paragraphs.length === 0) {
+    paragraphs = ['No content available.'];
+  }
+  
   container.innerHTML = paragraphs.map(p => `<p>${makeWordsClickable(p)}</p>`).join('');
   container.querySelectorAll('.clickable-word').forEach(el => {
     el.addEventListener('click', () => showWordPopup(el.dataset.word));
