@@ -17,6 +17,21 @@ document.addEventListener('DOMContentLoaded', () => {
   initApp();
   buildVocabList();
   document.getElementById('vocabSetSelector')?.addEventListener('change', onVocabSetSelect);
+  
+  // ✅ Handle URL parameter ?set=...
+  const urlParams = new URLSearchParams(window.location.search);
+  const setId = urlParams.get('set');
+  if (setId) {
+    setTimeout(() => {
+      const selector = document.getElementById('vocabSetSelector');
+      if (selector && selector.querySelector(`option[value="${setId}"]`)) {
+        selector.value = setId;
+        onVocabSetSelect({ target: selector });
+      } else {
+        console.warn(`Vocabulary set "${setId}" not found`);
+      }
+    }, 100);
+  }
 });
 
 function buildVocabList() {
