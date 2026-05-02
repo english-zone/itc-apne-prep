@@ -1,0 +1,26 @@
+{
+  "title": "ITC Book – Gerund or Infinitive (Pages 44-47)",
+  "timeLimit": 15,
+  "questions": [
+    { "question": "1. She enjoys ___ in the park.", "options": ["running","to run","run","ran"], "answer": 0 },
+    { "question": "2. They decided ___ to the beach.", "options": ["to go","going","go","gone"], "answer": 0 },
+    { "question": "3. I don't mind ___ for a few minutes.", "options": ["to wait","waiting","wait","waited"], "answer": 1 },
+    { "question": "4. He stopped ___ when he realized it was bad for his health.", "options": ["to smoke","smoking","smoke","smoked"], "answer": 1 },
+    { "question": "5. We love ___ to new places.", "options": ["to travel","traveling","travel","traveled"], "answer": 1 },
+    { "question": "6. She remembered ___ her phone with her before leaving.", "options": ["to take","taking","take","took"], "answer": 1 },
+    { "question": "7. He tried ___ the car himself, but he couldn't do it.", "options": ["to fix","fixing","fix","fixed"], "answer": 0 },
+    { "question": "8. They always look forward to ___ their friends on weekends.", "options": ["to meet","meeting","meet","met"], "answer": 1 },
+    { "question": "9. She started ___ when she was only five years old.", "options": ["to dance","dancing","dance","danced"], "answer": 1 },
+    { "question": "10. He promised ___ me with my homework.", "options": ["to help","helping","help","helped"], "answer": 0 },
+    { "question": "11. They suggested ___ to the movies tonight.", "options": ["to go","going","go","gone"], "answer": 1 },
+    { "question": "12. I regret ___ him the truth.", "options": ["to tell","telling","tell","told"], "answer": 1 },
+    { "question": "13. We tried ___ a good restaurant in the area.", "options": ["to find","finding","find","found"], "answer": 0 },
+    { "question": "14. She prefers ___ at home on weekends.", "options": ["to stay","staying","stay","stayed"], "answer": 1 },
+    { "question": "15. He forgot ___ the door before leaving.", "options": ["to lock","locking","lock","locked"], "answer": 0 },
+    { "question": "16. They can't wait ___ their vacation next week.", "options": ["to start","starting","start","started"], "answer": 0 },
+    { "question": "17. She avoided ___ him at the party.", "options": ["to see","seeing","see","saw"], "answer": 1 },
+    { "question": "18. He offered ___ me a cup of coffee.", "options": ["to buy","buying","buy","bought"], "answer": 0 },
+    { "question": "19. They admitted ___ a mistake.", "options": ["to make","making","make","made"], "answer": 1 },
+    { "question": "20. She imagined ___ in a big house by the beach.", "options": ["to live","living","live","lived"], "answer": 1 }
+  ]
+}

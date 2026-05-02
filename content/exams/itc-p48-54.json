@@ -1,0 +1,26 @@
+{
+  "title": "ITC Book – Question Tags (Pages 48-54)",
+  "timeLimit": 15,
+  "questions": [
+    { "question": "1. You're coming to the party, ___?", "options": ["aren't you?","don't you?","didn't you?","won't you?"], "answer": 0 },
+    { "question": "2. He won't be late, ___?", "options": ["will he?","won't he?","wouldn't he?","is he?"], "answer": 0 },
+    { "question": "3. She doesn't like coffee, ___?", "options": ["does she?","doesn't she?","did she?","is she?"], "answer": 0 },
+    { "question": "4. I need to finish this report tonight, ___?", "options": ["don't I?","won't I?","can't I?","do I?"], "answer": 0 },
+    { "question": "5. They've already left, ___?", "options": ["haven't they?","isn't it?","didn't they?","won't they?"], "answer": 0 },
+    { "question": "6. We should start cooking now, ___?", "options": ["shouldn't we?","should we?","would we?","could we?"], "answer": 0 },
+    { "question": "7. You can swim, ___?", "options": ["can't you?","couldn't you?","will you?","do you?"], "answer": 0 },
+    { "question": "8. She's been to Paris before, ___?", "options": ["hasn't she?","didn't she?","isn't it?","was she?"], "answer": 0 },
+    { "question": "9. He's never been to Asia, ___?", "options": ["Has he?","hasn't he?","is he?","does he?"], "answer": 0 },
+    { "question": "10. You aren't afraid of heights, ___?", "options": ["are you?","aren't you?","were you?","do you?"], "answer": 0 },
+    { "question": "11. They won't mind if we borrow their car, ___?", "options": ["will they?","won't they?","don't they?","do they?"], "answer": 0 },
+    { "question": "12. She's always so helpful, ___?", "options": ["isn't she?","is she?","does she?","doesn't she?"], "answer": 0 },
+    { "question": "13. You didn't forget your keys, ___?", "options": ["did you?","didn't you?","will you?","do you?"], "answer": 0 },
+    { "question": "14. I'm not interrupting you, ___?", "options": ["am I?","aren't I?","do I?","don't I?"], "answer": 0 },
+    { "question": "15. They've been married for twenty years, ___?", "options": ["haven't they?","have they?","didn't they?","don't they?"], "answer": 0 },
+    { "question": "16. You know how to play chess, ___?", "options": ["don't you?","do you?","can you?","will you?"], "answer": 0 },
+    { "question": "17. It's a beautiful day today, ___?", "options": ["isn't it?","is it?","won't it?","does it?"], "answer": 0 },
+    { "question": "18. They didn't enjoy the movie, ___?", "options": ["did they?","didn't they?","will they?","do they?"], "answer": 0 },
+    { "question": "19. She's always on time, ___?", "options": ["isn't she?","is she?","won't she?","does she?"], "answer": 0 },
+    { "question": "20. We should leave early to avoid traffic, ___?", "options": ["shouldn't we?","should we?","would we?","will we?"], "answer": 0 }
+  ]
+}
