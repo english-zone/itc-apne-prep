@@ -3,6 +3,13 @@ let readingSeconds = 0;
 let currentPassageData = null;
 let currentDictionary = null;
 
+const READING_PASSAGES = [
+  'japan', 'us-government', 'desalination', 'california', 'egypt',
+  'letter-editor', 'risks-farming', 'vso', 'bicycles', 'red-sea',
+  'diabetes', 'amelia-earhart', 'super-bus', 'email-etiquette',
+  'tintin-tibet', 'yellowstone'
+];
+
 document.addEventListener('DOMContentLoaded', async () => {
   initApp();
   await loadPassageList();
@@ -17,17 +24,22 @@ document.addEventListener('DOMContentLoaded', async () => {
 async function loadPassageList() {
   const selector = document.getElementById('passageSelector');
   if (!selector) return;
-  // Try to list passages (GitHub Pages won't list directories, so we try common names)
-  const commonNames = ['passage1', 'passage2', 'sample', 'reading1', 'reading2', 'test'];
+  selector.innerHTML = '<option value="">-- Loading passages... --</option>';
+  
   const available = [];
-  for (const name of commonNames) {
-    const data = await fetchJSON(`content/reading/${name}.json`);
-    if (data) available.push({ name, title: data.title || name });
+  for (const name of READING_PASSAGES) {
+    try {
+      const data = await fetchJSON(`content/reading/${name}.json`);
+      if (data) available.push({ name, title: data.title || name });
+    } catch(e) {}
   }
+  
   if (available.length === 0) {
     selector.innerHTML = '<option value="">-- No passages found --</option>';
+    document.getElementById('readingContent').innerHTML = '<div class="empty-state"><p>Add JSON files to /content/reading/</p></div>';
     return;
   }
+  
   selector.innerHTML = '<option value="">-- Load a passage --</option>' +
     available.map(a => `<option value="${a.name}">${a.title}</option>`).join('');
 }
@@ -53,7 +65,6 @@ function renderPassage(data) {
   const container = document.getElementById('readingContent');
   const paragraphs = data.paragraphs || [data.text] || ['No content available.'];
   container.innerHTML = paragraphs.map(p => `<p>${makeWordsClickable(p)}</p>`).join('');
-  // Attach click handlers
   container.querySelectorAll('.clickable-word').forEach(el => {
     el.addEventListener('click', () => showWordPopup(el.dataset.word));
   });
@@ -71,7 +82,7 @@ function makeWordsClickable(text) {
 
 async function showWordPopup(word) {
   if (!currentDictionary) {
-    currentDictionary = await fetchJSON('content/dictionary/dictionary.json') || {};
+    currentDictionary = await fetchJSON('content/dictionary/dictionary.json') || await fetchJSON('content/dictionary/dictionary-full.json') || {};
   }
   const entry = currentDictionary[word] || currentDictionary[word.toLowerCase()];
   const popup = document.getElementById('wordPopup');
@@ -129,15 +140,9 @@ function submitComprehension() {
         feedback.textContent = '✅ Correct!';
         feedback.className = 'feedback correct';
       } else {
-        feedback.textContent = `❌ Wrong. Correct answer: ${q.options ? q.options[q.answer] : q.answer}`;
+        feedback.textContent = `❌ Wrong. Correct: ${q.options ? q.options[q.answer] : q.answer}`;
         feedback.className = 'feedback wrong';
-        Storage.addMistake({
-          type: 'reading',
-          passage: currentPassageData.title,
-          question: q.question,
-          userAnswer,
-          correctAnswer: q.answer
-        });
+        Storage.addMistake({ type:'reading', passage: currentPassageData.title, question: q.question, userAnswer, correctAnswer: q.answer });
       }
     } else {
       feedback.textContent = '⚠️ Not answered';
@@ -145,9 +150,7 @@ function submitComprehension() {
     }
   });
   const score = questions.length ? Math.round((correct / questions.length) * 100) : 0;
-  document.getElementById('resultsContainer').innerHTML = `
-    <div class="card"><strong>Score:</strong> ${correct}/${questions.length} (${score}%)</div>
-  `;
+  document.getElementById('resultsContainer').innerHTML = `<div class="card"><strong>Score:</strong> ${correct}/${questions.length} (${score}%)</div>`;
   Storage.addExamScore({ title: currentPassageData.title, score, total: questions.length, correct });
 }
 
@@ -155,10 +158,7 @@ function startTimer() {
   readingSeconds = 0;
   clearInterval(readingTimerInterval);
   updateTimerDisplay();
-  readingTimerInterval = setInterval(() => {
-    readingSeconds++;
-    updateTimerDisplay();
-  }, 1000);
+  readingTimerInterval = setInterval(() => { readingSeconds++; updateTimerDisplay(); }, 1000);
 }
 
 function updateTimerDisplay() {

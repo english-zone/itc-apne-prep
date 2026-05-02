@@ -3,6 +3,8 @@ let currentVocabIndex = 0;
 let currentFilter = 'all';
 let dictionaryData = null;
 
+const VOCAB_SETS = ['family-body','clothing-weather','health-medicine','food-drink','jobs-work','shopping-materials','verbs-actions'];
+
 document.addEventListener('DOMContentLoaded', async () => {
   initApp();
   await loadVocabSets();
@@ -23,14 +25,16 @@ document.addEventListener('DOMContentLoaded', async () => {
 async function loadVocabSets() {
   const selector = document.getElementById('vocabSetSelector');
   if (!selector) return;
-  const names = ['set1', 'set2', 'vocab1', 'sample', 'essential'];
+  selector.innerHTML = '<option value="">-- Loading sets... --</option>';
   const available = [];
-  for (const name of names) {
-    const data = await fetchJSON(`content/vocabulary/${name}.json`);
-    if (data && data.words) available.push({ name, title: data.title || name, words: data.words });
+  for (const name of VOCAB_SETS) {
+    try {
+      const data = await fetchJSON(`content/vocabulary/${name}.json`);
+      if (data && data.words) available.push({ name, title: data.title || name, words: data.words });
+    } catch(e) {}
   }
   if (available.length === 0) {
-    selector.innerHTML = '<option value="">-- No vocab sets --</option>';
+    selector.innerHTML = '<option value="">-- No vocab sets found --</option>';
     document.getElementById('flashcardContainer').innerHTML = '<div class="empty-state"><p>Add JSON files to /content/vocabulary/</p></div>';
     return;
   }
@@ -45,16 +49,13 @@ async function onVocabSetSelect(e) {
   if (!set) return;
   currentVocabSet = set.words;
   currentVocabIndex = 0;
-  dictionaryData = dictionaryData || await fetchJSON('content/dictionary/dictionary.json') || {};
+  dictionaryData = dictionaryData || await fetchJSON('content/dictionary/dictionary-full.json') || await fetchJSON('content/dictionary/dictionary.json') || {};
   renderFlashcard();
 }
 
 function getFilteredWords() {
   if (currentFilter === 'all') return currentVocabSet;
-  return currentVocabSet.filter(w => {
-    const state = Storage.getVocabulary()[w.word] || 'learning';
-    return state === currentFilter;
-  });
+  return currentVocabSet.filter(w => (Storage.getVocabulary()[w.word] || 'learning') === currentFilter);
 }
 
 function renderFlashcard() {
@@ -68,7 +69,7 @@ function renderFlashcard() {
   const word = filtered[currentVocabIndex];
   const state = Storage.getVocabulary()[word.word] || 'learning';
   container.innerHTML = `
-    <div class="flashcard" id="flashcardEl" onclick="this.classList.toggle('flipped')">
+    <div class="flashcard" onclick="this.classList.toggle('flipped')">
       <div class="word">${word.word}</div>
       <div class="detail" id="flashcardDetail">Tap to reveal</div>
     </div>
@@ -79,31 +80,24 @@ function renderFlashcard() {
       <button class="btn btn-sm" onclick="showWordDetail('${word.word}')">📚 Detail</button>
       <button class="btn btn-sm" onclick="nextWord(${filtered.length})">➡️ Next</button>
     </div>
-    <p style="color:var(--text-secondary)">${currentVocabIndex + 1} / ${filtered.length} – State: <strong>${state}</strong></p>
+    <p style="color:var(--text-secondary)">${currentVocabIndex+1}/${filtered.length} – <strong>${state}</strong></p>
   `;
-  // Preload detail for flip
-  const detail = dictionaryData[word.word] || {};
+  const detail = dictionaryData?.[word.word] || {};
   const detailEl = document.getElementById('flashcardDetail');
-  if (detailEl) {
-    detailEl.textContent = detail.meaning_en || detail.definition || 'No definition';
-  }
+  if (detailEl) detailEl.textContent = detail.meaning_en || detail.definition || 'No definition';
 }
 
 function markWord(state) {
   const filtered = getFilteredWords();
-  const word = filtered[currentVocabIndex];
-  if (!word) return;
-  Storage.updateWord(word.word, state);
+  if (!filtered[currentVocabIndex]) return;
+  Storage.updateWord(filtered[currentVocabIndex].word, state);
   renderFlashcard();
 }
 
-function nextWord(total) {
-  currentVocabIndex = (currentVocabIndex + 1) % total;
-  renderFlashcard();
-}
+function nextWord(total) { currentVocabIndex = (currentVocabIndex + 1) % total; renderFlashcard(); }
 
 function showWordDetail(word) {
-  const entry = dictionaryData[word] || {};
+  const entry = dictionaryData?.[word] || {};
   const popup = document.getElementById('wordDetailPopup');
   const content = document.getElementById('detailContent');
   content.innerHTML = `
@@ -117,3 +111,4 @@ function showWordDetail(word) {
   `;
   popup.style.display = 'flex';
 }
+window.markWord = markWord; window.nextWord = nextWord; window.showWordDetail = showWordDetail;
