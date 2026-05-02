@@ -47,7 +47,11 @@ async function onVocabSetSelect(e) {
   const name = e.target.value;
   const set = (window._vocabSets || []).find(s => s.name === name);
   if (!set) return;
-  currentVocabSet = set.words;
+  // تحويل الكلمات إلى صيغة موحدة: english, arabic
+  currentVocabSet = set.words.map(w => ({
+    english: w.english || w.word,
+    arabic: w.arabic || ''
+  }));
   currentVocabIndex = 0;
   dictionaryData = dictionaryData || await fetchJSON('content/dictionary/dictionary-full.json') || await fetchJSON('content/dictionary/dictionary.json') || {};
   renderFlashcard();
@@ -55,7 +59,7 @@ async function onVocabSetSelect(e) {
 
 function getFilteredWords() {
   if (currentFilter === 'all') return currentVocabSet;
-  return currentVocabSet.filter(w => (Storage.getVocabulary()[w.word] || 'learning') === currentFilter);
+  return currentVocabSet.filter(w => (Storage.getVocabulary()[w.english] || 'learning') === currentFilter);
 }
 
 function renderFlashcard() {
@@ -67,30 +71,29 @@ function renderFlashcard() {
   }
   if (currentVocabIndex >= filtered.length) currentVocabIndex = 0;
   const word = filtered[currentVocabIndex];
-  const state = Storage.getVocabulary()[word.word] || 'learning';
+  const state = Storage.getVocabulary()[word.english] || 'learning';
+  // البحث في القاموس
+  const dictEntry = dictionaryData?.[word.english] || {};
+  const definition = dictEntry.meaning_en || dictEntry.definition || 'No definition';
+  
   container.innerHTML = `
     <div class="flashcard" onclick="this.classList.toggle('flipped')">
-      <div class="word">${word.word}</div>
-      <div class="detail" id="flashcardDetail">Tap to reveal</div>
+      <div class="word">${word.english}</div>
+      <div class="detail" id="flashcardDetail">${definition}</div>
     </div>
     <div class="flashcard-controls">
-      <button class="btn btn-sm" onclick="markWord('known')">✅ Known</button>
-      <button class="btn btn-sm" onclick="markWord('learning')">📘 Learning</button>
-      <button class="btn btn-sm" onclick="markWord('weak')">⚠️ Weak</button>
-      <button class="btn btn-sm" onclick="showWordDetail('${word.word}')">📚 Detail</button>
+      <button class="btn btn-sm" onclick="markWord('known','${word.english}')">✅ Known</button>
+      <button class="btn btn-sm" onclick="markWord('learning','${word.english}')">📘 Learning</button>
+      <button class="btn btn-sm" onclick="markWord('weak','${word.english}')">⚠️ Weak</button>
+      <button class="btn btn-sm" onclick="showWordDetail('${word.english}')">📚 Detail</button>
       <button class="btn btn-sm" onclick="nextWord(${filtered.length})">➡️ Next</button>
     </div>
     <p style="color:var(--text-secondary)">${currentVocabIndex+1}/${filtered.length} – <strong>${state}</strong></p>
   `;
-  const detail = dictionaryData?.[word.word] || {};
-  const detailEl = document.getElementById('flashcardDetail');
-  if (detailEl) detailEl.textContent = detail.meaning_en || detail.definition || 'No definition';
 }
 
-function markWord(state) {
-  const filtered = getFilteredWords();
-  if (!filtered[currentVocabIndex]) return;
-  Storage.updateWord(filtered[currentVocabIndex].word, state);
+function markWord(state, word) {
+  Storage.updateWord(word, state);
   renderFlashcard();
 }
 
@@ -111,4 +114,7 @@ function showWordDetail(word) {
   `;
   popup.style.display = 'flex';
 }
-window.markWord = markWord; window.nextWord = nextWord; window.showWordDetail = showWordDetail;
+
+window.markWord = markWord;
+window.nextWord = nextWord;
+window.showWordDetail = showWordDetail;
