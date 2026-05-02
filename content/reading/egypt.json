@@ -1,0 +1,42 @@
+{
+  "title": "Egypt",
+  "paragraphs": [
+    "Egypt, a country located in northeastern Africa, is known for its rich history and cultural heritage. The Nile River, which runs through the heart of the nation, is the lifeblood of Egypt, providing water and sustenance to its people for millennia. This ancient civilization is famous for its monumental architecture, including the Great Pyramids of Giza and the temples of Luxor and Karnak. These iconic structures reflect the profound engineering skills and artistic achievements of the ancient Egyptians.",
+    "The capital city, Cairo, is a bustling metropolis that combines both historic and modern elements. The city is home to the Egyptian Museum, which houses an extensive collection of ancient artifacts, including the treasures of Tutankhamun. Additionally, Cairo's vibrant markets, known as souks, are filled with local crafts, spices, and textiles, offering a glimpse into the daily life of Egyptians. The juxtaposition of the old and new makes Cairo an intriguing destination for visitors.",
+    "Egypt's climate is predominantly arid, with hot summers and mild winters. The majority of the population lives along the Nile, where the climate is more hospitable for agriculture. Farming is a vital part of the economy, with crops such as rice, wheat, and cotton being cultivated. Despite the challenges posed by limited rainfall, Egyptian farmers have developed sophisticated irrigation techniques that maximize the productivity of their land.",
+    "Tourism plays a significant role in Egypt's economy. The country attracts millions of visitors each year who are eager to explore its ancient sites and experience its unique culture. Popular activities for tourists include cruising down the Nile, visiting the Valley of the Kings, and exploring the coastal cities along the Red Sea. The hospitality of the Egyptian people, along with the rich tapestry of history, makes Egypt a very appealing destination for travelers from around the world.",
+    "In recent years, Egypt has faced various challenges, including economic fluctuations and political changes. However, the government has been making efforts to revive the tourism sector and improve infrastructure to ensure a better experience for visitors. Conservation projects are also underway to preserve and protect the country's archaeological treasures. With its storied past and ongoing developments, Egypt continues to be a land of fascination, drawing interest from both scholars and tourists alike."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "According to Paragraph 2, what is notable about Cairo?",
+      "options": ["It has no historical sites.", "It features both ancient and modern aspects.", "It is known primarily for its agriculture.", "It has the largest pyramids in the world."],
+      "answer": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does the word juxtaposition in Paragraph 2 mean?",
+      "options": ["Comparison of two similar things.", "A place where two different things meet.", "A conflict between two opposing ideas.", "A random arrangement of objects."],
+      "answer": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is the main factor that makes Egyptian farming possible, as described in Paragraph 3?",
+      "options": ["The technology of irrigation.", "The favorable climate all over the country.", "The abundance of rainfall during summer.", "The use of advanced machinery and tools."],
+      "answer": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What role does tourism play in Egypt's economy, based on Paragraph 4?",
+      "options": ["It is the only source of income for the country.", "It attracts visitors who explore its ancient culture.", "It negatively impacts the preservation of historical sites.", "It is less important than agriculture and industry."],
+      "answer": 1
+    },
+    {
+      "type": "mcq",
+      "question": "According to Paragraph 5, what efforts is the Egyptian government making?",
+      "options": ["To reduce the number of tourists visiting Egypt.", "To improve their agricultural production techniques.", "To promote tourism and preserve archaeological sites.", "To limit the use of the Nile River for economic activities."],
+      "answer": 2
+    }
+  ]
+}

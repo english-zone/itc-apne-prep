@@ -1,0 +1,21 @@
+{
+  "title": "Sample Midterm Exam",
+  "timeLimit": 10,
+  "questions": [
+    {
+      "question": "What is the habit loop?",
+      "options": ["cue, routine, reward", "start, middle, end", "input, process, output", "trigger, action, finish"],
+      "answer": 0
+    },
+    {
+      "question": "Habits account for roughly what percentage of daily behavior?",
+      "options": ["10%", "25%", "40%", "75%"],
+      "answer": 2
+    },
+    {
+      "question": "Which is a synonym for 'essential'?",
+      "options": ["optional", "crucial", "minor", "rare"],
+      "answer": 1
+    }
+  ]
+}

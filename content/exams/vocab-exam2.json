@@ -1,0 +1,21 @@
+{
+  "title": "Vocabulary Test 2 – Jobs, Shopping, Verbs",
+  "timeLimit": 15,
+  "questions": [
+    { "question": "Mariam works in a hospital. She's training to be a ___", "options": ["waiter","doctor","secretary","librarian"], "answer": 1 },
+    { "question": "Ahmed's monthly ___ is SR10000.", "options": ["crowd","income","character","aspect"], "answer": 1 },
+    { "question": "My sister bought new dresses from the ___", "options": ["bakery","drugstore","bookstore","department store"], "answer": 3 },
+    { "question": "We can draw with ___", "options": ["crayons","drums","crackers","crabs"], "answer": 0 },
+    { "question": "Hard work and good planning are the ___ of success.", "options": ["experience","profit","essence","apparatus"], "answer": 2 },
+    { "question": "___ workers are more valuable to employers than beginners.", "options": ["sluggish","seasoned","procrastinating","cunning"], "answer": 1 },
+    { "question": "He wants to lose weight so he joined a/an ___ program.", "options": ["concert","fitness","English","acting"], "answer": 1 },
+    { "question": "A lot of sea animals die because of ___ in the Gulf.", "options": ["pollution","agencies","vacations","neighbors"], "answer": 0 },
+    { "question": "He doesn't have any hair; he is completely ___", "options": ["raw","bald","blond","curly"], "answer": 1 },
+    { "question": "He was very ___ when he forgot his money at home.", "options": ["excited","perfect","embarrassed","scared"], "answer": 2 },
+    { "question": "That man found a bag full of money and he handed it to the police. He is ___", "options": ["honest","criminal","punctual","reliable"], "answer": 0 },
+    { "question": "My grandfather has a very ___ necklace. It is worth about $5000.", "options": ["messy","disgusting","dreadful","valuable"], "answer": 3 },
+    { "question": "Would you mind ___ the yard?", "options": ["in","of","away","up"], "answer": 3 },
+    { "question": "In ten years, the ___ of Riyadh has grown considerably.", "options": ["population","people","families","children"], "answer": 0 },
+    { "question": "A person who always arrives on time is considered to be ___", "options": ["level-headed","punctual","efficient","patient"], "answer": 1 }
+  ]
+}

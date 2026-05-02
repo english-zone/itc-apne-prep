@@ -1,0 +1,42 @@
+{
+  "title": "Japan",
+  "paragraphs": [
+    "Japan, an island nation in East Asia, is known for its rich cultural heritage and advanced technological advancements. Comprised of four main islands—Honshu, Hokkaido, Kyushu, and Shikoku—Japan balances its ancient traditions with modern innovation. The country's history dates back thousands of years, with a unique blend of indigenous traditions and influences from neighboring China and Korea.",
+    "Japan's economy is one of the largest and most developed in the world. It is a global leader in various industries, including automotive, electronics, robotics, and animation. Companies such as Toyota, Sony, and Panasonic are renowned worldwide. Despite facing economic challenges over the years, Japan continues to be a major player in the global market.",
+    "Education is highly prioritized in Japan, with a rigorous system that emphasizes discipline and respect. Japanese students consistently score high in international assessments, particularly in mathematics and science. The education system is divided into primary, secondary, and tertiary levels, with a strong focus on academic achievement and extracurricular activities.",
+    "Culturally, Japan is famous for its cuisine, festivals, and traditional arts such as tea ceremonies, calligraphy, and ikebana (flower arranging). Japanese cuisine, including sushi, ramen, and tempura, is popular worldwide. Festivals like Hanami, which celebrates cherry blossom viewing, and Tanabata, the star festival, showcase Japan's rich cultural traditions.",
+    "Japan faces several challenges, including an aging population and natural disasters due to its geographic location. Earthquakes, tsunamis, and typhoons are frequent, prompting the development of advanced disaster preparedness and response systems. Despite these challenges, Japan remains resilient and continues to innovate and adapt to changing circumstances."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "According to paragraph 1, Japan is composed of how many main islands?",
+      "options": ["Three", "Five", "Four", "Six"],
+      "answer": 2
+    },
+    {
+      "type": "mcq",
+      "question": "In paragraph 2, which industry is NOT mentioned as one of Japan's leading industries?",
+      "options": ["Automotive", "Electronics", "Robotics", "Pharmaceuticals"],
+      "answer": 3
+    },
+    {
+      "type": "mcq",
+      "question": "In paragraph 3, the education system in Japan is noted for its emphasis on:",
+      "options": ["Sports and entertainment", "Discipline and respect", "Political science", "Art and music"],
+      "answer": 1
+    },
+    {
+      "type": "mcq",
+      "question": "From reading paragraph 4, you can guess that Japanese cuisine:",
+      "options": ["Is only popular in Japan", "Includes dishes like sushi and ramen", "Is considered unhealthy", "Is rarely influenced by seasonal ingredients"],
+      "answer": 1
+    },
+    {
+      "type": "mcq",
+      "question": "According to paragraph 5, which natural disaster is NOT mentioned as a challenge for Japan?",
+      "options": ["Earthquakes", "Tsunamis", "Typhoons", "Hurricanes"],
+      "answer": 3
+    }
+  ]
+}

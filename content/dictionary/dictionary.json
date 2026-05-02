@@ -1,0 +1,42 @@
+{
+  "essential": {
+    "meaning_en": "absolutely necessary; extremely important",
+    "meaning_ar": "ضروري",
+    "synonyms": ["crucial", "vital", "necessary"],
+    "antonyms": ["optional", "unnecessary"],
+    "collocations": ["essential oil", "essential ingredient"],
+    "example": "Water is essential for life."
+  },
+  "growth": {
+    "meaning_en": "the process of increasing in size or development",
+    "meaning_ar": "نمو",
+    "synonyms": ["development", "expansion", "increase"],
+    "antonyms": ["decline", "decrease"],
+    "collocations": ["economic growth", "personal growth"],
+    "example": "The company experienced rapid growth last year."
+  },
+  "behavior": {
+    "meaning_en": "the way in which one acts or conducts oneself",
+    "meaning_ar": "سلوك",
+    "synonyms": ["conduct", "actions", "demeanor"],
+    "antonyms": [],
+    "collocations": ["good behavior", "behavior pattern"],
+    "example": "His behavior at the meeting was professional."
+  },
+  "routine": {
+    "meaning_en": "a sequence of actions regularly followed",
+    "meaning_ar": "روتين",
+    "synonyms": ["habit", "pattern", "regimen"],
+    "antonyms": ["irregularity"],
+    "collocations": ["daily routine", "exercise routine"],
+    "example": "She established a morning routine to start her day."
+  },
+  "trigger": {
+    "meaning_en": "to cause an event or situation to happen",
+    "meaning_ar": "محفز / زناد",
+    "synonyms": ["activate", "spark", "provoke"],
+    "antonyms": ["prevent", "halt"],
+    "collocations": ["trigger a reaction", "trigger warning"],
+    "example": "The smell of coffee can trigger memories of breakfast."
+  }
+}

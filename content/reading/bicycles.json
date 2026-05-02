@@ -1,0 +1,40 @@
+{
+  "title": "Bicycles",
+  "paragraphs": [
+    "Bicycles are not a new invention. The first ones were built in the late 1700's, but they didn't have any pedals. To move them, people pushed their feet against the ground. These bicycles were very uncomfortable as well. Their wheels were made of wood. In the 1830's Kirkpatrick Macmillan fixed foot levers to his bicycle. These foot levers turned the wheels. Riders didn't need to push against the ground. However, the bicycle was still uncomfortable because the wheels were still made of wood.",
+    "In the 1860's, pedals were added to the front wheel. This made the bicycle easier to ride. More and more people started to use bicycles. Bicycle riding became a popular sport. Riders wanted to go faster and faster. Manufacturers made the front wheel bigger and bigger to increase the speed. The 'ordinary' bicycle, as it was called, had a very large front wheel and a very small back wheel. These bicycles were dangerous because the rider sat high above the ground. If he fell, he could be seriously injured.",
+    "In the 1880's, the 'safety' bicycle was invented. It had two wheels of the same size, and the rider sat between them. This bicycle was much safer and more comfortable. It is similar to the bicycles we use today."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "The first bicycles were very uncomfortable because",
+      "options": ["they were a new invention", "they had foot levers", "the wheels were made of wood", "the wheels didn't turn round"],
+      "answer": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following statements is true?",
+      "options": ["Macmillan pushed his feet against the ground to move his bicycle", "Macmillan produced his bicycle more than two hundred years ago.", "Foot levers were used to turn the wheels on Macmillan's bicycle.", "Macmillan's bicycle had pedals."],
+      "answer": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Why were bicycles easier to ride in the 1860's?",
+      "options": ["More people bought them.", "Bicycle riding became a sport.", "Bicycles had pedals.", "Riders wanted to go faster and faster."],
+      "answer": 2
+    },
+    {
+      "type": "mcq",
+      "question": "In paragraph 1, line 4, 'they' refers to",
+      "options": ["feet", "foot levers", "wheels", "1830's"],
+      "answer": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What made the 'ordinary' bicycle dangerous?",
+      "options": ["The small back wheel", "The rider sat high above the ground", "The foot levers", "The wooden wheels"],
+      "answer": 1
+    }
+  ]
+}

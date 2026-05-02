@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exams – ITC APNE Prep</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="app-header">
+    <nav class="navbar" id="navbar"></nav>
+    <div class="theme-toggle"><button id="themeToggle" aria-label="Toggle dark/light mode">🌓</button></div>
+  </header>
+  <main class="container">
+    <section class="exam-header">
+      <h1>📋 Timed Exams</h1>
+      <span id="examTimer" class="timer">⏱ --:--</span>
+    </section>
+    <select id="examSelector" class="form-select"><option value="">-- Select an exam --</option></select>
+    <button id="startExamBtn" class="btn btn-primary" style="display:none;">▶ Start Exam</button>
+    <div id="examPreview"></div>
+    <section id="examArea" style="display:none;">
+      <div id="examQuestions"></div>
+      <button id="submitExamBtn" class="btn btn-primary" style="display:none;">📩 Submit Exam</button>
+      <div id="examResults" class="results" style="display:none;"></div>
+    </section>
+  </main>
+  <footer class="app-footer"><p>Exam Engine – timed, auto-scored</p></footer>
+  <script src="js/storage.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/exams.js"></script>
+</body>
+</html>

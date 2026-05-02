@@ -1,0 +1,26 @@
+{
+  "title": "Grammar Test 2 – Modals, Conditionals, Prepositions",
+  "timeLimit": 20,
+  "questions": [
+    { "question": "Faten has got a lot of money, so she ___ travel.", "options": ["mustn't","can","can't","should"], "answer": 1 },
+    { "question": "You ___ eat during the lesson.", "options": ["have to","mustn't","should","can"], "answer": 1 },
+    { "question": "I'm sorry but I ___ go out for lunch with you today. I'm busy.", "options": ["must","have to","can't","should"], "answer": 2 },
+    { "question": "Radwan ___ wash the car. His brother did it this morning.", "options": ["doesn't have to","has to","can","must"], "answer": 0 },
+    { "question": "If you read, you will ___ the exam.", "options": ["passed","pass","passing","passes"], "answer": 1 },
+    { "question": "If my dad ___ early, we will go to the cinema.", "options": ["came","had come","come","comes"], "answer": 3 },
+    { "question": "My friends ___ to the party if you invited them.", "options": ["will come","would have come","would come","come"], "answer": 2 },
+    { "question": "If I ___ you, I wouldn't do it.", "options": ["be","was","were","am"], "answer": 2 },
+    { "question": "Ali hasn't seen his friend ___ ages.", "options": ["since","for","around","till"], "answer": 1 },
+    { "question": "Jawad has lived here ___ September.", "options": ["for","since","till","in"], "answer": 1 },
+    { "question": "The children are playing ___ the living room.", "options": ["on","in","at","by"], "answer": 1 },
+    { "question": "Ahmed's house is ___ the third floor.", "options": ["in","on","at","by"], "answer": 1 },
+    { "question": "He isn't aware ___ what is happening around him.", "options": ["about","of","above","off"], "answer": 1 },
+    { "question": "She is jealous ___ any woman talking to her husband.", "options": ["of","off","about","at"], "answer": 0 },
+    { "question": "I'd like ___ Vimto, please.", "options": ["other","the others","another","others"], "answer": 2 },
+    { "question": "Where is ___ shoe? There is only this one in the rack.", "options": ["other","the other","another","others"], "answer": 1 },
+    { "question": "Only two computers work; all the ___ don't.", "options": ["other","others","the other","another"], "answer": 1 },
+    { "question": "You ___ exercise more if you want to be healthy.", "options": ["should","shouldn't","mustn't","can't"], "answer": 0 },
+    { "question": "We ___ recycle if we want to save our planet.", "options": ["shouldn't","must","don't have to","may"], "answer": 1 },
+    { "question": "He studied ___ college and started teaching literature.", "options": ["at","in","on","by"], "answer": 0 }
+  ]
+}

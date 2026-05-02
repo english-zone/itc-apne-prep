@@ -1,0 +1,42 @@
+{
+  "title": "Water Desalination",
+  "paragraphs": [
+    "Water desalination is the process of removing salt and other impurities from seawater to produce fresh water suitable for drinking and irrigation. This technology is essential in arid regions and places where freshwater resources are limited. Desalination helps provide a reliable source of water in areas facing water scarcity.",
+    "There are several methods of desalination, with the most common being reverse osmosis and thermal distillation. Reverse osmosis involves forcing seawater through a semipermeable membrane to filter out salts and impurities. Thermal distillation, on the other hand, involves heating seawater to produce steam, which is then condensed into fresh water.",
+    "Desalination plants are primarily located in the Middle East, North Africa, and parts of the United States, such as California. These regions rely heavily on desalinated water to meet their freshwater needs. The construction and operation of desalination plants are costly, but advancements in technology are gradually reducing these expenses.",
+    "Despite its benefits, desalination poses environmental challenges. The process requires significant energy, which often comes from fossil fuels, contributing to greenhouse gas emissions. Additionally, the disposal of concentrated brine, a byproduct of desalination, can harm marine ecosystems if not managed properly.",
+    "To address these challenges, researchers are exploring renewable energy sources to power desalination plants and developing more efficient technologies. Innovations such as solar desalination and improved membrane materials hold promise for making the process more sustainable. As global water demand continues to rise, desalination will play a crucial role in ensuring water security."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "According to paragraph 1, what is the primary purpose of water desalination?",
+      "options": ["To produce salt for industrial use", "To remove salt and impurities from seawater", "To heat seawater for marine life", "To convert freshwater into saltwater"],
+      "answer": 1
+    },
+    {
+      "type": "mcq",
+      "question": "In paragraph 2, which method of desalination involves forcing seawater through a semipermeable membrane?",
+      "options": ["Thermal distillation", "Reverse osmosis", "Solar desalination", "Electrolysis"],
+      "answer": 1
+    },
+    {
+      "type": "mcq",
+      "question": "In paragraph 3, which region is NOT mentioned as relying heavily on desalinated water?",
+      "options": ["Middle East", "North Africa", "California", "South America"],
+      "answer": 3
+    },
+    {
+      "type": "mcq",
+      "question": "From reading paragraph 4, you can guess that one environmental challenge of desalination is:",
+      "options": ["Increased rainfall", "Harm to marine ecosystems from concentrated brine", "Reduced greenhouse gas emissions", "Improved air quality"],
+      "answer": 1
+    },
+    {
+      "type": "mcq",
+      "question": "According to paragraph 5, what are researchers exploring to make desalination more sustainable?",
+      "options": ["Using fossil fuels exclusively", "Increasing brine concentration", "Renewable energy sources and improved technologies", "Reducing solar power use"],
+      "answer": 2
+    }
+  ]
+}

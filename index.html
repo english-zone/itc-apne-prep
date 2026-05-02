@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITC APNE Prep – Learning Engine</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="app-header">
+    <nav class="navbar" id="navbar"></nav>
+    <div class="theme-toggle"><button id="themeToggle" aria-label="Toggle dark/light mode">🌓</button></div>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <h1>🚀 ITC APNE Prep</h1>
+      <p class="subtitle">Adaptive Learning Engine – Content dynamically loaded from JSON</p>
+    </section>
+    <section class="dashboard-grid" id="dashboardSummary">
+      <div class="card skeleton"><div class="skeleton-title"></div><div class="skeleton-text"></div></div>
+    </section>
+    <section class="quick-links">
+      <h2>Quick Access</h2>
+      <div class="cards-row">
+        <a href="reading.html" class="card-link">📖 Reading</a>
+        <a href="vocabulary.html" class="card-link">📝 Vocabulary</a>
+        <a href="grammar.html" class="card-link">📐 Grammar</a>
+        <a href="exams.html" class="card-link">📋 Exams</a>
+        <a href="dictionary.html" class="card-link">📚 Dictionary</a>
+        <a href="dashboard.html" class="card-link">📊 Stats</a>
+        <a href="mistakes.html" class="card-link">🔁 Mistakes</a>
+      </div>
+    </section>
+  </main>
+  <footer class="app-footer"><p>ITC APNE Prep Engine – Content loaded dynamically from /content/*.json</p></footer>
+  <script src="js/storage.js"></script>
+  <script src="js/app.js"></script>
+  <script>document.addEventListener('DOMContentLoaded', () => { initApp(); renderDashboardSummary(); });</script>
+</body>
+</html>
