@@ -41,24 +41,43 @@
     .grammar-card-content.active {
       display: block;
     }
+    .rules ul, .notes {
+      margin: 0.75rem 0;
+      padding-left: 1.5rem;
+    }
+    .rules li {
+      margin: 0.5rem 0;
+      line-height: 1.5;
+    }
     .example-box {
       background: var(--surface-dark);
-      padding: 1rem;
+      padding: 0.75rem 1rem;
       border-radius: var(--radius-sm);
-      margin: 1rem 0;
+      margin: 0.75rem 0;
       border-left: 4px solid var(--accent);
+      font-family: monospace;
+      font-size: 0.95rem;
     }
     .example-box strong {
       color: var(--accent);
+      margin-right: 0.5rem;
+    }
+    .notes {
+      background: rgba(245, 158, 11, 0.1);
+      padding: 0.75rem;
+      border-radius: var(--radius-sm);
+      margin-top: 1rem;
+      border-left: 3px solid var(--warning);
     }
     .irregular-table {
       width: 100%;
       border-collapse: collapse;
       margin: 1rem 0;
+      font-size: 0.9rem;
     }
     .irregular-table th, .irregular-table td {
       border: 1px solid var(--border);
-      padding: 0.5rem;
+      padding: 0.6rem;
       text-align: left;
     }
     .irregular-table th {
@@ -66,12 +85,16 @@
       color: white;
     }
     .badge-example {
+      display: inline-block;
       background: var(--success);
       color: white;
-      font-size: 0.7rem;
-      padding: 0.2rem 0.5rem;
-      border-radius: 1rem;
-      margin-left: 0.5rem;
+      font-size: 0.75rem;
+      padding: 0.3rem 0.8rem;
+      border-radius: 2rem;
+      margin-top: 1rem;
+    }
+    .grammar-header p {
+      margin-bottom: 1.5rem;
     }
   </style>
 </head>
@@ -102,7 +125,9 @@
     <!-- Grammar topics will be injected here -->
     <section id="grammarTopics"></section>
   </main>
-  <footer class="app-footer"><p>Grammar Engine – load from /content/grammar/*.json + irregular verbs</p></footer>
+  <footer class="app-footer">
+    <p>📚 Grammar Engine – Complete topics & irregular verbs built-in. No external files needed.</p>
+  </footer>
   <script src="js/storage.js"></script>
   <script src="js/app.js"></script>
   <script src="js/grammar.js"></script>
