@@ -26,7 +26,14 @@ async function loadExamList() {
   for (const name of EXAM_FILES) {
     try {
       const data = await fetchJSON(`content/exams/${name}.json`);
-      if (data) available.push({ name, title: data.title || name, questions: data.questions, timeLimit: data.timeLimit });
+      if (data && data.questions && data.questions.length) {
+        available.push({
+          name,
+          title: data.title || name,
+          questions: data.questions,
+          timeLimit: data.timeLimit || data.time_limit || null
+        });
+      }
     } catch(e) {}
   }
   if (available.length === 0) {
@@ -34,7 +41,7 @@ async function loadExamList() {
     return;
   }
   selector.innerHTML = '<option value="">-- Select an exam --</option>' +
-    available.map(a => `<option value="${a.name}">${a.title} (${a.questions?.length||0} Q)</option>`).join('');
+    available.map(a => `<option value="${a.name}">${a.title} (${a.questions.length} Q)</option>`).join('');
   window._exams = available;
 }
 
@@ -45,29 +52,48 @@ function onExamSelect(e) {
   preview.innerHTML = `
     <div class="card">
       <h3>${exam.title}</h3>
-      <p>Questions: ${exam.questions?.length||0} | Time: ${exam.timeLimit||'No limit'} min</p>
+      <p>Questions: ${exam.questions.length} | Time: ${exam.timeLimit ? exam.timeLimit + ' min' : 'No limit'}</p>
     </div>`;
   document.getElementById('startExamBtn').style.display = 'inline-flex';
 }
 
 function startExam() {
-  const exam = (window._exams || []).find(ex => ex.name === document.getElementById('examSelector').value);
+  const selector = document.getElementById('examSelector');
+  const exam = (window._exams || []).find(ex => ex.name === selector?.value);
   if (!exam) return;
   currentExamData = exam;
-  document.getElementById('examPreview').style.display = 'none';
-  document.getElementById('examSelector').style.display = 'none';
-  document.getElementById('startExamBtn').style.display = 'none';
-  document.getElementById('examArea').style.display = 'block';
-  document.getElementById('submitExamBtn').style.display = 'inline-flex';
   
-  document.getElementById('examQuestions').innerHTML = (exam.questions||[]).map((q,i) => `
+  // إخفاء عناصر الاختيار وإظهار واجهة الامتحان
+  const preview = document.getElementById('examPreview');
+  const examArea = document.getElementById('examArea');
+  const submitBtn = document.getElementById('submitExamBtn');
+  const startBtn = document.getElementById('startExamBtn');
+  
+  if (preview) preview.style.display = 'none';
+  if (selector) selector.style.display = 'none';
+  if (startBtn) startBtn.style.display = 'none';
+  if (examArea) examArea.style.display = 'block';
+  if (submitBtn) submitBtn.style.display = 'inline-flex';
+  
+  // إخفاء النتائج القديمة
+  const results = document.getElementById('examResults');
+  if (results) results.style.display = 'none';
+  
+  document.getElementById('examQuestions').innerHTML = (exam.questions || []).map((q, i) => `
     <div class="question-block">
-      <p class="q-text">${i+1}. ${q.question}</p>
+      <p class="q-text">${i + 1}. ${q.question}</p>
       <div class="options">
-        ${(q.options||[]).map((opt,j) => `<label><input type="radio" name="examQ${i}" value="${j}"> ${opt}</label>`).join('')}
+        ${(q.options || []).map((opt, j) =>
+          `<label><input type="radio" name="examQ${i}" value="${j}"> ${opt}</label>`
+        ).join('')}
+        ${q.type === 'truefalse' ? `
+          <label><input type="radio" name="examQ${i}" value="true"> True</label>
+          <label><input type="radio" name="examQ${i}" value="false"> False</label>
+        ` : ''}
       </div>
     </div>`).join('');
   
+  // بدء المؤقت
   examSeconds = 0;
   clearInterval(examTimerInterval);
   updateExamTimer();
@@ -81,10 +107,12 @@ function startExam() {
 function updateExamTimer() {
   const el = document.getElementById('examTimer');
   if (!el) return;
-  const m = Math.floor(examSeconds/60).toString().padStart(2,'0');
-  const s = (examSeconds%60).toString().padStart(2,'0');
+  const m = Math.floor(examSeconds / 60).toString().padStart(2, '0');
+  const s = (examSeconds % 60).toString().padStart(2, '0');
   el.textContent = `⏱ ${m}:${s}`;
-  if (currentExamData?.timeLimit && examSeconds >= currentExamData.timeLimit*60 - 60) el.style.color = 'var(--danger)';
+  if (currentExamData?.timeLimit && examSeconds >= currentExamData.timeLimit * 60 - 60) {
+    el.style.color = 'var(--danger)';
+  }
 }
 
 function submitExam() {
@@ -92,17 +120,56 @@ function submitExam() {
   const questions = currentExamData?.questions || [];
   const blocks = document.querySelectorAll('#examQuestions .question-block');
   let correct = 0;
+  
   blocks.forEach((block, i) => {
     const q = questions[i];
     if (!q) return;
     const selected = block.querySelector('input:checked');
-    if (selected && String(selected.value) === String(q.answer)) correct++;
-    else Storage.addMistake({ type:'exam', exam:currentExamData.title, question:q.question, userAnswer:selected?.value||'none', correctAnswer:q.answer });
+    if (selected) {
+      const isCorrect = String(selected.value) === String(q.answer);
+      if (isCorrect) correct++;
+      else if (typeof Storage !== 'undefined') {
+        Storage.addMistake({
+          type: 'exam',
+          exam: currentExamData.title,
+          question: q.question,
+          userAnswer: selected.value,
+          correctAnswer: q.answer
+        });
+      }
+    } else {
+      if (typeof Storage !== 'undefined') {
+        Storage.addMistake({
+          type: 'exam',
+          exam: currentExamData.title,
+          question: q.question,
+          userAnswer: 'none',
+          correctAnswer: q.answer
+        });
+      }
+    }
   });
-  const score = questions.length ? Math.round((correct/questions.length)*100) : 0;
-  document.getElementById('examResults').innerHTML = `<div class="card"><strong>Result:</strong> ${correct}/${questions.length} (${score}%)</div>`;
-  document.getElementById('examResults').style.display = 'block';
-  document.getElementById('submitExamBtn').style.display = 'none';
-  Storage.addExamScore({ title: currentExamData.title, score, total: questions.length, correct, timeSeconds: examSeconds });
+  
+  const score = questions.length ? Math.round((correct / questions.length) * 100) : 0;
+  const resultsEl = document.getElementById('examResults');
+  if (resultsEl) {
+    resultsEl.innerHTML = `<div class="card"><strong>Result:</strong> ${correct}/${questions.length} (${score}%)</div>`;
+    resultsEl.style.display = 'block';
+  }
+  
+  const submitBtn = document.getElementById('submitExamBtn');
+  if (submitBtn) submitBtn.style.display = 'none';
+  
+  if (typeof Storage !== 'undefined') {
+    Storage.addExamScore({
+      title: currentExamData.title,
+      score,
+      total: questions.length,
+      correct,
+      timeSeconds: examSeconds
+    });
+  }
 }
-window.startExam = startExam; window.submitExam = submitExam;
+
+window.startExam = startExam;
+window.submitExam = submitExam;
