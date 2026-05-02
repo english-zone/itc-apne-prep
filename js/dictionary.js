@@ -1,13 +1,47 @@
-let fullDictionary = {};
+let fullDictionary = {};   // { word: { ar: '', en: '' } }
 let currentLetter = null;
+let vocabularySets = [
+  'family-body', 'clothing-weather', 'health-medicine', 'food-drink',
+  'jobs-work', 'shopping-materials', 'verbs-actions'
+];
 
 document.addEventListener('DOMContentLoaded', async () => {
   initApp();
-  fullDictionary = await fetchJSON('content/dictionary/dictionary.json') || {};
+  await loadAllVocabulary();
   buildAlphabetFilter();
   document.getElementById('dictSearch')?.addEventListener('input', onSearch);
   renderDictionaryList();
 });
+
+async function loadAllVocabulary() {
+  fullDictionary = {};
+  for (const setName of vocabularySets) {
+    const data = await fetchJSON(`content/vocabulary/${setName}.json`);
+    if (data && data.words) {
+      data.words.forEach(item => {
+        const word = item.word;
+        if (!fullDictionary[word]) {
+          fullDictionary[word] = {
+            ar: item.meaning_ar || item.arabic || '',
+            en: item.meaning_en || item.definition || item.english || ''
+          };
+        }
+      });
+    }
+  }
+  // Optional: also load from dictionary.json as fallback, but only keep simple fields
+  const legacy = await fetchJSON('content/dictionary/dictionary.json');
+  if (legacy) {
+    for (const [word, entry] of Object.entries(legacy)) {
+      if (!fullDictionary[word]) {
+        fullDictionary[word] = {
+          ar: entry.meaning_ar || '',
+          en: entry.meaning_en || entry.definition || ''
+        };
+      }
+    }
+  }
+}
 
 function buildAlphabetFilter() {
   const container = document.getElementById('alphabetFilter');
@@ -20,15 +54,15 @@ function buildAlphabetFilter() {
 
 function filterByLetter(letter) {
   currentLetter = letter === '#' ? null : letter;
-  document.querySelectorAll('.alphabet-filter button').forEach(b => b.classList.remove('active'));
-  const btn = document.querySelector(`.alphabet-filter button[data-letter="${letter}"]`);
+  document.querySelectorAll('#alphabetFilter button').forEach(b => b.classList.remove('active'));
+  const btn = document.querySelector(`#alphabetFilter button[data-letter="${letter}"]`);
   if (btn) btn.classList.add('active');
   renderDictionaryList();
 }
 
 function onSearch(e) {
   currentLetter = null;
-  document.querySelectorAll('.alphabet-filter button').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('#alphabetFilter button').forEach(b => b.classList.remove('active'));
   renderDictionaryList(e.target.value);
 }
 
@@ -44,37 +78,27 @@ function renderDictionaryList(searchTerm = '') {
     entries = entries.filter(([word]) => word.toUpperCase().startsWith(currentLetter));
   }
   
+  // Sort alphabetically
+  entries.sort((a, b) => a[0].localeCompare(b[0]));
+  
   if (entries.length === 0) {
-    container.innerHTML = '<div class="empty-state"><p>No words found. Add entries to /content/dictionary/dictionary.json</p></div>';
+    container.innerHTML = '<div class="empty-state"><p>❌ No words found. Make sure vocabulary files exist in /content/vocabulary/</p></div>';
     return;
   }
   
-  container.innerHTML = entries.map(([word, entry]) => `
-    <div class="card" style="cursor:pointer" onclick="showDictDetail('${word}')">
-      <strong>${word}</strong>
-      <span style="color:var(--text-secondary)"> – ${entry.meaning_en || entry.definition || ''}</span>
-      ${entry.meaning_ar ? `<span style="color:var(--accent)"> [${entry.meaning_ar}]</span>` : ''}
+  container.innerHTML = entries.map(([word, data]) => `
+    <div class="card dict-card" onclick="showSimpleMeaning('${word.replace(/'/g, "\\'")}')">
+      <div><strong>${word}</strong> <span style="color:var(--accent);">${data.ar ? '🇸🇦 ' + data.ar : ''}</span></div>
+      <div style="font-size:0.85rem; color:var(--text-secondary);">${data.en || ''}</div>
     </div>
   `).join('');
 }
 
-function showDictDetail(word) {
-  const entry = fullDictionary[word];
-  if (!entry) return;
-  const popup = document.getElementById('dictDetailPopup');
-  const content = document.getElementById('dictDetailContent');
-  content.innerHTML = `
-    <h2>${word}</h2>
-    <p><strong>EN Meaning:</strong> ${entry.meaning_en || entry.definition || '—'}</p>
-    <p><strong>AR Meaning:</strong> ${entry.meaning_ar || '—'}</p>
-    ${entry.pronunciation ? `<p><strong>Pronunciation:</strong> ${entry.pronunciation}</p>` : ''}
-    ${entry.synonyms ? `<p><strong>Synonyms:</strong> ${entry.synonyms.join(', ')}</p>` : ''}
-    ${entry.antonyms ? `<p><strong>Antonyms:</strong> ${entry.antonyms.join(', ')}</p>` : ''}
-    ${entry.collocations ? `<p><strong>Collocations:</strong> ${entry.collocations.join(', ')}</p>` : ''}
-    ${entry.example ? `<p><em>Example: ${entry.example}</em></p>` : ''}
-  `;
-  popup.style.display = 'flex';
+function showSimpleMeaning(word) {
+  const data = fullDictionary[word];
+  if (!data) return;
+  alert(`${word}\n\nArabic: ${data.ar}\nEnglish: ${data.en || '—'}`);
 }
 
 window.filterByLetter = filterByLetter;
-window.showDictDetail = showDictDetail;
+window.showSimpleMeaning = showSimpleMeaning;
