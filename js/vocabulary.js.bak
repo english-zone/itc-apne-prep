@@ -2,12 +2,15 @@ let currentVocabSet = [];
 let currentVocabIndex = 0;
 let currentFilter = 'all';
 let dictionaryData = null;
+let vocabSetsLoaded = false;
 
 const VOCAB_SETS = ['family-body','clothing-weather','health-medicine','food-drink','jobs-work','shopping-materials','verbs-actions'];
 
 document.addEventListener('DOMContentLoaded', async () => {
   initApp();
   await loadVocabSets();
+  vocabSetsLoaded = true;
+  
   document.getElementById('vocabSetSelector')?.addEventListener('change', onVocabSetSelect);
   document.querySelectorAll('.filter-btns .btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -20,6 +23,22 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.querySelector('#wordDetailPopup .popup-close')?.addEventListener('click', () => {
     document.getElementById('wordDetailPopup').style.display = 'none';
   });
+
+  // ✅ Handle URL parameter ?set=...
+  const urlParams = new URLSearchParams(window.location.search);
+  const setId = urlParams.get('set');
+  if (setId) {
+    // Wait for dropdown to be populated, then select and trigger load
+    setTimeout(() => {
+      const selector = document.getElementById('vocabSetSelector');
+      if (selector && selector.querySelector(`option[value="${setId}"]`)) {
+        selector.value = setId;
+        onVocabSetSelect({ target: selector });
+      } else {
+        console.warn(`Vocabulary set "${setId}" not found`);
+      }
+    }, 150);
+  }
 });
 
 async function loadVocabSets() {
@@ -31,7 +50,7 @@ async function loadVocabSets() {
     try {
       const data = await fetchJSON(`content/vocabulary/${name}.json`);
       if (data && data.words) available.push({ name, title: data.title || name, words: data.words });
-    } catch(e) {}
+    } catch(e) { console.warn(`Failed to load ${name}:`, e); }
   }
   if (available.length === 0) {
     selector.innerHTML = '<option value="">-- No vocab sets found --</option>';
@@ -47,7 +66,7 @@ async function onVocabSetSelect(e) {
   const name = e.target.value;
   const set = (window._vocabSets || []).find(s => s.name === name);
   if (!set) return;
-  // تحويل الكلمات إلى صيغة موحدة: english, arabic
+  // Convert words to uniform format: english, arabic
   currentVocabSet = set.words.map(w => ({
     english: w.english || w.word,
     arabic: w.arabic || ''
@@ -94,7 +113,6 @@ function renderFlashcard() {
     <p style="color:var(--text-secondary)">${currentVocabIndex+1}/${filtered.length} – <strong>${state}</strong></p>
   `;
 }
-
 
 function markWord(state, word) {
   Storage.updateWord(word, state);
