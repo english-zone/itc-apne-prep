@@ -3,57 +3,37 @@ let currentVocabIndex = 0;
 let currentFilter = 'all';
 let dictionaryData = null;
 
-const VOCAB_SETS = ['family-body','clothing-weather','health-medicine','food-drink','jobs-work','shopping-materials','verbs-actions'];
+const VOCAB_SETS = [
+  { name: 'family-body', title: 'العائلة والجسم' },
+  { name: 'clothing-weather', title: 'الملابس والطقس' },
+  { name: 'health-medicine', title: 'الصحة والطب' },
+  { name: 'food-drink', title: 'الطعام والشراب' },
+  { name: 'jobs-work', title: 'الوظائف والأعمال' },
+  { name: 'shopping-materials', title: 'التسوق والمواد' },
+  { name: 'verbs-actions', title: 'أفعال وأحداث' }
+];
 
-document.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener('DOMContentLoaded', () => {
   initApp();
-  await loadVocabSets();
+  buildVocabList();
   document.getElementById('vocabSetSelector')?.addEventListener('change', onVocabSetSelect);
-  document.querySelectorAll('.filter-btns .btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      currentFilter = btn.dataset.filter;
-      document.querySelectorAll('.filter-btns .btn').forEach(b => b.classList.remove('btn-primary'));
-      btn.classList.add('btn-primary');
-      renderFlashcard();
-    });
-  });
-  document.querySelector('#wordDetailPopup .popup-close')?.addEventListener('click', () => {
-    document.getElementById('wordDetailPopup').style.display = 'none';
-  });
 });
 
-async function loadVocabSets() {
+function buildVocabList() {
   const selector = document.getElementById('vocabSetSelector');
   if (!selector) return;
-  selector.innerHTML = '<option value="">-- Loading sets... --</option>';
-  const available = [];
-  for (const name of VOCAB_SETS) {
-    try {
-      const data = await fetchJSON(`content/vocabulary/${name}.json`);
-      if (data && data.words) available.push({ name, title: data.title || name, words: data.words });
-    } catch(e) {}
-  }
-  if (available.length === 0) {
-    selector.innerHTML = '<option value="">-- No vocab sets found --</option>';
-    document.getElementById('flashcardContainer').innerHTML = '<div class="empty-state"><p>Add JSON files to /content/vocabulary/</p></div>';
-    return;
-  }
   selector.innerHTML = '<option value="">-- Load a vocab set --</option>' +
-    available.map(a => `<option value="${a.name}">${a.title} (${a.words.length} words)</option>`).join('');
-  window._vocabSets = available;
+    VOCAB_SETS.map(s => `<option value="${s.name}">${s.title}</option>`).join('');
 }
 
 async function onVocabSetSelect(e) {
   const name = e.target.value;
-  const set = (window._vocabSets || []).find(s => s.name === name);
-  if (!set) return;
-  // تحويل الكلمات إلى صيغة موحدة: english, arabic
-  currentVocabSet = set.words.map(w => ({
-    english: w.english || w.word,
-    arabic: w.arabic || ''
-  }));
+  if (!name) return;
+  const data = await fetchJSON(`content/vocabulary/${name}.json`);
+  if (!data?.words) return;
+  currentVocabSet = data.words.map(w => ({ english: w.english || w.word, arabic: w.arabic || '' }));
   currentVocabIndex = 0;
-  dictionaryData = dictionaryData || await fetchJSON('content/dictionary/dictionary-full.json') || await fetchJSON('content/dictionary/dictionary.json') || {};
+  dictionaryData = dictionaryData || await fetchJSON('content/dictionary/dictionary-light.json') || {};
   renderFlashcard();
 }
 
@@ -65,68 +45,31 @@ function getFilteredWords() {
 function renderFlashcard() {
   const container = document.getElementById('flashcardContainer');
   const filtered = getFilteredWords();
-  if (filtered.length === 0) {
-    container.innerHTML = '<div class="empty-state"><p>No words match this filter.</p></div>';
-    return;
-  }
+  if (filtered.length === 0) { container.innerHTML = '<p>لا توجد كلمات.</p>'; return; }
   if (currentVocabIndex >= filtered.length) currentVocabIndex = 0;
   const word = filtered[currentVocabIndex];
   const state = Storage.getVocabulary()[word.english] || 'learning';
   const dictEntry = dictionaryData?.[word.english] || {};
-  const definition = dictEntry.meaning_en || dictEntry.definition || 'No definition';
-
+  const definition = dictEntry.meaning_en || 'No definition';
   const emojis = { known: '✅', learning: '📘', weak: '⚠️' };
   const bgEmoji = emojis[state] || '📖';
-
   container.innerHTML = `
-    <div class="flashcard" onclick="this.classList.toggle('flipped')" style="position:relative; overflow:hidden;">
-      <div style="position:absolute; top:10px; right:15px; font-size:3rem; opacity:0.15; pointer-events:none;">${bgEmoji}</div>
+    <div class="flashcard" onclick="this.classList.toggle('flipped')" style="position:relative;">
+      <div style="position:absolute;top:10px;right:15px;font-size:3rem;opacity:0.15;">${bgEmoji}</div>
       <div class="word">${word.english}</div>
-      <div class="detail" id="flashcardDetail">${definition}</div>
+      <div class="detail">${definition}</div>
     </div>
-    <div class="flashcard-controls">
+    <div style="margin-top:1rem; display:flex; gap:0.5rem; flex-wrap:wrap; justify-content:center;">
       <button class="btn btn-sm" onclick="markWord('known','${word.english}')">✅ Known</button>
       <button class="btn btn-sm" onclick="markWord('learning','${word.english}')">📘 Learning</button>
       <button class="btn btn-sm" onclick="markWord('weak','${word.english}')">⚠️ Weak</button>
-      <button class="btn btn-sm" onclick="showWordDetail('${word.english}')">📚 Detail</button>
-      <button class="btn btn-sm" onclick="randomWord(${filtered.length})">🎲 Random</button>
       <button class="btn btn-sm" onclick="nextWord(${filtered.length})">➡️ Next</button>
     </div>
-    <p style="color:var(--text-secondary)">${currentVocabIndex+1}/${filtered.length} – <strong>${state}</strong></p>
+    <p style="text-align:center; color: var(--text-secondary);">${currentVocabIndex+1}/${filtered.length} – <strong>${state}</strong></p>
   `;
 }
 
-
-function markWord(state, word) {
-  Storage.updateWord(word, state);
-  renderFlashcard();
-}
-
+function markWord(state, word) { Storage.updateWord(word, state); renderFlashcard(); }
 function nextWord(total) { currentVocabIndex = (currentVocabIndex + 1) % total; renderFlashcard(); }
-
-function showWordDetail(word) {
-  const entry = dictionaryData?.[word] || {};
-  const popup = document.getElementById('wordDetailPopup');
-  const content = document.getElementById('detailContent');
-  content.innerHTML = `
-    <h2>${word}</h2>
-    <p><strong>EN:</strong> ${entry.meaning_en || entry.definition || '—'}</p>
-    <p><strong>AR:</strong> ${entry.meaning_ar || '—'}</p>
-    ${entry.synonyms ? `<p><strong>Synonyms:</strong> ${entry.synonyms.join(', ')}</p>` : ''}
-    ${entry.antonyms ? `<p><strong>Antonyms:</strong> ${entry.antonyms.join(', ')}</p>` : ''}
-    ${entry.collocations ? `<p><strong>Collocations:</strong> ${entry.collocations.join(', ')}</p>` : ''}
-    ${entry.example ? `<p><em>${entry.example}</em></p>` : ''}
-  `;
-  popup.style.display = 'flex';
-}
-
 window.markWord = markWord;
 window.nextWord = nextWord;
-window.showWordDetail = showWordDetail;
-
-function randomWord(total) {
-  currentVocabIndex = Math.floor(Math.random() * total);
-  renderFlashcard();
-}
-window.randomWord = randomWord;
-
