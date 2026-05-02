@@ -1,11 +1,79 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <link rel="icon" href="favicon.svg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Grammar – ITC APNE Prep</title>
+  <!-- Favicon – rocket emoji as SVG -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='70' font-size='70' text-anchor='middle'%3E🚀%3C/text%3E%3C/svg%3E">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=Noto+Sans+Arabic:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Additional grammar-specific styles */
+    .grammar-card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      margin-bottom: 1.5rem;
+      border: 1px solid var(--border);
+      overflow: hidden;
+      transition: var(--transition);
+    }
+    .grammar-card-header {
+      padding: 1rem 1.5rem;
+      background: var(--primary-light);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+    .grammar-card-header:hover {
+      background: var(--primary);
+      color: white;
+    }
+    .grammar-card-content {
+      padding: 1.5rem;
+      display: none;
+      border-top: 1px solid var(--border);
+    }
+    .grammar-card-content.active {
+      display: block;
+    }
+    .example-box {
+      background: var(--surface-dark);
+      padding: 1rem;
+      border-radius: var(--radius-sm);
+      margin: 1rem 0;
+      border-left: 4px solid var(--accent);
+    }
+    .example-box strong {
+      color: var(--accent);
+    }
+    .irregular-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    .irregular-table th, .irregular-table td {
+      border: 1px solid var(--border);
+      padding: 0.5rem;
+      text-align: left;
+    }
+    .irregular-table th {
+      background: var(--primary);
+      color: white;
+    }
+    .badge-example {
+      background: var(--success);
+      color: white;
+      font-size: 0.7rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 1rem;
+      margin-left: 0.5rem;
+    }
+  </style>
 </head>
 <body>
   <header class="app-header">
@@ -15,13 +83,26 @@
   <main class="container">
     <section class="grammar-header">
       <h1>📐 Grammar Topics</h1>
-      <p style="color:var(--text-secondary)">Context-based – examples pulled from reading content</p>
+      <p style="color:var(--text-secondary)">Click any topic to see rules + examples. Includes full irregular verbs list.</p>
     </section>
-    <section id="grammarTopics">
-      <div class="skeleton"><div class="skeleton-title"></div><div class="skeleton-text"></div></div>
+    
+    <!-- Irregular Verbs Section (special) -->
+    <section class="irregular-verbs-section">
+      <div class="grammar-card">
+        <div class="grammar-card-header" onclick="toggleGrammarCard(this)">
+          📖 FULL LIST OF IRREGULAR VERBS (ITC p.111)
+          <span>▼</span>
+        </div>
+        <div class="grammar-card-content" id="irregularVerbsContent">
+          <p>Loading irregular verbs...</p>
+        </div>
+      </div>
     </section>
+
+    <!-- Grammar topics will be injected here -->
+    <section id="grammarTopics"></section>
   </main>
-  <footer class="app-footer"><p>Grammar Engine – load from /content/grammar/*.json</p></footer>
+  <footer class="app-footer"><p>Grammar Engine – load from /content/grammar/*.json + irregular verbs</p></footer>
   <script src="js/storage.js"></script>
   <script src="js/app.js"></script>
   <script src="js/grammar.js"></script>
