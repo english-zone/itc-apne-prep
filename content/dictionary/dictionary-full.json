@@ -1,99 +1,1234 @@
 {
-  "grandfather": { "meaning_en": "the father of your father or mother", "meaning_ar": "جد" },
-  "aunt": { "meaning_en": "the sister of your father or mother", "meaning_ar": "عمة/خالة" },
-  "uncle": { "meaning_en": "the brother of your father or mother", "meaning_ar": "عم/خال" },
-  "grandson": { "meaning_en": "the son of your son or daughter", "meaning_ar": "حفيد" },
-  "niece": { "meaning_en": "the daughter of your brother or sister", "meaning_ar": "ابنة الأخ/الأخت" },
-  "neck": { "meaning_en": "the part of the body connecting head and shoulders", "meaning_ar": "رقبة" },
-  "shoulder": { "meaning_en": "the upper joint of the arm", "meaning_ar": "كتف" },
-  "raincoat": { "meaning_en": "a coat that protects you from rain", "meaning_ar": "معطف مطر" },
-  "umbrella": { "meaning_en": "a device used for protection against rain", "meaning_ar": "مظلة" },
-  "thobe": { "meaning_en": "a traditional ankle-length garment worn by men", "meaning_ar": "ثوب" },
-  "asthma": { "meaning_en": "a respiratory condition marked by difficulty in breathing", "meaning_ar": "ربو" },
-  "aspirin": { "meaning_en": "a medicine used to reduce pain, fever, or inflammation", "meaning_ar": "أسبرين" },
-  "toothache": { "meaning_en": "pain in a tooth or teeth", "meaning_ar": "ألم أسنان" },
-  "sneeze": { "meaning_en": "to suddenly expel air from the nose and mouth due to irritation", "meaning_ar": "يعطس" },
-  "injection": { "meaning_en": "the act of putting a liquid, especially a drug, into a person's body using a needle", "meaning_ar": "حقنة" },
-  "pharmacy": { "meaning_en": "a shop or hospital where medicines are prepared and sold", "meaning_ar": "صيدلية" },
-  "mechanic": { "meaning_en": "a person who repairs and maintains machinery", "meaning_ar": "ميكانيكي" },
-  "waiter": { "meaning_en": "a man whose job is to serve customers at their tables in a restaurant", "meaning_ar": "نادل" },
-  "barber": { "meaning_en": "a person who cuts men's hair and shaves or trims beards", "meaning_ar": "حلاق" },
-  "income": { "meaning_en": "money received on a regular basis", "meaning_ar": "دخل" },
-  "priority": { "meaning_en": "the fact or condition of being regarded as more important", "meaning_ar": "أولوية" },
-  "essence": { "meaning_en": "the intrinsic nature or indispensable quality of something", "meaning_ar": "جوهر" },
-  "seasoned": { "meaning_en": "having a lot of experience of a particular activity", "meaning_ar": "متمرس" },
-  "department store": { "meaning_en": "a large store selling many varieties of goods in different departments", "meaning_ar": "متجر متعدد الأقسام" },
-  "crayons": { "meaning_en": "sticks of colored wax used for drawing", "meaning_ar": "أقلام تلوين شمعية" },
-  "mass transit": { "meaning_en": "public transportation systems such as buses and trains", "meaning_ar": "نقل عام" },
-  "methods": { "meaning_en": "particular ways of doing something", "meaning_ar": "طرائق" },
-  "residents": { "meaning_en": "people who live somewhere permanently", "meaning_ar": "سكان" },
-  "creative": { "meaning_en": "involving new ideas or imagination", "meaning_ar": "مبدع" },
-  "telecommuting": { "meaning_en": "working from home using the internet", "meaning_ar": "العمل عن بعد" },
-  "compliance": { "meaning_en": "the act of obeying a rule or law", "meaning_ar": "امتثال" },
-  "assess": { "meaning_en": "to evaluate or estimate the nature, ability, or quality of", "meaning_ar": "يقيم" },
-  "awkward": { "meaning_en": "causing difficulty; hard to do or deal with", "meaning_ar": "محرج / صعب" },
-  "survived": { "meaning_en": "continued to live or exist despite hardship", "meaning_ar": "نجا" },
-  "persuaded": { "meaning_en": "caused someone to do something through reasoning or argument", "meaning_ar": "أقنع" },
-  "criticism": { "meaning_en": "the expression of disapproval based on perceived faults", "meaning_ar": "نقد" },
-  "conductors": { "meaning_en": "materials that allow electricity or heat to pass through", "meaning_ar": "موصلات" },
-  "global": { "meaning_en": "relating to the whole world", "meaning_ar": "عالمي" },
-  "nutrients": { "meaning_en": "substances that provide nourishment essential for growth", "meaning_ar": "عناصر غذائية" },
-  "tropical": { "meaning_en": "relating to the very hot, humid areas near the equator", "meaning_ar": "استوائي" },
-  "abandon": { "meaning_en": "to leave completely; desert", "meaning_ar": "يهجر" },
-  "wholesome": { "meaning_en": "conducive to or suggestive of good health and physical well-being", "meaning_ar": "صحي" },
-  "expanded": { "meaning_en": "became larger or more extensive", "meaning_ar": "توسع" },
-  "barren": { "meaning_en": "too poor to produce much or any vegetation", "meaning_ar": "قاحل" },
-  "vanish": { "meaning_en": "disappear suddenly and completely", "meaning_ar": "يختفي" },
-  "spoiling": { "meaning_en": "becoming rotten or decayed", "meaning_ar": "يفسد" },
-  "rehearsal": { "meaning_en": "a practice session for a performance", "meaning_ar": "بروفة" },
-  "broke down": { "meaning_en": "stopped functioning (machine, vehicle) or collapsed emotionally", "meaning_ar": "تعطل / انهار" },
-  "artificial": { "meaning_en": "made by humans; not natural", "meaning_ar": "اصطناعي" },
-  "drawbacks": { "meaning_en": "disadvantages or negative aspects", "meaning_ar": "عيوب" },
-  "put off": { "meaning_en": "postpone; delay", "meaning_ar": "يؤجل" },
-  "escaped": { "meaning_en": "got away from confinement or danger", "meaning_ar": "هرب" },
-  "lie": { "meaning_en": "an intentionally false statement", "meaning_ar": "كذبة" },
-  "packing": { "meaning_en": "putting items into containers for storage or travel", "meaning_ar": "يحزم" },
-  "blanket": { "meaning_en": "a warm bed covering", "meaning_ar": "بطانية" },
-  "whisper": { "meaning_en": "speak very softly", "meaning_ar": "يهمس" },
-  "advise": { "meaning_en": "offer suggestions about the best course of action", "meaning_ar": "ينصح" },
-  "bake": { "meaning_en": "cook food by dry heat in an oven", "meaning_ar": "يخبز" },
-  "ambitious": { "meaning_en": "having a strong desire for success or achievement", "meaning_ar": "طموح" },
-  "museum": { "meaning_en": "a building where historical, artistic, or scientific objects are displayed", "meaning_ar": "متحف" },
-  "fitness": { "meaning_en": "the condition of being physically fit and healthy", "meaning_ar": "لياقة بدنية" },
-  "pollution": { "meaning_en": "the presence of harmful substances in the environment", "meaning_ar": "تلوث" },
-  "bald": { "meaning_en": "having no hair on the head", "meaning_ar": "أصلع" },
-  "frustrated": { "meaning_en": "feeling annoyed or upset because of inability to achieve something", "meaning_ar": "محبط" },
-  "demonstration": { "meaning_en": "a public meeting or march protesting against something", "meaning_ar": "مظاهرة" },
-  "exploration": { "meaning_en": "the action of traveling in or through an unfamiliar area", "meaning_ar": "استكشاف" },
-  "literature": { "meaning_en": "written works regarded as having artistic merit", "meaning_ar": "أدب" },
-  "beneficial": { "meaning_en": "producing good effects; favorable", "meaning_ar": "مفيد" },
-  "hacksaw": { "meaning_en": "a saw with a narrow fine-toothed blade for cutting metal", "meaning_ar": "منشار حديد" },
-  "pipes": { "meaning_en": "tubes used to convey water, gas, oil, etc.", "meaning_ar": "أنابيب" },
-  "fasten": { "meaning_en": "close or do up securely (e.g., a seatbelt)", "meaning_ar": "يربط / يثبت" },
-  "embarrassed": { "meaning_en": "feeling ashamed or awkward", "meaning_ar": "محرَج" },
-  "recyclable": { "meaning_en": "able to be recycled", "meaning_ar": "قابل لإعادة التدوير" },
-  "opportunity": { "meaning_en": "a set of circumstances making something possible", "meaning_ar": "فرصة" },
-  "honest": { "meaning_en": "truthful and sincere", "meaning_ar": "صادق" },
-  "valuable": { "meaning_en": "worth a lot of money or extremely useful", "meaning_ar": "ثمين" },
-  "sympathy": { "meaning_en": "feelings of pity and sorrow for someone else's misfortune", "meaning_ar": "تعاطف" },
-  "excuse": { "meaning_en": "a reason or explanation put forward to defend a fault", "meaning_ar": "عذر" },
-  "truth": { "meaning_en": "the quality or state of being true", "meaning_ar": "حقيقة" },
-  "commuting": { "meaning_en": "traveling some distance between one's home and place of work", "meaning_ar": "التنقل اليومي" },
-  "punctual": { "meaning_en": "happening or doing something at the agreed or proper time", "meaning_ar": "دقيق المواعيد" },
-  "meal": { "meaning_en": "an occasion when food is eaten, or the food itself", "meaning_ar": "وجبة" },
-  "disorganized": { "meaning_en": "not properly planned or controlled", "meaning_ar": "غير منظم" },
-  "model": { "meaning_en": "a person employed to display clothes by wearing them", "meaning_ar": "عارضة أزياء" },
-  "creativity": { "meaning_en": "the use of imagination or original ideas", "meaning_ar": "إبداع" },
-  "genealogist": { "meaning_en": "a person who traces lines of family descent", "meaning_ar": "نسّابة" },
-  "cracked": { "meaning_en": "damaged and showing lines on the surface", "meaning_ar": "متصدع" },
-  "catastrophe": { "meaning_en": "an event causing great and sudden damage or suffering", "meaning_ar": "كارثة" },
-  "assassination": { "meaning_en": "the murder of an important person for political or religious reasons", "meaning_ar": "اغتيال" },
-  "explosion": { "meaning_en": "a violent shattering or blowing apart of something", "meaning_ar": "انفجار" },
-  "memory": { "meaning_en": "the faculty by which the mind stores and remembers information", "meaning_ar": "ذاكرة" },
-  "accent": { "meaning_en": "a distinctive way of pronouncing a language", "meaning_ar": "لكنة" },
-  "satellites": { "meaning_en": "artificial bodies placed in orbit around the earth or another planet", "meaning_ar": "أقمار صناعية" },
-  "frustrating": { "meaning_en": "causing annoyance or upset", "meaning_ar": "محبط" },
-  "distributes": { "meaning_en": "gives shares of something or spreads things", "meaning_ar": "يوزع" },
-  "partner": { "meaning_en": "a person who shares or is associated in an action or activity", "meaning_ar": "شريك" },
-  "life skills": { "meaning_en": "abilities for adaptive and positive behavior", "meaning_ar": "مهارات حياتية" }
+  "ring": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "raincoat": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "trainers": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "umbrella": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "thobe": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "old fashioned": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "asthma": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "aspirin": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "toothache": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "sneeze": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "sick": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "worsened": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "injection": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "requirements": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "grandfather": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "aunt": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "uncle": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "grandson": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "niece": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "eyes": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "fingers": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "ears": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "neck": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "shoulder": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "apples": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "rice": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "chips": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "meals": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "beverages": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "thirsty": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "cook": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "fry": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "lunch": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "cucumber": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "addicted": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "dental hygiene": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "experiments": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "arteries": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "infection": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "mandatory": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "bones": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "license": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "mechanic": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "doctor": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "factory": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "farmers": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "school teacher": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "police officer": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "waiter": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "barber": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "bank": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "pharmacy": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "income": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "priority": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "mission": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "values": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "essence": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "seasoned": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "submitted": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "strenuous": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "essential": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "growth": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "behavior": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "routine": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "trigger": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "department store": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "crayons": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "aspects": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "mass transit": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "methods": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "residents": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "creative": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "targeting": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "overworks": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "slang": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "economy": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "telecommuting": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "classified ads": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "compliance": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "assess": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "awkward": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "survived": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "persuaded": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "criticism": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "conductors": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "global": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "nutrients": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "tropical": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "abandon": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "wholesome": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "expanded": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "barren": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "vanish": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "spoiling": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "rehearsal": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "broke down": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "artificial": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "drawbacks": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "put off": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "escaped": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "lie": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "packing": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "blanket": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "wreck": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "whisper": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "advise": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "bake": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "ambitious": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "museum": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "fitness": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "move out": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "pollution": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "bald": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "frustrated": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "demonstration": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "exploration": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "literature": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "beneficial": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "hacksaw": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "pipes": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "fasten": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "embarrassed": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "recyclable": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "opportunity": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "honest": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "valuable": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "sympathy": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "excuse": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "truth": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "commuting": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "television programs": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "computer engineer": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "population": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "punctual": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "clean up": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "meal": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "disorganized": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "model": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "creativity": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "genealogist": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "cracked": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "world war": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "looking": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "catastrophe": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "assassination": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "explosion": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "memory": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "accent": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "satellites": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "frustrating": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "distributes": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "partner": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "life skills": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  },
+  "set": {
+    "meaning_en": "",
+    "meaning_ar": "",
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [],
+    "example": ""
+  }
 }

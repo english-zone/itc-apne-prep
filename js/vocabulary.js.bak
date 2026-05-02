@@ -89,7 +89,6 @@ function renderFlashcard() {
       <button class="btn btn-sm" onclick="markWord('learning','${word.english}')">📘 Learning</button>
       <button class="btn btn-sm" onclick="markWord('weak','${word.english}')">⚠️ Weak</button>
       <button class="btn btn-sm" onclick="showWordDetail('${word.english}')">📚 Detail</button>
-      <button class="btn btn-sm" onclick="randomWord(${filtered.length})">🎲 Random</button>
       <button class="btn btn-sm" onclick="nextWord(${filtered.length})">➡️ Next</button>
     </div>
     <p style="color:var(--text-secondary)">${currentVocabIndex+1}/${filtered.length} – <strong>${state}</strong></p>
@@ -123,10 +122,3 @@ function showWordDetail(word) {
 window.markWord = markWord;
 window.nextWord = nextWord;
 window.showWordDetail = showWordDetail;
-
-function randomWord(total) {
-  currentVocabIndex = Math.floor(Math.random() * total);
-  renderFlashcard();
-}
-window.randomWord = randomWord;
-

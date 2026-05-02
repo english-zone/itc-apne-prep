@@ -693,33 +693,3 @@ body.focus-mode .reading-area {
   .cards-row { grid-template-columns: 1fr; }
   .nav-links { gap: 0.1rem; }
 }
-
-/* ===== تحسينات إضافية ===== */
-
-/* خلفية متدرجة للوضع العادي */
-body {
-    background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%);
-    background-attachment: fixed;
-}
-
-/* خلفية متدرجة للوضع الليلي */
-[data-theme="dark"] body {
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-    background-attachment: fixed;
-}
-
-/* تأثير ظهور بطاقات المفردات */
-.flashcard {
-    animation: fadeInUp 0.4s ease-out both;
-}
-
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(25px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
