@@ -3,36 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ITC APNE Prep – Learning Engine</title>
+  <title>ITC Prep – Learning Platform</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
 </head>
 <body>
   <header class="app-header">
     <nav class="navbar" id="navbar"></nav>
-    <div class="theme-toggle"><button id="themeToggle" aria-label="Toggle dark/light mode">🌓</button></div>
+    <div class="theme-toggle"><button id="themeToggle" aria-label="Toggle dark/light mode">🌙</button></div>
   </header>
-  <main class="container">
+
+  <main>
+    <!-- Hero Section -->
     <section class="hero">
-      <h1>🚀 ITC APNE Prep</h1>
-      <p class="subtitle">Adaptive Learning Engine – Content dynamically loaded from JSON</p>
-    </section>
-    <section class="dashboard-grid" id="dashboardSummary">
-      <div class="card skeleton"><div class="skeleton-title"></div><div class="skeleton-text"></div></div>
-    </section>
-    <section class="quick-links">
-      <h2>Quick Access</h2>
-      <div class="cards-row">
-        <a href="reading.html" class="card-link">📖 Reading</a>
-        <a href="vocabulary.html" class="card-link">📝 Vocabulary</a>
-        <a href="grammar.html" class="card-link">📐 Grammar</a>
-        <a href="exams.html" class="card-link">📋 Exams</a>
-        <a href="dictionary.html" class="card-link">📚 Dictionary</a>
-        <a href="dashboard.html" class="card-link">📊 Stats</a>
-        <a href="mistakes.html" class="card-link">🔁 Mistakes</a>
+      <h1>🚀 ITC Career Progression Prep</h1>
+      <p class="subtitle">Master English reading, vocabulary & grammar with an adaptive learning engine. All content dynamically loaded from curated question banks.</p>
+      <div class="hero-stats" id="dashboardSummary">
+        <div class="hero-stat"><div class="value">🔥 0</div><div class="label">Day Streak</div></div>
+        <div class="hero-stat"><div class="value">📖 0</div><div class="label">Readings</div></div>
       </div>
     </section>
+
+    <div class="container">
+      <!-- Quick Access Cards -->
+      <section>
+        <h2 class="section-title"><span class="icon" style="background:#eef2ff;color:#4f46e5">📚</span> Learning Modules</h2>
+        <div class="cards-row">
+          <a href="reading.html" class="card-link"><span class="emoji">📖</span>Reading</a>
+          <a href="vocabulary.html" class="card-link"><span class="emoji">📝</span>Vocabulary</a>
+          <a href="grammar.html" class="card-link"><span class="emoji">📐</span>Grammar</a>
+          <a href="exams.html" class="card-link"><span class="emoji">📋</span>Exams</a>
+          <a href="dictionary.html" class="card-link"><span class="emoji">📚</span>Dictionary</a>
+          <a href="dashboard.html" class="card-link"><span class="emoji">📊</span>Statistics</a>
+          <a href="mistakes.html" class="card-link"><span class="emoji">🔁</span>Mistakes</a>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section style="margin-top:2rem;">
+        <h2 class="section-title"><span class="icon" style="background:#fef3c7;color:#f59e0b">✨</span> Platform Features</h2>
+        <div class="dashboard-grid">
+          <div class="card" style="border-left:4px solid var(--primary)">
+            <strong>📖 Smart Reading</strong>
+            <p style="color:var(--text-secondary);font-size:0.9rem;margin-top:0.5rem">Click any word for instant dictionary lookup. Timed reading with comprehension quizzes.</p>
+          </div>
+          <div class="card" style="border-left:4px solid var(--accent)">
+            <strong>📝 Flashcards</strong>
+            <p style="color:var(--text-secondary);font-size:0.9rem;margin-top:0.5rem">Spaced repetition with trackable states: Known, Learning, and Weak words.</p>
+          </div>
+          <div class="card" style="border-left:4px solid var(--success)">
+            <strong>📋 Timed Exams</strong>
+            <p style="color:var(--text-secondary);font-size:0.9rem;margin-top:0.5rem">Auto-scored exams with mistake tracking and performance analytics.</p>
+          </div>
+          <div class="card" style="border-left:4px solid var(--warning)">
+            <strong>🔁 Mistake Review</strong>
+            <p style="color:var(--text-secondary);font-size:0.9rem;margin-top:0.5rem">Every wrong answer is logged. Retry and mark as mastered to track progress.</p>
+          </div>
+        </div>
+      </section>
+    </div>
   </main>
-  <footer class="app-footer"><p>ITC APNE Prep Engine – Content loaded dynamically from /content/*.json</p></footer>
+
+  <footer class="app-footer">
+    <p>ITC Prep Engine – Built with ❤️ for ITC candidates. All content dynamically loaded from /content/*.json</p>
+  </footer>
+
   <script src="js/storage.js"></script>
   <script src="js/app.js"></script>
   <script>document.addEventListener('DOMContentLoaded', () => { initApp(); renderDashboardSummary(); });</script>

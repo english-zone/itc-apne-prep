@@ -1,20 +1,25 @@
 function buildNav() {
   const currentPage = location.pathname.split('/').pop() || 'index.html';
   const links = [
-    { href: 'index.html', label: '🏠 Home' },
-    { href: 'reading.html', label: '📖 Reading' },
-    { href: 'vocabulary.html', label: '📝 Vocab' },
-    { href: 'grammar.html', label: '📐 Grammar' },
-    { href: 'exams.html', label: '📋 Exams' },
-    { href: 'dictionary.html', label: '📚 Dictionary' },
-    { href: 'dashboard.html', label: '📊 Stats' },
-    { href: 'mistakes.html', label: '🔁 Mistakes' },
+    { href: 'index.html', label: '🏠', title: 'Home' },
+    { href: 'reading.html', label: '📖', title: 'Reading' },
+    { href: 'vocabulary.html', label: '📝', title: 'Vocab' },
+    { href: 'grammar.html', label: '📐', title: 'Grammar' },
+    { href: 'exams.html', label: '📋', title: 'Exams' },
+    { href: 'dictionary.html', label: '📚', title: 'Dictionary' },
+    { href: 'dashboard.html', label: '📊', title: 'Stats' },
+    { href: 'mistakes.html', label: '🔁', title: 'Mistakes' },
   ];
   const nav = document.getElementById('navbar');
   if (!nav) return;
-  nav.innerHTML = links.map(l =>
-    `<a href="${l.href}" class="${currentPage === l.href ? 'active' : ''}">${l.label}</a>`
+  
+  // Add brand
+  const brandHTML = `<a href="index.html" class="brand"><span class="brand-icon">🚀</span> ITC Prep</a>`;
+  const linksHTML = links.map(l =>
+    `<a href="${l.href}" class="${currentPage === l.href ? 'active' : ''}" title="${l.title}">${l.label}</a>`
   ).join('');
+  
+  nav.innerHTML = brandHTML + '<span class="nav-links" style="display:flex;gap:0.25rem;flex-wrap:wrap">' + linksHTML + '</span>';
 }
 
 function initTheme() {
@@ -22,10 +27,12 @@ function initTheme() {
   document.documentElement.setAttribute('data-theme', saved);
   const btn = document.getElementById('themeToggle');
   if (btn) {
+    btn.textContent = saved === 'dark' ? '☀️' : '🌙';
     btn.addEventListener('click', () => {
       const current = document.documentElement.getAttribute('data-theme');
       const next = current === 'dark' ? 'light' : 'dark';
       Storage.setTheme(next);
+      btn.textContent = next === 'dark' ? '☀️' : '🌙';
     });
   }
 }
@@ -55,12 +62,29 @@ async function renderDashboardSummary() {
   const weakCount = vocabWords.filter(([,s]) => s === 'weak').length;
   const knownCount = vocabWords.filter(([,s]) => s === 'known').length;
   const lastExam = examScores.length ? examScores[examScores.length - 1] : null;
+  
   container.innerHTML = `
-    <div class="card"><strong>🔥 Streak</strong><br><span style="font-size:2rem">${progress.streak || 0}</span> days</div>
-    <div class="card"><strong>📖 Readings</strong><br><span style="font-size:2rem">${progress.readingCount || 0}</span></div>
-    <div class="card"><strong>✅ Known Words</strong><br><span style="font-size:2rem">${knownCount}</span></div>
-    <div class="card"><strong>⚠️ Weak Words</strong><br><span style="font-size:2rem">${weakCount}</span></div>
-    ${lastExam ? `<div class="card"><strong>📋 Last Exam</strong><br>${lastExam.score}% – ${lastExam.title || ''}</div>` : ''}
+    <div class="hero-stat">
+      <div class="value">🔥 ${progress.streak || 0}</div>
+      <div class="label">Day Streak</div>
+    </div>
+    <div class="hero-stat">
+      <div class="value">📖 ${progress.readingCount || 0}</div>
+      <div class="label">Readings</div>
+    </div>
+    <div class="hero-stat">
+      <div class="value">✅ ${knownCount}</div>
+      <div class="label">Known Words</div>
+    </div>
+    <div class="hero-stat">
+      <div class="value">⚠️ ${weakCount}</div>
+      <div class="label">Weak Words</div>
+    </div>
+    ${lastExam ? `
+    <div class="hero-stat">
+      <div class="value">📋 ${lastExam.score}%</div>
+      <div class="label">Last Exam</div>
+    </div>` : ''}
   `;
 }
 
