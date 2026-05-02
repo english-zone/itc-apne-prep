@@ -6,6 +6,16 @@
   <title>ITC Prep – Learning Platform</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+  <style>
+    .study-plan { background: var(--surface); border-radius: 20px; padding: 2rem; margin: 2rem 0; border: 1px solid var(--border); box-shadow: var(--shadow); }
+    .study-plan h2 { margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.5rem; }
+    .week-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    .week-table th { background: var(--primary); color: #fff; padding: 0.8rem; text-align: left; }
+    .week-table td { padding: 0.7rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+    .week-table tr:hover td { background: var(--border); }
+    .badge { background: var(--accent); color: #fff; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.75rem; font-weight: 600; }
+    @media (max-width: 768px) { .week-table { font-size: 0.75rem; } }
+  </style>
 </head>
 <body>
   <header class="app-header">
@@ -14,10 +24,9 @@
   </header>
 
   <main>
-    <!-- Hero Section -->
     <section class="hero">
       <h1>🚀 ITC Career Progression Prep</h1>
-      <p class="subtitle">Master English reading, vocabulary & grammar with an adaptive learning engine. All content dynamically loaded from curated question banks.</p>
+      <p class="subtitle">Master English reading, vocabulary & grammar with an adaptive learning engine.</p>
       <div class="hero-stats" id="dashboardSummary">
         <div class="hero-stat"><div class="value">🔥 0</div><div class="label">Day Streak</div></div>
         <div class="hero-stat"><div class="value">📖 0</div><div class="label">Readings</div></div>
@@ -25,41 +34,78 @@
     </section>
 
     <div class="container">
-      <!-- Quick Access Cards -->
-      <section>
-        <h2 class="section-title"><span class="icon" style="background:#eef2ff;color:#4f46e5">📚</span> Learning Modules</h2>
-        <div class="cards-row">
-          <a href="reading.html" class="card-link"><span class="emoji">📖</span>Reading</a>
-          <a href="vocabulary.html" class="card-link"><span class="emoji">📝</span>Vocabulary</a>
-          <a href="grammar.html" class="card-link"><span class="emoji">📐</span>Grammar</a>
-          <a href="exams.html" class="card-link"><span class="emoji">📋</span>Exams</a>
-          <a href="dictionary.html" class="card-link"><span class="emoji">📚</span>Dictionary</a>
-          <a href="dashboard.html" class="card-link"><span class="emoji">📊</span>Statistics</a>
-          <a href="mistakes.html" class="card-link"><span class="emoji">🔁</span>Mistakes</a>
-        </div>
-      </section>
+      <!-- Quick Links -->
+      <div class="cards-row" style="margin-top:2rem;">
+        <a href="reading.html" class="card-link"><span class="emoji">📖</span>Reading</a>
+        <a href="vocabulary.html" class="card-link"><span class="emoji">📝</span>Vocabulary</a>
+        <a href="grammar.html" class="card-link"><span class="emoji">📐</span>Grammar</a>
+        <a href="exams.html" class="card-link"><span class="emoji">📋</span>Exams</a>
+        <a href="dictionary.html" class="card-link"><span class="emoji">📚</span>Dictionary</a>
+        <a href="dashboard.html" class="card-link"><span class="emoji">📊</span>Statistics</a>
+        <a href="mistakes.html" class="card-link"><span class="emoji">🔁</span>Mistakes</a>
+      </div>
 
-      <!-- Features Section -->
-      <section style="margin-top:2rem;">
-        <h2 class="section-title"><span class="icon" style="background:#fef3c7;color:#f59e0b">✨</span> Platform Features</h2>
-        <div class="dashboard-grid">
-          <div class="card" style="border-left:4px solid var(--primary)">
-            <strong>📖 Smart Reading</strong>
-            <p style="color:var(--text-secondary);font-size:0.9rem;margin-top:0.5rem">Click any word for instant dictionary lookup. Timed reading with comprehension quizzes.</p>
-          </div>
-          <div class="card" style="border-left:4px solid var(--accent)">
-            <strong>📝 Flashcards</strong>
-            <p style="color:var(--text-secondary);font-size:0.9rem;margin-top:0.5rem">Spaced repetition with trackable states: Known, Learning, and Weak words.</p>
-          </div>
-          <div class="card" style="border-left:4px solid var(--success)">
-            <strong>📋 Timed Exams</strong>
-            <p style="color:var(--text-secondary);font-size:0.9rem;margin-top:0.5rem">Auto-scored exams with mistake tracking and performance analytics.</p>
-          </div>
-          <div class="card" style="border-left:4px solid var(--warning)">
-            <strong>🔁 Mistake Review</strong>
-            <p style="color:var(--text-secondary);font-size:0.9rem;margin-top:0.5rem">Every wrong answer is logged. Retry and mark as mastered to track progress.</p>
-          </div>
+      <!-- Study Plan -->
+      <section class="study-plan">
+        <h2><span>📅</span> 7-Day Intensive Study Plan (14 Hours)</h2>
+        <p style="color:var(--text-secondary);margin-bottom:1.5rem;">Each session: 40 min Reading | 40 min Vocabulary | 40 min Grammar</p>
+        <div style="overflow-x:auto;">
+          <table class="week-table">
+            <thead>
+              <tr><th>Day</th><th>Reading</th><th>Vocabulary</th><th>Grammar</th><th>Platform Files</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>1</strong></td>
+                <td>Letter to the Editor<br><span class="badge">ITC p.87-89</span></td>
+                <td>Family & Body Parts<br><span class="badge">ITC p.68-69</span></td>
+                <td>Present/Past Simple<br><span class="badge">ITC p.5-10</span></td>
+                <td><small>letter-editor<br>family-body<br>itc-p05-10</small></td>
+              </tr>
+              <tr>
+                <td><strong>2</strong></td>
+                <td>The Risks of Farming<br><span class="badge">ITC p.90-93</span></td>
+                <td>Clothing & Weather<br><span class="badge">ITC p.69-70</span></td>
+                <td>Continuous Tenses<br><span class="badge">ITC p.12-18</span></td>
+                <td><small>risks-farming<br>clothing-weather<br>itc-p12-18</small></td>
+              </tr>
+              <tr>
+                <td><strong>3</strong></td>
+                <td>Voluntary Service Overseas<br><span class="badge">ITC p.93-95</span></td>
+                <td>Health & Medicine<br><span class="badge">ITC p.70-72</span></td>
+                <td>Present/Past Perfect<br><span class="badge">ITC p.20-29</span></td>
+                <td><small>vso<br>health-medicine<br>itc-p20-29</small></td>
+              </tr>
+              <tr>
+                <td><strong>4</strong></td>
+                <td>Bicycles<br><span class="badge">ITC p.95-97</span></td>
+                <td>Food & Drink<br><span class="badge">ITC p.71-72</span></td>
+                <td>Passive Voice<br><span class="badge">ITC p.37-41</span></td>
+                <td><small>bicycles<br>food-drink<br>itc-p37-41</small></td>
+              </tr>
+              <tr>
+                <td><strong>5</strong></td>
+                <td>The Red Sea<br><span class="badge">ITC p.97-99</span></td>
+                <td>Jobs & Work<br><span class="badge">ITC p.72-74</span></td>
+                <td>Comparative/Superlative<br><span class="badge">ITC p.41-44</span></td>
+                <td><small>red-sea<br>jobs-work<br>itc-p41-44</small></td>
+              </tr>
+              <tr>
+                <td><strong>6</strong></td>
+                <td>Diabetes<br><span class="badge">ITC p.99-102</span></td>
+                <td>Shopping & Materials<br><span class="badge">ITC p.74-76</span></td>
+                <td>Gerund/Infinitive<br><span class="badge">ITC p.44-47</span></td>
+                <td><small>diabetes<br>shopping-materials<br>itc-p44-47</small></td>
+              </tr>
+              <tr style="background:var(--primary-light); color:#fff;">
+                <td><strong>7</strong></td>
+                <td colspan="3"><strong>🎯 REAL MOCK EXAM (2 hours)</strong><br>APNE Simulation – 50 questions covering grammar, vocabulary, and reading from both ITC and APNE books.</td>
+                <td><span class="badge" style="background:#fff;color:var(--primary);">apne-mock-test</span></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
+        <p style="margin-top:1.5rem;color:var(--text-secondary);"><strong>Note:</strong> Additional reading passages and grammar exercises are available in the platform for self-study beyond Day 7.</p>
       </section>
     </div>
   </main>

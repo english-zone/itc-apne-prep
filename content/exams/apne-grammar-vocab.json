@@ -1,0 +1,20 @@
+{
+  "title": "APNE Sample – Grammar & Vocabulary (Pages 5-8)",
+  "timeLimit": 15,
+  "questions": [
+    {"question": "1. Bilal hasn't read ______ the book to understand the story.", "options": ["any","as much as","enough of","many of"], "answer": 2},
+    {"question": "2. Mohammed doesn't have ______ free time.", "options": ["much","lots","all","as many as"], "answer": 0},
+    {"question": "3. Ibrahim was born ______ Riyadh.", "options": ["on","by","in","at"], "answer": 2},
+    {"question": "4. Jamal likes ______ camping with friends.", "options": ["gone","to go","go","be going"], "answer": 1},
+    {"question": "5. My brother and I ______ the soccer match on TV last night.", "options": ["have been watching","watch","are watching","watched"], "answer": 3},
+    {"question": "6. Dana lived in Canada for many years, so she ______ cold weather.", "options": ["used to","is used to","use to","is use to"], "answer": 1},
+    {"question": "7. Hussain doesn't know ______ car to buy.", "options": ["which","whom","who","where"], "answer": 0},
+    {"question": "8. The ______ of the new air conditioner will be finished tomorrow.", "options": ["environment","performance","installation","adventure"], "answer": 2},
+    {"question": "9. At the beginning of every English speaking class, the students have a short ______ with their classmates.", "options": ["garden","city","department","conversation"], "answer": 3},
+    {"question": "10. People from many different countries went to the ______ conference.", "options": ["deep","international","porous","simple"], "answer": 1},
+    {"question": "11. Be careful when you handle a knife because it is ______ .", "options": ["cloudy","difficult","worried","sharp"], "answer": 3},
+    {"question": "12. Mount Everest in Nepal, the world's highest mountain, is a very ______ sight.", "options": ["impressive","boring","delicious","tragic"], "answer": 0},
+    {"question": "13. Some dairy products contain a significant ______ of fat.", "options": ["beach","trend","petroleum","amount"], "answer": 3},
+    {"question": "14. I can't finish my homework on time, so I'll ask my teacher to give me a ______ of three more days.", "options": ["surgery","extension","bank","defeat"], "answer": 1}
+  ]
+}
