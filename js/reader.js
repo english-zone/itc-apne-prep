@@ -24,6 +24,22 @@ document.addEventListener('DOMContentLoaded', () => {
   buildPassageList();
   document.getElementById('passageSelector')?.addEventListener('change', onPassageSelect);
   document.getElementById('submitAnswers')?.addEventListener('click', submitComprehension);
+  
+  // ✅ Handle URL parameter ?id=...
+  const urlParams = new URLSearchParams(window.location.search);
+  const passageId = urlParams.get('id');
+  if (passageId) {
+    // Wait for dropdown to be populated, then select and trigger load
+    setTimeout(() => {
+      const selector = document.getElementById('passageSelector');
+      if (selector && selector.querySelector(`option[value="${passageId}"]`)) {
+        selector.value = passageId;
+        onPassageSelect({ target: selector });
+      } else {
+        console.warn(`Passage "${passageId}" not found in list`);
+      }
+    }, 100);
+  }
 });
 
 function buildPassageList() {
@@ -37,7 +53,10 @@ async function onPassageSelect(e) {
   const name = e.target.value;
   if (!name) return;
   const data = await fetchJSON(`content/reading/${name}.json`);
-  if (!data) { document.getElementById('readingContent').innerHTML = '<p class="error">فشل التحميل</p>'; return; }
+  if (!data) { 
+    document.getElementById('readingContent').innerHTML = '<p class="error">فشل التحميل</p>'; 
+    return; 
+  }
   currentPassageData = data;
   renderPassage(data);
   document.getElementById('comprehensionSection').style.display = data.questions ? 'block' : 'none';
@@ -95,5 +114,18 @@ function submitComprehension() {
   if (typeof Storage !== 'undefined') Storage.addExamScore({ title: currentPassageData.title, score, total: questions.length, correct });
 }
 
-function startTimer() { readingSeconds=0; clearInterval(timerInterval); updateTimerDisplay(); timerInterval=setInterval(()=>{readingSeconds++;updateTimerDisplay();},1000); }
-function updateTimerDisplay(){ const el=document.getElementById('readingTimer'); if(el){ const m=Math.floor(readingSeconds/60).toString().padStart(2,'0'), s=(readingSeconds%60).toString().padStart(2,'0'); el.textContent=`⏱ ${m}:${s}`; } }
+function startTimer() { 
+  readingSeconds = 0; 
+  clearInterval(timerInterval); 
+  updateTimerDisplay(); 
+  timerInterval = setInterval(() => { readingSeconds++; updateTimerDisplay(); }, 1000); 
+}
+
+function updateTimerDisplay() { 
+  const el = document.getElementById('readingTimer'); 
+  if (el) { 
+    const m = Math.floor(readingSeconds / 60).toString().padStart(2, '0'); 
+    const s = (readingSeconds % 60).toString().padStart(2, '0'); 
+    el.textContent = `⏱ ${m}:${s}`; 
+  } 
+}
