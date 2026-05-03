@@ -13,17 +13,17 @@ function buildNav() {
   const nav = document.getElementById('navbar');
   if (!nav) return;
   
-  // Brand with "مركز الريادة للتدريب"
-  const brandHTML = \`
+  // Brand with Reyadah logo image
+  const brandHTML = `
     <div style="display:flex; align-items:center; gap:0.75rem;">
       <a href="index.html" class="brand" style="font-weight:bold; font-size:1.2rem;">🚀 ITC Prep</a>
       <span style="border-left:2px solid var(--border); height:24px;"></span>
       <img src="assets/images/reyadah-logo.png" alt="مركز الريادة للتدريب" style="height:32px; width:auto;">
     </div>
-  \`;
+  `;
   
   const linksHTML = links.map(l =>
-    `<a href="\${l.href}" class="\${currentPage === l.href ? 'active' : ''}" title="\${l.title}">\${l.label}</a>`
+    `<a href="${l.href}" class="${currentPage === l.href ? 'active' : ''}" title="${l.title}">${l.label}</a>`
   ).join('');
   
   nav.innerHTML = brandHTML + '<span class="nav-links" style="display:flex;gap:0.25rem;flex-wrap:wrap">' + linksHTML + '</span>';
@@ -74,9 +74,10 @@ function initApp() {
 async function fetchJSON(path) {
   try {
     const res = await fetch(path);
-    if (!res.ok) throw new Error(`HTTP \${res.status}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.json();
-  } catch {
+  } catch (e) {
+    console.warn(e);
     return null;
   }
 }
@@ -92,29 +93,29 @@ async function renderDashboardSummary() {
   const knownCount = vocabWords.filter(([,s]) => s === 'known').length;
   const lastExam = examScores.length ? examScores[examScores.length - 1] : null;
   
-  container.innerHTML = \`
+  container.innerHTML = `
     <div class="hero-stat">
-      <div class="value">🔥 \${progress.streak || 0}</div>
+      <div class="value">🔥 ${progress.streak || 0}</div>
       <div class="label">Day Streak</div>
     </div>
     <div class="hero-stat">
-      <div class="value">📖 \${progress.readingCount || 0}</div>
+      <div class="value">📖 ${progress.readingCount || 0}</div>
       <div class="label">Readings</div>
     </div>
     <div class="hero-stat">
-      <div class="value">✅ \${knownCount}</div>
+      <div class="value">✅ ${knownCount}</div>
       <div class="label">Known Words</div>
     </div>
     <div class="hero-stat">
-      <div class="value">⚠️ \${weakCount}</div>
+      <div class="value">⚠️ ${weakCount}</div>
       <div class="label">Weak Words</div>
     </div>
-    \${lastExam ? \`
+    ${lastExam ? `
     <div class="hero-stat">
-      <div class="value">📋 \${lastExam.score}%</div>
+      <div class="value">📋 ${lastExam.score}%</div>
       <div class="label">Last Exam</div>
-    </div>\` : ''}
-  \`;
+    </div>` : ''}
+  `;
 }
 
 document.addEventListener('DOMContentLoaded', initApp);
