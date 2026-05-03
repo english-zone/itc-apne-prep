@@ -1,0 +1,44 @@
+[
+  {
+    "word": "installation",
+    "correctMeaning": "the act of putting something in place",
+    "distractors": ["removal", "breakage", "ignorance"],
+    "example": "The installation of the new air conditioner will be finished tomorrow."
+  },
+  {
+    "word": "conversation",
+    "correctMeaning": "a talk between people",
+    "distractors": ["argument", "silence", "song"],
+    "example": "At the beginning of class, students have a short conversation with classmates."
+  },
+  {
+    "word": "international",
+    "correctMeaning": "involving different countries",
+    "distractors": ["local", "national", "private"],
+    "example": "People from many countries went to the international conference."
+  },
+  {
+    "word": "sharp",
+    "correctMeaning": "able to cut easily",
+    "distractors": ["dull", "blunt", "soft"],
+    "example": "Be careful when you handle a sharp knife."
+  },
+  {
+    "word": "impressive",
+    "correctMeaning": "causing admiration",
+    "distractors": ["boring", "ugly", "weak"],
+    "example": "Mount Everest is a very impressive sight."
+  },
+  {
+    "word": "amount",
+    "correctMeaning": "a quantity",
+    "distractors": ["lack", "zero", "whole"],
+    "example": "Some dairy products contain a significant amount of fat."
+  },
+  {
+    "word": "extension",
+    "correctMeaning": "an extra period of time",
+    "distractors": ["reduction", "cancellation", "delay"],
+    "example": "I'll ask my teacher to give me a deadline extension of three more days."
+  }
+]

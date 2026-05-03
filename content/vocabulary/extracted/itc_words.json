@@ -1,0 +1,44 @@
+[
+  {
+    "word": "aunt",
+    "correctMeaning": "mother's sister",
+    "distractors": ["niece", "cousin", "grandmother"],
+    "example": "My mother's sister is my aunt."
+  },
+  {
+    "word": "uncle",
+    "correctMeaning": "father's brother",
+    "distractors": ["nephew", "grandfather", "son"],
+    "example": "He is my father's brother so he is my uncle."
+  },
+  {
+    "word": "eyes",
+    "correctMeaning": "used to see",
+    "distractors": ["ears", "nose", "mouth"],
+    "example": "You use your eyes to see with."
+  },
+  {
+    "word": "fingers",
+    "correctMeaning": "parts on your hands",
+    "distractors": ["toes", "hair", "teeth"],
+    "example": "How many fingers are there in your hands?"
+  },
+  {
+    "word": "raincoat",
+    "correctMeaning": "worn in rain",
+    "distractors": ["sweater", "t-shirt", "shorts"],
+    "example": "It's raining today. I'll wear my raincoat."
+  },
+  {
+    "word": "thobe",
+    "correctMeaning": "Saudi men's clothing",
+    "distractors": ["suit", "jeans", "jacket"],
+    "example": "Saudi men usually wear a thobe."
+  },
+  {
+    "word": "asthma",
+    "correctMeaning": "difficulty breathing",
+    "distractors": ["headache", "toothache", "fever"],
+    "example": "If someone finds it difficult to breathe, he probably has asthma."
+  }
+]

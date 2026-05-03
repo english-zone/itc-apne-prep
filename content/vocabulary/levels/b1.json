@@ -1,0 +1,20 @@
+[
+  {
+    "word": "analyze",
+    "correctMeaning": "to examine something in detail",
+    "distractors": ["to ignore", "to guess randomly", "to memorize quickly"],
+    "example": "Scientists need to analyze the data before reaching a conclusion."
+  },
+  {
+    "word": "significant",
+    "correctMeaning": "important or noticeable",
+    "distractors": ["small and unimportant", "ordinary and boring", "temporary"],
+    "example": "There has been a significant increase in oil prices this year."
+  },
+  {
+    "word": "consequence",
+    "correctMeaning": "a result or effect of an action",
+    "distractors": ["a cause", "a random event", "a mistake"],
+    "example": "One consequence of smoking is lung disease."
+  }
+]

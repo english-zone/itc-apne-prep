@@ -539,3 +539,23 @@ body.dark .feedback.wrong {
     color: gray;
   }
 }
+/* Vocabulary quiz styles */
+.vocab-option-btn {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.2s;
+}
+.vocab-option-btn:hover {
+    background: #e0e0e0;
+}
+.correct-feedback {
+    color: green;
+    font-weight: bold;
+}
+.wrong-feedback {
+    color: red;
+}
