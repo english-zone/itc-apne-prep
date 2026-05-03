@@ -1,0 +1,32 @@
+[
+  {
+    "word": "asthma",
+    "correctMeaning": "difficulty breathing",
+    "distractors": ["headache", "toothache", "fever"],
+    "example": "If someone finds it difficult to breathe, he probably has asthma."
+  },
+  {
+    "word": "aspirin",
+    "correctMeaning": "medicine for headache",
+    "distractors": ["antibiotic", "vitamin", "cough syrup"],
+    "example": "I've got a terrible headache. I need to take some aspirin."
+  },
+  {
+    "word": "toothache",
+    "correctMeaning": "pain in a tooth",
+    "distractors": ["backache", "stomachache", "earache"],
+    "example": "If you have a toothache, you should see a dentist."
+  },
+  {
+    "word": "injection",
+    "correctMeaning": "medicine given with a needle",
+    "distractors": ["tablet", "syrup", "cream"],
+    "example": "The doctor gave the patient an injection to reduce his pain."
+  },
+  {
+    "word": "sick",
+    "correctMeaning": "ill or unwell",
+    "distractors": ["healthy", "strong", "fit"],
+    "example": "Ali is absent today because he is sick."
+  }
+]

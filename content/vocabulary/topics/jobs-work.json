@@ -1,0 +1,38 @@
+[
+  {
+    "word": "mechanic",
+    "correctMeaning": "repairs cars",
+    "distractors": ["teacher", "farmer", "doctor"],
+    "example": "The car worked well after the mechanic repaired it."
+  },
+  {
+    "word": "doctor",
+    "correctMeaning": "works in hospital",
+    "distractors": ["nurse", "patient", "pharmacist"],
+    "example": "Mariam works in a hospital. She's training to be a doctor."
+  },
+  {
+    "word": "factory",
+    "correctMeaning": "place where things are made",
+    "distractors": ["office", "hospital", "school"],
+    "example": "I work in a factory. We make televisions."
+  },
+  {
+    "word": "farmers",
+    "correctMeaning": "take care of lands and animals",
+    "distractors": ["engineers", "barbers", "drivers"],
+    "example": "Farmers usually take care of lands and animals."
+  },
+  {
+    "word": "police officer",
+    "correctMeaning": "deals with criminals",
+    "distractors": ["firefighter", "soldier", "guard"],
+    "example": "A police officer has a dangerous job."
+  },
+  {
+    "word": "waiter",
+    "correctMeaning": "serves food in a restaurant",
+    "distractors": ["chef", "cashier", "manager"],
+    "example": "Ali serves food in a restaurant. He is a hard-working waiter."
+  }
+]

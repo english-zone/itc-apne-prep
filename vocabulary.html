@@ -3,91 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ITC APNE Prep - Vocabulary</title>
+    <title>ITC APNE Prep - Vocabulary by Topic</title>
     <link rel="stylesheet" href="css/style.css">
     <style>
-        .vocab-test-container {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 1rem;
-        }
-        .level-selector {
-            margin-bottom: 1.5rem;
-        }
-        .level-selector label {
-            font-weight: bold;
-            margin-right: 0.5rem;
-        }
-        .level-selector select {
-            padding: 0.5rem;
-            border-radius: 6px;
-            border: 1px solid #ccc;
-        }
-        .vocab-question {
-            font-size: 1.4rem;
-            margin-bottom: 1rem;
-        }
-        .vocab-example {
-            font-size: 0.9rem;
-            color: #555;
-            margin: 0.5rem 0;
-            font-style: italic;
-        }
-        .vocab-options-grid {
-            display: flex;
-            flex-direction: column;
-            gap: 0.8rem;
-            margin: 1.5rem 0;
-        }
-        .vocab-option-btn {
-            background: #f0f0f0;
-            border: 1px solid #ccc;
-            padding: 0.8rem;
-            border-radius: 8px;
-            cursor: pointer;
-            text-align: left;
-            font-size: 1rem;
-        }
-        .vocab-option-btn:hover {
-            background: #e0e0e0;
-        }
-        .correct-feedback {
-            color: green;
-            font-weight: bold;
-        }
-        .wrong-feedback {
-            color: red;
-        }
-        #next-vocab-btn {
-            margin-top: 1rem;
-            padding: 0.6rem 1.2rem;
-            background: #0077cc;
-            color: white;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-        }
+        .topic-selector { margin-bottom: 20px; text-align: center; }
+        .topic-selector select { padding: 8px; font-size: 1rem; border-radius: 6px; }
+        .vocab-question { font-size: 1.3rem; }
+        .vocab-option-btn { display: block; width: 100%; margin: 10px 0; padding: 10px; background: #f0f0f0; border: 1px solid #ccc; border-radius: 6px; cursor: pointer; }
+        .correct-feedback { color: green; }
+        .wrong-feedback { color: red; }
+        #next-vocab-btn { background: #0077cc; color: white; padding: 8px 16px; border: none; border-radius: 5px; cursor: pointer; margin-top: 15px; }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- يمكن إضافة القائمة الجانبية أو الهيدر هنا حسب تصميمك -->
-        <div class="vocab-test-container">
-            <div class="level-selector">
-                <label>Choose word set: </label>
-                <select id="set-select" onchange="changeSet()">
-                    <option value="apne_words">APNE Sample Words</option>
-                    <option value="itc_words">ITC Book Words</option>
-                </select>
-            </div>
-            <div id="vocab-quiz-area">
-                <div id="vocab-question-text" class="vocab-question"></div>
-                <div id="vocab-options" class="vocab-options-grid"></div>
-                <div id="vocab-feedback" class="vocab-feedback"></div>
-                <button id="next-vocab-btn" style="display:none;" onclick="nextVocabQuestion()">Next Question →</button>
-            </div>
+        <h1>📖 تدريب المفردات حسب الموضوع</h1>
+        <div class="topic-selector">
+            <label>اختر الموضوع: </label>
+            <select id="topic-select" onchange="changeTopic()">
+                <option value="family-body">Family & Body Parts</option>
+                <option value="clothing-weather">Clothing & Weather</option>
+                <option value="health-medicine">Health & Medicine</option>
+                <option value="food-drink">Food & Drink</option>
+                <option value="jobs-work">Jobs & Work</option>
+                <option value="shopping-materials">Shopping & Materials</option>
+            </select>
+        </div>
+        <div id="quiz-area">
+            <div id="question-text" class="vocab-question"></div>
+            <div id="options-area"></div>
+            <div id="feedback"></div>
+            <button id="next-vocab-btn" style="display:none;" onclick="nextQuestion()">التالي →</button>
         </div>
     </div>
-    <script src="js/vocabulary.js"></script>
+    <script src="js/topic-vocab.js"></script>
 </body>
 </html>

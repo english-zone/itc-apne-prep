@@ -1,0 +1,32 @@
+[
+  {
+    "word": "aunt",
+    "correctMeaning": "mother's sister",
+    "distractors": ["niece", "cousin", "grandmother"],
+    "example": "My mother's sister is my aunt."
+  },
+  {
+    "word": "uncle",
+    "correctMeaning": "father's brother",
+    "distractors": ["nephew", "grandfather", "son"],
+    "example": "He is my father's brother so he is my uncle."
+  },
+  {
+    "word": "eyes",
+    "correctMeaning": "used to see",
+    "distractors": ["ears", "nose", "mouth"],
+    "example": "You use your eyes to see with."
+  },
+  {
+    "word": "fingers",
+    "correctMeaning": "parts on your hands",
+    "distractors": ["toes", "hair", "teeth"],
+    "example": "How many fingers are there in your hands?"
+  },
+  {
+    "word": "shoulder",
+    "correctMeaning": "top part of your arm",
+    "distractors": ["knee", "elbow", "wrist"],
+    "example": "My shoulder is at the top of my arm."
+  }
+]

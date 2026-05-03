@@ -1,0 +1,26 @@
+[
+  {
+    "word": "raincoat",
+    "correctMeaning": "worn in rain",
+    "distractors": ["sweater", "t-shirt", "shorts"],
+    "example": "It's raining today. I'll wear my raincoat."
+  },
+  {
+    "word": "thobe",
+    "correctMeaning": "Saudi men's clothing",
+    "distractors": ["suit", "jeans", "jacket"],
+    "example": "Saudi men usually wear a thobe."
+  },
+  {
+    "word": "trainers",
+    "correctMeaning": "sports shoes",
+    "distractors": ["boots", "sandals", "formal shoes"],
+    "example": "I'll go to play football. I need my trainers."
+  },
+  {
+    "word": "umbrella",
+    "correctMeaning": "keeps you dry in rain",
+    "distractors": ["hat", "scarf", "coat"],
+    "example": "A big umbrella will keep you dry in the rain."
+  }
+]

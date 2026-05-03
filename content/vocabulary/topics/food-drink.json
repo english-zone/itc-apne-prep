@@ -1,0 +1,32 @@
+[
+  {
+    "word": "chips",
+    "correctMeaning": "made from potatoes",
+    "distractors": ["rice", "pasta", "bread"],
+    "example": "Chips are made from potatoes."
+  },
+  {
+    "word": "rice",
+    "correctMeaning": "important food in Saudi Arabia",
+    "distractors": ["pasta", "bread", "corn"],
+    "example": "Rice is one of the most important foods in Saudi Arabia."
+  },
+  {
+    "word": "beverages",
+    "correctMeaning": "drinks like tea, coffee, juice",
+    "distractors": ["solid foods", "snacks", "desserts"],
+    "example": "Tea, coffee, milk and juice are beverages."
+  },
+  {
+    "word": "thirsty",
+    "correctMeaning": "need to drink",
+    "distractors": ["hungry", "tired", "sleepy"],
+    "example": "I am really thirsty. I need to drink some water."
+  },
+  {
+    "word": "cucumber",
+    "correctMeaning": "vegetable used in salad",
+    "distractors": ["tomato", "lettuce", "carrot"],
+    "example": "We need to buy some cucumber to make salad."
+  }
+]

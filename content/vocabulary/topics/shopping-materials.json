@@ -1,0 +1,32 @@
+[
+  {
+    "word": "department store",
+    "correctMeaning": "shop selling many products",
+    "distractors": ["bakery", "pharmacy", "bookstore"],
+    "example": "My sister bought new dresses from the department store."
+  },
+  {
+    "word": "crayons",
+    "correctMeaning": "used for drawing",
+    "distractors": ["pens", "markers", "paints"],
+    "example": "We can draw with crayons."
+  },
+  {
+    "word": "anonymous",
+    "correctMeaning": "unknown writer or source",
+    "distractors": ["famous", "well-known", "public"],
+    "example": "This letter is anonymous. We don't know who the writer is."
+  },
+  {
+    "word": "puncture",
+    "correctMeaning": "flat tire from a hole",
+    "distractors": ["scratch", "dent", "break"],
+    "example": "The front left tire is flat because of a puncture."
+  },
+  {
+    "word": "violation",
+    "correctMeaning": "breaking a rule",
+    "distractors": ["obedience", "compliance", "respect"],
+    "example": "Parking in a no-parking zone is a violation of traffic rules."
+  }
+]
