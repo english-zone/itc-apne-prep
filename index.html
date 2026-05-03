@@ -6,109 +6,62 @@
     <title>APNE Prep - الجدول الأسبوعي</title>
     <link rel="stylesheet" href="css/style.css">
     <style>
-        .train-btn {
-            display: inline-block;
-            background-color: #28a745;
-            color: white;
-            padding: 6px 12px;
-            text-decoration: none;
-            border-radius: 6px;
-            font-size: 0.8rem;
-            transition: background 0.3s;
-        }
-        .train-btn:hover {
-            background-color: #218838;
-        }
-        .mock-btn {
-            background-color: #dc3545;
-        }
-        .mock-btn:hover {
-            background-color: #c82333;
-        }
-        .schedule-table td, .schedule-table th {
-            vertical-align: middle;
+        .top-nav {
+            background: #0077cc;
+            padding: 10px;
             text-align: center;
+            margin-bottom: 20px;
+            border-radius: 10px;
         }
-        .schedule-table .topic {
+        .top-nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
             font-weight: bold;
         }
-        .schedule-table .page-ref {
-            font-size: 0.7rem;
-            color: #666;
+        .schedule-table td, .schedule-table th {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
         }
+        .train-btn, .reading-btn, .grammar-btn {
+            display: inline-block;
+            margin: 3px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 0.8rem;
+        }
+        .train-btn { background: #28a745; color: white; }
+        .reading-btn { background: #17a2b8; color: white; }
+        .grammar-btn { background: #ffc107; color: black; }
+        .note { text-align: center; margin-top: 20px; color: #555; }
     </style>
 </head>
 <body>
     <div class="container">
+        <div class="top-nav">
+            <a href="index.html">📅 الجدول</a>
+            <a href="dictionary.html">📖 القاموس</a>
+            <a href="exams.html">📝 الاختبارات</a>
+        </div>
         <h1>📅 جدول التحضير لبرنامج APNE</h1>
         <div style="overflow-x: auto;">
             <table class="schedule-table">
-                <thead>
-                    <tr>
-                        <th>اليوم</th><th>القراءة (Reading)</th><th>المفردات (Vocabulary)</th><th>القواعد (Grammar)</th><th>التدريب 40 دقيقة</th><th>ملف المنصة</th>
-                    </tr>
-                </thead>
+                <thead><tr><th>اليوم</th><th>القراءة (Reading)</th><th>المفردات (Vocabulary)</th><th>القواعد (Grammar)</th><th>التدريب</th></tr></thead>
                 <tbody>
-                    <tr>
-                        <td class="day-header">1</td>
-                        <td>Letter to the Editor<br><span class="page-ref">ITC p.87-89</span></td>
-                        <td>Family & Body Parts<br><span class="page-ref">p.68-69</span></td>
-                        <td>Present/Past Simple<br><span class="page-ref">p.5-10</span></td>
-                        <td><a href="practice.html?topic=family-body" class="train-btn">⏱️ 40 دقيقة تدريب</a></td>
-                        <td>letter-editor / family-body / itc-p05-10</td>
-                    </tr>
-                    <tr>
-                        <td class="day-header">2</td>
-                        <td>The Risks of Farming<br><span class="page-ref">ITC p.90-93</span></td>
-                        <td>Clothing & Weather<br><span class="page-ref">p.69-70</span></td>
-                        <td>Continuous Tenses<br><span class="page-ref">p.12-18</span></td>
-                        <td><a href="practice.html?topic=clothing-weather" class="train-btn">⏱️ 40 دقيقة تدريب</a></td>
-                        <td>risks-farming / clothing-weather / itc-p12-18</td>
-                    </tr>
-                    <tr>
-                        <td class="day-header">3</td>
-                        <td>Voluntary Service Overseas<br><span class="page-ref">p.93-95</span></td>
-                        <td>Health & Medicine<br><span class="page-ref">p.70-72</span></td>
-                        <td>Present/Past Perfect<br><span class="page-ref">p.20-29</span></td>
-                        <td><a href="practice.html?topic=health-medicine" class="train-btn">⏱️ 40 دقيقة تدريب</a></td>
-                        <td>vso / health-medicine / itc-p20-29</td>
-                    </tr>
-                    <tr>
-                        <td class="day-header">4</td>
-                        <td>Bicycles<br><span class="page-ref">p.95-97</span></td>
-                        <td>Food & Drink<br><span class="page-ref">p.71-72</span></td>
-                        <td>Passive Voice<br><span class="page-ref">p.37-41</span></td>
-                        <td><a href="practice.html?topic=food-drink" class="train-btn">⏱️ 40 دقيقة تدريب</a></td>
-                        <td>bicycles / food-drink / itc-p37-41</td>
-                    </tr>
-                    <tr>
-                        <td class="day-header">5</td>
-                        <td>The Red Sea<br><span class="page-ref">p.97-99</span></td>
-                        <td>Jobs & Work<br><span class="page-ref">p.72-74</span></td>
-                        <td>Comparative/Superlative<br><span class="page-ref">p.41-44</span></td>
-                        <td><a href="practice.html?topic=jobs-work" class="train-btn">⏱️ 40 دقيقة تدريب</a></td>
-                        <td>red-sea / jobs-work / itc-p41-44</td>
-                    </tr>
-                    <tr>
-                        <td class="day-header">6</td>
-                        <td>Diabetes<br><span class="page-ref">p.99-102</span></td>
-                        <td>Shopping & Materials<br><span class="page-ref">p.74-76</span></td>
-                        <td>Gerund/Infinitive<br><span class="page-ref">p.44-47</span></td>
-                        <td><a href="practice.html?topic=shopping-materials" class="train-btn">⏱️ 40 دقيقة تدريب</a></td>
-                        <td>diabetes / shopping-materials / itc-p44-47</td>
-                    </tr>
-                    <tr>
-                        <td class="day-header">7</td>
-                        <td colspan="2">📖 مراجعة شاملة (Mock Exam)</td>
-                        <td>📝 جميع القواعد</td>
-                        <td><a href="exam.html?mock=full" class="train-btn mock-btn">🎓 اختبار تجريبي 40 دقيقة</a></td>
-                        <td>mock-exam-full</td>
-                    </tr>
+                    <tr><td>1</td><td>Letter to the Editor<br><span class="page-ref">p.87-89</span><br><a href="reading.html?topic=letter-editor" class="reading-btn">📖 قراءة</a></td><td>Family & Body Parts<br><span class="page-ref">p.68-69</span><br><a href="practice.html?topic=family-body" class="train-btn">⏱️ 40 دقيقة</a></td><td>Present/Past Simple<br><span class="page-ref">p.5-10</span><br><a href="grammar.html?topic=past-simple" class="grammar-btn">📘 قواعد</a></td><td><a href="practice.html?topic=family-body" class="train-btn">⏱️ تدريب مفردات</a></td></tr>
+                    <tr><td>2</td><td>The Risks of Farming<br><span class="page-ref">p.90-93</span><br><a href="reading.html?topic=risks-farming" class="reading-btn">📖 قراءة</a></td><td>Clothing & Weather<br><span class="page-ref">p.69-70</span><br><a href="practice.html?topic=clothing-weather" class="train-btn">⏱️ 40 دقيقة</a></td><td>Continuous Tenses<br><span class="page-ref">p.12-18</span><br><a href="grammar.html?topic=continuous" class="grammar-btn">📘 قواعد</a></td><td><a href="practice.html?topic=clothing-weather" class="train-btn">⏱️ تدريب مفردات</a></td></tr>
+                    <tr><td>3</td><td>Voluntary Service Overseas<br><span class="page-ref">p.93-95</span><br><a href="reading.html?topic=vso" class="reading-btn">📖 قراءة</a></td><td>Health & Medicine<br><span class="page-ref">p.70-72</span><br><a href="practice.html?topic=health-medicine" class="train-btn">⏱️ 40 دقيقة</a></td><td>Present/Past Perfect<br><span class="page-ref">p.20-29</span><br><a href="grammar.html?topic=perfect" class="grammar-btn">📘 قواعد</a></td><td><a href="practice.html?topic=health-medicine" class="train-btn">⏱️ تدريب مفردات</a></td></tr>
+                    <tr><td>4</td><td>Bicycles<br><span class="page-ref">p.95-97</span><br><a href="reading.html?topic=bicycles" class="reading-btn">📖 قراءة</a></td><td>Food & Drink<br><span class="page-ref">p.71-72</span><br><a href="practice.html?topic=food-drink" class="train-btn">⏱️ 40 دقيقة</a></td><td>Passive Voice<br><span class="page-ref">p.37-41</span><br><a href="grammar.html?topic=passive" class="grammar-btn">📘 قواعد</a></td><td><a href="practice.html?topic=food-drink" class="train-btn">⏱️ تدريب مفردات</a></td></tr>
+                    <tr><td>5</td><td>The Red Sea<br><span class="page-ref">p.97-99</span><br><a href="reading.html?topic=red-sea" class="reading-btn">📖 قراءة</a></td><td>Jobs & Work<br><span class="page-ref">p.72-74</span><br><a href="practice.html?topic=jobs-work" class="train-btn">⏱️ 40 دقيقة</a></td><td>Comparative/Superlative<br><span class="page-ref">p.41-44</span><br><a href="grammar.html?topic=comparative" class="grammar-btn">📘 قواعد</a></td><td><a href="practice.html?topic=jobs-work" class="train-btn">⏱️ تدريب مفردات</a></td></tr>
+                    <tr><td>6</td><td>Diabetes<br><span class="page-ref">p.99-102</span><br><a href="reading.html?topic=diabetes" class="reading-btn">📖 قراءة</a></td><td>Shopping & Materials<br><span class="page-ref">p.74-76</span><br><a href="practice.html?topic=shopping-materials" class="train-btn">⏱️ 40 دقيقة</a></td><td>Gerund/Infinitive<br><span class="page-ref">p.44-47</span><br><a href="grammar.html?topic=gerund" class="grammar-btn">📘 قواعد</a></td><td><a href="practice.html?topic=shopping-materials" class="train-btn">⏱️ تدريب مفردات</a></td></tr>
+                    <tr><td>7</td><td colspan="2">مراجعة شاملة (Mock Exam)</td><td>جميع القواعد</td><td><a href="exam.html?mock=full" class="train-btn mock-btn">🎓 اختبار تجريبي</a></td></tr>
                 </tbody>
             </table>
         </div>
-        <div class="note">⚠️ اضغط على زر التدريب لبدء مراجعة المفردات لمدة 40 دقيقة. اختبار اليوم السابع يشمل جميع المهارات.</div>
+        <div class="note">⚠️ اضغط على أيقونة القراءة 📖 لفتح النص، وأيقونة القواعد 📘 لمراجعة الدرس، وزرار التدريب ⏱️ لبدء تمارين المفردات.</div>
     </div>
-    <script src="js/storage.js"></script>
 </body>
 </html>
