@@ -482,3 +482,45 @@ input[type="radio"] {
     font-size: 0.85rem;
   }
 }
+
+/* ========== PRINT STYLES ========== */
+@media print {
+  .app-header, .navbar, .theme-toggle, #printButton, .flashcard-controls, 
+  .btn, .cards-row, footer, .popup-overlay, .alphabet-filter,
+  #submitAnswers, .reading-controls select, .reading-controls button,
+  .vocab-controls select, .filter-btns, .hero-stats {
+    display: none !important;
+  }
+  
+  main, .container, .reading-area, .flashcard-area, .question-card,
+  .week-table, .study-plan, .grammar-card, .irregular-table {
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: black;
+    box-shadow: none;
+    border: none;
+  }
+  
+  body, body.dark {
+    background: white;
+    color: black;
+  }
+  
+  .card, .flashcard, .question-card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border: 1px solid #ccc;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8rem;
+    color: gray;
+  }
+}

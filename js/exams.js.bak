@@ -79,38 +79,3 @@ function submitExam() {
   document.getElementById('submitExamBtn').style.display = 'none';
   if (typeof Storage !== 'undefined') Storage.addExamScore({ title: currentExamData.title||currentExamData.name, score, total: questions.length, correct, timeSeconds: examSeconds });
 }
-
-// ========== SHAREABLE LINK FOR EXAM ==========
-function addShareButton(examId) {
-  const resultsDiv = document.getElementById('resultsContainer');
-  if (!resultsDiv) return;
-  // تجنب إضافة الزر عدة مرات
-  if (document.getElementById('shareExamBtn')) return;
-  
-  const shareBtn = document.createElement('button');
-  shareBtn.id = 'shareExamBtn';
-  shareBtn.textContent = '📎 نسخ رابط الاختبار';
-  shareBtn.className = 'btn btn-primary';
-  shareBtn.style.marginTop = '1rem';
-  shareBtn.onclick = () => {
-    const url = new URL(window.location.href);
-    url.searchParams.set('exam', examId);
-    url.searchParams.delete('share');
-    navigator.clipboard.writeText(url.href);
-    alert('✅ تم نسخ رابط الاختبار! يمكنك مشاركته مع الطلاب.');
-  };
-  resultsDiv.appendChild(shareBtn);
-}
-
-// إذا كانت دالة submitExam موجودة، نضيف استدعاء addShareButton فيها
-// نبحث عن الوظيفة الأصلية ونلفها (monkey patch) – طريقة آمنة
-if (typeof submitExam === 'function') {
-  const originalSubmitExam = submitExam;
-  window.submitExam = async function(...args) {
-    await originalSubmitExam(...args);
-    // بعد الانتهاء من عرض النتيجة، نضيف الزر (نحتاج معرف id الامتحان)
-    const urlParams = new URLSearchParams(window.location.search);
-    const examIdFromUrl = urlParams.get('exam');
-    if (examIdFromUrl) addShareButton(examIdFromUrl);
-  };
-}
