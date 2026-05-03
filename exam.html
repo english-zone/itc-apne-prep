@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار تجريبي شامل - 40 دقيقة</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .timer { font-size: 2rem; text-align: center; margin: 20px; }
+        .question-card { background: #f8f9fa; padding: 20px; margin: 15px 0; border-radius: 10px; }
+        .options label { display: block; margin: 8px 0; }
+        .submit-btn { background: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 8px; cursor: pointer; }
+        .result { text-align: center; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📝 اختبار تجريبي شامل (اليوم السابع)</h1>
+        <div class="timer">الوقت المتبقي: <span id="timer">40:00</span></div>
+        <div id="exam-container"></div>
+        <div id="result-area" style="display:none;" class="result"></div>
+    </div>
+    <script>
+        let questions = [];
+        let userAnswers = [];
+        let timerInterval;
+        let timeLeft = 40 * 60;
+
+        async function loadExam() {
+            const response = await fetch('content/exams/mock_full.json');
+            questions = await response.json();
+            displayQuestions();
+            startTimer();
+        }
+
+        function displayQuestions() {
+            const container = document.getElementById('exam-container');
+            container.innerHTML = '';
+            questions.forEach((q, idx) => {
+                const div = document.createElement('div');
+                div.className = 'question-card';
+                div.innerHTML = `
+                    <p><strong>${idx+1}. ${q.question}</strong></p>
+                    <div class="options" id="q${idx}">
+                        ${q.options.map(opt => `<label><input type="radio" name="q${idx}" value="${opt}"> ${opt}</label><br>`).join('')}
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+            const submitBtn = document.createElement('button');
+            submitBtn.innerText = 'إنهاء الاختبار';
+            submitBtn.className = 'submit-btn';
+            submitBtn.onclick = submitExam;
+            container.appendChild(submitBtn);
+        }
+
+        function startTimer() {
+            timerInterval = setInterval(() => {
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    submitExam(true);
+                } else {
+                    timeLeft--;
+                    const minutes = Math.floor(timeLeft/60);
+                    const seconds = timeLeft%60;
+                    document.getElementById('timer').innerText = `${minutes.toString().padStart(2,'0')}:${seconds.toString().padStart(2,'0')}`;
+                }
+            }, 1000);
+        }
+
+        function submitExam(timeout = false) {
+            if (timeout) alert('انتهى الوقت! يتم تصحيح الاختبار تلقائياً.');
+            clearInterval(timerInterval);
+            let score = 0;
+            questions.forEach((q, idx) => {
+                const selected = document.querySelector(`input[name="q${idx}"]:checked`);
+                const answer = selected ? selected.value : '';
+                if (answer === q.correct) score++;
+            });
+            const total = questions.length;
+            document.getElementById('exam-container').style.display = 'none';
+            const resultDiv = document.getElementById('result-area');
+            resultDiv.style.display = 'block';
+            resultDiv.innerHTML = `<h2>نتيجتك: ${score} من ${total}</h2><button onclick="location.reload()">إعادة الاختبار</button> <button onclick="location.href='index.html'">العودة للجدول</button>`;
+        }
+
+        loadExam();
+    </script>
+</body>
+</html>

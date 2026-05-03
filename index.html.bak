@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITC Prep – Learning Platform</title>
+  <!-- Favicon – rocket emoji as SVG -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='70' font-size='70' text-anchor='middle'%3E🚀%3C/text%3E%3C/svg%3E">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=Noto+Sans+Arabic:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .study-plan { background: var(--surface); border-radius: 20px; padding: 2rem; margin: 2rem 0; border: 1px solid var(--border); box-shadow: var(--shadow); }
+    .study-plan h2 { margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.5rem; }
+    .week-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    .week-table th { background: var(--primary); color: #fff; padding: 0.8rem; text-align: left; }
+    .week-table td { padding: 0.7rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+    .week-table tr:hover td { background: var(--border); }
+    .badge { background: var(--accent); color: #fff; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.75rem; font-weight: 600; }
+    .week-table a { text-decoration: none; font-weight: 500; }
+    .week-table a:hover { text-decoration: underline; }
+    @media (max-width: 768px) { .week-table { font-size: 0.75rem; } }
+  </style>
+</head>
+<body>
+  <header class="app-header">
+    <nav class="navbar" id="navbar"></nav>
+    <div class="theme-toggle"><button id="themeToggle" aria-label="Toggle dark/light mode">🌓</button></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>🚀 ITC Career Progression Prep</h1>
+      <p class="subtitle">Master English reading, vocabulary & grammar with an adaptive learning engine.</p>
+      <div class="hero-stats" id="dashboardSummary">
+        <div class="hero-stat"><div class="value">🔥 0</div><div class="label">Day Streak</div></div>
+        <div class="hero-stat"><div class="value">📖 0</div><div class="label">Readings</div></div>
+      </div>
+    </section>
+
+    <div class="container">
+      <!-- Quick Links -->
+      <div class="cards-row" style="margin-top:2rem;">
+        <a href="reading.html" class="card-link"><span class="emoji">📖</span>Reading</a>
+        <a href="vocabulary.html" class="card-link"><span class="emoji">📝</span>Vocabulary</a>
+        <a href="grammar.html" class="card-link"><span class="emoji">📐</span>Grammar</a>
+        <a href="exams.html" class="card-link"><span class="emoji">📋</span>Exams</a>
+        <a href="dictionary.html" class="card-link"><span class="emoji">📚</span>Dictionary</a>
+        <a href="dashboard.html" class="card-link"><span class="emoji">📊</span>Statistics</a>
+        <a href="mistakes.html" class="card-link"><span class="emoji">🔁</span>Mistakes</a>
+      </div>
+
+      <!-- Study Plan -->
+      <section class="study-plan">
+        <h2><span>📅</span> 7-Day Intensive Study Plan (14 Hours)</h2>
+        <p style="color:var(--text-secondary);margin-bottom:1.5rem;">Each session: 40 min Reading | 40 min Vocabulary | 40 min Grammar</p>
+        <div style="overflow-x:auto;">
+          <table class="week-table">
+            <thead>
+              <tr><th>Day</th><th>Reading</th><th>Vocabulary</th><th>Grammar</th><th>Platform Files</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>1</strong></td>
+                <td>
+                  <a href="reading.html?id=letter-editor" target="_blank">Letter to the Editor</a><br>
+                  <span class="badge">ITC p.87-89</span>
+                </td>
+                <td>
+                  <a href="vocabulary.html?set=family-body" target="_blank">Family & Body Parts</a><br>
+                  <span class="badge">ITC p.68-69</span>
+                </td>
+                <td>
+                  <a href="exams.html?exam=itc-p05-10" target="_blank">Present/Past Simple</a><br>
+                  <span class="badge">ITC p.5-10</span>
+                </td>
+                <td><small>letter-editor<br>family-body<br>itc-p05-10</small></td>
+              </tr>
+              <tr>
+                <td><strong>2</strong></td>
+                <td>
+                  <a href="reading.html?id=risks-farming" target="_blank">The Risks of Farming</a><br>
+                  <span class="badge">ITC p.90-93</span>
+                </td>
+                <td>
+                  <a href="vocabulary.html?set=clothing-weather" target="_blank">Clothing & Weather</a><br>
+                  <span class="badge">ITC p.69-70</span>
+                </td>
+                <td>
+                  <a href="exams.html?exam=itc-p12-18" target="_blank">Continuous Tenses</a><br>
+                  <span class="badge">ITC p.12-18</span>
+                </td>
+                <td><small>risks-farming<br>clothing-weather<br>itc-p12-18</small></td>
+              </tr>
+              <tr>
+                <td><strong>3</strong></td>
+                <td>
+                  <a href="reading.html?id=vso" target="_blank">Voluntary Service Overseas</a><br>
+                  <span class="badge">ITC p.93-95</span>
+                </td>
+                <td>
+                  <a href="vocabulary.html?set=health-medicine" target="_blank">Health & Medicine</a><br>
+                  <span class="badge">ITC p.70-72</span>
+                </td>
+                <td>
+                  <a href="exams.html?exam=itc-p20-29" target="_blank">Present/Past Perfect</a><br>
+                  <span class="badge">ITC p.20-29</span>
+                </td>
+                <td><small>vso<br>health-medicine<br>itc-p20-29</small></td>
+              </tr>
+              <tr>
+                <td><strong>4</strong></td>
+                <td>
+                  <a href="reading.html?id=bicycles" target="_blank">Bicycles</a><br>
+                  <span class="badge">ITC p.95-97</span>
+                </td>
+                <td>
+                  <a href="vocabulary.html?set=food-drink" target="_blank">Food & Drink</a><br>
+                  <span class="badge">ITC p.71-72</span>
+                </td>
+                <td>
+                  <a href="exams.html?exam=itc-p37-41" target="_blank">Passive Voice</a><br>
+                  <span class="badge">ITC p.37-41</span>
+                </td>
+                <td><small>bicycles<br>food-drink<br>itc-p37-41</small></td>
+              </tr>
+              <tr>
+                <td><strong>5</strong></td>
+                <td>
+                  <a href="reading.html?id=red-sea" target="_blank">The Red Sea</a><br>
+                  <span class="badge">ITC p.97-99</span>
+                </td>
+                <td>
+                  <a href="vocabulary.html?set=jobs-work" target="_blank">Jobs & Work</a><br>
+                  <span class="badge">ITC p.72-74</span>
+                </td>
+                <td>
+                  <a href="exams.html?exam=itc-p41-44" target="_blank">Comparative/Superlative</a><br>
+                  <span class="badge">ITC p.41-44</span>
+                </td>
+                <td><small>red-sea<br>jobs-work<br>itc-p41-44</small></td>
+              </tr>
+              <tr>
+                <td><strong>6</strong></td>
+                <td>
+                  <a href="reading.html?id=diabetes" target="_blank">Diabetes</a><br>
+                  <span class="badge">ITC p.99-102</span>
+                </td>
+                <td>
+                  <a href="vocabulary.html?set=shopping-materials" target="_blank">Shopping & Materials</a><br>
+                  <span class="badge">ITC p.74-76</span>
+                </td>
+                <td>
+                  <a href="exams.html?exam=itc-p44-47" target="_blank">Gerund/Infinitive</a><br>
+                  <span class="badge">ITC p.44-47</span>
+                </td>
+                <td><small>diabetes<br>shopping-materials<br>itc-p44-47</small></td>
+              </tr>
+              <tr style="background:var(--primary-light); color:#fff;">
+                <td><strong>7</strong></td>
+                <td colspan="3"><strong>🎯 REAL MOCK EXAM (2 hours)</strong><br>
+                <a href="exams.html?exam=apne-mock-test" target="_blank" style="color:white; text-decoration:underline;">Start APNE Simulation →</a><br>
+                <span style="font-size:0.85rem;">50 questions covering grammar, vocabulary, and reading from ITC & APNE books</span>
+                </td>
+                <td><span class="badge" style="background:#fff;color:var(--primary);">apne-mock-test</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="margin-top:1.5rem;color:var(--text-secondary);"><strong>Note:</strong> Additional reading passages and grammar exercises are available in the platform for self-study beyond Day 7.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="app-footer">
+    <p>ITC Prep Engine – Built with ❤️ for ITC candidates. All content dynamically loaded from /content/*.json</p>
+  </footer>
+
+  <script src="js/storage.js"></script>
+  <script src="js/app.js"></script>
+  <script>document.addEventListener('DOMContentLoaded', () => { initApp(); renderDashboardSummary(); });</script>
+</body>
+</html>
