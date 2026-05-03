@@ -30,17 +30,5 @@
   <script src="js/storage.js"></script>
   <script src="js/app.js"></script>
   <script src="js/exams.js"></script>
-<script src="js/dictation.js"></script>
-<div class="card">
-  <h2>📝 اختبار الإملاء (Dictation)</h2>
-  <p>اختر التهجئة الصحيحة للكلمة الناقصة في الجملة.</p>
-  <div id="dictation-area">
-    <p id="dictation-sentence" style="font-size:1.2rem; font-weight:bold;"></p>
-    <div id="dictation-options" style="display:flex; gap:1rem; flex-wrap:wrap; margin:1rem 0;"></div>
-    <div id="dictation-feedback"></div>
-    <button id="next-dictation" style="display:none;" onclick="nextDictation()">التالي ➡️</button>
-    <div id="dictation-result" style="margin-top:1rem;"></div>
-  </div>
-</div>
 </body>
 </html>
