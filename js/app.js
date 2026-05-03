@@ -18,7 +18,7 @@ function buildNav() {
     <div style="display:flex; align-items:center; gap:0.75rem;">
       <a href="index.html" class="brand" style="font-weight:bold; font-size:1.2rem;">🚀 ITC Prep</a>
       <span style="border-left:2px solid var(--border); height:24px;"></span>
-      <span style="font-size:0.85rem; color:var(--accent); font-weight:500;">مركز الريادة للتدريب</span>
+      <img src="assets/images/reyadah-logo.png" alt="مركز الريادة للتدريب" style="height:32px; width:auto;">
     </div>
   \`;
   
