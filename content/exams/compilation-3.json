@@ -523,5 +523,225 @@
       "answer": 2,
       "justification": "'get over' يعني يتعافى من صدمة."
     }
+  ],
+  "vocabularyQuestions": [
+    {
+      "q": "She made a ____ flight across the Atlantic.",
+      "options": [
+        "solo",
+        "group",
+        "passenger",
+        "family"
+      ],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'solo' هو 'منفرد'."
+    },
+    {
+      "q": "Biceps is a ____ in the arm.",
+      "options": [
+        "bone",
+        "tendon",
+        "muscle",
+        "joint"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'muscle' هو 'عضلة'."
+    },
+    {
+      "q": "Open an account at a ____.",
+      "options": [
+        "factory",
+        "restaurant",
+        "bank",
+        "shop"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'bank' هو 'بنك'."
+    },
+    {
+      "q": "____ skills decline with age.",
+      "options": [
+        "Skeletal",
+        "Physical",
+        "Cognitive",
+        "Muscular"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'cognitive' هو 'معرفي'."
+    },
+    {
+      "q": "Scientists seek ____ alternatives to plastic.",
+      "options": [
+        "cheaper",
+        "biodegradable",
+        "stronger",
+        "heavier"
+      ],
+      "answer": 1,
+      "justification": "المعنى الصحيح لـ 'biodegradable' هو 'قابل للتحلل'."
+    },
+    {
+      "q": "The Great Wall was built over many ____.",
+      "options": [
+        "dynasties",
+        "empires",
+        "continents",
+        "republics"
+      ],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'dynasty' هو 'سلالة'."
+    },
+    {
+      "q": "The report includes ____ about population.",
+      "options": [
+        "statistics",
+        "songs",
+        "stories",
+        "pictures"
+      ],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'statistics' هو 'إحصائيات'."
+    },
+    {
+      "q": "Coffee is a popular ____.",
+      "options": [
+        "machine",
+        "food",
+        "beverage",
+        "sport"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'beverage' هو 'مشروب'."
+    },
+    {
+      "q": "The All Blacks' ____ is a silver fern.",
+      "options": [
+        "emblem",
+        "flag",
+        "ball",
+        "song"
+      ],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'emblem' هو 'شعار'."
+    },
+    {
+      "q": "I need my ____ for football.",
+      "options": [
+        "Shoes",
+        "trainers",
+        "belt",
+        "gloves"
+      ],
+      "answer": 1,
+      "justification": "المعنى الصحيح لـ 'trainers' هو 'حذاء رياضي'."
+    }
+  ],
+  "dictationQuestions": [
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "caldera",
+        "caldira",
+        "calderah",
+        "calderra"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'caldera'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "invenshun",
+        "invention",
+        "inventyion",
+        "invetion"
+      ],
+      "answer": 1,
+      "justification": "التهجئة الصحيحة هي 'invention'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "sneeze",
+        "snease",
+        "sneize",
+        "sneez"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'sneeze'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "muscle",
+        "muscel",
+        "muscal",
+        "mussle"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'muscle'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "husbant",
+        "husbend",
+        "hasbund",
+        "husband"
+      ],
+      "answer": 3,
+      "justification": "التهجئة الصحيحة هي 'husband'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "extention",
+        "extension"
+      ],
+      "answer": 1,
+      "justification": "التهجئة الصحيحة هي 'extension'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "asthma",
+        "asthama",
+        "asthmah",
+        "astma"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'asthma'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "international",
+        "interational"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'international'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "pedel",
+        "peddal",
+        "pidal",
+        "pedal"
+      ],
+      "answer": 3,
+      "justification": "التهجئة الصحيحة هي 'pedal'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "navigator",
+        "navigater",
+        "navgator",
+        "navigetor"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'navigator'."
+    }
   ]
 }

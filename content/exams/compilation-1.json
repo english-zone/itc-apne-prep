@@ -5,12 +5,261 @@
       "title": "محاكاة: الزراعة العمودية",
       "text": "Vertical farming is an innovative method of growing crops...",
       "questions": [
-        {"q": "ما هي الزراعة العمودية؟", "options": ["زراعة في الحقول", "زراعة في طبقات مكدسة", "زراعة تحت الماء", "زراعة في الصحاري"], "answer": 1, "justification": "الزراعة العمودية هي زراعة المحاصيل في طبقات مكدسة."}
+        {
+          "q": "ما هي الزراعة العمودية؟",
+          "options": [
+            "زراعة في الحقول",
+            "زراعة في طبقات مكدسة",
+            "زراعة تحت الماء",
+            "زراعة في الصحاري"
+          ],
+          "answer": 1,
+          "justification": "الزراعة العمودية هي زراعة المحاصيل في طبقات مكدسة."
+        }
       ]
     }
   ],
   "grammarQuestions": [
-    {"q": "The office _____ every day.", "options": ["is cleaned", "cleans", "was clean"], "answer": 0, "justification": "المبني للمجهول في المضارع البسيط: is + past participle."},
-    {"q": "They _____ to the market every day.", "options": ["go", "goes", "went"], "answer": 0, "justification": "الفاعل جمع، والمضارع البسيط يأخذ الفعل بصيغة الجمع."}
+    {
+      "q": "The office _____ every day.",
+      "options": [
+        "is cleaned",
+        "cleans",
+        "was clean"
+      ],
+      "answer": 0,
+      "justification": "المبني للمجهول في المضارع البسيط: is + past participle."
+    },
+    {
+      "q": "They _____ to the market every day.",
+      "options": [
+        "go",
+        "goes",
+        "went"
+      ],
+      "answer": 0,
+      "justification": "الفاعل جمع، والمضارع البسيط يأخذ الفعل بصيغة الجمع."
+    }
+  ],
+  "vocabularyQuestions": [
+    {
+      "q": "Sleep aids memory ____.",
+      "options": [
+        "confusion",
+        "destruction",
+        "erasure",
+        "consolidation"
+      ],
+      "answer": 3,
+      "justification": "المعنى الصحيح لـ 'consolidation' هو 'توطيد / تعزيز'."
+    },
+    {
+      "q": "Radiation ____ protects astronauts.",
+      "options": [
+        "lighting",
+        "decorating",
+        "cooking",
+        "shielding"
+      ],
+      "answer": 3,
+      "justification": "المعنى الصحيح لـ 'shielding' هو 'تدريع'."
+    },
+    {
+      "q": "____ pigments produce yellow/orange.",
+      "options": [
+        "Chlorophyll",
+        "Melanin",
+        "Carotenoid",
+        "Anthocyanin"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'carotenoid' هو 'كاروتينويد'."
+    },
+    {
+      "q": "Sleep ____ harms health.",
+      "options": [
+        "excess",
+        "supplement",
+        "deprivation",
+        "addition"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'deprivation' هو 'حرمان'."
+    },
+    {
+      "q": "Scientists are searching for a ____ for cancer.",
+      "options": [
+        "cure",
+        "cause",
+        "symptom",
+        "disease"
+      ],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'cure' هو 'علاج'."
+    },
+    {
+      "q": "The ____ protects the spinal cord.",
+      "options": [
+        "pelvis",
+        "spine",
+        "skull",
+        "ribs"
+      ],
+      "answer": 1,
+      "justification": "المعنى الصحيح لـ 'spinal cord' هو 'الحبل الشوكي'."
+    },
+    {
+      "q": "Clean wounds with ____.",
+      "options": [
+        "antiviral",
+        "antiseptic",
+        "antibiotic",
+        "analgesic"
+      ],
+      "answer": 1,
+      "justification": "المعنى الصحيح لـ 'antiseptic' هو 'مطهر'."
+    },
+    {
+      "q": "Saudi men usually wear a ____.",
+      "options": [
+        "thobe",
+        "tie",
+        "shirt",
+        "suit"
+      ],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'thobe' هو 'ثوب'."
+    },
+    {
+      "q": "____ affects how the body uses sugar.",
+      "options": [
+        "Cancer",
+        "Asthma",
+        "Headache",
+        "Diabetes"
+      ],
+      "answer": 3,
+      "justification": "المعنى الصحيح لـ 'diabetes' هو 'مرض السكري'."
+    },
+    {
+      "q": "____ is a simple sugar used for energy.",
+      "options": [
+        "Fiber",
+        "Protein",
+        "Glucose",
+        "Fat"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'glucose' هو 'جلوكوز'."
+    }
+  ],
+  "dictationQuestions": [
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "reqirement",
+        "requirment",
+        "requirement"
+      ],
+      "answer": 2,
+      "justification": "التهجئة الصحيحة هي 'requirement'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "prioritee",
+        "prioreti",
+        "priorety",
+        "priority"
+      ],
+      "answer": 3,
+      "justification": "التهجئة الصحيحة هي 'priority'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "priority",
+        "priorety",
+        "prioreti",
+        "prioritee"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'priority'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "bakary",
+        "bakerey",
+        "bakkery",
+        "bakery"
+      ],
+      "answer": 3,
+      "justification": "التهجئة الصحيحة هي 'bakery'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "raincoate",
+        "raincoat",
+        "raincot",
+        "rainecoat"
+      ],
+      "answer": 1,
+      "justification": "التهجئة الصحيحة هي 'raincoat'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "famin",
+        "fameen",
+        "fammin",
+        "famine"
+      ],
+      "answer": 3,
+      "justification": "التهجئة الصحيحة هي 'famine'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "anonimous",
+        "anonymus",
+        "anonymous",
+        "anonymouss"
+      ],
+      "answer": 2,
+      "justification": "التهجئة الصحيحة هي 'anonymous'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "enviroment",
+        "environment"
+      ],
+      "answer": 1,
+      "justification": "التهجئة الصحيحة هي 'environment'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "channel",
+        "chanel",
+        "chennel",
+        "channal"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'channel'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "thobe",
+        "thoob",
+        "thob",
+        "tobe"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'thobe'."
+    }
   ]
 }

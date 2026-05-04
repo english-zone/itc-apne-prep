@@ -503,5 +503,226 @@
       "answer": 0,
       "justification": "'polite' مهذب."
     }
+  ],
+  "vocabularyQuestions": [
+    {
+      "q": "I am really ____, I need water.",
+      "options": [
+        "tired",
+        "hungry",
+        "thirsty",
+        "sleepy"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'thirsty' هو 'عطشان'."
+    },
+    {
+      "q": "Desalination is vital for ____ regions.",
+      "options": [
+        "green",
+        "arid",
+        "cold",
+        "rainy"
+      ],
+      "answer": 1,
+      "justification": "المعنى الصحيح لـ 'arid' هو 'جاف'."
+    },
+    {
+      "q": "We make televisions in a ____.",
+      "options": [
+        "factory",
+        "hospital",
+        "bank",
+        "office"
+      ],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'factory' هو 'مصنع'."
+    },
+    {
+      "q": "Smart ____ manages electricity.",
+      "options": [
+        "phone",
+        "road",
+        "water",
+        "grid"
+      ],
+      "answer": 3,
+      "justification": "المعنى الصحيح لـ 'grid' هو 'شبكة كهرباء'."
+    },
+    {
+      "q": "The company decided to ____ on TV.",
+      "options": [
+        "ignore",
+        "cancel",
+        "advertise",
+        "hide"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'advertise' هو 'يعلن'."
+    },
+    {
+      "q": "Most people eat ____ at noon.",
+      "options": [
+        "breakfast",
+        "snack",
+        "lunch",
+        "dinner"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'lunch' هو 'غداء'."
+    },
+    {
+      "q": "Fred Noonan was Earhart's ____.",
+      "options": [
+        "doctor",
+        "navigator",
+        "husband",
+        "teacher"
+      ],
+      "answer": 1,
+      "justification": "المعنى الصحيح لـ 'navigator' هو 'ملاح'."
+    },
+    {
+      "q": "My daughter's daughter is my",
+      "options": [
+        "aunt",
+        "grandson",
+        "granddaughter",
+        "niece"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'granddaughter' هو 'حفيدة'."
+    },
+    {
+      "q": "Plastic originates from ____.",
+      "options": [
+        "wood",
+        "water",
+        "sand",
+        "crude oil"
+      ],
+      "answer": 3,
+      "justification": "المعنى الصحيح لـ 'crude oil' هو 'نفط خام'."
+    },
+    {
+      "q": "The ____ pumps blood.",
+      "options": [
+        "liver",
+        "heart",
+        "brain",
+        "lung"
+      ],
+      "answer": 1,
+      "justification": "المعنى الصحيح لـ 'heart' هو 'قلب'."
+    }
+  ],
+  "dictationQuestions": [
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "forheed",
+        "forehead",
+        "forehed",
+        "forhead"
+      ],
+      "answer": 1,
+      "justification": "التهجئة الصحيحة هي 'forehead'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "mekanic",
+        "mechanik",
+        "mechanic",
+        "mechaniq"
+      ],
+      "answer": 2,
+      "justification": "التهجئة الصحيحة هي 'mechanic'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "pharmer",
+        "farmar",
+        "farmor",
+        "farmer"
+      ],
+      "answer": 3,
+      "justification": "التهجئة الصحيحة هي 'farmer'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "restaurant",
+        "restorant",
+        "restaurent",
+        "restuarant"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'restaurant'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "scalf",
+        "scarf",
+        "skarf",
+        "scurff"
+      ],
+      "answer": 1,
+      "justification": "التهجئة الصحيحة هي 'scarf'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "amount",
+        "amont"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'amount'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "umbrela",
+        "umbralla",
+        "umbrealla",
+        "umbrella"
+      ],
+      "answer": 3,
+      "justification": "التهجئة الصحيحة هي 'umbrella'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "desalniation",
+        "desalination",
+        "desalinashion"
+      ],
+      "answer": 1,
+      "justification": "التهجئة الصحيحة هي 'desalination'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "creetive",
+        "creatiff",
+        "creativ",
+        "creative"
+      ],
+      "answer": 3,
+      "justification": "التهجئة الصحيحة هي 'creative'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "injection",
+        "injecton",
+        "injektion",
+        "injectionn"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'injection'."
+    }
   ]
 }

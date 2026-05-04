@@ -18,16 +18,18 @@
 </style>
 </head>
 <body>
-<div class="container"><h2>📚 اختبار المحاكاة</h2><p>انقر على أي خيار لترى التبرير.</p><div id="content">جاري التحميل...</div></div>
+<div class="container"><h2>📚 اختبار المحاكاة مع التبريرات</h2><p>انقر على أي خيار لترى التبرير.</p><div id="content">جاري التحميل...</div></div>
 <script>
 const params = new URLSearchParams(window.location.search);
 const file = params.get('file') || 'compilation-1.json';
 fetch(file).then(r => { if(!r.ok) throw new Error('ملف غير موجود'); return r.json(); })
 .then(data => {
     let html = '', qNum = 0;
+    
+    // عرض قطع القراءة
     if (data.passages) {
         data.passages.forEach(p => {
-            html += `<h3>📖 ${p.title}</h3><div class="passage-box">${p.text.replace(/\n/g,'<br>')}</div>`;
+            html += `<h3>📖 ${p.title}</h3><div class="passage-box">${p.text ? p.text.replace(/\n/g,'<br>') : ''}</div>`;
             if (p.questions) p.questions.forEach(q => {
                 html += `<div class="q-card" id="q${qNum}"><div class="q-text">${++qNum}. ${q.q}</div><ul class="options-list">`;
                 q.options.forEach((opt, oi) => html += `<li onclick="showJustification(${qNum-1}, ${oi}, 'passage')">${opt}</li>`);
@@ -35,6 +37,18 @@ fetch(file).then(r => { if(!r.ok) throw new Error('ملف غير موجود'); r
             });
         });
     }
+    
+    // عرض أسئلة المعاني
+    if (data.vocabularyQuestions) {
+        html += '<h3>🧠 أسئلة المعاني</h3>';
+        data.vocabularyQuestions.forEach(q => {
+            html += `<div class="q-card" id="q${qNum}"><div class="q-text">${++qNum}. ${q.q}</div><ul class="options-list">`;
+            q.options.forEach((opt, oi) => html += `<li onclick="showJustification(${qNum-1}, ${oi}, 'vocab')">${opt}</li>`);
+            html += '</ul><div class="justification" id="j' + (qNum-1) + '"></div></div>';
+        });
+    }
+    
+    // عرض أسئلة القواعد
     if (data.grammarQuestions) {
         html += '<h3>📝 أسئلة القواعد</h3>';
         data.grammarQuestions.forEach(q => {
@@ -43,21 +57,37 @@ fetch(file).then(r => { if(!r.ok) throw new Error('ملف غير موجود'); r
             html += '</ul><div class="justification" id="j' + (qNum-1) + '"></div></div>';
         });
     }
+    
+    // عرض أسئلة الإملاء
+    if (data.dictationQuestions) {
+        html += '<h3>✍️ أسئلة الإملاء</h3>';
+        data.dictationQuestions.forEach(q => {
+            html += `<div class="q-card" id="q${qNum}"><div class="q-text">${++qNum}. ${q.q}</div><ul class="options-list">`;
+            q.options.forEach((opt, oi) => html += `<li onclick="showJustification(${qNum-1}, ${oi}, 'dictation')">${opt}</li>`);
+            html += '</ul><div class="justification" id="j' + (qNum-1) + '"></div></div>';
+        });
+    }
+    
     document.getElementById('content').innerHTML = html || '<p>لا توجد أسئلة.</p>';
     window.questionsData = data;
 }).catch(err => document.getElementById('content').innerHTML = `<p style="color:red;">تعذر التحميل: ${err.message}</p>`);
 
-function showJustification(qIndex, selectedIndex, type) {
+function showJustification(qIndex, selectedIndex, section) {
     let q = null;
-    if (type === 'passage' && window.questionsData.passages) {
+    if (section === 'passage' && window.questionsData.passages) {
         let offset = 0;
         for (const p of window.questionsData.passages) {
             if (p.questions && qIndex - offset < p.questions.length) { q = p.questions[qIndex - offset]; break; }
             offset += (p.questions || []).length;
         }
-    } else if (type === 'grammar' && window.questionsData.grammarQuestions) {
-        const passageOffset = window.questionsData.passages ? window.questionsData.passages.reduce((s, p) => s + (p.questions ? p.questions.length : 0), 0) : 0;
-        q = window.questionsData.grammarQuestions[qIndex - passageOffset];
+    } else if (section === 'vocab' && window.questionsData.vocabularyQuestions) {
+        q = window.questionsData.vocabularyQuestions[qIndex - (window.questionsData.passages ? window.questionsData.passages.reduce((s, p) => s + (p.questions ? p.questions.length : 0), 0) : 0)];
+    } else if (section === 'grammar' && window.questionsData.grammarQuestions) {
+        const offset = (window.questionsData.passages ? window.questionsData.passages.reduce((s, p) => s + (p.questions ? p.questions.length : 0), 0) : 0) + (window.questionsData.vocabularyQuestions ? window.questionsData.vocabularyQuestions.length : 0);
+        q = window.questionsData.grammarQuestions[qIndex - offset];
+    } else if (section === 'dictation' && window.questionsData.dictationQuestions) {
+        const offset = (window.questionsData.passages ? window.questionsData.passages.reduce((s, p) => s + (p.questions ? p.questions.length : 0), 0) : 0) + (window.questionsData.vocabularyQuestions ? window.questionsData.vocabularyQuestions.length : 0) + (window.questionsData.grammarQuestions ? window.questionsData.grammarQuestions.length : 0);
+        q = window.questionsData.dictationQuestions[qIndex - offset];
     }
     if (!q) return;
     const isCorrect = (selectedIndex === q.answer);

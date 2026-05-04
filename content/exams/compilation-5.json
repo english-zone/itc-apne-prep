@@ -622,5 +622,224 @@
       "answer": 5,
       "justification": "في النفي نستخدم 'any' مع غير المعدود."
     }
+  ],
+  "vocabularyQuestions": [
+    {
+      "q": "We need oil to ____ the potatoes.",
+      "options": [
+        "steam",
+        "boil",
+        "grill",
+        "fry"
+      ],
+      "answer": 3,
+      "justification": "المعنى الصحيح لـ 'fry' هو 'يقلي'."
+    },
+    {
+      "q": "Dubai has many ____ buildings.",
+      "options": [
+        "old",
+        "modern",
+        "broken",
+        "ancient"
+      ],
+      "answer": 1,
+      "justification": "المعنى الصحيح لـ 'modern' هو 'حديث'."
+    },
+    {
+      "q": "Add ____ to the salad.",
+      "options": [
+        "bread",
+        "cucumber",
+        "pasta",
+        "rice"
+      ],
+      "answer": 1,
+      "justification": "المعنى الصحيح لـ 'cucumber' هو 'خيار'."
+    },
+    {
+      "q": "Crop failure caused ____.",
+      "options": [
+        "feast",
+        "flood",
+        "fire",
+        "famine"
+      ],
+      "answer": 3,
+      "justification": "المعنى الصحيح لـ 'famine' هو 'مجاعة'."
+    },
+    {
+      "q": "People need a good ____ to support their families.",
+      "options": [
+        "dream",
+        "income",
+        "vacation",
+        "hobby"
+      ],
+      "answer": 1,
+      "justification": "المعنى الصحيح لـ 'income' هو 'دخل'."
+    },
+    {
+      "q": "Your ____ connects your head with your back.",
+      "options": [
+        "hair",
+        "blood",
+        "heart",
+        "neck"
+      ],
+      "answer": 3,
+      "justification": "المعنى الصحيح لـ 'neck' هو 'رقبة'."
+    },
+    {
+      "q": "She bought dresses at a ____.",
+      "options": [
+        "bakery",
+        "garage",
+        "pharmacy",
+        "department store"
+      ],
+      "answer": 3,
+      "justification": "المعنى الصحيح لـ 'department store' هو 'متجر شامل'."
+    },
+    {
+      "q": "You can buy novels at a ____.",
+      "options": [
+        "restaurant",
+        "bakery",
+        "drugstore",
+        "bookstore"
+      ],
+      "answer": 3,
+      "justification": "المعنى الصحيح لـ 'bookstore' هو 'مكتبة بيع كتب'."
+    },
+    {
+      "q": "____ function declines without sleep.",
+      "options": [
+        "Cognitive",
+        "Muscular",
+        "Skeletal",
+        "Physical"
+      ],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'cognitive' هو 'معرفي'."
+    },
+    {
+      "q": "____ gives leaves their green color.",
+      "options": [
+        "Anthocyanin",
+        "Chlorophyll",
+        "Carotenoid",
+        "Melanin"
+      ],
+      "answer": 1,
+      "justification": "المعنى الصحيح لـ 'chlorophyll' هو 'كلوروفيل'."
+    }
+  ],
+  "dictationQuestions": [
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "definitely",
+        "definately"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'definitely'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "drought",
+        "drout",
+        "drowt",
+        "droughte"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'drought'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "neice",
+        "neace",
+        "niece",
+        "niese"
+      ],
+      "answer": 2,
+      "justification": "التهجئة الصحيحة هي 'niece'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "techer",
+        "teecher",
+        "teacher",
+        "teachar"
+      ],
+      "answer": 2,
+      "justification": "التهجئة الصحيحة هي 'teacher'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "pharmasy",
+        "pharmacy",
+        "farmasy"
+      ],
+      "answer": 1,
+      "justification": "التهجئة الصحيحة هي 'pharmacy'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "grandfather",
+        "grandfater",
+        "grandfathar",
+        "grandfother"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'grandfather'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "emblim",
+        "emblam",
+        "emblem"
+      ],
+      "answer": 2,
+      "justification": "التهجئة الصحيحة هي 'emblem'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "etiquete",
+        "etiquette",
+        "etiquet",
+        "etiket"
+      ],
+      "answer": 1,
+      "justification": "التهجئة الصحيحة هي 'etiquette'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "aspirin",
+        "aspirine",
+        "aspiren",
+        "asparin"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'aspirin'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "membrane",
+        "membren",
+        "membrain"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'membrane'."
+    }
   ]
 }

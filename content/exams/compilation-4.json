@@ -553,5 +553,225 @@
       "answer": 1,
       "justification": "'apples' معدود: 'How many'."
     }
+  ],
+  "vocabularyQuestions": [
+    {
+      "q": "His monthly ____ is SR10000.",
+      "options": [
+        "income",
+        "expense",
+        "bill",
+        "debt"
+      ],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'income' هو 'دخل'."
+    },
+    {
+      "q": "Food is broken down during ____.",
+      "options": [
+        "exercise",
+        "digestion",
+        "sleep",
+        "reading"
+      ],
+      "answer": 1,
+      "justification": "المعنى الصحيح لـ 'digestion' هو 'هضم'."
+    },
+    {
+      "q": "Ash was ejected into the ____.",
+      "options": [
+        "ocean",
+        "stratosphere",
+        "city",
+        "ground"
+      ],
+      "answer": 1,
+      "justification": "المعنى الصحيح لـ 'stratosphere' هو 'الستراتوسفير'."
+    },
+    {
+      "q": "Wear a ____ to protect your head from the sun.",
+      "options": [
+        "gloves",
+        "scarf",
+        "hat",
+        "belt"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'hat' هو 'قبعة'."
+    },
+    {
+      "q": "I've got a terrible ____. I need aspirin.",
+      "options": [
+        "stomachache",
+        "earache",
+        "toothache",
+        "headache"
+      ],
+      "answer": 3,
+      "justification": "المعنى الصحيح لـ 'headache' هو 'صداع'."
+    },
+    {
+      "q": "____ vents emit superheated water.",
+      "options": [
+        "Electrical",
+        "Hydrothermal",
+        "Geothermal",
+        "Solar"
+      ],
+      "answer": 1,
+      "justification": "المعنى الصحيح لـ 'hydrothermal' هو 'حرمائي'."
+    },
+    {
+      "q": "Petra was ____ located.",
+      "options": [
+        "randomly",
+        "poorly",
+        "strategically",
+        "recently"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'strategically' هو 'استراتيجياً'."
+    },
+    {
+      "q": "I eat ____ at 7 AM.",
+      "options": [
+        "lunch",
+        "breakfast",
+        "supper",
+        "dinner"
+      ],
+      "answer": 1,
+      "justification": "المعنى الصحيح لـ 'breakfast' هو 'فطور'."
+    },
+    {
+      "q": "Data ____ occurs through cables.",
+      "options": [
+        "deletion",
+        "storage",
+        "transmission",
+        "collection"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'transmission' هو 'انتقال'."
+    },
+    {
+      "q": "Getting married is his top ____.",
+      "options": [
+        "income",
+        "environment",
+        "problem",
+        "priority"
+      ],
+      "answer": 3,
+      "justification": "المعنى الصحيح لـ 'priority' هو 'أولوية'."
+    }
+  ],
+  "dictationQuestions": [
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "compeny",
+        "company"
+      ],
+      "answer": 1,
+      "justification": "التهجئة الصحيحة هي 'company'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "addected",
+        "addictedd",
+        "addicted",
+        "adicted"
+      ],
+      "answer": 2,
+      "justification": "التهجئة الصحيحة هي 'addicted'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "irregashion",
+        "irigation",
+        "irrigation",
+        "irrrigation"
+      ],
+      "answer": 2,
+      "justification": "التهجئة الصحيحة هي 'irrigation'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "krayons",
+        "crayons",
+        "crayones",
+        "crayonns"
+      ],
+      "answer": 1,
+      "justification": "التهجئة الصحيحة هي 'crayons'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "diabetes",
+        "daibetes",
+        "diabetis",
+        "diabitis"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'diabetes'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "minerals",
+        "minarals",
+        "minarils",
+        "minrels"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'minerals'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "dissease",
+        "diseez",
+        "disease",
+        "diseas"
+      ],
+      "answer": 2,
+      "justification": "التهجئة الصحيحة هي 'disease'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "cuccumber",
+        "cucamber",
+        "cucumber",
+        "cucumbar"
+      ],
+      "answer": 2,
+      "justification": "التهجئة الصحيحة هي 'cucumber'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "seperate",
+        "separate"
+      ],
+      "answer": 1,
+      "justification": "التهجئة الصحيحة هي 'separate'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "insulin",
+        "insulim",
+        "insolen",
+        "insuline"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'insulin'."
+    }
   ]
 }

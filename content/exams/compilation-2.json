@@ -554,5 +554,229 @@
       "answer": 3,
       "justification": "First Conditional: if + present, will + infinitive."
     }
+  ],
+  "vocabularyQuestions": [
+    {
+      "q": "Visit the ____ every six months.",
+      "options": [
+        "nurse",
+        "pharmacist",
+        "dentist",
+        "surgeon"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'dentist' هو 'طبيب أسنان'."
+    },
+    {
+      "q": "I cannot ____ bad behavior.",
+      "options": [
+        "enjoy",
+        "praise",
+        "tolerate",
+        "ignore"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'tolerate' هو 'يتحمل'."
+    },
+    {
+      "q": "I check the time on my ____.",
+      "options": [
+        "ring",
+        "belt",
+        "hat",
+        "watch"
+      ],
+      "answer": 3,
+      "justification": "المعنى الصحيح لـ 'watch' هو 'ساعة يد'."
+    },
+    {
+      "q": "Put on a ____; it's cold outside.",
+      "options": [
+        "thobe",
+        "umbrella",
+        "trainers",
+        "sweater"
+      ],
+      "answer": 3,
+      "justification": "المعنى الصحيح لـ 'sweater' هو 'سترة صوفية'."
+    },
+    {
+      "q": "City ____ use mass transit.",
+      "options": [
+        "aspects",
+        "methods",
+        "residents",
+        "consumers"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'resident' هو 'مقيم'."
+    },
+    {
+      "q": "____ sites attract tourists.",
+      "options": [
+        "Modern",
+        "Industrial",
+        "Archaeological",
+        "Residential"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'archaeological' هو 'أثري'."
+    },
+    {
+      "q": "Farmers use heavy ____ like tractors.",
+      "options": [
+        "equipment",
+        "books",
+        "paintings",
+        "clothes"
+      ],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'equipment' هو 'معدات'."
+    },
+    {
+      "q": "____ the chicken over charcoal.",
+      "options": [
+        "Fry",
+        "Grill",
+        "Steam",
+        "Boil"
+      ],
+      "answer": 1,
+      "justification": "المعنى الصحيح لـ 'grill' هو 'يشوي'."
+    },
+    {
+      "q": "The city provides ____ for green projects.",
+      "options": [
+        "grants",
+        "bans",
+        "fines",
+        "taxes"
+      ],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'grant' هو 'منحة'."
+    },
+    {
+      "q": "A ____ assists the doctor.",
+      "options": [
+        "farmer",
+        "mechanic",
+        "nurse",
+        "driver"
+      ],
+      "answer": 2,
+      "justification": "المعنى الصحيح لـ 'nurse' هو 'ممرض'."
+    }
+  ],
+  "dictationQuestions": [
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "sweater",
+        "sweatter",
+        "sweatar",
+        "sweter"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'sweater'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "agricultre",
+        "agriculcher",
+        "agriculture",
+        "agraculture"
+      ],
+      "answer": 2,
+      "justification": "التهجئة الصحيحة هي 'agriculture'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "tuthache",
+        "toothache",
+        "toothach",
+        "toothake"
+      ],
+      "answer": 1,
+      "justification": "التهجئة الصحيحة هي 'toothache'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "trainers",
+        "traners",
+        "trainars",
+        "trainors"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'trainers'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "obsessian",
+        "obsesshen",
+        "obsession",
+        "obsesion"
+      ],
+      "answer": 2,
+      "justification": "التهجئة الصحيحة هي 'obsession'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "hygene",
+        "hygiene",
+        "higiene",
+        "hygeene"
+      ],
+      "answer": 1,
+      "justification": "التهجئة الصحيحة هي 'hygiene'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "transite",
+        "transitt",
+        "transit",
+        "tranzit"
+      ],
+      "answer": 2,
+      "justification": "التهجئة الصحيحة هي 'transit'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "experament",
+        "expiriment",
+        "experimant",
+        "experiment"
+      ],
+      "answer": 3,
+      "justification": "التهجئة الصحيحة هي 'experiment'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "pustaa",
+        "pestaa",
+        "pasta",
+        "pastah"
+      ],
+      "answer": 2,
+      "justification": "التهجئة الصحيحة هي 'pasta'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة للكلمة.",
+      "options": [
+        "explosion",
+        "explosian",
+        "explosin",
+        "eksplosion"
+      ],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'explosion'."
+    }
   ]
 }
