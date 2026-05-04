@@ -1,103 +1,93 @@
 {
-  "title": "تجميع 5 – 11/8/2022 (أسئلة غير مكررة)",
+  "title": "تجميع 5 – 11/8/2022 (60 سؤالاً)",
   "passages": [
     {
-      "title": "The Quiet Revolution of Vertical Farming",
-      "text": "In the heart of Singapore, a country that imports more than 90% of its food, a quiet agricultural revolution is taking place – not across sprawling fields, but inside towering glass skyscrapers. Known as vertical farming, this method involves growing crops in stacked layers, often without soil, using hydroponic or aeroponic systems. The concept may sound like science fiction, yet it is already producing tonnes of leafy greens, herbs, and even strawberries annually. Proponents argue that vertical farming could be the answer to feeding a global population that is expected to reach 10 billion by 2050, especially as climate change makes traditional agriculture increasingly unpredictable.\n\nThe advantages of vertical farming are compelling. Because crops are grown indoors, they are not affected by droughts, floods, or extreme temperatures. Pesticides become unnecessary, as the sealed environment keeps pests out. Water usage is reduced by up to 95% compared to conventional farming. Moreover, vertical farms can be built in the middle of cities, drastically cutting the distance that food travels from farm to plate – a concept known as 'food miles'. This not only reduces carbon emissions from transport but also means that city dwellers have access to fresher produce that is harvested only hours before it arrives at their table.\n\nHowever, the technology is not without its challenges. The most significant barrier is energy consumption. Since sunlight is replaced by powerful LED lamps that run for up to 18 hours a day, electricity bills can be enormous. Although advances in LED efficiency and the falling cost of renewable energy are helping to mitigate this problem, many vertical farms still rely on electricity grids that are powered largely by fossil fuels. Critics also point out that the range of crops that can be grown vertically is currently limited to high‑value, fast‑growing plants such as lettuce and basil. Staple crops like wheat, rice, and maize remain firmly in the domain of traditional agriculture due to their large space requirements and longer growing cycles.\n\nEconomically, vertical farming is still finding its feet. The initial setup costs are very high, and investors are often cautious. Nevertheless, during the COVID‑19 pandemic, when global supply chains were disrupted, several vertical‑farming startups saw a surge in demand as governments scrambled to increase local food production. In 2021, a major US retailer partnered with a vertical‑farming company to supply over 200 of its stores with locally grown greens. Analysts predict that the vertical farming market, valued at around $4 billion in 2023, will grow to more than $30 billion by 2032. Such growth would be transformative – but only if the industry can solve its energy and scalability problems.\n\nScientists are now experimenting with solutions that once seemed far‑fetched. Researchers in the Netherlands have developed 'smart glass' that adjusts its tint to deliver the optimal spectrum of sunlight to plants, reducing the need for artificial lighting. In Japan, robotic arms are being trained to plant, monitor, and harvest crops with minimal human intervention, addressing labour shortages. Perhaps most excitingly, geneticists are editing the DNA of crops to make them shorter and bushier, specifically adapting them to life indoors. Whether vertical farming will eventually replace the open field remains an open question, but one thing is certain: the journey from farm to fork is being rewritten, one vertical layer at a time.",
+      "title": "The Clock That Changed the World",
+      "text": "In the early 18th century, the greatest scientific problem of the age was determining longitude at sea. Without a reliable method, ships were frequently lost, with disastrous consequences for trade and empire. In 1714, the British Parliament offered a prize of £20,000 – equivalent to several million pounds today – to anyone who could solve the problem.\n\nThe solution came from an unlikely source: John Harrison, a self-taught carpenter and clockmaker from Yorkshire. Over four decades, Harrison designed a series of five increasingly precise marine chronometers that could withstand the rocking, temperature changes, and humidity of ocean voyages. His fourth model, H4, was tested on a transatlantic voyage and lost only 5.1 seconds over 80 days, an accuracy far exceeding the requirements of the prize.\n\nHarrison faced fierce opposition from the astronomical establishment, who believed the solution lay in mapping the stars rather than in mechanical clocks. The Board of Longitude, dominated by astronomers, repeatedly denied Harrison the full prize money, despite his clocks proving themselves in multiple trials. It took the personal intervention of King George III to finally secure recognition for Harrison's work.\n\nHarrison’s chronometers revolutionised global navigation. For the first time, sailors could determine their longitude accurately, making sea travel safer and more efficient. This innovation facilitated the expansion of global trade routes, exploration, and colonialism in the 18th and 19th centuries. The principles he developed laid the foundation for modern timekeeping and precision engineering.\n\nToday, Harrison’s original clocks are preserved at the Royal Observatory in Greenwich, London. They are considered among the most important technological artefacts of the modern era. His story, popularised in the book and television series 'Longitude', serves as a powerful reminder that world-changing innovations often come from unexpected places and that persistence in the face of established authority can ultimately triumph.",
       "questions": [
         {
-          "q": "1. What is the main reason Singapore is a leader in vertical farming?",
-          "options": [
-            "It has the largest fields in Asia",
-            "It imports more than 90% of its food",
-            "It has banned traditional farming",
-            "It has the cheapest electricity"
-          ],
+          "q": "1. What was the major scientific challenge mentioned in the passage?",
+          "options": ["Measuring temperature", "Finding longitude at sea", "Predicting weather", "Mapping the ocean floor"],
           "answer": 1,
-          "justification": "النص يوضح أن سنغافورة تستورد أكثر من 90% من غذائها، مما يجعلها متحمسة لتطوير الزراعة العمودية كحل بديل."
+          "justification": "The text states that 'determining longitude at sea' was the greatest scientific problem of the age."
         },
         {
-          "q": "2. What is a major environmental benefit of vertical farming?",
-          "options": [
-            "It uses more water than traditional farming",
-            "It increases 'food miles'",
-            "It reduces water usage by up to 95%",
-            "It requires large amounts of pesticides"
-          ],
+          "q": "2. What was John Harrison's background before solving the navigation problem?",
+          "options": ["A navy admiral", "A university professor", "A self-taught carpenter", "A wealthy merchant"],
           "answer": 2,
-          "justification": "النص يذكر أن استهلاك الماء ينخفض بنسبة تصل إلى 95% مقارنة بالزراعة التقليدية."
+          "justification": "John Harrison is described as 'a self-taught carpenter and clockmaker from Yorkshire'."
         },
         {
-          "q": "3. Which challenge of vertical farming is highlighted in the passage?",
-          "options": [
-            "Lack of consumer interest",
-            "High energy consumption for LED lighting",
-            "Excessive use of pesticides",
-            "Inability to grow any crops"
-          ],
-          "answer": 1,
-          "justification": "يوضح النص أن التحدي الأكبر هو استهلاك الطاقة بسبب اضطرار المصابيح للعمل حتى 18 ساعة يومياً."
+          "q": "3. How accurate was Harrison's fourth model, H4, during its transatlantic test?",
+          "options": ["Lost only 5.1 seconds over 80 days", "Lost one hour per day", "Stopped working completely", "Was less accurate than astronomical methods"],
+          "answer": 0,
+          "justification": "The passage states that H4 'lost only 5.1 seconds over 80 days, an accuracy far exceeding the requirements'."
         },
         {
-          "q": "4. According to the passage, what happened during the COVID‑19 pandemic?",
-          "options": [
-            "Vertical farms closed permanently",
-            "Demand for locally grown food increased",
-            "Governments banned vertical farming",
-            "LED lights became obsolete"
-          ],
+          "q": "4. Why did Harrison face opposition from the astronomical establishment?",
+          "options": ["They believed clocks were unreliable", "They wanted the solution to come from astronomy", "Harrison was not British", "Harrison refused to share his design"],
           "answer": 1,
-          "justification": "يشير النص إلى أن الطلب على شركات الزراعة العمودية ارتفع أثناء الجائحة عندما تعطلت سلاسل التوريد."
+          "justification": "The text explains that astronomers 'believed the solution lay in mapping the stars rather than in mechanical clocks'."
+        },
+        {
+          "q": "5. How did Harrison finally receive recognition for his work?",
+          "options": ["He won a court case", "King George III intervened", "The Board of Longitude apologised", "Parliament passed a new law"],
+          "answer": 1,
+          "justification": "The passage states that 'it took the personal intervention of King George III to finally secure recognition'."
+        },
+        {
+          "q": "6. What impact did Harrison's chronometers have on global trade?",
+          "options": ["They had no impact", "They made sea travel safer and more efficient", "They ended colonialism", "They replaced steam engines"],
+          "answer": 1,
+          "justification": "The text explains that 'this innovation facilitated the expansion of global trade routes, exploration, and colonialism'."
+        },
+        {
+          "q": "7. Where are Harrison's original clocks preserved today?",
+          "options": ["The British Museum", "The Royal Observatory in Greenwich", "Buckingham Palace", "The Smithsonian"],
+          "answer": 1,
+          "justification": "The passage mentions 'the Royal Observatory in Greenwich, London' where the clocks are kept."
         }
       ]
     },
     {
-      "title": "The Enigma of the Antikythera Mechanism",
-      "text": "In 1901, a group of sponge divers off the coast of Antikythera, a small Greek island, discovered the remains of an ancient Roman shipwreck. Among statues, pottery, and coins, they retrieved a corroded lump of bronze and wood that appeared unremarkable at first glance. It was not until months later, when the lump cracked open and revealed intricate gear wheels inside, that archaeologists began to suspect they had found something extraordinary. Today, the Antikythera Mechanism is widely regarded as the world’s first analogue computer, a device so advanced that nothing comparable would be built again until the 14th century.\n\nThe mechanism consists of at least 30 bronze gears housed in a wooden case about the size of a shoebox. By turning a single hand crank, the user could track the movements of the sun, the moon, and the five known planets of antiquity with astonishing precision. It could also predict solar and lunar eclipses decades in advance, and some evidence suggests it may have even indicated the dates of important sporting events such as the Olympic Games. The intricacy of the device shocked historians, who had long assumed that the Greeks, while brilliant philosophers, lacked the technical know‑how to produce such precision machinery.\n\nX‑ray and CT scans carried out in the 21st century have allowed researchers to peer inside the corroded fragments without damaging them. These scans revealed tiny inscriptions, written in ancient Greek, which appear to be a kind of user manual. The inscriptions mention the names of planets and months, and describe the cycles of astronomical bodies. Based on the style of the lettering, scholars date the mechanism to between 150 and 100 BCE, making it over 2,100 years old. Some experts have speculated that it may have been built in the workshop of the philosopher Posidonius on the island of Rhodes, although this remains unconfirmed.\n\nThe function and sophistication of the mechanism have led to heated debates about its origins. Some fringe theorists have even suggested that such an advanced device must have been brought to Earth by extraterrestrials – a claim strongly rejected by mainstream archaeologists. A more likely explanation is that the device represented the culmination of centuries of Greek knowledge in astronomy, mathematics, and mechanical engineering. The technology appears to have been lost after the fall of the Roman Empire, and it took more than a thousand years for Europe to rediscover the principles required to build similar gear‑driven devices.\n\nEven today, the Antikythera Mechanism continues to inspire scientists and engineers. In 2021, a team of researchers from University College London used the inscriptions and mathematical models to reconstruct a complete digital version of what the machine must have looked like when it was whole. Their model matched the physical fragments almost perfectly, confirming that the mechanism truly could perform all the calculations that ancient texts hinted at. For many, the mechanism serves as a humbling reminder that the ancient world was far more technically sophisticated than we often give it credit for – and that some of the greatest discoveries may emerge from the most unassuming lumps of corroded metal.",
+      "title": "The Floating Forest of Bangladesh",
+      "text": "During the monsoon season, the rivers of Bangladesh swell to become vast inland seas, submerging villages and farmlands for months. In response, local communities have developed an extraordinary agricultural system: floating gardens. These gardens are constructed by building rafts of water hyacinth, a fast-growing aquatic weed, which are then layered with compost and soil.\n\nFarmers plant vegetables such as okra, bitter gourd, and spinach on these buoyant platforms, which rise and fall with the floodwaters. The system requires no chemical fertilisers, as the decomposing water hyacinth provides all the necessary nutrients. A single raft can produce crops for up to ten years, making it a remarkably sustainable method of agriculture.\n\nHistorically, this practice originated in the southern districts of Bangladesh, where flooding is most severe. Local knowledge, passed down through generations, has refined the technique over centuries. The floating gardens not only provide food security during the floods but also allow families to earn an income by selling surplus produce in local markets.\n\nRecently, the Bangladeshi government, with support from the United Nations Development Programme, has begun promoting floating gardens as a climate-resilient solution for food security in low-lying countries. The practice, once dismissed as primitive by agricultural scientists, is now being studied worldwide as a model for adapting to climate change.\n\nAs sea levels rise and extreme weather events become more frequent, the floating gardens of Bangladesh offer a compelling example of human ingenuity in the face of environmental adversity. Researchers from countries as far as the Netherlands and Vietnam are now visiting Bangladesh to learn from these ancient techniques, hoping to apply similar principles to their own flood-prone regions.",
       "questions": [
         {
-          "q": "1. Where was the Antikythera Mechanism discovered?",
-          "options": [
-            "In a desert in Egypt",
-            "In a Roman shipwreck near Greece",
-            "Buried in the Roman Forum",
-            "In a Mayan temple"
-          ],
+          "q": "8. What material forms the base of the floating gardens?",
+          "options": ["Bamboo", "Water hyacinth", "Plastic bottles", "Wooden planks"],
           "answer": 1,
-          "justification": "الفقرة الأولى تذكر أن الغواصين عثروا على الآلية في حطام سفينة رومانية قرب جزيرة أنتيكيثيرا اليونانية."
+          "justification": "The text mentions 'rafts of water hyacinth, a fast-growing aquatic weed' as the base of the floating gardens."
         },
         {
-          "q": "2. What is the Antikythera Mechanism often called?",
-          "options": [
-            "The first steam engine",
-            "The world's first analogue computer",
-            "The first electric clock",
-            "The first telescope"
-          ],
+          "q": "9. Why don't the gardens need chemical fertilisers?",
+          "options": ["They use animal manure", "The decomposing water hyacinth provides nutrients", "The floodwater is full of minerals", "Chemical fertilisers are too expensive"],
           "answer": 1,
-          "justification": "يصف النص الآلية بأنها أول حاسوب تمثيلي (analogue computer) في العالم."
+          "justification": "The passage explains that 'the decomposing water hyacinth provides all the necessary nutrients'."
         },
         {
-          "q": "3. How did 21st‑century researchers read the inscriptions inside the mechanism without damaging it?",
-          "options": [
-            "They took it apart piece by piece",
-            "They used X‑ray and CT scans",
-            "They polished the surface until the text appeared",
-            "They used chemical baths"
-          ],
-          "answer": 1,
-          "justification": "الفقرة الثالثة توضح أن الباحثين استخدموا الأشعة السينية والتصوير الطبقي (CT scans) لقراءة النقوش دون ضرر."
-        },
-        {
-          "q": "4. According to the passage, what happened to the technology after the Roman Empire fell?",
-          "options": [
-            "It was improved by the Vikings",
-            "It was taken to China",
-            "It was lost for over a thousand years",
-            "It was duplicated immediately"
-          ],
+          "q": "10. How long can a single raft produce crops?",
+          "options": ["One season", "Up to five years", "Up to ten years", "Over twenty years"],
           "answer": 2,
-          "justification": "يشير النص إلى أن التقنية فُقدت لأكثر من ألف عام بعد سقوط الإمبراطورية الرومانية."
+          "justification": "The text states that 'a single raft can produce crops for up to ten years'."
+        },
+        {
+          "q": "11. Where did this practice originate?",
+          "options": ["Northern Bangladesh", "Southern districts of Bangladesh", "India", "Thailand"],
+          "answer": 1,
+          "justification": "The passage says 'this practice originated in the southern districts of Bangladesh, where flooding is most severe'."
+        },
+        {
+          "q": "12. Which international organisation has supported promoting the floating gardens?",
+          "options": ["World Health Organization", "United Nations Development Programme", "World Bank", "Red Cross"],
+          "answer": 1,
+          "justification": "The text mentions 'the Bangladeshi government, with support from the United Nations Development Programme'."
+        },
+        {
+          "q": "13. Which countries are now visiting Bangladesh to learn from these techniques?",
+          "options": ["China and Japan", "Netherlands and Vietnam", "USA and Canada", "Brazil and Argentina"],
+          "answer": 1,
+          "justification": "The passage states 'researchers from countries as far as the Netherlands and Vietnam are now visiting Bangladesh'."
         }
       ]
     }
@@ -105,741 +95,355 @@
   "grammarQuestions": [
     {
       "q": "I ___ my new job last month.",
-      "options": [
-        "have begun",
-        "am begin",
-        "begin",
-        "began",
-        "starting",
-        "start"
-      ],
-      "answer": 3,
-      "justification": "'last month' ماضي بسيط، والفعل 'began' هو الماضي الصحيح."
+      "options": ["have begun", "begin", "am begin", "start", "began", "starting"],
+      "answer": 4,
+      "justification": "'last month' يدل على الماضي البسيط، والصيغة الصحيحة هي 'began' (بدأ)."
     },
     {
       "q": "The people ___ in room 5.",
-      "options": [
-        "are",
-        "wasn't",
-        "was",
-        "be",
-        "is",
-        "am"
-      ],
-      "answer": 0,
+      "options": ["wasn't", "be", "am", "are", "was", "is"],
+      "answer": 3,
       "justification": "'The people' جمع، لذا نستخدم 'are'."
     },
     {
       "q": "This isn't my umbrella. It's ___",
-      "options": [
-        "for I",
-        "she",
-        "the yours",
-        "yours",
-        "your",
-        "to you"
-      ],
+      "options": ["your", "for I", "she", "yours", "the yours", "to you"],
       "answer": 3,
-      "justification": "'yours' ضمير ملكية يعود على umbrella."
+      "justification": "نحتاج إلى ضمير ملكية (yours) يعود على 'umbrella' دون اسم بعده."
     },
     {
       "q": "They're ___",
-      "options": [
-        "bigs car",
-        "cars bigs",
-        "bigs cars",
-        "small car",
-        "big cars"
-      ],
-      "answer": 4,
-      "justification": "الصفة لا تجمع، والترتيب: صفة + اسم."
+      "options": ["bigs cars", "big cars", "bigs car", "small car", "cars bigs"],
+      "answer": 1,
+      "justification": "'big' صفة لا تجمع، و'cars' اسم جمع. الترتيب الصحيح: صفة + اسم."
     },
     {
       "q": "Thanks for ___",
-      "options": [
-        "everything",
-        "the all",
-        "all things",
-        "something",
-        "anything",
-        "all"
-      ],
-      "answer": 0,
-      "justification": "'Thanks for everything' تعبير شائع."
+      "options": ["something", "all things", "everything", "the all", "all", "anything"],
+      "answer": 2,
+      "justification": "'Thanks for everything' هو التعبير الشائع للشكر على كل شيء."
     },
     {
       "q": "It's my ___ dog.",
-      "options": [
-        "parenting",
-        "parents",
-        "father's and mother's",
-        "parents'",
-        "parent's",
-        "parent"
-      ],
-      "answer": 3,
-      "justification": "'parents' جمع، والملكية: 'parents’'."
+      "options": ["father's and mother's", "parenting", "parents'", "parents", "parent", "parent's"],
+      "answer": 2,
+      "justification": "'parents' جمع، ولإضافة الملكية نضع الفاصلة بعد الجمع: parents' dog."
     },
     {
       "q": "He ___ glasses.",
-      "options": [
-        "doesn't usually wear",
-        "wears usually",
-        "wear usually",
-        "don't wear usually",
-        "isn't usually wearing",
-        "doesn't wear usually"
-      ],
-      "answer": 0,
-      "justification": "ظرف التكرار 'usually' يأتي قبل الفعل الرئيسي."
+      "options": ["isn't usually wearing", "doesn't wear usually", "doesn't usually wear", "wears usually", "wear usually", "don't wear usually"],
+      "answer": 2,
+      "justification": "ظرف التكرار 'usually' يأتي قبل الفعل الرئيسي وبعد الفعل المساعد."
     },
     {
       "q": "I'm Japanese. ___ family are from Tokyo.",
-      "options": [
-        "Me",
-        "My",
-        "Our",
-        "Yours",
-        "Hers",
-        "Her"
-      ],
-      "answer": 1,
+      "options": ["Her", "Yours", "Hers", "Me", "My", "Our"],
+      "answer": 4,
       "justification": "'I'm' يناسبه ضمير الملكية 'My'."
     },
     {
       "q": "___ yesterday?",
-      "options": [
-        "Do you study",
-        "Does you study",
-        "Did you studied",
-        "You studied",
-        "Studied you",
-        "Did you study"
-      ],
-      "answer": 5,
-      "justification": "السؤال في الماضي: 'Did + فاعل + مصدر'."
+      "options": ["Does you study", "Did you studied", "Do you study", "Did you study", "Studied you", "You studied"],
+      "answer": 3,
+      "justification": "للسؤال عن الماضي البسيط نستخدم 'Did + فاعل + مصدر'."
     },
     {
       "q": "He ___ follow instructions.",
-      "options": [
-        "not can",
-        "doesn't can",
-        "does can",
-        "is not",
-        "isn't can",
-        "can't"
-      ],
-      "answer": 5,
-      "justification": "نفي 'can' هو 'can't'."
+      "options": ["can't", "does can", "isn't can", "not can", "is not", "doesn't can"],
+      "answer": 0,
+      "justification": "نفي 'can' يكون بـ 'can't' أو 'cannot'."
     },
     {
       "q": "We ___ Scottish.",
-      "options": [
-        "not",
-        "was",
-        "aren't",
-        "isn't",
-        "wasn't",
-        "not are"
-      ],
-      "answer": 2,
-      "justification": "'We' فاعل جمع، النفي: 'aren't'."
+      "options": ["isn't", "not", "was", "wasn't", "not are", "aren't"],
+      "answer": 5,
+      "justification": "'We' فاعل جمع، والنفي يكون بـ 'aren't' (are not)."
     },
     {
       "q": "I like ___ in the evening.",
-      "options": [
-        "to be work",
-        "working",
-        "to working",
-        "that I work",
-        "work",
-        "worked"
-      ],
+      "options": ["that I work", "working", "worked", "work", "to be work", "to working"],
       "answer": 1,
-      "justification": "'like' + gerund."
+      "justification": "بعد 'like' يمكن استخدام المصدر أو الفعل + ing: 'like working'."
     },
     {
       "q": "We ___ to Mexico.",
-      "options": [
-        "haven't been",
-        "hasn't be",
-        "has gone",
-        "hasn't been",
-        "haven't be",
-        "has been"
-      ],
-      "answer": 0,
-      "justification": "'We' فاعل جمع، خبرة حياتية: 'haven't been'."
+      "options": ["haven't be", "has been", "hasn't been", "hasn't be", "has gone", "haven't been"],
+      "answer": 5,
+      "justification": "'We' فاعل جمع، لذا نستخدم 'haven't been'. خبرة حياتية (Present Perfect)."
     },
     {
       "q": "I always ___",
-      "options": [
-        "hard work",
-        "work hard",
-        "hardly work",
-        "working hardly",
-        "work hardly",
-        "working hard"
-      ],
-      "answer": 1,
-      "justification": "'work hard' تعني يعمل بجد."
+      "options": ["working hard", "work hardly", "work hard", "hard work", "working hardly", "hardly work"],
+      "answer": 2,
+      "justification": "'work hard' تعني يعمل بجد. 'hardly work' تعني بالكاد يعمل."
     },
     {
       "q": "___ you like Italian food?",
-      "options": [
-        "Do",
-        "Does",
-        "Has",
-        "Is",
-        "Have",
-        "Are"
-      ],
-      "answer": 0,
-      "justification": "السؤال مع 'you' في المضارع: 'Do'."
+      "options": ["Have", "Is", "Are", "Do", "Does", "Has"],
+      "answer": 3,
+      "justification": "للسؤال في المضارع البسيط مع 'you' نستخدم 'Do'."
     },
     {
       "q": "He ___ the newspaper every day.",
-      "options": [
-        "reads",
-        "read",
-        "seen",
-        "doesn't reads",
-        "don't read",
-        "looks"
-      ],
-      "answer": 0,
-      "justification": "'every day' مضارع بسيط، والفاعل مفرد: 'reads'."
+      "options": ["don't read", "looks", "reads", "doesn't reads", "read", "seen"],
+      "answer": 2,
+      "justification": "'every day' مضارع بسيط، والفاعل 'He' مفرد، لذا 'reads'."
     },
     {
       "q": "They didn't ___ the tickets.",
-      "options": [
-        "sending",
-        "book",
-        "booking",
-        "booked",
-        "to book",
-        "taking"
-      ],
-      "answer": 1,
-      "justification": "بعد 'didn't' يأتي المصدر المجرد."
+      "options": ["book", "to book", "booked", "taking", "booking", "sending"],
+      "answer": 0,
+      "justification": "بعد 'didn't' نضع المصدر المجرد (book)."
     },
     {
       "q": "'Was Picasso from Spain?' 'Yes, ___'",
-      "options": [
-        "he is",
-        "he wasn't",
-        "he were",
-        "he was",
-        "there were",
-        "was"
-      ],
+      "options": ["he wasn't", "was", "he were", "he was", "he is", "there were"],
       "answer": 3,
-      "justification": "الإجابة المثبتة: 'Yes, he was'."
+      "justification": "السؤال بـ 'Was Picasso' والإجابة المثبتة: 'Yes, he was'."
     },
     {
       "q": "She ___ to the market every day.",
-      "options": [
-        "gets",
-        "goes",
-        "has",
-        "not go",
-        "went",
-        "does"
-      ],
-      "answer": 1,
-      "justification": "'every day' مضارع، الفاعل مفرد: 'goes'."
+      "options": ["goes", "not go", "gets", "went", "has", "does"],
+      "answer": 0,
+      "justification": "'every day' مضارع بسيط، والفاعل 'She' مفرد، لذا 'goes'."
     },
     {
       "q": "British people ___ tea with milk.",
-      "options": [
-        "have drink",
-        "are drink",
-        "drinking",
-        "drink",
-        "drinks",
-        "to drink"
-      ],
+      "options": ["are drink", "have drink", "drinks", "drink", "to drink", "drinking"],
       "answer": 3,
-      "justification": "جمع، مضارع بسيط: 'drink'."
+      "justification": "'British people' جمع، والفعل في المضارع البسيط يكون 'drink'."
     },
     {
       "q": "There ___ telephone in my hotel room.",
-      "options": [
-        "wasn't some",
-        "were",
-        "wasn't a",
-        "was",
-        "weren't any",
-        "weren't a"
-      ],
-      "answer": 2,
-      "justification": "مفرد، نفي: 'wasn't a'."
+      "options": ["weren't any", "were", "weren't a", "wasn't some", "wasn't a", "was"],
+      "answer": 4,
+      "justification": "'telephone' مفرد، لذا نستخدم 'wasn't a' (لم يكن هناك هاتف)."
     },
     {
       "q": "Is Mount Everest ___ mountain in the world?",
-      "options": [
-        "the most highest",
-        "the tall",
-        "the highest",
-        "the higher",
-        "the more high",
-        "the tallest"
-      ],
-      "answer": 2,
-      "justification": "للارتفاع نستخدم 'high'، التفضيل: 'the highest'."
+      "options": ["the tallest", "the highest", "the higher", "the most highest", "the more high", "the tall"],
+      "answer": 1,
+      "justification": "للارتفاع نستخدم 'high' وليس 'tall'. صيغة التفضيل: 'the highest'."
     },
     {
       "q": "Can I pay ___ credit card?",
-      "options": [
-        "use me",
-        "used my",
-        "by",
-        "on",
-        "with",
-        "in"
-      ],
-      "answer": 2,
-      "justification": "'by credit card' تعني بواسطة بطاقة الائتمان."
+      "options": ["by", "in", "with", "use me", "used my", "on"],
+      "answer": 0,
+      "justification": "نستخدم 'by credit card' للتعبير عن طريقة الدفع."
     },
     {
       "q": "Would you like ___ drink?",
-      "options": [
-        "more one",
-        "another",
-        "some other",
-        "other",
-        "a lot of",
-        "a few"
-      ],
-      "answer": 1,
-      "justification": "'another' + اسم مفرد = واحد آخر."
+      "options": ["more one", "a few", "other", "another", "some other", "a lot of"],
+      "answer": 3,
+      "justification": "'another' + اسم مفرد تعني واحداً آخر (مشروباً آخر)."
     },
     {
       "q": "I ___ to pop music.",
-      "options": [
-        "never listen",
-        "listen never",
-        "don't never listen",
-        "never doing listen",
-        "never to listen",
-        "doesn't listen never"
-      ],
-      "answer": 0,
-      "justification": "'never' قبل الفعل الرئيسي: 'never listen'."
+      "options": ["never doing listen", "listen never", "never listen", "never to listen", "don't never listen", "doesn't listen never"],
+      "answer": 2,
+      "justification": "'never' ظرف تكرار يأتي قبل الفعل الرئيسي: 'never listen'."
     },
     {
       "q": "What ___ do tomorrow?",
-      "options": [
-        "are you going to",
-        "are you going",
-        "do you wanting",
-        "do you go to",
-        "you going",
-        "you having"
-      ],
-      "answer": 0,
-      "justification": "للتعبير عن نية: 'are you going to do'."
+      "options": ["you going", "do you wanting", "you having", "do you go to", "are you going", "are you going to"],
+      "answer": 5,
+      "justification": "للتعبير عن نية أو خطة مستقبلية: 'are you going to do'."
     },
     {
       "q": "I ___ do my homework last night.",
-      "options": [
-        "can't",
-        "have",
-        "not could",
-        "has",
-        "didn't can",
-        "couldn't"
-      ],
-      "answer": 5,
-      "justification": "'last night' ماضي، لذا ماضي can: 'couldn't'."
+      "options": ["have", "didn't can", "has", "couldn't", "can't", "not could"],
+      "answer": 3,
+      "justification": "'last night' ماضي، لذا نستخدم ماضي can وهو 'could'، والنفي 'couldn't'."
     },
     {
       "q": "Today's breakfast is ___ than yesterday's.",
-      "options": [
-        "good",
-        "better",
-        "gooder",
-        "more better",
-        "more good",
-        "nice"
-      ],
-      "answer": 1,
-      "justification": "'good' تقارن بـ 'better'."
+      "options": ["gooder", "nice", "more good", "good", "better", "more better"],
+      "answer": 4,
+      "justification": "'good' تُقارن بـ 'better than'. لا نستخدم 'more good' أو 'gooder'."
     },
     {
       "q": "I haven't ___ this picture before.",
-      "options": [
-        "seeing",
-        "seen",
-        "to see",
-        "saw",
-        "watched",
-        "see"
-      ],
-      "answer": 1,
-      "justification": "Present Perfect: haven't + p.p. (seen)."
+      "options": ["seen", "see", "saw", "watched", "seeing", "to see"],
+      "answer": 0,
+      "justification": "المضارع التام (haven't) يأتي بعده التصريف الثالث: 'seen'."
     },
     {
       "q": "This is our new teacher. ___ name is Charles.",
-      "options": [
-        "Its",
-        "Mine",
-        "Her",
-        "My",
-        "He",
-        "His"
-      ],
-      "answer": 5,
-      "justification": "'teacher' مذكر (Charles)، لذا 'His'."
+      "options": ["My", "Its", "Her", "His", "He", "Mine"],
+      "answer": 3,
+      "justification": "'teacher' مذكر (اسمه Charles)، لذا نستخدم 'His'."
     },
     {
       "q": "He ___ playing the guitar.",
-      "options": [
-        "can",
-        "does",
-        "are",
-        "has",
-        "is",
-        "do"
-      ],
+      "options": ["do", "can", "does", "are", "is", "has"],
       "answer": 4,
-      "justification": "Present Continuous: 'He is playing'."
+      "justification": "'He is playing' هي صيغة المضارع المستمر الصحيحة."
     },
     {
       "q": "I can't see. Where are my ___?",
-      "options": [
-        "stamps",
-        "keys",
-        "glasses",
-        "Key",
-        "Books",
-        "lipsticks"
-      ],
-      "answer": 2,
-      "justification": "عند عدم الرؤية نبحث عن النظارات (glasses)."
+      "options": ["glasses", "keys", "lipsticks", "Key", "stamps", "Books"],
+      "answer": 0,
+      "justification": "عند عدم القدرة على الرؤية، نبحث عن 'glasses' (النظارات)."
     },
     {
       "q": "___ the time?",
-      "options": [
-        "How is",
-        "What's",
-        "What",
-        "When is",
-        "What is it",
-        "What it is"
-      ],
-      "answer": 1,
-      "justification": "للسؤال عن الوقت: 'What's the time?'"
+      "options": ["What's", "When is", "How is", "What it is", "What", "What is it"],
+      "answer": 0,
+      "justification": "للسؤال عن الوقت نستخدم 'What's the time?' أو 'What time is it?'"
     },
     {
       "q": "___ this book before?",
-      "options": [
-        "Are you reading",
-        "Has you reading",
-        "Have you read",
-        "Do you read",
-        "Have you reading",
-        "Are you going to read"
-      ],
-      "answer": 2,
-      "justification": "'before' يدل على Present Perfect."
+      "options": ["Are you reading", "Do you read", "Have you reading", "Have you read", "Are you going to read", "Has you reading"],
+      "answer": 3,
+      "justification": "'before' يدل على المضارع التام: 'Have you read'."
     },
     {
       "q": "Could we ___ the bill, please?",
-      "options": [
-        "see",
-        "watch",
-        "want",
-        "ask",
-        "have",
-        "take"
-      ],
-      "answer": 4,
-      "justification": "'have the bill' تعني نحصل على الفاتورة."
+      "options": ["watch", "take", "see", "have", "want", "ask"],
+      "answer": 3,
+      "justification": "'have the bill' تعني نحصل على الفاتورة. تعبير شائع في المطاعم."
     },
     {
       "q": "It's ten ___ nine.",
-      "options": [
-        "to",
-        "at",
-        "on",
-        "for",
-        "to past",
-        "in"
-      ],
-      "answer": 0,
-      "justification": "'ten to nine' تعني العاشرة إلا عشراً."
+      "options": ["on", "for", "at", "in", "to", "to past"],
+      "answer": 4,
+      "justification": "للتعبير عن الوقت: 'ten to nine' تعني العاشرة إلا عشر دقائق."
     },
     {
       "q": "Simon would like ___ basketball.",
-      "options": [
-        "playing",
-        "to playing",
-        "to play",
-        "to have playing",
-        "play",
-        "to having play"
-      ],
-      "answer": 2,
-      "justification": "'would like to + مصدر'."
+      "options": ["to have playing", "playing", "play", "to playing", "to play", "to having play"],
+      "answer": 4,
+      "justification": "'would like' يأتي بعده المصدر مع to: 'to play'."
     },
     {
       "q": "The elephant is ___ land animal in the world.",
-      "options": [
-        "the most big",
-        "the biggest",
-        "huge",
-        "the fat",
-        "the bigger",
-        "biggest"
-      ],
-      "answer": 1,
-      "justification": "'big' صفة قصيرة، التفضيل: 'the biggest'."
-    },
-    {
-      "q": "She ___ to cook for her parents.",
-      "options": [
-        "want",
-        "isn't going",
-        "isn't go",
-        "like",
-        "doesn't go",
-        "aren't going"
-      ],
-      "answer": 1,
-      "justification": "نية مستقبلية: 'isn't going to'."
-    },
-    {
-      "q": "There isn't ___ bread in the kitchen.",
-      "options": [
-        "a few",
-        "lot of",
-        "many",
-        "some",
-        "a",
-        "any"
-      ],
-      "answer": 5,
-      "justification": "في النفي نستخدم 'any' مع غير المعدود."
+      "options": ["the fat", "the most big", "the biggest", "huge", "biggest", "the bigger"],
+      "answer": 2,
+      "justification": "'big' صفة قصيرة، وصيغة التفضيل: 'the biggest'."
     }
   ],
   "vocabularyQuestions": [
     {
-      "q": "We need oil to ____ the potatoes.",
-      "options": [
-        "steam",
-        "boil",
-        "grill",
-        "fry"
-      ],
-      "answer": 3,
-      "justification": "المعنى الصحيح لـ 'fry' هو 'يقلي'."
-    },
-    {
-      "q": "Dubai has many ____ buildings.",
-      "options": [
-        "old",
-        "modern",
-        "broken",
-        "ancient"
-      ],
-      "answer": 1,
-      "justification": "المعنى الصحيح لـ 'modern' هو 'حديث'."
-    },
-    {
-      "q": "Add ____ to the salad.",
-      "options": [
-        "bread",
-        "cucumber",
-        "pasta",
-        "rice"
-      ],
-      "answer": 1,
-      "justification": "المعنى الصحيح لـ 'cucumber' هو 'خيار'."
-    },
-    {
-      "q": "Crop failure caused ____.",
-      "options": [
-        "feast",
-        "flood",
-        "fire",
-        "famine"
-      ],
-      "answer": 3,
-      "justification": "المعنى الصحيح لـ 'famine' هو 'مجاعة'."
-    },
-    {
-      "q": "People need a good ____ to support their families.",
-      "options": [
-        "dream",
-        "income",
-        "vacation",
-        "hobby"
-      ],
-      "answer": 1,
-      "justification": "المعنى الصحيح لـ 'income' هو 'دخل'."
-    },
-    {
-      "q": "Your ____ connects your head with your back.",
-      "options": [
-        "hair",
-        "blood",
-        "heart",
-        "neck"
-      ],
-      "answer": 3,
-      "justification": "المعنى الصحيح لـ 'neck' هو 'رقبة'."
-    },
-    {
-      "q": "She bought dresses at a ____.",
-      "options": [
-        "bakery",
-        "garage",
-        "pharmacy",
-        "department store"
-      ],
-      "answer": 3,
-      "justification": "المعنى الصحيح لـ 'department store' هو 'متجر شامل'."
-    },
-    {
-      "q": "You can buy novels at a ____.",
-      "options": [
-        "restaurant",
-        "bakery",
-        "drugstore",
-        "bookstore"
-      ],
-      "answer": 3,
-      "justification": "المعنى الصحيح لـ 'bookstore' هو 'مكتبة بيع كتب'."
-    },
-    {
-      "q": "____ function declines without sleep.",
-      "options": [
-        "Cognitive",
-        "Muscular",
-        "Skeletal",
-        "Physical"
-      ],
+      "q": "41. John Harrison was a self-taught ____.",
+      "options": ["carpenter", "astronomer", "sailor", "politician"],
       "answer": 0,
-      "justification": "المعنى الصحيح لـ 'cognitive' هو 'معرفي'."
+      "justification": "The text describes Harrison as 'a self-taught carpenter and clockmaker'."
     },
     {
-      "q": "____ gives leaves their green color.",
-      "options": [
-        "Anthocyanin",
-        "Chlorophyll",
-        "Carotenoid",
-        "Melanin"
-      ],
+      "q": "42. The British Parliament offered a ____ of £20,000.",
+      "options": ["loan", "prize", "tax", "fine"],
       "answer": 1,
-      "justification": "المعنى الصحيح لـ 'chlorophyll' هو 'كلوروفيل'."
+      "justification": "The passage mentions 'a prize of £20,000' to solve the longitude problem."
+    },
+    {
+      "q": "43. The floating gardens are built from water ____.",
+      "options": ["lilies", "hyacinth", "lettuce", "cabbage"],
+      "answer": 1,
+      "justification": "The text says 'rafts of water hyacinth'."
+    },
+    {
+      "q": "44. The H4 chronometer lost only 5.1 ____ over 80 days.",
+      "options": ["minutes", "hours", "seconds", "days"],
+      "answer": 2,
+      "justification": "The passage specifies 'lost only 5.1 seconds over 80 days'."
+    },
+    {
+      "q": "45. The floating gardens can produce crops for up to ____ years.",
+      "options": ["five", "ten", "fifteen", "twenty"],
+      "answer": 1,
+      "justification": "The text mentions 'a single raft can produce crops for up to ten years'."
+    },
+    {
+      "q": "46. Harrison's chronometers revolutionised global ____.",
+      "options": ["navigation", "medicine", "education", "construction"],
+      "answer": 0,
+      "justification": "The text states that his clocks 'revolutionised global navigation'."
+    },
+    {
+      "q": "47. The practice of floating gardens originated in ____ Bangladesh.",
+      "options": ["northern", "eastern", "western", "southern"],
+      "answer": 3,
+      "justification": "The passage says 'this practice originated in the southern districts of Bangladesh'."
+    },
+    {
+      "q": "48. Harrison faced opposition from the ____ establishment.",
+      "options": ["medical", "astronomical", "legal", "military"],
+      "answer": 1,
+      "justification": "The text mentions 'fierce opposition from the astronomical establishment'."
+    },
+    {
+      "q": "49. The floating gardens require no chemical ____.",
+      "options": ["pesticides", "fertilisers", "additives", "preservatives"],
+      "answer": 1,
+      "justification": "The passage explains 'the system requires no chemical fertilisers'."
+    },
+    {
+      "q": "50. King ____ intervened to help Harrison.",
+      "options": ["Henry VIII", "George III", "Charles I", "James II"],
+      "answer": 1,
+      "justification": "The text states 'the personal intervention of King George III'."
     }
   ],
   "dictationQuestions": [
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "definitely",
-        "definately"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'كرونوميتر'.",
+      "options": ["chronometer", "chronometre", "chonometer", "cronometer"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'definitely'."
+      "justification": "التهجئة الصحيحة هي 'chronometer'."
     },
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "drought",
-        "drout",
-        "drowt",
-        "droughte"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'ملاحة'.",
+      "options": ["navigation", "navigasion", "navagation", "navigashun"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'drought'."
+      "justification": "التهجئة الصحيحة هي 'navigation'."
     },
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "neice",
-        "neace",
-        "niece",
-        "niese"
-      ],
-      "answer": 2,
-      "justification": "التهجئة الصحيحة هي 'niece'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "techer",
-        "teecher",
-        "teacher",
-        "teachar"
-      ],
-      "answer": 2,
-      "justification": "التهجئة الصحيحة هي 'teacher'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "pharmasy",
-        "pharmacy",
-        "farmasy"
-      ],
-      "answer": 1,
-      "justification": "التهجئة الصحيحة هي 'pharmacy'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "grandfather",
-        "grandfater",
-        "grandfathar",
-        "grandfother"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'برلمان'.",
+      "options": ["parliament", "parlament", "parliement", "parlimant"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'grandfather'."
+      "justification": "التهجئة الصحيحة هي 'parliament'."
     },
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "emblim",
-        "emblam",
-        "emblem"
-      ],
-      "answer": 2,
-      "justification": "التهجئة الصحيحة هي 'emblem'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "etiquete",
-        "etiquette",
-        "etiquet",
-        "etiket"
-      ],
-      "answer": 1,
-      "justification": "التهجئة الصحيحة هي 'etiquette'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "aspirin",
-        "aspirine",
-        "aspiren",
-        "asparin"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'وادي السيليكون'.",
+      "options": ["hyacinth", "hyacinthe", "hyascinth", "hyasinth"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'aspirin'."
+      "justification": "التهجئة الصحيحة هي 'hyacinth'."
     },
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "membrane",
-        "membren",
-        "membrain"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'هيئة'.",
+      "options": ["board", "bored", "boord", "bord"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'membrane'."
+      "justification": "التهجئة الصحيحة هي 'board'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'تدخل'.",
+      "options": ["intervention", "intervension", "intervantion", "intervansion"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'intervention'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'أسمدة'.",
+      "options": ["fertiliser", "fertilizer", "fertiliser", "fertilliser"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'fertiliser'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'أرصاد جوية'.",
+      "options": ["meteorological", "meterological", "meteorologicle", "metrological"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'meteorological'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'استوائي'.",
+      "options": ["transatlantic", "transatlantik", "transatlantec", "transatlantique"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'transatlantic'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'دقة'.",
+      "options": ["accuracy", "acuracy", "accurasy", "acurracy"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'accuracy'."
     }
   ]
 }
