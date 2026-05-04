@@ -1,58 +1,89 @@
 <div class="grammar-content">
+<style>
+  .circle-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin: 2rem 0; }
+  .circle-card { 
+    width: 130px; height: 130px; border-radius: 50%; 
+    background: linear-gradient(145deg, #e6f0fa, #ffffff);
+    box-shadow: 0 8px 20px rgba(0,113,227,0.15);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    font-weight: 700; text-align: center; padding: 0.5rem;
+    border: 3px solid #0071e3;
+    transition: transform 0.2s;
+  }
+  .circle-card:hover { transform: scale(1.05); }
+  .circle-card .adj { font-size: 1.2rem; color: #1d1d1f; }
+  .circle-card .comp { font-size: 1rem; color: #0071e3; }
+  .circle-card .number { font-size: 0.8rem; color: #ff9500; margin-top: 4px; }
+  .section-title { font-size: 1.4rem; font-weight: 700; margin-top: 2rem; color: #0071e3; text-align: center; }
+</style>
+
 <h2>📊 Comparative & Superlative (المقارنة والتفضيل)</h2>
 
-<h3>🔹 Comparative (المقارنة بين شيئين)</h3>
-<p><strong>الاستخدام:</strong> للمقارنة بين شخصين أو شيئين.</p>
-<p><strong>القاعدة:</strong></p>
-<ul>
-<li>الصفات القصيرة (مقطع واحد): <b>صفة + er + than</b></li>
-<li>الصفات الطويلة (مقطعين فأكثر): <b>more + صفة + than</b></li>
-</ul>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr><th>الصفة القصيرة</th><th>الصفة الطويلة</th></tr>
-<tr><td>Ali is <b>taller</b> than Omar.</td><td>This car is <b>more expensive</b> than that one.</td></tr>
-<tr><td>Today is <b>hotter</b> than yesterday.</td><td>English is <b>more interesting</b> than math.</td></tr>
-<tr><td>She is <b>happier</b> than her sister.</td><td>This exam was <b>more difficult</b> than the last one.</td></tr>
-</table>
+<h3>🔹 Comparative Adjectives (المقارنة بين شيئين)</h3>
 
-<h3>🔸 Superlative (التفضيل بين مجموعة)</h3>
-<p><strong>الاستخدام:</strong> لتفضيل شيء واحد على كل المجموعة.</p>
-<p><strong>القاعدة:</strong></p>
-<ul>
-<li>الصفات القصيرة: <b>the + صفة + est</b></li>
-<li>الصفات الطويلة: <b>the most + صفة</b></li>
-</ul>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr><th>الصفة القصيرة</th><th>الصفة الطويلة</th></tr>
-<tr><td>He is <b>the tallest</b> student.</td><td>This is <b>the most beautiful</b> painting.</td></tr>
-<tr><td>It was <b>the coldest</b> winter.</td><td>She is <b>the most intelligent</b> in the class.</td></tr>
-<tr><td>That was <b>the easiest</b> test.</td><td>It was <b>the most exciting</b> trip ever.</td></tr>
-</table>
+<!-- الصفات القصيرة + er + than -->
+<div class="section-title">① الصفات القصيرة (+er + than)</div>
+<div class="circle-container">
+  <div class="circle-card"><span class="adj">short</span><span class="comp">shorter</span><span class="number">1</span></div>
+  <div class="circle-card"><span class="adj">small</span><span class="comp">smaller</span><span class="number">2</span></div>
+  <div class="circle-card"><span class="adj">big</span><span class="comp">bigger</span><span class="number">3</span></div>
+  <div class="circle-card"><span class="adj">tall</span><span class="comp">taller</span><span class="number">4</span></div>
+</div>
 
-<h3>⚠️ شواذ مهمة:</h3>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr><th>الصفة</th><th>Comparative</th><th>Superlative</th></tr>
-<tr><td>good</td><td>better</td><td>best</td></tr>
-<tr><td>bad</td><td>worse</td><td>worst</td></tr>
-<tr><td>far</td><td>farther / further</td><td>farthest / furthest</td></tr>
-</table>
+<!-- الصفات التي تنتهي بـ Y -->
+<div class="section-title">② الصفات التي تنتهي بـ Y (Y → i + er)</div>
+<div class="circle-container">
+  <div class="circle-card"><span class="adj">easy</span><span class="comp">easier</span><span class="number">1</span></div>
+  <div class="circle-card"><span class="adj">heavy</span><span class="comp">heavier</span><span class="number">2</span></div>
+  <div class="circle-card"><span class="adj">happy</span><span class="comp">happier</span><span class="number">3</span></div>
+  <div class="circle-card"><span class="adj">busy</span><span class="comp">busier</span><span class="number">4</span></div>
+</div>
+
+<!-- الشواذ -->
+<div class="section-title">③ الشواذ (Irregular)</div>
+<div class="circle-container">
+  <div class="circle-card"><span class="adj">good</span><span class="comp">better</span><span class="number">1</span></div>
+  <div class="circle-card"><span class="adj">bad</span><span class="comp">worse</span><span class="number">2</span></div>
+  <div class="circle-card"><span class="adj">far</span><span class="comp">farther</span><span class="number">3</span></div>
+</div>
+
+<!-- More / Less + صفة طويلة -->
+<div class="section-title">④ الصفات الطويلة (More / Less + adj + than)</div>
+<div class="circle-container">
+  <div class="circle-card"><span class="adj">beautiful</span><span class="comp">more beautiful</span><span class="number">1</span></div>
+  <div class="circle-card"><span class="adj">amazing</span><span class="comp">more amazing</span><span class="number">2</span></div>
+  <div class="circle-card"><span class="adj">careful</span><span class="comp">more careful</span><span class="number">3</span></div>
+  <div class="circle-card"><span class="adj">interesting</span><span class="comp">more interesting</span><span class="number">4</span></div>
+  <div class="circle-card"><span class="adj">stressful</span><span class="comp">more stressful</span><span class="number">5</span></div>
+  <div class="circle-card"><span class="adj">marvelous</span><span class="comp">more marvelous</span><span class="number">6</span></div>
+</div>
 
 <hr>
 
-<h3>🟰 as...as (المساواة في المقارنة)</h3>
-<p><strong>الاستخدام:</strong> للتعبير عن أن شيئين متساويان في الصفة.</p>
-<p><strong>التركيب:</strong> as + صفة + as</p>
-<ul>
-<li>Jimmy is <b>as tall as</b> his brother.</li>
-<li>This book is <b>as interesting as</b> that one.</li>
-</ul>
+<h3>🔹 Superlative (التفضيل بين مجموعة)</h3>
 
-<h3>🚫 not as...as (نفي المساواة)</h3>
-<p><strong>الاستخدام:</strong> للتعبير عن أن شيئاً أقل في الصفة من الآخر.</p>
-<p><strong>التركيب:</strong> not + as + صفة + as</p>
-<ul>
-<li>Jimmy is <b>not as fast as</b> his father.</li>
-<li>This test was <b>not as difficult as</b> the previous one.</li>
-</ul>
-<p><strong>ملاحظة:</strong> يمكن استخدام <b>less + صفة + than</b> كبديل رسمي: <em>This test was less difficult than the previous one.</em></p>
+<div class="section-title">الصفات القصيرة (the + adj + est)</div>
+<div class="circle-container">
+  <div class="circle-card"><span class="adj">tall</span><span class="comp">the tallest</span><span class="number">1</span></div>
+  <div class="circle-card"><span class="adj">big</span><span class="comp">the biggest</span><span class="number">2</span></div>
+  <div class="circle-card"><span class="adj">easy</span><span class="comp">the easiest</span><span class="number">3</span></div>
+  <div class="circle-card"><span class="adj">good</span><span class="comp">the best</span><span class="number">4</span></div>
+  <div class="circle-card"><span class="adj">bad</span><span class="comp">the worst</span><span class="number">5</span></div>
+</div>
+
+<div class="section-title">الصفات الطويلة (the most / the least + adj)</div>
+<div class="circle-container">
+  <div class="circle-card"><span class="adj">beautiful</span><span class="comp">the most beautiful</span><span class="number">1</span></div>
+  <div class="circle-card"><span class="adj">interesting</span><span class="comp">the most interesting</span><span class="number">2</span></div>
+  <div class="circle-card"><span class="adj">careful</span><span class="comp">the least careful</span><span class="number">3</span></div>
+</div>
+
+<hr>
+
+<h3>🟰 as...as (المساواة)</h3>
+<p style="text-align:center;font-size:1.1rem;">
+Jimmy is <b>as tall as</b> his brother. (متساويان)<br>
+🚫 <b>not as...as</b> (نفي المساواة): Jimmy is <b>not as fast as</b> his father.
+</p>
+
 </div>
