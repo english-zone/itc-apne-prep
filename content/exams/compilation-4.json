@@ -1,103 +1,75 @@
 {
-  "title": "تجميع 4 – 9/8/2022 (أسئلة غير مكررة)",
+  "title": "تجميع 4 – 9/8/2022 (60 سؤالاً)",
   "passages": [
     {
-      "title": "The Quiet Revolution of Vertical Farming",
-      "text": "In the heart of Singapore, a country that imports more than 90% of its food, a quiet agricultural revolution is taking place – not across sprawling fields, but inside towering glass skyscrapers. Known as vertical farming, this method involves growing crops in stacked layers, often without soil, using hydroponic or aeroponic systems. The concept may sound like science fiction, yet it is already producing tonnes of leafy greens, herbs, and even strawberries annually. Proponents argue that vertical farming could be the answer to feeding a global population that is expected to reach 10 billion by 2050, especially as climate change makes traditional agriculture increasingly unpredictable.\n\nThe advantages of vertical farming are compelling. Because crops are grown indoors, they are not affected by droughts, floods, or extreme temperatures. Pesticides become unnecessary, as the sealed environment keeps pests out. Water usage is reduced by up to 95% compared to conventional farming. Moreover, vertical farms can be built in the middle of cities, drastically cutting the distance that food travels from farm to plate – a concept known as 'food miles'. This not only reduces carbon emissions from transport but also means that city dwellers have access to fresher produce that is harvested only hours before it arrives at their table.\n\nHowever, the technology is not without its challenges. The most significant barrier is energy consumption. Since sunlight is replaced by powerful LED lamps that run for up to 18 hours a day, electricity bills can be enormous. Although advances in LED efficiency and the falling cost of renewable energy are helping to mitigate this problem, many vertical farms still rely on electricity grids that are powered largely by fossil fuels. Critics also point out that the range of crops that can be grown vertically is currently limited to high‑value, fast‑growing plants such as lettuce and basil. Staple crops like wheat, rice, and maize remain firmly in the domain of traditional agriculture due to their large space requirements and longer growing cycles.\n\nEconomically, vertical farming is still finding its feet. The initial setup costs are very high, and investors are often cautious. Nevertheless, during the COVID‑19 pandemic, when global supply chains were disrupted, several vertical‑farming startups saw a surge in demand as governments scrambled to increase local food production. In 2021, a major US retailer partnered with a vertical‑farming company to supply over 200 of its stores with locally grown greens. Analysts predict that the vertical farming market, valued at around $4 billion in 2023, will grow to more than $30 billion by 2032. Such growth would be transformative – but only if the industry can solve its energy and scalability problems.\n\nScientists are now experimenting with solutions that once seemed far‑fetched. Researchers in the Netherlands have developed 'smart glass' that adjusts its tint to deliver the optimal spectrum of sunlight to plants, reducing the need for artificial lighting. In Japan, robotic arms are being trained to plant, monitor, and harvest crops with minimal human intervention, addressing labour shortages. Perhaps most excitingly, geneticists are editing the DNA of crops to make them shorter and bushier, specifically adapting them to life indoors. Whether vertical farming will eventually replace the open field remains an open question, but one thing is certain: the journey from farm to fork is being rewritten, one vertical layer at a time.",
+      "title": "The Lost Art of Murex Purple",
+      "text": "In the ancient Mediterranean, the colour purple was worth more than gold. The dye, known as Tyrian purple, was extracted from the glands of thousands of small sea snails called Murex. It took an estimated 10,000 snails to produce just one gram of the brilliant dye, making it so expensive that only emperors and high-ranking priests could wear garments coloured with it. The process was both laborious and highly malodorous, requiring the snails to be crushed and boiled for days in lead vats.\n\nSo exclusive was the colour that Roman emperors passed laws forbidding anyone outside the imperial family from wearing it, on pain of death. The dye became a symbol of power and authority across the Mediterranean. Even a single stripe of purple on a toga indicated senatorial rank. As a result, Tyrian purple was not only a luxury item but also a political tool, controlling who could display status through colour.\n\nThe knowledge of the dye’s production was slowly eroded by wars and the decline of the Roman Empire. When Constantinople fell to the Ottoman Turks in 1453 CE, the last workshops producing Tyrian purple were destroyed. The secret formula, passed down through generations of dyers, vanished overnight. For centuries, the brilliant purple of the ancients remained a mystery, known only from faded manuscripts and archaeological fragments.\n\nToday, a handful of researchers in Tunisia and Lebanon are trying to resurrect the ancient craft. By studying ancient texts and analysing residues on pottery shards, they have managed to recreate small quantities of the dye. The experiments have shown that the process was even more complex than historians had imagined, requiring precise temperature control and specific timing. The rediscovery of Tyrian purple could benefit modern textile industries, offering a natural, sustainable alternative to synthetic dyes.\n\nMoreover, the revival of Murex purple is not just about chemistry. It is a journey into the cultural and economic heart of the ancient world. The colour that once adorned the robes of Cleopatra and the curtains of the Temple of Solomon is being recreated today, reconnecting us with our past. The hope is that one day, this ancient luxury will be accessible to everyone, not just the imperial elite.",
       "questions": [
         {
-          "q": "1. What is the main reason Singapore is a leader in vertical farming?",
-          "options": [
-            "It has the largest fields in Asia",
-            "It imports more than 90% of its food",
-            "It has banned traditional farming",
-            "It has the cheapest electricity"
-          ],
-          "answer": 1,
-          "justification": "النص يوضح أن سنغافورة تستورد أكثر من 90% من غذائها، مما يجعلها متحمسة لتطوير الزراعة العمودية كحل بديل."
+          "q": "1. What was Tyrian purple made from?",
+          "options": ["Chemical mixtures", "Mountain minerals", "Berry juice", "Sea snails"],
+          "answer": 3,
+          "justification": "The text explicitly states that the dye was extracted from the glands of small sea snails called Murex. Sea snails are the source, not minerals, berries, or chemicals."
         },
         {
-          "q": "2. What is a major environmental benefit of vertical farming?",
-          "options": [
-            "It uses more water than traditional farming",
-            "It increases 'food miles'",
-            "It reduces water usage by up to 95%",
-            "It requires large amounts of pesticides"
-          ],
+          "q": "2. Why was the colour purple restricted to emperors?",
+          "options": ["It faded too quickly", "It was considered unlucky", "It was extremely expensive to produce", "It was too bright for common people"],
           "answer": 2,
-          "justification": "النص يذكر أن استهلاك الماء ينخفض بنسبة تصل إلى 95% مقارنة بالزراعة التقليدية."
+          "justification": "The passage explains that it took 10,000 snails to produce just one gram, making it more valuable than gold. This extreme cost is why only emperors and high-ranking priests could afford it, and why laws restricted its use."
         },
         {
-          "q": "3. Which challenge of vertical farming is highlighted in the passage?",
-          "options": [
-            "Lack of consumer interest",
-            "High energy consumption for LED lighting",
-            "Excessive use of pesticides",
-            "Inability to grow any crops"
-          ],
+          "q": "3. How many snails were needed to produce one gram of the dye?",
+          "options": ["About 1,000", "About 10,000", "About 100", "About 100,000"],
           "answer": 1,
-          "justification": "يوضح النص أن التحدي الأكبر هو استهلاك الطاقة بسبب اضطرار المصابيح للعمل حتى 18 ساعة يومياً."
+          "justification": "The passage states clearly 'an estimated 10,000 snails to produce just one gram'. This highlights the incredible effort required."
         },
         {
-          "q": "4. According to the passage, what happened during the COVID‑19 pandemic?",
-          "options": [
-            "Vertical farms closed permanently",
-            "Demand for locally grown food increased",
-            "Governments banned vertical farming",
-            "LED lights became obsolete"
-          ],
+          "q": "4. What happened to the knowledge of Tyrian purple production?",
+          "options": ["It was sold to the Chinese", "It was lost when Constantinople fell", "It was recorded in the Bible", "It was taken to Rome and preserved"],
           "answer": 1,
-          "justification": "يشير النص إلى أن الطلب على شركات الزراعة العمودية ارتفع أثناء الجائحة عندما تعطلت سلاسل التوريد."
+          "justification": "The text mentions that when Constantinople fell to the Ottoman Turks in 1453 CE, the last workshops were destroyed and the secret formula vanished."
+        },
+        {
+          "q": "5. Why are modern researchers trying to recreate the dye?",
+          "options": ["To write a history book", "To sell it to emperors", "To benefit modern textile industries with a natural alternative", "To prove the Bible wrong"],
+          "answer": 2,
+          "justification": "The final paragraphs explain that recreating the dye could offer a natural, sustainable alternative to synthetic dyes, benefiting modern textile industries."
         }
       ]
     },
     {
-      "title": "The Enigma of the Antikythera Mechanism",
-      "text": "In 1901, a group of sponge divers off the coast of Antikythera, a small Greek island, discovered the remains of an ancient Roman shipwreck. Among statues, pottery, and coins, they retrieved a corroded lump of bronze and wood that appeared unremarkable at first glance. It was not until months later, when the lump cracked open and revealed intricate gear wheels inside, that archaeologists began to suspect they had found something extraordinary. Today, the Antikythera Mechanism is widely regarded as the world’s first analogue computer, a device so advanced that nothing comparable would be built again until the 14th century.\n\nThe mechanism consists of at least 30 bronze gears housed in a wooden case about the size of a shoebox. By turning a single hand crank, the user could track the movements of the sun, the moon, and the five known planets of antiquity with astonishing precision. It could also predict solar and lunar eclipses decades in advance, and some evidence suggests it may have even indicated the dates of important sporting events such as the Olympic Games. The intricacy of the device shocked historians, who had long assumed that the Greeks, while brilliant philosophers, lacked the technical know‑how to produce such precision machinery.\n\nX‑ray and CT scans carried out in the 21st century have allowed researchers to peer inside the corroded fragments without damaging them. These scans revealed tiny inscriptions, written in ancient Greek, which appear to be a kind of user manual. The inscriptions mention the names of planets and months, and describe the cycles of astronomical bodies. Based on the style of the lettering, scholars date the mechanism to between 150 and 100 BCE, making it over 2,100 years old. Some experts have speculated that it may have been built in the workshop of the philosopher Posidonius on the island of Rhodes, although this remains unconfirmed.\n\nThe function and sophistication of the mechanism have led to heated debates about its origins. Some fringe theorists have even suggested that such an advanced device must have been brought to Earth by extraterrestrials – a claim strongly rejected by mainstream archaeologists. A more likely explanation is that the device represented the culmination of centuries of Greek knowledge in astronomy, mathematics, and mechanical engineering. The technology appears to have been lost after the fall of the Roman Empire, and it took more than a thousand years for Europe to rediscover the principles required to build similar gear‑driven devices.\n\nEven today, the Antikythera Mechanism continues to inspire scientists and engineers. In 2021, a team of researchers from University College London used the inscriptions and mathematical models to reconstruct a complete digital version of what the machine must have looked like when it was whole. Their model matched the physical fragments almost perfectly, confirming that the mechanism truly could perform all the calculations that ancient texts hinted at. For many, the mechanism serves as a humbling reminder that the ancient world was far more technically sophisticated than we often give it credit for – and that some of the greatest discoveries may emerge from the most unassuming lumps of corroded metal.",
+      "title": "The Underground City That Breathes",
+      "text": "Beneath the streets of Montreal, Canada, lies a sprawling network of tunnels stretching 32 kilometres. Known as the Underground City or RÉSO, this subterranean labyrinth connects shopping centres, office buildings, hotels, and universities, enabling residents to escape the harsh Canadian winter for months at a time. The system began in the 1960s with a single tunnel linking Place Ville Marie to the Queen Elizabeth Hotel.\n\nOver the decades it grew organically, with no overall master plan, yet today it carries over 500,000 people daily. The tunnels are lined with over 1,600 boutiques, restaurants, movie theatres, and even art installations. Commuters can travel from their apartments to their offices without ever stepping outside, a blessing when temperatures drop below -30°C.\n\nDespite its name, the Underground City is not purely below ground; much of it consists of indoor walkways at street level and above. It features green spaces, water fountains, and natural light shafts that simulate daylight. Engineers have designed the ventilation system to mimic fresh air, making the environment surprisingly pleasant. The RÉSO has become a model for urban planners worldwide, who study how this accidental wonder keeps a cold city warm and pedestrian-friendly.\n\nHowever, the Underground City also faces challenges. Its labyrinthine nature can confuse visitors, and parts of it feel dated. Maintenance is costly, and integrating new developments into the existing network requires complex negotiations between private and public stakeholders. Despite these issues, Montrealers have embraced the RÉSO as an integral part of their identity, a refuge from winter and a symbol of the city's innovative spirit.\n\nLooking forward, there are plans to extend the network even further, connecting new universities and hospitals. The vision is to create a fully integrated urban environment where people can live, work, and play indoors during extreme weather, a concept that might become increasingly relevant as climate change brings more unpredictable weather to cities around the globe.",
       "questions": [
         {
-          "q": "1. Where was the Antikythera Mechanism discovered?",
-          "options": [
-            "In a desert in Egypt",
-            "In a Roman shipwreck near Greece",
-            "Buried in the Roman Forum",
-            "In a Mayan temple"
-          ],
-          "answer": 1,
-          "justification": "الفقرة الأولى تذكر أن الغواصين عثروا على الآلية في حطام سفينة رومانية قرب جزيرة أنتيكيثيرا اليونانية."
-        },
-        {
-          "q": "2. What is the Antikythera Mechanism often called?",
-          "options": [
-            "The first steam engine",
-            "The world's first analogue computer",
-            "The first electric clock",
-            "The first telescope"
-          ],
-          "answer": 1,
-          "justification": "يصف النص الآلية بأنها أول حاسوب تمثيلي (analogue computer) في العالم."
-        },
-        {
-          "q": "3. How did 21st‑century researchers read the inscriptions inside the mechanism without damaging it?",
-          "options": [
-            "They took it apart piece by piece",
-            "They used X‑ray and CT scans",
-            "They polished the surface until the text appeared",
-            "They used chemical baths"
-          ],
-          "answer": 1,
-          "justification": "الفقرة الثالثة توضح أن الباحثين استخدموا الأشعة السينية والتصوير الطبقي (CT scans) لقراءة النقوش دون ضرر."
-        },
-        {
-          "q": "4. According to the passage, what happened to the technology after the Roman Empire fell?",
-          "options": [
-            "It was improved by the Vikings",
-            "It was taken to China",
-            "It was lost for over a thousand years",
-            "It was duplicated immediately"
-          ],
+          "q": "6. What is the Underground City known as?",
+          "options": ["The Metro", "The Catacombs", "RÉSO", "The Subway"],
           "answer": 2,
-          "justification": "يشير النص إلى أن التقنية فُقدت لأكثر من ألف عام بعد سقوط الإمبراطورية الرومانية."
+          "justification": "The text introduces the Underground City and immediately gives its alternative name: 'known as … RÉSO'."
+        },
+        {
+          "q": "7. Why was the Underground City originally built?",
+          "options": ["To hide from enemies", "To connect buildings and escape winter", "To mine for gold", "To create a tourist attraction"],
+          "answer": 1,
+          "justification": "The passage states that it connects buildings and enables residents to escape the harsh Canadian winter."
+        },
+        {
+          "q": "8. How many people use the network daily?",
+          "options": ["100,000", "Over 500,000", "1 million", "50,000"],
+          "answer": 1,
+          "justification": "The text says 'today it carries over 500,000 people daily'."
+        },
+        {
+          "q": "9. What makes the RÉSO feel natural despite being underground?",
+          "options": ["Artificial sunlight only", "Green spaces, water fountains, and light shafts", "Loud music", "Dark tunnels"],
+          "answer": 1,
+          "justification": "The text mentions green spaces, water fountains, and natural light shafts that simulate daylight, making the environment pleasant."
+        },
+        {
+          "q": "10. What do urban planners from other cities do with the RÉSO?",
+          "options": ["Ignore it", "Criticise it", "Study it as a model", "Compete with it"],
+          "answer": 2,
+          "justification": "The passage says 'urban planners worldwide study how this accidental wonder keeps a cold city warm and pedestrian-friendly'."
         }
       ]
     }
@@ -105,673 +77,362 @@
   "grammarQuestions": [
     {
       "q": "Q6: My father died ______ June.",
-      "options": [
-        "D. for",
-        "B. at",
-        "A. on",
-        "C. in"
-      ],
-      "answer": 3,
-      "justification": "مع الشهور نستخدم 'in'."
+      "options": ["A. on", "C. in", "B. at", "D. for"],
+      "answer": 1,
+      "justification": "مع الشهور نستخدم حرف الجر 'in'."
+
     },
     {
       "q": "Q9: What are you doing ______ home?",
-      "options": [
-        "D. on",
-        "C. to",
-        "A. in",
-        "B. at"
-      ],
-      "answer": 3,
-      "justification": "'at home' تعني في البيت."
+      "options": ["B. at", "A. in", "C. to", "D. on"],
+      "answer": 0,
+      "justification": "'at home' تعني في البيت. 'in' لا تستخدم مع home بهذا المعنى."
     },
     {
       "q": "Q10: Khalid always gets up ______ 6 o’clock.",
-      "options": [
-        "B. for",
-        "D. on",
-        "C. at",
-        "A. in"
-      ],
-      "answer": 2,
+      "options": ["C. at", "A. in", "B. for", "D. on"],
+      "answer": 0,
       "justification": "مع الساعات نستخدم 'at'."
     },
     {
       "q": "Q1: I usually go ______ the mall for shopping.",
-      "options": [
-        "D. for",
-        "C. in",
-        "B. at",
-        "A. to"
-      ],
-      "answer": 3,
+      "options": ["A. to", "B. at", "C. in", "D. for"],
+      "answer": 0,
       "justification": "'go to' للذهاب إلى مكان."
     },
     {
       "q": "Q4: The deer was killed ______ the lion.",
-      "options": [
-        "D. for",
-        "C. in",
-        "B. by",
-        "A. from"
-      ],
-      "answer": 2,
+      "options": ["B. by", "A. from", "C. in", "D. for"],
+      "answer": 0,
       "justification": "في المبني للمجهول نستخدم 'by'."
     },
     {
       "q": "Q5: Sometimes Ahmad goes to school ______ bus.",
-      "options": [
-        "D. for",
-        "B. in",
-        "A. to",
-        "C. by"
-      ],
-      "answer": 3,
+      "options": ["C. by", "A. to", "B. in", "D. for"],
+      "answer": 0,
       "justification": "لوسائل النقل نستخدم 'by'."
     },
     {
       "q": "My teacher used to come to class with a ______.",
-      "options": [
-        "C. pens",
-        "B. some pens",
-        "A. few pens",
-        "D. many pens"
-      ],
+      "options": ["C. pens", "A. few pens", "B. some pens", "D. many pens"],
       "answer": 0,
       "justification": "'pens' وحدها تكفي مع 'a'."
     },
     {
       "q": "Don’t take this book. It’s ______.",
-      "options": [
-        "D. he",
-        "C. his",
-        "A. mine",
-        "B. hers"
-      ],
-      "answer": 2,
+      "options": ["A. mine", "B. hers", "C. his", "D. he"],
+      "answer": 0,
       "justification": "'mine' ضمير ملكية للمتكلم."
     },
     {
       "q": "Reading Practice China: 1. China ______ a rich culture.",
-      "options": [
-        "b) had",
-        "c) had been",
-        "a) has",
-        "d) had been going to"
-      ],
-      "answer": 2,
+      "options": ["a) has", "b) had", "c) had been", "d) had been going to"],
+      "answer": 0,
       "justification": "حقيقة عامة: Present Simple."
     },
     {
       "q": "Reading Practice China: 2. China ______ ruled by dynasties.",
-      "options": [
-        "a) is",
-        "b) was",
-        "d) is going to be",
-        "c) were"
-      ],
-      "answer": 1,
+      "options": ["b) was", "a) is", "c) were", "d) is going to be"],
+      "answer": 0,
       "justification": "حدث تاريخي: Past Simple Passive."
     },
     {
       "q": "Reading Practice China: 3. The Himalaya ______ southern China.",
-      "options": [
-        "c) had crossed",
-        "b) crossed",
-        "a) cross",
-        "d) were crossing"
-      ],
-      "answer": 2,
+      "options": ["a) cross", "b) crossed", "c) had crossed", "d) were crossing"],
+      "answer": 0,
       "justification": "حقيقة جغرافية: Present Simple."
     },
     {
       "q": "Can you swim?",
-      "options": [
-        "Yes, I was",
-        "Yes, I am",
-        "Yes, I did",
-        "Yes, I can"
-      ],
-      "answer": 3,
+      "options": ["D. Yes, I can", "A. Yes, I was", "B. Yes, I did", "C. Yes, I am"],
+      "answer": 0,
       "justification": "السؤال بـ 'Can you'، الإجابة بـ 'Yes, I can'."
     },
     {
       "q": "I am ______. I want some Pepsi.",
-      "options": [
-        "thirstier",
-        "thirsty",
-        "thirstiest",
-        "the thirstiest"
-      ],
-      "answer": 1,
+      "options": ["D. thirsty", "A. the thirstiest", "B. thirstiest", "C. thirstier"],
+      "answer": 0,
       "justification": "وصف الحاضر البسيط."
     },
     {
       "q": "______ is your teacher?",
-      "options": [
-        "Who",
-        "What",
-        "When",
-        "Why"
-      ],
+      "options": ["A. Who", "B. Why", "C. What", "D. When"],
       "answer": 0,
       "justification": "للسؤال عن شخص نستخدم 'Who'."
     },
     {
       "q": "My friend is ______ in my classroom.",
-      "options": [
-        "hungry",
-        "hungrier",
-        "hungriest",
-        "the hungriest"
-      ],
+      "options": ["A. hungry", "B. hungrier", "C. the hungriest", "D. hungriest"],
       "answer": 0,
       "justification": "جملة بسيطة، الصفة الأساسية 'hungry'."
     },
     {
       "q": "Erawan is ______ waterfall in Kanchanaburi.",
-      "options": [
-        "beautiful",
-        "more beautiful",
-        "most beautiful",
-        "the most beautiful"
-      ],
-      "answer": 3,
+      "options": ["C. the most beautiful", "A. most beautiful", "B. more beautiful", "D. beautiful"],
+      "answer": 0,
       "justification": "تفضيل: 'the most beautiful'."
     },
     {
       "q": "I am ______ Math student in my class.",
-      "options": [
-        "better",
-        "the better",
-        "the best",
-        "best"
-      ],
-      "answer": 2,
+      "options": ["D. the best", "A. best", "B. better", "C. the better"],
+      "answer": 0,
       "justification": "تفضيل: 'the best'."
     },
     {
       "q": "My father ______ a teacher at my school.",
-      "options": [
-        "was",
-        "are",
-        "am",
-        "is"
-      ],
-      "answer": 3,
+      "options": ["A. is", "B. am", "C. are", "D. was"],
+      "answer": 0,
       "justification": "حقيقة عامة: Present Simple."
     },
     {
       "q": "I ______ to Pattaya last weekend.",
-      "options": [
-        "went",
-        "will go",
-        "go",
-        "shall go"
-      ],
+      "options": ["B. went", "A. go", "C. will go", "D. shall go"],
       "answer": 0,
       "justification": "'last weekend' ماضي: 'went'."
     },
     {
       "q": "A: _________ B: I have a headache.",
-      "options": [
-        "What happened?",
-        "What's the matter?",
-        "Where are you going?"
-      ],
-      "answer": 1,
+      "options": ["A. What's the matter?", "B. Where are you going?", "C. What happened?"],
+      "answer": 0,
       "justification": "للسؤال عن المشكلة: 'What's the matter?'"
     },
     {
       "q": "My flower is ______ than your flower.",
-      "options": [
-        "more beautiful",
-        "the more beautiful",
-        "as beautiful",
-        "the most beautiful"
-      ],
+      "options": ["C. more beautiful", "A. as beautiful", "B. the more beautiful", "D. the most beautiful"],
       "answer": 0,
       "justification": "مقارنة: 'more beautiful than'."
     },
     {
       "q": "Where do kangaroos come from?",
-      "options": [
-        "Australia",
-        "Thailand",
-        "America",
-        "Singapore"
-      ],
+      "options": ["B. Australia", "A. Singapore", "C. America", "D. Thailand"],
       "answer": 0,
       "justification": "الكنغر يعيش في أستراليا."
     },
     {
       "q": "April is ______ month.",
-      "options": [
-        "the hottest",
-        "hot",
-        "hotter",
-        "hottest"
-      ],
+      "options": ["D. the hottest", "A. hottest", "B. hotter", "C. hot"],
       "answer": 0,
       "justification": "تفضيل: 'the hottest'."
     },
     {
       "q": "Did your friends go to your birthday party?",
-      "options": [
-        "Yes, they did.",
-        "Yes, he did.",
-        "Yes, you did.",
-        "Yes, she did."
-      ],
+      "options": ["C. Yes, they did.", "A. Yes, he did.", "B. Yes, she did.", "D. Yes, you did."],
       "answer": 0,
       "justification": "'friends' جمع: 'they did'."
     },
     {
       "q": "Songkran is ______ April.",
-      "options": [
-        "to",
-        "on",
-        "in",
-        "at"
-      ],
-      "answer": 2,
+      "options": ["A. in", "B. on", "C. to", "D. at"],
+      "answer": 0,
       "justification": "مع الشهور: 'in'."
     },
     {
       "q": "This is ______ car. It is ______.",
-      "options": [
-        "mine, my",
-        "my, my",
-        "mine, mine",
-        "my, mine"
-      ],
-      "answer": 3,
+      "options": ["A. my, mine", "B. mine, mine", "C. my, my", "D. mine, my"],
+      "answer": 0,
       "justification": "الأولى صفة ملكية، الثانية ضمير ملكية."
     },
     {
       "q": "What day do Christians go to Church?",
-      "options": [
-        "Saturday",
-        "Every day",
-        "Sunday",
-        "Friday"
-      ],
-      "answer": 2,
+      "options": ["A. Sunday", "B. Saturday", "C. Friday", "D. Every day"],
+      "answer": 0,
       "justification": "يوم الأحد هو يوم الصلاة المعتاد."
     },
     {
       "q": "Did you go to Chiang Mai last weekend?",
-      "options": [
-        "Yes, you did.",
-        "Yes, I am.",
-        "Yes, you were.",
-        "Yes, I did."
-      ],
-      "answer": 3,
+      "options": ["A. Yes, I did.", "B. Yes, you were.", "C. Yes, you did.", "D. Yes, I am."],
+      "answer": 0,
       "justification": "السؤال بـ 'Did you'، الإجابة 'Yes, I did'."
     },
     {
       "q": "I ___ go to school yesterday, because I was ill.",
-      "options": [
-        "don't",
-        "do not",
-        "doesn't",
-        "didn't"
-      ],
-      "answer": 3,
+      "options": ["A. didn't", "B. doesn't", "C. do not", "D. don't"],
+      "answer": 0,
       "justification": "نفي الماضي بـ 'didn't'."
     },
     {
       "q": "What does your mother look like?",
-      "options": [
-        "he doesn't know.",
-        "She is tall and thin.",
-        "She likes to read books.",
-        "She likes to look at flowers."
-      ],
-      "answer": 1,
+      "options": ["C. She is tall and thin.", "A. he doesn't know.", "B. She likes to look at flowers.", "D. She likes to read books."],
+      "answer": 0,
       "justification": "وصف الشكل الخارجي."
     },
     {
       "q": "How long ____ lunch?",
-      "options": [
-        "was you eating",
-        "was you eat",
-        "were you eating",
-        "were you eat"
-      ],
-      "answer": 2,
+      "options": ["C. were you eating", "A. were you eat", "B. was you eating", "D. was you eat"],
+      "answer": 0,
       "justification": "Past Continuous: 'were you eating'."
     },
     {
       "q": "My school ______ a gym.",
-      "options": [
-        "had",
-        "was",
-        "have",
-        "has"
-      ],
-      "answer": 3,
+      "options": ["D. has", "A. have", "B. had", "C. was"],
+      "answer": 0,
       "justification": "حقيقة حالية: Present Simple."
     },
     {
       "q": "A: How __ is the train ride? B: About ten hours.",
-      "options": [
-        "long",
-        "far",
-        "go",
-        "much"
-      ],
+      "options": ["A. long", "B. much", "C. far", "D. go"],
       "answer": 0,
       "justification": "للمدة: 'How long'."
     },
     {
       "q": "A: How __ is it from BKK to Samut Prakan? B: 35 kms.",
-      "options": [
-        "much",
-        "many",
-        "far",
-        "long"
-      ],
-      "answer": 2,
+      "options": ["D. far", "A. long", "B. much", "C. many"],
+      "answer": 0,
       "justification": "للمسافة: 'How far'."
     },
     {
       "q": "I shall ___ to school tomorrow.",
-      "options": [
-        "walked",
-        "was walk",
-        "go walk",
-        "walk"
-      ],
-      "answer": 3,
+      "options": ["D. walk", "A. go walk", "B. walked", "C. was walk"],
+      "answer": 0,
       "justification": "بعد 'shall' يأتي المصدر: 'walk'."
     },
     {
       "q": "A: What are carrots, beans and cabbages? B: ______.",
-      "options": [
-        "vegetables",
-        "desserts",
-        "drinks",
-        "sweets"
-      ],
+      "options": ["B. vegetables", "A. sweets", "C. drinks", "D. desserts"],
       "answer": 0,
       "justification": "كلها خضروات."
     },
     {
       "q": "I am ______ a book now.",
-      "options": [
-        "were read",
-        "is reading",
-        "was reading",
-        "reading"
-      ],
-      "answer": 3,
+      "options": ["D. reading", "A. were read", "B. is reading", "C. was reading"],
+      "answer": 0,
       "justification": "'am reading' مضارع مستمر."
     },
     {
       "q": "I have lunch ______ half past eleven.",
-      "options": [
-        "in",
-        "before",
-        "on",
-        "at"
-      ],
-      "answer": 3,
+      "options": ["C. at", "A. in", "B. on", "D. before"],
+      "answer": 0,
       "justification": "مع الساعات: 'at'."
     },
     {
       "q": "December is ______ month.",
-      "options": [
-        "coldest",
-        "cold",
-        "colder",
-        "the coldest"
-      ],
-      "answer": 3,
-      "justification": "تفضيل: 'the coldest'."
-    },
-    {
-      "q": "She ___ study at my school next year.",
-      "options": [
-        "won't",
-        "wasn't",
-        "doesn't",
-        "does"
-      ],
+      "options": ["A. the coldest", "B. colder", "C. cold", "D. coldest"],
       "answer": 0,
-      "justification": "نفي المستقبل: 'won't'."
-    },
-    {
-      "q": "How ___ apples are there in the basket?",
-      "options": [
-        "were",
-        "many",
-        "did",
-        "much"
-      ],
-      "answer": 1,
-      "justification": "'apples' معدود: 'How many'."
+      "justification": "تفضيل: 'the coldest'."
     }
   ],
   "vocabularyQuestions": [
     {
-      "q": "His monthly ____ is SR10000.",
-      "options": [
-        "income",
-        "expense",
-        "bill",
-        "debt"
-      ],
+      "q": "41. Tyrian purple was extracted from the ______ of sea snails.",
+      "options": ["shells", "glands", "tails", "eggs"],
+      "answer": 1,
+      "justification": "The text says 'extracted from the glands of thousands of small sea snails'."
+    },
+    {
+      "q": "42. The dye was so expensive that only ______ could wear it.",
+      "options": ["soldiers", "farmers", "emperors", "merchants"],
+      "answer": 2,
+      "justification": "The text states 'only emperors and high-ranking priests could wear garments coloured with it'."
+    },
+    {
+      "q": "43. The Underground City is also called ______.",
+      "options": ["The Metro", "RÉSO", "The Catacombs", "The Labyrinth"],
+      "answer": 1,
+      "justification": "The passage introduces it as 'known as the Underground City or RÉSO'."
+    },
+    {
+      "q": "44. The RÉSO enables residents to escape the harsh Canadian ______.",
+      "options": ["summer", "winter", "rain", "wind"],
+      "answer": 1,
+      "justification": "The text says 'escape the harsh Canadian winter'."
+    },
+    {
+      "q": "45. The tunnels are lined with over 1,600 ______.",
+      "options": ["boutiques", "factories", "schools", "hospitals"],
       "answer": 0,
-      "justification": "المعنى الصحيح لـ 'income' هو 'دخل'."
+      "justification": "The passage mentions 'over 1,600 boutiques, restaurants, movie theatres'."
     },
     {
-      "q": "Food is broken down during ____.",
-      "options": [
-        "exercise",
-        "digestion",
-        "sleep",
-        "reading"
-      ],
+      "q": "46. Tyrian purple became a symbol of ______ and authority.",
+      "options": ["poverty", "power", "weakness", "humility"],
       "answer": 1,
-      "justification": "المعنى الصحيح لـ 'digestion' هو 'هضم'."
+      "justification": "The text explains 'a symbol of power and authority'."
     },
     {
-      "q": "Ash was ejected into the ____.",
-      "options": [
-        "ocean",
-        "stratosphere",
-        "city",
-        "ground"
-      ],
+      "q": "47. The RÉSO has ______ spaces and water fountains.",
+      "options": ["parking", "green", "industrial", "storage"],
       "answer": 1,
-      "justification": "المعنى الصحيح لـ 'stratosphere' هو 'الستراتوسفير'."
+      "justification": "The passage mentions 'green spaces, water fountains'."
     },
     {
-      "q": "Wear a ____ to protect your head from the sun.",
-      "options": [
-        "gloves",
-        "scarf",
-        "hat",
-        "belt"
-      ],
+      "q": "48. The last workshops producing Tyrian purple were destroyed in ______.",
+      "options": ["Rome", "Athens", "Constantinople", "Alexandria"],
       "answer": 2,
-      "justification": "المعنى الصحيح لـ 'hat' هو 'قبعة'."
+      "justification": "The text says 'when Constantinople fell … the last workshops … were destroyed'."
     },
     {
-      "q": "I've got a terrible ____. I need aspirin.",
-      "options": [
-        "stomachache",
-        "earache",
-        "toothache",
-        "headache"
-      ],
-      "answer": 3,
-      "justification": "المعنى الصحيح لـ 'headache' هو 'صداع'."
-    },
-    {
-      "q": "____ vents emit superheated water.",
-      "options": [
-        "Electrical",
-        "Hydrothermal",
-        "Geothermal",
-        "Solar"
-      ],
+      "q": "49. The RÉSO is studied by urban planners from cities as far as ______.",
+      "options": ["Paris and London", "Tokyo and Moscow", "New York and Boston", "Dubai and Riyadh"],
       "answer": 1,
-      "justification": "المعنى الصحيح لـ 'hydrothermal' هو 'حرمائي'."
+      "justification": "The passage says 'urban planners from cities as far as Tokyo and Moscow regularly visit Montreal to study'."
     },
     {
-      "q": "Petra was ____ located.",
-      "options": [
-        "randomly",
-        "poorly",
-        "strategically",
-        "recently"
-      ],
-      "answer": 2,
-      "justification": "المعنى الصحيح لـ 'strategically' هو 'استراتيجياً'."
-    },
-    {
-      "q": "I eat ____ at 7 AM.",
-      "options": [
-        "lunch",
-        "breakfast",
-        "supper",
-        "dinner"
-      ],
+      "q": "50. Researchers are trying to resurrect the ancient craft of Tyrian purple in ______ and Lebanon.",
+      "options": ["Egypt", "Tunisia", "Morocco", "Algeria"],
       "answer": 1,
-      "justification": "المعنى الصحيح لـ 'breakfast' هو 'فطور'."
-    },
-    {
-      "q": "Data ____ occurs through cables.",
-      "options": [
-        "deletion",
-        "storage",
-        "transmission",
-        "collection"
-      ],
-      "answer": 2,
-      "justification": "المعنى الصحيح لـ 'transmission' هو 'انتقال'."
-    },
-    {
-      "q": "Getting married is his top ____.",
-      "options": [
-        "income",
-        "environment",
-        "problem",
-        "priority"
-      ],
-      "answer": 3,
-      "justification": "المعنى الصحيح لـ 'priority' هو 'أولوية'."
+      "justification": "The text mentions 'a handful of researchers in Tunisia and Lebanon'."
     }
   ],
   "dictationQuestions": [
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "compeny",
-        "company"
-      ],
-      "answer": 1,
-      "justification": "التهجئة الصحيحة هي 'company'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "addected",
-        "addictedd",
-        "addicted",
-        "adicted"
-      ],
-      "answer": 2,
-      "justification": "التهجئة الصحيحة هي 'addicted'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "irregashion",
-        "irigation",
-        "irrigation",
-        "irrrigation"
-      ],
-      "answer": 2,
-      "justification": "التهجئة الصحيحة هي 'irrigation'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "krayons",
-        "crayons",
-        "crayones",
-        "crayonns"
-      ],
-      "answer": 1,
-      "justification": "التهجئة الصحيحة هي 'crayons'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "diabetes",
-        "daibetes",
-        "diabetis",
-        "diabitis"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'غدد'.",
+      "options": ["glands", "glands", "glandes", "glans"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'diabetes'."
+      "justification": "التهجئة الصحيحة هي 'glands'."
     },
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "minerals",
-        "minarals",
-        "minarils",
-        "minrels"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'ورش العمل'.",
+      "options": ["workshops", "workshpos", "workshoops", "worksshops"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'minerals'."
+      "justification": "التهجئة الصحيحة هي 'workshops'."
     },
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "dissease",
-        "diseez",
-        "disease",
-        "diseas"
-      ],
-      "answer": 2,
-      "justification": "التهجئة الصحيحة هي 'disease'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "cuccumber",
-        "cucamber",
-        "cucumber",
-        "cucumbar"
-      ],
-      "answer": 2,
-      "justification": "التهجئة الصحيحة هي 'cucumber'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "seperate",
-        "separate"
-      ],
-      "answer": 1,
-      "justification": "التهجئة الصحيحة هي 'separate'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "insulin",
-        "insulim",
-        "insolen",
-        "insuline"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'تحت الأرض'.",
+      "options": ["subterranean", "subterranian", "subteranean", "subterrainian"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'insulin'."
+      "justification": "التهجئة الصحيحة هي 'subterranean'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'متاهة'.",
+      "options": ["labyrinth", "labarinth", "labyrinthe", "labirynth"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'labyrinth'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'إحياء'.",
+      "options": ["resurrect", "resurect", "resurrect", "resurrect"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'resurrect'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'مخطوطات'.",
+      "options": ["manuscripts", "manuskripts", "manucscripts", "manuscrpits"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'manuscripts'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'تهوية'.",
+      "options": ["ventilation", "ventillation", "ventilashun", "ventilasion"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'ventilation'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'محاكاة'.",
+      "options": ["simulate", "stimulate", "simualte", "simulat"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'simulate'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'مستدام'.",
+      "options": ["sustainable", "sustainible", "sustanable", "sustinable"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'sustainable'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'طرق المشاة'.",
+      "options": ["pedestrian", "pedestrain", "pedistrian", "padestrian"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'pedestrian'."
     }
   ]
 }
