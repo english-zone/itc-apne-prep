@@ -1,0 +1,73 @@
+{
+  "reading": [
+    {
+      "title": "The Life of a Plastic Bottle",
+      "text": "Every year, billions of plastic bottles are produced, used, and discarded. A plastic bottle begins its life as crude oil, which is processed into polymers. These polymers are melted and molded into the familiar bottle shape. After being filled with water or soda, the bottle is shipped to a store, where it may sit on a shelf for weeks. Once purchased, its contents are consumed in minutes, but the bottle itself can last for hundreds of years in a landfill. Only a fraction of plastic bottles are recycled. The rest end up in oceans, harming marine life. Scientists are working on biodegradable alternatives, but for now, the plastic bottle remains a symbol of our throwaway culture.",
+      "questions": [
+        {"q":"1. What is the raw material for plastic bottles?","options":["Sand","Crude oil","Wood","Metal"],"answer":1,"page":"Extra 3"},
+        {"q":"2. What are polymers?","options":["Minerals","Processed oil","Glass","Fibers"],"answer":1,"page":"Extra 3"},
+        {"q":"3. How long can a plastic bottle last in a landfill?","options":["Weeks","Months","Years","Hundreds of years"],"answer":3,"page":"Extra 3"},
+        {"q":"4. What fraction of bottles is recycled?","options":["Most","A small fraction","All","Half"],"answer":1,"page":"Extra 3"},
+        {"q":"5. What are scientists developing as an alternative?","options":["Glass bottles","Biodegradable materials","Metal cans","Paper cups"],"answer":1,"page":"Extra 3"}
+      ]
+    },
+    {
+      "title": "The Great Wall of China: Myth and Reality",
+      "text": "The Great Wall of China, stretching over 13,000 miles, is one of the most impressive architectural feats in history. Contrary to popular belief, it is not a single continuous wall, but a series of walls built by different dynasties over centuries. The most famous sections were constructed during the Ming Dynasty (1368–1644 CE). The wall was designed to protect Chinese states from northern invaders. While it is often said to be visible from space, this is largely a myth; most astronauts report that it is very difficult to see with the naked eye. Today, millions of tourists visit the wall each year, contributing to its preservation and to China's economy.",
+      "questions": [
+        {"q":"6. How long is the Great Wall?","options":["5,000 miles","8,000 miles","13,000 miles","20,000 miles"],"answer":2,"page":"Extra 3"},
+        {"q":"7. Which dynasty built the most famous sections?","options":["Qin","Han","Tang","Ming"],"answer":3,"page":"Extra 3"},
+        {"q":"8. What was the purpose of the wall?","options":["Decoration","Protection from invaders","Trade","Agriculture"],"answer":1,"page":"Extra 3"},
+        {"q":"9. Is the wall clearly visible from space?","options":["Yes, always","Only at night","Largely a myth","Only with telescopes"],"answer":2,"page":"Extra 3"},
+        {"q":"10. How does tourism help the wall today?","options":["Destroys it","Preservation and economy","Makes it shorter","Changes its color"],"answer":1,"page":"Extra 3"}
+      ]
+    },
+    {
+      "title": "The Power of Music on the Brain",
+      "text": "Listening to music activates many parts of the brain simultaneously. The auditory cortex processes sound, while the prefrontal cortex analyzes structure and expectations. Music also triggers the limbic system, which controls emotions. This is why a particular song can make us feel happy, sad, or nostalgic within seconds. Studies show that playing a musical instrument can improve memory, attention, and even mathematical ability. In therapy, music is used to help patients recover from strokes and manage stress and anxiety. The universal appeal of music suggests it plays a deep role in human evolution and social bonding.",
+      "questions": [
+        {"q":"11. Which part of the brain processes sound?","options":["Prefrontal cortex","Limbic system","Auditory cortex","Cerebellum"],"answer":2,"page":"Extra 3"},
+        {"q":"12. What controls emotions when listening to music?","options":["Auditory cortex","Limbic system","Cerebellum","Brain stem"],"answer":1,"page":"Extra 3"},
+        {"q":"13. What can playing an instrument improve?","options":["Only memory","Memory, attention, and math","Only math","Physical strength"],"answer":1,"page":"Extra 3"},
+        {"q":"14. In therapy, what does music help patients recover from?","options":["Strokes","Broken bones","Vision loss","Skin diseases"],"answer":0,"page":"Extra 3"},
+        {"q":"15. The passage suggests music contributed to human ___","options":["Extinction","Evolution and bonding","Wars","Isolation"],"answer":1,"page":"Extra 3"}
+      ]
+    }
+  ],
+  "vocabulary": [
+    {"english":"crude oil","arabic":"نفط خام","page":"Extra 3","question":{"q":"Plastic starts as ____.","options":["water","crude oil","sand","wood"],"answer":1}},
+    {"english":"biodegradable","arabic":"قابل للتحلل الحيوي","page":"Extra 3","question":{"q":"Scientists want ____ alternatives.","options":["biodegradable","plastic","glass","metal"],"answer":0}},
+    {"english":"dynasty","arabic":"سلالة","page":"Extra 3","question":{"q":"The Ming ____ ruled China.","options":["Dynasty","Empire","Republic","Kingdom"],"answer":0}},
+    {"english":"visible","arabic":"مرئي","page":"Extra 3","question":{"q":"The wall is not ____ from space.","options":["invisible","visible","strong","weak"],"answer":1}},
+    {"english":"auditory","arabic":"سمعي","page":"Extra 3","question":{"q":"The ____ cortex processes sound.","options":["visual","auditory","olfactory","motor"],"answer":1}},
+    {"english":"limbic","arabic":"حوفي (نظام)","page":"Extra 3","question":{"q":"The ____ system controls emotions.","options":["limbic","nervous","digestive","respiratory"],"answer":0}},
+    {"english":"nostalgic","arabic":"حنين للماضي","page":"Extra 3","question":{"q":"Old songs make me feel ____.","options":["angry","nostalgic","hungry","tired"],"answer":1}},
+    {"english":"therapy","arabic":"علاج","page":"Extra 3","question":{"q":"Music ____ helps stroke patients.","options":["therapy","surgery","pill","injection"],"answer":0}},
+    {"english":"evolution","arabic":"تطور","page":"Extra 3","question":{"q":"Music may have a role in human ____.","options":["evolution","destruction","pollution","confusion"],"answer":0}},
+    {"english":"simultaneously","arabic":"في آن واحد","page":"Extra 3","question":{"q":"Music activates many brain areas ____.","options":["simultaneously","separately","slowly","never"],"answer":0}}
+  ],
+  "grammar": [
+    {"q":"Plastic bottles ____ made from crude oil.","options":["is","are","was","be"],"answer":1,"topic":"Passive Voice"},
+    {"q":"The Great Wall ____ built over centuries.","options":["is","was","were","are"],"answer":1,"topic":"Past Simple Passive"},
+    {"q":"Music ____ emotions in the limbic system.","options":["trigger","triggers","triggered","triggering"],"answer":1,"topic":"Present Simple"},
+    {"q":"By next year, scientists ____ a new biodegradable material.","options":["develop","developed","will have developed","develops"],"answer":2,"topic":"Future Perfect"},
+    {"q":"The bottles ____ recycled properly.","options":["is not","are not","was not","does not"],"answer":1,"topic":"Passive Voice Negative"},
+    {"q":"If you listen to music, you ____ happier.","options":["become","became","will become","becomes"],"answer":2,"topic":"First Conditional"},
+    {"q":"She enjoys ____ plastic creatively.","options":["reuse","reusing","reuses","reused"],"answer":1,"topic":"Gerund"},
+    {"q":"The brain's response to music ____ studied for decades.","options":["has been","have been","was","were"],"answer":0,"topic":"Present Perfect Passive"},
+    {"q":"This is the ____ interesting research I have read.","options":["more","most","much","many"],"answer":1,"topic":"Superlative"},
+    {"q":"They stopped ____ plastic bags.","options":["to use","using","use","uses"],"answer":1,"topic":"Gerund"}
+  ],
+  "dictation": [
+    {"correct":"biodegradable","options":["biodegradable","biodegradeble","biodegradible","biodigradable"]},
+    {"correct":"dynasty","options":["dynasty","dinasty","dynesty","dienasty"]},
+    {"correct":"auditory","options":["auditory","awditory","auditary","ouditory"]},
+    {"correct":"limbic","options":["limbic","limbik","lymbic","limbec"]},
+    {"correct":"nostalgic","options":["nostalgic","nostaljic","nastalgec","nostalgik"]},
+    {"correct":"therapy","options":["therapy","therapie","tharapy","therapee"]},
+    {"correct":"evolution","options":["evolution","evolushun","evolusion","evollution"]},
+    {"correct":"simultaneously","options":["simultaneously","simultaneusly","simaltaneously","simultaniously"]},
+    {"correct":"molecule","options":["molecule","mollecule","moleycule","molekule"]},
+    {"correct":"architectural","options":["architectural","architectural","architectual","arkitectural"]}
+  ]
+}
