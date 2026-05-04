@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مراجعة التجميعات</title>
+<link rel="stylesheet" href="../../css/style.css">
+<style>
+.container { max-width: 750px; margin: auto; background: white; border-radius: 28px; padding: 1.5rem; }
+.passage-box { background: #f8f9fd; border-radius: 16px; padding: 1.2rem; margin-bottom: 1.5rem; white-space: pre-wrap; line-height: 1.9; max-height: 400px; overflow-y: auto; }
+.q-card { background: #f5f5f7; border-radius: 16px; padding: 1.2rem; margin-bottom: 1.5rem; }
+.q-text { font-weight: 600; margin-bottom: 0.8rem; }
+.options-list { list-style: none; padding: 0; }
+.options-list li { padding: 0.4rem 0; border-bottom: 1px solid #e9e9ef; cursor: pointer; }
+.options-list li:hover { background: #eef; }
+.justification { margin-top: 0.8rem; padding: 0.8rem; border-radius: 10px; display: none; font-size: 0.9rem; }
+.justification.correct { background: #e8f5e9; color: #2e7d32; border-right: 4px solid #2e7d32; display: block; }
+.justification.wrong { background: #fbe9e7; color: #c62828; border-right: 4px solid #c62828; display: block; }
+</style>
+</head>
+<body>
+<div class="container"><h2>📚 اختبار المحاكاة</h2><p>انقر على أي خيار لترى التبرير.</p><div id="content">جاري التحميل...</div></div>
+<script>
+const params = new URLSearchParams(window.location.search);
+const file = params.get('file') || 'compilation-1.json';
+fetch(file).then(r => { if(!r.ok) throw new Error('ملف غير موجود'); return r.json(); })
+.then(data => {
+    let html = '', qNum = 0;
+    if (data.passages) {
+        data.passages.forEach(p => {
+            html += `<h3>📖 ${p.title}</h3><div class="passage-box">${p.text.replace(/\n/g,'<br>')}</div>`;
+            if (p.questions) p.questions.forEach(q => {
+                html += `<div class="q-card" id="q${qNum}"><div class="q-text">${++qNum}. ${q.q}</div><ul class="options-list">`;
+                q.options.forEach((opt, oi) => html += `<li onclick="showJustification(${qNum-1}, ${oi}, 'passage')">${opt}</li>`);
+                html += '</ul><div class="justification" id="j' + (qNum-1) + '"></div></div>';
+            });
+        });
+    }
+    if (data.grammarQuestions) {
+        html += '<h3>📝 أسئلة القواعد</h3>';
+        data.grammarQuestions.forEach(q => {
+            html += `<div class="q-card" id="q${qNum}"><div class="q-text">${++qNum}. ${q.q}</div><ul class="options-list">`;
+            q.options.forEach((opt, oi) => html += `<li onclick="showJustification(${qNum-1}, ${oi}, 'grammar')">${opt}</li>`);
+            html += '</ul><div class="justification" id="j' + (qNum-1) + '"></div></div>';
+        });
+    }
+    document.getElementById('content').innerHTML = html || '<p>لا توجد أسئلة.</p>';
+    window.questionsData = data;
+}).catch(err => document.getElementById('content').innerHTML = `<p style="color:red;">تعذر التحميل: ${err.message}</p>`);
+
+function showJustification(qIndex, selectedIndex, type) {
+    let q = null;
+    if (type === 'passage' && window.questionsData.passages) {
+        let offset = 0;
+        for (const p of window.questionsData.passages) {
+            if (p.questions && qIndex - offset < p.questions.length) { q = p.questions[qIndex - offset]; break; }
+            offset += (p.questions || []).length;
+        }
+    } else if (type === 'grammar' && window.questionsData.grammarQuestions) {
+        const passageOffset = window.questionsData.passages ? window.questionsData.passages.reduce((s, p) => s + (p.questions ? p.questions.length : 0), 0) : 0;
+        q = window.questionsData.grammarQuestions[qIndex - passageOffset];
+    }
+    if (!q) return;
+    const isCorrect = (selectedIndex === q.answer);
+    const el = document.getElementById('j' + qIndex);
+    el.className = 'justification ' + (isCorrect ? 'correct' : 'wrong');
+    el.textContent = (isCorrect ? '✅ صحيح! ' : '❌ خطأ. ') + q.justification;
+}
+</script>
+</body>
+</html>

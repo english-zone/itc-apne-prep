@@ -1,0 +1,16 @@
+{
+  "title": "تجميع 1",
+  "passages": [
+    {
+      "title": "محاكاة: الزراعة العمودية",
+      "text": "Vertical farming is an innovative method of growing crops...",
+      "questions": [
+        {"q": "ما هي الزراعة العمودية؟", "options": ["زراعة في الحقول", "زراعة في طبقات مكدسة", "زراعة تحت الماء", "زراعة في الصحاري"], "answer": 1, "justification": "الزراعة العمودية هي زراعة المحاصيل في طبقات مكدسة."}
+      ]
+    }
+  ],
+  "grammarQuestions": [
+    {"q": "The office _____ every day.", "options": ["is cleaned", "cleans", "was clean"], "answer": 0, "justification": "المبني للمجهول في المضارع البسيط: is + past participle."},
+    {"q": "They _____ to the market every day.", "options": ["go", "goes", "went"], "answer": 0, "justification": "الفاعل جمع، والمضارع البسيط يأخذ الفعل بصيغة الجمع."}
+  ]
+}

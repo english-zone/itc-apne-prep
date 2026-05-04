@@ -15,39 +15,20 @@
 <body>
 <div class="container">
   <h1>🔐 تجميعات المحاكاة</h1>
-  <p style="color:#86868b;">اختبارات محاكية مأخوذة من تجميعات الطلاب السابقة. كل تجميع يفتح اختباراً مع التبريرات.</p>
-  <div class="coll-grid">
-    <div class="coll-card">
-      <h3>1 تجمع</h3>
-      <p>اختبار محاكي 1  + قطعتين</p>
-      <a href="content/exams/compilation-review.html?file=compilation-1.json">فتح</a>
-    </div>
-    <div class="coll-card">
-      <h3>2 تجمع</h3>
-      <p>اختبار محاكي 2 + قطعتين</p>
-      <a href="content/exams/compilation-review.html?file=compilation-2.json">فتح</a>
-    </div>
-    <div class="coll-card">
-      <h3>3 تجمع</h3>
-      <p>اختبار محاكي 3 + قطعتين</p>
-      <a href="content/exams/compilation-review.html?file=compilation-3.json">فتح</a>
-    </div>
-    <div class="coll-card">
-      <h3>4 تجمع</h3>
-      <p>اختبار محاكي 4 + قطعتين</p>
-      <a href="content/exams/compilation-review.html?file=compilation-4.json">فتح</a>
-    </div>
-    <div class="coll-card">
-      <h3>5 تجمع</h3>
-      <p>اختبار محاكي 5 + قطعتين</p>
-      <a href="content/exams/compilation-review.html?file=compilation-5.json">فتح</a>
-    </div>
-    <div class="coll-card">
-      <h3>6 تجمع</h3>
-      <p>اختبار محاكي 6 + قطعتين</p>
-      <a href="content/exams/compilation-review.html?file=compilation-6.json">فتح</a>
-    </div>
-  </div>
+  <p style="color:#86868b;">اختر التجميع الذي تريد التدرب عليه.</p>
+  <div class="coll-grid" id="grid"></div>
 </div>
+<script>
+const base = 'content/exams/compilation-review.html?file=compilation-';
+let html = '';
+for (let i = 1; i <= 6; i++) {
+    html += `<div class="coll-card">
+        <h3>${i} تجمع</h3>
+        <p>اختبار محاكي ${i} + قطعتين</p>
+        <a href="${base}${i}.json">فتح</a>
+    </div>`;
+}
+document.getElementById('grid').innerHTML = html;
+</script>
 </body>
 </html>
