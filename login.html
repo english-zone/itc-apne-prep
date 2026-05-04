@@ -15,13 +15,14 @@
 </head>
 <body>
     <div class="login-box">
-        <h2>🔐 تجميعات الطلاب</h2>
-        <p style="color:#86868b;margin-bottom:1rem;">أدخل كلمة المرور للوصول إلى التجميعات</p>
+        <h2>🔐 منطقة التجميعات</h2>
+        <p style="color:#86868b;margin-bottom:1rem;">هذا القسم مخصص للاختبارات المحاكية. أدخل كلمة المرور للمتابعة.</p>
         <input type="password" id="password" placeholder="كلمة المرور">
         <button onclick="checkPassword()">دخول</button>
         <div class="error" id="error"></div>
     </div>
     <script>
+        // كلمة المرور الافتراضية: reyadah2025
         const correctPassword = "reyadah2025";
         function checkPassword() {
             const pw = document.getElementById("password").value;
