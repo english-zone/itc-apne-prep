@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تجميعات الطلاب</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .coll-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.2rem; margin: 1.5rem 0; }
+        .coll-card { background: white; border-radius: 20px; padding: 1.3rem; box-shadow: 0 2px 12px rgba(0,0,0,0.04); text-align: center; }
+        .coll-card h3 { margin-top: 0; color: #1d1d1f; }
+        .coll-card p { color: #86868b; font-size: 0.9rem; }
+        .coll-card a { display: inline-block; background: #0071e3; color: white; padding: 0.5rem 1.2rem; border-radius: 20px; text-decoration: none; font-weight: 500; margin-top: 0.8rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔐 تجميعات الطلاب</h1>
+        <p style="color:#86868b;">محتوى حصري للطلاب المسجلين في مركز الريادة للتدريب.</p>
+        <div class="coll-grid">
+            <div class="coll-card">
+                <h3>📚 اختبارات الكتاب المقرر</h3>
+                <p>جميع اختبارات الكتاب من الصفحات 5 إلى 87</p>
+                <a href="exams.html">فتح</a>
+            </div>
+            <div class="coll-card">
+                <h3>🧪 اختبار محاكي APNE</h3>
+                <p>اختبار تجريبي شامل من 7 أقسام</p>
+                <a href="exam.html">فتح</a>
+            </div>
+            <div class="coll-card">
+                <h3>📘 جميع القواعد</h3>
+                <p>فهرس كامل لدروس القواعد لجميع الأيام</p>
+                <a href="grammar.html">فتح</a>
+            </div>
+            <div class="coll-card">
+                <h3>📖 القاموس الشامل</h3>
+                <p>كل كلمات البرنامج مع الترجمة ورقم الصفحة</p>
+                <a href="dictionary.html">فتح</a>
+            </div>
+            <div class="coll-card">
+                <h3>⚠️ مراجعة الأخطاء</h3>
+                <p>الأخطاء التي سجلتها في الاختبارات السابقة</p>
+                <a href="mistakes.html">فتح</a>
+            </div>
+            <div class="coll-card">
+                <h3>✍️ الإملاء الشامل</h3>
+                <p>تدرب على تهجئة الكلمات من جميع الأيام</p>
+                <a href="dictation.html?day=7">فتح</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
