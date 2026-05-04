@@ -1,747 +1,407 @@
 {
-  "title": "تجميع 3 – ITC 2022/2 (40 سؤالاً)",
+  "title": "تجميع 3 – ITC 2022/2 (60 سؤالاً كاملاً)",
   "passages": [
     {
-      "title": "The Quiet Revolution of Vertical Farming",
-      "text": "In the heart of Singapore, a country that imports more than 90% of its food, a quiet agricultural revolution is taking place – not across sprawling fields, but inside towering glass skyscrapers. Known as vertical farming, this method involves growing crops in stacked layers, often without soil, using hydroponic or aeroponic systems. The concept may sound like science fiction, yet it is already producing tonnes of leafy greens, herbs, and even strawberries annually. Proponents argue that vertical farming could be the answer to feeding a global population that is expected to reach 10 billion by 2050, especially as climate change makes traditional agriculture increasingly unpredictable.\n\nThe advantages of vertical farming are compelling. Because crops are grown indoors, they are not affected by droughts, floods, or extreme temperatures. Pesticides become unnecessary, as the sealed environment keeps pests out. Water usage is reduced by up to 95% compared to conventional farming. Moreover, vertical farms can be built in the middle of cities, drastically cutting the distance that food travels from farm to plate – a concept known as 'food miles'. This not only reduces carbon emissions from transport but also means that city dwellers have access to fresher produce that is harvested only hours before it arrives at their table.\n\nHowever, the technology is not without its challenges. The most significant barrier is energy consumption. Since sunlight is replaced by powerful LED lamps that run for up to 18 hours a day, electricity bills can be enormous. Although advances in LED efficiency and the falling cost of renewable energy are helping to mitigate this problem, many vertical farms still rely on electricity grids that are powered largely by fossil fuels. Critics also point out that the range of crops that can be grown vertically is currently limited to high‑value, fast‑growing plants such as lettuce and basil. Staple crops like wheat, rice, and maize remain firmly in the domain of traditional agriculture due to their large space requirements and longer growing cycles.\n\nEconomically, vertical farming is still finding its feet. The initial setup costs are very high, and investors are often cautious. Nevertheless, during the COVID‑19 pandemic, when global supply chains were disrupted, several vertical‑farming startups saw a surge in demand as governments scrambled to increase local food production. In 2021, a major US retailer partnered with a vertical‑farming company to supply over 200 of its stores with locally grown greens. Analysts predict that the vertical farming market, valued at around $4 billion in 2023, will grow to more than $30 billion by 2032. Such growth would be transformative – but only if the industry can solve its energy and scalability problems.\n\nScientists are now experimenting with solutions that once seemed far‑fetched. Researchers in the Netherlands have developed 'smart glass' that adjusts its tint to deliver the optimal spectrum of sunlight to plants, reducing the need for artificial lighting. In Japan, robotic arms are being trained to plant, monitor, and harvest crops with minimal human intervention, addressing labour shortages. Perhaps most excitingly, geneticists are editing the DNA of crops to make them shorter and bushier, specifically adapting them to life indoors. Whether vertical farming will eventually replace the open field remains an open question, but one thing is certain: the journey from farm to fork is being rewritten, one vertical layer at a time.",
+      "title": "The Vanishing Language of the Kallawaya",
+      "text": "High in the Bolivian Andes, a small group of healers known as the Kallawaya have passed down a secret language for centuries. Unlike most languages, which are spoken in daily life, this tongue is used exclusively for healing rituals and the transmission of medicinal knowledge. The Kallawaya themselves are renowned throughout South America for their extensive pharmacopoeia, which includes over 1,000 plant species. Their language, however, is far more than a mere technical jargon; it is a complete linguistic system with its own grammar and syntax, believed by some researchers to be a remnant of the language spoken by the Inca nobility before the Spanish conquest. Today, fewer than 100 fluent speakers remain, all of them elderly. Anthropologists warn that if the language dies, it will take with it centuries of botanical wisdom that could hold the key to new medical treatments. Efforts are now underway to document the language and the plant knowledge it encodes before it is too late.",
       "questions": [
         {
-          "q": "1. What is the main reason Singapore is a leader in vertical farming?",
-          "options": [
-            "It has the largest fields in Asia",
-            "It imports more than 90% of its food",
-            "It has banned traditional farming",
-            "It has the cheapest electricity"
-          ],
-          "answer": 1,
-          "justification": "النص يوضح أن سنغافورة تستورد أكثر من 90% من غذائها، مما يجعلها متحمسة لتطوير الزراعة العمودية كحل بديل."
-        },
-        {
-          "q": "2. What is a major environmental benefit of vertical farming?",
-          "options": [
-            "It uses more water than traditional farming",
-            "It increases 'food miles'",
-            "It reduces water usage by up to 95%",
-            "It requires large amounts of pesticides"
-          ],
+          "q": "1. What is the Kallawaya language primarily used for?",
+          "options": ["Daily conversation", "Trade negotiations", "Healing rituals", "Religious ceremonies"],
           "answer": 2,
-          "justification": "النص يذكر أن استهلاك الماء ينخفض بنسبة تصل إلى 95% مقارنة بالزراعة التقليدية."
+          "justification": "النص يذكر صراحةً أن هذه اللغة تُستخدم 'حصراً لطقوس العلاج'. الخيارات الأخرى مثل المحادثة اليومية أو التجارة لم تُذكر، مما يجعلها غير صحيحة."
         },
         {
-          "q": "3. Which challenge of vertical farming is highlighted in the passage?",
-          "options": [
-            "Lack of consumer interest",
-            "High energy consumption for LED lighting",
-            "Excessive use of pesticides",
-            "Inability to grow any crops"
-          ],
+          "q": "2. Why do anthropologists consider the loss of the Kallawaya language a crisis?",
+          "options": ["It is the last language in Bolivia", "It contains valuable medical knowledge", "The Kallawaya people are disappearing", "It is the only language in the Andes"],
           "answer": 1,
-          "justification": "يوضح النص أن التحدي الأكبر هو استهلاك الطاقة بسبب اضطرار المصابيح للعمل حتى 18 ساعة يومياً."
-        },
-        {
-          "q": "4. According to the passage, what happened during the COVID‑19 pandemic?",
-          "options": [
-            "Vertical farms closed permanently",
-            "Demand for locally grown food increased",
-            "Governments banned vertical farming",
-            "LED lights became obsolete"
-          ],
-          "answer": 1,
-          "justification": "يشير النص إلى أن الطلب على شركات الزراعة العمودية ارتفع أثناء الجائحة عندما تعطلت سلاسل التوريد."
+          "justification": "يشير النص إلى أن اللغة تحمل 'قروناً من الحكمة النباتية' التي يمكن أن تؤدي إلى علاجات طبية جديدة. فقدان اللغة يعني فقدان هذه المعرفة القيمة."
         }
       ]
     },
     {
-      "title": "The Enigma of the Antikythera Mechanism",
-      "text": "In 1901, a group of sponge divers off the coast of Antikythera, a small Greek island, discovered the remains of an ancient Roman shipwreck. Among statues, pottery, and coins, they retrieved a corroded lump of bronze and wood that appeared unremarkable at first glance. It was not until months later, when the lump cracked open and revealed intricate gear wheels inside, that archaeologists began to suspect they had found something extraordinary. Today, the Antikythera Mechanism is widely regarded as the world’s first analogue computer, a device so advanced that nothing comparable would be built again until the 14th century.\n\nThe mechanism consists of at least 30 bronze gears housed in a wooden case about the size of a shoebox. By turning a single hand crank, the user could track the movements of the sun, the moon, and the five known planets of antiquity with astonishing precision. It could also predict solar and lunar eclipses decades in advance, and some evidence suggests it may have even indicated the dates of important sporting events such as the Olympic Games. The intricacy of the device shocked historians, who had long assumed that the Greeks, while brilliant philosophers, lacked the technical know‑how to produce such precision machinery.\n\nX‑ray and CT scans carried out in the 21st century have allowed researchers to peer inside the corroded fragments without damaging them. These scans revealed tiny inscriptions, written in ancient Greek, which appear to be a kind of user manual. The inscriptions mention the names of planets and months, and describe the cycles of astronomical bodies. Based on the style of the lettering, scholars date the mechanism to between 150 and 100 BCE, making it over 2,100 years old. Some experts have speculated that it may have been built in the workshop of the philosopher Posidonius on the island of Rhodes, although this remains unconfirmed.\n\nThe function and sophistication of the mechanism have led to heated debates about its origins. Some fringe theorists have even suggested that such an advanced device must have been brought to Earth by extraterrestrials – a claim strongly rejected by mainstream archaeologists. A more likely explanation is that the device represented the culmination of centuries of Greek knowledge in astronomy, mathematics, and mechanical engineering. The technology appears to have been lost after the fall of the Roman Empire, and it took more than a thousand years for Europe to rediscover the principles required to build similar gear‑driven devices.\n\nEven today, the Antikythera Mechanism continues to inspire scientists and engineers. In 2021, a team of researchers from University College London used the inscriptions and mathematical models to reconstruct a complete digital version of what the machine must have looked like when it was whole. Their model matched the physical fragments almost perfectly, confirming that the mechanism truly could perform all the calculations that ancient texts hinted at. For many, the mechanism serves as a humbling reminder that the ancient world was far more technically sophisticated than we often give it credit for – and that some of the greatest discoveries may emerge from the most unassuming lumps of corroded metal.",
+      "title": "The Gravity Telescope That Broke All Records",
+      "text": "In 2019, an international team of astronomers achieved what was long considered impossible: they took the first-ever photograph of a black hole. The effort required linking eight radio telescopes across the globe to form a virtual dish the size of Earth itself, a technique known as Very Long Baseline Interferometry. Over two years, petabytes of data were collected from the black hole at the centre of Messier 87, a galaxy 53 million light-years from Earth. The resulting image – a glowing orange ring surrounding a perfect dark centre – confirmed Einstein’s theory of general relativity in the most extreme environment known to science. The project also demonstrated unprecedented international cooperation: scientists from over 20 countries worked together, setting aside political differences in pursuit of a common goal. Future observations are expected to reveal even more about the violent physics at the edge of a black hole.",
       "questions": [
         {
-          "q": "1. Where was the Antikythera Mechanism discovered?",
-          "options": [
-            "In a desert in Egypt",
-            "In a Roman shipwreck near Greece",
-            "Buried in the Roman Forum",
-            "In a Mayan temple"
-          ],
+          "q": "3. What was the main achievement of the 2019 project?",
+          "options": ["Building the largest telescope", "Taking the first photo of a black hole", "Proving Einstein wrong", "Discovering a new planet"],
           "answer": 1,
-          "justification": "الفقرة الأولى تذكر أن الغواصين عثروا على الآلية في حطام سفينة رومانية قرب جزيرة أنتيكيثيرا اليونانية."
+          "justification": "النص يذكر مباشرة أن الإنجاز الأكبر كان 'أول صورة لثقب أسود على الإطلاق'. الخيارات الأخرى تتحدث عن أشياء لم تذكر أو نفيها النص."
         },
         {
-          "q": "2. What is the Antikythera Mechanism often called?",
-          "options": [
-            "The first steam engine",
-            "The world's first analogue computer",
-            "The first electric clock",
-            "The first telescope"
-          ],
-          "answer": 1,
-          "justification": "يصف النص الآلية بأنها أول حاسوب تمثيلي (analogue computer) في العالم."
-        },
-        {
-          "q": "3. How did 21st‑century researchers read the inscriptions inside the mechanism without damaging it?",
-          "options": [
-            "They took it apart piece by piece",
-            "They used X‑ray and CT scans",
-            "They polished the surface until the text appeared",
-            "They used chemical baths"
-          ],
-          "answer": 1,
-          "justification": "الفقرة الثالثة توضح أن الباحثين استخدموا الأشعة السينية والتصوير الطبقي (CT scans) لقراءة النقوش دون ضرر."
-        },
-        {
-          "q": "4. According to the passage, what happened to the technology after the Roman Empire fell?",
-          "options": [
-            "It was improved by the Vikings",
-            "It was taken to China",
-            "It was lost for over a thousand years",
-            "It was duplicated immediately"
-          ],
+          "q": "4. What technique did the astronomers use?",
+          "options": ["Optical zooming", "Space travel", "Very Long Baseline Interferometry", "Satellite imaging"],
           "answer": 2,
-          "justification": "يشير النص إلى أن التقنية فُقدت لأكثر من ألف عام بعد سقوط الإمبراطورية الرومانية."
+          "justification": "يشرح النص أنهم استخدموا تقنية 'Very Long Baseline Interferometry' التي تربط ثمانية تلسكوبات راديوية لتكوين طبق افتراضي بحجم الأرض."
         }
       ]
     }
   ],
   "grammarQuestions": [
     {
-      "q": "1. Please leave your room key at Reception. (Where?)",
-      "options": [
-        "C. in a taxi",
-        "A. in a shop",
-        "B. in a hotel"
-      ],
-      "answer": 2,
-      "justification": "طلب ترك مفتاح الغرفة في الاستقبال يكون في الفنادق."
-    },
-    {
-      "q": "2. Foreign money changed here. (Where?)",
-      "options": [
-        "B. in a bank",
-        "C. in a police station",
-        "A. in a library"
-      ],
-      "answer": 0,
-      "justification": "تحويل العملات الأجنبية يتم في البنوك."
-    },
-    {
-      "q": "3. AFTERNOON SHOW BEGINS AT 2PM. (Where?)",
-      "options": [
-        "B. at a music school",
-        "C. at a restaurant",
-        "A. at a travel agent’s"
-      ],
-      "answer": 2,
-      "justification": "هذه اللافتة تُشاهد في وكالة السفر أو السينما."
-    },
-    {
-      "q": "4. Price per night: £10 a tent £5 a person. (Where?)",
-      "options": [
-        "B. in a hotel",
-        "C. on a camp-site",
-        "A. at a cinema"
-      ],
+      "q": "1. Please leave your room key at Reception.",
+      "options": ["A. in a shop", "B. in a hotel", "C. in a taxi"],
       "answer": 1,
-      "justification": "أسعار الخيام والأشخاص تشير إلى موقع تخييم."
+      "justification": "طلب ترك مفتاح الغرفة في الاستقبال يكون في الفنادق. هذه العبارة شائعة في ردهات الفنادق."
     },
     {
-      "q": "5. (Scotland) Some people _____ Scotland speak a different language.",
-      "options": [
-        "B. in",
-        "C. at",
-        "A. on"
-      ],
+      "q": "2. Foreign money changed here.",
+      "options": ["A. in a library", "B. in a bank", "C. in a police station"],
+      "answer": 1,
+      "justification": "تحويل العملات الأجنبية يتم في البنوك، لذا الإشارة لهذه الخدمة توضع في البنوك."
+    },
+    {
+      "q": "3. AFTERNOON SHOW BEGINS AT 2PM.",
+      "options": ["A. at a travel agent’s", "B. at a music school", "C. at a restaurant"],
       "answer": 0,
-      "justification": "نستخدم 'in' مع البلدان."
+      "justification": "هذه اللافتة تُشاهد في وكالة السفر أو السينما للإعلان عن عرض بعد الظهر. لا تُستخدم عادةً في مدارس الموسيقى أو المطاعم."
+    },
+    {
+      "q": "4. Price per night: £10 a tent £5 a person.",
+      "options": ["A. at a cinema", "B. in a hotel", "C. on a camp-site"],
+      "answer": 2,
+      "justification": "أسعار الخيام والأشخاص تشير بوضوح إلى موقع تخييم وليس فندقاً أو سينما."
+    },
+    {
+      "q": "5. Some people _____ Scotland speak a different language.",
+      "options": ["A. on", "B. in", "C. at"],
+      "answer": 1,
+      "justification": "نستخدم حرف الجر 'in' مع البلدان والمناطق، لذا نقول 'in Scotland'."
     },
     {
       "q": "6. There are _____ five million people in Scotland.",
-      "options": [
-        "C. among",
-        "A. about",
-        "B. between"
-      ],
-      "answer": 1,
-      "justification": "'about' تعني تقريباً."
+      "options": ["A. about", "B. between", "C. among"],
+      "answer": 0,
+      "justification": "'about' تعني 'تقريباً' وتستخدم مع الأعداد التقريبية للإشارة إلى التقدير."
     },
     {
       "q": "7. Edinburgh is _____ most famous city.",
-      "options": [
-        "A. his",
-        "C. its",
-        "B. your"
-      ],
-      "answer": 1,
-      "justification": "الضمير يعود على Scotland، لذا 'its'."
+      "options": ["A. his", "B. your", "C. its"],
+      "answer": 2,
+      "justification": "الضمير 'its' يعود على 'Scotland' ويعني 'خاصتها' (مدينتها الأكثر شهرة)."
     },
     {
       "q": "8. A long time ago, there _____ many forests.",
-      "options": [
-        "C. was",
-        "B. were",
-        "A. is"
-      ],
+      "options": ["A. is", "B. were", "C. was"],
       "answer": 1,
-      "justification": "'forests' جمع وماض، لذا 'were'."
+      "justification": "'forests' جمع، والزمن ماضي (ago)، لذا نستخدم 'were'. 'was' تستخدم مع المفرد."
     },
     {
       "q": "9. Now there are only a _____.",
-      "options": [
-        "C. lot",
-        "B. little",
-        "A. few"
-      ],
-      "answer": 2,
-      "justification": "'a few' مع المعدود."
+      "options": ["A. few", "B. little", "C. lot"],
+      "answer": 0,
+      "justification": "'a few' تستخدم مع الأسماء المعدودة الجمع (forests). 'little' تستخدم مع غير المعدود."
     },
     {
-      "q": "10. (Alice Guy) She first became involved in cinema...",
-      "options": [
-        "B. including",
-        "C. containing",
-        "D. supporting",
-        "A. bringing"
-      ],
-      "answer": 0,
-      "justification": "'including' تعني بما في ذلك."
+      "q": "10. She first became involved in cinema...",
+      "options": ["A. bringing", "B. including", "C. containing", "D. supporting"],
+      "answer": 1,
+      "justification": "'including' تعني 'بما في ذلك' وتستخدم لذكر أمثلة من الاختراعات التي عملت عليها."
     },
     {
       "q": "11. In 1907 Alice _____ to New York.",
-      "options": [
-        "D. transported",
-        "C. entered",
-        "A. moved",
-        "B. ran"
-      ],
-      "answer": 2,
-      "justification": "'moved' تعني انتقلت."
+      "options": ["A. moved", "B. ran", "C. entered", "D. transported"],
+      "answer": 0,
+      "justification": "'moved' تعني 'انتقلت للسكن'، وهو المعنى المناسب للانتقال إلى مدينة جديدة للعمل."
     },
     {
       "q": "12. She was _____ successful.",
-      "options": [
-        "A. next",
-        "D. recently",
-        "C. immediately",
-        "B. once"
-      ],
+      "options": ["A. next", "B. once", "C. immediately", "D. recently"],
       "answer": 2,
-      "justification": "'immediately' تعني فوراً."
+      "justification": "'immediately successful' تعني أنها حققت النجاح فوراً بعد بدء عملها في نيويورك."
     },
     {
       "q": "13. The best days were _____.",
-      "options": [
-        "B. down",
-        "C. behind",
-        "D. over",
-        "A. after"
-      ],
-      "answer": 2,
-      "justification": "'over' تعني انتهت."
+      "options": ["A. after", "B. down", "C. behind", "D. over"],
+      "answer": 3,
+      "justification": "'over' تعني 'انتهت' وتستخدم للإشارة إلى أن شيئاً ما قد ولى."
     },
     {
       "q": "14. Hardly anybody _____ her name.",
-      "options": [
-        "A. remembered",
-        "D. repeated",
-        "C. reminded",
-        "B. realised"
-      ],
+      "options": ["A. remembered", "B. realised", "C. reminded", "D. repeated"],
       "answer": 0,
-      "justification": "'remembered' تعني تذكر."
+      "justification": "'remembered' تعني 'تذكر'، وهو السياق المناسب عند وفاتها في 1968."
     },
     {
-      "q": "15. (UFOs) ...flying saucers, _____ that is often...",
-      "options": [
-        "A. because",
-        "D. so",
-        "B. therefore",
-        "C. although"
-      ],
+      "q": "15. ...flying saucers, _____ that is often...",
+      "options": ["A. because", "B. therefore", "C. although", "D. so"],
       "answer": 0,
-      "justification": "'because' تعطي سبباً."
+      "justification": "'because' تعطي سبباً للتسمية (الصحون الطائرة) بناءً على شكلها المُبلغ عنه."
     },
     {
       "q": "16. ...the _____ they are reported to be.",
-      "options": [
-        "A. look",
-        "B. shape",
-        "C. size",
-        "D. type"
-      ],
+      "options": ["A. look", "B. shape", "C. size", "D. type"],
       "answer": 1,
-      "justification": "'shape' تعني الشكل."
+      "justification": "'shape' تعني 'الشكل' وهو ما يشير إليه شكل الصحن الطائر."
     },
     {
       "q": "17. The _____ 'flying saucers' were seen in 1947.",
-      "options": [
-        "D. oldest",
-        "A. last",
-        "C. first",
-        "B. next"
-      ],
+      "options": ["A. last", "B. next", "C. first", "D. oldest"],
       "answer": 2,
-      "justification": "'first' تشير إلى أول مرة."
+      "justification": "'first' تشير إلى 'أول مرة' شوهدت فيها الأطباق الطائرة وكان ذلك في عام 1947."
     },
     {
       "q": "18. ...people experienced at watching the sky, _____ as pilots...",
-      "options": [
-        "B. that",
-        "C. so",
-        "D. such",
-        "A. like"
-      ],
-      "answer": 2,
-      "justification": "'such as' تستخدم لضرب أمثلة."
+      "options": ["A. like", "B. that", "C. so", "D. such"],
+      "answer": 3,
+      "justification": "'such as' تستخدم لضرب أمثلة محددة (مثل الطيارين)."
     },
     {
       "q": "19. A television _____ went up with the pilot.",
-      "options": [
-        "D. announcer",
-        "A. cameraman",
-        "C. actor",
-        "B. director"
-      ],
-      "answer": 1,
-      "justification": "التلفزيون يرسل مصوراً."
+      "options": ["A. cameraman", "B. director", "C. actor", "D. announcer"],
+      "answer": 0,
+      "justification": "التلفزيون يرسل 'مصوراً' (cameraman) لتوثيق الحدث وليس مخرجاً أو ممثلاً."
     },
     {
       "q": "20. The teacher encouraged her students _____ to an English pen-friend.",
-      "options": [
-        "D. to write",
-        "B. write",
-        "C. wrote",
-        "A. should write"
-      ],
-      "answer": 0,
-      "justification": "'encourage + someone + to + مصدر'."
+      "options": ["A. should write", "B. write", "C. wrote", "D. to write"],
+      "answer": 3,
+      "justification": "بعد 'encourage + مفعول به' يأتي المصدر مع 'to': encouraged them to write."
     },
     {
       "q": "21. They spent a lot of time _____ at the pictures.",
-      "options": [
-        "B. for looking",
-        "D. to looking",
-        "C. to look",
-        "A. looking"
-      ],
-      "answer": 3,
-      "justification": "'spend time + gerund'."
+      "options": ["A. looking", "B. for looking", "C. to look", "D. to looking"],
+      "answer": 0,
+      "justification": "'spend time + gerund' هو التركيب الصحيح: spent time looking."
     },
     {
       "q": "22. Shirley enjoys science lessons, but all her experiments seem to _____ wrong.",
-      "options": [
-        "D. go",
-        "C. end",
-        "B. come",
-        "A. turn"
-      ],
-      "answer": 0,
-      "justification": "'go wrong' هو التعبير الاصطلاحي."
+      "options": ["A. turn", "B. come", "C. end", "D. go"],
+      "answer": 3,
+      "justification": "'go wrong' هو التعبير الاصطلاحي الثابت الذي يعني 'تسير بشكل خاطئ' أو 'تفشل'."
     },
     {
       "q": "23. _____ from Michael, all the group arrived on time.",
-      "options": [
-        "D. Apart",
-        "B. Other",
-        "A. Except",
-        "C. Besides"
-      ],
-      "answer": 0,
-      "justification": "'Apart from' تعني باستثناء."
+      "options": ["A. Except", "B. Other", "C. Besides", "D. Apart"],
+      "answer": 3,
+      "justification": "'Apart from' هو التعبير الصحيح الذي يعني 'باستثناء'. 'Except' لا تستخدم مع 'from' في هذا السياق."
     },
     {
       "q": "24. She _____ her neighbour’s children for the broken window.",
-      "options": [
-        "C. blamed",
-        "B. complained",
-        "D. denied",
-        "A. accused"
-      ],
-      "answer": 0,
-      "justification": "'blamed someone for something'."
+      "options": ["A. accused", "B. complained", "C. blamed", "D. denied"],
+      "answer": 2,
+      "justification": "'blamed someone for something' هو التركيب الصحيح: ألقت اللوم على أطفال جارتها."
     },
     {
       "q": "25. My friend went _____ the homework with me.",
-      "options": [
-        "C. over",
-        "D. on",
-        "B. after",
-        "A. by"
-      ],
-      "answer": 0,
-      "justification": "'go over' تعني يراجع."
+      "options": ["A. by", "B. after", "C. over", "D. on"],
+      "answer": 2,
+      "justification": "'go over' هو فعل مركب يعني 'يراجع' أو 'يشرح'، وهو المناسب لمراجعة الواجب."
     },
     {
       "q": "26. Whether she’s a good actress is a _____ of opinion.",
-      "options": [
-        "A. matter",
-        "B. subject",
-        "D. case",
-        "C. point"
-      ],
+      "options": ["A. matter", "B. subject", "C. point", "D. case"],
       "answer": 0,
-      "justification": "'a matter of opinion' تعبير ثابت."
+      "justification": "'a matter of opinion' هو تعبير ثابت يعني 'مسألة رأي'."
     },
     {
       "q": "27. The decorated roof was _____ up by four thin columns.",
-      "options": [
-        "B. carried",
-        "D. supported",
-        "A. built",
-        "C. held"
-      ],
-      "answer": 1,
-      "justification": "'supported' تعني مدعوم."
+      "options": ["A. built", "B. carried", "C. held", "D. supported"],
+      "answer": 3,
+      "justification": "'supported' تعني 'مدعوم' وتستخدم لوصف الأعمدة التي تحمل السقف."
     },
     {
       "q": "28. Would it _____ you if we came on Thursday?",
-      "options": [
-        "D. fit",
-        "C. like",
-        "A. agree",
-        "B. suit"
-      ],
-      "answer": 3,
-      "justification": "'suit' تعني يناسب."
+      "options": ["A. agree", "B. suit", "C. like", "D. fit"],
+      "answer": 1,
+      "justification": "'suit' تعني 'يناسب' وتستخدم للسؤال عما إذا كان الموعد مناسباً لشخص."
     },
     {
       "q": "29. This form _____ be handed in until the end of the week.",
-      "options": [
-        "B. doesn't have",
-        "A. doesn't need",
-        "D. hasn't got",
-        "C. needn't"
-      ],
-      "answer": 3,
-      "justification": "'needn't' تعني لا حاجة."
+      "options": ["A. doesn't need", "B. doesn't have", "C. needn't", "D. hasn't got"],
+      "answer": 2,
+      "justification": "'needn't' هي الأداة الناقصة الصحيحة للنفي بمعنى 'لا حاجة'، وتأتي بدون 'to'."
     },
     {
       "q": "30. If you make a mistake, just _____ it out with your pen.",
-      "options": [
-        "D. wipe",
-        "B. clear",
-        "C. do",
-        "A. cross"
-      ],
-      "answer": 3,
-      "justification": "'cross out' يعني يشطب."
+      "options": ["A. cross", "B. clear", "C. do", "D. wipe"],
+      "answer": 0,
+      "justification": "'cross out' هو فعل مركب يعني 'يشطب' (يضع خطاً على الخطأ)."
     },
     {
       "q": "31. Although our opinions _____, we’re good friends.",
-      "options": [
-        "A. differ",
-        "C. disagree",
-        "B. oppose",
-        "D. divide"
-      ],
+      "options": ["A. differ", "B. oppose", "C. disagree", "D. divide"],
       "answer": 0,
-      "justification": "'differ' تعني تختلف."
+      "justification": "'differ' تعني 'تختلف' وهي الفعل المناسب لوصف اختلاف الآراء."
     },
     {
       "q": "32. This product must be eaten _____ two days of purchase.",
-      "options": [
-        "D. under",
-        "B. before",
-        "C. within",
-        "A. by"
-      ],
+      "options": ["A. by", "B. before", "C. within", "D. under"],
       "answer": 2,
-      "justification": "'within' تعني خلال مدة زمنية."
+      "justification": "'within' تعني 'خلال مدة زمنية' وتستخدم مع المدد الزمنية."
     },
     {
       "q": "33. The newspaper report contained _____ important information.",
-      "options": [
-        "A. many",
-        "B. another",
-        "C. an",
-        "D. a lot of"
-      ],
+      "options": ["A. many", "B. another", "C. an", "D. a lot of"],
       "answer": 3,
-      "justification": "'information' غير معدودة، لذا 'a lot of'."
+      "justification": "'information' اسم غير معدود، لذا نستخدم 'a lot of' بدلاً من 'many' التي تستخدم مع المعدود."
     },
     {
       "q": "34. Have you considered _____ to London?",
-      "options": [
-        "A. move",
-        "C. to be moving",
-        "D. moving",
-        "B. to move"
-      ],
-      "answer": 2,
-      "justification": "'consider' يأتي بعده gerund."
+      "options": ["A. move", "B. to move", "C. to be moving", "D. moving"],
+      "answer": 3,
+      "justification": "'consider' يأتي بعده gerund (الفعل + ing): considered moving."
     },
     {
       "q": "35. It can be a good idea to increase their _____ of vitamins.",
-      "options": [
-        "A. upturn",
-        "D. intake",
-        "C. upkeep",
-        "B. input"
-      ],
-      "answer": 1,
-      "justification": "'intake' تعني الكمية المتناولة."
+      "options": ["A. upturn", "B. input", "C. upkeep", "D. intake"],
+      "answer": 3,
+      "justification": "'intake' تعني 'الكمية المتناولة' وتستخدم تحديداً مع الطعام والمكملات الغذائية."
     },
     {
       "q": "36. I thought there was a _____ of jealousy in his reaction.",
-      "options": [
-        "B. part",
-        "A. piece",
-        "C. shadow",
-        "D. touch"
-      ],
+      "options": ["A. piece", "B. part", "C. shadow", "D. touch"],
       "answer": 3,
-      "justification": "'a touch of' تعني قليل من."
+      "justification": "'a touch of' هو تعبير ثابت يعني 'قليل من' أو 'مسحة من'."
     },
     {
       "q": "37. Why didn’t you _____ that you were feeling ill?",
-      "options": [
-        "A. advise",
-        "C. remark",
-        "B. mention",
-        "D. tell"
-      ],
-      "answer": 2,
-      "justification": "'mention' تعني يذكر."
+      "options": ["A. advise", "B. mention", "C. remark", "D. tell"],
+      "answer": 1,
+      "justification": "'mention' تعني 'يذكر' وتستخدم للإشارة إلى شيء لم يُذكر صراحة."
     },
     {
       "q": "38. James was not sure where his best interests _____.",
-      "options": [
-        "D. centred",
-        "B. rested",
-        "C. lay",
-        "A. stood"
-      ],
+      "options": ["A. stood", "B. rested", "C. lay", "D. centred"],
       "answer": 2,
-      "justification": "'lay' (lie) تعني تقع."
+      "justification": "'lay' (من الفعل lie) تعني 'تقع' وتستخدم مع 'interests' بمعنى 'أين تكمن مصلحته'."
     },
     {
       "q": "39. He’s still getting _____ the shock of losing his job.",
-      "options": [
-        "D. through",
-        "A. across",
-        "C. over",
-        "B. by"
-      ],
+      "options": ["A. across", "B. by", "C. over", "D. through"],
       "answer": 2,
-      "justification": "'get over' يعني يتعافى من صدمة."
+      "justification": "'get over' هو فعل مركب يعني 'يتعافى من' أو 'يتجاوز' صدمة أو مرض."
+    },
+    {
+      "q": "40. You ought to take up swimming for the _____ of your health.",
+      "options": ["A. concern", "B. relief", "C. sake", "D. cause"],
+      "answer": 2,
+      "justification": "'for the sake of' هو تعبير ثابت يعني 'من أجل' أو 'لصالح'."
     }
   ],
   "vocabularyQuestions": [
     {
-      "q": "She made a ____ flight across the Atlantic.",
-      "options": [
-        "solo",
-        "group",
-        "passenger",
-        "family"
-      ],
+      "q": "41. The Kallawaya are renowned for their extensive _____.",
+      "options": ["pharmacopoeia", "architecture", "agriculture", "literature"],
       "answer": 0,
-      "justification": "المعنى الصحيح لـ 'solo' هو 'منفرد'."
+      "justification": "المعنى الصحيح لـ 'pharmacopoeia' هو 'دستور الأدوية' أو 'مجموعة الأدوية'، وهو ما اشتهر به شعب كالاوايا."
     },
     {
-      "q": "Biceps is a ____ in the arm.",
-      "options": [
-        "bone",
-        "tendon",
-        "muscle",
-        "joint"
-      ],
-      "answer": 2,
-      "justification": "المعنى الصحيح لـ 'muscle' هو 'عضلة'."
-    },
-    {
-      "q": "Open an account at a ____.",
-      "options": [
-        "factory",
-        "restaurant",
-        "bank",
-        "shop"
-      ],
-      "answer": 2,
-      "justification": "المعنى الصحيح لـ 'bank' هو 'بنك'."
-    },
-    {
-      "q": "____ skills decline with age.",
-      "options": [
-        "Skeletal",
-        "Physical",
-        "Cognitive",
-        "Muscular"
-      ],
-      "answer": 2,
-      "justification": "المعنى الصحيح لـ 'cognitive' هو 'معرفي'."
-    },
-    {
-      "q": "Scientists seek ____ alternatives to plastic.",
-      "options": [
-        "cheaper",
-        "biodegradable",
-        "stronger",
-        "heavier"
-      ],
-      "answer": 1,
-      "justification": "المعنى الصحيح لـ 'biodegradable' هو 'قابل للتحلل'."
-    },
-    {
-      "q": "The Great Wall was built over many ____.",
-      "options": [
-        "dynasties",
-        "empires",
-        "continents",
-        "republics"
-      ],
+      "q": "42. The language is a complete _____ system.",
+      "options": ["linguistic", "nervous", "solar", "mechanical"],
       "answer": 0,
-      "justification": "المعنى الصحيح لـ 'dynasty' هو 'سلالة'."
+      "justification": "المعنى الصحيح لـ 'linguistic' هو 'لغوي'، وهو ما يصف نظام اللغة."
     },
     {
-      "q": "The report includes ____ about population.",
-      "options": [
-        "statistics",
-        "songs",
-        "stories",
-        "pictures"
-      ],
+      "q": "43. The telescope used a technique called _____.",
+      "options": ["Interferometry", "Photography", "Spectroscopy", "Radiometry"],
       "answer": 0,
-      "justification": "المعنى الصحيح لـ 'statistics' هو 'إحصائيات'."
+      "justification": "المعنى الصحيح لـ 'Interferometry' هو 'قياس التداخل'، وهي التقنية المستخدمة لربط التلسكوبات."
     },
     {
-      "q": "Coffee is a popular ____.",
-      "options": [
-        "machine",
-        "food",
-        "beverage",
-        "sport"
-      ],
-      "answer": 2,
-      "justification": "المعنى الصحيح لـ 'beverage' هو 'مشروب'."
-    },
-    {
-      "q": "The All Blacks' ____ is a silver fern.",
-      "options": [
-        "emblem",
-        "flag",
-        "ball",
-        "song"
-      ],
+      "q": "44. The black hole is at the centre of _____ 87.",
+      "options": ["Messier", "Andromeda", "Milky Way", "Orion"],
       "answer": 0,
-      "justification": "المعنى الصحيح لـ 'emblem' هو 'شعار'."
+      "justification": "المعنى الصحيح لـ 'Messier' هو اسم فهرس فلكي، والثقب الأسود يقع في مجرة Messier 87."
     },
     {
-      "q": "I need my ____ for football.",
-      "options": [
-        "Shoes",
-        "trainers",
-        "belt",
-        "gloves"
-      ],
-      "answer": 1,
-      "justification": "المعنى الصحيح لـ 'trainers' هو 'حذاء رياضي'."
+      "q": "45. The image confirmed Einstein’s theory of general _____.",
+      "options": ["relativity", "gravity", "evolution", "mechanics"],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'relativity' هو 'النسبية'، والصورة أكدت نظرية النسبية العامة."
+    },
+    {
+      "q": "46. The Kallawaya language may be a _____ of Inca nobility speech.",
+      "options": ["remnant", "invention", "translation", "copy"],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'remnant' هو 'بقية'، ويشير إلى أن اللغة قد تكون بقية من لغة نبلاء الإنكا."
+    },
+    {
+      "q": "47. The project demonstrated unprecedented international _____.",
+      "options": ["cooperation", "competition", "conflict", "isolation"],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'cooperation' هو 'تعاون'، وقد أظهر المشروع تعاوناً دولياً غير مسبوق."
+    },
+    {
+      "q": "48. The Kallawaya use the language for the transmission of _____ knowledge.",
+      "options": ["medicinal", "agricultural", "architectural", "military"],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'medicinal' هو 'طبي'، حيث تنقل اللغة المعرفة الطبية."
+    },
+    {
+      "q": "49. Future observations will reveal more about the violent _____ at the edge of a black hole.",
+      "options": ["physics", "chemistry", "biology", "geology"],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'physics' هو 'الفيزياء'، حيث تدرس الفيزياء العنيفة عند حافة الثقب الأسود."
+    },
+    {
+      "q": "50. The Kallawaya language has its own grammar and _____.",
+      "options": ["syntax", "melody", "rhythm", "color"],
+      "answer": 0,
+      "justification": "المعنى الصحيح لـ 'syntax' هو 'علم النحو' أو 'تركيب الجمل'، وهو ما تمتلكه لغة كالاوايا."
     }
   ],
   "dictationQuestions": [
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "caldera",
-        "caldira",
-        "calderah",
-        "calderra"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'دستور الأدوية'.",
+      "options": ["pharmacopoeia", "pharmacopeia", "farmakopoeia", "pharmacopia"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'caldera'."
+      "justification": "التهجئة الصحيحة هي 'pharmacopoeia'."
     },
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "invenshun",
-        "invention",
-        "inventyion",
-        "invetion"
-      ],
-      "answer": 1,
-      "justification": "التهجئة الصحيحة هي 'invention'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "sneeze",
-        "snease",
-        "sneize",
-        "sneez"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'لغوي'.",
+      "options": ["linguistic", "linguistik", "lingwistic", "linguestic"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'sneeze'."
+      "justification": "التهجئة الصحيحة هي 'linguistic'."
     },
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "muscle",
-        "muscel",
-        "muscal",
-        "mussle"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'قياس التداخل'.",
+      "options": ["interferometry", "interferometery", "interferommetry", "interferometri"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'muscle'."
+      "justification": "التهجئة الصحيحة هي 'interferometry'."
     },
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "husbant",
-        "husbend",
-        "hasbund",
-        "husband"
-      ],
-      "answer": 3,
-      "justification": "التهجئة الصحيحة هي 'husband'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "extention",
-        "extension"
-      ],
-      "answer": 1,
-      "justification": "التهجئة الصحيحة هي 'extension'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "asthma",
-        "asthama",
-        "asthmah",
-        "astma"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'بقية'.",
+      "options": ["remnant", "remnent", "remnint", "remnunt"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'asthma'."
+      "justification": "التهجئة الصحيحة هي 'remnant'."
     },
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "international",
-        "interational"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'تعاون'.",
+      "options": ["cooperation", "cooparetion", "co-operation", "cooperasion"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'international'."
+      "justification": "التهجئة الصحيحة هي 'cooperation'."
     },
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "pedel",
-        "peddal",
-        "pidal",
-        "pedal"
-      ],
-      "answer": 3,
-      "justification": "التهجئة الصحيحة هي 'pedal'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "navigator",
-        "navigater",
-        "navgator",
-        "navigetor"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'نسبية'.",
+      "options": ["relativity", "relativaty", "relativitee", "relativityy"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'navigator'."
+      "justification": "التهجئة الصحيحة هي 'relativity'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'طبي'.",
+      "options": ["medicinal", "medicenal", "medicinel", "medisinal"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'medicinal'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'فيزياء'.",
+      "options": ["physics", "fysics", "physiks", "phizics"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'physics'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'نحو'.",
+      "options": ["syntax", "sintax", "syntaks", "syntex"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'syntax'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'علم النبات'.",
+      "options": ["botanical", "botanicle", "botanikal", "botannical"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'botanical'."
     }
   ]
 }
