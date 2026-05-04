@@ -1,135 +1,43 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grammar – ITC APNE Prep</title>
-  <!-- Favicon – rocket emoji as SVG -->
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='70' font-size='70' text-anchor='middle'%3E🚀%3C/text%3E%3C/svg%3E">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=Noto+Sans+Arabic:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <style>
-    /* Additional grammar-specific styles */
-    .grammar-card {
-      background: var(--surface);
-      border-radius: var(--radius);
-      margin-bottom: 1.5rem;
-      border: 1px solid var(--border);
-      overflow: hidden;
-      transition: var(--transition);
-    }
-    .grammar-card-header {
-      padding: 1rem 1.5rem;
-      background: var(--primary-light);
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-weight: 700;
-      font-size: 1.2rem;
-    }
-    .grammar-card-header:hover {
-      background: var(--primary);
-      color: white;
-    }
-    .grammar-card-content {
-      padding: 1.5rem;
-      display: none;
-      border-top: 1px solid var(--border);
-    }
-    .grammar-card-content.active {
-      display: block;
-    }
-    .rules ul, .notes {
-      margin: 0.75rem 0;
-      padding-left: 1.5rem;
-    }
-    .rules li {
-      margin: 0.5rem 0;
-      line-height: 1.5;
-    }
-    .example-box {
-      background: var(--surface-dark);
-      padding: 0.75rem 1rem;
-      border-radius: var(--radius-sm);
-      margin: 0.75rem 0;
-      border-left: 4px solid var(--accent);
-      font-family: monospace;
-      font-size: 0.95rem;
-    }
-    .example-box strong {
-      color: var(--accent);
-      margin-right: 0.5rem;
-    }
-    .notes {
-      background: rgba(245, 158, 11, 0.1);
-      padding: 0.75rem;
-      border-radius: var(--radius-sm);
-      margin-top: 1rem;
-      border-left: 3px solid var(--warning);
-    }
-    .irregular-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1rem 0;
-      font-size: 0.9rem;
-    }
-    .irregular-table th, .irregular-table td {
-      border: 1px solid var(--border);
-      padding: 0.6rem;
-      text-align: left;
-    }
-    .irregular-table th {
-      background: var(--primary);
-      color: white;
-    }
-    .badge-example {
-      display: inline-block;
-      background: var(--success);
-      color: white;
-      font-size: 0.75rem;
-      padding: 0.3rem 0.8rem;
-      border-radius: 2rem;
-      margin-top: 1rem;
-    }
-    .grammar-header p {
-      margin-bottom: 1.5rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جميع القواعد - APNE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .grammar-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.2rem; margin: 1.5rem 0; }
+        .grammar-card { background: white; border-radius: 20px; padding: 1.3rem; box-shadow: 0 2px 12px rgba(0,0,0,0.04); }
+        .grammar-card h3 { margin-top: 0; color: #1d1d1f; }
+        .grammar-card p { color: #86868b; font-size: 0.9rem; }
+        .grammar-card a { display: inline-block; background: #0071e3; color: white; padding: 0.5rem 1.2rem; border-radius: 20px; text-decoration: none; font-weight: 500; margin-top: 0.8rem; }
+    </style>
 </head>
 <body>
-  <header class="app-header">
-    <nav class="navbar" id="navbar"></nav>
-    <div class="theme-toggle"><button id="themeToggle" aria-label="Toggle dark/light mode">🌓</button></div>
-  </header>
-  <main class="container">
-    <section class="grammar-header">
-      <h1>📐 Grammar Topics</h1>
-      <p style="color:var(--text-secondary)">Click any topic to see rules + examples. Includes full irregular verbs list.</p>
-    </section>
-    
-    <!-- Irregular Verbs Section (special) -->
-    <section class="irregular-verbs-section">
-      <div class="grammar-card">
-        <div class="grammar-card-header" onclick="toggleGrammarCard(this)">
-          📖 FULL LIST OF IRREGULAR VERBS (ITC p.111)
-          <span>▼</span>
-        </div>
-        <div class="grammar-card-content" id="irregularVerbsContent">
-          <p>Loading irregular verbs...</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Grammar topics will be injected here -->
-    <section id="grammarTopics"></section>
-  </main>
-  <footer class="app-footer">
-    <p>📚 Grammar Engine – Complete topics & irregular verbs built-in. No external files needed.</p>
-  </footer>
-  <script src="js/storage.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/grammar.js"></script>
+    <div class="container">
+        <h1>📘 جميع قواعد اللغة الإنجليزية</h1>
+        <p style="color:#86868b;">اختر الدرس الذي تريد مراجعته من القائمة أدناه.</p>
+        <div class="grammar-grid" id="grammarGrid">جاري التحميل…</div>
+    </div>
+    <script>
+        const topics = [
+            { day:1, title:"Present & Past Simple + Articles + Pronouns", desc:"الأزمنة البسيطة، أدوات التعريف، الضمائر" },
+            { day:2, title:"Continuous Tenses + Question Tags + The", desc:"الأزمنة المستمرة، الأسئلة الذيلية، أداة التعريف" },
+            { day:3, title:"Perfect Tenses + For/Since + Prepositions", desc:"الأزمنة التامة، حروف الجر، الفرق بين for وsince" },
+            { day:4, title:"Passive Voice + Modal Verbs", desc:"المبني للمجهول في جميع الأزمنة، الأفعال الناقصة" },
+            { day:5, title:"Comparative & Superlative + as…as", desc:"المقارنة والتفضيل، الشواذ، المساواة" },
+            { day:6, title:"Gerund vs Infinitive + Used to", desc:"المصدر مع ing أو to، العادات الماضية" },
+            { day:7, title:"Final Grammar Review", desc:"مراجعة شاملة لجميع القواعد" }
+        ];
+        let html = '';
+        topics.forEach(t => {
+            html += `<div class="grammar-card">
+                <h3>${t.title}</h3>
+                <p>${t.desc}</p>
+                <a href="grammar-lesson.html?day=${t.day}">فتح الدرس</a>
+            </div>`;
+        });
+        document.getElementById('grammarGrid').innerHTML = html;
+    </script>
 </body>
 </html>

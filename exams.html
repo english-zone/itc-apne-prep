@@ -1,1 +1,51 @@
-<!DOCTYPE html><html lang="ar"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Exams</title><link rel="stylesheet" href="css/style.css"></head><body><div class="container"><h1>📚 اختبارات الكتاب</h1><div id="examList">جاري التحميل...</div></div><script>const exams=[{file:"itc-p05-10.json",name:"صفحات 5-10"},{file:"itc-p12-18.json",name:"صفحات 12-18"},{file:"itc-p20-29.json",name:"صفحات 20-29"},{file:"itc-p30-36.json",name:"صفحات 30-36"},{file:"itc-p37-41.json",name:"صفحات 37-41"},{file:"itc-p41-44.json",name:"صفحات 41-44"},{file:"itc-p44-47.json",name:"صفحات 44-47"},{file:"itc-p48-54.json",name:"صفحات 48-54"},{file:"itc-p55-59.json",name:"صفحات 55-59"},{file:"itc-p60-61.json",name:"صفحات 60-61"},{file:"itc-p61-62.json",name:"صفحات 61-62"},{file:"itc-p62-63.json",name:"صفحات 62-63"},{file:"itc-p64-66.json",name:"صفحات 64-66"},{file:"itc-p68-75.json",name:"صفحات 68-75"},{file:"itc-p75-87.json",name:"صفحات 75-87"}];let h=exams.map(e=>'<div class="exam-card"><h3>'+e.name+'</h3><a href="take-exam.html?file='+e.file+'" class="btn">بدء</a></div>').join('');document.getElementById('examList').innerHTML=h;</script></body></html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبارات الكتاب - APNE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .exam-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+        .exam-card { background: white; border-radius: 18px; padding: 1.2rem; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.04); }
+        .exam-card h3 { margin: 0 0 0.5rem; color: #1d1d1f; }
+        .exam-card p { color: #86868b; font-size: 0.85rem; margin-bottom: 1rem; }
+        .exam-card a { background: #0071e3; color: white; padding: 0.5rem 1.5rem; border-radius: 20px; text-decoration: none; font-weight: 500; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 اختبارات الكتاب المقرر</h1>
+        <p style="color:#86868b;">اختر نطاق الصفحات الذي تريد اختبار نفسك فيه.</p>
+        <div class="exam-list" id="examList">جاري التحميل…</div>
+    </div>
+    <script>
+        const exams = [
+            { file:"itc-p05-10.json", name:"صفحات 5-10", topic:"Present/Past Simple" },
+            { file:"itc-p12-18.json", name:"صفحات 12-18", topic:"Continuous Tenses" },
+            { file:"itc-p20-29.json", name:"صفحات 20-29", topic:"Perfect Tenses" },
+            { file:"itc-p30-36.json", name:"صفحات 30-36", topic:"Mixed Tenses" },
+            { file:"itc-p37-41.json", name:"صفحات 37-41", topic:"Passive Voice" },
+            { file:"itc-p41-44.json", name:"صفحات 41-44", topic:"Comparative/Superlative" },
+            { file:"itc-p44-47.json", name:"صفحات 44-47", topic:"Gerund/Infinitive" },
+            { file:"itc-p48-54.json", name:"صفحات 48-54", topic:"Question Tags & Pronouns" },
+            { file:"itc-p55-59.json", name:"صفحات 55-59", topic:"Pronouns & Possessives" },
+            { file:"itc-p60-61.json", name:"صفحات 60-61", topic:"Used to" },
+            { file:"itc-p61-62.json", name:"صفحات 61-62", topic:"For/Since/Articles" },
+            { file:"itc-p62-63.json", name:"صفحات 62-63", topic:"Another/Other/Others" },
+            { file:"itc-p64-66.json", name:"صفحات 64-66", topic:"Modals" },
+            { file:"itc-p68-75.json", name:"صفحات 68-75", topic:"Vocabulary (Family → Jobs)" },
+            { file:"itc-p75-87.json", name:"صفحات 75-87", topic:"Vocabulary (Shopping → Materials)" }
+        ];
+        let html = '';
+        exams.forEach(ex => {
+            html += `<div class="exam-card">
+                <h3>${ex.name}</h3>
+                <p>${ex.topic}</p>
+                <a href="take-exam.html?file=${ex.file}">بدء الاختبار</a>
+            </div>`;
+        });
+        document.getElementById('examList').innerHTML = html;
+    </script>
+</body>
+</html>
