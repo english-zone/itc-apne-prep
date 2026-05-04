@@ -8,5 +8,20 @@
   {"q":"All the beds were ____ my grandmother.","options":["made by","made for","make by","make for"],"answer":0},
   {"q":"Many writers were ____ Shakespeare.","options":["influence by","influenced by","influence for","influenced for"],"answer":1},
   {"q":"The money ____ stolen by the thieves if you leave it there.","options":["was","will be","has been","is"],"answer":1},
-  {"q":"This mansion ____ in 1750.","options":["is built","was built","will be built","built"],"answer":1}
+  {"q":"This mansion ____ in 1750.","options":["is built","was built","will be built","built"],"answer":1},
+  {"q":"They will ____ this car soon.","options":["be bought","buying","buy","is bought"],"answer":0},
+  {"q":"This car will soon ____.","options":["be bought","buying","buy","is bought"],"answer":0},
+  {"q":"The jar ____ by the maid.","options":["was broken","broke","is broken","breaks"],"answer":0},
+  {"q":"The center's striker ____ a goal.","options":["was scored","scored","is scored","has scored"],"answer":1},
+  {"q":"English ____ spoken all over the world.","options":["is","are","was","were"],"answer":0},
+  {"q":"A new hospital ____ built next year.","options":["is","will be","was","has been"],"answer":1},
+  {"q":"The classroom ____ cleaned every day.","options":["is","are","was","were"],"answer":0},
+  {"q":"The report must ____ by tomorrow.","options":["be submitted","submit","submitted","submitting"],"answer":0},
+  {"q":"The light bulb ____ by Edison in 1879.","options":["invented","was invented","is invented","invents"],"answer":1},
+  {"q":"The cake ____ made by my mother.","options":["are","is","were","be"],"answer":1},
+  {"q":"Many things ____ in this house.","options":["is said","are said","they say","they are said"],"answer":1},
+  {"q":"The homework must ____ before Friday.","options":["be done","done","do","doing"],"answer":0},
+  {"q":"The letter ____ sent yesterday.","options":["is","was","were","are"],"answer":1},
+  {"q":"The window ____ broken by the wind last night.","options":["is","was","were","be"],"answer":1},
+  {"q":"The results ____ announced tomorrow.","options":["will be","was","is","been"],"answer":0}
 ]
