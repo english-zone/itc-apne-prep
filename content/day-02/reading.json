@@ -1,1 +1,44 @@
-{}
+{
+  "passages": [
+    {
+      "title": "Bicycles",
+      "text": "Bicycles are not a new invention. The first ones were built in the late 1700's, but they didn't have any pedals. To move them, people pushed their feet against the ground. These bicycles were very uncomfortable as well. Their wheels were made of wood. In the 1830's Kirkpatrick Macmillan fixed foot levers to his bicycle. They were joined to the back wheel. When Macmillan sat on his machine, he pushed his feet up and down on the levers. In this way the wheels turned. About thirty years passed. Then, in 1861 pedals were fixed to the front wheels of bicycles. This made them much easier to ride. More people bought them. Bicycle riding became a sport. Riders wanted to go faster and faster, so they made machines with very high wheels. Some front wheels were 1.5 meters high. This made the machines dangerous. Riders often fell off them. At last, in the 1880s, safer and more comfortable bicycles began to be made. These machines had air-filled tires which looked like modern bicycle wheels. They also had chains. When the rider turned the pedals, the chain drove the back wheel of the bicycle. The bicycle hasn't changed very much since.",
+      "questions": [
+        {"q":"1. The first bicycles were very uncomfortable because","options":["they were a new invention","they had foot levers","the wheels were made of wood","the wheels didn't turn round"],"answer":2,"page":"ص 96"},
+        {"q":"2. Which of the following statements is true?","options":["Macmillan pushed his feet against the ground to move his bicycle","Macmillan produced his bicycle more than two hundred years ago.","Foot levers were used to turn the wheels on Macmillan's bicycle.","Macmillan's bicycle had pedals."],"answer":2,"page":"ص 96"},
+        {"q":"3. Why were bicycles easier to ride in the 1860's?","options":["More people bought them.","Bicycle riding became a sport.","Bicycles had pedals.","Riders wanted to go faster and faster."],"answer":2,"page":"ص 96"},
+        {"q":"4. In paragraph 1, line 4, 'they' refers to","options":["feet","foot levers","wheels","1830's"],"answer":1,"page":"ص 96"},
+        {"q":"5. What made bicycles safer in the 1880s?","options":["Higher front wheels","Air-filled tires and chains","Wooden wheels","Foot levers"],"answer":1,"page":"ص 96"},
+        {"q":"6. How high were some front wheels in the 1860s?","options":["0.5 meters","1.5 meters","2.5 meters","3.5 meters"],"answer":1,"page":"ص 96"},
+        {"q":"7. When were pedals fixed to the front wheels?","options":["1830","1861","1880","1900"],"answer":1,"page":"ص 96"}
+      ]
+    },
+    {
+      "title": "The Red Sea",
+      "text": "Water which comes from the Gulf of Aden at the southern end. However, the sea is very narrow there, and in the past the channel has closed. When that happened, the sea dried up. The salt was left behind and, today, there are some places where the salt is almost 4 km thick. Most of this salt is now covered with rock. Today, some companies are mining the bottom of the Red Sea. There are cracks in the sea bottom and warm sea water enters them. The water carries different salts and minerals out of the cracks back to the sea floor. There, the hot sea water, which is heavier than ordinary sea water, forms pools. These pools cool and the salts and minerals become solid again. Because of this process, there are large quantities of copper (Cu), nickel (Ni) and other metals on the seafloor. These metals are very useful, but we must make sure that we don't damage the animal and plant life of the Red Sea.",
+      "questions": [
+        {"q":"8. Water which comes from the Gulf of Aden enters the Red Sea through","options":["the northern end","the southern end","the western end","the eastern end"],"answer":1,"page":"ص 97"},
+        {"q":"9. In the past the Red Sea dried up completely because","options":["the sun was much hotter than it is today","no water could enter at the southern end","the sea became full of salt","rock covered the area"],"answer":1,"page":"ص 97"},
+        {"q":"10. According to the passage, what shows us today that the Red Sea completely evaporated in the past?","options":["The rock.","Huge quantities of salt.","The narrow sea.","The sun."],"answer":1,"page":"ص 97"},
+        {"q":"11. Hot sea water forms pools on the seafloor because it ______ ordinary sea water.","options":["isn't as light as","is lighter than","isn't as heavy as","is similar to"],"answer":0,"page":"ص 98"},
+        {"q":"12. Where do the minerals come from?","options":["The sea floor.","Above the sea floor.","Under the sea floor.","Near the sea floor."],"answer":2,"page":"ص 98"},
+        {"q":"13. How thick is the salt layer in some places?","options":["1 km","2 km","4 km","10 km"],"answer":2,"page":"ص 97"},
+        {"q":"14. What metals are found on the seafloor?","options":["Gold and silver","Copper and nickel","Iron and zinc","Lead and aluminum"],"answer":1,"page":"ص 98"}
+      ]
+    },
+    {
+      "title": "Diabetes",
+      "text": "There are two types of diabetes: insulin-dependent (Type I) and non-insulin-dependent (Type II). Most diabetics do not produce enough insulin, which is necessary for the body to process glucose. Glucose, a simple sugar, is a primary source of energy for the body. When insulin is lacking, glucose cannot be absorbed by cells and remains in the bloodstream. People with insulin-dependent diabetes must receive daily insulin injections to survive. People with non-insulin dependent diabetes usually produce some insulin in their pancreas, but the body's tissues do not respond very well to the insulin signal and therefore do not metabolize the glucose properly. This condition is also known as insulin resistance. There's no cure for diabetes yet. However, there are ways to alleviate its symptoms. In 1986, a National Institutes of Health panel of experts recommended that the best treatment for Type II diabetes is a diet that helps one maintain a normal weight and balances all food groups. Many experts, including those in the American Diabetes Association, recommend that 50-60 percent of daily calories come from carbohydrates, 12-20 percent from protein, and no more than 30% from fat. Foods that are rich in carbohydrates, like breads, cereals, fruits, and vegetables break down into glucose during digestion, causing blood glucose to rise. Additionally, studies have shown that cooked foods raise blood glucose higher than raw foods.",
+      "questions": [
+        {"q":"15. What is the main purpose of this passage?","options":["to show readers how to prevent diabetes","to show the differences between Type I and II diabetes","to describe the best diet for people with diabetes","to describe the health problem caused by both types of diabetes"],"answer":3,"page":"ص 100"},
+        {"q":"16. The underlined word 'alleviate' is closest in meaning to","options":["get rid of","reduce","increase","maintain"],"answer":1,"page":"ص 100"},
+        {"q":"17. Which of the following is NOT true of glucose?","options":["It is produced from food during digestion.","It is carried in the bloodstream.","It is burned by the body for energy.","Macmillan's bicycle had pedals."],"answer":3,"page":"ص 100"},
+        {"q":"18. The passage implies that","options":["a diet too heavy in carbohydrates is bad for people with diabetes","people with diabetes need extra carbohydrates in their diet","diabetes is not really a very serious disease","people with diabetes should lose weight"],"answer":0,"page":"ص 101"},
+        {"q":"19. The underlined pronoun 'these' refers to","options":["non-insulin dependents","insulin dependents","insulin resistant","insulin symptoms"],"answer":1,"page":"ص 101"},
+        {"q":"20. Type I diabetics must receive daily ____ to survive.","options":["pills","insulin injections","vitamin C","surgery"],"answer":1,"page":"ص 100"},
+        {"q":"21. Cooked foods raise blood glucose ____ raw foods.","options":["less than","the same as","higher than","lower than"],"answer":2,"page":"ص 101"},
+        {"q":"22. What percentage of calories should come from fat for diabetics?","options":["10%","no more than 30%","50%","60%"],"answer":1,"page":"ص 100"}
+      ]
+    }
+  ]
+}

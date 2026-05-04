@@ -1,1 +1,14 @@
-{}
+{"words":[
+  {"correct":"raincoat","options":["raincoat","raincot","rainecoat","raincoate"]},
+  {"correct":"sweater","options":["sweater","sweter","sweatar","sweatter"]},
+  {"correct":"trainers","options":["trainers","trainors","traners","trainars"]},
+  {"correct":"umbrella","options":["umbrella","umbrela","umbrealla","umbralla"]},
+  {"correct":"scarf","options":["scarf","scurff","skarf","scalf"]},
+  {"correct":"thobe","options":["thobe","thob","thoob","tobe"]},
+  {"correct":"pedal","options":["pedal","pedel","pidal","peddal"]},
+  {"correct":"invention","options":["invention","invetion","invenshun","inventyion"]},
+  {"correct":"diabetes","options":["diabetes","diabetis","diabitis","daibetes"]},
+  {"correct":"insulin","options":["insulin","insuline","insolen","insulim"]},
+  {"correct":"channel","options":["channel","channal","chanel","chennel"]},
+  {"correct":"minerals","options":["minerals","minarals","minrels","minarils"]}
+]}

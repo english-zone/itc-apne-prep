@@ -1,1 +1,12 @@
-{}
+[
+  {"q":"I ____ to the mall after school.","options":["goed","gone","went","going"],"answer":2},
+  {"q":"My brother ____ a deer an hour ago.","options":["seen","saw","sees","seeing"],"answer":1},
+  {"q":"____ Majid visit his grandmother last night?","options":["Did","Are","Does","Was"],"answer":0},
+  {"q":"Adil did not ____ last weekend.","options":["working","worked","work","works"],"answer":2},
+  {"q":"____ Sukainah and Fatin at last month's meeting?","options":["Was","Were","Are","Did"],"answer":1},
+  {"q":"We ____ not happy after the sad ending.","options":["were","was","did","are"],"answer":0},
+  {"q":"Sorry, I ____ hear you at the door.","options":["wasn't","didn't","am not","don't"],"answer":1},
+  {"q":"What ____ you eat for lunch yesterday?","options":["do","did","were","are"],"answer":1},
+  {"q":"I have been waiting for ____ hour.","options":["a","an","the","zero article"],"answer":1},
+  {"q":"Riyad is ____ capital of Saudi Arabia.","options":["a","an","the","zero article"],"answer":2}
+]
