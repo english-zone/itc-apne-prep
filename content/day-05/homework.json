@@ -1,0 +1,73 @@
+{
+  "reading": [
+    {
+      "title": "The Secret Language of Whales",
+      "text": "Whales are known for their complex vocalisations, often called songs. Humpback whales, in particular, produce long, melodic sequences that can travel hundreds of kilometers underwater. Scientists have discovered that these songs follow grammatical rules similar to human languages. Each song is composed of themes and phrases that repeat in a specific order. Whales may use songs to attract mates, navigate, or maintain social bonds. Interestingly, whale songs evolve over time; a tune heard one year may be completely different the next, suggesting cultural transmission among pods.",
+      "questions": [
+        {"q":"1. What is unique about humpback whale vocalisations?","options":["They are silent","They follow grammatical rules","They are short","They are random noise"],"answer":1,"page":"Extra 5"},
+        {"q":"2. How far can whale songs travel underwater?","options":["A few meters","Hundreds of kilometers","Thousands of kilometers","Only near the surface"],"answer":1,"page":"Extra 5"},
+        {"q":"3. What may whales use songs for?","options":["Attracting mates and navigating","Sleeping","Eating only","Fighting"],"answer":0,"page":"Extra 5"},
+        {"q":"4. How do whale songs change over time?","options":["They stay the same","They become simpler","They evolve and change","They disappear quickly"],"answer":2,"page":"Extra 5"},
+        {"q":"5. What does cultural transmission mean?","options":["Singing alone","Passing traditions from one generation to another","Physical fighting","Staying in one place"],"answer":1,"page":"Extra 5"}
+      ]
+    },
+    {
+      "title": "The Pyramids: Ancient Engineering Marvels",
+      "text": "The pyramids of Egypt, built over 4,500 years ago, remain a source of wonder. The Great Pyramid of Giza, originally 146 meters tall, was constructed from over 2 million stone blocks, each weighing an average of 2.5 tons. How ancient Egyptians transported and lifted these blocks without modern machinery is still debated. The most accepted theory involves ramps and a large workforce of skilled laborers, not slaves as once thought. Recent discoveries of workers' tombs and dietary records suggest that the pyramid builders were well-fed and highly organized.",
+      "questions": [
+        {"q":"6. How old are the pyramids?","options":["2,000 years","3,500 years","Over 4,500 years","10,000 years"],"answer":2,"page":"Extra 5"},
+        {"q":"7. How tall was the Great Pyramid originally?","options":["100 m","120 m","146 m","200 m"],"answer":2,"page":"Extra 5"},
+        {"q":"8. What was the average weight of a stone block?","options":["1 ton","2.5 tons","5 tons","10 tons"],"answer":1,"page":"Extra 5"},
+        {"q":"9. What does the most accepted construction theory involve?","options":["Aliens","Ramps and skilled laborers","Slaves","Cranes"],"answer":1,"page":"Extra 5"},
+        {"q":"10. What do dietary records reveal about the builders?","options":["They were starved","They were well-fed","They ate only bread","They drank no water"],"answer":1,"page":"Extra 5"}
+      ]
+    },
+    {
+      "title": "The Microbiome: Trillions of Tiny Allies",
+      "text": "The human body is home to trillions of microorganisms, collectively called the microbiome. These bacteria, fungi, and viruses live on our skin, in our mouths, and especially in our intestines. Far from being harmful, most of them are beneficial. They help digest food, produce vitamins, and train our immune system. Disruption of the microbiome through antibiotics or poor diet has been linked to allergies, obesity, and even mental health issues. Researchers are now exploring how to restore a healthy microbiome through probiotics and personalized medicine.",
+      "questions": [
+        {"q":"11. What is the microbiome?","options":["A type of medicine","The collection of microorganisms in the body","A disease","An organ"],"answer":1,"page":"Extra 5"},
+        {"q":"12. Where are most of these microorganisms found?","options":["Skin","Mouth","Intestines","Lungs"],"answer":2,"page":"Extra 5"},
+        {"q":"13. What do beneficial bacteria do?","options":["Cause disease","Help digest food and produce vitamins","Do nothing","Fight the immune system"],"answer":1,"page":"Extra 5"},
+        {"q":"14. What can disrupt the microbiome?","options":["Antibiotics","Sunlight","Exercise","Water"],"answer":0,"page":"Extra 5"},
+        {"q":"15. What are researchers exploring to restore the microbiome?","options":["Surgery","Probiotics and personalized medicine","Radiation","Chemotherapy"],"answer":1,"page":"Extra 5"}
+      ]
+    }
+  ],
+  "vocabulary": [
+    {"english":"vocalisation","arabic":"نطق / صوت","page":"Extra 5","question":{"q":"Whales communicate through ____.","options":["vocalisations","silence","gestures","lights"],"answer":0}},
+    {"english":"pod","arabic":"قطيع (حيتان)","page":"Extra 5","question":{"q":"A group of whales is called a ____.","options":["school","pod","flock","herd"],"answer":1}},
+    {"english":"monumental","arabic":"ضخم","page":"Extra 5","question":{"q":"The pyramids are ____ structures.","options":["tiny","monumental","modern","weak"],"answer":1}},
+    {"english":"ramp","arabic":"منحدر","page":"Extra 5","question":{"q":"Workers may have used ____ to lift stones.","options":["carts","ramps","ropes","wheels"],"answer":1}},
+    {"english":"microorganism","arabic":"كائن دقيق","page":"Extra 5","question":{"q":"A ____ is a tiny living thing.","options":["microorganism","elephant","mountain","river"],"answer":0}},
+    {"english":"probiotic","arabic":"بروبيوتك (معزز حيوي)","page":"Extra 5","question":{"q":"Yogurt often contains ____.","options":["antibiotics","probiotics","vitamins","minerals"],"answer":1}},
+    {"english":"obesity","arabic":"سمنة","page":"Extra 5","question":{"q":"Antibiotic overuse may lead to ____.","options":["obesity","thinness","height","vision"],"answer":0}},
+    {"english":"immune","arabic":"مناعي","page":"Extra 5","question":{"q":"Microbes help train the ____ system.","options":["digestive","immune","nervous","respiratory"],"answer":1}},
+    {"english":"dietary","arabic":"غذائي","page":"Extra 5","question":{"q":"____ records show what workers ate.","options":["Medical","Dietary","Legal","Musical"],"answer":1}},
+    {"english":"cultural transmission","arabic":"انتقال ثقافي","page":"Extra 5","question":{"q":"Whale song changes show ____.","options":["cultural transmission","genetic mutation","pollution","hunting"],"answer":0}}
+  ],
+  "grammar": [
+    {"q":"Whales ____ complex songs.","options":["produce","produces","produced","producing"],"answer":0,"topic":"Present Simple"},
+    {"q":"The Great Pyramid ____ over 4,500 years ago.","options":["was built","is built","built","builds"],"answer":0,"topic":"Past Simple Passive"},
+    {"q":"Microorganisms ____ in our intestines.","options":["live","lives","lived","living"],"answer":0,"topic":"Present Simple"},
+    {"q":"By next year, scientists ____ the whale song patterns.","options":["understand","understood","will have understood","understands"],"answer":2,"topic":"Future Perfect"},
+    {"q":"If you take antibiotics, your microbiome ____.","options":["suffer","suffers","will suffer","suffered"],"answer":2,"topic":"First Conditional"},
+    {"q":"The stones ____ by skilled laborers.","options":["were placed","was placed","placed","places"],"answer":0,"topic":"Past Simple Passive"},
+    {"q":"Researchers ____ the microbiome now.","options":["study","are studying","studied","studies"],"answer":1,"topic":"Present Continuous"},
+    {"q":"This discovery is ____ than the previous one.","options":["important","more important","most important","importanter"],"answer":1,"topic":"Comparative"},
+    {"q":"She enjoys ____ about ancient history.","options":["learn","to learn","learning","learns"],"answer":2,"topic":"Gerund"},
+    {"q":"Probiotics ____ restore healthy gut bacteria.","options":["can","must","should","will"],"answer":0,"topic":"Modals"}
+  ],
+  "dictation": [
+    {"correct":"vocalisation","options":["vocalisation","vocalization","vocalisashun","vocalisation"]},
+    {"correct":"pod","options":["pod","podd","podde","pawd"]},
+    {"correct":"monumental","options":["monumental","monumental","monomental","monumentle"]},
+    {"correct":"ramp","options":["ramp","ramp","rampe","raemp"]},
+    {"correct":"microorganism","options":["microorganism","micro-organism","microorganizm","microorganisem"]},
+    {"correct":"probiotic","options":["probiotic","probiotik","probeyotic","probiotec"]},
+    {"correct":"obesity","options":["obesity","obesitee","obesety","obisity"]},
+    {"correct":"immune","options":["immune","imune","immun","immunne"]},
+    {"correct":"dietary","options":["dietary","dietery","dietarry","dietery"]},
+    {"correct":"transmission","options":["transmission","transmision","transmishun","transmisshun"]}
+  ]
+}

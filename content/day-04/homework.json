@@ -1,0 +1,73 @@
+{
+  "reading": [
+    {
+      "title": "The Deep Sea Mystery",
+      "text": "More than 80% of the ocean remains unexplored, and its deepest parts, the abyssal plains, are among the least understood places on Earth. The pressure at such depths can exceed 1,000 times that at sea level, and sunlight cannot penetrate beyond 1,000 meters. Yet life thrives here in the form of bioluminescent fish, giant tube worms, and bacteria that feed on chemicals from hydrothermal vents. These vents, discovered in 1977, spew superheated water rich in minerals, creating unique ecosystems that do not rely on the sun at all. Scientists believe that studying deep-sea organisms may provide clues about the origins of life on Earth and even the possibility of life on other planets.",
+      "questions": [
+        {"q":"1. What percentage of the ocean is unexplored?","options":["20%","More than 80%","50%","100%"],"answer":1,"page":"Extra 4"},
+        {"q":"2. What cannot penetrate beyond 1,000 meters?","options":["Pressure","Sunlight","Sound","Fish"],"answer":1,"page":"Extra 4"},
+        {"q":"3. What do bacteria at hydrothermal vents feed on?","options":["Sunlight","Chemicals","Fish","Plants"],"answer":1,"page":"Extra 4"},
+        {"q":"4. When were hydrothermal vents discovered?","options":["1877","1900","1977","2000"],"answer":2,"page":"Extra 4"},
+        {"q":"5. Why are deep-sea organisms important to study?","options":["For food","For oil","Clues about life origins","For tourism"],"answer":2,"page":"Extra 4"}
+      ]
+    },
+    {
+      "title": "The Invention of the Internet",
+      "text": "The internet began as a military project called ARPANET, funded by the U.S. Department of Defense in the 1960s. The goal was to create a communication network that could survive a nuclear attack by routing data through multiple paths. In 1969, the first message was sent between computers at UCLA and Stanford. By the 1980s, universities and research centers worldwide were connecting to the network. The invention of the World Wide Web by Tim Berners-Lee in 1989 made the internet accessible to ordinary people. Today, over 5 billion people use the internet daily for communication, education, and entertainment.",
+      "questions": [
+        {"q":"6. What was the original name of the internet?","options":["World Wide Web","ARPANET","Internet","NSA-NET"],"answer":1,"page":"Extra 4"},
+        {"q":"7. What was the initial purpose of ARPANET?","options":["Shopping","Military communication","Social media","Banking"],"answer":1,"page":"Extra 4"},
+        {"q":"8. When was the first message sent?","options":["1960","1969","1975","1989"],"answer":1,"page":"Extra 4"},
+        {"q":"9. Who invented the World Wide Web?","options":["Bill Gates","Steve Jobs","Tim Berners-Lee","Mark Zuckerberg"],"answer":2,"page":"Extra 4"},
+        {"q":"10. How many people use the internet today?","options":["1 billion","2 billion","Over 5 billion","Over 10 billion"],"answer":2,"page":"Extra 4"}
+      ]
+    },
+    {
+      "title": "Why Leaves Change Color",
+      "text": "In autumn, the green chlorophyll in leaves breaks down, revealing yellow and orange pigments called carotenoids that were present all along. Red and purple colors come from anthocyanins, which are produced in the fall when sugars get trapped in the leaves. The intensity of autumn colors depends on weather: cold nights and sunny days produce the most vibrant displays. As leaves prepare to fall, a layer of cells forms at the base of the leaf stem, cutting off water and nutrients. Eventually, the leaf detaches and falls to the ground, where it decomposes and enriches the soil.",
+      "questions": [
+        {"q":"11. What pigment gives leaves their green color?","options":["Carotenoid","Chlorophyll","Anthocyanin","Melanin"],"answer":1,"page":"Extra 4"},
+        {"q":"12. Which pigment creates yellow and orange colors?","options":["Chlorophyll","Anthocyanin","Carotenoid","Hemoglobin"],"answer":2,"page":"Extra 4"},
+        {"q":"13. When are anthocyanins produced?","options":["Spring","Summer","Fall","Winter"],"answer":2,"page":"Extra 4"},
+        {"q":"14. What weather conditions produce the most vibrant colors?","options":["Warm days and cold nights","Cold days and rainy nights","Cold nights and sunny days","Hot days and humid nights"],"answer":2,"page":"Extra 4"},
+        {"q":"15. What happens to the fallen leaf?","options":["It grows roots","It freezes","It decomposes and enriches soil","It flies away"],"answer":2,"page":"Extra 4"}
+      ]
+    }
+  ],
+  "vocabulary": [
+    {"english":"abyssal","arabic":"عميق (سحيق)","page":"Extra 4","question":{"q":"The ____ plains are the deepest parts of the ocean.","options":["coastal","abyssal","shallow","tropical"],"answer":1}},
+    {"english":"bioluminescent","arabic":"مضيء حيوياً","page":"Extra 4","question":{"q":"Some deep-sea fish are ____.","options":["nocturnal","bioluminescent","invisible","blind"],"answer":1}},
+    {"english":"hydrothermal","arabic":"حرمائي","page":"Extra 4","question":{"q":"____ vents release superheated water.","options":["Hydrothermal","Geothermal","Solar","Electrical"],"answer":0}},
+    {"english":"resistant","arabic":"مقاوم","page":"Extra 4","question":{"q":"The network was designed to be ____ to attacks.","options":["vulnerable","resistant","open","fragile"],"answer":1}},
+    {"english":"accessible","arabic":"متاح / سهل الوصول","page":"Extra 4","question":{"q":"The Web made the internet ____ to ordinary people.","options":["inaccessible","difficult","accessible","secret"],"answer":2}},
+    {"english":"chlorophyll","arabic":"كلوروفيل","page":"Extra 4","question":{"q":"____ is the green pigment in plants.","options":["Carotene","Chlorophyll","Xanthophyll","Anthocyanin"],"answer":1}},
+    {"english":"carotenoid","arabic":"كاروتينويد","page":"Extra 4","question":{"q":"____ pigments produce yellow and orange colors.","options":["Chlorophyll","Carotenoid","Anthocyanin","Melanin"],"answer":1}},
+    {"english":"decompose","arabic":"يتحلل","page":"Extra 4","question":{"q":"Leaves ____ and enrich the soil.","options":["decompose","grow","fly","freeze"],"answer":0}},
+    {"english":"vibrant","arabic":"زاهي / نابض بالحياة","page":"Extra 4","question":{"q":"Autumn colors are most ____ on sunny days.","options":["dull","vibrant","dark","faint"],"answer":1}},
+    {"english":"nutrient","arabic":"مغذٍ","page":"Extra 4","question":{"q":"Plants absorb ____ from the soil.","options":["water","nutrients","sand","plastic"],"answer":1}}
+  ],
+  "grammar": [
+    {"q":"The ocean ___ explored fully yet.","options":["has not been","have not been","is not","was not"],"answer":0,"topic":"Present Perfect Passive"},
+    {"q":"ARPANET ___ funded by the Defense Department.","options":["is","was","were","are"],"answer":1,"topic":"Past Simple Passive"},
+    {"q":"Leaves ___ their color in autumn.","options":["changes","change","changed","changing"],"answer":1,"topic":"Present Simple"},
+    {"q":"By 2025, scientists ___ several new deep-sea species.","options":["discover","discovered","will have discovered","discovers"],"answer":2,"topic":"Future Perfect"},
+    {"q":"If leaves fall, they ___ the soil.","options":["enrich","enriches","enriched","will enrich"],"answer":0,"topic":"Zero Conditional"},
+    {"q":"The deep sea ___ by many organisms.","options":["are inhabited","is inhabited","inhabits","inhabited"],"answer":1,"topic":"Present Simple Passive"},
+    {"q":"Web ___ by Berners-Lee in 1989.","options":["was invented","were invented","invented","invents"],"answer":0,"topic":"Past Simple Passive"},
+    {"q":"She enjoys ___ about ocean life.","options":["learn","to learn","learning","learns"],"answer":2,"topic":"Gerund"},
+    {"q":"This is the ___ interesting topic in the book.","options":["more","most","much","many"],"answer":1,"topic":"Superlative"},
+    {"q":"If we protect the oceans, we ___ marine life.","options":["save","will save","saved","saves"],"answer":1,"topic":"First Conditional"}
+  ],
+  "dictation": [
+    {"correct":"abyssal","options":["abyssal","abysal","abyssel","abysall"]},
+    {"correct":"bioluminescent","options":["bioluminescent","bioluminescent","bioluminiscent","bioluminessent"]},
+    {"correct":"hydrothermal","options":["hydrothermal","hydrothermel","hidrothermal","hydrothermal"]},
+    {"correct":"chlorophyll","options":["chlorophyll","clorophyll","chlorophyl","chlorophill"]},
+    {"correct":"carotenoid","options":["carotenoid","carotenoid","carotinoid","carotinoide"]},
+    {"correct":"decompose","options":["decompose","decompoze","decompse","dekompose"]},
+    {"correct":"vibrant","options":["vibrant","vibrante","vibrent","vybrant"]},
+    {"correct":"nutrient","options":["nutrient","nutriant","nutriente","newtrient"]},
+    {"correct":"accessible","options":["accessible","acessible","accessable","accesible"]},
+    {"correct":"resistant","options":["resistant","resistent","resistante","resistant"]}
+  ]
+}
