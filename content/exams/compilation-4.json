@@ -7,32 +7,57 @@
       "questions": [
         {
           "q": "1. What was Tyrian purple made from?",
-          "options": ["Chemical mixtures", "Mountain minerals", "Berry juice", "Sea snails"],
-          "answer": 3,
+          "options": [
+            "Mountain minerals",
+            "Sea snails",
+            "Berry juice",
+            "Chemical mixtures"
+          ],
+          "answer": 1,
           "justification": "The text explicitly states that the dye was extracted from the glands of small sea snails called Murex. Sea snails are the source, not minerals, berries, or chemicals."
         },
         {
           "q": "2. Why was the colour purple restricted to emperors?",
-          "options": ["It faded too quickly", "It was considered unlucky", "It was extremely expensive to produce", "It was too bright for common people"],
-          "answer": 2,
+          "options": [
+            "It was considered unlucky",
+            "It was extremely expensive to produce",
+            "It was too bright for common people",
+            "It faded too quickly"
+          ],
+          "answer": 1,
           "justification": "The passage explains that it took 10,000 snails to produce just one gram, making it more valuable than gold. This extreme cost is why only emperors and high-ranking priests could afford it, and why laws restricted its use."
         },
         {
           "q": "3. How many snails were needed to produce one gram of the dye?",
-          "options": ["About 1,000", "About 10,000", "About 100", "About 100,000"],
-          "answer": 1,
+          "options": [
+            "About 100",
+            "About 100,000",
+            "About 1,000",
+            "About 10,000"
+          ],
+          "answer": 3,
           "justification": "The passage states clearly 'an estimated 10,000 snails to produce just one gram'. This highlights the incredible effort required."
         },
         {
           "q": "4. What happened to the knowledge of Tyrian purple production?",
-          "options": ["It was sold to the Chinese", "It was lost when Constantinople fell", "It was recorded in the Bible", "It was taken to Rome and preserved"],
+          "options": [
+            "It was recorded in the Bible",
+            "It was lost when Constantinople fell",
+            "It was sold to the Chinese",
+            "It was taken to Rome and preserved"
+          ],
           "answer": 1,
           "justification": "The text mentions that when Constantinople fell to the Ottoman Turks in 1453 CE, the last workshops were destroyed and the secret formula vanished."
         },
         {
           "q": "5. Why are modern researchers trying to recreate the dye?",
-          "options": ["To write a history book", "To sell it to emperors", "To benefit modern textile industries with a natural alternative", "To prove the Bible wrong"],
-          "answer": 2,
+          "options": [
+            "To sell it to emperors",
+            "To prove the Bible wrong",
+            "To write a history book",
+            "To benefit modern textile industries with a natural alternative"
+          ],
+          "answer": 3,
           "justification": "The final paragraphs explain that recreating the dye could offer a natural, sustainable alternative to synthetic dyes, benefiting modern textile industries."
         }
       ]
@@ -43,32 +68,57 @@
       "questions": [
         {
           "q": "6. What is the Underground City known as?",
-          "options": ["The Metro", "The Catacombs", "RÉSO", "The Subway"],
-          "answer": 2,
+          "options": [
+            "The Subway",
+            "The Metro",
+            "The Catacombs",
+            "RÉSO"
+          ],
+          "answer": 3,
           "justification": "The text introduces the Underground City and immediately gives its alternative name: 'known as … RÉSO'."
         },
         {
           "q": "7. Why was the Underground City originally built?",
-          "options": ["To hide from enemies", "To connect buildings and escape winter", "To mine for gold", "To create a tourist attraction"],
-          "answer": 1,
+          "options": [
+            "To mine for gold",
+            "To create a tourist attraction",
+            "To connect buildings and escape winter",
+            "To hide from enemies"
+          ],
+          "answer": 2,
           "justification": "The passage states that it connects buildings and enables residents to escape the harsh Canadian winter."
         },
         {
           "q": "8. How many people use the network daily?",
-          "options": ["100,000", "Over 500,000", "1 million", "50,000"],
+          "options": [
+            "1 million",
+            "Over 500,000",
+            "100,000",
+            "50,000"
+          ],
           "answer": 1,
           "justification": "The text says 'today it carries over 500,000 people daily'."
         },
         {
           "q": "9. What makes the RÉSO feel natural despite being underground?",
-          "options": ["Artificial sunlight only", "Green spaces, water fountains, and light shafts", "Loud music", "Dark tunnels"],
+          "options": [
+            "Loud music",
+            "Green spaces, water fountains, and light shafts",
+            "Artificial sunlight only",
+            "Dark tunnels"
+          ],
           "answer": 1,
           "justification": "The text mentions green spaces, water fountains, and natural light shafts that simulate daylight, making the environment pleasant."
         },
         {
           "q": "10. What do urban planners from other cities do with the RÉSO?",
-          "options": ["Ignore it", "Criticise it", "Study it as a model", "Compete with it"],
-          "answer": 2,
+          "options": [
+            "Study it as a model",
+            "Criticise it",
+            "Ignore it",
+            "Compete with it"
+          ],
+          "answer": 0,
           "justification": "The passage says 'urban planners worldwide study how this accidental wonder keeps a cold city warm and pedestrian-friendly'."
         }
       ]
@@ -77,361 +127,654 @@
   "grammarQuestions": [
     {
       "q": "Q6: My father died ______ June.",
-      "options": ["A. on", "C. in", "B. at", "D. for"],
+      "options": [
+        "B. at",
+        "C. in",
+        "A. on",
+        "D. for"
+      ],
       "answer": 1,
       "justification": "مع الشهور نستخدم حرف الجر 'in'."
-
     },
     {
       "q": "Q9: What are you doing ______ home?",
-      "options": ["B. at", "A. in", "C. to", "D. on"],
+      "options": [
+        "B. at",
+        "A. in",
+        "D. on",
+        "C. to"
+      ],
       "answer": 0,
       "justification": "'at home' تعني في البيت. 'in' لا تستخدم مع home بهذا المعنى."
     },
     {
       "q": "Q10: Khalid always gets up ______ 6 o’clock.",
-      "options": ["C. at", "A. in", "B. for", "D. on"],
-      "answer": 0,
+      "options": [
+        "D. on",
+        "B. for",
+        "A. in",
+        "C. at"
+      ],
+      "answer": 3,
       "justification": "مع الساعات نستخدم 'at'."
     },
     {
       "q": "Q1: I usually go ______ the mall for shopping.",
-      "options": ["A. to", "B. at", "C. in", "D. for"],
-      "answer": 0,
+      "options": [
+        "B. at",
+        "C. in",
+        "A. to",
+        "D. for"
+      ],
+      "answer": 2,
       "justification": "'go to' للذهاب إلى مكان."
     },
     {
       "q": "Q4: The deer was killed ______ the lion.",
-      "options": ["B. by", "A. from", "C. in", "D. for"],
-      "answer": 0,
+      "options": [
+        "D. for",
+        "A. from",
+        "B. by",
+        "C. in"
+      ],
+      "answer": 2,
       "justification": "في المبني للمجهول نستخدم 'by'."
     },
     {
       "q": "Q5: Sometimes Ahmad goes to school ______ bus.",
-      "options": ["C. by", "A. to", "B. in", "D. for"],
-      "answer": 0,
+      "options": [
+        "A. to",
+        "B. in",
+        "D. for",
+        "C. by"
+      ],
+      "answer": 3,
       "justification": "لوسائل النقل نستخدم 'by'."
     },
     {
       "q": "My teacher used to come to class with a ______.",
-      "options": ["C. pens", "A. few pens", "B. some pens", "D. many pens"],
-      "answer": 0,
+      "options": [
+        "B. some pens",
+        "C. pens",
+        "D. many pens",
+        "A. few pens"
+      ],
+      "answer": 1,
       "justification": "'pens' وحدها تكفي مع 'a'."
     },
     {
       "q": "Don’t take this book. It’s ______.",
-      "options": ["A. mine", "B. hers", "C. his", "D. he"],
+      "options": [
+        "A. mine",
+        "B. hers",
+        "D. he",
+        "C. his"
+      ],
       "answer": 0,
       "justification": "'mine' ضمير ملكية للمتكلم."
     },
     {
       "q": "Reading Practice China: 1. China ______ a rich culture.",
-      "options": ["a) has", "b) had", "c) had been", "d) had been going to"],
+      "options": [
+        "a) has",
+        "b) had",
+        "c) had been",
+        "d) had been going to"
+      ],
       "answer": 0,
       "justification": "حقيقة عامة: Present Simple."
     },
     {
       "q": "Reading Practice China: 2. China ______ ruled by dynasties.",
-      "options": ["b) was", "a) is", "c) were", "d) is going to be"],
+      "options": [
+        "b) was",
+        "a) is",
+        "d) is going to be",
+        "c) were"
+      ],
       "answer": 0,
       "justification": "حدث تاريخي: Past Simple Passive."
     },
     {
       "q": "Reading Practice China: 3. The Himalaya ______ southern China.",
-      "options": ["a) cross", "b) crossed", "c) had crossed", "d) were crossing"],
-      "answer": 0,
+      "options": [
+        "d) were crossing",
+        "a) cross",
+        "b) crossed",
+        "c) had crossed"
+      ],
+      "answer": 1,
       "justification": "حقيقة جغرافية: Present Simple."
     },
     {
       "q": "Can you swim?",
-      "options": ["D. Yes, I can", "A. Yes, I was", "B. Yes, I did", "C. Yes, I am"],
-      "answer": 0,
+      "options": [
+        "A. Yes, I was",
+        "B. Yes, I did",
+        "C. Yes, I am",
+        "D. Yes, I can"
+      ],
+      "answer": 3,
       "justification": "السؤال بـ 'Can you'، الإجابة بـ 'Yes, I can'."
     },
     {
       "q": "I am ______. I want some Pepsi.",
-      "options": ["D. thirsty", "A. the thirstiest", "B. thirstiest", "C. thirstier"],
+      "options": [
+        "D. thirsty",
+        "C. thirstier",
+        "A. the thirstiest",
+        "B. thirstiest"
+      ],
       "answer": 0,
       "justification": "وصف الحاضر البسيط."
     },
     {
       "q": "______ is your teacher?",
-      "options": ["A. Who", "B. Why", "C. What", "D. When"],
-      "answer": 0,
+      "options": [
+        "B. Why",
+        "C. What",
+        "D. When",
+        "A. Who"
+      ],
+      "answer": 3,
       "justification": "للسؤال عن شخص نستخدم 'Who'."
     },
     {
       "q": "My friend is ______ in my classroom.",
-      "options": ["A. hungry", "B. hungrier", "C. the hungriest", "D. hungriest"],
+      "options": [
+        "A. hungry",
+        "D. hungriest",
+        "B. hungrier",
+        "C. the hungriest"
+      ],
       "answer": 0,
       "justification": "جملة بسيطة، الصفة الأساسية 'hungry'."
     },
     {
       "q": "Erawan is ______ waterfall in Kanchanaburi.",
-      "options": ["C. the most beautiful", "A. most beautiful", "B. more beautiful", "D. beautiful"],
-      "answer": 0,
+      "options": [
+        "A. most beautiful",
+        "C. the most beautiful",
+        "D. beautiful",
+        "B. more beautiful"
+      ],
+      "answer": 1,
       "justification": "تفضيل: 'the most beautiful'."
     },
     {
       "q": "I am ______ Math student in my class.",
-      "options": ["D. the best", "A. best", "B. better", "C. the better"],
-      "answer": 0,
+      "options": [
+        "C. the better",
+        "B. better",
+        "D. the best",
+        "A. best"
+      ],
+      "answer": 2,
       "justification": "تفضيل: 'the best'."
     },
     {
       "q": "My father ______ a teacher at my school.",
-      "options": ["A. is", "B. am", "C. are", "D. was"],
-      "answer": 0,
+      "options": [
+        "D. was",
+        "B. am",
+        "C. are",
+        "A. is"
+      ],
+      "answer": 3,
       "justification": "حقيقة عامة: Present Simple."
     },
     {
       "q": "I ______ to Pattaya last weekend.",
-      "options": ["B. went", "A. go", "C. will go", "D. shall go"],
-      "answer": 0,
+      "options": [
+        "A. go",
+        "D. shall go",
+        "B. went",
+        "C. will go"
+      ],
+      "answer": 2,
       "justification": "'last weekend' ماضي: 'went'."
     },
     {
       "q": "A: _________ B: I have a headache.",
-      "options": ["A. What's the matter?", "B. Where are you going?", "C. What happened?"],
-      "answer": 0,
+      "options": [
+        "B. Where are you going?",
+        "C. What happened?",
+        "A. What's the matter?"
+      ],
+      "answer": 2,
       "justification": "للسؤال عن المشكلة: 'What's the matter?'"
     },
     {
       "q": "My flower is ______ than your flower.",
-      "options": ["C. more beautiful", "A. as beautiful", "B. the more beautiful", "D. the most beautiful"],
-      "answer": 0,
+      "options": [
+        "B. the more beautiful",
+        "A. as beautiful",
+        "C. more beautiful",
+        "D. the most beautiful"
+      ],
+      "answer": 2,
       "justification": "مقارنة: 'more beautiful than'."
     },
     {
       "q": "Where do kangaroos come from?",
-      "options": ["B. Australia", "A. Singapore", "C. America", "D. Thailand"],
+      "options": [
+        "B. Australia",
+        "C. America",
+        "D. Thailand",
+        "A. Singapore"
+      ],
       "answer": 0,
       "justification": "الكنغر يعيش في أستراليا."
     },
     {
       "q": "April is ______ month.",
-      "options": ["D. the hottest", "A. hottest", "B. hotter", "C. hot"],
-      "answer": 0,
+      "options": [
+        "B. hotter",
+        "C. hot",
+        "D. the hottest",
+        "A. hottest"
+      ],
+      "answer": 2,
       "justification": "تفضيل: 'the hottest'."
     },
     {
       "q": "Did your friends go to your birthday party?",
-      "options": ["C. Yes, they did.", "A. Yes, he did.", "B. Yes, she did.", "D. Yes, you did."],
-      "answer": 0,
+      "options": [
+        "B. Yes, she did.",
+        "C. Yes, they did.",
+        "D. Yes, you did.",
+        "A. Yes, he did."
+      ],
+      "answer": 1,
       "justification": "'friends' جمع: 'they did'."
     },
     {
       "q": "Songkran is ______ April.",
-      "options": ["A. in", "B. on", "C. to", "D. at"],
-      "answer": 0,
+      "options": [
+        "C. to",
+        "B. on",
+        "D. at",
+        "A. in"
+      ],
+      "answer": 3,
       "justification": "مع الشهور: 'in'."
     },
     {
       "q": "This is ______ car. It is ______.",
-      "options": ["A. my, mine", "B. mine, mine", "C. my, my", "D. mine, my"],
+      "options": [
+        "A. my, mine",
+        "C. my, my",
+        "D. mine, my",
+        "B. mine, mine"
+      ],
       "answer": 0,
       "justification": "الأولى صفة ملكية، الثانية ضمير ملكية."
     },
     {
       "q": "What day do Christians go to Church?",
-      "options": ["A. Sunday", "B. Saturday", "C. Friday", "D. Every day"],
+      "options": [
+        "A. Sunday",
+        "B. Saturday",
+        "C. Friday",
+        "D. Every day"
+      ],
       "answer": 0,
       "justification": "يوم الأحد هو يوم الصلاة المعتاد."
     },
     {
       "q": "Did you go to Chiang Mai last weekend?",
-      "options": ["A. Yes, I did.", "B. Yes, you were.", "C. Yes, you did.", "D. Yes, I am."],
-      "answer": 0,
+      "options": [
+        "B. Yes, you were.",
+        "D. Yes, I am.",
+        "C. Yes, you did.",
+        "A. Yes, I did."
+      ],
+      "answer": 3,
       "justification": "السؤال بـ 'Did you'، الإجابة 'Yes, I did'."
     },
     {
       "q": "I ___ go to school yesterday, because I was ill.",
-      "options": ["A. didn't", "B. doesn't", "C. do not", "D. don't"],
-      "answer": 0,
+      "options": [
+        "D. don't",
+        "B. doesn't",
+        "A. didn't",
+        "C. do not"
+      ],
+      "answer": 2,
       "justification": "نفي الماضي بـ 'didn't'."
     },
     {
       "q": "What does your mother look like?",
-      "options": ["C. She is tall and thin.", "A. he doesn't know.", "B. She likes to look at flowers.", "D. She likes to read books."],
-      "answer": 0,
+      "options": [
+        "D. She likes to read books.",
+        "C. She is tall and thin.",
+        "A. he doesn't know.",
+        "B. She likes to look at flowers."
+      ],
+      "answer": 1,
       "justification": "وصف الشكل الخارجي."
     },
     {
       "q": "How long ____ lunch?",
-      "options": ["C. were you eating", "A. were you eat", "B. was you eating", "D. was you eat"],
-      "answer": 0,
+      "options": [
+        "D. was you eat",
+        "C. were you eating",
+        "B. was you eating",
+        "A. were you eat"
+      ],
+      "answer": 1,
       "justification": "Past Continuous: 'were you eating'."
     },
     {
       "q": "My school ______ a gym.",
-      "options": ["D. has", "A. have", "B. had", "C. was"],
-      "answer": 0,
+      "options": [
+        "A. have",
+        "D. has",
+        "C. was",
+        "B. had"
+      ],
+      "answer": 1,
       "justification": "حقيقة حالية: Present Simple."
     },
     {
       "q": "A: How __ is the train ride? B: About ten hours.",
-      "options": ["A. long", "B. much", "C. far", "D. go"],
-      "answer": 0,
+      "options": [
+        "D. go",
+        "B. much",
+        "C. far",
+        "A. long"
+      ],
+      "answer": 3,
       "justification": "للمدة: 'How long'."
     },
     {
       "q": "A: How __ is it from BKK to Samut Prakan? B: 35 kms.",
-      "options": ["D. far", "A. long", "B. much", "C. many"],
-      "answer": 0,
+      "options": [
+        "C. many",
+        "A. long",
+        "B. much",
+        "D. far"
+      ],
+      "answer": 3,
       "justification": "للمسافة: 'How far'."
     },
     {
       "q": "I shall ___ to school tomorrow.",
-      "options": ["D. walk", "A. go walk", "B. walked", "C. was walk"],
-      "answer": 0,
+      "options": [
+        "A. go walk",
+        "C. was walk",
+        "B. walked",
+        "D. walk"
+      ],
+      "answer": 3,
       "justification": "بعد 'shall' يأتي المصدر: 'walk'."
     },
     {
       "q": "A: What are carrots, beans and cabbages? B: ______.",
-      "options": ["B. vegetables", "A. sweets", "C. drinks", "D. desserts"],
-      "answer": 0,
+      "options": [
+        "D. desserts",
+        "B. vegetables",
+        "A. sweets",
+        "C. drinks"
+      ],
+      "answer": 1,
       "justification": "كلها خضروات."
     },
     {
       "q": "I am ______ a book now.",
-      "options": ["D. reading", "A. were read", "B. is reading", "C. was reading"],
-      "answer": 0,
+      "options": [
+        "A. were read",
+        "C. was reading",
+        "D. reading",
+        "B. is reading"
+      ],
+      "answer": 2,
       "justification": "'am reading' مضارع مستمر."
     },
     {
       "q": "I have lunch ______ half past eleven.",
-      "options": ["C. at", "A. in", "B. on", "D. before"],
-      "answer": 0,
+      "options": [
+        "B. on",
+        "D. before",
+        "C. at",
+        "A. in"
+      ],
+      "answer": 2,
       "justification": "مع الساعات: 'at'."
     },
     {
       "q": "December is ______ month.",
-      "options": ["A. the coldest", "B. colder", "C. cold", "D. coldest"],
-      "answer": 0,
+      "options": [
+        "B. colder",
+        "C. cold",
+        "D. coldest",
+        "A. the coldest"
+      ],
+      "answer": 3,
       "justification": "تفضيل: 'the coldest'."
     }
   ],
   "vocabularyQuestions": [
     {
       "q": "41. Tyrian purple was extracted from the ______ of sea snails.",
-      "options": ["shells", "glands", "tails", "eggs"],
+      "options": [
+        "eggs",
+        "glands",
+        "tails",
+        "shells"
+      ],
       "answer": 1,
       "justification": "The text says 'extracted from the glands of thousands of small sea snails'."
     },
     {
       "q": "42. The dye was so expensive that only ______ could wear it.",
-      "options": ["soldiers", "farmers", "emperors", "merchants"],
-      "answer": 2,
+      "options": [
+        "emperors",
+        "merchants",
+        "farmers",
+        "soldiers"
+      ],
+      "answer": 0,
       "justification": "The text states 'only emperors and high-ranking priests could wear garments coloured with it'."
     },
     {
       "q": "43. The Underground City is also called ______.",
-      "options": ["The Metro", "RÉSO", "The Catacombs", "The Labyrinth"],
-      "answer": 1,
+      "options": [
+        "The Metro",
+        "The Labyrinth",
+        "The Catacombs",
+        "RÉSO"
+      ],
+      "answer": 3,
       "justification": "The passage introduces it as 'known as the Underground City or RÉSO'."
     },
     {
       "q": "44. The RÉSO enables residents to escape the harsh Canadian ______.",
-      "options": ["summer", "winter", "rain", "wind"],
-      "answer": 1,
+      "options": [
+        "rain",
+        "wind",
+        "summer",
+        "winter"
+      ],
+      "answer": 3,
       "justification": "The text says 'escape the harsh Canadian winter'."
     },
     {
       "q": "45. The tunnels are lined with over 1,600 ______.",
-      "options": ["boutiques", "factories", "schools", "hospitals"],
-      "answer": 0,
+      "options": [
+        "hospitals",
+        "boutiques",
+        "factories",
+        "schools"
+      ],
+      "answer": 1,
       "justification": "The passage mentions 'over 1,600 boutiques, restaurants, movie theatres'."
     },
     {
       "q": "46. Tyrian purple became a symbol of ______ and authority.",
-      "options": ["poverty", "power", "weakness", "humility"],
-      "answer": 1,
+      "options": [
+        "humility",
+        "poverty",
+        "power",
+        "weakness"
+      ],
+      "answer": 2,
       "justification": "The text explains 'a symbol of power and authority'."
     },
     {
       "q": "47. The RÉSO has ______ spaces and water fountains.",
-      "options": ["parking", "green", "industrial", "storage"],
+      "options": [
+        "industrial",
+        "green",
+        "parking",
+        "storage"
+      ],
       "answer": 1,
       "justification": "The passage mentions 'green spaces, water fountains'."
     },
     {
       "q": "48. The last workshops producing Tyrian purple were destroyed in ______.",
-      "options": ["Rome", "Athens", "Constantinople", "Alexandria"],
-      "answer": 2,
+      "options": [
+        "Constantinople",
+        "Rome",
+        "Alexandria",
+        "Athens"
+      ],
+      "answer": 0,
       "justification": "The text says 'when Constantinople fell … the last workshops … were destroyed'."
     },
     {
       "q": "49. The RÉSO is studied by urban planners from cities as far as ______.",
-      "options": ["Paris and London", "Tokyo and Moscow", "New York and Boston", "Dubai and Riyadh"],
-      "answer": 1,
+      "options": [
+        "Paris and London",
+        "Dubai and Riyadh",
+        "New York and Boston",
+        "Tokyo and Moscow"
+      ],
+      "answer": 3,
       "justification": "The passage says 'urban planners from cities as far as Tokyo and Moscow regularly visit Montreal to study'."
     },
     {
       "q": "50. Researchers are trying to resurrect the ancient craft of Tyrian purple in ______ and Lebanon.",
-      "options": ["Egypt", "Tunisia", "Morocco", "Algeria"],
-      "answer": 1,
+      "options": [
+        "Egypt",
+        "Algeria",
+        "Tunisia",
+        "Morocco"
+      ],
+      "answer": 2,
       "justification": "The text mentions 'a handful of researchers in Tunisia and Lebanon'."
     }
   ],
   "dictationQuestions": [
     {
       "q": "اختر التهجئة الصحيحة لكلمة 'غدد'.",
-      "options": ["glands", "glands", "glandes", "glans"],
+      "options": [
+        "glands",
+        "glandes",
+        "glands",
+        "glans"
+      ],
       "answer": 0,
       "justification": "التهجئة الصحيحة هي 'glands'."
     },
     {
       "q": "اختر التهجئة الصحيحة لكلمة 'ورش العمل'.",
-      "options": ["workshops", "workshpos", "workshoops", "worksshops"],
-      "answer": 0,
+      "options": [
+        "workshoops",
+        "workshops",
+        "workshpos",
+        "worksshops"
+      ],
+      "answer": 1,
       "justification": "التهجئة الصحيحة هي 'workshops'."
     },
     {
       "q": "اختر التهجئة الصحيحة لكلمة 'تحت الأرض'.",
-      "options": ["subterranean", "subterranian", "subteranean", "subterrainian"],
-      "answer": 0,
+      "options": [
+        "subterrainian",
+        "subterranian",
+        "subterranean",
+        "subteranean"
+      ],
+      "answer": 2,
       "justification": "التهجئة الصحيحة هي 'subterranean'."
     },
     {
       "q": "اختر التهجئة الصحيحة لكلمة 'متاهة'.",
-      "options": ["labyrinth", "labarinth", "labyrinthe", "labirynth"],
+      "options": [
+        "labyrinth",
+        "labarinth",
+        "labirynth",
+        "labyrinthe"
+      ],
       "answer": 0,
       "justification": "التهجئة الصحيحة هي 'labyrinth'."
     },
     {
       "q": "اختر التهجئة الصحيحة لكلمة 'إحياء'.",
-      "options": ["resurrect", "resurect", "resurrect", "resurrect"],
+      "options": [
+        "resurrect",
+        "resurect",
+        "resurrect",
+        "resurrect"
+      ],
       "answer": 0,
       "justification": "التهجئة الصحيحة هي 'resurrect'."
     },
     {
       "q": "اختر التهجئة الصحيحة لكلمة 'مخطوطات'.",
-      "options": ["manuscripts", "manuskripts", "manucscripts", "manuscrpits"],
-      "answer": 0,
+      "options": [
+        "manuskripts",
+        "manucscripts",
+        "manuscripts",
+        "manuscrpits"
+      ],
+      "answer": 2,
       "justification": "التهجئة الصحيحة هي 'manuscripts'."
     },
     {
       "q": "اختر التهجئة الصحيحة لكلمة 'تهوية'.",
-      "options": ["ventilation", "ventillation", "ventilashun", "ventilasion"],
+      "options": [
+        "ventilation",
+        "ventilasion",
+        "ventillation",
+        "ventilashun"
+      ],
       "answer": 0,
       "justification": "التهجئة الصحيحة هي 'ventilation'."
     },
     {
       "q": "اختر التهجئة الصحيحة لكلمة 'محاكاة'.",
-      "options": ["simulate", "stimulate", "simualte", "simulat"],
+      "options": [
+        "simulate",
+        "simulat",
+        "simualte",
+        "stimulate"
+      ],
       "answer": 0,
       "justification": "التهجئة الصحيحة هي 'simulate'."
     },
     {
       "q": "اختر التهجئة الصحيحة لكلمة 'مستدام'.",
-      "options": ["sustainable", "sustainible", "sustanable", "sustinable"],
-      "answer": 0,
+      "options": [
+        "sustanable",
+        "sustainable",
+        "sustinable",
+        "sustainible"
+      ],
+      "answer": 1,
       "justification": "التهجئة الصحيحة هي 'sustainable'."
     },
     {
       "q": "اختر التهجئة الصحيحة لكلمة 'طرق المشاة'.",
-      "options": ["pedestrian", "pedestrain", "pedistrian", "padestrian"],
-      "answer": 0,
+      "options": [
+        "pedistrian",
+        "pedestrian",
+        "pedestrain",
+        "padestrian"
+      ],
+      "answer": 1,
       "justification": "التهجئة الصحيحة هي 'pedestrian'."
     }
   ]
