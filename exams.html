@@ -1,46 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ar" dir="rtl">
 <head>
-  <link rel="icon" href="favicon.svg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exams – ITC APNE Prep</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>APNE Prep - الامتحانات</title>
+  <style>
+    body { font-family: Tahoma, sans-serif; background: #f5f5f5; padding: 20px; direction: rtl; }
+    .container { max-width: 600px; margin: auto; background: white; border-radius: 20px; padding: 24px; }
+    h1 { color: #2d6a4f; text-align: center; }
+  </style>
 </head>
 <body>
-  <header class="app-header">
-    <nav class="navbar" id="navbar"></nav>
-    <div class="theme-toggle"><button id="themeToggle" aria-label="Toggle dark/light mode">🌓</button></div>
-  </header>
-  <main class="container">
-    <section class="exam-header">
-      <h1>📋 Timed Exams</h1>
-      <span id="examTimer" class="timer">⏱ --:--</span>
-    </section>
-    <select id="examSelector" class="form-select"><option value="">-- Select an exam --</option></select>
-    <button id="startExamBtn" class="btn btn-primary" style="display:none;">▶ Start Exam</button>
-    <div id="examPreview"></div>
-    <section id="examArea" style="display:none;">
-      <div id="examQuestions"></div>
-      <button id="submitExamBtn" class="btn btn-primary" style="display:none;">📩 Submit Exam</button>
-      <div id="examResults" class="results" style="display:none;"></div>
-    </section>
-  </main>
-  <footer class="app-footer"><p>Exam Engine – timed, auto-scored</p></footer>
-  <script src="js/storage.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/exams.js"></script>
-<script src="js/dictation.js"></script>
-<div class="card">
-  <h2>📝 اختبار الإملاء (Dictation)</h2>
-  <p>اختر التهجئة الصحيحة للكلمة الناقصة في الجملة.</p>
-  <div id="dictation-area">
-    <p id="dictation-sentence" style="font-size:1.2rem; font-weight:bold;"></p>
-    <div id="dictation-options" style="display:flex; gap:1rem; flex-wrap:wrap; margin:1rem 0;"></div>
-    <div id="dictation-feedback"></div>
-    <button id="next-dictation" style="display:none;" onclick="nextDictation()">التالي ➡️</button>
-    <div id="dictation-result" style="margin-top:1rem;"></div>
+  <div class="container">
+    <h1>الامتحانات التجريبية</h1>
+    <button onclick="location.href='take-exam.html'">بدء امتحان شامل</button>
+    <a href="index.html">العودة</a>
   </div>
-</div>
 </body>
 </html>

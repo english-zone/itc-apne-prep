@@ -1,196 +1,21 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تدريب المفردات - 40 دقيقة</title>
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        .timer {
-            font-size: 2.5rem;
-            font-weight: bold;
-            text-align: center;
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            direction: ltr;
-        }
-        .quiz-card {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            padding: 20px;
-        }
-        .question-text {
-            font-size: 1.4rem;
-            margin-bottom: 15px;
-        }
-        .example {
-            background: #e9ecef;
-            padding: 10px;
-            border-radius: 8px;
-            margin: 15px 0;
-            font-style: italic;
-        }
-        .options-area button {
-            display: block;
-            width: 100%;
-            margin: 10px 0;
-            padding: 12px;
-            background: #f1f3f5;
-            border: 1px solid #dee2e6;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 1rem;
-            text-align: right;
-        }
-        .options-area button:hover {
-            background: #e9ecef;
-        }
-        .feedback {
-            margin: 15px 0;
-            font-weight: bold;
-        }
-        .next-btn {
-            background: #0077cc;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 1rem;
-        }
-        .result-area {
-            text-align: center;
-            padding: 20px;
-        }
-        .correct-feedback { color: green; }
-        .wrong-feedback { color: red; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APNE Prep - تدريبات</title>
+  <style>
+    body { font-family: Tahoma, sans-serif; background: #f5f5f5; padding: 20px; direction: rtl; }
+    .container { max-width: 600px; margin: auto; background: white; border-radius: 20px; padding: 24px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+    h1 { text-align: center; color: #2d6a4f; }
+    .card { background: #e9f5ec; border-radius: 12px; padding: 16px; margin: 12px 0; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>📝 تدريب المفردات</h1>
-        <div class="timer">⏱️ الوقت المتبقي: <span id="timer">40:00</span></div>
-        <div class="quiz-card">
-            <div id="topic-title" style="font-size:1.2rem; margin-bottom:10px;"></div>
-            <div id="quiz-area">
-                <div id="question-text" class="question-text"></div>
-                <div id="example" class="example"></div>
-                <div id="options-area" class="options-area"></div>
-                <div id="feedback" class="feedback"></div>
-                <button id="next-btn" class="next-btn" style="display:none;">السؤال التالي →</button>
-            </div>
-            <div id="result-area" style="display:none;" class="result-area"></div>
-        </div>
-    </div>
-    <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        let topic = urlParams.get('topic');
-        if (!topic) topic = 'family-body';
-        document.getElementById("topic-title").innerHTML = `<strong>الموضوع:</strong> ${topic.replace(/-/g, ' ').toUpperCase()}`;
-
-        let questions = [];
-        let currentIndex = 0;
-        let score = 0;
-        let timerInterval;
-        let timeLeft = 40 * 60; // 40 minutes
-
-        async function loadQuestions() {
-            try {
-                const response = await fetch(`content/vocabulary/topics/${topic}.json`);
-                if (!response.ok) throw new Error('File not found');
-                const words = await response.json();
-                questions = words.map(item => ({
-                    word: item.word,
-                    correct: item.correctMeaning,
-                    options: shuffleArray([item.correctMeaning, ...item.distractors]),
-                    example: item.example
-                }));
-                startTimer();
-                showQuestion();
-            } catch (err) {
-                document.getElementById("quiz-area").innerHTML = `<p style="color:red;">❌ لم يتم العثور على مفردات لهذا الموضوع. تأكد من الملف.</p>`;
-            }
-        }
-
-        function startTimer() {
-            timerInterval = setInterval(() => {
-                if (timeLeft <= 0) {
-                    clearInterval(timerInterval);
-                    endPractice("⏰ انتهى الوقت!");
-                } else {
-                    timeLeft--;
-                    const minutes = Math.floor(timeLeft / 60);
-                    const seconds = timeLeft % 60;
-                    document.getElementById("timer").innerText = `${minutes.toString().padStart(2,'0')}:${seconds.toString().padStart(2,'0')}`;
-                }
-            }, 1000);
-        }
-
-        function showQuestion() {
-            if (currentIndex >= questions.length) {
-                endPractice(`🎉 أكملت جميع الأسئلة! نتيجتك: ${score} من ${questions.length}`);
-                return;
-            }
-            const q = questions[currentIndex];
-            document.getElementById("question-text").innerHTML = `ما معنى كلمة: <strong style="color:#0077cc;">${q.word}</strong>؟`;
-            document.getElementById("example").innerHTML = `📖 مثال: ${q.example}`;
-            const optionsDiv = document.getElementById("options-area");
-            optionsDiv.innerHTML = "";
-            q.options.forEach(opt => {
-                const btn = document.createElement("button");
-                btn.innerText = opt;
-                btn.onclick = () => checkAnswer(opt);
-                optionsDiv.appendChild(btn);
-            });
-            document.getElementById("feedback").innerHTML = "";
-            document.getElementById("next-btn").style.display = "none";
-        }
-
-        function checkAnswer(selected) {
-            const q = questions[currentIndex];
-            const isCorrect = (selected === q.correct);
-            if (isCorrect) {
-                score++;
-                document.getElementById("feedback").innerHTML = `<span class="correct-feedback">✅ صحيح! معنى "${q.word}" هو "${q.correct}".</span>`;
-            } else {
-                document.getElementById("feedback").innerHTML = `<span class="wrong-feedback">❌ خطأ. المعنى الصحيح هو: "${q.correct}".</span>`;
-            }
-            document.getElementById("next-btn").style.display = "inline-block";
-        }
-
-        function nextQuestion() {
-            currentIndex++;
-            showQuestion();
-        }
-
-        function endPractice(message) {
-            clearInterval(timerInterval);
-            document.getElementById("quiz-area").style.display = "none";
-            document.getElementById("result-area").style.display = "block";
-            document.getElementById("result-area").innerHTML = `
-                <div class="result-area">
-                    <h3>${message}</h3>
-                    <button onclick="location.reload()">🔄 محاولة جديدة</button>
-                    <button onclick="location.href='index.html'">📅 العودة للجدول</button>
-                </div>
-            `;
-        }
-
-        function shuffleArray(arr) {
-            for (let i = arr.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [arr[i], arr[j]] = [arr[j], arr[i]];
-            }
-            return arr;
-        }
-
-        document.getElementById("next-btn").onclick = nextQuestion;
-        loadQuestions();
-    </script>
+  <div class="container">
+    <h1>التدريبات</h1>
+    <div class="card"><p>قريباً – تدريبات يومية تفاعلية</p></div>
+    <a href="index.html">العودة للرئيسية</a>
+  </div>
 </body>
 </html>

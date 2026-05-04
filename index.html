@@ -3,65 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APNE Prep - الجدول الأسبوعي</title>
+    <title>APNE Prep | مركز الريادة للتدريب</title>
     <link rel="stylesheet" href="css/style.css">
     <style>
-        .top-nav {
-            background: #0077cc;
-            padding: 10px;
-            text-align: center;
-            margin-bottom: 20px;
-            border-radius: 10px;
+        body { background: #f5f5f7; padding: 1rem; font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; }
+        .app-container { max-width: 500px; margin: 0 auto; }
+        .header-card {
+            background: white; border-radius: 28px; padding: 1.5rem;
+            text-align: center; margin-bottom: 1.5rem;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.04);
         }
-        .top-nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
+        .header-card img { height: 45px; margin-bottom: 0.5rem; }
+        .header-card h1 { font-size: 1.6rem; font-weight: 700; color: #1d1d1f; margin: 0; }
+        .header-card .subtitle { font-size: 0.95rem; color: #86868b; margin-top: 0.25rem; }
+        .day-card {
+            background: white; border-radius: 24px; padding: 1.2rem; margin-bottom: 1.2rem;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.04);
         }
-        .schedule-table td, .schedule-table th {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: center;
-            vertical-align: middle;
+        .day-title { font-weight: 700; font-size: 1.2rem; color: #1d1d1f; margin-bottom: 0.8rem; }
+        .row-item { display: flex; align-items: center; justify-content: space-between; padding: 0.7rem 0; border-bottom: 1px solid #f0f0f5; }
+        .row-item:last-child { border-bottom: none; }
+        .label { font-weight: 500; color: #1d1d1f; font-size: 0.95rem; }
+        .desc { font-size: 0.8rem; color: #86868b; }
+        .btn, a {
+            background: #0071e3; color: white; font-weight: 500; font-size: 14px;
+            padding: 8px 16px; border-radius: 20px; text-decoration: none;
+            display: inline-block; transition: 0.2s; white-space: nowrap;
         }
-        .train-btn, .reading-btn, .grammar-btn {
-            display: inline-block;
-            margin: 3px;
-            padding: 5px 10px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-size: 0.8rem;
+        .btn.secondary, a.secondary { background: #e9e9ef; color: #1d1d1f; }
+        .final-review {
+            background: white; border-radius: 24px; padding: 1.2rem; margin-top: 1rem;
+            text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.04);
         }
-        .train-btn { background: #28a745; color: white; }
-        .reading-btn { background: #17a2b8; color: white; }
-        .grammar-btn { background: #ffc107; color: black; }
-        .note { text-align: center; margin-top: 20px; color: #555; }
+        .final-review h2 { font-size: 1.2rem; margin-bottom: 0.8rem; }
+        .final-review .btn, .final-review a { margin: 5px; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="top-nav">
-            <a href="index.html">📅 الجدول</a>
-            <a href="dictionary.html">📖 القاموس</a>
-            <a href="exams.html">📝 الاختبارات</a>
+    <div class="app-container">
+        <div class="header-card">
+            <img src="assets/images/reyadah-logo.png" alt="شعار مركز الريادة" onerror="this.style.display='none'">
+            <h1>APNE – 7 أيام</h1>
+            <div class="subtitle">مركز الريادة للتدريب</div>
         </div>
-        <h1>📅 جدول التحضير لبرنامج APNE</h1>
-        <div style="overflow-x: auto;">
-            <table class="schedule-table">
-                <thead><tr><th>اليوم</th><th>القراءة (Reading)</th><th>المفردات (Vocabulary)</th><th>القواعد (Grammar)</th><th>التدريب</th></tr></thead>
-                <tbody>
-                    <tr><td>1</td><td>Letter to the Editor<br><span class="page-ref">p.87-89</span><br><a href="reading.html?topic=letter-editor" class="reading-btn">📖 قراءة</a></td><td>Family & Body Parts<br><span class="page-ref">p.68-69</span><br><a href="practice.html?topic=family-body" class="train-btn">⏱️ 40 دقيقة</a></td><td>Present/Past Simple<br><span class="page-ref">p.5-10</span><br><a href="grammar.html?topic=past-simple" class="grammar-btn">📘 قواعد</a></td><td><a href="practice.html?topic=family-body" class="train-btn">⏱️ تدريب مفردات</a></td></tr>
-                    <tr><td>2</td><td>The Risks of Farming<br><span class="page-ref">p.90-93</span><br><a href="reading.html?topic=risks-farming" class="reading-btn">📖 قراءة</a></td><td>Clothing & Weather<br><span class="page-ref">p.69-70</span><br><a href="practice.html?topic=clothing-weather" class="train-btn">⏱️ 40 دقيقة</a></td><td>Continuous Tenses<br><span class="page-ref">p.12-18</span><br><a href="grammar.html?topic=continuous" class="grammar-btn">📘 قواعد</a></td><td><a href="practice.html?topic=clothing-weather" class="train-btn">⏱️ تدريب مفردات</a></td></tr>
-                    <tr><td>3</td><td>Voluntary Service Overseas<br><span class="page-ref">p.93-95</span><br><a href="reading.html?topic=vso" class="reading-btn">📖 قراءة</a></td><td>Health & Medicine<br><span class="page-ref">p.70-72</span><br><a href="practice.html?topic=health-medicine" class="train-btn">⏱️ 40 دقيقة</a></td><td>Present/Past Perfect<br><span class="page-ref">p.20-29</span><br><a href="grammar.html?topic=perfect" class="grammar-btn">📘 قواعد</a></td><td><a href="practice.html?topic=health-medicine" class="train-btn">⏱️ تدريب مفردات</a></td></tr>
-                    <tr><td>4</td><td>Bicycles<br><span class="page-ref">p.95-97</span><br><a href="reading.html?topic=bicycles" class="reading-btn">📖 قراءة</a></td><td>Food & Drink<br><span class="page-ref">p.71-72</span><br><a href="practice.html?topic=food-drink" class="train-btn">⏱️ 40 دقيقة</a></td><td>Passive Voice<br><span class="page-ref">p.37-41</span><br><a href="grammar.html?topic=passive" class="grammar-btn">📘 قواعد</a></td><td><a href="practice.html?topic=food-drink" class="train-btn">⏱️ تدريب مفردات</a></td></tr>
-                    <tr><td>5</td><td>The Red Sea<br><span class="page-ref">p.97-99</span><br><a href="reading.html?topic=red-sea" class="reading-btn">📖 قراءة</a></td><td>Jobs & Work<br><span class="page-ref">p.72-74</span><br><a href="practice.html?topic=jobs-work" class="train-btn">⏱️ 40 دقيقة</a></td><td>Comparative/Superlative<br><span class="page-ref">p.41-44</span><br><a href="grammar.html?topic=comparative" class="grammar-btn">📘 قواعد</a></td><td><a href="practice.html?topic=jobs-work" class="train-btn">⏱️ تدريب مفردات</a></td></tr>
-                    <tr><td>6</td><td>Diabetes<br><span class="page-ref">p.99-102</span><br><a href="reading.html?topic=diabetes" class="reading-btn">📖 قراءة</a></td><td>Shopping & Materials<br><span class="page-ref">p.74-76</span><br><a href="practice.html?topic=shopping-materials" class="train-btn">⏱️ 40 دقيقة</a></td><td>Gerund/Infinitive<br><span class="page-ref">p.44-47</span><br><a href="grammar.html?topic=gerund" class="grammar-btn">📘 قواعد</a></td><td><a href="practice.html?topic=shopping-materials" class="train-btn">⏱️ تدريب مفردات</a></td></tr>
-                    <tr><td>7</td><td colspan="2">مراجعة شاملة (Mock Exam)</td><td>جميع القواعد</td><td><a href="exam.html?mock=full" class="train-btn mock-btn">🎓 اختبار تجريبي</a></td></tr>
-                </tbody>
-            </table>
+
+        <div id="daysContainer"></div>
+
+        <div class="final-review">
+            <h2>📋 المراجعة النهائية</h2>
+            <a href="dictionary.html" class="secondary">📚 المفردات</a>
+            <a href="grammar.html" class="secondary">📘 القواعد</a>
+            <a href="mistakes.html" style="background:#ff9500;">⚡ الطوارئ</a>
+            <a href="exam.html">🧪 اختبار شامل</a>
         </div>
-        <div class="note">⚠️ اضغط على أيقونة القراءة 📖 لفتح النص، وأيقونة القواعد 📘 لمراجعة الدرس، وزرار التدريب ⏱️ لبدء تمارين المفردات.</div>
     </div>
+
+    <script>
+        const days = [1, 2, 3, 4, 5, 6, 7];
+        const map = {
+            1: {r:"Letter + Farming + VSO", v:"Family & Body", g:"Present Simple + Pronouns"},
+            2: {r:"Bicycles + Red Sea + Diabetes", v:"Clothing & Weather", g:"Past Simple + Articles"},
+            3: {r:"Amelia + Super Bus + Email", v:"Health & Medicine", g:"Perfect Tenses"},
+            4: {r:"Japan + USA Gov + Water", v:"Food & Drink", g:"Passive Voice"},
+            5: {r:"California + Egypt", v:"Jobs & Work", g:"Comparative/Superlative"},
+            6: {r:"All Blacks + Tambora", v:"Shopping & Materials", g:"Gerund/Infinitive"},
+            7: {r:"Mock Exam", v:"Review All", g:"Final Review"}
+        };
+        let html = '';
+        days.forEach(day => {
+            let m = map[day];
+            html += `<div class="day-card">
+                <div class="day-title">🗓️ اليوم ${day}</div>
+                <div class="row-item">
+                    <span class="label">📖 قراءة</span>
+                    <span class="desc">${m.r}</span>
+                    <a href="reading.html?day=${day}" class="secondary">بدء</a>
+                </div>
+                <div class="row-item">
+                    <span class="label">🧠 مفردات</span>
+                    <span class="desc">${m.v}</span>
+                    <a href="practice.html?day=${day}" class="secondary">دراسة</a>
+                </div>
+                <div class="row-item">
+                    <span class="label">📘 قواعد</span>
+                    <span class="desc">${m.g}</span>
+                    <a href="grammar-lesson.html?day=${day}" class="secondary">فتح</a>
+                </div>
+                <div class="row-item">
+                    <span class="label">✍️ إملاء</span>
+                    <span class="desc">اختر التهجئة الصحيحة</span>
+                    <a href="dictation.html?day=${day}" class="secondary">بدء</a>
+                </div>
+                <div class="row-item">
+                    <span class="label">📝 واجب</span>
+                    <span class="desc">واجب اليوم الشامل</span>
+                    <a href="homework.html?day=${day}" style="background:#ff9500;">فتح</a>
+                </div>
+                <div class="row-item">
+                    <span class="label">✅ اختبار</span>
+                    <span class="desc">اختبار زمني</span>
+                    <a href="grammar-test.html?day=${day}">بدء</a>
+                </div>
+                <div class="row-item">
+                    <span class="label">⚠️ أخطاء</span>
+                    <span class="desc">مراجعة الأخطاء</span>
+                    <a href="mistakes.html" style="background:#ff3b30;">مراجعة</a>
+                </div>
+            </div>`;
+        });
+        document.getElementById('daysContainer').innerHTML = html;
+    </script>
 </body>
 </html>
