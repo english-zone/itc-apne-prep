@@ -1,0 +1,73 @@
+{
+  "reading": [
+    {
+      "title": "The Future of Space Exploration",
+      "text": "Space agencies and private companies are planning ambitious missions to return humans to the Moon and eventually reach Mars. NASA's Artemis program aims to land the first woman and next man on the lunar surface by 2026. Meanwhile, SpaceX is developing the Starship rocket, designed to carry up to 100 passengers on interplanetary journeys. One of the biggest challenges is radiation exposure during long flights, which can increase cancer risk for astronauts. Scientists are working on new shielding materials and even pharmaceutical countermeasures. Another challenge is the psychological strain of living in confined spaces for years. Despite these obstacles, the dream of becoming a multi-planetary species continues to drive innovation.",
+      "questions": [
+        {"q":"1. What is the goal of NASA's Artemis program?","options":["Land on Mars","Land humans on the Moon","Build a space hotel","Mine asteroids"],"answer":1,"page":"Extra 6"},
+        {"q":"2. How many passengers can Starship carry?","options":["10","50","Up to 100","1000"],"answer":2,"page":"Extra 6"},
+        {"q":"3. What is a major challenge of long space flights?","options":["Lack of fuel","Radiation exposure","Lack of food","Boredom"],"answer":1,"page":"Extra 6"},
+        {"q":"4. What are scientists developing to protect astronauts?","options":["Faster rockets","New shielding materials","Better food","Larger windows"],"answer":1,"page":"Extra 6"},
+        {"q":"5. What is the psychological challenge mentioned?","options":["Fear of aliens","Living in confined spaces","Homesickness","Lack of entertainment"],"answer":1,"page":"Extra 6"}
+      ]
+    },
+    {
+      "title": "The Lost City of Petra",
+      "text": "Carved directly into rose-red cliffs in the Jordanian desert, Petra flourished as the capital of the Nabataean kingdom from the 4th century BCE. The city was strategically located on trade routes linking Arabia, Egypt, and Syria, making it wealthy and powerful. Petra's most famous structure, Al-Khazneh (The Treasury), features an elaborate facade inspired by Greek architecture. The city declined after the Romans annexed the Nabataean kingdom and trade routes shifted to sea routes. Eventually, Petra was abandoned and remained unknown to the Western world until Swiss explorer Johann Ludwig Burckhardt rediscovered it in 1812.",
+      "questions": [
+        {"q":"6. Where is Petra located?","options":["Egypt","Syria","Jordan","Saudi Arabia"],"answer":2,"page":"Extra 6"},
+        {"q":"7. What made Petra wealthy?","options":["Agriculture","Trade routes","Mining","Tourism"],"answer":1,"page":"Extra 6"},
+        {"q":"8. What is the most famous structure in Petra?","options":["The Colosseum","Al-Khazneh","The Pyramid","The Sphinx"],"answer":1,"page":"Extra 6"},
+        {"q":"9. Why did Petra decline?","options":["Earthquake","Roman annexation and shift to sea routes","Volcano","Plague"],"answer":1,"page":"Extra 6"},
+        {"q":"10. Who rediscovered Petra in 1812?","options":["Marco Polo","Ibn Battuta","Johann Ludwig Burckhardt","Christopher Columbus"],"answer":2,"page":"Extra 6"}
+      ]
+    },
+    {
+      "title": "The Science of Sleep",
+      "text": "Sleep is essential for memory consolidation, immune function, and emotional regulation. During sleep, the brain cycles through different stages, including REM (Rapid Eye Movement) and non-REM sleep. REM sleep is when most dreaming occurs and is crucial for processing emotions and learning. Non-REM sleep, particularly deep sleep, allows the body to repair tissues and strengthen the immune system. Chronic sleep deprivation has been linked to obesity, heart disease, and impaired cognitive function. Experts recommend that adults get 7-9 hours of quality sleep per night, yet many people fail to meet this goal due to screen time and stress.",
+      "questions": [
+        {"q":"11. What is sleep essential for?","options":["Only dreaming","Memory consolidation, immune function, emotional regulation","Only physical strength","Wasting time"],"answer":1,"page":"Extra 6"},
+        {"q":"12. What occurs during REM sleep?","options":["Tissue repair","Most dreaming","Muscle growth","Bone strengthening"],"answer":1,"page":"Extra 6"},
+        {"q":"13. What does non-REM sleep allow the body to do?","options":["Dream more","Repair tissues","Run faster","Eat less"],"answer":1,"page":"Extra 6"},
+        {"q":"14. What has chronic sleep deprivation been linked to?","options":["Better memory","Obesity and heart disease","Improved focus","Stronger muscles"],"answer":1,"page":"Extra 6"},
+        {"q":"15. How many hours of sleep do experts recommend?","options":["5-6","7-9","10-12","2-4"],"answer":1,"page":"Extra 6"}
+      ]
+    }
+  ],
+  "vocabulary": [
+    {"english":"interplanetary","arabic":"بين كواكب","page":"Extra 6","question":{"q":"Starship is designed for ____ travel.","options":["interplanetary","domestic","underground","submarine"],"answer":0}},
+    {"english":"pharmaceutical","arabic":"صيدلاني","page":"Extra 6","question":{"q":"____ countermeasures may protect astronauts.","options":["Musical","Pharmaceutical","Agricultural","Architectural"],"answer":1}},
+    {"english":"facade","arabic":"واجهة","page":"Extra 6","question":{"q":"Al-Khazneh has an elaborate ____.","options":["garden","facade","basement","kitchen"],"answer":1}},
+    {"english":"annexed","arabic":"ضم / احتل","page":"Extra 6","question":{"q":"The Romans ____ the Nabataean kingdom.","options":["ignored","annexed","destroyed","built"],"answer":1}},
+    {"english":"consolidation","arabic":"توطيد / تعزيز","page":"Extra 6","question":{"q":"Sleep helps ____ of memories.","options":["destruction","consolidation","confusion","erasure"],"answer":1}},
+    {"english":"deprivation","arabic":"حرمان","page":"Extra 6","question":{"q":"Sleep ____ affects health.","options":["excess","deprivation","addition","supplement"],"answer":1}},
+    {"english":"cognitive","arabic":"معرفي / إدراكي","page":"Extra 6","question":{"q":"____ function declines without sleep.","options":["Physical","Cognitive","Muscular","Skeletal"],"answer":1}},
+    {"english":"shielding","arabic":"تدريع","page":"Extra 6","question":{"q":"New ____ materials protect from radiation.","options":["shielding","cooking","decorating","lighting"],"answer":0}},
+    {"english":"strategically","arabic":"استراتيجياً","page":"Extra 6","question":{"q":"Petra was ____ located on trade routes.","options":["randomly","strategically","poorly","recently"],"answer":1}},
+    {"english":"chronic","arabic":"مزمن","page":"Extra 6","question":{"q":"____ sleep deprivation is dangerous.","options":["Acute","Chronic","Temporary","Mild"],"answer":1}}
+  ],
+  "grammar": [
+    {"q":"NASA ____ to land humans on the Moon.","options":["plan","plans","planning","planned"],"answer":1,"topic":"Present Simple"},
+    {"q":"Petra ____ in the 4th century BCE.","options":["was founded","is founded","founded","found"],"answer":0,"topic":"Past Simple Passive"},
+    {"q":"If astronauts travel to Mars, they ____ face radiation risks.","options":["will","would","are","were"],"answer":0,"topic":"First Conditional"},
+    {"q":"Sleep ____ by many people today.","options":["is neglected","are neglected","neglects","neglecting"],"answer":0,"topic":"Present Simple Passive"},
+    {"q":"By 2040, SpaceX ___ hundreds of missions.","options":["will complete","completes","completed","will have completed"],"answer":3,"topic":"Future Perfect"},
+    {"q":"Burckhardt ___ Petra in 1812.","options":["rediscovered","was rediscovered","rediscover","rediscovering"],"answer":0,"topic":"Past Simple"},
+    {"q":"The new shielding material ___ tested now.","options":["is being","was being","are being","has been"],"answer":0,"topic":"Present Continuous Passive"},
+    {"q":"This mission is ___ than any before.","options":["ambitious","more ambitious","most ambitious","ambitiouser"],"answer":1,"topic":"Comparative"},
+    {"q":"She enjoys ___ about ancient civilizations.","options":["read","to read","reading","reads"],"answer":2,"topic":"Gerund"},
+    {"q":"People should ___ more sleep.","options":["get","getting","gets","got"],"answer":0,"topic":"Modal"}
+  ],
+  "dictation": [
+    {"correct":"interplanetary","options":["interplanetary","interplanetary","interplanetery","interplanetry"]},
+    {"correct":"pharmaceutical","options":["pharmaceutical","farmaceutical","pharmaseutical","pharmacutical"]},
+    {"correct":"facade","options":["facade","fassade","fasaad","facade"]},
+    {"correct":"consolidation","options":["consolidation","consoludation","consolidition","consolidashun"]},
+    {"correct":"deprivation","options":["deprivation","depravation","deprovation","deprivation"]},
+    {"correct":"cognitive","options":["cognitive","cognative","cognitivve","cogniteve"]},
+    {"correct":"shielding","options":["shielding","shilding","sheelding","sheilding"]},
+    {"correct":"strategically","options":["strategically","stratigically","strategicly","strategically"]},
+    {"correct":"chronic","options":["chronic","chronik","kronic","cronic"]},
+    {"correct":"radiation","options":["radiation","raditation","raidation","radiasion"]}
+  ]
+}

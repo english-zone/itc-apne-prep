@@ -1,0 +1,73 @@
+{
+  "reading": [
+    {
+      "title": "The History of Medicine",
+      "text": "Medicine has evolved from ancient herbal remedies to modern gene therapy. The Code of Hammurabi, written around 1754 BCE, contains some of the earliest medical regulations. Hippocrates, the 'Father of Medicine,' established the Hippocratic Oath around 400 BCE, emphasizing ethical practice. The Middle Ages saw the rise of hospitals, while the 19th century introduced anesthesia and antiseptics. Alexander Fleming's discovery of penicillin in 1928 marked the beginning of modern antibiotics. Today, mRNA vaccines and CRISPR gene editing represent the cutting edge of medical science.",
+      "questions": [
+        {"q":"1. What does the Code of Hammurabi contain?","options":["Poems","Medical regulations","Mathematical formulas","Astronomy"],"answer":1,"page":"Extra 7"},
+        {"q":"2. Who is considered the 'Father of Medicine'?","options":["Aristotle","Hippocrates","Galen","Plato"],"answer":1,"page":"Extra 7"},
+        {"q":"3. What did the 19th century introduce?","options":["Anesthesia and antiseptics","Vaccination","X-rays","MRI"],"answer":0,"page":"Extra 7"},
+        {"q":"4. What did Alexander Fleming discover?","options":["Penicillin","Aspirin","Insulin","Morphine"],"answer":0,"page":"Extra 7"},
+        {"q":"5. What represents today's cutting edge of medicine?","options":["Leeches","mRNA vaccines and CRISPR","Bloodletting","Herbs"],"answer":1,"page":"Extra 7"}
+      ]
+    },
+    {
+      "title": "Urban Farming: Growing Food in the City",
+      "text": "As the world's population grows and cities expand, traditional agriculture struggles to meet food demand. Urban farming, the practice of growing food within cities, has emerged as a sustainable solution. Rooftop gardens, vertical farms in warehouses, and community plots in vacant lots are becoming common. These farms reduce the distance food travels, cutting carbon emissions, and they provide fresh produce to communities that may lack grocery stores. Hydroponic and aeroponic systems allow crops to be grown without soil, using 90% less water than traditional farming. Many cities now support urban farming through grants and legal protections.",
+      "questions": [
+        {"q":"6. What is urban farming?","options":["Farming in the countryside","Growing food within cities","Farming in space","Fishing in cities"],"answer":1,"page":"Extra 7"},
+        {"q":"7. What is a benefit of urban farming?","options":["Increased traffic","Reduced food miles and carbon emissions","More noise","Higher costs"],"answer":1,"page":"Extra 7"},
+        {"q":"8. What do hydroponic systems use instead of soil?","options":["Sand","Water and nutrients","Air only","Rocks"],"answer":1,"page":"Extra 7"},
+        {"q":"9. How much less water do aeroponic systems use?","options":["20%","50%","75%","90%"],"answer":3,"page":"Extra 7"},
+        {"q":"10. How do cities support urban farming?","options":["Banning it","Grants and legal protections","Taxing it","Ignoring it"],"answer":1,"page":"Extra 7"}
+      ]
+    },
+    {
+      "title": "Renewable Energy and the Future",
+      "text": "The transition to renewable energy is critical for combating climate change. Solar and wind power are the fastest-growing sources, with global capacity doubling every few years. However, renewable energy faces challenges: solar panels produce power only during the day, and wind turbines work only when the wind blows. Battery storage technology is improving rapidly, allowing excess energy to be stored for later use. Some countries like Iceland and Norway already generate nearly 100% of their electricity from renewable sources. The key to a sustainable future will be combining multiple renewable sources with smart grid technology to ensure reliable supply.",
+      "questions": [
+        {"q":"11. Why is the transition to renewable energy important?","options":["To make more money","To combat climate change","To use more oil","To reduce technology"],"answer":1,"page":"Extra 7"},
+        {"q":"12. What are the fastest-growing renewable sources?","options":["Coal and oil","Solar and wind","Nuclear and gas","Hydro and geothermal"],"answer":1,"page":"Extra 7"},
+        {"q":"13. What challenge do solar panels face?","options":["Too expensive","Only produce power during the day","Too noisy","Produce toxic waste"],"answer":1,"page":"Extra 7"},
+        {"q":"14. What allows excess energy to be stored?","options":["Coal plants","Battery storage technology","Oil refineries","Gas pipelines"],"answer":1,"page":"Extra 7"},
+        {"q":"15. Which countries generate almost 100% renewable electricity?","options":["China and USA","Iceland and Norway","Brazil and Argentina","India and Pakistan"],"answer":1,"page":"Extra 7"}
+      ]
+    }
+  ],
+  "vocabulary": [
+    {"english":"herbal","arabic":"عشبي","page":"Extra 7","question":{"q":"Ancient medicine used ____ remedies.","options":["herbal","chemical","synthetic","metallic"],"answer":0}},
+    {"english":"oath","arabic":"قسم","page":"Extra 7","question":{"q":"Doctors take the Hippocratic ____.","options":["Oath","Book","Medicine","Test"],"answer":0}},
+    {"english":"antiseptic","arabic":"مطهر","page":"Extra 7","question":{"q":"____ is used to clean wounds.","options":["Antiseptic","Analgesic","Antibiotic","Antiviral"],"answer":0}},
+    {"english":"sustainable","arabic":"مستدام","page":"Extra 7","question":{"q":"Urban farming is a ____ solution.","options":["temporary","sustainable","expensive","dangerous"],"answer":1}},
+    {"english":"hydroponic","arabic":"زراعة مائية","page":"Extra 7","question":{"q":"____ systems grow plants without soil.","options":["Hydroponic","Organic","Traditional","Manual"],"answer":0}},
+    {"english":"emission","arabic":"انبعاث","page":"Extra 7","question":{"q":"Urban farming reduces carbon ____.","options":["emissions","incomes","prices","noise"],"answer":0}},
+    {"english":"capacity","arabic":"قدرة / سعة","page":"Extra 7","question":{"q":"Solar energy ____ is growing fast.","options":["capacity","weakness","failure","problem"],"answer":0}},
+    {"english":"grid","arabic":"شبكة كهرباء","page":"Extra 7","question":{"q":"Smart ____ technology manages electricity supply.","options":["phone","grid","road","water"],"answer":1}},
+    {"english":"grants","arabic":"منح","page":"Extra 7","question":{"q":"Cities provide ____ to support urban farming.","options":["fines","grants","taxes","bans"],"answer":1}},
+    {"english":"cutting edge","arabic":"أحدث ما توصل إليه","page":"Extra 7","question":{"q":"CRISPR represents the ____ of medical science.","options":["cutting edge","old-fashioned","traditional","dangerous"],"answer":0}}
+  ],
+  "grammar": [
+    {"q":"Medicine ____ dramatically since ancient times.","options":["has evolved","have evolved","evolved","evolves"],"answer":0,"topic":"Present Perfect"},
+    {"q":"Urban farms ____ in many cities now.","options":["are appearing","is appearing","appeared","appears"],"answer":0,"topic":"Present Continuous"},
+    {"q":"Penicillin ____ by Alexander Fleming.","options":["was discovered","discovered","is discovered","discovers"],"answer":0,"topic":"Past Simple Passive"},
+    {"q":"If we use renewable energy, we ____ the environment.","options":["help","will help","helped","helps"],"answer":1,"topic":"First Conditional"},
+    {"q":"By 2050, many cities ____ powered entirely by renewables.","options":["are","will be","were","have been"],"answer":1,"topic":"Future Simple Passive"},
+    {"q":"Hydroponic systems ____ water.","options":["save","saves","saved","saving"],"answer":0,"topic":"Present Simple"},
+    {"q":"The patient ____ by the doctor yesterday.","options":["was treated","were treated","treated","treats"],"answer":0,"topic":"Past Simple Passive"},
+    {"q":"This is the ____ important lesson of all.","options":["more","most","much","many"],"answer":1,"topic":"Superlative"},
+    {"q":"They decided ____ solar panels on their roof.","options":["to install","installing","install","installs"],"answer":0,"topic":"Infinitive"},
+    {"q":"You ____ eat more vegetables for good health.","options":["should","must","can","will"],"answer":0,"topic":"Modal"}
+  ],
+  "dictation": [
+    {"correct":"herbal","options":["herbal","herbil","harbal","herbale"]},
+    {"correct":"oath","options":["oath","oath","othe","owth"]},
+    {"correct":"antiseptic","options":["antiseptic","antisceptic","antiseptik","antyseptic"]},
+    {"correct":"sustainable","options":["sustainable","sustinable","sustainible","sustanable"]},
+    {"correct":"hydroponic","options":["hydroponic","hidroponic","hydroponik","hydroponnic"]},
+    {"correct":"emission","options":["emission","emision","emishon","emmisssion"]},
+    {"correct":"capacity","options":["capacity","capaciti","capasity","kapacity"]},
+    {"correct":"grid","options":["grid","gridd","greed","griid"]},
+    {"correct":"grants","options":["grants","grants","graants","grantz"]},
+    {"correct":"cutting edge","options":["cutting edge","cutting edge","cuting edge","cutting edje"]}
+  ]
+}
