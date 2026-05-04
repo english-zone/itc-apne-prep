@@ -8,5 +8,20 @@
   {"q":"He was tired because he ____ the bags upstairs.","options":["have carried","had carried","carried","carries"],"answer":1},
   {"q":"The boy knocked on the door but his mother ____ yet.","options":["hasn't returned","haven't returned","hadn't returned","won't return"],"answer":2},
   {"q":"By the time we get to the party, Amira ____ everything.","options":["will have eaten","will have eating","eats","ate"],"answer":0},
-  {"q":"By next Friday, cookies ____ the mid-term exams.","options":["will have completed","will have completing","complete","completed"],"answer":0}
+  {"q":"By next Friday, cookies ____ the mid-term exams.","options":["will have completed","will have completing","complete","completed"],"answer":0},
+  {"q":"She ____ to thirteen different cities so far.","options":["have gone","have been","has gone","has been"],"answer":3},
+  {"q":"We ____ each other since we were kids.","options":["have known","has known","knew","know"],"answer":0},
+  {"q":"The bus hasn't arrived yet. We ____ for an hour.","options":["are waiting","have waited","have been waited","have been waiting"],"answer":3},
+  {"q":"What a talkative man! He ____ since the morning.","options":["has been talking","has talked","is talking","talks"],"answer":0},
+  {"q":"He ____ already ____ his lunch.","options":["has / eaten","have / ate","had / eat","is / eating"],"answer":0},
+  {"q":"She lives ____ Riyad.","options":["in","on","at","from"],"answer":0},
+  {"q":"The meeting will be held ____ April 18.","options":["at","in","on","over"],"answer":2},
+  {"q":"Call me ____ night. The lines aren't busy.","options":["at","in","on","with"],"answer":0},
+  {"q":"She usually wakes up ____ six o'clock.","options":["in","at","on","with"],"answer":1},
+  {"q":"Ahmad's house is ____ the third floor.","options":["in","on","at","from"],"answer":1},
+  {"q":"We used to play ____ the street.","options":["in","on","at","by"],"answer":0},
+  {"q":"I have been waiting ____ several hours.","options":["since","for","in","at"],"answer":1},
+  {"q":"He hasn't seen his friend ____ ages.","options":["since","for","in","at"],"answer":1},
+  {"q":"Jawad has lived here ____ September.","options":["for","since","in","at"],"answer":1},
+  {"q":"He asked me to give his book back but I ____ it.","options":["have lost","had lost","was lost","lose"],"answer":1}
 ]
