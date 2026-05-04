@@ -8,5 +8,20 @@
   {"q":"Who is ____ runner: Sami or Abdullah?","options":["bad","very bad","worse","worst"],"answer":2},
   {"q":"Can you name ____ building in the world?","options":["high","so high","higher","the highest"],"answer":3},
   {"q":"Maram is ____ than Kawthar in my class.","options":["clever","clever as","cleverer","cleverest"],"answer":2},
-  {"q":"Jimmy can't walk as fast as his father. His father walks ____ than him.","options":["more quickly","quickly","most quickly","quicklier"],"answer":0}
+  {"q":"Jimmy can't walk as fast as his father. His father walks ____ than him.","options":["more quickly","quickly","most quickly","quicklier"],"answer":0},
+  {"q":"This is ____ movie I have ever seen.","options":["exciting","more exciting","most exciting","the most exciting"],"answer":3},
+  {"q":"Ali is ____ student in the class.","options":["good","better","best","the best"],"answer":3},
+  {"q":"Summer is ____ than winter.","options":["hot","hotter","hottest","more hot"],"answer":1},
+  {"q":"That test was ____ than the previous one.","options":["difficult","so difficult","more difficult","the most difficult"],"answer":2},
+  {"q":"Sarah is ____ girl in the group.","options":["pretty","prettier","prettiest","the prettiest"],"answer":3},
+  {"q":"His handwriting is ____ than mine.","options":["bad","worse","worst","the worst"],"answer":1},
+  {"q":"This is ____ day of my life.","options":["happy","happier","happiest","the happiest"],"answer":3},
+  {"q":"A lion is ____ than a cat.","options":["dangerous","more dangerous","most dangerous","the most dangerous"],"answer":1},
+  {"q":"This chair is not ____ comfortable ____ that one.","options":["so / as","as / as","as / than","so / than"],"answer":1},
+  {"q":"He is ____ driver in the city.","options":["careful","more careful","most careful","the most careful"],"answer":3},
+  {"q":"My bag is as ____ as yours.","options":["heavy","heavier","heaviest","more heavy"],"answer":0},
+  {"q":"This lesson is ____ than the last one.","options":["easy","easier","easiest","the easiest"],"answer":1},
+  {"q":"She sings ____ than anyone else.","options":["beautiful","more beautifully","most beautifully","beautifuller"],"answer":1},
+  {"q":"That was the ____ trip I've ever taken.","options":["long","longer","longest","most long"],"answer":2},
+  {"q":"This cake is ____ delicious ____ the one we had yesterday.","options":["as / as","more / as","as / than","most / than"],"answer":0}
 ]
