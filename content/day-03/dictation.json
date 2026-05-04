@@ -1,0 +1,14 @@
+{"words":[
+  {"correct":"asthma","options":["asthma","asthmah","astma","asthama"]},
+  {"correct":"toothache","options":["toothache","toothach","toothake","tuthache"]},
+  {"correct":"aspirin","options":["aspirin","aspirine","asparin","aspiren"]},
+  {"correct":"sneeze","options":["sneeze","sneez","snease","sneize"]},
+  {"correct":"injection","options":["injection","injectionn","injecton","injektion"]},
+  {"correct":"hygiene","options":["hygiene","hygene","hygeene","higiene"]},
+  {"correct":"experiment","options":["experiment","experament","experimant","expiriment"]},
+  {"correct":"navigator","options":["navigator","navigater","navigetor","navgator"]},
+  {"correct":"etiquette","options":["etiquette","etiquete","etiket","etiquet"]},
+  {"correct":"abbreviation","options":["abbreviation","abreviation","abbreveation","abbriviation"]},
+  {"correct":"disease","options":["disease","diseas","diseez","dissease"]},
+  {"correct":"requirement","options":["requirement","requirment","requirment","reqirement"]}
+]}

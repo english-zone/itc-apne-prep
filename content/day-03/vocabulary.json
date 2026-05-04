@@ -1,0 +1,31 @@
+{
+  "topic": "Health, Medicine & Reading Vocabulary",
+  "pageRange": "70-72, 102-110",
+  "words": [
+    {"english":"asthma","arabic":"ربو","page":"70","question":{"q":"If someone finds it difficult to breathe, he probably has","options":["Toothache","headache","fever","asthma"],"answer":3}},
+    {"english":"toothache","arabic":"وجع أسنان","page":"70","question":{"q":"If you have a ____, you should see a dentist.","options":["toothache","headache","fever","asthma"],"answer":0}},
+    {"english":"headache","arabic":"صداع","page":"70","question":{"q":"I've got a terrible headache. I need to take some","options":["aspirin","sneeze","fever","antacid"],"answer":0}},
+    {"english":"fever","arabic":"حمى","page":"70","question":null},
+    {"english":"aspirin","arabic":"أسبرين","page":"70","question":null},
+    {"english":"sneeze","arabic":"عطس","page":"70","question":{"q":"Ahmed has got a cold and he can't stop","options":["Eating","breathing","sneezing","drinking"],"answer":2}},
+    {"english":"antacid","arabic":"مضاد حموضة","page":"70","question":null},
+    {"english":"sick","arabic":"مريض","page":"70","question":{"q":"Ali is absent today because he is","options":["well","patient","fine","sick"],"answer":3}},
+    {"english":"injection","arabic":"حقنة","page":"70","question":{"q":"The doctor gave the patient a/an ____ to reduce his pain.","options":["Obstacle","Incident","injection","pancake"],"answer":2}},
+    {"english":"dental hygiene","arabic":"نظافة الأسنان","page":"71","question":{"q":"____ is a crucial part of our daily healthcare.","options":["diseases","dental hygiene","asthma","diabetes"],"answer":1}},
+    {"english":"experiment","arabic":"تجربة","page":"71","question":{"q":"Scientists make ____ to find cures for diseases.","options":["platforms","Experiments","obstacles","earthquakes"],"answer":1}},
+    {"english":"symptom","arabic":"عرض مرضي","page":"71","question":{"q":"A headache and a fever are ____ of flu.","options":["causes","symptoms","treatments","medicines"],"answer":1}},
+    {"english":"requirement","arabic":"متطلب","page":"70","question":{"q":"Passing the eye test is one of the most important ____ to get a driving license.","options":["requirements","social ills","injection","patients"],"answer":0}},
+    {"english":"worsen","arabic":"يسوء","page":"70","question":{"q":"Because of smoking, Ali's health condition has ____ a lot.","options":["afforded","Worsened","determined","concluded"],"answer":1}},
+    {"english":"dentist","arabic":"طبيب أسنان","page":"70","question":null},
+    {"english":"patient","arabic":"مريض","page":"70","question":{"q":"A ____ stays in the hospital.","options":["doctor","patient","nurse","visitor"],"answer":1}},
+    {"english":"cure","arabic":"علاج","page":"71","question":{"q":"Scientists are looking for a ____ for cancer.","options":["cause","cure","symptom","disease"],"answer":1}},
+    {"english":"disease","arabic":"مرض","page":"71","question":{"q":"Diabetes is a serious ____.","options":["disease","cure","symptom","treatment"],"answer":0}},
+    {"english":"aviation","arabic":"طيران","page":"102","question":{"q":"Amelia Earhart was a pioneer in ____.","options":["medicine","aviation","education","engineering"],"answer":1}},
+    {"english":"navigator","arabic":"ملاح","page":"103","question":{"q":"Fred Noonan was Earhart's ____.","options":["husband","teacher","navigator","doctor"],"answer":2}},
+    {"english":"solo","arabic":"منفرد","page":"103","question":{"q":"She wanted to make a ____ flight across the Atlantic.","options":["group","solo","passenger","family"],"answer":1}},
+    {"english":"etiquette","arabic":"آداب","page":"108","question":{"q":"Email ____ is important in formal situations.","options":["address","password","etiquette","box"],"answer":2}},
+    {"english":"greeting","arabic":"تحية","page":"108","question":{"q":"Always include a ____ in a formal email.","options":["smile","greeting","mistake","page"],"answer":1}},
+    {"english":"slang","arabic":"عامية","page":"109","question":{"q":"Avoid using ____ in formal emails.","options":["slang","sentences","punctuation","subjects"],"answer":0}},
+    {"english":"abbreviation","arabic":"اختصار","page":"109","question":{"q":"LOL is an example of an ____.","options":["abbreviation","essay","message","paragraph"],"answer":0}}
+  ]
+}
