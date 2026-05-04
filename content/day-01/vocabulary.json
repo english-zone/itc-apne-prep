@@ -1,4 +1,6 @@
 {
+  "topic": "Family, Body & Reading Vocabulary",
+  "pageRange": "68-69, 87-95",
   "words": [
     {"english":"grandfather","arabic":"جد","page":"68","question":{"q":"He is my children's grandfather so he is my","options":["Mother","husband","father","uncle"],"answer":2}},
     {"english":"husband","arabic":"زوج","page":"68","question":null},
@@ -25,10 +27,18 @@
     {"english":"artery","arabic":"شريان","page":"69","question":{"q":"____ carry blood from the heart to all the parts of the body","options":["licenses","arteries","muscles","spinal cord"],"answer":1}},
     {"english":"muscle","arabic":"عضلة","page":"69","question":null},
     {"english":"spinal cord","arabic":"الحبل الشوكي","page":"69","question":null},
-    {"english":"advertise","arabic":"يعلن","page":"87","question":null},
-    {"english":"statistics","arabic":"إحصائيات","page":"88","question":null},
-    {"english":"disadvantaged","arabic":"محروم","page":"93","question":null},
-    {"english":"volunteer","arabic":"متطوع","page":"93","question":null},
-    {"english":"mentor","arabic":"مرشد","page":"93","question":null}
+    {"english":"advertise","arabic":"يعلن","page":"87","question":{"q":"The company decided to ____ on TV.","options":["advertise","ignore","hide","cancel"],"answer":0}},
+    {"english":"statistics","arabic":"إحصائيات","page":"88","question":{"q":"The report includes ____ about population.","options":["stories","statistics","pictures","songs"],"answer":1}},
+    {"english":"disadvantaged","arabic":"محروم","page":"93","question":{"q":"____ areas often lack basic services.","options":["Wealthy","Disadvantaged","Modern","Crowded"],"answer":1}},
+    {"english":"volunteer","arabic":"متطوع","page":"93","question":{"q":"Many people ____ to help in the event.","options":["refused","volunteered","complained","ignored"],"answer":1}},
+    {"english":"mentor","arabic":"مرشد","page":"94","question":{"q":"A ____ gives advice and support.","options":["student","mentor","patient","customer"],"answer":1}},
+    {"english":"survey","arabic":"استقصاء","page":"90","question":{"q":"A recent ____ showed that farming is dangerous.","options":["party","survey","movie","game"],"answer":1}},
+    {"english":"cancer","arabic":"سرطان","page":"91","question":{"q":"Too much sun can cause skin ____.","options":["cancer","cold","energy","light"],"answer":0}},
+    {"english":"precautions","arabic":"احتياطات","page":"91","question":{"q":"Farmers should take ____ when using chemicals.","options":["precautions","photos","breaks","holidays"],"answer":0}},
+    {"english":"poison","arabic":"سم","page":"91","question":{"q":"Some chemicals are ____ and can harm people.","options":["safe","delicious","poisonous","beautiful"],"answer":2}},
+    {"english":"equipment","arabic":"معدات","page":"91","question":{"q":"Farmers use heavy ____ like tractors.","options":["equipment","paintings","books","clothes"],"answer":0}},
+    {"english":"poverty","arabic":"فقر","page":"93","question":{"q":"VSO fights ____ around the world.","options":["wealth","poverty","health","joy"],"answer":1}},
+    {"english":"healthcare","arabic":"رعاية صحية","page":"94","question":{"q":"VSO volunteers improve ____ in poor areas.","options":["healthcare","entertainment","transport","sport"],"answer":0}},
+    {"english":"income","arabic":"دخل","page":"95","question":{"q":"People need a good ____ to support their families.","options":["hobby","income","dream","vacation"],"answer":1}}
   ]
 }
