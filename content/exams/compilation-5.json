@@ -1,5 +1,5 @@
 {
-  "title": "تجميع 5",
+  "title": "تجميع 5 – 11/8/2022 (أسئلة غير مكررة)",
   "passages": [
     {
       "title": "The Quiet Revolution of Vertical Farming",
@@ -104,24 +104,523 @@
   ],
   "grammarQuestions": [
     {
-      "q": "The office _____ every day.",
+      "q": "I ___ my new job last month.",
       "options": [
-        "was clean",
-        "is cleaned",
-        "cleans"
+        "have begun",
+        "am begin",
+        "begin",
+        "began",
+        "starting",
+        "start"
       ],
-      "answer": 1,
-      "justification": "المبني للمجهول في المضارع البسيط: is + past participle."
+      "answer": 3,
+      "justification": "'last month' ماضي بسيط، والفعل 'began' هو الماضي الصحيح."
     },
     {
-      "q": "They _____ to the market every day.",
+      "q": "The people ___ in room 5.",
       "options": [
-        "went",
-        "goes",
-        "go"
+        "are",
+        "wasn't",
+        "was",
+        "be",
+        "is",
+        "am"
+      ],
+      "answer": 0,
+      "justification": "'The people' جمع، لذا نستخدم 'are'."
+    },
+    {
+      "q": "This isn't my umbrella. It's ___",
+      "options": [
+        "for I",
+        "she",
+        "the yours",
+        "yours",
+        "your",
+        "to you"
+      ],
+      "answer": 3,
+      "justification": "'yours' ضمير ملكية يعود على umbrella."
+    },
+    {
+      "q": "They're ___",
+      "options": [
+        "bigs car",
+        "cars bigs",
+        "bigs cars",
+        "small car",
+        "big cars"
+      ],
+      "answer": 4,
+      "justification": "الصفة لا تجمع، والترتيب: صفة + اسم."
+    },
+    {
+      "q": "Thanks for ___",
+      "options": [
+        "everything",
+        "the all",
+        "all things",
+        "something",
+        "anything",
+        "all"
+      ],
+      "answer": 0,
+      "justification": "'Thanks for everything' تعبير شائع."
+    },
+    {
+      "q": "It's my ___ dog.",
+      "options": [
+        "parenting",
+        "parents",
+        "father's and mother's",
+        "parents'",
+        "parent's",
+        "parent"
+      ],
+      "answer": 3,
+      "justification": "'parents' جمع، والملكية: 'parents’'."
+    },
+    {
+      "q": "He ___ glasses.",
+      "options": [
+        "doesn't usually wear",
+        "wears usually",
+        "wear usually",
+        "don't wear usually",
+        "isn't usually wearing",
+        "doesn't wear usually"
+      ],
+      "answer": 0,
+      "justification": "ظرف التكرار 'usually' يأتي قبل الفعل الرئيسي."
+    },
+    {
+      "q": "I'm Japanese. ___ family are from Tokyo.",
+      "options": [
+        "Me",
+        "My",
+        "Our",
+        "Yours",
+        "Hers",
+        "Her"
+      ],
+      "answer": 1,
+      "justification": "'I'm' يناسبه ضمير الملكية 'My'."
+    },
+    {
+      "q": "___ yesterday?",
+      "options": [
+        "Do you study",
+        "Does you study",
+        "Did you studied",
+        "You studied",
+        "Studied you",
+        "Did you study"
+      ],
+      "answer": 5,
+      "justification": "السؤال في الماضي: 'Did + فاعل + مصدر'."
+    },
+    {
+      "q": "He ___ follow instructions.",
+      "options": [
+        "not can",
+        "doesn't can",
+        "does can",
+        "is not",
+        "isn't can",
+        "can't"
+      ],
+      "answer": 5,
+      "justification": "نفي 'can' هو 'can't'."
+    },
+    {
+      "q": "We ___ Scottish.",
+      "options": [
+        "not",
+        "was",
+        "aren't",
+        "isn't",
+        "wasn't",
+        "not are"
       ],
       "answer": 2,
-      "justification": "الفاعل جمع، والمضارع البسيط يأخذ الفعل بصيغة الجمع."
+      "justification": "'We' فاعل جمع، النفي: 'aren't'."
+    },
+    {
+      "q": "I like ___ in the evening.",
+      "options": [
+        "to be work",
+        "working",
+        "to working",
+        "that I work",
+        "work",
+        "worked"
+      ],
+      "answer": 1,
+      "justification": "'like' + gerund."
+    },
+    {
+      "q": "We ___ to Mexico.",
+      "options": [
+        "haven't been",
+        "hasn't be",
+        "has gone",
+        "hasn't been",
+        "haven't be",
+        "has been"
+      ],
+      "answer": 0,
+      "justification": "'We' فاعل جمع، خبرة حياتية: 'haven't been'."
+    },
+    {
+      "q": "I always ___",
+      "options": [
+        "hard work",
+        "work hard",
+        "hardly work",
+        "working hardly",
+        "work hardly",
+        "working hard"
+      ],
+      "answer": 1,
+      "justification": "'work hard' تعني يعمل بجد."
+    },
+    {
+      "q": "___ you like Italian food?",
+      "options": [
+        "Do",
+        "Does",
+        "Has",
+        "Is",
+        "Have",
+        "Are"
+      ],
+      "answer": 0,
+      "justification": "السؤال مع 'you' في المضارع: 'Do'."
+    },
+    {
+      "q": "He ___ the newspaper every day.",
+      "options": [
+        "reads",
+        "read",
+        "seen",
+        "doesn't reads",
+        "don't read",
+        "looks"
+      ],
+      "answer": 0,
+      "justification": "'every day' مضارع بسيط، والفاعل مفرد: 'reads'."
+    },
+    {
+      "q": "They didn't ___ the tickets.",
+      "options": [
+        "sending",
+        "book",
+        "booking",
+        "booked",
+        "to book",
+        "taking"
+      ],
+      "answer": 1,
+      "justification": "بعد 'didn't' يأتي المصدر المجرد."
+    },
+    {
+      "q": "'Was Picasso from Spain?' 'Yes, ___'",
+      "options": [
+        "he is",
+        "he wasn't",
+        "he were",
+        "he was",
+        "there were",
+        "was"
+      ],
+      "answer": 3,
+      "justification": "الإجابة المثبتة: 'Yes, he was'."
+    },
+    {
+      "q": "She ___ to the market every day.",
+      "options": [
+        "gets",
+        "goes",
+        "has",
+        "not go",
+        "went",
+        "does"
+      ],
+      "answer": 1,
+      "justification": "'every day' مضارع، الفاعل مفرد: 'goes'."
+    },
+    {
+      "q": "British people ___ tea with milk.",
+      "options": [
+        "have drink",
+        "are drink",
+        "drinking",
+        "drink",
+        "drinks",
+        "to drink"
+      ],
+      "answer": 3,
+      "justification": "جمع، مضارع بسيط: 'drink'."
+    },
+    {
+      "q": "There ___ telephone in my hotel room.",
+      "options": [
+        "wasn't some",
+        "were",
+        "wasn't a",
+        "was",
+        "weren't any",
+        "weren't a"
+      ],
+      "answer": 2,
+      "justification": "مفرد، نفي: 'wasn't a'."
+    },
+    {
+      "q": "Is Mount Everest ___ mountain in the world?",
+      "options": [
+        "the most highest",
+        "the tall",
+        "the highest",
+        "the higher",
+        "the more high",
+        "the tallest"
+      ],
+      "answer": 2,
+      "justification": "للارتفاع نستخدم 'high'، التفضيل: 'the highest'."
+    },
+    {
+      "q": "Can I pay ___ credit card?",
+      "options": [
+        "use me",
+        "used my",
+        "by",
+        "on",
+        "with",
+        "in"
+      ],
+      "answer": 2,
+      "justification": "'by credit card' تعني بواسطة بطاقة الائتمان."
+    },
+    {
+      "q": "Would you like ___ drink?",
+      "options": [
+        "more one",
+        "another",
+        "some other",
+        "other",
+        "a lot of",
+        "a few"
+      ],
+      "answer": 1,
+      "justification": "'another' + اسم مفرد = واحد آخر."
+    },
+    {
+      "q": "I ___ to pop music.",
+      "options": [
+        "never listen",
+        "listen never",
+        "don't never listen",
+        "never doing listen",
+        "never to listen",
+        "doesn't listen never"
+      ],
+      "answer": 0,
+      "justification": "'never' قبل الفعل الرئيسي: 'never listen'."
+    },
+    {
+      "q": "What ___ do tomorrow?",
+      "options": [
+        "are you going to",
+        "are you going",
+        "do you wanting",
+        "do you go to",
+        "you going",
+        "you having"
+      ],
+      "answer": 0,
+      "justification": "للتعبير عن نية: 'are you going to do'."
+    },
+    {
+      "q": "I ___ do my homework last night.",
+      "options": [
+        "can't",
+        "have",
+        "not could",
+        "has",
+        "didn't can",
+        "couldn't"
+      ],
+      "answer": 5,
+      "justification": "'last night' ماضي، لذا ماضي can: 'couldn't'."
+    },
+    {
+      "q": "Today's breakfast is ___ than yesterday's.",
+      "options": [
+        "good",
+        "better",
+        "gooder",
+        "more better",
+        "more good",
+        "nice"
+      ],
+      "answer": 1,
+      "justification": "'good' تقارن بـ 'better'."
+    },
+    {
+      "q": "I haven't ___ this picture before.",
+      "options": [
+        "seeing",
+        "seen",
+        "to see",
+        "saw",
+        "watched",
+        "see"
+      ],
+      "answer": 1,
+      "justification": "Present Perfect: haven't + p.p. (seen)."
+    },
+    {
+      "q": "This is our new teacher. ___ name is Charles.",
+      "options": [
+        "Its",
+        "Mine",
+        "Her",
+        "My",
+        "He",
+        "His"
+      ],
+      "answer": 5,
+      "justification": "'teacher' مذكر (Charles)، لذا 'His'."
+    },
+    {
+      "q": "He ___ playing the guitar.",
+      "options": [
+        "can",
+        "does",
+        "are",
+        "has",
+        "is",
+        "do"
+      ],
+      "answer": 4,
+      "justification": "Present Continuous: 'He is playing'."
+    },
+    {
+      "q": "I can't see. Where are my ___?",
+      "options": [
+        "stamps",
+        "keys",
+        "glasses",
+        "Key",
+        "Books",
+        "lipsticks"
+      ],
+      "answer": 2,
+      "justification": "عند عدم الرؤية نبحث عن النظارات (glasses)."
+    },
+    {
+      "q": "___ the time?",
+      "options": [
+        "How is",
+        "What's",
+        "What",
+        "When is",
+        "What is it",
+        "What it is"
+      ],
+      "answer": 1,
+      "justification": "للسؤال عن الوقت: 'What's the time?'"
+    },
+    {
+      "q": "___ this book before?",
+      "options": [
+        "Are you reading",
+        "Has you reading",
+        "Have you read",
+        "Do you read",
+        "Have you reading",
+        "Are you going to read"
+      ],
+      "answer": 2,
+      "justification": "'before' يدل على Present Perfect."
+    },
+    {
+      "q": "Could we ___ the bill, please?",
+      "options": [
+        "see",
+        "watch",
+        "want",
+        "ask",
+        "have",
+        "take"
+      ],
+      "answer": 4,
+      "justification": "'have the bill' تعني نحصل على الفاتورة."
+    },
+    {
+      "q": "It's ten ___ nine.",
+      "options": [
+        "to",
+        "at",
+        "on",
+        "for",
+        "to past",
+        "in"
+      ],
+      "answer": 0,
+      "justification": "'ten to nine' تعني العاشرة إلا عشراً."
+    },
+    {
+      "q": "Simon would like ___ basketball.",
+      "options": [
+        "playing",
+        "to playing",
+        "to play",
+        "to have playing",
+        "play",
+        "to having play"
+      ],
+      "answer": 2,
+      "justification": "'would like to + مصدر'."
+    },
+    {
+      "q": "The elephant is ___ land animal in the world.",
+      "options": [
+        "the most big",
+        "the biggest",
+        "huge",
+        "the fat",
+        "the bigger",
+        "biggest"
+      ],
+      "answer": 1,
+      "justification": "'big' صفة قصيرة، التفضيل: 'the biggest'."
+    },
+    {
+      "q": "She ___ to cook for her parents.",
+      "options": [
+        "want",
+        "isn't going",
+        "isn't go",
+        "like",
+        "doesn't go",
+        "aren't going"
+      ],
+      "answer": 1,
+      "justification": "نية مستقبلية: 'isn't going to'."
+    },
+    {
+      "q": "There isn't ___ bread in the kitchen.",
+      "options": [
+        "a few",
+        "lot of",
+        "many",
+        "some",
+        "a",
+        "any"
+      ],
+      "answer": 5,
+      "justification": "في النفي نستخدم 'any' مع غير المعدود."
     }
   ]
 }

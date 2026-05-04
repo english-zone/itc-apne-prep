@@ -1,5 +1,5 @@
 {
-  "title": "تجميع 2",
+  "title": "تجميع 2 – ITC Exam 2022/1 (40 سؤالاً)",
   "passages": [
     {
       "title": "The Quiet Revolution of Vertical Farming",
@@ -104,24 +104,455 @@
   ],
   "grammarQuestions": [
     {
-      "q": "The office _____ every day.",
+      "q": "304. Where is the manager? He……….. to other customers.",
       "options": [
-        "cleans",
-        "was clean",
-        "is cleaned"
+        "C. speaks",
+        "D. spoke",
+        "A. is speaking",
+        "B. speaking"
       ],
       "answer": 2,
-      "justification": "المبني للمجهول في المضارع البسيط: is + past participle."
+      "justification": "السؤال عن حدث يحدث الآن، لذا نستخدم المضارع المستمر (is speaking)."
     },
     {
-      "q": "They _____ to the market every day.",
+      "q": "303. Neither Frank………..Tom graduates this year.",
       "options": [
-        "go",
-        "goes",
-        "went"
+        "D. so",
+        "C. also",
+        "A. either",
+        "B. nor"
+      ],
+      "answer": 3,
+      "justification": "'neither ... nor ...' هي الأداة الصحيحة للنفي المزدوج."
+    },
+    {
+      "q": "302. It is economic………….your money on cheap and good things.",
+      "options": [
+        "A. to spend",
+        "B. spending",
+        "D. spend",
+        "C. spent"
       ],
       "answer": 0,
-      "justification": "الفاعل جمع، والمضارع البسيط يأخذ الفعل بصيغة الجمع."
+      "justification": "بعد الصفة 'economic' يأتي المصدر الكامل 'to spend' كفاعل مؤخر للجملة."
+    },
+    {
+      "q": "301. She went home only to see the house…………upside down by her children.",
+      "options": [
+        "B. had been turned",
+        "D. had turned",
+        "C. turned",
+        "A. is turned"
+      ],
+      "answer": 0,
+      "justification": "الحدث وقع قبل وصولها، لذا نستخدم Past Perfect Passive (had been turned)."
+    },
+    {
+      "q": "300. Whenever I travel to the UK, I…………….my cousins.",
+      "options": [
+        "A. am visiting",
+        "D. visit",
+        "B. have visited",
+        "C. visiting"
+      ],
+      "answer": 1,
+      "justification": "'Whenever' تدل على عادة متكررة، لذا Present Simple (visit)."
+    },
+    {
+      "q": "230. My father doesn’t speak Spanish. Neither ………….",
+      "options": [
+        "A. does mother",
+        "D. mother",
+        "C. does my mother",
+        "B. does speak my mother"
+      ],
+      "answer": 2,
+      "justification": "بعد 'neither' يأتي الفعل المساعد ثم الفاعل (does my mother)."
+    },
+    {
+      "q": "229. He was born ………. 1998.",
+      "options": [
+        "C. since",
+        "A. in",
+        "B. from",
+        "D. out"
+      ],
+      "answer": 1,
+      "justification": "نستخدم 'in' مع السنوات."
+    },
+    {
+      "q": "228. Did you enjoy yourselves?",
+      "options": [
+        "C. No, I didn’t",
+        "A. Yes, I did",
+        "D. Yes, we did",
+        "B. Yes, I am"
+      ],
+      "answer": 2,
+      "justification": "السؤال موجه بـ 'you' للجمع، لذا الإجابة 'Yes, we did'."
+    },
+    {
+      "q": "227. They ……….. yesterday.",
+      "options": [
+        "D. arrived",
+        "A. arrive",
+        "C. were arrived",
+        "B. are arrived"
+      ],
+      "answer": 0,
+      "justification": "'yesterday' يدل على الماضي البسيط."
+    },
+    {
+      "q": "226. I was …………..a shower when the phone rang.",
+      "options": [
+        "D. took",
+        "B. taking",
+        "C. taken",
+        "A. taked"
+      ],
+      "answer": 1,
+      "justification": "'was taking' هي صيغة Past Continuous."
+    },
+    {
+      "q": "225. ………….he was sick, he attended the lesson.",
+      "options": [
+        "A. Although",
+        "D. So",
+        "C. When",
+        "B. Because"
+      ],
+      "answer": 0,
+      "justification": "'Although' تستخدم للتناقض."
+    },
+    {
+      "q": "224. If you want to be a doctor, you………go to the college of medicine.",
+      "options": [
+        "C. Might",
+        "B. can",
+        "A. ought",
+        "D. should"
+      ],
+      "answer": 3,
+      "justification": "'should' للنصيحة. 'ought' تحتاج إلى 'to'."
+    },
+    {
+      "q": "223. Physics is the …………… of light and energy.",
+      "options": [
+        "A. studied",
+        "D. studies",
+        "C. study",
+        "B. studying"
+      ],
+      "answer": 2,
+      "justification": "يحتاج الفراغ إلى اسم (study) وليس فعلاً."
+    },
+    {
+      "q": "222. Excuse me, could you ……………me the direction?",
+      "options": [
+        "A. show",
+        "C. showed",
+        "D. showing",
+        "B. to show"
+      ],
+      "answer": 0,
+      "justification": "بعد 'could' يأتي المصدر المجرد بدون to."
+    },
+    {
+      "q": "221. If I …………a bird, I would fly away.",
+      "options": [
+        "D. were",
+        "B. can",
+        "C. really",
+        "A. was"
+      ],
+      "answer": 0,
+      "justification": "'If I were' تستخدم للحالة غير الواقعية."
+    },
+    {
+      "q": "220. Mark walks …………… on the road.",
+      "options": [
+        "C. quietly",
+        "A. quiet",
+        "D. very quiet",
+        "B. most quiet"
+      ],
+      "answer": 0,
+      "justification": "لوصف الفعل 'walks' نستخدم الظرف 'quietly'."
+    },
+    {
+      "q": "219. He walked ……………. down the street.",
+      "options": [
+        "A. calm",
+        "C. calmed",
+        "B. calmly",
+        "D. calming"
+      ],
+      "answer": 2,
+      "justification": "لوصف الفعل 'walked' نستخدم الظرف 'calmly'."
+    },
+    {
+      "q": "218. The weather ………….. warm these days.",
+      "options": [
+        "A. is getting",
+        "C. gets",
+        "B. get",
+        "D. getting"
+      ],
+      "answer": 0,
+      "justification": "'these days' مع تغير تدريجي، لذا Present Continuous."
+    },
+    {
+      "q": "217. He decided …………….. at home tonight.",
+      "options": [
+        "C. staying",
+        "A. stay",
+        "B. to stay",
+        "D. to staying"
+      ],
+      "answer": 2,
+      "justification": "'decide' يأتي بعده المصدر مع to."
+    },
+    {
+      "q": "216. Our boss …………. important employees every Tuesday.",
+      "options": [
+        "B. meet",
+        "A. is meeting",
+        "D. met",
+        "C. meets"
+      ],
+      "answer": 3,
+      "justification": "'every Tuesday' عادة متكررة، والفاعل مفرد، لذا 'meets'."
+    },
+    {
+      "q": "215. Hinds language is good …….…... her brothers language is bad.",
+      "options": [
+        "A. so",
+        "B. since",
+        "D. in spite",
+        "C. but"
+      ],
+      "answer": 3,
+      "justification": "'but' للربط بين متناقضين."
+    },
+    {
+      "q": "214. I want to buy a house …………. get married.",
+      "options": [
+        "A. in order to",
+        "C. for to",
+        "D. both",
+        "B. and for"
+      ],
+      "answer": 0,
+      "justification": "'in order to' تعبر عن الهدف."
+    },
+    {
+      "q": "167. My sister is Anna, …………… is eighteen years old.",
+      "options": [
+        "A. he",
+        "D. they",
+        "C. she",
+        "B. her"
+      ],
+      "answer": 2,
+      "justification": "ضمير الفاعل للعائدة على Anna هو 'she'."
+    },
+    {
+      "q": "166. Russia is………….. than Canada.",
+      "options": [
+        "A. the biggest",
+        "C. bigger",
+        "B. the bigger",
+        "D. big"
+      ],
+      "answer": 1,
+      "justification": "للمقارنة بين اثنين نستخدم الصفة + er بدون the."
+    },
+    {
+      "q": "165. In our school they ………….. stay behind late if we didn’t do our homework.",
+      "options": [
+        "B. didn’t allow us",
+        "D. made us",
+        "A. let us do",
+        "C. make us"
+      ],
+      "answer": 1,
+      "justification": "الفعل الرئيسي في الماضي (didn't)، لذا نستخدم 'made us'."
+    },
+    {
+      "q": "164. Can you open the window? we need ……………...",
+      "options": [
+        "A. a fresh air",
+        "C. an air fresh",
+        "B. fresh air",
+        "D. air fresh"
+      ],
+      "answer": 2,
+      "justification": "'air' غير معدود، لذا لا نستخدم 'a'."
+    },
+    {
+      "q": "163. Don’t take this book. It’s…………….",
+      "options": [
+        "C. his",
+        "D. he",
+        "B. her",
+        "A. mine"
+      ],
+      "answer": 3,
+      "justification": "'mine' تعود على المتكلم، وتعني ملكي."
+    },
+    {
+      "q": "162. What ……….. your job?",
+      "options": [
+        "B. is",
+        "A. does",
+        "D. has",
+        "C. do"
+      ],
+      "answer": 0,
+      "justification": "للسؤال عن الوظيفة: 'What is your job?'"
+    },
+    {
+      "q": "161. I didn’t ………….. to the holiday last year.",
+      "options": [
+        "C. go",
+        "A. going",
+        "B. went",
+        "D. gone"
+      ],
+      "answer": 0,
+      "justification": "بعد 'didn’t' يأتي المصدر المجرد 'go'."
+    },
+    {
+      "q": "160. Mohammad and Ahmed enjoy …….. while spending time together.",
+      "options": [
+        "D. self",
+        "A. themselves",
+        "B. ourselves",
+        "C. yourselves"
+      ],
+      "answer": 1,
+      "justification": "الضمير الانعكاسي للغائبين هو 'themselves'."
+    },
+    {
+      "q": "159. Ahmad's mother kept looking at him sympathetic while he ……… lectured by his father.",
+      "options": [
+        "B. has been",
+        "C. been",
+        "D. was being",
+        "A. is"
+      ],
+      "answer": 2,
+      "justification": "الحدث كان مستمراً في الماضي، لذا Past Continuous Passive."
+    },
+    {
+      "q": "158. Lexus cars ………….. by a Japanese company.",
+      "options": [
+        "D. are made",
+        "B. are making",
+        "C. will make",
+        "A. made"
+      ],
+      "answer": 0,
+      "justification": "السيارات تُصنع (مبني للمجهول) في المضارع: 'are made'."
+    },
+    {
+      "q": "157. When I …………… the school, I ………….. shopping.",
+      "options": [
+        "D. finishing/ go",
+        "B. finish/will go",
+        "A. finished/ went",
+        "C. finish/ go"
+      ],
+      "answer": 2,
+      "justification": "حدثان ماضيان متتاليان: 'finished' ثم 'went'."
+    },
+    {
+      "q": "156. My vacation is ………….. June 22.",
+      "options": [
+        "A. at",
+        "D. since",
+        "B. in",
+        "C. on"
+      ],
+      "answer": 3,
+      "justification": "مع التواريخ نستخدم 'on'."
+    },
+    {
+      "q": "155. Youssef lost his entire graduation project ………… his computer crashed.",
+      "options": [
+        "C. during",
+        "A. so",
+        "D. although",
+        "B. when"
+      ],
+      "answer": 3,
+      "justification": "'when' تربط بين الحدثين الزمنيين."
+    },
+    {
+      "q": "393. My wife……………..the children when I got home.",
+      "options": [
+        "C. has fed",
+        "D. feeds",
+        "B. are feeding",
+        "A. had fed"
+      ],
+      "answer": 3,
+      "justification": "الحدث (إطعام الأطفال) وقع قبل وصولي، لذا Past Perfect."
+    },
+    {
+      "q": "392. They respected…………..he said.",
+      "options": [
+        "A. that",
+        "C. when",
+        "B. which",
+        "D. what"
+      ],
+      "answer": 3,
+      "justification": "'what' تعني 'الشيء الذي'."
+    },
+    {
+      "q": "391. ……………..him lately?",
+      "options": [
+        "B. Have you seen",
+        "A. Did you see",
+        "C. Do you see",
+        "D. See"
+      ],
+      "answer": 0,
+      "justification": "'lately' يدل على المضارع التام."
+    },
+    {
+      "q": "390. The pilot landed the plane safely despite the fault of…..……….controls.",
+      "options": [
+        "D. it",
+        "C. its",
+        "B. him",
+        "A. he"
+      ],
+      "answer": 1,
+      "justification": "الضمير يعود على 'the plane'، وهو غير عاقل مفرد، لذا 'its'."
+    },
+    {
+      "q": "389. This book…………..by my father.",
+      "options": [
+        "B. wrote",
+        "C. was written",
+        "A. writing",
+        "D. written"
+      ],
+      "answer": 1,
+      "justification": "مبني للمجهول ماضي: 'was written'."
+    },
+    {
+      "q": "388. If it rains tomorrow, I……………...a raincoat.",
+      "options": [
+        "D. would have worn",
+        "A. wear",
+        "C. would wear",
+        "B. will wear"
+      ],
+      "answer": 3,
+      "justification": "First Conditional: if + present, will + infinitive."
     }
   ]
 }

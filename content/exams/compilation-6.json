@@ -1,5 +1,5 @@
 {
-  "title": "تجميع 6",
+  "title": "تجميع 6 – معهد الريادة 2023 (أسئلة غير مكررة)",
   "passages": [
     {
       "title": "The Quiet Revolution of Vertical Farming",
@@ -104,24 +104,404 @@
   ],
   "grammarQuestions": [
     {
-      "q": "The office _____ every day.",
+      "q": "1- Both wolf and cheetah are .................animals.",
       "options": [
-        "is cleaned",
-        "was clean",
-        "cleans"
+        "domestic",
+        "pet",
+        "wild"
       ],
-      "answer": 0,
-      "justification": "المبني للمجهول في المضارع البسيط: is + past participle."
+      "answer": 2,
+      "justification": "الذئب والفهد حيوانات برية (wild)."
     },
     {
-      "q": "They _____ to the market every day.",
+      "q": "2- before leaving the field, one should .......................that every thing is OK.",
       "options": [
-        "goes",
-        "go",
-        "went"
+        "check",
+        "shake",
+        "mark"
+      ],
+      "answer": 0,
+      "justification": "'check' تعني يتأكد."
+    },
+    {
+      "q": "3-Although we live in such a big house, we .....................it together.",
+      "options": [
+        "share",
+        "fair",
+        "catch"
+      ],
+      "answer": 0,
+      "justification": "'share' تعني يتشارك."
+    },
+    {
+      "q": "4- This course is to ........................students to solve the exam.",
+      "options": [
+        "play",
+        "make",
+        "assist"
+      ],
+      "answer": 2,
+      "justification": "'assist' تعني يساعد."
+    },
+    {
+      "q": "5- It was an impressive ...................by the French team.",
+      "options": [
+        "performance",
+        "huge",
+        "material"
+      ],
+      "answer": 0,
+      "justification": "'performance' تعني أداء."
+    },
+    {
+      "q": "6- ..................is the production of goods from raw materials.",
+      "options": [
+        "industry",
+        "culture",
+        "name"
+      ],
+      "answer": 0,
+      "justification": "'industry' تعني الصناعة."
+    },
+    {
+      "q": "7- The results are shown in ............number 6.",
+      "options": [
+        "stood",
+        "tiny",
+        "diagram"
+      ],
+      "answer": 2,
+      "justification": "'diagram' رسم بياني."
+    },
+    {
+      "q": "8- Hundred thousands of .................visit Malaysia every year.",
+      "options": [
+        "directions",
+        "tourists",
+        "energetic"
       ],
       "answer": 1,
-      "justification": "الفاعل جمع، والمضارع البسيط يأخذ الفعل بصيغة الجمع."
+      "justification": "'tourists' سياح."
+    },
+    {
+      "q": "9- He likes ice cream, but he doesn't have ............flavor.",
+      "options": [
+        "energetic",
+        "active",
+        "specific"
+      ],
+      "answer": 2,
+      "justification": "'specific' تعني محدد."
+    },
+    {
+      "q": "10- The cost of the trip ................The hotel and car transport.",
+      "options": [
+        "decides",
+        "includes",
+        "drives"
+      ],
+      "answer": 1,
+      "justification": "'includes' يشمل."
+    },
+    {
+      "q": "11- The police used CCV cameras to .................the criminal.",
+      "options": [
+        "identify",
+        "design",
+        "visit"
+      ],
+      "answer": 0,
+      "justification": "'identify' تعني يتعرف على هوية."
+    },
+    {
+      "q": "12- Saudi Arabia has a large oil .....................that ARAMCO controls.",
+      "options": [
+        "commerce",
+        "industry",
+        "agriculture"
+      ],
+      "answer": 1,
+      "justification": "'oil industry' صناعة النفط."
+    },
+    {
+      "q": "13- The city of Jeddah located on the red sea ..................of Saudi Arabia.",
+      "options": [
+        "beach",
+        "shore",
+        "coast"
+      ],
+      "answer": 2,
+      "justification": "'coast' ساحل."
+    },
+    {
+      "q": "14- Abdullah and Ahmad both have their bedroom but they .....................one bathroom.",
+      "options": [
+        "share",
+        "build",
+        "go"
+      ],
+      "answer": 0,
+      "justification": "'share' يتشاركون."
+    },
+    {
+      "q": "15- To..................means to throw away.",
+      "options": [
+        "started",
+        "made",
+        "remove"
+      ],
+      "answer": 2,
+      "justification": "'remove' تعني يزيل/يتخلص من."
+    },
+    {
+      "q": "16-The cold weather had ..............the ground.",
+      "options": [
+        "started",
+        "frozen",
+        "made"
+      ],
+      "answer": 1,
+      "justification": "'had frozen' ماضي تام."
+    },
+    {
+      "q": "17- The campus provides only the ....................facilities.",
+      "options": [
+        "basic",
+        "hot",
+        "tall"
+      ],
+      "answer": 0,
+      "justification": "'basic' أساسية."
+    },
+    {
+      "q": "18- There were only three of us on the ....................course.",
+      "options": [
+        "advance",
+        "emerged",
+        "title"
+      ],
+      "answer": 0,
+      "justification": "'advance course' دورة متقدمة."
+    },
+    {
+      "q": "19- Heavy lifting equipment can ...................damaged cars.",
+      "options": [
+        "identify",
+        "remove",
+        "trusted"
+      ],
+      "answer": 1,
+      "justification": "'remove' تزيل."
+    },
+    {
+      "q": "20- Credible means to.",
+      "options": [
+        "worried",
+        "trusted",
+        "funny"
+      ],
+      "answer": 1,
+      "justification": "'credible' تعني موثوق."
+    },
+    {
+      "q": "21- My father installed a smoke................in the kitchen.",
+      "options": [
+        "detector",
+        "flashlight",
+        "trust"
+      ],
+      "answer": 0,
+      "justification": "'smoke detector' كاشف دخان."
+    },
+    {
+      "q": "22-................. from factories can pollute rivers.",
+      "options": [
+        "waste",
+        "want",
+        "hazard"
+      ],
+      "answer": 0,
+      "justification": "'waste' نفايات."
+    },
+    {
+      "q": "23...................people have large homes.",
+      "options": [
+        "poor",
+        "stupid",
+        "wealthy"
+      ],
+      "answer": 2,
+      "justification": "'wealthy' أغنياء."
+    },
+    {
+      "q": "24-He...........................to the manager of the restaurant.",
+      "options": [
+        "complained",
+        "started",
+        "helped"
+      ],
+      "answer": 0,
+      "justification": "'complained' اشتكى."
+    },
+    {
+      "q": "25-you should eat..................... vegetables.",
+      "options": [
+        "equal",
+        "less",
+        "more"
+      ],
+      "answer": 2,
+      "justification": "'more' أكثر."
+    },
+    {
+      "q": "26-My wife like to buy expensive.........................",
+      "options": [
+        "clothes",
+        "clothing",
+        "cloth"
+      ],
+      "answer": 0,
+      "justification": "'clothes' ملابس."
+    },
+    {
+      "q": "27- The..................of Saudi Arabia includes large deserts.",
+      "options": [
+        "lecture",
+        "space",
+        "geography"
+      ],
+      "answer": 2,
+      "justification": "'geography' جغرافيا."
+    },
+    {
+      "q": "28-Driving in the fog is really .................",
+      "options": [
+        "easy",
+        "hazard",
+        "possible"
+      ],
+      "answer": 1,
+      "justification": "'hazard' خطر."
+    },
+    {
+      "q": "29-Abdullah is a ......................driver.",
+      "options": [
+        "cautious",
+        "also",
+        "hat"
+      ],
+      "answer": 0,
+      "justification": "'cautious' حذر."
+    },
+    {
+      "q": "30- The ...................of the new air conditioner will finish tomorrow.",
+      "options": [
+        "warm",
+        "driving",
+        "installation"
+      ],
+      "answer": 2,
+      "justification": "'installation' تركيب."
+    },
+    {
+      "q": "31- Ali isn't ......................about the result.",
+      "options": [
+        "worried",
+        "happy",
+        "stay"
+      ],
+      "answer": 0,
+      "justification": "'worried' قلق."
+    },
+    {
+      "q": "32-He forgot his pen, So he asked to .....mine.",
+      "options": [
+        "give",
+        "lent",
+        "borrow"
+      ],
+      "answer": 2,
+      "justification": "'borrow' يستعير."
+    },
+    {
+      "q": "33-.................car is this?",
+      "options": [
+        "whose",
+        "what",
+        "why"
+      ],
+      "answer": 0,
+      "justification": "'whose' للملكية."
+    },
+    {
+      "q": "34- The company wants employees how know to ..............problems.",
+      "options": [
+        "issue",
+        "hate",
+        "solve"
+      ],
+      "answer": 2,
+      "justification": "'solve' يحل."
+    },
+    {
+      "q": "35- He hate to study the .................... of the electron.",
+      "options": [
+        "force",
+        "energy",
+        "physics"
+      ],
+      "answer": 2,
+      "justification": "'physics' فيزياء."
+    },
+    {
+      "q": "36- Software can be used to ................conditions on the seabed.",
+      "options": [
+        "simulate",
+        "try",
+        "new"
+      ],
+      "answer": 0,
+      "justification": "'simulate' تحاكي."
+    },
+    {
+      "q": "37- This course is important for students in ....................",
+      "options": [
+        "transition",
+        "change",
+        "system"
+      ],
+      "answer": 0,
+      "justification": "'transition' مرحلة انتقالية."
+    },
+    {
+      "q": "38- She is not native, she is a ....................",
+      "options": [
+        "foreign",
+        "cold",
+        "own"
+      ],
+      "answer": 0,
+      "justification": "'foreign' أجنبي."
+    },
+    {
+      "q": "39- The person in the same family is a .........",
+      "options": [
+        "relative",
+        "monster",
+        "foreign"
+      ],
+      "answer": 0,
+      "justification": "'relative' قريب."
+    },
+    {
+      "q": "40- please be ....................",
+      "options": [
+        "polite",
+        "correct",
+        "hard"
+      ],
+      "answer": 0,
+      "justification": "'polite' مهذب."
     }
   ]
 }

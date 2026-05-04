@@ -1,5 +1,5 @@
 {
-  "title": "تجميع 4",
+  "title": "تجميع 4 – 9/8/2022 (أسئلة غير مكررة)",
   "passages": [
     {
       "title": "The Quiet Revolution of Vertical Farming",
@@ -104,24 +104,454 @@
   ],
   "grammarQuestions": [
     {
-      "q": "The office _____ every day.",
+      "q": "Q6: My father died ______ June.",
       "options": [
-        "is cleaned",
-        "cleans",
-        "was clean"
+        "D. for",
+        "B. at",
+        "A. on",
+        "C. in"
       ],
-      "answer": 0,
-      "justification": "المبني للمجهول في المضارع البسيط: is + past participle."
+      "answer": 3,
+      "justification": "مع الشهور نستخدم 'in'."
     },
     {
-      "q": "They _____ to the market every day.",
+      "q": "Q9: What are you doing ______ home?",
       "options": [
-        "go",
-        "went",
-        "goes"
+        "D. on",
+        "C. to",
+        "A. in",
+        "B. at"
+      ],
+      "answer": 3,
+      "justification": "'at home' تعني في البيت."
+    },
+    {
+      "q": "Q10: Khalid always gets up ______ 6 o’clock.",
+      "options": [
+        "B. for",
+        "D. on",
+        "C. at",
+        "A. in"
+      ],
+      "answer": 2,
+      "justification": "مع الساعات نستخدم 'at'."
+    },
+    {
+      "q": "Q1: I usually go ______ the mall for shopping.",
+      "options": [
+        "D. for",
+        "C. in",
+        "B. at",
+        "A. to"
+      ],
+      "answer": 3,
+      "justification": "'go to' للذهاب إلى مكان."
+    },
+    {
+      "q": "Q4: The deer was killed ______ the lion.",
+      "options": [
+        "D. for",
+        "C. in",
+        "B. by",
+        "A. from"
+      ],
+      "answer": 2,
+      "justification": "في المبني للمجهول نستخدم 'by'."
+    },
+    {
+      "q": "Q5: Sometimes Ahmad goes to school ______ bus.",
+      "options": [
+        "D. for",
+        "B. in",
+        "A. to",
+        "C. by"
+      ],
+      "answer": 3,
+      "justification": "لوسائل النقل نستخدم 'by'."
+    },
+    {
+      "q": "My teacher used to come to class with a ______.",
+      "options": [
+        "C. pens",
+        "B. some pens",
+        "A. few pens",
+        "D. many pens"
       ],
       "answer": 0,
-      "justification": "الفاعل جمع، والمضارع البسيط يأخذ الفعل بصيغة الجمع."
+      "justification": "'pens' وحدها تكفي مع 'a'."
+    },
+    {
+      "q": "Don’t take this book. It’s ______.",
+      "options": [
+        "D. he",
+        "C. his",
+        "A. mine",
+        "B. hers"
+      ],
+      "answer": 2,
+      "justification": "'mine' ضمير ملكية للمتكلم."
+    },
+    {
+      "q": "Reading Practice China: 1. China ______ a rich culture.",
+      "options": [
+        "b) had",
+        "c) had been",
+        "a) has",
+        "d) had been going to"
+      ],
+      "answer": 2,
+      "justification": "حقيقة عامة: Present Simple."
+    },
+    {
+      "q": "Reading Practice China: 2. China ______ ruled by dynasties.",
+      "options": [
+        "a) is",
+        "b) was",
+        "d) is going to be",
+        "c) were"
+      ],
+      "answer": 1,
+      "justification": "حدث تاريخي: Past Simple Passive."
+    },
+    {
+      "q": "Reading Practice China: 3. The Himalaya ______ southern China.",
+      "options": [
+        "c) had crossed",
+        "b) crossed",
+        "a) cross",
+        "d) were crossing"
+      ],
+      "answer": 2,
+      "justification": "حقيقة جغرافية: Present Simple."
+    },
+    {
+      "q": "Can you swim?",
+      "options": [
+        "Yes, I was",
+        "Yes, I am",
+        "Yes, I did",
+        "Yes, I can"
+      ],
+      "answer": 3,
+      "justification": "السؤال بـ 'Can you'، الإجابة بـ 'Yes, I can'."
+    },
+    {
+      "q": "I am ______. I want some Pepsi.",
+      "options": [
+        "thirstier",
+        "thirsty",
+        "thirstiest",
+        "the thirstiest"
+      ],
+      "answer": 1,
+      "justification": "وصف الحاضر البسيط."
+    },
+    {
+      "q": "______ is your teacher?",
+      "options": [
+        "Who",
+        "What",
+        "When",
+        "Why"
+      ],
+      "answer": 0,
+      "justification": "للسؤال عن شخص نستخدم 'Who'."
+    },
+    {
+      "q": "My friend is ______ in my classroom.",
+      "options": [
+        "hungry",
+        "hungrier",
+        "hungriest",
+        "the hungriest"
+      ],
+      "answer": 0,
+      "justification": "جملة بسيطة، الصفة الأساسية 'hungry'."
+    },
+    {
+      "q": "Erawan is ______ waterfall in Kanchanaburi.",
+      "options": [
+        "beautiful",
+        "more beautiful",
+        "most beautiful",
+        "the most beautiful"
+      ],
+      "answer": 3,
+      "justification": "تفضيل: 'the most beautiful'."
+    },
+    {
+      "q": "I am ______ Math student in my class.",
+      "options": [
+        "better",
+        "the better",
+        "the best",
+        "best"
+      ],
+      "answer": 2,
+      "justification": "تفضيل: 'the best'."
+    },
+    {
+      "q": "My father ______ a teacher at my school.",
+      "options": [
+        "was",
+        "are",
+        "am",
+        "is"
+      ],
+      "answer": 3,
+      "justification": "حقيقة عامة: Present Simple."
+    },
+    {
+      "q": "I ______ to Pattaya last weekend.",
+      "options": [
+        "went",
+        "will go",
+        "go",
+        "shall go"
+      ],
+      "answer": 0,
+      "justification": "'last weekend' ماضي: 'went'."
+    },
+    {
+      "q": "A: _________ B: I have a headache.",
+      "options": [
+        "What happened?",
+        "What's the matter?",
+        "Where are you going?"
+      ],
+      "answer": 1,
+      "justification": "للسؤال عن المشكلة: 'What's the matter?'"
+    },
+    {
+      "q": "My flower is ______ than your flower.",
+      "options": [
+        "more beautiful",
+        "the more beautiful",
+        "as beautiful",
+        "the most beautiful"
+      ],
+      "answer": 0,
+      "justification": "مقارنة: 'more beautiful than'."
+    },
+    {
+      "q": "Where do kangaroos come from?",
+      "options": [
+        "Australia",
+        "Thailand",
+        "America",
+        "Singapore"
+      ],
+      "answer": 0,
+      "justification": "الكنغر يعيش في أستراليا."
+    },
+    {
+      "q": "April is ______ month.",
+      "options": [
+        "the hottest",
+        "hot",
+        "hotter",
+        "hottest"
+      ],
+      "answer": 0,
+      "justification": "تفضيل: 'the hottest'."
+    },
+    {
+      "q": "Did your friends go to your birthday party?",
+      "options": [
+        "Yes, they did.",
+        "Yes, he did.",
+        "Yes, you did.",
+        "Yes, she did."
+      ],
+      "answer": 0,
+      "justification": "'friends' جمع: 'they did'."
+    },
+    {
+      "q": "Songkran is ______ April.",
+      "options": [
+        "to",
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": 2,
+      "justification": "مع الشهور: 'in'."
+    },
+    {
+      "q": "This is ______ car. It is ______.",
+      "options": [
+        "mine, my",
+        "my, my",
+        "mine, mine",
+        "my, mine"
+      ],
+      "answer": 3,
+      "justification": "الأولى صفة ملكية، الثانية ضمير ملكية."
+    },
+    {
+      "q": "What day do Christians go to Church?",
+      "options": [
+        "Saturday",
+        "Every day",
+        "Sunday",
+        "Friday"
+      ],
+      "answer": 2,
+      "justification": "يوم الأحد هو يوم الصلاة المعتاد."
+    },
+    {
+      "q": "Did you go to Chiang Mai last weekend?",
+      "options": [
+        "Yes, you did.",
+        "Yes, I am.",
+        "Yes, you were.",
+        "Yes, I did."
+      ],
+      "answer": 3,
+      "justification": "السؤال بـ 'Did you'، الإجابة 'Yes, I did'."
+    },
+    {
+      "q": "I ___ go to school yesterday, because I was ill.",
+      "options": [
+        "don't",
+        "do not",
+        "doesn't",
+        "didn't"
+      ],
+      "answer": 3,
+      "justification": "نفي الماضي بـ 'didn't'."
+    },
+    {
+      "q": "What does your mother look like?",
+      "options": [
+        "he doesn't know.",
+        "She is tall and thin.",
+        "She likes to read books.",
+        "She likes to look at flowers."
+      ],
+      "answer": 1,
+      "justification": "وصف الشكل الخارجي."
+    },
+    {
+      "q": "How long ____ lunch?",
+      "options": [
+        "was you eating",
+        "was you eat",
+        "were you eating",
+        "were you eat"
+      ],
+      "answer": 2,
+      "justification": "Past Continuous: 'were you eating'."
+    },
+    {
+      "q": "My school ______ a gym.",
+      "options": [
+        "had",
+        "was",
+        "have",
+        "has"
+      ],
+      "answer": 3,
+      "justification": "حقيقة حالية: Present Simple."
+    },
+    {
+      "q": "A: How __ is the train ride? B: About ten hours.",
+      "options": [
+        "long",
+        "far",
+        "go",
+        "much"
+      ],
+      "answer": 0,
+      "justification": "للمدة: 'How long'."
+    },
+    {
+      "q": "A: How __ is it from BKK to Samut Prakan? B: 35 kms.",
+      "options": [
+        "much",
+        "many",
+        "far",
+        "long"
+      ],
+      "answer": 2,
+      "justification": "للمسافة: 'How far'."
+    },
+    {
+      "q": "I shall ___ to school tomorrow.",
+      "options": [
+        "walked",
+        "was walk",
+        "go walk",
+        "walk"
+      ],
+      "answer": 3,
+      "justification": "بعد 'shall' يأتي المصدر: 'walk'."
+    },
+    {
+      "q": "A: What are carrots, beans and cabbages? B: ______.",
+      "options": [
+        "vegetables",
+        "desserts",
+        "drinks",
+        "sweets"
+      ],
+      "answer": 0,
+      "justification": "كلها خضروات."
+    },
+    {
+      "q": "I am ______ a book now.",
+      "options": [
+        "were read",
+        "is reading",
+        "was reading",
+        "reading"
+      ],
+      "answer": 3,
+      "justification": "'am reading' مضارع مستمر."
+    },
+    {
+      "q": "I have lunch ______ half past eleven.",
+      "options": [
+        "in",
+        "before",
+        "on",
+        "at"
+      ],
+      "answer": 3,
+      "justification": "مع الساعات: 'at'."
+    },
+    {
+      "q": "December is ______ month.",
+      "options": [
+        "coldest",
+        "cold",
+        "colder",
+        "the coldest"
+      ],
+      "answer": 3,
+      "justification": "تفضيل: 'the coldest'."
+    },
+    {
+      "q": "She ___ study at my school next year.",
+      "options": [
+        "won't",
+        "wasn't",
+        "doesn't",
+        "does"
+      ],
+      "answer": 0,
+      "justification": "نفي المستقبل: 'won't'."
+    },
+    {
+      "q": "How ___ apples are there in the basket?",
+      "options": [
+        "were",
+        "many",
+        "did",
+        "much"
+      ],
+      "answer": 1,
+      "justification": "'apples' معدود: 'How many'."
     }
   ]
 }

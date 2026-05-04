@@ -1,5 +1,5 @@
 {
-  "title": "تجميع 3",
+  "title": "تجميع 3 – ITC 2022/2 (40 سؤالاً)",
   "passages": [
     {
       "title": "The Quiet Revolution of Vertical Farming",
@@ -104,24 +104,424 @@
   ],
   "grammarQuestions": [
     {
-      "q": "The office _____ every day.",
+      "q": "1. Please leave your room key at Reception. (Where?)",
       "options": [
-        "is cleaned",
-        "was clean",
-        "cleans"
+        "C. in a taxi",
+        "A. in a shop",
+        "B. in a hotel"
       ],
-      "answer": 0,
-      "justification": "المبني للمجهول في المضارع البسيط: is + past participle."
+      "answer": 2,
+      "justification": "طلب ترك مفتاح الغرفة في الاستقبال يكون في الفنادق."
     },
     {
-      "q": "They _____ to the market every day.",
+      "q": "2. Foreign money changed here. (Where?)",
       "options": [
-        "go",
-        "went",
-        "goes"
+        "B. in a bank",
+        "C. in a police station",
+        "A. in a library"
       ],
       "answer": 0,
-      "justification": "الفاعل جمع، والمضارع البسيط يأخذ الفعل بصيغة الجمع."
+      "justification": "تحويل العملات الأجنبية يتم في البنوك."
+    },
+    {
+      "q": "3. AFTERNOON SHOW BEGINS AT 2PM. (Where?)",
+      "options": [
+        "B. at a music school",
+        "C. at a restaurant",
+        "A. at a travel agent’s"
+      ],
+      "answer": 2,
+      "justification": "هذه اللافتة تُشاهد في وكالة السفر أو السينما."
+    },
+    {
+      "q": "4. Price per night: £10 a tent £5 a person. (Where?)",
+      "options": [
+        "B. in a hotel",
+        "C. on a camp-site",
+        "A. at a cinema"
+      ],
+      "answer": 1,
+      "justification": "أسعار الخيام والأشخاص تشير إلى موقع تخييم."
+    },
+    {
+      "q": "5. (Scotland) Some people _____ Scotland speak a different language.",
+      "options": [
+        "B. in",
+        "C. at",
+        "A. on"
+      ],
+      "answer": 0,
+      "justification": "نستخدم 'in' مع البلدان."
+    },
+    {
+      "q": "6. There are _____ five million people in Scotland.",
+      "options": [
+        "C. among",
+        "A. about",
+        "B. between"
+      ],
+      "answer": 1,
+      "justification": "'about' تعني تقريباً."
+    },
+    {
+      "q": "7. Edinburgh is _____ most famous city.",
+      "options": [
+        "A. his",
+        "C. its",
+        "B. your"
+      ],
+      "answer": 1,
+      "justification": "الضمير يعود على Scotland، لذا 'its'."
+    },
+    {
+      "q": "8. A long time ago, there _____ many forests.",
+      "options": [
+        "C. was",
+        "B. were",
+        "A. is"
+      ],
+      "answer": 1,
+      "justification": "'forests' جمع وماض، لذا 'were'."
+    },
+    {
+      "q": "9. Now there are only a _____.",
+      "options": [
+        "C. lot",
+        "B. little",
+        "A. few"
+      ],
+      "answer": 2,
+      "justification": "'a few' مع المعدود."
+    },
+    {
+      "q": "10. (Alice Guy) She first became involved in cinema...",
+      "options": [
+        "B. including",
+        "C. containing",
+        "D. supporting",
+        "A. bringing"
+      ],
+      "answer": 0,
+      "justification": "'including' تعني بما في ذلك."
+    },
+    {
+      "q": "11. In 1907 Alice _____ to New York.",
+      "options": [
+        "D. transported",
+        "C. entered",
+        "A. moved",
+        "B. ran"
+      ],
+      "answer": 2,
+      "justification": "'moved' تعني انتقلت."
+    },
+    {
+      "q": "12. She was _____ successful.",
+      "options": [
+        "A. next",
+        "D. recently",
+        "C. immediately",
+        "B. once"
+      ],
+      "answer": 2,
+      "justification": "'immediately' تعني فوراً."
+    },
+    {
+      "q": "13. The best days were _____.",
+      "options": [
+        "B. down",
+        "C. behind",
+        "D. over",
+        "A. after"
+      ],
+      "answer": 2,
+      "justification": "'over' تعني انتهت."
+    },
+    {
+      "q": "14. Hardly anybody _____ her name.",
+      "options": [
+        "A. remembered",
+        "D. repeated",
+        "C. reminded",
+        "B. realised"
+      ],
+      "answer": 0,
+      "justification": "'remembered' تعني تذكر."
+    },
+    {
+      "q": "15. (UFOs) ...flying saucers, _____ that is often...",
+      "options": [
+        "A. because",
+        "D. so",
+        "B. therefore",
+        "C. although"
+      ],
+      "answer": 0,
+      "justification": "'because' تعطي سبباً."
+    },
+    {
+      "q": "16. ...the _____ they are reported to be.",
+      "options": [
+        "A. look",
+        "B. shape",
+        "C. size",
+        "D. type"
+      ],
+      "answer": 1,
+      "justification": "'shape' تعني الشكل."
+    },
+    {
+      "q": "17. The _____ 'flying saucers' were seen in 1947.",
+      "options": [
+        "D. oldest",
+        "A. last",
+        "C. first",
+        "B. next"
+      ],
+      "answer": 2,
+      "justification": "'first' تشير إلى أول مرة."
+    },
+    {
+      "q": "18. ...people experienced at watching the sky, _____ as pilots...",
+      "options": [
+        "B. that",
+        "C. so",
+        "D. such",
+        "A. like"
+      ],
+      "answer": 2,
+      "justification": "'such as' تستخدم لضرب أمثلة."
+    },
+    {
+      "q": "19. A television _____ went up with the pilot.",
+      "options": [
+        "D. announcer",
+        "A. cameraman",
+        "C. actor",
+        "B. director"
+      ],
+      "answer": 1,
+      "justification": "التلفزيون يرسل مصوراً."
+    },
+    {
+      "q": "20. The teacher encouraged her students _____ to an English pen-friend.",
+      "options": [
+        "D. to write",
+        "B. write",
+        "C. wrote",
+        "A. should write"
+      ],
+      "answer": 0,
+      "justification": "'encourage + someone + to + مصدر'."
+    },
+    {
+      "q": "21. They spent a lot of time _____ at the pictures.",
+      "options": [
+        "B. for looking",
+        "D. to looking",
+        "C. to look",
+        "A. looking"
+      ],
+      "answer": 3,
+      "justification": "'spend time + gerund'."
+    },
+    {
+      "q": "22. Shirley enjoys science lessons, but all her experiments seem to _____ wrong.",
+      "options": [
+        "D. go",
+        "C. end",
+        "B. come",
+        "A. turn"
+      ],
+      "answer": 0,
+      "justification": "'go wrong' هو التعبير الاصطلاحي."
+    },
+    {
+      "q": "23. _____ from Michael, all the group arrived on time.",
+      "options": [
+        "D. Apart",
+        "B. Other",
+        "A. Except",
+        "C. Besides"
+      ],
+      "answer": 0,
+      "justification": "'Apart from' تعني باستثناء."
+    },
+    {
+      "q": "24. She _____ her neighbour’s children for the broken window.",
+      "options": [
+        "C. blamed",
+        "B. complained",
+        "D. denied",
+        "A. accused"
+      ],
+      "answer": 0,
+      "justification": "'blamed someone for something'."
+    },
+    {
+      "q": "25. My friend went _____ the homework with me.",
+      "options": [
+        "C. over",
+        "D. on",
+        "B. after",
+        "A. by"
+      ],
+      "answer": 0,
+      "justification": "'go over' تعني يراجع."
+    },
+    {
+      "q": "26. Whether she’s a good actress is a _____ of opinion.",
+      "options": [
+        "A. matter",
+        "B. subject",
+        "D. case",
+        "C. point"
+      ],
+      "answer": 0,
+      "justification": "'a matter of opinion' تعبير ثابت."
+    },
+    {
+      "q": "27. The decorated roof was _____ up by four thin columns.",
+      "options": [
+        "B. carried",
+        "D. supported",
+        "A. built",
+        "C. held"
+      ],
+      "answer": 1,
+      "justification": "'supported' تعني مدعوم."
+    },
+    {
+      "q": "28. Would it _____ you if we came on Thursday?",
+      "options": [
+        "D. fit",
+        "C. like",
+        "A. agree",
+        "B. suit"
+      ],
+      "answer": 3,
+      "justification": "'suit' تعني يناسب."
+    },
+    {
+      "q": "29. This form _____ be handed in until the end of the week.",
+      "options": [
+        "B. doesn't have",
+        "A. doesn't need",
+        "D. hasn't got",
+        "C. needn't"
+      ],
+      "answer": 3,
+      "justification": "'needn't' تعني لا حاجة."
+    },
+    {
+      "q": "30. If you make a mistake, just _____ it out with your pen.",
+      "options": [
+        "D. wipe",
+        "B. clear",
+        "C. do",
+        "A. cross"
+      ],
+      "answer": 3,
+      "justification": "'cross out' يعني يشطب."
+    },
+    {
+      "q": "31. Although our opinions _____, we’re good friends.",
+      "options": [
+        "A. differ",
+        "C. disagree",
+        "B. oppose",
+        "D. divide"
+      ],
+      "answer": 0,
+      "justification": "'differ' تعني تختلف."
+    },
+    {
+      "q": "32. This product must be eaten _____ two days of purchase.",
+      "options": [
+        "D. under",
+        "B. before",
+        "C. within",
+        "A. by"
+      ],
+      "answer": 2,
+      "justification": "'within' تعني خلال مدة زمنية."
+    },
+    {
+      "q": "33. The newspaper report contained _____ important information.",
+      "options": [
+        "A. many",
+        "B. another",
+        "C. an",
+        "D. a lot of"
+      ],
+      "answer": 3,
+      "justification": "'information' غير معدودة، لذا 'a lot of'."
+    },
+    {
+      "q": "34. Have you considered _____ to London?",
+      "options": [
+        "A. move",
+        "C. to be moving",
+        "D. moving",
+        "B. to move"
+      ],
+      "answer": 2,
+      "justification": "'consider' يأتي بعده gerund."
+    },
+    {
+      "q": "35. It can be a good idea to increase their _____ of vitamins.",
+      "options": [
+        "A. upturn",
+        "D. intake",
+        "C. upkeep",
+        "B. input"
+      ],
+      "answer": 1,
+      "justification": "'intake' تعني الكمية المتناولة."
+    },
+    {
+      "q": "36. I thought there was a _____ of jealousy in his reaction.",
+      "options": [
+        "B. part",
+        "A. piece",
+        "C. shadow",
+        "D. touch"
+      ],
+      "answer": 3,
+      "justification": "'a touch of' تعني قليل من."
+    },
+    {
+      "q": "37. Why didn’t you _____ that you were feeling ill?",
+      "options": [
+        "A. advise",
+        "C. remark",
+        "B. mention",
+        "D. tell"
+      ],
+      "answer": 2,
+      "justification": "'mention' تعني يذكر."
+    },
+    {
+      "q": "38. James was not sure where his best interests _____.",
+      "options": [
+        "D. centred",
+        "B. rested",
+        "C. lay",
+        "A. stood"
+      ],
+      "answer": 2,
+      "justification": "'lay' (lie) تعني تقع."
+    },
+    {
+      "q": "39. He’s still getting _____ the shock of losing his job.",
+      "options": [
+        "D. through",
+        "A. across",
+        "C. over",
+        "B. by"
+      ],
+      "answer": 2,
+      "justification": "'get over' يعني يتعافى من صدمة."
     }
   ]
 }
