@@ -1,1 +1,160 @@
-<!DOCTYPE html><html lang="ar"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Homework</title><link rel="stylesheet" href="css/style.css"><style>.container{max-width:600px;margin:auto;background:white;border-radius:28px;padding:1.5rem}.timer{font-size:1.5rem;font-weight:700;text-align:center;margin-bottom:1.5rem}.homework-section{margin-bottom:2.5rem}h2{border-bottom:2px solid #0071e3;padding-bottom:.5rem}.q-block{background:#f5f5f7;border-radius:16px;padding:1rem;margin-bottom:1.2rem}label{display:block;margin-bottom:.4rem;cursor:pointer}.btn{display:block;margin:1.5rem auto 0;background:#0071e3;color:white;border:none;border-radius:28px;padding:1rem 2.5rem;font-size:1.1rem;cursor:pointer}.result{text-align:center;font-size:1.3rem;font-weight:600;margin-top:1.2rem}</style></head><body><div class="container"><div class="timer" id="timer">⏳ 30:00</div><div id="content">جاري التحميل...</div><button class="btn" onclick="submitAll()">إنهاء الواجب</button><div class="result" id="result"></div></div><script>const p=new URLSearchParams(location.search);const day=p.get('day')||'1';const folder='day-'+day.toString().padStart(2,'0');let allQuestions=[],remaining=1800,interval;Promise.all([fetch('content/'+folder+'/reading.json').then(r=>r.json()),fetch('content/'+folder+'/vocabulary.json').then(r=>r.json()),fetch('content/'+folder+'/grammar-test.json').then(r=>r.json())]).then(([reading,vocab,grammar])=>{let h='';if(reading&&reading.passages){h+='<div class="homework-section"><h2>📖 أسئلة القراءة</h2>';reading.passages.forEach(p=>{if(p.questions)p.questions.forEach(q=>{allQuestions.push(q);h+='<div class="q-block"><p>'+(allQuestions.length)+'. '+q.q+'</p>';q.options.forEach((o,i)=>{h+='<label><input type="radio" name="q'+(allQuestions.length-1)+'" value="'+i+'"> '+o+'</label>'});h+='</div>'})});h+='</div>'}if(vocab&&vocab.questions){h+='<div class="homework-section"><h2>📝 أسئلة المفردات</h2>';vocab.questions.forEach(q=>{allQuestions.push(q);h+='<div class="q-block"><p>'+(allQuestions.length)+'. '+q.q+'</p>';q.options.forEach((o,i)=>{h+='<label><input type="radio" name="q'+(allQuestions.length-1)+'" value="'+i+'"> '+o+'</label>'});h+='</div>'});h+='</div>'}let grammarQs=Array.isArray(grammar)?grammar:grammar?.questions||[];if(grammarQs.length){h+='<div class="homework-section"><h2>📘 أسئلة القواعد</h2>';grammarQs.forEach(q=>{allQuestions.push(q);h+='<div class="q-block"><p>'+(allQuestions.length)+'. '+q.q+'</p>';q.options.forEach((o,i)=>{h+='<label><input type="radio" name="q'+(allQuestions.length-1)+'" value="'+i+'"> '+o+'</label>'});h+='</div>'});h+='</div>'}document.getElementById('content').innerHTML=h||'<p>لا يوجد واجب.</p>';startTimer()}).catch(()=>document.getElementById('content').innerHTML='<p>تعذر تحميل الواجب.</p>');function startTimer(){interval=setInterval(()=>{remaining--;let m=Math.floor(remaining/60),s=remaining%60;document.getElementById('timer').textContent='⏳ '+m+':'+s.toString().padStart(2,'0');if(remaining<=0){clearInterval(interval);submitAll()}},1000)}function submitAll(){clearInterval(interval);let correct=0;allQuestions.forEach((q,i)=>{let sel=document.querySelector('input[name="q'+i+'"]:checked');let ans=q.answer!=null?q.answer:q.correct;if(sel&&parseInt(sel.value)===ans)correct++});let perc=Math.round(correct/allQuestions.length*100);let res=document.getElementById('result');res.textContent='النتيجة: '+correct+'/'+allQuestions.length+' ('+perc+'%)';res.style.color=perc>=50?'#34c759':'#ff3b30'}</script></body></html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>واجب اليوم</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        :root {
+            --bg: #f5f5f7; --card: rgba(255,255,255,0.8); --text: #1d1d1f;
+            --accent: #0071e3; --radius: 20px;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); padding: 1rem; }
+        .container { max-width: 600px; margin: 0 auto; background: var(--card); border-radius: var(--radius); padding: 1.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
+        h2 { margin: 1.5rem 0 1rem; color: var(--text); border-bottom: 2px solid var(--accent); padding-bottom: 0.3rem; font-size: 1.4rem; }
+        .passage-text { background: #f8f9fd; border-radius: 12px; padding: 1rem; margin-bottom: 1rem; white-space: pre-wrap; line-height: 1.8; color: #333; max-height: 200px; overflow-y: auto; font-size: 0.95rem; }
+        .q-block { background: #f5f5f7; border-radius: 16px; padding: 1rem; margin-bottom: 1rem; }
+        .q-block p { font-weight: 600; margin-bottom: 0.6rem; }
+        label { display: block; margin-bottom: 0.4rem; cursor: pointer; }
+        .btn { background: var(--accent); color: white; border: none; border-radius: 28px; padding: 0.8rem 2rem; font-size: 1rem; cursor: pointer; display: block; margin: 1.5rem auto; }
+        .result { text-align: center; font-size: 1.3rem; font-weight: 700; margin-top: 1rem; }
+        .timer { font-size: 1.2rem; font-weight: 700; text-align: center; margin-bottom: 1rem; }
+        .page-badge { font-size: 0.8rem; color: var(--accent); display: inline-block; margin-right: 0.5rem; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 style="text-align:center; margin-bottom:1.5rem;">📝 واجب اليوم</h1>
+    <div class="timer" id="timer">⏳ 45:00</div>
+    <div id="content">جاري تجهيز الواجب...</div>
+    <button class="btn" onclick="submitAll()">إنهاء الواجب</button>
+    <div class="result" id="result"></div>
+</div>
+
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const day = urlParams.get('day') || '1';
+    const folder = 'day-' + day.toString().padStart(2, '0');
+    let allQuestions = [];  // { type: 'reading'|'vocab'|'grammar'|'dictation', q, options, answer, correctWord }
+    let remaining = 45 * 60;
+    let interval;
+
+    // Fetch all data
+    Promise.all([
+        fetch('content/' + folder + '/reading.json').then(r => r.json()),
+        fetch('content/' + folder + '/vocabulary.json').then(r => r.json()),
+        fetch('content/' + folder + '/grammar-test.json').then(r => r.json()),
+        fetch('content/' + folder + '/dictation.json').then(r => r.json())
+    ]).then(([readingData, vocabData, grammarData, dictData]) => {
+        let html = '';
+        let qNum = 0;
+
+        // 1. Reading passages
+        if (readingData && readingData.passages && readingData.passages.length) {
+            html += '<h2>📖 قطع القراءة</h2>';
+            readingData.passages.forEach((passage, pIdx) => {
+                html += `<div class="passage-text">${passage.text.replace(/\n/g,'<br>')}</div>`;
+                if (passage.questions) {
+                    passage.questions.forEach(question => {
+                        qNum++;
+                        const pageInfo = question.page ? `<span class="page-badge">📄 ${question.page}</span>` : '';
+                        html += `<div class="q-block"><p>${qNum}. ${question.q} ${pageInfo}</p>`;
+                        (question.options || []).forEach((opt, oi) => {
+                            html += `<label><input type="radio" name="q${qNum-1}" value="${oi}"> ${opt}</label>`;
+                        });
+                        html += `</div>`;
+                        allQuestions.push({ type: 'reading', q: question.q, options: question.options, answer: question.answer });
+                    });
+                }
+            });
+        }
+
+        // 2. Vocabulary questions
+        if (vocabData && vocabData.words && vocabData.words.length) {
+            html += '<h2>🧠 كلمات</h2>';
+            const wordsWithQuestions = vocabData.words.filter(w => w.question && w.question.q);
+            wordsWithQuestions.forEach(w => {
+                qNum++;
+                const pageInfo = w.page ? `<span class="page-badge">📄 ص ${w.page}</span>` : '';
+                html += `<div class="q-block"><p>${qNum}. ${w.question.q} ${pageInfo}</p>`;
+                (w.question.options || []).forEach((opt, oi) => {
+                    html += `<label><input type="radio" name="q${qNum-1}" value="${oi}"> ${opt}</label>`;
+                });
+                html += `</div>`;
+                allQuestions.push({ type: 'vocab', q: w.question.q, options: w.question.options, answer: w.question.answer });
+            });
+        }
+
+        // 3. Grammar questions
+        let grammarQs = [];
+        if (Array.isArray(grammarData)) grammarQs = grammarData;
+        else if (grammarData && grammarData.questions) grammarQs = grammarData.questions;
+        if (grammarQs.length) {
+            html += '<h2>📘 قواعد</h2>';
+            grammarQs.forEach(gq => {
+                qNum++;
+                html += `<div class="q-block"><p>${qNum}. ${gq.q}</p>`;
+                (gq.options || []).forEach((opt, oi) => {
+                    html += `<label><input type="radio" name="q${qNum-1}" value="${oi}"> ${opt}</label>`;
+                });
+                html += `</div>`;
+                allQuestions.push({ type: 'grammar', q: gq.q, options: gq.options, answer: gq.answer });
+            });
+        }
+
+        // 4. Dictation (choose correct spelling)
+        if (dictData && dictData.words && dictData.words.length) {
+            html += '<h2>✍️ إملاء - اختر التهجئة الصحيحة</h2>';
+            dictData.words.forEach((dw, i) => {
+                qNum++;
+                html += `<div class="q-block"><p>${qNum}. اختر التهجئة الصحيحة</p>`;
+                dw.options.forEach(opt => {
+                    html += `<label><input type="radio" name="q${qNum-1}" value="${opt}"> ${opt}</label>`;
+                });
+                html += `</div>`;
+                allQuestions.push({ type: 'dictation', q: 'اختر التهجئة الصحيحة', options: dw.options, answer: dw.correct });
+            });
+        }
+
+        document.getElementById('content').innerHTML = html || '<p>لا يوجد واجب لهذا اليوم.</p>';
+        startTimer();
+    }).catch(err => {
+        document.getElementById('content').innerHTML = '<p>تعذر تحميل الواجب. تأكد من اتصالك بالإنترنت.</p>';
+        console.error(err);
+    });
+
+    function startTimer() {
+        interval = setInterval(() => {
+            remaining--;
+            let m = Math.floor(remaining / 60);
+            let s = remaining % 60;
+            document.getElementById('timer').textContent = `⏳ ${m}:${s.toString().padStart(2,'0')}`;
+            if (remaining <= 0) {
+                clearInterval(interval);
+                submitAll();
+            }
+        }, 1000);
+    }
+
+    function submitAll() {
+        clearInterval(interval);
+        let correct = 0;
+        allQuestions.forEach((q, idx) => {
+            const selected = document.querySelector(`input[name="q${idx}"]:checked`);
+            if (!selected) return;
+            if (q.type === 'dictation') {
+                if (selected.value === q.answer) correct++;
+            } else {
+                if (parseInt(selected.value) === q.answer) correct++;
+            }
+        });
+        const perc = Math.round((correct / allQuestions.length) * 100);
+        const resultEl = document.getElementById('result');
+        resultEl.textContent = `النتيجة: ${correct} / ${allQuestions.length} (${perc}%)`;
+        resultEl.style.color = perc >= 50 ? '#34c759' : '#ff3b30';
+    }
+</script>
+</body>
+</html>
