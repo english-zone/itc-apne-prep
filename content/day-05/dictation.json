@@ -1,14 +1,112 @@
-{"words":[
-  {"correct":"mechanic","options":["mechanic","mekanic","mechanik","mechaniq"]},
-  {"correct":"factory","options":["factory","faktory","factorey","factry"]},
-  {"correct":"farmer","options":["farmer","farmar","farmor","pharmer"]},
-  {"correct":"teacher","options":["teacher","techer","teachar","teecher"]},
-  {"correct":"officer","options":["officer","oficer","offiser","officar"]},
-  {"correct":"restaurant","options":["restaurant","restuarant","restorant","restaurent"]},
-  {"correct":"librarian","options":["librarian","librairan","librarien","librerian"]},
-  {"correct":"populous","options":["populous","populus","populos","populess"]},
-  {"correct":"agriculture","options":["agriculture","agraculture","agriculcher","agricultre"]},
-  {"correct":"irrigation","options":["irrigation","irigation","irregashion","irrrigation"]},
-  {"correct":"drought","options":["drought","drout","drowt","droughte"]},
-  {"correct":"priority","options":["priority","priorety","prioritee","prioreti"]}
-]}
+{
+  "words": [
+    {
+      "correct": "mechanic",
+      "options": [
+        "mekanic",
+        "mechaniq",
+        "mechanic",
+        "mechanik"
+      ]
+    },
+    {
+      "correct": "factory",
+      "options": [
+        "factorey",
+        "faktory",
+        "factory",
+        "factry"
+      ]
+    },
+    {
+      "correct": "farmer",
+      "options": [
+        "farmor",
+        "farmar",
+        "pharmer",
+        "farmer"
+      ]
+    },
+    {
+      "correct": "teacher",
+      "options": [
+        "teachar",
+        "techer",
+        "teecher",
+        "teacher"
+      ]
+    },
+    {
+      "correct": "officer",
+      "options": [
+        "oficer",
+        "offiser",
+        "officer",
+        "officar"
+      ]
+    },
+    {
+      "correct": "restaurant",
+      "options": [
+        "restaurant",
+        "restaurent",
+        "restuarant",
+        "restorant"
+      ]
+    },
+    {
+      "correct": "librarian",
+      "options": [
+        "librarian",
+        "librarien",
+        "librairan",
+        "librerian"
+      ]
+    },
+    {
+      "correct": "populous",
+      "options": [
+        "populous",
+        "populos",
+        "populess",
+        "populus"
+      ]
+    },
+    {
+      "correct": "agriculture",
+      "options": [
+        "agricultre",
+        "agraculture",
+        "agriculture",
+        "agriculcher"
+      ]
+    },
+    {
+      "correct": "irrigation",
+      "options": [
+        "irregashion",
+        "irrigation",
+        "irrrigation",
+        "irigation"
+      ]
+    },
+    {
+      "correct": "drought",
+      "options": [
+        "droughte",
+        "drowt",
+        "drout",
+        "drought"
+      ]
+    },
+    {
+      "correct": "priority",
+      "options": [
+        "prioreti",
+        "priority",
+        "prioritee",
+        "priorety"
+      ]
+    }
+  ]
+}

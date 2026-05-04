@@ -1,14 +1,109 @@
-{"words":[
-  {"correct":"cucumber","options":["cucumber","cuccumber","cucamber","cucumbar"]},
-  {"correct":"pasta","options":["pasta","pestaa","pastah","pustaa"]},
-  {"correct":"addicted","options":["addicted","addictedd","adicted","addected"]},
-  {"correct":"pharmacy","options":["pharmacy","farmasy","pharmasy","pharmacy"]},
-  {"correct":"breakfast","options":["breakfast","brakefast","brekfast","breakfeast"]},
-  {"correct":"dinner","options":["dinner","diner","dinnar","denner"]},
-  {"correct":"cuisine","options":["cuisine","cusine","cuizeen","cuisene"]},
-  {"correct":"constitution","options":["constitution","constitusion","constitootion","constution"]},
-  {"correct":"desalination","options":["desalination","desalination","desalniation","desalinashion"]},
-  {"correct":"membrane","options":["membrane","membrain","membren","membrain"]},
-  {"correct":"greenhouse","options":["greenhouse","greenhose","grenhouse","greenhous"]},
-  {"correct":"priority","options":["priority","priorety","prioritee","prioreti"]}
-]}
+{
+  "words": [
+    {
+      "correct": "cucumber",
+      "options": [
+        "cucumber",
+        "cucamber",
+        "cuccumber",
+        "cucumbar"
+      ]
+    },
+    {
+      "correct": "pasta",
+      "options": [
+        "pasta",
+        "pestaa",
+        "pastah",
+        "pustaa"
+      ]
+    },
+    {
+      "correct": "addicted",
+      "options": [
+        "adicted",
+        "addected",
+        "addicted",
+        "addictedd"
+      ]
+    },
+    {
+      "correct": "pharmacy",
+      "options": [
+        "pharmasy",
+        "pharmacy",
+        "farmasy"
+      ]
+    },
+    {
+      "correct": "breakfast",
+      "options": [
+        "breakfast",
+        "brekfast",
+        "breakfeast",
+        "brakefast"
+      ]
+    },
+    {
+      "correct": "dinner",
+      "options": [
+        "dinnar",
+        "diner",
+        "dinner",
+        "denner"
+      ]
+    },
+    {
+      "correct": "cuisine",
+      "options": [
+        "cusine",
+        "cuisine",
+        "cuisene",
+        "cuizeen"
+      ]
+    },
+    {
+      "correct": "constitution",
+      "options": [
+        "constitusion",
+        "constitution",
+        "constution",
+        "constitootion"
+      ]
+    },
+    {
+      "correct": "desalination",
+      "options": [
+        "desalination",
+        "desalinashion",
+        "desalniation"
+      ]
+    },
+    {
+      "correct": "membrane",
+      "options": [
+        "membrane",
+        "membrain",
+        "membren"
+      ]
+    },
+    {
+      "correct": "greenhouse",
+      "options": [
+        "greenhose",
+        "greenhouse",
+        "grenhouse",
+        "greenhous"
+      ]
+    },
+    {
+      "correct": "priority",
+      "options": [
+        "priorety",
+        "prioreti",
+        "priority",
+        "prioritee"
+      ]
+    }
+  ]
+}

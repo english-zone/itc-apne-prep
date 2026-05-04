@@ -1,14 +1,74 @@
 {
   "words": [
-    {"correct":"company","options":["company","compeny"]},
-    {"correct":"manager","options":["manager","mannager"]},
-    {"correct":"definitely","options":["definitely","definately"]},
-    {"correct":"separate","options":["separate","seperate"]},
-    {"correct":"environment","options":["environment","enviroment"]},
-    {"correct":"impressive","options":["impressive","impresive"]},
-    {"correct":"international","options":["international","interational"]},
-    {"correct":"conversation","options":["conversation","conversasion"]},
-    {"correct":"extension","options":["extension","extention"]},
-    {"correct":"amount","options":["amount","amont"]}
+    {
+      "correct": "company",
+      "options": [
+        "company",
+        "compeny"
+      ]
+    },
+    {
+      "correct": "manager",
+      "options": [
+        "manager",
+        "mannager"
+      ]
+    },
+    {
+      "correct": "definitely",
+      "options": [
+        "definitely",
+        "definately"
+      ]
+    },
+    {
+      "correct": "separate",
+      "options": [
+        "separate",
+        "seperate"
+      ]
+    },
+    {
+      "correct": "environment",
+      "options": [
+        "enviroment",
+        "environment"
+      ]
+    },
+    {
+      "correct": "impressive",
+      "options": [
+        "impressive",
+        "impresive"
+      ]
+    },
+    {
+      "correct": "international",
+      "options": [
+        "interational",
+        "international"
+      ]
+    },
+    {
+      "correct": "conversation",
+      "options": [
+        "conversation",
+        "conversasion"
+      ]
+    },
+    {
+      "correct": "extension",
+      "options": [
+        "extention",
+        "extension"
+      ]
+    },
+    {
+      "correct": "amount",
+      "options": [
+        "amont",
+        "amount"
+      ]
+    }
   ]
 }
