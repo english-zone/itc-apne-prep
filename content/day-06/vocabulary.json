@@ -1,0 +1,28 @@
+{
+  "topic": "Shopping, Materials & Reading Vocabulary",
+  "pageRange": "74-76, 8-12",
+  "words": [
+    {"english":"department store","arabic":"متجر شامل","page":"74","question":{"q":"My sister bought new dresses from the ____.","options":["Bakery","drugstore","bookstore","department store"],"answer":3}},
+    {"english":"bakery","arabic":"مخبز","page":"74","question":{"q":"I bought fresh bread from the ____.","options":["bakery","bank","pharmacy","garage"],"answer":0}},
+    {"english":"drugstore","arabic":"صيدلية/دواء","page":"74","question":null},
+    {"english":"bookstore","arabic":"مكتبة بيع كتب","page":"74","question":{"q":"You can buy novels at a ____.","options":["bakery","bookstore","drugstore","factory"],"answer":1}},
+    {"english":"crayons","arabic":"ألوان شمعية","page":"74","question":{"q":"We can draw with ____.","options":["crayons","drums","crackers","crabs"],"answer":0}},
+    {"english":"aspect","arabic":"جانب/مظهر","page":"74","question":{"q":"We should follow safety rules in all ____ of life.","options":["statistics","sports","aspects","Tuition"],"answer":2}},
+    {"english":"mass transit","arabic":"وسائل نقل عام","page":"74","question":{"q":"In crowded cities, ____ is the best transportation.","options":["individualism","peer pressure","mass transit","produce"],"answer":2}},
+    {"english":"resident","arabic":"ساكن/مقيم","page":"74","question":{"q":"Urban dwellers are city ____.","options":["Consumers","aspects","residents","methods"],"answer":2}},
+    {"english":"creative","arabic":"مبدع","page":"74","question":{"q":"He has a ____ mind, he invents many things.","options":["Rural","cultural","industrial","creative"],"answer":3}},
+    {"english":"anonymous","arabic":"مجهول","page":"75","question":{"q":"This letter is ____. We don't know the writer.","options":["egalitarian","vocational","affluent","anonymous"],"answer":3}},
+    {"english":"symptom","arabic":"عرض مرضي","page":"75","question":{"q":"Fever is a ____ of flu.","options":["symptom","cause","treatment","disease"],"answer":0}},
+    {"english":"puncture","arabic":"ثقب","page":"75","question":{"q":"My tire has a ____.","options":["hole","puncture","explosion","design"],"answer":1}},
+    {"english":"explosion","arabic":"انفجار","page":"75","question":{"q":"The ____ at the factory killed many.","options":["explosion","experiment","irrigation","population"],"answer":0}},
+    {"english":"automatically","arabic":"تلقائياً","page":"75","question":{"q":"The machine stops ____.","options":["automatically","manually","slowly","loudly"],"answer":0}},
+    {"english":"tolerate","arabic":"يتحمل","page":"75","question":{"q":"I can't ____ his rude behavior.","options":["tolerate","enjoy","praise","ignore"],"answer":0}},
+    {"english":"violation","arabic":"مخالفة","page":"75","question":{"q":"Parking here is a ____ of the rules.","options":["violation","celebration","education","situation"],"answer":0}},
+    {"english":"destination","arabic":"وجهة","page":"75","question":{"q":"The plane changed its ____ because of the storm.","options":["destination","engine","speed","color"],"answer":0}},
+    {"english":"obsession","arabic":"هوس","page":"8","question":{"q":"Rugby is a national ____ in New Zealand.","options":["game","obsession","sport","hobby"],"answer":1}},
+    {"english":"emblem","arabic":"شعار","page":"8","question":{"q":"The All Blacks' ____ is a silver fern.","options":["emblem","flag","ball","song"],"answer":0}},
+    {"english":"caldera","arabic":"فوهة بركانية","page":"12","question":{"q":"Tambora left a ____ 7 km in diameter.","options":["mountain","caldera","river","forest"],"answer":1}},
+    {"english":"stratosphere","arabic":"الستراتوسفير","page":"12","question":{"q":"Ash was ejected into the ____.","options":["ocean","stratosphere","ground","city"],"answer":1}},
+    {"english":"famine","arabic":"مجاعة","page":"12","question":{"q":"Crop failure led to ____.","options":["feast","famine","flood","fire"],"answer":1}}
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {"q":"She enjoys ____ in the park.","options":["running","to run","run","ran"],"answer":0},
+  {"q":"They decided ____ to the beach.","options":["to go","going","go","went"],"answer":0},
+  {"q":"I don't mind ____ for a few minutes.","options":["to wait","waiting","wait","waited"],"answer":1},
+  {"q":"He stopped ____ when he realized it was bad.","options":["to smoke","smoking","smoke","smoked"],"answer":1},
+  {"q":"She remembered ____ her phone before leaving.","options":["to take","taking","take","took"],"answer":1},
+  {"q":"He tried ____ the car himself, but couldn't.","options":["to fix","fixing","fix","fixed"],"answer":0},
+  {"q":"They suggested ____ to the movies.","options":["to go","going","go","went"],"answer":1},
+  {"q":"I regret ____ him the truth.","options":["to tell","telling","tell","told"],"answer":1},
+  {"q":"He forgot ____ the door before leaving.","options":["to lock","locking","lock","locked"],"answer":0},
+  {"q":"She avoided ____ him at the party.","options":["to see","seeing","see","seen"],"answer":1}
+]
