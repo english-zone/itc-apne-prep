@@ -1,728 +1,253 @@
 {
-  "title": "تجميع 6 – معهد الريادة 2023 (أسئلة غير مكررة)",
+  "title": "تجميع 6 – معهد الريادة 2023 (60 سؤالاً)",
   "passages": [
     {
-      "title": "The Quiet Revolution of Vertical Farming",
-      "text": "In the heart of Singapore, a country that imports more than 90% of its food, a quiet agricultural revolution is taking place – not across sprawling fields, but inside towering glass skyscrapers. Known as vertical farming, this method involves growing crops in stacked layers, often without soil, using hydroponic or aeroponic systems. The concept may sound like science fiction, yet it is already producing tonnes of leafy greens, herbs, and even strawberries annually. Proponents argue that vertical farming could be the answer to feeding a global population that is expected to reach 10 billion by 2050, especially as climate change makes traditional agriculture increasingly unpredictable.\n\nThe advantages of vertical farming are compelling. Because crops are grown indoors, they are not affected by droughts, floods, or extreme temperatures. Pesticides become unnecessary, as the sealed environment keeps pests out. Water usage is reduced by up to 95% compared to conventional farming. Moreover, vertical farms can be built in the middle of cities, drastically cutting the distance that food travels from farm to plate – a concept known as 'food miles'. This not only reduces carbon emissions from transport but also means that city dwellers have access to fresher produce that is harvested only hours before it arrives at their table.\n\nHowever, the technology is not without its challenges. The most significant barrier is energy consumption. Since sunlight is replaced by powerful LED lamps that run for up to 18 hours a day, electricity bills can be enormous. Although advances in LED efficiency and the falling cost of renewable energy are helping to mitigate this problem, many vertical farms still rely on electricity grids that are powered largely by fossil fuels. Critics also point out that the range of crops that can be grown vertically is currently limited to high‑value, fast‑growing plants such as lettuce and basil. Staple crops like wheat, rice, and maize remain firmly in the domain of traditional agriculture due to their large space requirements and longer growing cycles.\n\nEconomically, vertical farming is still finding its feet. The initial setup costs are very high, and investors are often cautious. Nevertheless, during the COVID‑19 pandemic, when global supply chains were disrupted, several vertical‑farming startups saw a surge in demand as governments scrambled to increase local food production. In 2021, a major US retailer partnered with a vertical‑farming company to supply over 200 of its stores with locally grown greens. Analysts predict that the vertical farming market, valued at around $4 billion in 2023, will grow to more than $30 billion by 2032. Such growth would be transformative – but only if the industry can solve its energy and scalability problems.\n\nScientists are now experimenting with solutions that once seemed far‑fetched. Researchers in the Netherlands have developed 'smart glass' that adjusts its tint to deliver the optimal spectrum of sunlight to plants, reducing the need for artificial lighting. In Japan, robotic arms are being trained to plant, monitor, and harvest crops with minimal human intervention, addressing labour shortages. Perhaps most excitingly, geneticists are editing the DNA of crops to make them shorter and bushier, specifically adapting them to life indoors. Whether vertical farming will eventually replace the open field remains an open question, but one thing is certain: the journey from farm to fork is being rewritten, one vertical layer at a time.",
+      "title": "The Silent Symphony of the Aurora",
+      "text": "For centuries, observers of the northern lights have reported hearing faint crackling, sizzling, or hissing sounds accompanying the visual spectacle. For most of scientific history, these claims were dismissed as folklore or imagination. After all, the aurora occurs at altitudes of 100 to 300 kilometres, where the air is far too thin to carry sound waves to the ground.\n\nHowever, in 2012, a team of Finnish researchers led by Professor Unto K. Laine placed sensitive microphones at known aurora-viewing sites and recorded distinct sounds at exactly the moments when the lights were most intense. The explanation, it turned out, was not that the aurora itself produces sound, but that the same geomagnetic storm that creates the lights also induces tiny electrical charges in the atmosphere near the ground. These charges can vibrate pine needles, grass, and even human hair, generating faint audible sounds.\n\nThe discovery proved that the 'auroral sound' is real, and that sometimes the most fantastical folk tales contain a kernel of scientific truth. The phenomenon, now known as 'auroral acoustics', has opened a new field of study into the electrical interactions between the upper and lower atmosphere. Researchers are developing more sensitive equipment to capture these elusive sounds and better understand the conditions under which they occur.\n\nBeyond its scientific value, the auroral sound adds a new dimension to the experience of the northern lights. Indigenous Sámi people of northern Scandinavia have long incorporated these sounds into their folklore, describing them as the voices of ancestors or spirits. Modern science is now validating what traditional knowledge has known for millennia: the aurora is not just a light show, but a full sensory experience.\n\nToday, aurora tourism is booming in countries like Norway, Iceland, and Canada. Tourists brave freezing temperatures in hopes of witnessing the celestial display. Knowing that the lights might also whisper to them adds a layer of magic to an already mystical experience. The aurora continues to inspire both scientists and dreamers, reminding us that nature still holds mysteries waiting to be uncovered.",
       "questions": [
         {
-          "q": "1. What is the main reason Singapore is a leader in vertical farming?",
+          "q": "1. Why did scientists historically dismiss the sounds of the aurora?",
           "options": [
-            "It has the largest fields in Asia",
-            "It imports more than 90% of its food",
-            "It has banned traditional farming",
-            "It has the cheapest electricity"
+            "Because auroras only occur during the day",
+            "Because no one had ever seen an aurora",
+            "Because the sounds were too loud",
+            "Because auroras occur too high for sound to travel"
           ],
-          "answer": 1,
-          "justification": "النص يوضح أن سنغافورة تستورد أكثر من 90% من غذائها، مما يجعلها متحمسة لتطوير الزراعة العمودية كحل بديل."
+          "answer": 3,
+          "justification": "The passage explains the aurora occurs at altitudes where air is too thin to carry sound waves to the ground."
         },
         {
-          "q": "2. What is a major environmental benefit of vertical farming?",
+          "q": "2. What causes the auroral sound according to the 2012 research?",
           "options": [
-            "It uses more water than traditional farming",
-            "It increases 'food miles'",
-            "It reduces water usage by up to 95%",
-            "It requires large amounts of pesticides"
+            "Animals howling at the lights",
+            "Geomagnetic storms inducing electrical charges near ground",
+            "Wind blowing through buildings",
+            "The aurora itself vibrating"
+          ],
+          "answer": 1,
+          "justification": "The text states the same geomagnetic storm that creates the lights also induces tiny electrical charges near the ground, vibrating pine needles and grass."
+        },
+        {
+          "q": "3. What is the new field of study called?",
+          "options": [
+            "Atmospheric electricity",
+            "Auroral acoustics",
+            "Auroral physics",
+            "Geomagnetic studies"
+          ],
+          "answer": 1,
+          "justification": "The passage mentions 'the phenomenon, now known as auroral acoustics'."
+        },
+        {
+          "q": "4. Which indigenous people incorporated auroral sounds into their folklore?",
+          "options": [
+            "The Maori",
+            "The Sámi",
+            "The Navajo",
+            "The Inuit"
+          ],
+          "answer": 1,
+          "justification": "The text states 'Indigenous Sámi people of northern Scandinavia have long incorporated these sounds into their folklore'."
+        },
+        {
+          "q": "5. What does the discovery of auroral sounds remind us?",
+          "options": [
+            "That folklore is always wrong",
+            "That auroras are not real",
+            "That nature still holds mysteries",
+            "That science has no limits"
           ],
           "answer": 2,
-          "justification": "النص يذكر أن استهلاك الماء ينخفض بنسبة تصل إلى 95% مقارنة بالزراعة التقليدية."
-        },
-        {
-          "q": "3. Which challenge of vertical farming is highlighted in the passage?",
-          "options": [
-            "Lack of consumer interest",
-            "High energy consumption for LED lighting",
-            "Excessive use of pesticides",
-            "Inability to grow any crops"
-          ],
-          "answer": 1,
-          "justification": "يوضح النص أن التحدي الأكبر هو استهلاك الطاقة بسبب اضطرار المصابيح للعمل حتى 18 ساعة يومياً."
-        },
-        {
-          "q": "4. According to the passage, what happened during the COVID‑19 pandemic?",
-          "options": [
-            "Vertical farms closed permanently",
-            "Demand for locally grown food increased",
-            "Governments banned vertical farming",
-            "LED lights became obsolete"
-          ],
-          "answer": 1,
-          "justification": "يشير النص إلى أن الطلب على شركات الزراعة العمودية ارتفع أثناء الجائحة عندما تعطلت سلاسل التوريد."
+          "justification": "The final paragraph says 'reminding us that nature still holds mysteries waiting to be uncovered'."
         }
       ]
     },
     {
-      "title": "The Enigma of the Antikythera Mechanism",
-      "text": "In 1901, a group of sponge divers off the coast of Antikythera, a small Greek island, discovered the remains of an ancient Roman shipwreck. Among statues, pottery, and coins, they retrieved a corroded lump of bronze and wood that appeared unremarkable at first glance. It was not until months later, when the lump cracked open and revealed intricate gear wheels inside, that archaeologists began to suspect they had found something extraordinary. Today, the Antikythera Mechanism is widely regarded as the world’s first analogue computer, a device so advanced that nothing comparable would be built again until the 14th century.\n\nThe mechanism consists of at least 30 bronze gears housed in a wooden case about the size of a shoebox. By turning a single hand crank, the user could track the movements of the sun, the moon, and the five known planets of antiquity with astonishing precision. It could also predict solar and lunar eclipses decades in advance, and some evidence suggests it may have even indicated the dates of important sporting events such as the Olympic Games. The intricacy of the device shocked historians, who had long assumed that the Greeks, while brilliant philosophers, lacked the technical know‑how to produce such precision machinery.\n\nX‑ray and CT scans carried out in the 21st century have allowed researchers to peer inside the corroded fragments without damaging them. These scans revealed tiny inscriptions, written in ancient Greek, which appear to be a kind of user manual. The inscriptions mention the names of planets and months, and describe the cycles of astronomical bodies. Based on the style of the lettering, scholars date the mechanism to between 150 and 100 BCE, making it over 2,100 years old. Some experts have speculated that it may have been built in the workshop of the philosopher Posidonius on the island of Rhodes, although this remains unconfirmed.\n\nThe function and sophistication of the mechanism have led to heated debates about its origins. Some fringe theorists have even suggested that such an advanced device must have been brought to Earth by extraterrestrials – a claim strongly rejected by mainstream archaeologists. A more likely explanation is that the device represented the culmination of centuries of Greek knowledge in astronomy, mathematics, and mechanical engineering. The technology appears to have been lost after the fall of the Roman Empire, and it took more than a thousand years for Europe to rediscover the principles required to build similar gear‑driven devices.\n\nEven today, the Antikythera Mechanism continues to inspire scientists and engineers. In 2021, a team of researchers from University College London used the inscriptions and mathematical models to reconstruct a complete digital version of what the machine must have looked like when it was whole. Their model matched the physical fragments almost perfectly, confirming that the mechanism truly could perform all the calculations that ancient texts hinted at. For many, the mechanism serves as a humbling reminder that the ancient world was far more technically sophisticated than we often give it credit for – and that some of the greatest discoveries may emerge from the most unassuming lumps of corroded metal.",
+      "title": "The Colossus of the Desert",
+      "text": "Deep in the Empty Quarter of Saudi Arabia, archaeologists have uncovered the remains of a civilisation that challenges our understanding of the Arabian desert's history. Known as Al‑Faw, this city was once the capital of the Kingdom of Kinda and a vital stop on the frankincense trade routes that linked Yemen to the Mediterranean.\n\nExcavations have revealed a sophisticated urban centre with multi‑storey buildings, a complex irrigation system, and temples dedicated to gods from across the ancient Near East. Most remarkably, the city's inhabitants carved hundreds of tombs into the surrounding cliffs, many of which are decorated with elaborate inscriptions in an ancient South Arabian script.\n\nThe city thrived for centuries, its wealth derived from control of the incense trade. Caravans of camels carrying frankincense and myrrh would stop at Al‑Faw to rest and pay taxes before continuing their journey north. The city's markets were filled with goods from India, Persia, and Rome, making it a cosmopolitan hub in the heart of the desert.\n\nAl‑Faw was abandoned around the 5th century CE, probably due to the decline of the incense trade and the drying of local water sources. The desert slowly buried the city, preserving it remarkably well for over 1,500 years. It was rediscovered by archaeologists in the 20th century, and systematic excavations have been ongoing ever since.\n\nToday, archaeologists from Saudi Arabia and around the world are working to preserve the site, which was declared a UNESCO World Heritage Site in 2023. The discovery of Al‑Faw has rewritten the history of the Arabian Peninsula, proving that sophisticated urban civilisations existed deep in the desert long before the rise of Islam.",
       "questions": [
         {
-          "q": "1. Where was the Antikythera Mechanism discovered?",
+          "q": "6. Where is Al‑Faw located?",
           "options": [
-            "In a desert in Egypt",
-            "In a Roman shipwreck near Greece",
-            "Buried in the Roman Forum",
-            "In a Mayan temple"
+            "The Empty Quarter of Saudi Arabia",
+            "The Nile Valley",
+            "The Fertile Crescent",
+            "The Sahara Desert"
           ],
-          "answer": 1,
-          "justification": "الفقرة الأولى تذكر أن الغواصين عثروا على الآلية في حطام سفينة رومانية قرب جزيرة أنتيكيثيرا اليونانية."
+          "answer": 0,
+          "justification": "The text begins: 'Deep in the Empty Quarter of Saudi Arabia, archaeologists have uncovered … Al‑Faw'."
         },
         {
-          "q": "2. What is the Antikythera Mechanism often called?",
+          "q": "7. What was Al‑Faw's role in ancient trade?",
           "options": [
-            "The first steam engine",
-            "The world's first analogue computer",
-            "The first electric clock",
-            "The first telescope"
+            "A fishing port",
+            "A stop on the frankincense trade routes",
+            "A military outpost",
+            "A spice market"
           ],
           "answer": 1,
-          "justification": "يصف النص الآلية بأنها أول حاسوب تمثيلي (analogue computer) في العالم."
+          "justification": "The text states Al‑Faw was 'a vital stop on the frankincense trade routes'."
         },
         {
-          "q": "3. How did 21st‑century researchers read the inscriptions inside the mechanism without damaging it?",
+          "q": "8. What was carved into the cliffs surrounding Al‑Faw?",
           "options": [
-            "They took it apart piece by piece",
-            "They used X‑ray and CT scans",
-            "They polished the surface until the text appeared",
-            "They used chemical baths"
+            "Hundreds of tombs",
+            "Ancient libraries",
+            "Water reservoirs",
+            "Temples"
+          ],
+          "answer": 0,
+          "justification": "The text says 'the city's inhabitants carved hundreds of tombs into the surrounding cliffs'."
+        },
+        {
+          "q": "9. Why was Al‑Faw abandoned?",
+          "options": [
+            "A volcanic eruption",
+            "Decline of the incense trade and drying water sources",
+            "Roman invasion",
+            "An earthquake"
           ],
           "answer": 1,
-          "justification": "الفقرة الثالثة توضح أن الباحثين استخدموا الأشعة السينية والتصوير الطبقي (CT scans) لقراءة النقوش دون ضرر."
+          "justification": "The text explains abandonment 'probably due to the decline of the incense trade and the drying of local water sources'."
         },
         {
-          "q": "4. According to the passage, what happened to the technology after the Roman Empire fell?",
+          "q": "10. When was Al‑Faw declared a UNESCO World Heritage Site?",
           "options": [
-            "It was improved by the Vikings",
-            "It was taken to China",
-            "It was lost for over a thousand years",
-            "It was duplicated immediately"
+            "2010",
+            "2023",
+            "2005",
+            "2015"
           ],
-          "answer": 2,
-          "justification": "يشير النص إلى أن التقنية فُقدت لأكثر من ألف عام بعد سقوط الإمبراطورية الرومانية."
+          "answer": 1,
+          "justification": "The final paragraph states: 'declared a UNESCO World Heritage Site in 2023'."
         }
       ]
     }
   ],
   "grammarQuestions": [
     {
-      "q": "1- Both wolf and cheetah are .................animals.",
-      "options": [
-        "domestic",
-        "pet",
-        "wild"
-      ],
-      "answer": 2,
-      "justification": "الذئب والفهد حيوانات برية (wild)."
-    },
-    {
-      "q": "2- before leaving the field, one should .......................that every thing is OK.",
-      "options": [
-        "check",
-        "shake",
-        "mark"
-      ],
-      "answer": 0,
-      "justification": "'check' تعني يتأكد."
-    },
-    {
-      "q": "3-Although we live in such a big house, we .....................it together.",
-      "options": [
-        "share",
-        "fair",
-        "catch"
-      ],
-      "answer": 0,
-      "justification": "'share' تعني يتشارك."
-    },
-    {
-      "q": "4- This course is to ........................students to solve the exam.",
-      "options": [
-        "play",
-        "make",
-        "assist"
-      ],
-      "answer": 2,
-      "justification": "'assist' تعني يساعد."
-    },
-    {
-      "q": "5- It was an impressive ...................by the French team.",
-      "options": [
-        "performance",
-        "huge",
-        "material"
-      ],
-      "answer": 0,
-      "justification": "'performance' تعني أداء."
-    },
-    {
-      "q": "6- ..................is the production of goods from raw materials.",
-      "options": [
-        "industry",
-        "culture",
-        "name"
-      ],
-      "answer": 0,
-      "justification": "'industry' تعني الصناعة."
-    },
-    {
-      "q": "7- The results are shown in ............number 6.",
-      "options": [
-        "stood",
-        "tiny",
-        "diagram"
-      ],
-      "answer": 2,
-      "justification": "'diagram' رسم بياني."
-    },
-    {
-      "q": "8- Hundred thousands of .................visit Malaysia every year.",
-      "options": [
-        "directions",
-        "tourists",
-        "energetic"
-      ],
+      "q": "1. He is my children's grandfather so he is my",
+      "options": ["uncle", "grandfather", "father", "husband"],
       "answer": 1,
-      "justification": "'tourists' سياح."
+      "justification": "جد الأطفال هو الـ 'grandfather'."
     },
     {
-      "q": "9- He likes ice cream, but he doesn't have ............flavor.",
-      "options": [
-        "energetic",
-        "active",
-        "specific"
-      ],
+      "q": "2. My mother's sister is my",
+      "options": ["aunt", "niece", "uncle", "sister"],
+      "answer": 0,
+      "justification": "أخت الأم هي الـ 'aunt' (خالة)."
+    },
+    {
+      "q": "3. You use your ____ to see with.",
+      "options": ["fingers", "nose", "eyes", "forehead"],
       "answer": 2,
-      "justification": "'specific' تعني محدد."
+      "justification": "العضو المستخدم للرؤية هو 'eyes'."
     },
     {
-      "q": "10- The cost of the trip ................The hotel and car transport.",
-      "options": [
-        "decides",
-        "includes",
-        "drives"
-      ],
+      "q": "4. We have two eyes and two ____.",
+      "options": ["noses", "ears", "mouths", "hands"],
       "answer": 1,
-      "justification": "'includes' يشمل."
+      "justification": "لدينا عينان وأذنان: 'ears'."
     },
     {
-      "q": "11- The police used CCV cameras to .................the criminal.",
-      "options": [
-        "identify",
-        "design",
-        "visit"
-      ],
-      "answer": 0,
-      "justification": "'identify' تعني يتعرف على هوية."
+      "q": "5. Your ____ connects your head with your back.",
+      "options": ["blood", "hair", "heart", "neck"],
+      "answer": 3,
+      "justification": "الرقبة 'neck' هي التي تربط الرأس بالجسم."
     },
     {
-      "q": "12- Saudi Arabia has a large oil .....................that ARAMCO controls.",
-      "options": [
-        "commerce",
-        "industry",
-        "agriculture"
-      ],
+      "q": "6. It's raining today. I'll wear my ____.",
+      "options": ["Sweater", "raincoat", "shoes", "glasses"],
       "answer": 1,
-      "justification": "'oil industry' صناعة النفط."
+      "justification": "في المطر نرتدي معطف المطر 'raincoat'."
     },
     {
-      "q": "13- The city of Jeddah located on the red sea ..................of Saudi Arabia.",
-      "options": [
-        "beach",
-        "shore",
-        "coast"
-      ],
-      "answer": 2,
-      "justification": "'coast' ساحل."
-    },
-    {
-      "q": "14- Abdullah and Ahmad both have their bedroom but they .....................one bathroom.",
-      "options": [
-        "share",
-        "build",
-        "go"
-      ],
+      "q": "7. A big ____ will keep you dry in the rain.",
+      "options": ["umbrella", "scarf", "bag", "goggles"],
       "answer": 0,
-      "justification": "'share' يتشاركون."
+      "justification": "المظلة 'umbrella' تحميك من المطر."
     },
     {
-      "q": "15- To..................means to throw away.",
-      "options": [
-        "started",
-        "made",
-        "remove"
-      ],
-      "answer": 2,
-      "justification": "'remove' تعني يزيل/يتخلص من."
+      "q": "8. Saudi men usually wear a ____.",
+      "options": ["tie", "suit", "shirt", "thobe"],
+      "answer": 3,
+      "justification": "الرجال السعوديون يرتدون الثوب 'thobe'."
     },
     {
-      "q": "16-The cold weather had ..............the ground.",
-      "options": [
-        "started",
-        "frozen",
-        "made"
-      ],
+      "q": "9. If someone finds it difficult to breathe, he probably has",
+      "options": ["fever", "asthma", "headache", "toothache"],
       "answer": 1,
-      "justification": "'had frozen' ماضي تام."
+      "justification": "صعوبة التنفس تدل على الربو 'asthma'."
     },
     {
-      "q": "17- The campus provides only the ....................facilities.",
-      "options": [
-        "basic",
-        "hot",
-        "tall"
-      ],
+      "q": "10. I've got a terrible headache. I need to take some",
+      "options": ["aspirin", "antacid", "fever", "sneeze"],
       "answer": 0,
-      "justification": "'basic' أساسية."
-    },
-    {
-      "q": "18- There were only three of us on the ....................course.",
-      "options": [
-        "advance",
-        "emerged",
-        "title"
-      ],
-      "answer": 0,
-      "justification": "'advance course' دورة متقدمة."
-    },
-    {
-      "q": "19- Heavy lifting equipment can ...................damaged cars.",
-      "options": [
-        "identify",
-        "remove",
-        "trusted"
-      ],
-      "answer": 1,
-      "justification": "'remove' تزيل."
-    },
-    {
-      "q": "20- Credible means to.",
-      "options": [
-        "worried",
-        "trusted",
-        "funny"
-      ],
-      "answer": 1,
-      "justification": "'credible' تعني موثوق."
-    },
-    {
-      "q": "21- My father installed a smoke................in the kitchen.",
-      "options": [
-        "detector",
-        "flashlight",
-        "trust"
-      ],
-      "answer": 0,
-      "justification": "'smoke detector' كاشف دخان."
-    },
-    {
-      "q": "22-................. from factories can pollute rivers.",
-      "options": [
-        "waste",
-        "want",
-        "hazard"
-      ],
-      "answer": 0,
-      "justification": "'waste' نفايات."
-    },
-    {
-      "q": "23...................people have large homes.",
-      "options": [
-        "poor",
-        "stupid",
-        "wealthy"
-      ],
-      "answer": 2,
-      "justification": "'wealthy' أغنياء."
-    },
-    {
-      "q": "24-He...........................to the manager of the restaurant.",
-      "options": [
-        "complained",
-        "started",
-        "helped"
-      ],
-      "answer": 0,
-      "justification": "'complained' اشتكى."
-    },
-    {
-      "q": "25-you should eat..................... vegetables.",
-      "options": [
-        "equal",
-        "less",
-        "more"
-      ],
-      "answer": 2,
-      "justification": "'more' أكثر."
-    },
-    {
-      "q": "26-My wife like to buy expensive.........................",
-      "options": [
-        "clothes",
-        "clothing",
-        "cloth"
-      ],
-      "answer": 0,
-      "justification": "'clothes' ملابس."
-    },
-    {
-      "q": "27- The..................of Saudi Arabia includes large deserts.",
-      "options": [
-        "lecture",
-        "space",
-        "geography"
-      ],
-      "answer": 2,
-      "justification": "'geography' جغرافيا."
-    },
-    {
-      "q": "28-Driving in the fog is really .................",
-      "options": [
-        "easy",
-        "hazard",
-        "possible"
-      ],
-      "answer": 1,
-      "justification": "'hazard' خطر."
-    },
-    {
-      "q": "29-Abdullah is a ......................driver.",
-      "options": [
-        "cautious",
-        "also",
-        "hat"
-      ],
-      "answer": 0,
-      "justification": "'cautious' حذر."
-    },
-    {
-      "q": "30- The ...................of the new air conditioner will finish tomorrow.",
-      "options": [
-        "warm",
-        "driving",
-        "installation"
-      ],
-      "answer": 2,
-      "justification": "'installation' تركيب."
-    },
-    {
-      "q": "31- Ali isn't ......................about the result.",
-      "options": [
-        "worried",
-        "happy",
-        "stay"
-      ],
-      "answer": 0,
-      "justification": "'worried' قلق."
-    },
-    {
-      "q": "32-He forgot his pen, So he asked to .....mine.",
-      "options": [
-        "give",
-        "lent",
-        "borrow"
-      ],
-      "answer": 2,
-      "justification": "'borrow' يستعير."
-    },
-    {
-      "q": "33-.................car is this?",
-      "options": [
-        "whose",
-        "what",
-        "why"
-      ],
-      "answer": 0,
-      "justification": "'whose' للملكية."
-    },
-    {
-      "q": "34- The company wants employees how know to ..............problems.",
-      "options": [
-        "issue",
-        "hate",
-        "solve"
-      ],
-      "answer": 2,
-      "justification": "'solve' يحل."
-    },
-    {
-      "q": "35- He hate to study the .................... of the electron.",
-      "options": [
-        "force",
-        "energy",
-        "physics"
-      ],
-      "answer": 2,
-      "justification": "'physics' فيزياء."
-    },
-    {
-      "q": "36- Software can be used to ................conditions on the seabed.",
-      "options": [
-        "simulate",
-        "try",
-        "new"
-      ],
-      "answer": 0,
-      "justification": "'simulate' تحاكي."
-    },
-    {
-      "q": "37- This course is important for students in ....................",
-      "options": [
-        "transition",
-        "change",
-        "system"
-      ],
-      "answer": 0,
-      "justification": "'transition' مرحلة انتقالية."
-    },
-    {
-      "q": "38- She is not native, she is a ....................",
-      "options": [
-        "foreign",
-        "cold",
-        "own"
-      ],
-      "answer": 0,
-      "justification": "'foreign' أجنبي."
-    },
-    {
-      "q": "39- The person in the same family is a .........",
-      "options": [
-        "relative",
-        "monster",
-        "foreign"
-      ],
-      "answer": 0,
-      "justification": "'relative' قريب."
-    },
-    {
-      "q": "40- please be ....................",
-      "options": [
-        "polite",
-        "correct",
-        "hard"
-      ],
-      "answer": 0,
-      "justification": "'polite' مهذب."
+      "justification": "لعلاج الصداع نأخذ 'aspirin'."
     }
   ],
   "vocabularyQuestions": [
     {
-      "q": "I am really ____, I need water.",
-      "options": [
-        "tired",
-        "hungry",
-        "thirsty",
-        "sleepy"
-      ],
+      "q": "41. The aurora occurs at altitudes of 100 to 300 ____.",
+      "options": ["miles", "feet", "kilometres", "metres"],
       "answer": 2,
-      "justification": "المعنى الصحيح لـ 'thirsty' هو 'عطشان'."
+      "justification": "النص يذكر 'altitudes of 100 to 300 kilometres'."
     },
     {
-      "q": "Desalination is vital for ____ regions.",
-      "options": [
-        "green",
-        "arid",
-        "cold",
-        "rainy"
-      ],
+      "q": "42. The Sámi people live in northern ____.",
+      "options": ["Russia", "Scandinavia", "Canada", "Alaska"],
       "answer": 1,
-      "justification": "المعنى الصحيح لـ 'arid' هو 'جاف'."
+      "justification": "يقول النص 'Indigenous Sámi people of northern Scandinavia'."
     },
     {
-      "q": "We make televisions in a ____.",
-      "options": [
-        "factory",
-        "hospital",
-        "bank",
-        "office"
-      ],
-      "answer": 0,
-      "justification": "المعنى الصحيح لـ 'factory' هو 'مصنع'."
-    },
-    {
-      "q": "Smart ____ manages electricity.",
-      "options": [
-        "phone",
-        "road",
-        "water",
-        "grid"
-      ],
-      "answer": 3,
-      "justification": "المعنى الصحيح لـ 'grid' هو 'شبكة كهرباء'."
-    },
-    {
-      "q": "The company decided to ____ on TV.",
-      "options": [
-        "ignore",
-        "cancel",
-        "advertise",
-        "hide"
-      ],
-      "answer": 2,
-      "justification": "المعنى الصحيح لـ 'advertise' هو 'يعلن'."
-    },
-    {
-      "q": "Most people eat ____ at noon.",
-      "options": [
-        "breakfast",
-        "snack",
-        "lunch",
-        "dinner"
-      ],
-      "answer": 2,
-      "justification": "المعنى الصحيح لـ 'lunch' هو 'غداء'."
-    },
-    {
-      "q": "Fred Noonan was Earhart's ____.",
-      "options": [
-        "doctor",
-        "navigator",
-        "husband",
-        "teacher"
-      ],
+      "q": "43. Al‑Faw was the capital of the Kingdom of ____.",
+      "options": ["Saba", "Kinda", "Himyar", "Nabataea"],
       "answer": 1,
-      "justification": "المعنى الصحيح لـ 'navigator' هو 'ملاح'."
+      "justification": "النص: 'capital of the Kingdom of Kinda'."
     },
     {
-      "q": "My daughter's daughter is my",
-      "options": [
-        "aunt",
-        "grandson",
-        "granddaughter",
-        "niece"
-      ],
+      "q": "44. The tombs at Al‑Faw are decorated with ____ inscriptions.",
+      "options": ["Greek", "Latin", "South Arabian", "Persian"],
       "answer": 2,
-      "justification": "المعنى الصحيح لـ 'granddaughter' هو 'حفيدة'."
+      "justification": "النص: 'inscriptions in an ancient South Arabian script'."
     },
     {
-      "q": "Plastic originates from ____.",
-      "options": [
-        "wood",
-        "water",
-        "sand",
-        "crude oil"
-      ],
-      "answer": 3,
-      "justification": "المعنى الصحيح لـ 'crude oil' هو 'نفط خام'."
-    },
-    {
-      "q": "The ____ pumps blood.",
-      "options": [
-        "liver",
-        "heart",
-        "brain",
-        "lung"
-      ],
+      "q": "45. Caravans of ____ carried frankincense through Al‑Faw.",
+      "options": ["horses", "camels", "elephants", "donkeys"],
       "answer": 1,
-      "justification": "المعنى الصحيح لـ 'heart' هو 'قلب'."
+      "justification": "النص: 'Caravans of camels carrying frankincense'."
     }
   ],
   "dictationQuestions": [
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "forheed",
-        "forehead",
-        "forehed",
-        "forhead"
-      ],
-      "answer": 1,
-      "justification": "التهجئة الصحيحة هي 'forehead'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "mekanic",
-        "mechanik",
-        "mechanic",
-        "mechaniq"
-      ],
-      "answer": 2,
-      "justification": "التهجئة الصحيحة هي 'mechanic'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "pharmer",
-        "farmar",
-        "farmor",
-        "farmer"
-      ],
-      "answer": 3,
-      "justification": "التهجئة الصحيحة هي 'farmer'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "restaurant",
-        "restorant",
-        "restaurent",
-        "restuarant"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'هندسة معمارية'.",
+      "options": ["architecture", "architecure", "archeticture", "archtecture"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'restaurant'."
+      "justification": "التهجئة الصحيحة هي 'architecture'."
     },
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "scalf",
-        "scarf",
-        "skarf",
-        "scurff"
-      ],
-      "answer": 1,
-      "justification": "التهجئة الصحيحة هي 'scarf'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "amount",
-        "amont"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'حضارة'.",
+      "options": ["civilisation", "civilizasion", "civillization", "civilzation"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'amount'."
+      "justification": "التهجئة الصحيحة هي 'civilisation'."
     },
     {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "umbrela",
-        "umbralla",
-        "umbrealla",
-        "umbrella"
-      ],
-      "answer": 3,
-      "justification": "التهجئة الصحيحة هي 'umbrella'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "desalniation",
-        "desalination",
-        "desalinashion"
-      ],
-      "answer": 1,
-      "justification": "التهجئة الصحيحة هي 'desalination'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "creetive",
-        "creatiff",
-        "creativ",
-        "creative"
-      ],
-      "answer": 3,
-      "justification": "التهجئة الصحيحة هي 'creative'."
-    },
-    {
-      "q": "اختر التهجئة الصحيحة للكلمة.",
-      "options": [
-        "injection",
-        "injecton",
-        "injektion",
-        "injectionn"
-      ],
+      "q": "اختر التهجئة الصحيحة لكلمة 'فرانكنسنس'.",
+      "options": ["frankincense", "frankinsense", "frankincese", "frankensence"],
       "answer": 0,
-      "justification": "التهجئة الصحيحة هي 'injection'."
+      "justification": "التهجئة الصحيحة هي 'frankincense'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'ميكروفونات'.",
+      "options": ["microphones", "microphons", "microfones", "mikrophones"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'microphones'."
+    },
+    {
+      "q": "اختر التهجئة الصحيحة لكلمة 'فولكلور'.",
+      "options": ["folklore", "folclore", "folklor", "folkelore"],
+      "answer": 0,
+      "justification": "التهجئة الصحيحة هي 'folklore'."
     }
   ]
 }
