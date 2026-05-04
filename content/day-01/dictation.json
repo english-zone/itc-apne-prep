@@ -1,1 +1,12 @@
-{}
+{"words":[
+  {"correct":"grandfather","options":["grandfather","grandfater","grandfother","grandfathar"]},
+  {"correct":"husband","options":["husband","husbend","hasbund","husbant"]},
+  {"correct":"uncle","options":["uncle","unkle","uncal","uncl"]},
+  {"correct":"aunt","options":["aunt","ant","awnt","aunty"]},
+  {"correct":"niece","options":["niece","neice","neace","niese"]},
+  {"correct":"shoulder","options":["shoulder","sholder","shulder","shouldar"]},
+  {"correct":"forehead","options":["forehead","forhead","forehed","forheed"]},
+  {"correct":"arteries","options":["arteries","arterys","artries","arteres"]},
+  {"correct":"muscle","options":["muscle","mussle","muscel","muscal"]},
+  {"correct":"chest","options":["chest","chest","chist","cheast"]}
+]}

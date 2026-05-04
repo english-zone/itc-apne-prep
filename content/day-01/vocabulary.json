@@ -1,1 +1,34 @@
-{}
+{
+  "words": [
+    {"english":"grandfather","arabic":"جد","page":"68","question":{"q":"He is my children's grandfather so he is my","options":["Mother","husband","father","uncle"],"answer":2}},
+    {"english":"husband","arabic":"زوج","page":"68","question":null},
+    {"english":"father","arabic":"أب","page":"68","question":null},
+    {"english":"uncle","arabic":"عم / خال","page":"68","question":{"q":"He is my father's brother so he is my","options":["uncle","aunt","nephew","niece"],"answer":0}},
+    {"english":"aunt","arabic":"عمة / خالة","page":"68","question":{"q":"My mother's sister is my","options":["aunt","niece","uncle","sister"],"answer":0}},
+    {"english":"niece","arabic":"ابنة الأخ / الأخت","page":"68","question":{"q":"She is my brother's daughter so she is my","options":["nephew","niece","granddaughter","grandson"],"answer":1}},
+    {"english":"nephew","arabic":"ابن الأخ / الأخت","page":"68","question":null},
+    {"english":"cousin","arabic":"ابن العم / الخال","page":"68","question":null},
+    {"english":"grandson","arabic":"حفيد","page":"68","question":{"q":"My son is my mother's","options":["niece","cousin","grandfather","grandson"],"answer":3}},
+    {"english":"granddaughter","arabic":"حفيدة","page":"68","question":null},
+    {"english":"eye","arabic":"عين","page":"69","question":{"q":"You use your ____ to see with.","options":["nose","eyes","fingers","forehead"],"answer":1}},
+    {"english":"nose","arabic":"أنف","page":"69","question":null},
+    {"english":"ear","arabic":"أذن","page":"69","question":{"q":"We have two eyes and two ____.","options":["ears","Mouths","noses","chest"],"answer":0}},
+    {"english":"finger","arabic":"إصبع","page":"69","question":{"q":"How many ____ are there in your hands?","options":["toes","fingers","thumbs","foreheads"],"answer":1}},
+    {"english":"thumb","arabic":"إبهام","page":"69","question":null},
+    {"english":"forehead","arabic":"جبين","page":"69","question":null},
+    {"english":"neck","arabic":"رقبة","page":"69","question":{"q":"Your ____ connects your head with your back.","options":["hair","blood","neck","heart"],"answer":2}},
+    {"english":"shoulder","arabic":"كتف","page":"69","question":{"q":"My ____ is at the top of my arm.","options":["shoulder","knee","toe","chest"],"answer":0}},
+    {"english":"knee","arabic":"ركبة","page":"69","question":null},
+    {"english":"chest","arabic":"صدر","page":"69","question":null},
+    {"english":"heart","arabic":"قلب","page":"69","question":null},
+    {"english":"blood","arabic":"دم","page":"69","question":null},
+    {"english":"artery","arabic":"شريان","page":"69","question":{"q":"____ carry blood from the heart to all the parts of the body","options":["licenses","arteries","muscles","spinal cord"],"answer":1}},
+    {"english":"muscle","arabic":"عضلة","page":"69","question":null},
+    {"english":"spinal cord","arabic":"الحبل الشوكي","page":"69","question":null},
+    {"english":"advertise","arabic":"يعلن","page":"87","question":null},
+    {"english":"statistics","arabic":"إحصائيات","page":"88","question":null},
+    {"english":"disadvantaged","arabic":"محروم","page":"93","question":null},
+    {"english":"volunteer","arabic":"متطوع","page":"93","question":null},
+    {"english":"mentor","arabic":"مرشد","page":"93","question":null}
+  ]
+}

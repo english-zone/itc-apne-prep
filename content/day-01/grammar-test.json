@@ -1,1 +1,12 @@
-{}
+[
+  {"q":"Some teachers ____ much homework.","options":["give","gives","are give","is give"],"answer":0},
+  {"q":"Ahmad and Rida ____ good friends.","options":["be","is","are","does"],"answer":2},
+  {"q":"____ your parents let you go to bed late?","options":["are","does","do","is"],"answer":2},
+  {"q":"My brother ____ his favorite TV program every evening.","options":["watches","watch","watching","watched"],"answer":0},
+  {"q":"I ____ to the mall after school.","options":["goed","gone","went","going"],"answer":2},
+  {"q":"____ Majid visit his grandmother last night?","options":["Did","Are","Does","Was"],"answer":0},
+  {"q":"Sorry, I ____ hear you at the door.","options":["wasn't","didn't","am not","don't"],"answer":1},
+  {"q":"What ____ you eat for lunch yesterday?","options":["do","did","were","are"],"answer":1},
+  {"q":"She ____ three languages.","options":["speak","speaking","speaks","spoken"],"answer":2},
+  {"q":"My brother ____ a deer an hour ago.","options":["seen","saw","sees","seeing"],"answer":1}
+]
