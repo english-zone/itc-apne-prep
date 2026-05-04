@@ -1,0 +1,73 @@
+{
+  "reading": [
+    {
+      "title": "The Mystery of Dark Matter",
+      "text": "Scientists believe that everything we can see in the universe, stars, planets, and galaxies, makes up only 5% of the total matter. The remaining 95% consists of dark matter and dark energy. Dark matter is invisible and does not emit, absorb, or reflect light, making it extremely difficult to detect. However, we know it exists because of its gravitational effects on visible matter. Galaxies rotate faster than they should if only visible matter were present. Understanding dark matter is one of the biggest challenges in modern physics.",
+      "questions": [
+        {"q": "1. What percentage of the universe is visible matter?", "options": ["5%","25%","50%","95%"], "answer": 0, "page": "Extra 2"},
+        {"q": "2. Why is dark matter difficult to detect?", "options": ["It is very bright","It doesn't interact with light","It moves too fast","It is too small"], "answer": 1, "page": "Extra 2"},
+        {"q": "3. How do we know dark matter exists?", "options": ["We can see it","By its gravitational effects","It makes sounds","It leaves tracks"], "answer": 1, "page": "Extra 2"},
+        {"q": "4. What rotates faster than expected?", "options": ["Stars","Planets","Galaxies","Comets"], "answer": 2, "page": "Extra 2"},
+        {"q": "5. What is the main topic of the passage?", "options": ["Visible matter","Dark matter","The sun","Black holes"], "answer": 1, "page": "Extra 2"}
+      ]
+    },
+    {
+      "title": "The History of Coffee",
+      "text": "Coffee is one of the most popular beverages in the world, with its origins dating back to Ethiopia in the 9th century. According to legend, a goat herder named Kaldi noticed his goats became energetic after eating berries from a certain tree. He shared his discovery with monks, who used the berries to stay awake during prayers. Coffee spread to the Arabian Peninsula, where the first coffee houses appeared in Mecca and Mocha. By the 15th century, coffee had reached Europe and become a global commodity.",
+      "questions": [
+        {"q": "6. Where did coffee originate?", "options": ["Brazil","Ethiopia","India","China"], "answer": 1, "page": "Extra 2"},
+        {"q": "7. Who first noticed coffee's effects?", "options": ["A king","A goat herder","A scientist","A sailor"], "answer": 1, "page": "Extra 2"},
+        {"q": "8. What did Kaldi observe?", "options": ["Goats sleeping","Goats becoming energetic","Goats dying","Goats swimming"], "answer": 1, "page": "Extra 2"},
+        {"q": "9. Where did the first coffee houses appear?", "options": ["London","Paris","Mecca and Mocha","New York"], "answer": 2, "page": "Extra 2"},
+        {"q": "10. By when did coffee reach Europe?", "options": ["9th century","12th century","15th century","18th century"], "answer": 2, "page": "Extra 2"}
+      ]
+    },
+    {
+      "title": "How Rainbows Form",
+      "text": "A rainbow is an optical phenomenon caused by reflection and refraction of sunlight in water droplets. When sunlight enters a droplet, it slows down and bends (refracts), then reflects off the back of the droplet and refracts again as it exits. This process separates white light into its component colors: red, orange, yellow, green, blue, indigo, and violet. Rainbows always appear opposite the sun in the sky. Double rainbows occur when light reflects twice inside the droplet, creating a fainter secondary arc with reversed colors.",
+      "questions": [
+        {"q": "11. What causes a rainbow?", "options":["Wind","Sunlight in water droplets","Clouds","Stars"],"answer":1,"page":"Extra 2"},
+        {"q": "12. How many colors are in a rainbow?", "options":["Five","Six","Seven","Eight"],"answer":2,"page":"Extra 2"},
+        {"q": "13. Where does a rainbow appear relative to the sun?", "options":["Next to the sun","Above the sun","Opposite the sun","Below the sun"],"answer":2,"page":"Extra 2"},
+        {"q": "14. What is special about a double rainbow?", "options":["It has more colors","The colors are reversed","It is brighter","It is smaller"],"answer":1,"page":"Extra 2"},
+        {"q": "15. What does refraction mean?", "options":["Speeding up","Bending of light","Absorbing light","Reflecting light"],"answer":1,"page":"Extra 2"}
+      ]
+    }
+  ],
+  "vocabulary": [
+    {"english":"visible","arabic":"مرئي","page":"Extra 2","question":{"q":"Only ____ matter can be seen.","options":["visible","dark","hidden","invisible"],"answer":0}},
+    {"english":"gravitational","arabic":"جاذبي","page":"Extra 2","question":{"q":"Dark matter has ____ effects on galaxies.","options":["gravitational","electrical","chemical","thermal"],"answer":0}},
+    {"english":"galaxy","arabic":"مجرة","page":"Extra 2","question":{"q":"Our ____ is called the Milky Way.","options":["planet","galaxy","moon","star"],"answer":1}},
+    {"english":"beverage","arabic":"مشروب","page":"Extra 2","question":{"q":"Coffee is a popular ____.","options":["beverage","food","sport","machine"],"answer":0}},
+    {"english":"commodity","arabic":"سلعة","page":"Extra 2","question":{"q":"Coffee became a global ____.","options":["commodity","problem","mystery","celebration"],"answer":0}},
+    {"english":"refraction","arabic":"انكسار","page":"Extra 2","question":{"q":"____ is the bending of light.","options":["Refraction","Reflection","Absorption","Emission"],"answer":0}},
+    {"english":"droplet","arabic":"قطيرة","page":"Extra 2","question":{"q":"A rainbow forms in water ____.","options":["droplets","rivers","oceans","lakes"],"answer":0}},
+    {"english":"optical","arabic":"بصري","page":"Extra 2","question":{"q":"A rainbow is an ____ phenomenon.","options":["optical","musical","medical","mechanical"],"answer":0}},
+    {"english":"secondary","arabic":"ثانوي","page":"Extra 2","question":{"q":"A double rainbow has a ____ arc.","options":["secondary","primary","only","missing"],"answer":0}},
+    {"english":"energetic","arabic":"نشيط","page":"Extra 2","question":{"q":"The goats became ____ after eating berries.","options":["energetic","sleepy","sick","angry"],"answer":0}}
+  ],
+  "grammar": [
+    {"q":"Dark matter ____ emit light.","options":["doesn't","don't","not","isn't"],"answer":0,"topic":"Present Simple Negative"},
+    {"q":"The goats ___ energetic after eating.","options":["became","become","becomes","becoming"],"answer":0,"topic":"Past Simple"},
+    {"q":"Coffee ___ to Europe in the 15th century.","options":["was brought","brought","bring","brings"],"answer":0,"topic":"Past Simple Passive"},
+    {"q":"If light ___ a droplet, it bends.","options":["enters","enter","entered","entering"],"answer":0,"topic":"Zero Conditional"},
+    {"q":"Galaxies ___ faster than expected.","options":["rotate","rotates","rotated","rotating"],"answer":0,"topic":"Present Simple"},
+    {"q":"The rainbow ___ by refraction.","options":["is caused","caused","causes","causing"],"answer":0,"topic":"Present Simple Passive"},
+    {"q":"Monks ___ the berries to stay awake.","options":["used","use","using","uses"],"answer":0,"topic":"Past Simple"},
+    {"q":"Double rainbows ___ when light reflects twice.","options":["occur","occurs","occurred","occurring"],"answer":0,"topic":"Present Simple"},
+    {"q":"Scientists ___ dark matter for decades.","options":["have studied","studied","study","studies"],"answer":0,"topic":"Present Perfect"},
+    {"q":"Coffee ___ discovered by a goat herder.","options":["was","were","is","are"],"answer":0,"topic":"Past Simple Passive"}
+  ],
+  "dictation": [
+    {"correct":"visible","options":["visible","visable","visibel","viseble"]},
+    {"correct":"gravitational","options":["gravitational","gravitashinal","graviteishinal","gravatational"]},
+    {"correct":"galaxy","options":["galaxy","galaxi","galexy","galeksy"]},
+    {"correct":"beverage","options":["beverage","beverige","bevarage","bevrage"]},
+    {"correct":"commodity","options":["commodity","comodity","commoditee","komodity"]},
+    {"correct":"refraction","options":["refraction","refrakshun","refrakshon","rifraction"]},
+    {"correct":"droplet","options":["droplet","dropplet","droplyt","droplit"]},
+    {"correct":"optical","options":["optical","opteecal","optikal","optycal"]},
+    {"correct":"secondary","options":["secondary","sekondary","secondery","seccondary"]},
+    {"correct":"energetic","options":["energetic","energetik","enerjetic","energetec"]}
+  ]
+}

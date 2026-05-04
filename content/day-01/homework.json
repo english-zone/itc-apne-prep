@@ -1,0 +1,73 @@
+{
+  "reading": [
+    {
+      "title": "The Rise of Solar Energy",
+      "text": "Solar energy has become one of the most promising renewable energy sources in the world. Unlike fossil fuels, which release harmful carbon emissions, solar panels convert sunlight directly into electricity without pollution. The first practical solar cell was invented in 1954 by Bell Laboratories. Today, solar farms cover thousands of acres in countries like China, India, and the United States. One challenge remains: solar panels only produce electricity during daylight hours. To overcome this, engineers are developing better batteries to store excess energy for use at night. In the future, solar power may become the world's primary energy source.",
+      "questions": [
+        {"q": "1. What is the main advantage of solar energy over fossil fuels?", "options": ["It is cheaper","It produces no pollution","It works at night","It uses water"], "answer": 1, "page": "Extra 1"},
+        {"q": "2. When was the first practical solar cell invented?", "options": ["1854","1904","1954","2004"], "answer": 2, "page": "Extra 1"},
+        {"q": "3. What challenge does solar energy face?", "options": ["Too much sun","Only works at night","Only works during daylight","Uses too much water"], "answer": 2, "page": "Extra 1"},
+        {"q": "4. What solution are engineers working on?", "options": ["More solar panels","Better batteries","Nuclear power","Wind turbines"], "answer": 1, "page": "Extra 1"},
+        {"q": "5. Which country is NOT mentioned as having large solar farms?", "options": ["China","India","United States","Brazil"], "answer": 3, "page": "Extra 1"}
+      ]
+    },
+    {
+      "title": "The Great Library of Alexandria",
+      "text": "The Great Library of Alexandria was one of the largest and most significant libraries of the ancient world. Founded in the 3rd century BCE in Egypt, it aimed to collect all the world's knowledge. Scholars from around the Mediterranean came to study its vast collection of scrolls, estimated at 400,000 to 700,000 texts. Unfortunately, the library was destroyed over several centuries by fires and invasions. Its loss is considered one of the greatest intellectual tragedies in history. Today, the Bibliotheca Alexandrina, a modern library, stands near its original site, honoring the legacy of the ancient library.",
+      "questions": [
+        {"q": "6. Where was the Great Library located?", "options": ["Rome","Athens","Alexandria","Cairo"], "answer": 2, "page": "Extra 1"},
+        {"q": "7. What was the library's goal?", "options": ["Collect all knowledge","Train soldiers","Build ships","Store food"], "answer": 0, "page": "Extra 1"},
+        {"q": "8. How many texts were in the library?", "options": ["1,000-2,000","10,000-20,000","400,000-700,000","1,000,000+"], "answer": 2, "page": "Extra 1"},
+        {"q": "9. What caused the library's destruction?", "options": ["Earthquake","Tsunami","Fires and invasions","Flood"], "answer": 2, "page": "Extra 1"},
+        {"q": "10. What stands near the original site today?", "options": ["A museum","Bibliotheca Alexandrina","A university","A stadium"], "answer": 1, "page": "Extra 1"}
+      ]
+    },
+    {
+      "title": "The Science of Soap Bubbles",
+      "text": "Soap bubbles may seem like simple children's toys, but they are actually fascinating scientific objects. A bubble consists of a thin film of soapy water surrounding air. The film has three layers: a layer of water molecules between two layers of soap molecules. When light hits the bubble, it reflects off both the outer and inner surfaces, creating the colorful interference patterns we see. Bubbles always form spheres because the sphere is the shape with the smallest surface area for a given volume. Scientists have studied bubbles to understand problems in physics, chemistry, and even medicine.",
+      "questions": [
+        {"q": "11. How many layers does a soap bubble film have?", "options": ["One","Two","Three","Four"], "answer": 2, "page": "Extra 1"},
+        {"q": "12. What causes the colors in a bubble?", "options": ["Paint","Interference patterns","Soap color","Air pressure"], "answer": 1, "page": "Extra 1"},
+        {"q": "13. Why do bubbles form spheres?", "options": ["It's the most beautiful shape","Smallest surface area for given volume","Easiest to blow","Strongest shape"], "answer": 1, "page": "Extra 1"},
+        {"q": "14. In which fields have scientists used bubble studies?", "options": ["Art and music","Physics, chemistry, and medicine","Geography and history","Literature and philosophy"], "answer": 1, "page": "Extra 1"},
+        {"q": "15. What is the main idea of the passage?", "options": ["Bubbles are just toys","Bubbles are scientifically interesting","How to make bubbles","The history of soap"], "answer": 1, "page": "Extra 1"}
+      ]
+    }
+  ],
+  "vocabulary": [
+    {"english":"renewable","arabic":"قابل للتجديد","page":"Extra 1","question":{"q":"Solar energy is a ____ source of power.","options":["renewable","finite","dangerous","useless"],"answer":0}},
+    {"english":"pollution","arabic":"تلوث","page":"Extra 1","question":{"q":"Burning fossil fuels causes ____.","options":["pollution","celebration","education","nutrition"],"answer":0}},
+    {"english":"convert","arabic":"يحول","page":"Extra 1","question":{"q":"Solar panels ____ sunlight into electricity.","options":["convert","destroy","ignore","prevent"],"answer":0}},
+    {"english":"excess","arabic":"فائض","page":"Extra 1","question":{"q":"Batteries store ____ energy.","options":["excess","little","weak","dark"],"answer":0}},
+    {"english":"scroll","arabic":"مخطوطة","page":"Extra 1","question":{"q":"Ancient texts were written on ____.","options":["scrolls","paper","computers","walls"],"answer":0}},
+    {"english":"intellectual","arabic":"فكري","page":"Extra 1","question":{"q":"The library's loss was an ____ tragedy.","options":["intellectual","physical","emotional","financial"],"answer":0}},
+    {"english":"legacy","arabic":"إرث","page":"Extra 1","question":{"q":"The modern library honors the ancient ____.","options":["legacy","problem","failure","game"],"answer":0}},
+    {"english":"interference","arabic":"تداخل","page":"Extra 1","question":{"q":"Light ____ creates the colors in bubbles.","options":["interference","destruction","collection","protection"],"answer":0}},
+    {"english":"sphere","arabic":"كرة","page":"Extra 1","question":{"q":"Bubbles form a ____ shape.","options":["sphere","cube","square","flat"],"answer":0}},
+    {"english":"molecule","arabic":"جزيء","page":"Extra 1","question":{"q":"A ____ is the smallest unit of a chemical compound.","options":["molecule","planet","mountain","river"],"answer":0}}
+  ],
+  "grammar": [
+    {"q":"Solar energy ____ the environment.","options":["doesn't pollute","don't pollute","not pollute","isn't pollute"],"answer":0,"topic":"Present Simple"},
+    {"q":"The library ____ in the 3rd century BCE.","options":["was founded","is founded","founded","found"],"answer":0,"topic":"Past Simple Passive"},
+    {"q":"Bubbles ____ spheres because of physics.","options":["form","forms","formed","forming"],"answer":0,"topic":"Present Simple"},
+    {"q":"By 2030, solar power ____ more popular than coal.","options":["will have become","became","becomes","has become"],"answer":0,"topic":"Future Perfect"},
+    {"q":"The scrolls ____ by scholars for centuries.","options":["were studied","studied","are studied","study"],"answer":0,"topic":"Past Simple Passive"},
+    {"q":"Scientists ____ bubbles for medical research now.","options":["are using","use","used","uses"],"answer":0,"topic":"Present Continuous"},
+    {"q":"If we use solar energy, we ____ pollution.","options":["will reduce","reduce","reduced","reduces"],"answer":0,"topic":"First Conditional"},
+    {"q":"The library was larger than ____ library in the world.","options":["any other","any","some","no"],"answer":0,"topic":"Comparative"},
+    {"q":"Solar panels must ____ installed on roofs.","options":["be","being","been","are"],"answer":0,"topic":"Passive Infinitive"},
+    {"q":"She enjoys ____ about ancient history.","options":["learning","to learn","learn","learns"],"answer":0,"topic":"Gerund"}
+  ],
+  "dictation": [
+    {"correct":"renewable","options":["renewable","renewible","renuwable","renevable"]},
+    {"correct":"pollution","options":["pollution","polusion","polushun","pollushon"]},
+    {"correct":"library","options":["library","libary","librarey","librery"]},
+    {"correct":"scroll","options":["scroll","scrol","skroll","scrawl"]},
+    {"correct":"intellectual","options":["intellectual","intilectual","intelekshul","intellectual"]},
+    {"correct":"molecule","options":["molecule","molekule","mollecule","molicule"]},
+    {"correct":"interference","options":["interference","interferance","intarference","interfirance"]},
+    {"correct":"sphere","options":["sphere","sphear","sfeer","spheir"]},
+    {"correct":"convert","options":["convert","konvert","convurt","konvurt"]},
+    {"correct":"excess","options":["excess","exsess","eksess","exces"]}
+  ]
+}
