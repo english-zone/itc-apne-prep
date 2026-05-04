@@ -1,0 +1,31 @@
+{
+  "topic": "Food, Drink & Reading Vocabulary",
+  "pageRange": "71-72, 2-5",
+  "words": [
+    {"english":"cook","arabic":"يطبخ","page":"72","question":{"q":"Ahmed is a very good chef. He can ____ really well.","options":["eat","cook","drink","meals"],"answer":1}},
+    {"english":"chef","arabic":"طاهٍ","page":"72","question":null},
+    {"english":"fry","arabic":"يقلي","page":"72","question":{"q":"I am afraid we don't have any oil to ____ the potatoes.","options":["grill","fry","boil","steam"],"answer":1}},
+    {"english":"grill","arabic":"يشوي","page":"72","question":null},
+    {"english":"boil","arabic":"يغلي","page":"72","question":null},
+    {"english":"steam","arabic":"يطبخ بالبخار","page":"72","question":null},
+    {"english":"lunch","arabic":"غداء","page":"72","question":{"q":"Most people usually have ____ at noon.","options":["breakfast","lunch","dinner","hungry"],"answer":1}},
+    {"english":"breakfast","arabic":"فطور","page":"72","question":null},
+    {"english":"dinner","arabic":"عشاء","page":"72","question":null},
+    {"english":"cucumber","arabic":"خيار","page":"72","question":{"q":"We need to buy some ____ to make salad.","options":["Pasta","fish","cucumber","water"],"answer":2}},
+    {"english":"pasta","arabic":"معكرونة","page":"72","question":{"q":"Italians eat a lot of ____.","options":["pasta","sushi","bread","salad"],"answer":0}},
+    {"english":"addicted","arabic":"مدمن","page":"72","question":{"q":"Sameer is ____ to drinking coca cola.","options":["addicted","involved","predicted","universal"],"answer":0}},
+    {"english":"pharmacy","arabic":"صيدلية","page":"73","question":{"q":"We need to buy some aspirin from the ____.","options":["shop","pharmacy","bank","Factory"],"answer":1}},
+    {"english":"income","arabic":"دخل","page":"73","question":{"q":"Ahmed's monthly ____ is SR10000.","options":["crowd","income","character","aspect"],"answer":1}},
+    {"english":"priority","arabic":"أولوية","page":"73","question":null},
+    {"english":"salad","arabic":"سلطة","page":"72","question":{"q":"We need cucumber to make a ____.","options":["salad","soup","cake","drink"],"answer":0}},
+    {"english":"cuisine","arabic":"مطبخ (أسلوب طهي)","page":"2","question":{"q":"Japanese ____ is famous worldwide.","options":["cuisine","language","weather","transport"],"answer":0}},
+    {"english":"heritage","arabic":"تراث","page":"2","question":{"q":"Japan has a rich cultural ____.","options":["problem","heritage","economy","disaster"],"answer":1}},
+    {"english":"constitution","arabic":"دستور","page":"3","question":{"q":"The U.S. ____ establishes the government structure.","options":["magazine","constitution","website","newspaper"],"answer":1}},
+    {"english":"desalination","arabic":"تحلية المياه","page":"4","question":{"q":"____ removes salt from seawater.","options":["Irrigation","Desalination","Distillation","Evaporation"],"answer":1}},
+    {"english":"arid","arabic":"جاف","page":"4","question":{"q":"Desalination is essential in ____ regions.","options":["rainy","cold","arid","green"],"answer":2}},
+    {"english":"membrane","arabic":"غشاء","page":"4","question":{"q":"Reverse osmosis uses a semipermeable ____.","options":["pipe","membrane","tank","pump"],"answer":1}},
+    {"english":"brine","arabic":"محلول ملحي","page":"5","question":{"q":"Concentrated ____ can harm marine life.","options":["brine","water","juice","oil"],"answer":0}},
+    {"english":"fossil fuel","arabic":"وقود أحفوري","page":"5","question":{"q":"Desalination often uses ____ for energy.","options":["solar","wind","fossil fuels","nuclear"],"answer":2}},
+    {"english":"greenhouse","arabic":"بيت زجاجي / غازات الدفيئة","page":"5","question":{"q":"____ gas emissions contribute to climate change.","options":["Oxygen","Nitrogen","Greenhouse","Hydrogen"],"answer":2}}
+  ]
+}

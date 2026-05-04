@@ -1,0 +1,12 @@
+[
+  {"q":"This problem ____ by your brother yesterday.","options":["was solved","will be solved","is solved","solves"],"answer":0},
+  {"q":"This clock ____ in 1750.","options":["is made","was made","is making","will be made"],"answer":1},
+  {"q":"A goal ____ by Bandar.","options":["is scored","scored","will be scored","was scored"],"answer":3},
+  {"q":"This house was ____ my grandfather.","options":["build for","build by","built for","built by"],"answer":3},
+  {"q":"This exercise will ____ at home by me.","options":["be doing","do","have done","be done"],"answer":3},
+  {"q":"Was the window pane ____ the children?","options":["broke","broken by","broke for","broken for"],"answer":1},
+  {"q":"All the beds were ____ my grandmother.","options":["made by","made for","make by","make for"],"answer":0},
+  {"q":"Many writers were ____ Shakespeare.","options":["influence by","influenced by","influence for","influenced for"],"answer":1},
+  {"q":"The money ____ stolen by the thieves if you leave it there.","options":["was","will be","has been","is"],"answer":1},
+  {"q":"This mansion ____ in 1750.","options":["is built","was built","will be built","built"],"answer":1}
+]
