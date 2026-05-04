@@ -1,0 +1,12 @@
+[
+  {"q":"My sister is two years ____ than me.","options":["young","so young","younger","youngest"],"answer":2},
+  {"q":"What are the ____ animals in the world?","options":["slow","slow as","slower","slowest"],"answer":3},
+  {"q":"Math is ____ to me than biology.","options":["important","so important","more important","most important"],"answer":2},
+  {"q":"Hiba is ____ doctor in our city.","options":["good","good as","better","the best"],"answer":3},
+  {"q":"English is ____ for me than Chinese.","options":["easy","very easy","easier","easiest"],"answer":2},
+  {"q":"My phone is ____ than my brother's phone.","options":["expensive","so expensive","more expensive","most expensive"],"answer":2},
+  {"q":"Who is ____ runner: Sami or Abdullah?","options":["bad","very bad","worse","worst"],"answer":2},
+  {"q":"Can you name ____ building in the world?","options":["high","so high","higher","the highest"],"answer":3},
+  {"q":"Maram is ____ than Kawthar in my class.","options":["clever","clever as","cleverer","cleverest"],"answer":2},
+  {"q":"Jimmy can't walk as fast as his father. His father walks ____ than him.","options":["more quickly","quickly","most quickly","quicklier"],"answer":0}
+]

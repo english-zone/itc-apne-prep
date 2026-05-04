@@ -1,0 +1,14 @@
+{"words":[
+  {"correct":"mechanic","options":["mechanic","mekanic","mechanik","mechaniq"]},
+  {"correct":"factory","options":["factory","faktory","factorey","factry"]},
+  {"correct":"farmer","options":["farmer","farmar","farmor","pharmer"]},
+  {"correct":"teacher","options":["teacher","techer","teachar","teecher"]},
+  {"correct":"officer","options":["officer","oficer","offiser","officar"]},
+  {"correct":"restaurant","options":["restaurant","restuarant","restorant","restaurent"]},
+  {"correct":"librarian","options":["librarian","librairan","librarien","librerian"]},
+  {"correct":"populous","options":["populous","populus","populos","populess"]},
+  {"correct":"agriculture","options":["agriculture","agraculture","agriculcher","agricultre"]},
+  {"correct":"irrigation","options":["irrigation","irigation","irregashion","irrrigation"]},
+  {"correct":"drought","options":["drought","drout","drowt","droughte"]},
+  {"correct":"priority","options":["priority","priorety","prioritee","prioreti"]}
+]}

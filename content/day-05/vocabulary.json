@@ -1,0 +1,28 @@
+{
+  "topic": "Jobs, Work & Reading Vocabulary",
+  "pageRange": "72-74, 6-8",
+  "words": [
+    {"english":"mechanic","arabic":"ميكانيكي","page":"72","question":{"q":"The car worked well after ____ repaired it.","options":["teacher","mechanic","farmer","traffic warden"],"answer":1}},
+    {"english":"doctor","arabic":"طبيب","page":"72","question":{"q":"Mariam works in a hospital. She's training to be a","options":["waiter","doctor","secretary","librarian"],"answer":1}},
+    {"english":"nurse","arabic":"ممرض","page":"72","question":{"q":"A ____ helps doctors take care of patients.","options":["nurse","teacher","farmer","driver"],"answer":0}},
+    {"english":"factory","arabic":"مصنع","page":"72","question":{"q":"I work in a ____. We make televisions.","options":["hospital","office","bank","factory"],"answer":3}},
+    {"english":"farmer","arabic":"مزارع","page":"72","question":{"q":"____ usually take care of lands and animals.","options":["Farmers","Doctors","Engineers","Barbers"],"answer":0}},
+    {"english":"teacher","arabic":"معلم","page":"72","question":{"q":"You need to know how to deal with children to be a good","options":["traffic warden","school teacher","bank clerk","librarian"],"answer":1}},
+    {"english":"police officer","arabic":"ضابط شرطة","page":"73","question":{"q":"A ____ has a dangerous job because he deals with criminals.","options":["doctor","Police officer","librarian","waiter"],"answer":1}},
+    {"english":"waiter","arabic":"نادل","page":"73","question":{"q":"Ali serves food in a restaurant. He is a hard working","options":["doctor","Police officer","librarian","waiter"],"answer":3}},
+    {"english":"barber","arabic":"حلاق","page":"73","question":{"q":"I need to go to the ____ to have my hair cut.","options":["doctor","Police officer","librarian","Barber"],"answer":3}},
+    {"english":"bank","arabic":"بنك","page":"73","question":{"q":"I need to go to the ____ to open a checking account.","options":["shop","restaurant","bank","factory"],"answer":2}},
+    {"english":"restaurant","arabic":"مطعم","page":"73","question":{"q":"We had dinner at a nice ____.","options":["restaurant","bank","pharmacy","garage"],"answer":0}},
+    {"english":"librarian","arabic":"أمين مكتبة","page":"73","question":null},
+    {"english":"secretary","arabic":"سكرتير","page":"73","question":{"q":"The ____ schedules appointments for the boss.","options":["secretary","mechanic","farmer","waiter"],"answer":0}},
+    {"english":"priority","arabic":"أولوية","page":"73","question":{"q":"After getting a job, getting married is my top ____.","options":["income","environment","priority","January"],"answer":2}},
+    {"english":"income","arabic":"دخل","page":"73","question":{"q":"A regular ____ helps pay bills.","options":["income","expense","loan","debt"],"answer":0}},
+    {"english":"populous","arabic":"مكتظ بالسكان","page":"6","question":{"q":"California is the most ____ state in the U.S.","options":["empty","populous","quiet","small"],"answer":1}},
+    {"english":"agriculture","arabic":"زراعة","page":"6","question":{"q":"____ is a critical sector in California.","options":["Agriculture","Technology","Entertainment","Tourism"],"answer":0}},
+    {"english":"drought","arabic":"جفاف","page":"6","question":{"q":"California sometimes faces periods of ____.","options":["flood","drought","rain","snow"],"answer":1}},
+    {"english":"artifacts","arabic":"قطع أثرية","page":"7","question":{"q":"The museum houses ancient ____.","options":["animals","artifacts","plants","machines"],"answer":1}},
+    {"english":"irrigation","arabic":"ري","page":"7","question":{"q":"Farmers use ____ techniques to water crops.","options":["sleeping","irrigation","running","eating"],"answer":1}},
+    {"english":"fluctuation","arabic":"تذبذب","page":"7","question":{"q":"Economic ____ can affect jobs.","options":["stability","fluctuation","equality","certainty"],"answer":1}},
+    {"english":"archaeological","arabic":"أثري","page":"7","question":{"q":"____ sites attract tourists.","options":["Modern","Archaeological","Industrial","Residential"],"answer":1}}
+  ]
+}
