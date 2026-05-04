@@ -8,5 +8,20 @@
   {"q":"They suggested ____ to the movies.","options":["to go","going","go","went"],"answer":1},
   {"q":"I regret ____ him the truth.","options":["to tell","telling","tell","told"],"answer":1},
   {"q":"He forgot ____ the door before leaving.","options":["to lock","locking","lock","locked"],"answer":0},
-  {"q":"She avoided ____ him at the party.","options":["to see","seeing","see","seen"],"answer":1}
+  {"q":"She avoided ____ him at the party.","options":["to see","seeing","see","seen"],"answer":1},
+  {"q":"My grandmother ____ us every Sunday.","options":["used to visit","is used to visit","used to visiting","uses to visit"],"answer":0},
+  {"q":"I ____ early for school now.","options":["am used to get up","am used to getting up","used to get up","use to get up"],"answer":1},
+  {"q":"You will ____ the weather eventually.","options":["get used to","used to","be used to","use to"],"answer":0},
+  {"q":"Did you ____ eat Kabsa?","options":["use to","used to","used","using"],"answer":0},
+  {"q":"My brother is used to ____ early for school.","options":["get up","getting up","got up","gets up"],"answer":1},
+  {"q":"We love ____ new places.","options":["travel","to travel","travels","traveled"],"answer":1},
+  {"q":"He offered ____ me a cup of coffee.","options":["buy","to buy","buying","bought"],"answer":1},
+  {"q":"She started ____ when she was five.","options":["dance","dancing","to dancing","danced"],"answer":1},
+  {"q":"I can't wait ____ my vacation.","options":["start","to start","starting","started"],"answer":1},
+  {"q":"They admitted ____ a mistake.","options":["make","to make","making","made"],"answer":2},
+  {"q":"He refused ____ the question.","options":["answer","to answer","answering","answered"],"answer":1},
+  {"q":"I ____ a lot of coffee, but now I drink tea.","options":["used to drink","am used to drink","used to drinking","use to drink"],"answer":0},
+  {"q":"It's hard to ____ working at night.","options":["get used to","used to","be used to","use to"],"answer":0},
+  {"q":"She ____ living alone.","options":["is used to","used to","use to","get used to"],"answer":0},
+  {"q":"Remember ____ your homework tomorrow.","options":["bring","bringing","to bring","brought"],"answer":2}
 ]
