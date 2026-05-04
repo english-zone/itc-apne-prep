@@ -8,21 +8,21 @@
         {
           "q": "1. What is the main reason Singapore is a leader in vertical farming?",
           "options": [
-            "It has the largest fields in Asia",
             "It imports more than 90% of its food",
+            "It has the cheapest electricity",
             "It has banned traditional farming",
-            "It has the cheapest electricity"
+            "It has the largest fields in Asia"
           ],
-          "answer": 1,
+          "answer": 0,
           "justification": "النص يوضح أن سنغافورة تستورد أكثر من 90% من غذائها، مما يجعلها متحمسة لتطوير الزراعة العمودية كحل بديل."
         },
         {
           "q": "2. What is a major environmental benefit of vertical farming?",
           "options": [
+            "It requires large amounts of pesticides",
             "It uses more water than traditional farming",
-            "It increases 'food miles'",
             "It reduces water usage by up to 95%",
-            "It requires large amounts of pesticides"
+            "It increases 'food miles'"
           ],
           "answer": 2,
           "justification": "النص يذكر أن استهلاك الماء ينخفض بنسبة تصل إلى 95% مقارنة بالزراعة التقليدية."
@@ -30,10 +30,10 @@
         {
           "q": "3. Which challenge of vertical farming is highlighted in the passage?",
           "options": [
-            "Lack of consumer interest",
-            "High energy consumption for LED lighting",
             "Excessive use of pesticides",
-            "Inability to grow any crops"
+            "High energy consumption for LED lighting",
+            "Inability to grow any crops",
+            "Lack of consumer interest"
           ],
           "answer": 1,
           "justification": "يوضح النص أن التحدي الأكبر هو استهلاك الطاقة بسبب اضطرار المصابيح للعمل حتى 18 ساعة يومياً."
@@ -41,12 +41,12 @@
         {
           "q": "4. According to the passage, what happened during the COVID‑19 pandemic?",
           "options": [
-            "Vertical farms closed permanently",
-            "Demand for locally grown food increased",
             "Governments banned vertical farming",
-            "LED lights became obsolete"
+            "LED lights became obsolete",
+            "Vertical farms closed permanently",
+            "Demand for locally grown food increased"
           ],
-          "answer": 1,
+          "answer": 3,
           "justification": "يشير النص إلى أن الطلب على شركات الزراعة العمودية ارتفع أثناء الجائحة عندما تعطلت سلاسل التوريد."
         }
       ]
@@ -58,45 +58,45 @@
         {
           "q": "1. Where was the Antikythera Mechanism discovered?",
           "options": [
-            "In a desert in Egypt",
             "In a Roman shipwreck near Greece",
             "Buried in the Roman Forum",
+            "In a desert in Egypt",
             "In a Mayan temple"
           ],
-          "answer": 1,
+          "answer": 0,
           "justification": "الفقرة الأولى تذكر أن الغواصين عثروا على الآلية في حطام سفينة رومانية قرب جزيرة أنتيكيثيرا اليونانية."
         },
         {
           "q": "2. What is the Antikythera Mechanism often called?",
           "options": [
+            "The first telescope",
             "The first steam engine",
-            "The world's first analogue computer",
             "The first electric clock",
-            "The first telescope"
+            "The world's first analogue computer"
           ],
-          "answer": 1,
+          "answer": 3,
           "justification": "يصف النص الآلية بأنها أول حاسوب تمثيلي (analogue computer) في العالم."
         },
         {
           "q": "3. How did 21st‑century researchers read the inscriptions inside the mechanism without damaging it?",
           "options": [
-            "They took it apart piece by piece",
             "They used X‑ray and CT scans",
-            "They polished the surface until the text appeared",
-            "They used chemical baths"
+            "They took it apart piece by piece",
+            "They used chemical baths",
+            "They polished the surface until the text appeared"
           ],
-          "answer": 1,
+          "answer": 0,
           "justification": "الفقرة الثالثة توضح أن الباحثين استخدموا الأشعة السينية والتصوير الطبقي (CT scans) لقراءة النقوش دون ضرر."
         },
         {
           "q": "4. According to the passage, what happened to the technology after the Roman Empire fell?",
           "options": [
-            "It was improved by the Vikings",
-            "It was taken to China",
             "It was lost for over a thousand years",
-            "It was duplicated immediately"
+            "It was taken to China",
+            "It was duplicated immediately",
+            "It was improved by the Vikings"
           ],
-          "answer": 2,
+          "answer": 0,
           "justification": "يشير النص إلى أن التقنية فُقدت لأكثر من ألف عام بعد سقوط الإمبراطورية الرومانية."
         }
       ]
@@ -106,49 +106,49 @@
     {
       "q": "1. Please leave your room key at Reception. (Where?)",
       "options": [
+        "B. in a hotel",
         "C. in a taxi",
-        "A. in a shop",
-        "B. in a hotel"
+        "A. in a shop"
       ],
-      "answer": 2,
+      "answer": 0,
       "justification": "طلب ترك مفتاح الغرفة في الاستقبال يكون في الفنادق."
     },
     {
       "q": "2. Foreign money changed here. (Where?)",
       "options": [
-        "B. in a bank",
+        "A. in a library",
         "C. in a police station",
-        "A. in a library"
+        "B. in a bank"
       ],
-      "answer": 0,
+      "answer": 2,
       "justification": "تحويل العملات الأجنبية يتم في البنوك."
     },
     {
       "q": "3. AFTERNOON SHOW BEGINS AT 2PM. (Where?)",
       "options": [
-        "B. at a music school",
+        "A. at a travel agent’s",
         "C. at a restaurant",
-        "A. at a travel agent’s"
+        "B. at a music school"
       ],
-      "answer": 2,
+      "answer": 0,
       "justification": "هذه اللافتة تُشاهد في وكالة السفر أو السينما."
     },
     {
       "q": "4. Price per night: £10 a tent £5 a person. (Where?)",
       "options": [
-        "B. in a hotel",
         "C. on a camp-site",
-        "A. at a cinema"
+        "A. at a cinema",
+        "B. in a hotel"
       ],
-      "answer": 1,
+      "answer": 0,
       "justification": "أسعار الخيام والأشخاص تشير إلى موقع تخييم."
     },
     {
       "q": "5. (Scotland) Some people _____ Scotland speak a different language.",
       "options": [
         "B. in",
-        "C. at",
-        "A. on"
+        "A. on",
+        "C. at"
       ],
       "answer": 0,
       "justification": "نستخدم 'in' مع البلدان."
@@ -157,30 +157,30 @@
       "q": "6. There are _____ five million people in Scotland.",
       "options": [
         "C. among",
-        "A. about",
-        "B. between"
+        "B. between",
+        "A. about"
       ],
-      "answer": 1,
+      "answer": 2,
       "justification": "'about' تعني تقريباً."
     },
     {
       "q": "7. Edinburgh is _____ most famous city.",
       "options": [
-        "A. his",
         "C. its",
-        "B. your"
+        "B. your",
+        "A. his"
       ],
-      "answer": 1,
+      "answer": 0,
       "justification": "الضمير يعود على Scotland، لذا 'its'."
     },
     {
       "q": "8. A long time ago, there _____ many forests.",
       "options": [
-        "C. was",
         "B. were",
-        "A. is"
+        "A. is",
+        "C. was"
       ],
-      "answer": 1,
+      "answer": 0,
       "justification": "'forests' جمع وماض، لذا 'were'."
     },
     {
@@ -196,67 +196,67 @@
     {
       "q": "10. (Alice Guy) She first became involved in cinema...",
       "options": [
-        "B. including",
-        "C. containing",
+        "A. bringing",
         "D. supporting",
-        "A. bringing"
+        "C. containing",
+        "B. including"
       ],
-      "answer": 0,
+      "answer": 3,
       "justification": "'including' تعني بما في ذلك."
     },
     {
       "q": "11. In 1907 Alice _____ to New York.",
       "options": [
-        "D. transported",
-        "C. entered",
         "A. moved",
-        "B. ran"
+        "D. transported",
+        "B. ran",
+        "C. entered"
       ],
-      "answer": 2,
+      "answer": 0,
       "justification": "'moved' تعني انتقلت."
     },
     {
       "q": "12. She was _____ successful.",
       "options": [
         "A. next",
+        "B. once",
         "D. recently",
-        "C. immediately",
-        "B. once"
+        "C. immediately"
       ],
-      "answer": 2,
+      "answer": 3,
       "justification": "'immediately' تعني فوراً."
     },
     {
       "q": "13. The best days were _____.",
       "options": [
-        "B. down",
-        "C. behind",
+        "A. after",
         "D. over",
-        "A. after"
+        "B. down",
+        "C. behind"
       ],
-      "answer": 2,
+      "answer": 1,
       "justification": "'over' تعني انتهت."
     },
     {
       "q": "14. Hardly anybody _____ her name.",
       "options": [
-        "A. remembered",
         "D. repeated",
+        "A. remembered",
         "C. reminded",
         "B. realised"
       ],
-      "answer": 0,
+      "answer": 1,
       "justification": "'remembered' تعني تذكر."
     },
     {
       "q": "15. (UFOs) ...flying saucers, _____ that is often...",
       "options": [
-        "A. because",
-        "D. so",
         "B. therefore",
+        "D. so",
+        "A. because",
         "C. although"
       ],
-      "answer": 0,
+      "answer": 2,
       "justification": "'because' تعطي سبباً."
     },
     {
@@ -264,8 +264,8 @@
       "options": [
         "A. look",
         "B. shape",
-        "C. size",
-        "D. type"
+        "D. type",
+        "C. size"
       ],
       "answer": 1,
       "justification": "'shape' تعني الشكل."
@@ -273,10 +273,10 @@
     {
       "q": "17. The _____ 'flying saucers' were seen in 1947.",
       "options": [
-        "D. oldest",
+        "B. next",
         "A. last",
         "C. first",
-        "B. next"
+        "D. oldest"
       ],
       "answer": 2,
       "justification": "'first' تشير إلى أول مرة."
@@ -284,23 +284,23 @@
     {
       "q": "18. ...people experienced at watching the sky, _____ as pilots...",
       "options": [
-        "B. that",
+        "A. like",
         "C. so",
-        "D. such",
-        "A. like"
+        "B. that",
+        "D. such"
       ],
-      "answer": 2,
+      "answer": 3,
       "justification": "'such as' تستخدم لضرب أمثلة."
     },
     {
       "q": "19. A television _____ went up with the pilot.",
       "options": [
-        "D. announcer",
         "A. cameraman",
         "C. actor",
-        "B. director"
+        "B. director",
+        "D. announcer"
       ],
-      "answer": 1,
+      "answer": 0,
       "justification": "التلفزيون يرسل مصوراً."
     },
     {
@@ -308,8 +308,8 @@
       "options": [
         "D. to write",
         "B. write",
-        "C. wrote",
-        "A. should write"
+        "A. should write",
+        "C. wrote"
       ],
       "answer": 0,
       "justification": "'encourage + someone + to + مصدر'."
@@ -317,9 +317,9 @@
     {
       "q": "21. They spent a lot of time _____ at the pictures.",
       "options": [
-        "B. for looking",
-        "D. to looking",
         "C. to look",
+        "D. to looking",
+        "B. for looking",
         "A. looking"
       ],
       "answer": 3,
@@ -328,42 +328,42 @@
     {
       "q": "22. Shirley enjoys science lessons, but all her experiments seem to _____ wrong.",
       "options": [
-        "D. go",
         "C. end",
-        "B. come",
-        "A. turn"
+        "D. go",
+        "A. turn",
+        "B. come"
       ],
-      "answer": 0,
+      "answer": 1,
       "justification": "'go wrong' هو التعبير الاصطلاحي."
     },
     {
       "q": "23. _____ from Michael, all the group arrived on time.",
       "options": [
-        "D. Apart",
-        "B. Other",
         "A. Except",
+        "B. Other",
+        "D. Apart",
         "C. Besides"
       ],
-      "answer": 0,
+      "answer": 2,
       "justification": "'Apart from' تعني باستثناء."
     },
     {
       "q": "24. She _____ her neighbour’s children for the broken window.",
       "options": [
-        "C. blamed",
         "B. complained",
         "D. denied",
-        "A. accused"
+        "A. accused",
+        "C. blamed"
       ],
-      "answer": 0,
+      "answer": 3,
       "justification": "'blamed someone for something'."
     },
     {
       "q": "25. My friend went _____ the homework with me.",
       "options": [
         "C. over",
-        "D. on",
         "B. after",
+        "D. on",
         "A. by"
       ],
       "answer": 0,
@@ -373,9 +373,9 @@
       "q": "26. Whether she’s a good actress is a _____ of opinion.",
       "options": [
         "A. matter",
-        "B. subject",
         "D. case",
-        "C. point"
+        "C. point",
+        "B. subject"
       ],
       "answer": 0,
       "justification": "'a matter of opinion' تعبير ثابت."
@@ -383,20 +383,20 @@
     {
       "q": "27. The decorated roof was _____ up by four thin columns.",
       "options": [
-        "B. carried",
-        "D. supported",
+        "C. held",
         "A. built",
-        "C. held"
+        "D. supported",
+        "B. carried"
       ],
-      "answer": 1,
+      "answer": 2,
       "justification": "'supported' تعني مدعوم."
     },
     {
       "q": "28. Would it _____ you if we came on Thursday?",
       "options": [
         "D. fit",
-        "C. like",
         "A. agree",
+        "C. like",
         "B. suit"
       ],
       "answer": 3,
@@ -405,12 +405,12 @@
     {
       "q": "29. This form _____ be handed in until the end of the week.",
       "options": [
-        "B. doesn't have",
         "A. doesn't need",
-        "D. hasn't got",
-        "C. needn't"
+        "B. doesn't have",
+        "C. needn't",
+        "D. hasn't got"
       ],
-      "answer": 3,
+      "answer": 2,
       "justification": "'needn't' تعني لا حاجة."
     },
     {
@@ -418,43 +418,43 @@
       "options": [
         "D. wipe",
         "B. clear",
-        "C. do",
-        "A. cross"
+        "A. cross",
+        "C. do"
       ],
-      "answer": 3,
+      "answer": 2,
       "justification": "'cross out' يعني يشطب."
     },
     {
       "q": "31. Although our opinions _____, we’re good friends.",
       "options": [
-        "A. differ",
+        "D. divide",
         "C. disagree",
-        "B. oppose",
-        "D. divide"
+        "A. differ",
+        "B. oppose"
       ],
-      "answer": 0,
+      "answer": 2,
       "justification": "'differ' تعني تختلف."
     },
     {
       "q": "32. This product must be eaten _____ two days of purchase.",
       "options": [
-        "D. under",
-        "B. before",
         "C. within",
-        "A. by"
+        "A. by",
+        "B. before",
+        "D. under"
       ],
-      "answer": 2,
+      "answer": 0,
       "justification": "'within' تعني خلال مدة زمنية."
     },
     {
       "q": "33. The newspaper report contained _____ important information.",
       "options": [
-        "A. many",
-        "B. another",
         "C. an",
-        "D. a lot of"
+        "B. another",
+        "D. a lot of",
+        "A. many"
       ],
-      "answer": 3,
+      "answer": 2,
       "justification": "'information' غير معدودة، لذا 'a lot of'."
     },
     {
@@ -462,10 +462,10 @@
       "options": [
         "A. move",
         "C. to be moving",
-        "D. moving",
-        "B. to move"
+        "B. to move",
+        "D. moving"
       ],
-      "answer": 2,
+      "answer": 3,
       "justification": "'consider' يأتي بعده gerund."
     },
     {
@@ -482,32 +482,32 @@
     {
       "q": "36. I thought there was a _____ of jealousy in his reaction.",
       "options": [
-        "B. part",
         "A. piece",
-        "C. shadow",
-        "D. touch"
+        "B. part",
+        "D. touch",
+        "C. shadow"
       ],
-      "answer": 3,
+      "answer": 2,
       "justification": "'a touch of' تعني قليل من."
     },
     {
       "q": "37. Why didn’t you _____ that you were feeling ill?",
       "options": [
-        "A. advise",
-        "C. remark",
         "B. mention",
-        "D. tell"
+        "C. remark",
+        "D. tell",
+        "A. advise"
       ],
-      "answer": 2,
+      "answer": 0,
       "justification": "'mention' تعني يذكر."
     },
     {
       "q": "38. James was not sure where his best interests _____.",
       "options": [
         "D. centred",
-        "B. rested",
+        "A. stood",
         "C. lay",
-        "A. stood"
+        "B. rested"
       ],
       "answer": 2,
       "justification": "'lay' (lie) تعني تقع."
@@ -515,10 +515,10 @@
     {
       "q": "39. He’s still getting _____ the shock of losing his job.",
       "options": [
-        "D. through",
+        "B. by",
         "A. across",
         "C. over",
-        "B. by"
+        "D. through"
       ],
       "answer": 2,
       "justification": "'get over' يعني يتعافى من صدمة."
@@ -528,43 +528,43 @@
     {
       "q": "She made a ____ flight across the Atlantic.",
       "options": [
-        "solo",
-        "group",
+        "family",
         "passenger",
-        "family"
+        "group",
+        "solo"
       ],
-      "answer": 0,
+      "answer": 3,
       "justification": "المعنى الصحيح لـ 'solo' هو 'منفرد'."
     },
     {
       "q": "Biceps is a ____ in the arm.",
       "options": [
-        "bone",
-        "tendon",
         "muscle",
-        "joint"
+        "joint",
+        "bone",
+        "tendon"
       ],
-      "answer": 2,
+      "answer": 0,
       "justification": "المعنى الصحيح لـ 'muscle' هو 'عضلة'."
     },
     {
       "q": "Open an account at a ____.",
       "options": [
-        "factory",
+        "shop",
         "restaurant",
-        "bank",
-        "shop"
+        "factory",
+        "bank"
       ],
-      "answer": 2,
+      "answer": 3,
       "justification": "المعنى الصحيح لـ 'bank' هو 'بنك'."
     },
     {
       "q": "____ skills decline with age.",
       "options": [
-        "Skeletal",
         "Physical",
+        "Muscular",
         "Cognitive",
-        "Muscular"
+        "Skeletal"
       ],
       "answer": 2,
       "justification": "المعنى الصحيح لـ 'cognitive' هو 'معرفي'."
@@ -573,66 +573,66 @@
       "q": "Scientists seek ____ alternatives to plastic.",
       "options": [
         "cheaper",
-        "biodegradable",
         "stronger",
+        "biodegradable",
         "heavier"
       ],
-      "answer": 1,
+      "answer": 2,
       "justification": "المعنى الصحيح لـ 'biodegradable' هو 'قابل للتحلل'."
     },
     {
       "q": "The Great Wall was built over many ____.",
       "options": [
-        "dynasties",
         "empires",
-        "continents",
-        "republics"
+        "republics",
+        "dynasties",
+        "continents"
       ],
-      "answer": 0,
+      "answer": 2,
       "justification": "المعنى الصحيح لـ 'dynasty' هو 'سلالة'."
     },
     {
       "q": "The report includes ____ about population.",
       "options": [
+        "pictures",
         "statistics",
-        "songs",
         "stories",
-        "pictures"
+        "songs"
       ],
-      "answer": 0,
+      "answer": 1,
       "justification": "المعنى الصحيح لـ 'statistics' هو 'إحصائيات'."
     },
     {
       "q": "Coffee is a popular ____.",
       "options": [
-        "machine",
         "food",
         "beverage",
-        "sport"
+        "sport",
+        "machine"
       ],
-      "answer": 2,
+      "answer": 1,
       "justification": "المعنى الصحيح لـ 'beverage' هو 'مشروب'."
     },
     {
       "q": "The All Blacks' ____ is a silver fern.",
       "options": [
-        "emblem",
-        "flag",
         "ball",
+        "flag",
+        "emblem",
         "song"
       ],
-      "answer": 0,
+      "answer": 2,
       "justification": "المعنى الصحيح لـ 'emblem' هو 'شعار'."
     },
     {
       "q": "I need my ____ for football.",
       "options": [
-        "Shoes",
-        "trainers",
         "belt",
-        "gloves"
+        "gloves",
+        "Shoes",
+        "trainers"
       ],
-      "answer": 1,
+      "answer": 3,
       "justification": "المعنى الصحيح لـ 'trainers' هو 'حذاء رياضي'."
     }
   ],
@@ -640,31 +640,31 @@
     {
       "q": "اختر التهجئة الصحيحة للكلمة.",
       "options": [
-        "caldera",
         "caldira",
-        "calderah",
-        "calderra"
+        "caldera",
+        "calderra",
+        "calderah"
       ],
-      "answer": 0,
+      "answer": 1,
       "justification": "التهجئة الصحيحة هي 'caldera'."
     },
     {
       "q": "اختر التهجئة الصحيحة للكلمة.",
       "options": [
         "invenshun",
-        "invention",
         "inventyion",
-        "invetion"
+        "invetion",
+        "invention"
       ],
-      "answer": 1,
+      "answer": 3,
       "justification": "التهجئة الصحيحة هي 'invention'."
     },
     {
       "q": "اختر التهجئة الصحيحة للكلمة.",
       "options": [
         "sneeze",
-        "snease",
         "sneize",
+        "snease",
         "sneez"
       ],
       "answer": 0,
@@ -673,74 +673,74 @@
     {
       "q": "اختر التهجئة الصحيحة للكلمة.",
       "options": [
-        "muscle",
         "muscel",
         "muscal",
-        "mussle"
+        "mussle",
+        "muscle"
       ],
-      "answer": 0,
+      "answer": 3,
       "justification": "التهجئة الصحيحة هي 'muscle'."
     },
     {
       "q": "اختر التهجئة الصحيحة للكلمة.",
       "options": [
-        "husbant",
+        "husband",
         "husbend",
         "hasbund",
-        "husband"
+        "husbant"
       ],
-      "answer": 3,
+      "answer": 0,
       "justification": "التهجئة الصحيحة هي 'husband'."
     },
     {
       "q": "اختر التهجئة الصحيحة للكلمة.",
       "options": [
-        "extention",
-        "extension"
+        "extension",
+        "extention"
       ],
-      "answer": 1,
+      "answer": 0,
       "justification": "التهجئة الصحيحة هي 'extension'."
     },
     {
       "q": "اختر التهجئة الصحيحة للكلمة.",
       "options": [
-        "asthma",
         "asthama",
+        "asthma",
         "asthmah",
         "astma"
       ],
-      "answer": 0,
+      "answer": 1,
       "justification": "التهجئة الصحيحة هي 'asthma'."
     },
     {
       "q": "اختر التهجئة الصحيحة للكلمة.",
       "options": [
-        "international",
-        "interational"
+        "interational",
+        "international"
       ],
-      "answer": 0,
+      "answer": 1,
       "justification": "التهجئة الصحيحة هي 'international'."
     },
     {
       "q": "اختر التهجئة الصحيحة للكلمة.",
       "options": [
-        "pedel",
-        "peddal",
         "pidal",
-        "pedal"
+        "pedel",
+        "pedal",
+        "peddal"
       ],
-      "answer": 3,
+      "answer": 2,
       "justification": "التهجئة الصحيحة هي 'pedal'."
     },
     {
       "q": "اختر التهجئة الصحيحة للكلمة.",
       "options": [
-        "navigator",
         "navigater",
-        "navgator",
-        "navigetor"
+        "navigator",
+        "navigetor",
+        "navgator"
       ],
-      "answer": 0,
+      "answer": 1,
       "justification": "التهجئة الصحيحة هي 'navigator'."
     }
   ]
