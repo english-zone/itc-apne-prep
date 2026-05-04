@@ -411,16 +411,3 @@
     }
   ]
 }
-
-# حفظ الملف
-with open("content/exams/compilation-1.json", "w", encoding="utf-8") as f:
-    json.dump(compilation_1, f, ensure_ascii=False, indent=2)
-
-print("✅ تم حفظ compilation-1.json")
-PYEOF
-
-git add content/exams/compilation-1.json
-git commit -m "تحديث التجميع الأول بالمحتوى الكامل (92 سؤالاً)"
-git push origin main
-
-echo "✅ التجميع الأول أصبح كاملاً. يمكنك الآن فتحه مباشرة من الموقع."
