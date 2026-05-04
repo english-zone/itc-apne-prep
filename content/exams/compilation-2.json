@@ -2,15 +2,126 @@
   "title": "تجميع 2",
   "passages": [
     {
-      "title": "محاكاة: الزراعة العمودية",
-      "text": "Vertical farming is an innovative method of growing crops...",
+      "title": "The Quiet Revolution of Vertical Farming",
+      "text": "In the heart of Singapore, a country that imports more than 90% of its food, a quiet agricultural revolution is taking place – not across sprawling fields, but inside towering glass skyscrapers. Known as vertical farming, this method involves growing crops in stacked layers, often without soil, using hydroponic or aeroponic systems. The concept may sound like science fiction, yet it is already producing tonnes of leafy greens, herbs, and even strawberries annually. Proponents argue that vertical farming could be the answer to feeding a global population that is expected to reach 10 billion by 2050, especially as climate change makes traditional agriculture increasingly unpredictable.\n\nThe advantages of vertical farming are compelling. Because crops are grown indoors, they are not affected by droughts, floods, or extreme temperatures. Pesticides become unnecessary, as the sealed environment keeps pests out. Water usage is reduced by up to 95% compared to conventional farming. Moreover, vertical farms can be built in the middle of cities, drastically cutting the distance that food travels from farm to plate – a concept known as 'food miles'. This not only reduces carbon emissions from transport but also means that city dwellers have access to fresher produce that is harvested only hours before it arrives at their table.\n\nHowever, the technology is not without its challenges. The most significant barrier is energy consumption. Since sunlight is replaced by powerful LED lamps that run for up to 18 hours a day, electricity bills can be enormous. Although advances in LED efficiency and the falling cost of renewable energy are helping to mitigate this problem, many vertical farms still rely on electricity grids that are powered largely by fossil fuels. Critics also point out that the range of crops that can be grown vertically is currently limited to high‑value, fast‑growing plants such as lettuce and basil. Staple crops like wheat, rice, and maize remain firmly in the domain of traditional agriculture due to their large space requirements and longer growing cycles.\n\nEconomically, vertical farming is still finding its feet. The initial setup costs are very high, and investors are often cautious. Nevertheless, during the COVID‑19 pandemic, when global supply chains were disrupted, several vertical‑farming startups saw a surge in demand as governments scrambled to increase local food production. In 2021, a major US retailer partnered with a vertical‑farming company to supply over 200 of its stores with locally grown greens. Analysts predict that the vertical farming market, valued at around $4 billion in 2023, will grow to more than $30 billion by 2032. Such growth would be transformative – but only if the industry can solve its energy and scalability problems.\n\nScientists are now experimenting with solutions that once seemed far‑fetched. Researchers in the Netherlands have developed 'smart glass' that adjusts its tint to deliver the optimal spectrum of sunlight to plants, reducing the need for artificial lighting. In Japan, robotic arms are being trained to plant, monitor, and harvest crops with minimal human intervention, addressing labour shortages. Perhaps most excitingly, geneticists are editing the DNA of crops to make them shorter and bushier, specifically adapting them to life indoors. Whether vertical farming will eventually replace the open field remains an open question, but one thing is certain: the journey from farm to fork is being rewritten, one vertical layer at a time.",
       "questions": [
-        {"q": "ما هي الزراعة العمودية؟", "options": ["زراعة في الحقول", "زراعة في طبقات مكدسة", "زراعة تحت الماء", "زراعة في الصحاري"], "answer": 1, "justification": "الزراعة العمودية هي زراعة المحاصيل في طبقات مكدسة."}
+        {
+          "q": "1. What is the main reason Singapore is a leader in vertical farming?",
+          "options": [
+            "It has the largest fields in Asia",
+            "It imports more than 90% of its food",
+            "It has banned traditional farming",
+            "It has the cheapest electricity"
+          ],
+          "answer": 1,
+          "justification": "النص يوضح أن سنغافورة تستورد أكثر من 90% من غذائها، مما يجعلها متحمسة لتطوير الزراعة العمودية كحل بديل."
+        },
+        {
+          "q": "2. What is a major environmental benefit of vertical farming?",
+          "options": [
+            "It uses more water than traditional farming",
+            "It increases 'food miles'",
+            "It reduces water usage by up to 95%",
+            "It requires large amounts of pesticides"
+          ],
+          "answer": 2,
+          "justification": "النص يذكر أن استهلاك الماء ينخفض بنسبة تصل إلى 95% مقارنة بالزراعة التقليدية."
+        },
+        {
+          "q": "3. Which challenge of vertical farming is highlighted in the passage?",
+          "options": [
+            "Lack of consumer interest",
+            "High energy consumption for LED lighting",
+            "Excessive use of pesticides",
+            "Inability to grow any crops"
+          ],
+          "answer": 1,
+          "justification": "يوضح النص أن التحدي الأكبر هو استهلاك الطاقة بسبب اضطرار المصابيح للعمل حتى 18 ساعة يومياً."
+        },
+        {
+          "q": "4. According to the passage, what happened during the COVID‑19 pandemic?",
+          "options": [
+            "Vertical farms closed permanently",
+            "Demand for locally grown food increased",
+            "Governments banned vertical farming",
+            "LED lights became obsolete"
+          ],
+          "answer": 1,
+          "justification": "يشير النص إلى أن الطلب على شركات الزراعة العمودية ارتفع أثناء الجائحة عندما تعطلت سلاسل التوريد."
+        }
+      ]
+    },
+    {
+      "title": "The Enigma of the Antikythera Mechanism",
+      "text": "In 1901, a group of sponge divers off the coast of Antikythera, a small Greek island, discovered the remains of an ancient Roman shipwreck. Among statues, pottery, and coins, they retrieved a corroded lump of bronze and wood that appeared unremarkable at first glance. It was not until months later, when the lump cracked open and revealed intricate gear wheels inside, that archaeologists began to suspect they had found something extraordinary. Today, the Antikythera Mechanism is widely regarded as the world’s first analogue computer, a device so advanced that nothing comparable would be built again until the 14th century.\n\nThe mechanism consists of at least 30 bronze gears housed in a wooden case about the size of a shoebox. By turning a single hand crank, the user could track the movements of the sun, the moon, and the five known planets of antiquity with astonishing precision. It could also predict solar and lunar eclipses decades in advance, and some evidence suggests it may have even indicated the dates of important sporting events such as the Olympic Games. The intricacy of the device shocked historians, who had long assumed that the Greeks, while brilliant philosophers, lacked the technical know‑how to produce such precision machinery.\n\nX‑ray and CT scans carried out in the 21st century have allowed researchers to peer inside the corroded fragments without damaging them. These scans revealed tiny inscriptions, written in ancient Greek, which appear to be a kind of user manual. The inscriptions mention the names of planets and months, and describe the cycles of astronomical bodies. Based on the style of the lettering, scholars date the mechanism to between 150 and 100 BCE, making it over 2,100 years old. Some experts have speculated that it may have been built in the workshop of the philosopher Posidonius on the island of Rhodes, although this remains unconfirmed.\n\nThe function and sophistication of the mechanism have led to heated debates about its origins. Some fringe theorists have even suggested that such an advanced device must have been brought to Earth by extraterrestrials – a claim strongly rejected by mainstream archaeologists. A more likely explanation is that the device represented the culmination of centuries of Greek knowledge in astronomy, mathematics, and mechanical engineering. The technology appears to have been lost after the fall of the Roman Empire, and it took more than a thousand years for Europe to rediscover the principles required to build similar gear‑driven devices.\n\nEven today, the Antikythera Mechanism continues to inspire scientists and engineers. In 2021, a team of researchers from University College London used the inscriptions and mathematical models to reconstruct a complete digital version of what the machine must have looked like when it was whole. Their model matched the physical fragments almost perfectly, confirming that the mechanism truly could perform all the calculations that ancient texts hinted at. For many, the mechanism serves as a humbling reminder that the ancient world was far more technically sophisticated than we often give it credit for – and that some of the greatest discoveries may emerge from the most unassuming lumps of corroded metal.",
+      "questions": [
+        {
+          "q": "1. Where was the Antikythera Mechanism discovered?",
+          "options": [
+            "In a desert in Egypt",
+            "In a Roman shipwreck near Greece",
+            "Buried in the Roman Forum",
+            "In a Mayan temple"
+          ],
+          "answer": 1,
+          "justification": "الفقرة الأولى تذكر أن الغواصين عثروا على الآلية في حطام سفينة رومانية قرب جزيرة أنتيكيثيرا اليونانية."
+        },
+        {
+          "q": "2. What is the Antikythera Mechanism often called?",
+          "options": [
+            "The first steam engine",
+            "The world's first analogue computer",
+            "The first electric clock",
+            "The first telescope"
+          ],
+          "answer": 1,
+          "justification": "يصف النص الآلية بأنها أول حاسوب تمثيلي (analogue computer) في العالم."
+        },
+        {
+          "q": "3. How did 21st‑century researchers read the inscriptions inside the mechanism without damaging it?",
+          "options": [
+            "They took it apart piece by piece",
+            "They used X‑ray and CT scans",
+            "They polished the surface until the text appeared",
+            "They used chemical baths"
+          ],
+          "answer": 1,
+          "justification": "الفقرة الثالثة توضح أن الباحثين استخدموا الأشعة السينية والتصوير الطبقي (CT scans) لقراءة النقوش دون ضرر."
+        },
+        {
+          "q": "4. According to the passage, what happened to the technology after the Roman Empire fell?",
+          "options": [
+            "It was improved by the Vikings",
+            "It was taken to China",
+            "It was lost for over a thousand years",
+            "It was duplicated immediately"
+          ],
+          "answer": 2,
+          "justification": "يشير النص إلى أن التقنية فُقدت لأكثر من ألف عام بعد سقوط الإمبراطورية الرومانية."
+        }
       ]
     }
   ],
   "grammarQuestions": [
-    {"q": "The office _____ every day.", "options": ["is cleaned", "cleans", "was clean"], "answer": 0, "justification": "المبني للمجهول في المضارع البسيط: is + past participle."},
-    {"q": "They _____ to the market every day.", "options": ["go", "goes", "went"], "answer": 0, "justification": "الفاعل جمع، والمضارع البسيط يأخذ الفعل بصيغة الجمع."}
+    {
+      "q": "The office _____ every day.",
+      "options": [
+        "cleans",
+        "was clean",
+        "is cleaned"
+      ],
+      "answer": 2,
+      "justification": "المبني للمجهول في المضارع البسيط: is + past participle."
+    },
+    {
+      "q": "They _____ to the market every day.",
+      "options": [
+        "go",
+        "goes",
+        "went"
+      ],
+      "answer": 0,
+      "justification": "الفاعل جمع، والمضارع البسيط يأخذ الفعل بصيغة الجمع."
+    }
   ]
 }
