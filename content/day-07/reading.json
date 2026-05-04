@@ -1,0 +1,30 @@
+{
+  "passages": [
+    {
+      "title": "Review: The Risks of Farming",
+      "text": "Farming is one of the ten most dangerous jobs in the United States. Farm workers are more than five times more likely than other workers to die from an on-the-job injury. Both hot and cold weather conditions can create risks. Frequent exposure to the Sun can cause skin cancer. Farmers are three times more likely than the average citizen to get skin cancer. Chemicals and machinery also create risks. Farmers often work with dangerous chemicals but may have little training in using them safely. The poisons can even get into the water supply. Tractors and chainsaws can cause injuries or death. Certain people accept the risk because they love the outdoor lifestyle. But most of us are happy to let someone else do the dangerous work.",
+      "questions": [
+        {"q":"1. How many times more likely are farmers to die from on-the-job injuries?","options":["Two times","Three times","Five times","Ten times"],"answer":2,"page":"ص 90"},
+        {"q":"2. What can frequent sun exposure cause?","options":["Headaches","Skin cancer","Broken bones","Asthma"],"answer":1,"page":"ص 91"},
+        {"q":"3. What do farmers lack when using chemicals?","options":["Money","Time","Training","Equipment"],"answer":2,"page":"ص 91"},
+        {"q":"4. What kind of lifestyle do farmers enjoy?","options":["Indoor","City","Outdoor","Office"],"answer":2,"page":"ص 92"},
+        {"q":"5. What can tractor accidents cause?","options":["Joy","Laughter","Injuries or death","Wealth"],"answer":2,"page":"ص 91"},
+        {"q":"6. What can poisons from chemicals contaminate?","options":["Air only","Water supply","Sunlight","Soil only"],"answer":1,"page":"ص 91"},
+        {"q":"7. What kind of person is best suited for farming?","options":["People who love cities","People who want outdoor lifestyle","People who dislike animals","People who prefer office work"],"answer":1,"page":"ص 92"}
+      ]
+    },
+    {
+      "title": "Review: Voluntary Service Overseas",
+      "text": "VSO is a UK-based organization that fights poverty worldwide by sending volunteers to more than 40 countries. Its mission is to improve living conditions in disadvantaged areas where people lack housing, education, and healthcare. VSO addresses poor educational systems by training teachers and establishing effective learning methods. In healthcare, VSO recruits medical professionals to provide direct care and train local staff. Volunteers also work with local entrepreneurs to develop business skills and create sustainable income opportunities. By addressing root problems, VSO volunteers help communities achieve a better quality of life.",
+      "questions": [
+        {"q":"8. Where is VSO based?","options":["United States","United Kingdom","Canada","Australia"],"answer":1,"page":"ص 93"},
+        {"q":"9. How many countries does VSO work in?","options":["10","20","30","More than 40"],"answer":3,"page":"ص 93"},
+        {"q":"10. What do educational volunteers train?","options":["Students","Teachers","Doctors","Engineers"],"answer":1,"page":"ص 93"},
+        {"q":"11. What type of medical professionals does VSO seek?","options":["Dentists only","Surgeons only","Doctors, nurses, and surgeons","Pharmacists only"],"answer":2,"page":"ص 94"},
+        {"q":"12. What do business volunteers help create?","options":["Poverty","Problems","Sustainable income","Confusion"],"answer":2,"page":"ص 95"},
+        {"q":"13. What is VSO's main aim?","options":["Make profits","Fight poverty","Build roads","Sell products"],"answer":1,"page":"ص 93"},
+        {"q":"14. Who benefits from VSO's work?","options":["Only farmers","Only children","Communities in disadvantaged areas","Only doctors"],"answer":2,"page":"ص 93"}
+      ]
+    }
+  ]
+}

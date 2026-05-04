@@ -1,0 +1,22 @@
+[
+  {"q":"He ____ to school every day.","options":["go","goes","going","gone"],"answer":1},
+  {"q":"I ____ a new phone last week.","options":["buy","buys","bought","buying"],"answer":2},
+  {"q":"____ you see the match yesterday?","options":["Do","Did","Does","Was"],"answer":1},
+  {"q":"Look! The boys ____ football.","options":["play","played","are playing","plays"],"answer":2},
+  {"q":"She ____ her homework just now.","options":["finished","has finished","have finished","finish"],"answer":1},
+  {"q":"He ____ before I arrived.","options":["has left","had left","left","leaves"],"answer":1},
+  {"q":"By 2030, they ____ the project.","options":["complete","completed","will have completed","completing"],"answer":2},
+  {"q":"This letter ____ yesterday.","options":["was sent","sent","is sent","sends"],"answer":0},
+  {"q":"My car is ____ than yours.","options":["fast","faster","fastest","more fast"],"answer":1},
+  {"q":"He is ____ student in the class.","options":["good","better","best","the best"],"answer":3},
+  {"q":"I enjoy ____ novels.","options":["read","to read","reading","reads"],"answer":2},
+  {"q":"She decided ____ early.","options":["leave","to leave","leaving","leaves"],"answer":1},
+  {"q":"Some teachers ____ much homework.","options":["give","gives","are give","is give"],"answer":0},
+  {"q":"This house was ____ by my grandfather.","options":["build","built","builds","building"],"answer":1},
+  {"q":"What ____ you eat yesterday?","options":["do","did","were","are"],"answer":1},
+  {"q":"Snow ____ lightly when a reindeer appeared.","options":["fell","was falling","is falling","fallen"],"answer":1},
+  {"q":"I ____ my work yet.","options":["didn't finish","haven't finished","don't finish","wasn't finish"],"answer":1},
+  {"q":"The bags ____ carried by the porter.","options":["was","were","is","are"],"answer":1},
+  {"q":"____ is worse, Sami or Abdullah?","options":["Who","What","Which","How"],"answer":0},
+  {"q":"She stopped ____ two years ago.","options":["to smoke","smoke","smoking","smoked"],"answer":2}
+]

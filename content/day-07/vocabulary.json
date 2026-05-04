@@ -1,0 +1,30 @@
+{
+  "topic": "Final Vocabulary Review",
+  "pageRange": "68-110",
+  "words": [
+    {"english":"grandfather","arabic":"جد","page":"68","question":{"q":"He is my children's grandfather so he is my","options":["uncle","father","grandfather","nephew"],"answer":2}},
+    {"english":"uncle","arabic":"عم/خال","page":"68","question":{"q":"He is my father's brother so he is my","options":["uncle","aunt","nephew","niece"],"answer":0}},
+    {"english":"aunt","arabic":"عمة/خالة","page":"68","question":{"q":"My mother's sister is my","options":["aunt","niece","uncle","sister"],"answer":0}},
+    {"english":"niece","arabic":"ابنة الأخ/الأخت","page":"68","question":{"q":"She is my brother's daughter so she is my","options":["nephew","niece","granddaughter","grandson"],"answer":1}},
+    {"english":"eye","arabic":"عين","page":"69","question":null},
+    {"english":"ear","arabic":"أذن","page":"69","question":{"q":"We have two eyes and two ____","options":["ears","Mouths","noses","chest"],"answer":0}},
+    {"english":"neck","arabic":"رقبة","page":"69","question":{"q":"Your ____ connects your head with your back.","options":["hair","blood","neck","heart"],"answer":2}},
+    {"english":"shoulder","arabic":"كتف","page":"69","question":{"q":"My ____ is at the top of my arm.","options":["shoulder","knee","toe","chest"],"answer":0}},
+    {"english":"ring","arabic":"خاتم","page":"69","question":{"q":"Some people wear a ____ when they get married.","options":["watch","hat","ring","belt"],"answer":2}},
+    {"english":"raincoat","arabic":"معطف مطر","page":"69","question":{"q":"It's raining today. I'll wear my ____","options":["Sweater","raincoat","shoes","glasses"],"answer":1}},
+    {"english":"thobe","arabic":"ثوب","page":"69","question":{"q":"Saudi men usually wear a ____","options":["tie","suit","thobe","shirt"],"answer":2}},
+    {"english":"asthma","arabic":"ربو","page":"70","question":{"q":"If someone finds it difficult to breathe, he probably has","options":["Toothache","headache","fever","asthma"],"answer":3}},
+    {"english":"aspirin","arabic":"أسبرين","page":"70","question":{"q":"I've got a terrible headache. I need to take some","options":["aspirin","sneeze","fever","antacid"],"answer":0}},
+    {"english":"sick","arabic":"مريض","page":"70","question":{"q":"Ali is absent today because he is","options":["well","patient","fine","sick"],"answer":3}},
+    {"english":"dental hygiene","arabic":"نظافة الأسنان","page":"71","question":{"q":"____ is a crucial part of our daily healthcare.","options":["diseases","dental hygiene","asthma","diabetes"],"answer":1}},
+    {"english":"cook","arabic":"يطبخ","page":"72","question":{"q":"Ahmed is a very good chef. He can ____ really well.","options":["eat","cook","drink","meals"],"answer":1}},
+    {"english":"lunch","arabic":"غداء","page":"72","question":{"q":"Most people usually have ____ at noon.","options":["breakfast","lunch","dinner","hungry"],"answer":1}},
+    {"english":"mechanic","arabic":"ميكانيكي","page":"72","question":{"q":"The car worked well after ____ repaired it.","options":["teacher","mechanic","farmer","traffic warden"],"answer":1}},
+    {"english":"doctor","arabic":"طبيب","page":"72","question":{"q":"Mariam works in a hospital. She's training to be a","options":["waiter","doctor","secretary","librarian"],"answer":1}},
+    {"english":"barber","arabic":"حلاق","page":"73","question":{"q":"I need to go to the ____ to have my hair cut.","options":["doctor","Police officer","librarian","Barber"],"answer":3}},
+    {"english":"bakery","arabic":"مخبز","page":"74","question":{"q":"I bought fresh bread from the ____","options":["bakery","bank","pharmacy","garage"],"answer":0}},
+    {"english":"creative","arabic":"مبدع","page":"74","question":{"q":"He has a ____ mind, he invents many things.","options":["Rural","cultural","industrial","creative"],"answer":3}},
+    {"english":"anonymous","arabic":"مجهول","page":"75","question":{"q":"This letter is ____. We don't know the writer.","options":["egalitarian","vocational","affluent","anonymous"],"answer":3}},
+    {"english":"explosion","arabic":"انفجار","page":"75","question":{"q":"The ____ at the factory killed many.","options":["explosion","experiment","irrigation","population"],"answer":0}}
+  ]
+}
