@@ -2,45 +2,445 @@
   "topic": "Family, Body & Reading Vocabulary",
   "pageRange": "68-69, 87-95",
   "words": [
-    {"english":"grandfather","arabic":"جد","page":"68","question":{"q":"He is my children's grandfather so he is my","options":["Mother","husband","father","uncle"],"answer":2}},
-    {"english":"husband","arabic":"زوج","page":"68","question":{"q":"My sister's ____ is a doctor.","options":["wife","husband","aunt","uncle"],"answer":1}},
-    {"english":"father","arabic":"أب","page":"68","question":{"q":"My ____ works in an office.","options":["mother","sister","father","aunt"],"answer":2}},
-    {"english":"uncle","arabic":"عم / خال","page":"68","question":{"q":"He is my father's brother so he is my","options":["uncle","aunt","nephew","niece"],"answer":0}},
-    {"english":"aunt","arabic":"عمة / خالة","page":"68","question":{"q":"My mother's sister is my","options":["aunt","niece","uncle","sister"],"answer":0}},
-    {"english":"niece","arabic":"ابنة الأخ / الأخت","page":"68","question":{"q":"My brother's daughter is my","options":["niece","nephew","cousin","granddaughter"],"answer":0}},
-    {"english":"nephew","arabic":"ابن الأخ / الأخت","page":"68","question":{"q":"My sister's son is my","options":["son","nephew","uncle","father"],"answer":1}},
-    {"english":"cousin","arabic":"ابن العم / الخال","page":"68","question":{"q":"My uncle's son is my","options":["brother","cousin","nephew","grandson"],"answer":1}},
-    {"english":"grandson","arabic":"حفيد","page":"68","question":{"q":"My son is my mother's","options":["niece","cousin","grandfather","grandson"],"answer":3}},
-    {"english":"granddaughter","arabic":"حفيدة","page":"68","question":{"q":"My daughter's daughter is my","options":["granddaughter","grandson","niece","aunt"],"answer":0}},
-    {"english":"eye","arabic":"عين","page":"69","question":{"q":"You use your ____ to see with.","options":["nose","eyes","fingers","forehead"],"answer":1}},
-    {"english":"nose","arabic":"أنف","page":"69","question":{"q":"We smell with our ____.","options":["nose","ears","eyes","mouth"],"answer":0}},
-    {"english":"ear","arabic":"أذن","page":"69","question":{"q":"We have two eyes and two ____.","options":["ears","mouths","noses","chests"],"answer":0}},
-    {"english":"finger","arabic":"إصبع","page":"69","question":{"q":"How many ____ are there in your hands?","options":["toes","fingers","thumbs","foreheads"],"answer":1}},
-    {"english":"thumb","arabic":"إبهام","page":"69","question":{"q":"The ____ is the shortest finger.","options":["index","thumb","ring","pinky"],"answer":1}},
-    {"english":"forehead","arabic":"جبين","page":"69","question":{"q":"Your ____ is above your eyes.","options":["forehead","chin","cheek","neck"],"answer":0}},
-    {"english":"neck","arabic":"رقبة","page":"69","question":{"q":"Your ____ connects your head with your back.","options":["hair","blood","neck","heart"],"answer":2}},
-    {"english":"shoulder","arabic":"كتف","page":"69","question":{"q":"My ____ is at the top of my arm.","options":["shoulder","knee","toe","chest"],"answer":0}},
-    {"english":"knee","arabic":"ركبة","page":"69","question":{"q":"You bend your ____ to walk.","options":["elbow","knee","wrist","ankle"],"answer":1}},
-    {"english":"chest","arabic":"صدر","page":"69","question":{"q":"Your heart is inside your ____.","options":["head","chest","leg","arm"],"answer":1}},
-    {"english":"heart","arabic":"قلب","page":"69","question":{"q":"The ____ pumps blood.","options":["brain","lung","heart","liver"],"answer":2}},
-    {"english":"blood","arabic":"دم","page":"69","question":{"q":"____ carries oxygen through the body.","options":["Water","Blood","Air","Food"],"answer":1}},
-    {"english":"artery","arabic":"شريان","page":"69","question":{"q":"____ carry blood from the heart.","options":["Veins","Arteries","Muscles","Nerves"],"answer":1}},
-    {"english":"muscle","arabic":"عضلة","page":"69","question":{"q":"Biceps is a ____ in the arm.","options":["bone","muscle","joint","tendon"],"answer":1}},
-    {"english":"spinal cord","arabic":"الحبل الشوكي","page":"69","question":{"q":"The ____ protects the spinal cord.","options":["skull","spine","ribs","pelvis"],"answer":1}},
-    {"english":"advertise","arabic":"يعلن","page":"87","question":{"q":"The company decided to ____ on TV.","options":["advertise","ignore","hide","cancel"],"answer":0}},
-    {"english":"statistics","arabic":"إحصائيات","page":"88","question":{"q":"The report includes ____ about population.","options":["stories","statistics","pictures","songs"],"answer":1}},
-    {"english":"disadvantaged","arabic":"محروم","page":"93","question":{"q":"____ areas often lack basic services.","options":["Wealthy","Disadvantaged","Modern","Crowded"],"answer":1}},
-    {"english":"volunteer","arabic":"متطوع","page":"93","question":{"q":"Many people ____ to help in the event.","options":["refused","volunteered","complained","ignored"],"answer":1}},
-    {"english":"mentor","arabic":"مرشد","page":"94","question":{"q":"A ____ gives advice and support.","options":["student","mentor","patient","customer"],"answer":1}},
-    {"english":"survey","arabic":"استقصاء","page":"90","question":{"q":"A recent ____ showed farming is dangerous.","options":["party","survey","movie","game"],"answer":1}},
-    {"english":"cancer","arabic":"سرطان","page":"91","question":{"q":"Too much sun can cause skin ____.","options":["cancer","cold","energy","light"],"answer":0}},
-    {"english":"precautions","arabic":"احتياطات","page":"91","question":{"q":"Farmers should take ____ when using chemicals.","options":["precautions","photos","breaks","holidays"],"answer":0}},
-    {"english":"poisonous","arabic":"سام","page":"91","question":{"q":"Some chemicals are ____ and can harm people.","options":["safe","delicious","poisonous","beautiful"],"answer":2}},
-    {"english":"equipment","arabic":"معدات","page":"91","question":{"q":"Farmers use heavy ____ like tractors.","options":["equipment","paintings","books","clothes"],"answer":0}},
-    {"english":"poverty","arabic":"فقر","page":"93","question":{"q":"VSO fights ____ around the world.","options":["wealth","poverty","health","joy"],"answer":1}},
-    {"english":"healthcare","arabic":"رعاية صحية","page":"94","question":{"q":"VSO volunteers improve ____ in poor areas.","options":["healthcare","entertainment","transport","sport"],"answer":0}},
-    {"english":"income","arabic":"دخل","page":"95","question":{"q":"People need a good ____ to support their families.","options":["hobby","income","dream","vacation"],"answer":1}},
-    {"english":"renewable","arabic":"قابل للتجديد","page":"Extra 1","question":{"q":"Solar energy is a ____ source.","options":["renewable","finite","dangerous","weak"],"answer":0}},
-    {"english":"pollution","arabic":"تلوث","page":"Extra 1","question":{"q":"Burning coal causes air ____.","options":["celebration","pollution","nutrition","education"],"answer":1}}
+    {
+      "english": "grandfather",
+      "arabic": "جد",
+      "page": "68",
+      "question": {
+        "q": "He is my children's grandfather so he is my",
+        "options": ["Mother", "husband", "father", "uncle"],
+        "answer": 2,
+        "justification": "إذا كان هذا الشخص هو جد أطفالي، فلا بد أنه والدي أنا (father). 'Mother' أم، و'husband' زوج، و'uncle' عم أو خال، وكلها لا تصلح."
+      }
+    },
+    {
+      "english": "husband",
+      "arabic": "زوج",
+      "page": "68",
+      "question": {
+        "q": "My sister's ____ is a doctor.",
+        "options": ["wife", "husband", "aunt", "uncle"],
+        "answer": 1,
+        "justification": "زوج الأخت هو 'husband'. 'wife' زوجة وهي غير مناسبة، و'aunt' عمة/خالة، و'uncle' عم/خال."
+      }
+    },
+    {
+      "english": "father",
+      "arabic": "أب",
+      "page": "68",
+      "question": {
+        "q": "My ____ works in an office.",
+        "options": ["mother", "sister", "father", "aunt"],
+        "answer": 2,
+        "justification": "الأب هو 'father'. 'mother' أم، و'sister' أخت، و'aunt' عمة/خالة. الأب هو الأكثر شيوعاً للعمل في مكتب."
+      }
+    },
+    {
+      "english": "uncle",
+      "arabic": "عم / خال",
+      "page": "68",
+      "question": {
+        "q": "He is my father's brother so he is my",
+        "options": ["uncle", "aunt", "nephew", "niece"],
+        "answer": 0,
+        "justification": "أخو الأب هو العم (uncle). 'aunt' تعني عمة/خالة، و'nephew' ابن الأخ/الأخت، و'niece' ابنة الأخ/الأخت."
+      }
+    },
+    {
+      "english": "aunt",
+      "arabic": "عمة / خالة",
+      "page": "68",
+      "question": {
+        "q": "My mother's sister is my",
+        "options": ["aunt", "niece", "uncle", "sister"],
+        "answer": 0,
+        "justification": "أخت الأم هي الخالة (aunt). 'niece' ابنة الأخ/الأخت، و'uncle' عم/خال، و'sister' أختي أنا."
+      }
+    },
+    {
+      "english": "niece",
+      "arabic": "ابنة الأخ / الأخت",
+      "page": "68",
+      "question": {
+        "q": "My brother's daughter is my",
+        "options": ["niece", "nephew", "cousin", "granddaughter"],
+        "answer": 0,
+        "justification": "ابنة الأخ هي 'niece'. 'nephew' هو ابن الأخ، و'cousin' ابن العم/الخال، و'granddaughter' حفيدة."
+      }
+    },
+    {
+      "english": "nephew",
+      "arabic": "ابن الأخ / الأخت",
+      "page": "68",
+      "question": {
+        "q": "My sister's son is my",
+        "options": ["son", "nephew", "uncle", "father"],
+        "answer": 1,
+        "justification": "ابن الأخت هو 'nephew'. 'son' هو ابني أنا، و'uncle' عم/خال، و'father' أب."
+      }
+    },
+    {
+      "english": "cousin",
+      "arabic": "ابن العم / الخال",
+      "page": "68",
+      "question": {
+        "q": "My uncle's son is my",
+        "options": ["brother", "cousin", "nephew", "grandson"],
+        "answer": 1,
+        "justification": "ابن العم/الخال هو 'cousin'. 'brother' أخ شقيق، و'nephew' ابن الأخ/الأخت، و'grandson' حفيد."
+      }
+    },
+    {
+      "english": "grandson",
+      "arabic": "حفيد",
+      "page": "68",
+      "question": {
+        "q": "My son is my mother's",
+        "options": ["niece", "cousin", "grandfather", "grandson"],
+        "answer": 3,
+        "justification": "ابني هو حفيد أمي (grandson). 'niece' ابنة الأخ، 'cousin' ابن العم، 'grandfather' جد، وهذه كلها غير صحيحة."
+      }
+    },
+    {
+      "english": "granddaughter",
+      "arabic": "حفيدة",
+      "page": "68",
+      "question": {
+        "q": "My daughter's daughter is my",
+        "options": ["granddaughter", "grandson", "niece", "aunt"],
+        "answer": 0,
+        "justification": "ابنة ابنتي هي حفيدتي (granddaughter). 'grandson' حفيد ذكر، و'niece' ابنة الأخ/الأخت، و'aunt' عمة/خالة."
+      }
+    },
+    {
+      "english": "eye",
+      "arabic": "عين",
+      "page": "69",
+      "question": {
+        "q": "You use your ____ to see with.",
+        "options": ["nose", "eyes", "fingers", "forehead"],
+        "answer": 1,
+        "justification": "نستخدم العيون (eyes) للرؤية. 'nose' أنف للشم، 'fingers' أصابع، 'forehead' جبين."
+      }
+    },
+    {
+      "english": "nose",
+      "arabic": "أنف",
+      "page": "69",
+      "question": {
+        "q": "We smell with our ____.",
+        "options": ["nose", "ears", "eyes", "mouth"],
+        "answer": 0,
+        "justification": "الشم يكون بالأنف (nose). 'ears' أذنان، 'eyes' عيون، 'mouth' فم."
+      }
+    },
+    {
+      "english": "ear",
+      "arabic": "أذن",
+      "page": "69",
+      "question": {
+        "q": "We have two eyes and two ____.",
+        "options": ["ears", "mouths", "noses", "chests"],
+        "answer": 0,
+        "justification": "لدينا أذنان (ears). 'mouths' أفواه، 'noses' أنوف، 'chests' صدور، وكلها ليست اثنتين طبيعياً."
+      }
+    },
+    {
+      "english": "finger",
+      "arabic": "إصبع",
+      "page": "69",
+      "question": {
+        "q": "How many ____ are there in your hands?",
+        "options": ["toes", "fingers", "thumbs", "foreheads"],
+        "answer": 1,
+        "justification": "في اليد أصابع (fingers). 'toes' أصابع القدم، 'thumbs' مجرد إبهام واحد، 'foreheads' جباه."
+      }
+    },
+    {
+      "english": "thumb",
+      "arabic": "إبهام",
+      "page": "69",
+      "question": {
+        "q": "The ____ is the shortest finger.",
+        "options": ["index", "thumb", "ring", "pinky"],
+        "answer": 1,
+        "justification": "الإبهام (thumb) هو أقصر وأثخن إصبع. 'index' السبابة، 'ring' البنصر، 'pinky' الخنصر."
+      }
+    },
+    {
+      "english": "forehead",
+      "arabic": "جبين",
+      "page": "69",
+      "question": {
+        "q": "Your ____ is above your eyes.",
+        "options": ["forehead", "chin", "cheek", "neck"],
+        "answer": 0,
+        "justification": "الجبين (forehead) هو المنطقة فوق العينين. 'chin' ذقن، 'cheek' وجنة، 'neck' رقبة."
+      }
+    },
+    {
+      "english": "neck",
+      "arabic": "رقبة",
+      "page": "69",
+      "question": {
+        "q": "Your ____ connects your head with your back.",
+        "options": ["hair", "blood", "neck", "heart"],
+        "answer": 2,
+        "justification": "الرقبة (neck) تصل الرأس بالجسم. 'hair' شعر، 'blood' دم، 'heart' قلب."
+      }
+    },
+    {
+      "english": "shoulder",
+      "arabic": "كتف",
+      "page": "69",
+      "question": {
+        "q": "My ____ is at the top of my arm.",
+        "options": ["shoulder", "knee", "toe", "chest"],
+        "answer": 0,
+        "justification": "الكتف (shoulder) هو أعلى الذراع. 'knee' ركبة، 'toe' إصبع قدم، 'chest' صدر."
+      }
+    },
+    {
+      "english": "knee",
+      "arabic": "ركبة",
+      "page": "69",
+      "question": {
+        "q": "You bend your ____ to walk.",
+        "options": ["elbow", "knee", "wrist", "ankle"],
+        "answer": 1,
+        "justification": "ثني الركبة (knee) ضروري للمشي. 'elbow' كوع، 'wrist' رسغ، 'ankle' كاحل."
+      }
+    },
+    {
+      "english": "chest",
+      "arabic": "صدر",
+      "page": "69",
+      "question": {
+        "q": "Your heart is inside your ____.",
+        "options": ["head", "chest", "leg", "arm"],
+        "answer": 1,
+        "justification": "القلب يقع في الصدر (chest). 'head' رأس، 'leg' رجل، 'arm' ذراع."
+      }
+    },
+    {
+      "english": "heart",
+      "arabic": "قلب",
+      "page": "69",
+      "question": {
+        "q": "The ____ pumps blood.",
+        "options": ["brain", "lung", "heart", "liver"],
+        "answer": 2,
+        "justification": "القلب (heart) يضخ الدم. 'brain' دماغ، 'lung' رئة، 'liver' كبد."
+      }
+    },
+    {
+      "english": "blood",
+      "arabic": "دم",
+      "page": "69",
+      "question": {
+        "q": "____ carries oxygen through the body.",
+        "options": ["Water", "Blood", "Air", "Food"],
+        "answer": 1,
+        "justification": "الدم (blood) هو الذي يحمل الأكسجين. 'Water' ماء، 'Air' هواء، 'Food' طعام."
+      }
+    },
+    {
+      "english": "artery",
+      "arabic": "شريان",
+      "page": "69",
+      "question": {
+        "q": "____ carry blood from the heart.",
+        "options": ["Veins", "Arteries", "Muscles", "Nerves"],
+        "answer": 1,
+        "justification": "الشرايين (arteries) تحمل الدم من القلب إلى الجسم. 'Veins' أوردة تعيد الدم، 'Muscles' عضلات، 'Nerves' أعصاب."
+      }
+    },
+    {
+      "english": "muscle",
+      "arabic": "عضلة",
+      "page": "69",
+      "question": {
+        "q": "Biceps is a ____ in the arm.",
+        "options": ["bone", "muscle", "joint", "tendon"],
+        "answer": 1,
+        "justification": "البايسبس هي عضلة (muscle) في الذراع. 'bone' عظم، 'joint' مفصل، 'tendon' وتر."
+      }
+    },
+    {
+      "english": "spinal cord",
+      "arabic": "الحبل الشوكي",
+      "page": "69",
+      "question": {
+        "q": "The ____ protects the spinal cord.",
+        "options": ["skull", "spine", "ribs", "pelvis"],
+        "answer": 1,
+        "justification": "العمود الفقري (spine) يحمي الحبل الشوكي. 'skull' جمجمة، 'ribs' أضلاع، 'pelvis' حوض."
+      }
+    },
+    {
+      "english": "advertise",
+      "arabic": "يعلن",
+      "page": "87",
+      "question": {
+        "q": "The company decided to ____ on TV.",
+        "options": ["advertise", "ignore", "hide", "cancel"],
+        "answer": 0,
+        "justification": "الشركة قررت أن تعلن (advertise). 'ignore' تتجاهل، 'hide' تخفي، 'cancel' تلغي."
+      }
+    },
+    {
+      "english": "statistics",
+      "arabic": "إحصائيات",
+      "page": "88",
+      "question": {
+        "q": "The report includes ____ about population.",
+        "options": ["stories", "statistics", "pictures", "songs"],
+        "answer": 1,
+        "justification": "التقرير يتضمن إحصائيات (statistics) عن السكان. 'stories' قصص، 'pictures' صور، 'songs' أغاني."
+      }
+    },
+    {
+      "english": "disadvantaged",
+      "arabic": "محروم",
+      "page": "93",
+      "question": {
+        "q": "____ areas often lack basic services.",
+        "options": ["Wealthy", "Disadvantaged", "Modern", "Crowded"],
+        "answer": 1,
+        "justification": "المناطق المحرومة (disadvantaged) تفتقر للخدمات. 'Wealthy' غنية، 'Modern' حديثة، 'Crowded' مزدحمة."
+      }
+    },
+    {
+      "english": "volunteer",
+      "arabic": "متطوع",
+      "page": "93",
+      "question": {
+        "q": "Many people ____ to help in the event.",
+        "options": ["refused", "volunteered", "complained", "ignored"],
+        "answer": 1,
+        "justification": "تطوعوا (volunteered) للمساعدة. 'refused' رفضوا، 'complained' اشتكوا، 'ignored' تجاهلوا."
+      }
+    },
+    {
+      "english": "mentor",
+      "arabic": "مرشد",
+      "page": "94",
+      "question": {
+        "q": "A ____ gives advice and support.",
+        "options": ["student", "mentor", "patient", "customer"],
+        "answer": 1,
+        "justification": "المرشد (mentor) يقدم النصح والدعم. 'student' طالب، 'patient' مريض، 'customer' زبون."
+      }
+    },
+    {
+      "english": "survey",
+      "arabic": "استقصاء",
+      "page": "90",
+      "question": {
+        "q": "A recent ____ showed farming is dangerous.",
+        "options": ["party", "survey", "movie", "game"],
+        "answer": 1,
+        "justification": "الاستقصاء (survey) هو الذي يظهر نتائج. 'party' حفلة، 'movie' فيلم، 'game' لعبة."
+      }
+    },
+    {
+      "english": "cancer",
+      "arabic": "سرطان",
+      "page": "91",
+      "question": {
+        "q": "Too much sun can cause skin ____.",
+        "options": ["cancer", "cold", "energy", "light"],
+        "answer": 0,
+        "justification": "الشمس الزائدة تسبب سرطان الجلد (cancer). 'cold' برد، 'energy' طاقة، 'light' ضوء."
+      }
+    },
+    {
+      "english": "precautions",
+      "arabic": "احتياطات",
+      "page": "91",
+      "question": {
+        "q": "Farmers should take ____ when using chemicals.",
+        "options": ["precautions", "photos", "breaks", "holidays"],
+        "answer": 0,
+        "justification": "يجب أخذ الاحتياطات (precautions). 'photos' صور، 'breaks' استراحات، 'holidays' عطلات."
+      }
+    },
+    {
+      "english": "poisonous",
+      "arabic": "سام",
+      "page": "91",
+      "question": {
+        "q": "Some chemicals are ____ and can harm people.",
+        "options": ["safe", "delicious", "poisonous", "beautiful"],
+        "answer": 2,
+        "justification": "المواد الكيميائية سامة (poisonous). 'safe' آمنة، 'delicious' لذيذة، 'beautiful' جميلة."
+      }
+    },
+    {
+      "english": "equipment",
+      "arabic": "معدات",
+      "page": "91",
+      "question": {
+        "q": "Farmers use heavy ____ like tractors.",
+        "options": ["equipment", "paintings", "books", "clothes"],
+        "answer": 0,
+        "justification": "المزارعون يستخدمون معدات (equipment) ثقيلة. 'paintings' لوحات، 'books' كتب، 'clothes' ملابس."
+      }
+    },
+    {
+      "english": "poverty",
+      "arabic": "فقر",
+      "page": "93",
+      "question": {
+        "q": "VSO fights ____ around the world.",
+        "options": ["wealth", "poverty", "health", "joy"],
+        "answer": 1,
+        "justification": "منظمة VSO تحارب الفقر (poverty). 'wealth' ثراء، 'health' صحة، 'joy' فرح."
+      }
+    },
+    {
+      "english": "healthcare",
+      "arabic": "رعاية صحية",
+      "page": "94",
+      "question": {
+        "q": "VSO volunteers improve ____ in poor areas.",
+        "options": ["healthcare", "entertainment", "transport", "sport"],
+        "answer": 0,
+        "justification": "يحسنون الرعاية الصحية (healthcare). 'entertainment' ترفيه، 'transport' نقل، 'sport' رياضة."
+      }
+    },
+    {
+      "english": "income",
+      "arabic": "دخل",
+      "page": "95",
+      "question": {
+        "q": "People need a good ____ to support their families.",
+        "options": ["hobby", "income", "dream", "vacation"],
+        "answer": 1,
+        "justification": "يحتاجون دخلاً (income) جيداً. 'hobby' هواية، 'dream' حلم، 'vacation' عطلة."
+      }
+    },
+    {
+      "english": "renewable",
+      "arabic": "قابل للتجديد",
+      "page": "Extra 1",
+      "question": {
+        "q": "Solar energy is a ____ source.",
+        "options": ["renewable", "finite", "dangerous", "weak"],
+        "answer": 0,
+        "justification": "الطاقة الشمسية متجددة (renewable). 'finite' محدودة، 'dangerous' خطرة، 'weak' ضعيفة."
+      }
+    },
+    {
+      "english": "pollution",
+      "arabic": "تلوث",
+      "page": "Extra 1",
+      "question": {
+        "q": "Burning coal causes air ____.",
+        "options": ["celebration", "pollution", "nutrition", "education"],
+        "answer": 1,
+        "justification": "حرق الفحم يسبب تلوث الهواء (pollution). 'celebration' احتفال، 'nutrition' تغذية، 'education' تعليم."
+      }
+    }
   ]
 }
