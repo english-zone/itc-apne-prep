@@ -2,45 +2,445 @@
   "topic": "Jobs, Work & Reading",
   "pageRange": "72-74, Extra 5",
   "words": [
-    {"english":"mechanic","arabic":"ميكانيكي","page":"72","question":{"q":"The ____ fixed my car.","options":["mechanic","teacher","doctor","farmer"],"answer":0}},
-    {"english":"doctor","arabic":"طبيب","page":"72","question":{"q":"Mariam is training to be a ____.","options":["doctor","waiter","secretary","librarian"],"answer":0}},
-    {"english":"nurse","arabic":"ممرض","page":"72","question":{"q":"A ____ assists the doctor.","options":["nurse","mechanic","farmer","driver"],"answer":0}},
-    {"english":"factory","arabic":"مصنع","page":"72","question":{"q":"We make televisions in a ____.","options":["factory","hospital","bank","office"],"answer":0}},
-    {"english":"farmer","arabic":"مزارع","page":"72","question":{"q":"____ take care of lands.","options":["Farmers","Doctors","Engineers","Barbers"],"answer":0}},
-    {"english":"teacher","arabic":"معلم","page":"72","question":{"q":"You need skills to be a good ____.","options":["teacher","traffic warden","clerk","librarian"],"answer":0}},
-    {"english":"police officer","arabic":"ضابط شرطة","page":"73","question":{"q":"A ____ deals with criminals.","options":["police officer","doctor","librarian","waiter"],"answer":0}},
-    {"english":"waiter","arabic":"نادل","page":"73","question":{"q":"Ali serves food; he is a ____.","options":["waiter","police","librarian","barber"],"answer":0}},
-    {"english":"barber","arabic":"حلاق","page":"73","question":{"q":"Go to the ____ for a haircut.","options":["barber","police","librarian","waiter"],"answer":0}},
-    {"english":"bank","arabic":"بنك","page":"73","question":{"q":"Open an account at a ____.","options":["bank","restaurant","factory","shop"],"answer":0}},
-    {"english":"restaurant","arabic":"مطعم","page":"73","question":{"q":"We had dinner at a nice ____.","options":["restaurant","bank","pharmacy","garage"],"answer":0}},
-    {"english":"librarian","arabic":"أمين مكتبة","page":"73","question":{"q":"The ____ organized the books.","options":["librarian","mechanic","farmer","barber"],"answer":0}},
-    {"english":"secretary","arabic":"سكرتير","page":"73","question":{"q":"The ____ schedules appointments.","options":["secretary","mechanic","farmer","waiter"],"answer":0}},
-    {"english":"priority","arabic":"أولوية","page":"73","question":{"q":"Getting married is his top ____.","options":["priority","income","environment","problem"],"answer":0}},
-    {"english":"income","arabic":"دخل","page":"73","question":{"q":"A regular ____ helps pay bills.","options":["income","expense","loan","debt"],"answer":0}},
-    {"english":"populous","arabic":"مكتظ","page":"Extra 5","question":{"q":"California is the most ____ state.","options":["populous","empty","quiet","small"],"answer":0}},
-    {"english":"agriculture","arabic":"زراعة","page":"Extra 5","question":{"q":"____ is a key sector in California.","options":["Agriculture","Technology","Entertainment","Tourism"],"answer":0}},
-    {"english":"drought","arabic":"جفاف","page":"Extra 5","question":{"q":"California sometimes suffers ____.","options":["drought","flood","rain","snow"],"answer":0}},
-    {"english":"artifact","arabic":"قطعة أثرية","page":"Extra 5","question":{"q":"The museum displays ancient ____.","options":["artifacts","animals","plants","machines"],"answer":0}},
-    {"english":"irrigation","arabic":"ري","page":"Extra 5","question":{"q":"Farmers use ____ to water crops.","options":["irrigation","sleeping","running","eating"],"answer":0}},
-    {"english":"fluctuation","arabic":"تذبذب","page":"Extra 5","question":{"q":"Economic ____ affects jobs.","options":["fluctuation","stability","equality","certainty"],"answer":0}},
-    {"english":"archaeological","arabic":"أثري","page":"Extra 5","question":{"q":"____ sites attract tourists.","options":["Archaeological","Modern","Industrial","Residential"],"answer":0}},
-    {"english":"vocalisation","arabic":"نطق / صوت","page":"Extra 5","question":{"q":"Whales produce complex ____.","options":["vocalisations","silence","gestures","lights"],"answer":0}},
-    {"english":"pod","arabic":"قطيع (حيتان)","page":"Extra 5","question":{"q":"A whale family group is a ____.","options":["pod","school","flock","herd"],"answer":0}},
-    {"english":"monumental","arabic":"ضخم","page":"Extra 5","question":{"q":"The pyramids are ____ structures.","options":["monumental","tiny","modern","weak"],"answer":0}},
-    {"english":"ramp","arabic":"منحدر","page":"Extra 5","question":{"q":"Workers may have used ____ to lift stones.","options":["ramps","carts","ropes","wheels"],"answer":0}},
-    {"english":"microorganism","arabic":"كائن دقيق","page":"Extra 5","question":{"q":"A ____ is a tiny living thing.","options":["microorganism","elephant","mountain","river"],"answer":0}},
-    {"english":"probiotic","arabic":"بروبيوتك","page":"Extra 5","question":{"q":"Yogurt contains ____.","options":["probiotics","antibiotics","vitamins","minerals"],"answer":0}},
-    {"english":"obesity","arabic":"سمنة","page":"Extra 5","question":{"q":"Antibiotic overuse may cause ____.","options":["obesity","thinness","height","vision"],"answer":0}},
-    {"english":"immune","arabic":"مناعي","page":"Extra 5","question":{"q":"Gut bacteria help train the ____ system.","options":["immune","digestive","nervous","respiratory"],"answer":0}},
-    {"english":"dietary","arabic":"غذائي","page":"Extra 5","question":{"q":"____ records reveal ancient eating habits.","options":["Dietary","Medical","Legal","Musical"],"answer":0}},
-    {"english":"cultural transmission","arabic":"انتقال ثقافي","page":"Extra 5","question":{"q":"Whale song evolution shows ____.","options":["cultural transmission","genetic mutation","pollution","hunting"],"answer":0}},
-    {"english":"interplanetary","arabic":"بين كواكب","page":"Extra 5","question":{"q":"Starship aims for ____ travel.","options":["interplanetary","domestic","underground","submarine"],"answer":0}},
-    {"english":"pharmaceutical","arabic":"صيدلاني","page":"Extra 5","question":{"q":"____ countermeasures protect astronauts.","options":["Pharmaceutical","Musical","Agricultural","Architectural"],"answer":0}},
-    {"english":"facade","arabic":"واجهة","page":"Extra 5","question":{"q":"The Treasury has an elaborate ____.","options":["facade","garden","basement","kitchen"],"answer":0}},
-    {"english":"annexed","arabic":"ضم / احتل","page":"Extra 5","question":{"q":"The Romans ____ the Nabataean kingdom.","options":["annexed","ignored","destroyed","built"],"answer":0}},
-    {"english":"consolidation","arabic":"توطيد / تعزيز","page":"Extra 5","question":{"q":"Sleep aids memory ____.","options":["consolidation","destruction","confusion","erasure"],"answer":0}},
-    {"english":"deprivation","arabic":"حرمان","page":"Extra 5","question":{"q":"Sleep ____ harms health.","options":["deprivation","excess","addition","supplement"],"answer":0}},
-    {"english":"cognitive","arabic":"معرفي","page":"Extra 5","question":{"q":"____ function declines without sleep.","options":["Cognitive","Physical","Muscular","Skeletal"],"answer":0}},
-    {"english":"shielding","arabic":"تدريع","page":"Extra 5","question":{"q":"Radiation ____ protects astronauts.","options":["shielding","cooking","decorating","lighting"],"answer":0}}
+    {
+      "english": "mechanic",
+      "arabic": "ميكانيكي",
+      "page": "72",
+      "question": {
+        "q": "The ____ fixed my car.",
+        "options": ["mechanic", "teacher", "doctor", "farmer"],
+        "answer": 0,
+        "justification": "الميكانيكي (mechanic) هو من يصلح السيارات. المعلم (teacher) يعلم، والطبيب (doctor) يعالج الناس، والمزارع (farmer) يزرع الأرض."
+      }
+    },
+    {
+      "english": "doctor",
+      "arabic": "طبيب",
+      "page": "72",
+      "question": {
+        "q": "Mariam is training to be a ____.",
+        "options": ["doctor", "waiter", "secretary", "librarian"],
+        "answer": 0,
+        "justification": "مريم تتدرب لتصبح طبيبة (doctor). النادل (waiter) يقدم الطعام، والسكرتير (secretary) ينظم المواعيد، وأمين المكتبة (librarian) يعمل مع الكتب."
+      }
+    },
+    {
+      "english": "nurse",
+      "arabic": "ممرض",
+      "page": "72",
+      "question": {
+        "q": "A ____ assists the doctor.",
+        "options": ["nurse", "mechanic", "farmer", "driver"],
+        "answer": 0,
+        "justification": "الممرض (nurse) يساعد الطبيب في رعاية المرضى. الميكانيكي (mechanic) يصلح الآلات، والمزارع (farmer) في الحقول، والسائق (driver) يقود المركبات."
+      }
+    },
+    {
+      "english": "factory",
+      "arabic": "مصنع",
+      "page": "72",
+      "question": {
+        "q": "We make televisions in a ____.",
+        "options": ["factory", "hospital", "bank", "office"],
+        "answer": 0,
+        "justification": "التلفزيونات تُصنع في المصنع (factory). المستشفى (hospital) يعالج المرضى، والبنك (bank) للأموال، والمكتب (office) للأعمال الإدارية."
+      }
+    },
+    {
+      "english": "farmer",
+      "arabic": "مزارع",
+      "page": "72",
+      "question": {
+        "q": "____ take care of lands.",
+        "options": ["Farmers", "Doctors", "Engineers", "Barbers"],
+        "answer": 0,
+        "justification": "المزارعون (farmers) يعتنون بالأرض ويزرعونها. الأطباء (doctors) يعالجون الناس، والمهندسون (engineers) يصممون ويبنون، والحلاقون (barbers) يقصون الشعر."
+      }
+    },
+    {
+      "english": "teacher",
+      "arabic": "معلم",
+      "page": "72",
+      "question": {
+        "q": "You need skills to be a good ____.",
+        "options": ["teacher", "traffic warden", "clerk", "librarian"],
+        "answer": 0,
+        "justification": "تحتاج مهارات لتكون معلماً (teacher) جيداً. مراقب المرور (traffic warden) ينظم السير، والموظف (clerk) يعمل في مكتب، وأمين المكتبة (librarian) يدير الكتب."
+      }
+    },
+    {
+      "english": "police officer",
+      "arabic": "ضابط شرطة",
+      "page": "73",
+      "question": {
+        "q": "A ____ deals with criminals.",
+        "options": ["police officer", "doctor", "librarian", "waiter"],
+        "answer": 0,
+        "justification": "ضابط الشرطة (police officer) يتعامل مع المجرمين. الطبيب (doctor) يعالج المرضى، وأمين المكتبة (librarian) يعمل مع الكتب، والنادل (waiter) يقدم الطعام."
+      }
+    },
+    {
+      "english": "waiter",
+      "arabic": "نادل",
+      "page": "73",
+      "question": {
+        "q": "Ali serves food; he is a ____.",
+        "options": ["waiter", "police", "librarian", "barber"],
+        "answer": 0,
+        "justification": "من يقدم الطعام هو النادل (waiter). الشرطة (police) تحفظ الأمن، وأمين المكتبة (librarian) يعمل مع الكتب، والحلاق (barber) يقص الشعر."
+      }
+    },
+    {
+      "english": "barber",
+      "arabic": "حلاق",
+      "page": "73",
+      "question": {
+        "q": "Go to the ____ for a haircut.",
+        "options": ["barber", "police", "librarian", "waiter"],
+        "answer": 0,
+        "justification": "للحصول على قصة شعر تذهب إلى الحلاق (barber). الشرطة (police) للأمن، وأمين المكتبة (librarian) للكتب، والنادل (waiter) للمطعم."
+      }
+    },
+    {
+      "english": "bank",
+      "arabic": "بنك",
+      "page": "73",
+      "question": {
+        "q": "Open an account at a ____.",
+        "options": ["bank", "restaurant", "factory", "shop"],
+        "answer": 0,
+        "justification": "يفتح الحساب في البنك (bank). المطعم (restaurant) للطعام، والمصنع (factory) للإنتاج، والمتجر (shop) للبيع."
+      }
+    },
+    {
+      "english": "restaurant",
+      "arabic": "مطعم",
+      "page": "73",
+      "question": {
+        "q": "We had dinner at a nice ____.",
+        "options": ["restaurant", "bank", "pharmacy", "garage"],
+        "answer": 0,
+        "justification": "تناولنا العشاء في مطعم (restaurant). البنك (bank) للمال، والصيدلية (pharmacy) للدواء، والمرأب (garage) للسيارات."
+      }
+    },
+    {
+      "english": "librarian",
+      "arabic": "أمين مكتبة",
+      "page": "73",
+      "question": {
+        "q": "The ____ organized the books.",
+        "options": ["librarian", "mechanic", "farmer", "barber"],
+        "answer": 0,
+        "justification": "أمين المكتبة (librarian) ينظم الكتب. الميكانيكي (mechanic) يصلح الآلات، والمزارع (farmer) يعمل في الأرض، والحلاق (barber) يقص الشعر."
+      }
+    },
+    {
+      "english": "secretary",
+      "arabic": "سكرتير",
+      "page": "73",
+      "question": {
+        "q": "The ____ schedules appointments.",
+        "options": ["secretary", "mechanic", "farmer", "waiter"],
+        "answer": 0,
+        "justification": "السكرتير (secretary) هو من يحدد المواعيد. الميكانيكي (mechanic) يصلح الآلات، والمزارع (farmer) يزرع، والنادل (waiter) يقدم الطعام."
+      }
+    },
+    {
+      "english": "priority",
+      "arabic": "أولوية",
+      "page": "73",
+      "question": {
+        "q": "Getting married is his top ____.",
+        "options": ["priority", "income", "environment", "problem"],
+        "answer": 0,
+        "justification": "الزواج هو أولويته (priority) القصوى. الدخل (income) هو المال، والبيئة (environment) هي المحيط، والمشكلة (problem) أمر سلبي."
+      }
+    },
+    {
+      "english": "income",
+      "arabic": "دخل",
+      "page": "73",
+      "question": {
+        "q": "A regular ____ helps pay bills.",
+        "options": ["income", "expense", "loan", "debt"],
+        "answer": 0,
+        "justification": "الدخل المنتظم (income) يساعد في دفع الفواتير. المصروف (expense) ما ينفق، والقرض (loan) مال مستعار، والدين (debt) التزام مالي."
+      }
+    },
+    {
+      "english": "populous",
+      "arabic": "مكتظ",
+      "page": "Extra 5",
+      "question": {
+        "q": "California is the most ____ state.",
+        "options": ["populous", "empty", "quiet", "small"],
+        "answer": 0,
+        "justification": "كاليفورنيا هي الولاية الأكثر اكتظاظاً بالسكان (populous). الفارغة (empty) والهادئة (quiet) والصغيرة (small) عكس ذلك."
+      }
+    },
+    {
+      "english": "agriculture",
+      "arabic": "زراعة",
+      "page": "Extra 5",
+      "question": {
+        "q": "____ is a key sector in California.",
+        "options": ["Agriculture", "Technology", "Entertainment", "Tourism"],
+        "answer": 0,
+        "justification": "الزراعة (agriculture) قطاع رئيسي في كاليفورنيا. التكنولوجيا (technology) والترفيه (entertainment) والسياحة (tourism) قطاعات أخرى مهمة أيضاً، لكن الزراعة هي المذكورة في النص."
+      }
+    },
+    {
+      "english": "drought",
+      "arabic": "جفاف",
+      "page": "Extra 5",
+      "question": {
+        "q": "California sometimes suffers ____.",
+        "options": ["drought", "flood", "rain", "snow"],
+        "answer": 0,
+        "justification": "كاليفورنيا تعاني أحياناً من الجفاف (drought). الفيضان (flood) والمطر (rain) والثلج (snow) ظواهر مناخية أخرى."
+      }
+    },
+    {
+      "english": "artifact",
+      "arabic": "قطعة أثرية",
+      "page": "Extra 5",
+      "question": {
+        "q": "The museum displays ancient ____.",
+        "options": ["artifacts", "animals", "plants", "machines"],
+        "answer": 0,
+        "justification": "المتحف يعرض قطعاً أثرية (artifacts). الحيوانات (animals) والنباتات (plants) والآلات (machines) قد تكون في أماكن أخرى."
+      }
+    },
+    {
+      "english": "irrigation",
+      "arabic": "ري",
+      "page": "Extra 5",
+      "question": {
+        "q": "Farmers use ____ to water crops.",
+        "options": ["irrigation", "sleeping", "running", "eating"],
+        "answer": 0,
+        "justification": "المزارعون يستخدمون الري (irrigation) لسقاية المحاصيل. النوم (sleeping) والجري (running) والأكل (eating) لا علاقة لها بزراعة."
+      }
+    },
+    {
+      "english": "fluctuation",
+      "arabic": "تذبذب",
+      "page": "Extra 5",
+      "question": {
+        "q": "Economic ____ affects jobs.",
+        "options": ["fluctuation", "stability", "equality", "certainty"],
+        "answer": 0,
+        "justification": "التذبذب الاقتصادي (fluctuation) يؤثر على الوظائف. الاستقرار (stability) والمساواة (equality) واليقين (certainty) أمور إيجابية."
+      }
+    },
+    {
+      "english": "archaeological",
+      "arabic": "أثري",
+      "page": "Extra 5",
+      "question": {
+        "q": "____ sites attract tourists.",
+        "options": ["Archaeological", "Modern", "Industrial", "Residential"],
+        "answer": 0,
+        "justification": "المواقع الأثرية (archaeological) تجذب السياح. الحديثة (modern) والصناعية (industrial) والسكنية (residential) قد لا تكون بنفس الجاذبية."
+      }
+    },
+    {
+      "english": "vocalisation",
+      "arabic": "نطق / صوت",
+      "page": "Extra 5",
+      "question": {
+        "q": "Whales produce complex ____.",
+        "options": ["vocalisations", "silence", "gestures", "lights"],
+        "answer": 0,
+        "justification": "الحيتان تصدر أصواتاً (vocalisations) معقدة. الصمت (silence) عكس ذلك، والإيماءات (gestures) والأضواء (lights) ليست وسائل تواصل الحيتان."
+      }
+    },
+    {
+      "english": "pod",
+      "arabic": "قطيع (حيتان)",
+      "page": "Extra 5",
+      "question": {
+        "q": "A whale family group is a ____.",
+        "options": ["pod", "school", "flock", "herd"],
+        "answer": 0,
+        "justification": "مجموعة الحيتان العائلية تسمى (pod). 'school' للأسماك، 'flock' للطيور، 'herd' للأبقار."
+      }
+    },
+    {
+      "english": "monumental",
+      "arabic": "ضخم",
+      "page": "Extra 5",
+      "question": {
+        "q": "The pyramids are ____ structures.",
+        "options": ["monumental", "tiny", "modern", "weak"],
+        "answer": 0,
+        "justification": "الأهرامات هياكل ضخمة (monumental). الصغيرة (tiny) والحديثة (modern) والضعيفة (weak) لا تصفها."
+      }
+    },
+    {
+      "english": "ramp",
+      "arabic": "منحدر",
+      "page": "Extra 5",
+      "question": {
+        "q": "Workers may have used ____ to lift stones.",
+        "options": ["ramps", "carts", "ropes", "wheels"],
+        "answer": 0,
+        "justification": "العمال ربما استخدموا المنحدرات (ramps) لرفع الأحجار. العربات (carts) والحبال (ropes) والعجلات (wheels) أدوات أخرى محتملة لكن المنحدرات هي النظرية الأقوى."
+      }
+    },
+    {
+      "english": "microorganism",
+      "arabic": "كائن دقيق",
+      "page": "Extra 5",
+      "question": {
+        "q": "A ____ is a tiny living thing.",
+        "options": ["microorganism", "elephant", "mountain", "river"],
+        "answer": 0,
+        "justification": "الكائن الدقيق (microorganism) هو كائن حي صغير جداً. الفيل (elephant) والجبل (mountain) والنهر (river) أشياء كبيرة."
+      }
+    },
+    {
+      "english": "probiotic",
+      "arabic": "بروبيوتك",
+      "page": "Extra 5",
+      "question": {
+        "q": "Yogurt contains ____.",
+        "options": ["probiotics", "antibiotics", "vitamins", "minerals"],
+        "answer": 0,
+        "justification": "الزبادي يحتوي على البروبيوتك (probiotics) المفيدة للهضم. المضادات الحيوية (antibiotics) تقتل البكتيريا، والفيتامينات (vitamins) والمعادن (minerals) مغذيات أخرى."
+      }
+    },
+    {
+      "english": "obesity",
+      "arabic": "سمنة",
+      "page": "Extra 5",
+      "question": {
+        "q": "Antibiotic overuse may cause ____.",
+        "options": ["obesity", "thinness", "height", "vision"],
+        "answer": 0,
+        "justification": "الإفراط في المضادات الحيوية قد يسبب السمنة (obesity). النحافة (thinness) والطول (height) والنظر (vision) ليست آثاراً مرتبطة."
+      }
+    },
+    {
+      "english": "immune",
+      "arabic": "مناعي",
+      "page": "Extra 5",
+      "question": {
+        "q": "Gut bacteria help train the ____ system.",
+        "options": ["immune", "digestive", "nervous", "respiratory"],
+        "answer": 0,
+        "justification": "بكتيريا الأمعاء تساعد في تدريب الجهاز المناعي (immune system). الهضمي (digestive) للطعام، والعصبي (nervous) للإشارات، والتنفسي (respiratory) للتنفس."
+      }
+    },
+    {
+      "english": "dietary",
+      "arabic": "غذائي",
+      "page": "Extra 5",
+      "question": {
+        "q": "____ records reveal ancient eating habits.",
+        "options": ["Dietary", "Medical", "Legal", "Musical"],
+        "answer": 0,
+        "justification": "السجلات الغذائية (dietary) تكشف عادات الأكل القديمة. الطبية (medical) للأمراض، والقانونية (legal) للقوانين، والموسيقية (musical) للفن."
+      }
+    },
+    {
+      "english": "cultural transmission",
+      "arabic": "انتقال ثقافي",
+      "page": "Extra 5",
+      "question": {
+        "q": "Whale song evolution shows ____.",
+        "options": ["cultural transmission", "genetic mutation", "pollution", "hunting"],
+        "answer": 0,
+        "justification": "تطور أغاني الحيتان يُظهر انتقالاً ثقافياً (cultural transmission). الطفرة الجينية (genetic mutation) والتلوث (pollution) والصيد (hunting) لا تفسر تطور الأغاني."
+      }
+    },
+    {
+      "english": "interplanetary",
+      "arabic": "بين كواكب",
+      "page": "Extra 5",
+      "question": {
+        "q": "Starship aims for ____ travel.",
+        "options": ["interplanetary", "domestic", "underground", "submarine"],
+        "answer": 0,
+        "justification": "ستارشيب تهدف للسفر بين الكواكب (interplanetary). المحلي (domestic) وداخل الأرض (underground) والبحري (submarine) ليست أهدافها."
+      }
+    },
+    {
+      "english": "pharmaceutical",
+      "arabic": "صيدلاني",
+      "page": "Extra 5",
+      "question": {
+        "q": "____ countermeasures protect astronauts.",
+        "options": ["Pharmaceutical", "Musical", "Agricultural", "Architectural"],
+        "answer": 0,
+        "justification": "الإجراءات الصيدلانية (pharmaceutical) تحمي الرواد. الموسيقية (musical) والزراعية (agricultural) والمعمارية (architectural) لا علاقة لها بالحماية من الإشعاع."
+      }
+    },
+    {
+      "english": "facade",
+      "arabic": "واجهة",
+      "page": "Extra 5",
+      "question": {
+        "q": "The Treasury has an elaborate ____.",
+        "options": ["facade", "garden", "basement", "kitchen"],
+        "answer": 0,
+        "justification": "مبنى الخزانة له واجهة (facade) متقنة. الحديقة (garden) والقبو (basement) والمطبخ (kitchen) ليست ما تشتهر به الخزانة."
+      }
+    },
+    {
+      "english": "annexed",
+      "arabic": "ضم / احتل",
+      "page": "Extra 5",
+      "question": {
+        "q": "The Romans ____ the Nabataean kingdom.",
+        "options": ["annexed", "ignored", "destroyed", "built"],
+        "answer": 0,
+        "justification": "الرومان ضموا (annexed) مملكة الأنباط إلى إمبراطوريتهم. لم يتجاهلوها (ignored) ولم يدمروها بالكامل (destroyed) ولم يبنوها (built)."
+      }
+    },
+    {
+      "english": "consolidation",
+      "arabic": "توطيد / تعزيز",
+      "page": "Extra 5",
+      "question": {
+        "q": "Sleep aids memory ____.",
+        "options": ["consolidation", "destruction", "confusion", "erasure"],
+        "answer": 0,
+        "justification": "النوم يساعد في توطيد الذاكرة (consolidation). التدمير (destruction) والارتباك (confusion) والمحو (erasure) عكس ذلك."
+      }
+    },
+    {
+      "english": "deprivation",
+      "arabic": "حرمان",
+      "page": "Extra 5",
+      "question": {
+        "q": "Sleep ____ harms health.",
+        "options": ["deprivation", "excess", "addition", "supplement"],
+        "answer": 0,
+        "justification": "الحرمان من النوم (deprivation) يضر الصحة. الزيادة (excess) والإضافة (addition) والمكمل (supplement) لا تعبر عن قلة النوم."
+      }
+    },
+    {
+      "english": "cognitive",
+      "arabic": "معرفي",
+      "page": "Extra 5",
+      "question": {
+        "q": "____ function declines without sleep.",
+        "options": ["Cognitive", "Physical", "Muscular", "Skeletal"],
+        "answer": 0,
+        "justification": "الوظيفة المعرفية (cognitive) تتراجع بدون نوم. الجسدية (physical) والعضلية (muscular) والهيكلية (skeletal) لا تتأثر بنفس الدرجة."
+      }
+    },
+    {
+      "english": "shielding",
+      "arabic": "تدريع",
+      "page": "Extra 5",
+      "question": {
+        "q": "Radiation ____ protects astronauts.",
+        "options": ["shielding", "cooking", "decorating", "lighting"],
+        "answer": 0,
+        "justification": "التدريع (shielding) يحمي رواد الفضاء من الإشعاع. الطبخ (cooking) والتزيين (decorating) والإضاءة (lighting) لا تحمي من الإشعاع."
+      }
+    }
   ]
 }

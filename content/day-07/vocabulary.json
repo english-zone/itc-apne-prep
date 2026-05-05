@@ -1,3 +1,6 @@
+cd /workspaces/itc-apne-prep
+
+cat > content/day-07/vocabulary.json << 'EOF'
 {
   "topic": "Final Review Vocabulary (Aurora & Al-Faw)",
   "pageRange": "Review",
@@ -24,3 +27,10 @@
     {"english":"labyrinth","arabic":"متاهة","page":"Review","question":{"q":"The Underground City is like a ____.","options":["labyrinth","highway","bridge","tower"],"answer":0,"justification":"المدينة تحت الأرض تشبه المتاهة (labyrinth). الطريق السريع (highway) والجسر (bridge) والبرج (tower) لا تصفها."}}
   ]
 }
+EOF
+
+git add content/day-07/vocabulary.json
+git commit -m "إضافة مفردات اليوم السابع من القطعتين مع تبريرات موسّعة"
+git push origin main
+
+echo "✅ تم إنشاء مفردات اليوم السابع. جربها الآن على الموقع."

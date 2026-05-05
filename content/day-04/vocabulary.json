@@ -2,45 +2,445 @@
   "topic": "Food, Drink & Reading",
   "pageRange": "71-72, Extra 4",
   "words": [
-    {"english":"cook","arabic":"يطبخ","page":"72","question":{"q":"Ahmed can ____ really well.","options":["cook","eat","drink","clean"],"answer":0}},
-    {"english":"chef","arabic":"طاهٍ","page":"72","question":{"q":"A ____ works in a restaurant kitchen.","options":["chef","waiter","driver","farmer"],"answer":0}},
-    {"english":"fry","arabic":"يقلي","page":"72","question":{"q":"We need oil to ____ the potatoes.","options":["fry","boil","grill","steam"],"answer":0}},
-    {"english":"grill","arabic":"يشوي","page":"72","question":{"q":"____ the chicken over charcoal.","options":["Grill","Boil","Steam","Fry"],"answer":0}},
-    {"english":"boil","arabic":"يغلي","page":"72","question":{"q":"____ water before adding rice.","options":["Boil","Freeze","Cool","Mix"],"answer":0}},
-    {"english":"steam","arabic":"بالبخار","page":"72","question":{"q":"____ vegetables to keep them healthy.","options":["Steam","Fry","Burn","Raw"],"answer":0}},
-    {"english":"lunch","arabic":"غداء","page":"72","question":{"q":"Most people eat ____ at noon.","options":["breakfast","lunch","dinner","snack"],"answer":1}},
-    {"english":"breakfast","arabic":"فطور","page":"72","question":{"q":"I eat ____ at 7 AM.","options":["lunch","breakfast","dinner","supper"],"answer":1}},
-    {"english":"dinner","arabic":"عشاء","page":"72","question":{"q":"The family gathers for ____ in the evening.","options":["dinner","lunch","breakfast","brunch"],"answer":0}},
-    {"english":"cucumber","arabic":"خيار","page":"72","question":{"q":"Add ____ to the salad.","options":["cucumber","pasta","rice","bread"],"answer":0}},
-    {"english":"pasta","arabic":"معكرونة","page":"72","question":{"q":"Italians eat a lot of ____.","options":["pasta","rice","bread","potatoes"],"answer":0}},
-    {"english":"addicted","arabic":"مدمن","page":"72","question":{"q":"He is ____ to coffee.","options":["addicted","allergic","used","opposed"],"answer":0}},
-    {"english":"pharmacy","arabic":"صيدلية","page":"73","question":{"q":"Buy medicine at the ____.","options":["pharmacy","bank","restaurant","garage"],"answer":0}},
-    {"english":"income","arabic":"دخل","page":"73","question":{"q":"His monthly ____ is SR10000.","options":["income","expense","debt","bill"],"answer":0}},
-    {"english":"salad","arabic":"سلطة","page":"72","question":{"q":"For a healthy meal, eat a ____.","options":["salad","cake","burger","pie"],"answer":0}},
-    {"english":"cuisine","arabic":"مطبخ (أسلوب طهي)","page":"Extra 4","question":{"q":"Japanese ____ is famous globally.","options":["cuisine","language","weather","transport"],"answer":0}},
-    {"english":"heritage","arabic":"تراث","page":"Extra 4","question":{"q":"Japan has a rich cultural ____.","options":["heritage","problem","economy","disaster"],"answer":0}},
-    {"english":"constitution","arabic":"دستور","page":"Extra 4","question":{"q":"The U.S. ____ established government structure.","options":["constitution","magazine","website","letter"],"answer":0}},
-    {"english":"desalination","arabic":"تحلية المياه","page":"Extra 4","question":{"q":"____ removes salt from seawater.","options":["Desalination","Irrigation","Evaporation","Condensation"],"answer":0}},
-    {"english":"arid","arabic":"جاف","page":"Extra 4","question":{"q":"Desalination is vital for ____ regions.","options":["arid","rainy","cold","green"],"answer":0}},
-    {"english":"membrane","arabic":"غشاء","page":"Extra 4","question":{"q":"Reverse osmosis uses a semipermeable ____.","options":["membrane","pipe","pump","tank"],"answer":0}},
-    {"english":"brine","arabic":"محلول ملحي","page":"Extra 4","question":{"q":"Concentrated ____ harms marine life.","options":["brine","water","oil","juice"],"answer":0}},
-    {"english":"fossil fuel","arabic":"وقود أحفوري","page":"Extra 4","question":{"q":"Coal and oil are ____.","options":["fossil fuels","renewable","solar","wind"],"answer":0}},
-    {"english":"greenhouse","arabic":"غازات الدفيئة","page":"Extra 4","question":{"q":"____ gases cause global warming.","options":["Greenhouse","Oxygen","Nitrogen","Hydrogen"],"answer":0}},
-    {"english":"abyssal","arabic":"عميق (سحيق)","page":"Extra 4","question":{"q":"The ____ plains are in the deep ocean.","options":["abyssal","shallow","coastal","tropical"],"answer":0}},
-    {"english":"bioluminescent","arabic":"مضيء حيوياً","page":"Extra 4","question":{"q":"Some deep-sea fish are ____.","options":["bioluminescent","invisible","blind","nocturnal"],"answer":0}},
-    {"english":"hydrothermal","arabic":"حرمائي","page":"Extra 4","question":{"q":"____ vents emit superheated water.","options":["Hydrothermal","Geothermal","Solar","Electrical"],"answer":0}},
-    {"english":"chlorophyll","arabic":"كلوروفيل","page":"Extra 4","question":{"q":"____ gives leaves their green color.","options":["Chlorophyll","Carotenoid","Anthocyanin","Melanin"],"answer":0}},
-    {"english":"carotenoid","arabic":"كاروتينويد","page":"Extra 4","question":{"q":"____ pigments produce yellow/orange.","options":["Carotenoid","Chlorophyll","Anthocyanin","Melanin"],"answer":0}},
-    {"english":"decompose","arabic":"يتحلل","page":"Extra 4","question":{"q":"Leaves ____ and enrich the soil.","options":["decompose","grow","fly","freeze"],"answer":0}},
-    {"english":"vibrant","arabic":"زاهي / نابض","page":"Extra 4","question":{"q":"Autumn colors are ____ on sunny days.","options":["vibrant","dull","dark","faint"],"answer":0}},
-    {"english":"nutrient","arabic":"مغذٍ","page":"Extra 4","question":{"q":"Soil provides ____ for plants.","options":["nutrients","water","sunlight","air"],"answer":0}},
-    {"english":"resistant","arabic":"مقاوم","page":"Extra 4","question":{"q":"The network was ____ to attacks.","options":["resistant","vulnerable","open","weak"],"answer":0}},
-    {"english":"accessible","arabic":"متاح / سهل الوصول","page":"Extra 4","question":{"q":"The Web made the internet ____.","options":["accessible","difficult","secret","dangerous"],"answer":0}},
-    {"english":"transmission","arabic":"انتقال","page":"Extra 4","question":{"q":"Data ____ occurs through cables.","options":["transmission","collection","storage","deletion"],"answer":0}},
-    {"english":"capacity","arabic":"سعة / قدرة","page":"Extra 4","question":{"q":"Batteries have limited ____.","options":["capacity","weight","size","color"],"answer":0}},
-    {"english":"grid","arabic":"شبكة كهرباء","page":"Extra 4","question":{"q":"Smart ____ manages electricity.","options":["grid","road","phone","water"],"answer":0}},
-    {"english":"sustainable","arabic":"مستدام","page":"Extra 4","question":{"q":"Solar power is a ____ energy source.","options":["sustainable","temporary","dangerous","expensive"],"answer":0}},
-    {"english":"emission","arabic":"انبعاث","page":"Extra 4","question":{"q":"Cars produce carbon ____.","options":["emissions","incomes","prices","noise"],"answer":0}},
-    {"english":"grant","arabic":"منحة","page":"Extra 4","question":{"q":"The city provides ____ for green projects.","options":["grants","fines","taxes","bans"],"answer":0}}
+    {
+      "english": "cook",
+      "arabic": "يطبخ",
+      "page": "72",
+      "question": {
+        "q": "Ahmed can ____ really well.",
+        "options": ["cook", "eat", "drink", "clean"],
+        "answer": 0,
+        "justification": "إذا كان أحمد طاهياً ماهراً، فهو يطبخ (cook) جيداً. الأكل (eat) صفة من يتناول الطعام، والشرب (drink) للسوائل، والتنظيف (clean) للنظافة."
+      }
+    },
+    {
+      "english": "chef",
+      "arabic": "طاهٍ",
+      "page": "72",
+      "question": {
+        "q": "A ____ works in a restaurant kitchen.",
+        "options": ["chef", "waiter", "driver", "farmer"],
+        "answer": 0,
+        "justification": "الطاهي (chef) يعمل في مطبخ المطعم. النادل (waiter) يقدم الطعام، والسائق (driver) يقود، والمزارع (farmer) في الحقول."
+      }
+    },
+    {
+      "english": "fry",
+      "arabic": "يقلي",
+      "page": "72",
+      "question": {
+        "q": "We need oil to ____ the potatoes.",
+        "options": ["fry", "boil", "grill", "steam"],
+        "answer": 0,
+        "justification": "لقلي البطاطس (fry) نحتاج زيت. السلق (boil) يحتاج ماء، والشوي (grill) على النار، والطهي بالبخار (steam) لا يحتاج زيتاً."
+      }
+    },
+    {
+      "english": "grill",
+      "arabic": "يشوي",
+      "page": "72",
+      "question": {
+        "q": "____ the chicken over charcoal.",
+        "options": ["Grill", "Boil", "Steam", "Fry"],
+        "answer": 0,
+        "justification": "الدجاج على الفحم يُشوى (grill). السلق (boil) في ماء، والبخار (steam) بالبخار، والقلي (fry) بالزيت."
+      }
+    },
+    {
+      "english": "boil",
+      "arabic": "يغلي",
+      "page": "72",
+      "question": {
+        "q": "____ water before adding rice.",
+        "options": ["Boil", "Freeze", "Cool", "Mix"],
+        "answer": 0,
+        "justification": "يجب غلي الماء (boil) قبل إضافة الأرز. التجميد (freeze) والتبريد (cool) والخلط (mix) ليست خطوات طبخ الأرز."
+      }
+    },
+    {
+      "english": "steam",
+      "arabic": "بالبخار",
+      "page": "72",
+      "question": {
+        "q": "____ vegetables to keep them healthy.",
+        "options": ["Steam", "Fry", "Burn", "Raw"],
+        "answer": 0,
+        "justification": "الطهي بالبخار (steam) يحافظ على القيمة الغذائية. القلي (fry) يدمر بعض الفيتامينات، والحرق (burn) يفسدها، والنيئة (raw) لا تطهى."
+      }
+    },
+    {
+      "english": "lunch",
+      "arabic": "غداء",
+      "page": "72",
+      "question": {
+        "q": "Most people eat ____ at noon.",
+        "options": ["breakfast", "lunch", "dinner", "snack"],
+        "answer": 1,
+        "justification": "الغداء (lunch) هو وجبة الظهيرة. الفطور (breakfast) صباحاً، والعشاء (dinner) مساءً، والوجبة الخفيفة (snack) بين الوجبات."
+      }
+    },
+    {
+      "english": "breakfast",
+      "arabic": "فطور",
+      "page": "72",
+      "question": {
+        "q": "I eat ____ at 7 AM.",
+        "options": ["lunch", "breakfast", "dinner", "supper"],
+        "answer": 1,
+        "justification": "الساعة 7 صباحاً هي وقت الفطور (breakfast). الغداء (lunch) ظهراً، والعشاء (dinner) مساءً."
+      }
+    },
+    {
+      "english": "dinner",
+      "arabic": "عشاء",
+      "page": "72",
+      "question": {
+        "q": "The family gathers for ____ in the evening.",
+        "options": ["dinner", "lunch", "breakfast", "brunch"],
+        "answer": 0,
+        "justification": "في المساء تجتمع العائلة للعشاء (dinner). الغداء (lunch) ظهراً، والفطور (breakfast) صباحاً."
+      }
+    },
+    {
+      "english": "cucumber",
+      "arabic": "خيار",
+      "page": "72",
+      "question": {
+        "q": "Add ____ to the salad.",
+        "options": ["cucumber", "pasta", "rice", "bread"],
+        "answer": 0,
+        "justification": "الخيار (cucumber) مكون شائع في السلطة. المعكرونة (pasta) والأرز (rice) والخبز (bread) ليست مكونات سلطة تقليدية."
+      }
+    },
+    {
+      "english": "pasta",
+      "arabic": "معكرونة",
+      "page": "72",
+      "question": {
+        "q": "Italians eat a lot of ____.",
+        "options": ["pasta", "rice", "bread", "potatoes"],
+        "answer": 0,
+        "justification": "الإيطاليون يشتهرون بأكل المعكرونة (pasta). الأرز (rice) في آسيا، والخبز (bread) عام، والبطاطس (potatoes) في أوروبا."
+      }
+    },
+    {
+      "english": "addicted",
+      "arabic": "مدمن",
+      "page": "72",
+      "question": {
+        "q": "He is ____ to coffee.",
+        "options": ["addicted", "allergic", "used", "opposed"],
+        "answer": 0,
+        "justification": "مدمن القهوة (addicted) لا يستطيع التوقف عنها. الحساسية (allergic) رد فعل مناعي، ومعتاد (used) لا تعبر عن الإدمان، ومعارض (opposed) يعني رافض."
+      }
+    },
+    {
+      "english": "pharmacy",
+      "arabic": "صيدلية",
+      "page": "73",
+      "question": {
+        "q": "Buy medicine at the ____.",
+        "options": ["pharmacy", "bank", "restaurant", "garage"],
+        "answer": 0,
+        "justification": "الأدوية تُشترى من الصيدلية (pharmacy). البنك (bank) للمال، والمطعم (restaurant) للطعام، والمرأب (garage) للسيارات."
+      }
+    },
+    {
+      "english": "income",
+      "arabic": "دخل",
+      "page": "73",
+      "question": {
+        "q": "His monthly ____ is SR10000.",
+        "options": ["income", "expense", "debt", "bill"],
+        "answer": 0,
+        "justification": "الدخل الشهري (income) هو ما يكسبه. المصروف (expense) ما ينفقه، والدين (debt) ما عليه، والفاتورة (bill) تدفع."
+      }
+    },
+    {
+      "english": "salad",
+      "arabic": "سلطة",
+      "page": "72",
+      "question": {
+        "q": "For a healthy meal, eat a ____.",
+        "options": ["salad", "cake", "burger", "pie"],
+        "answer": 0,
+        "justification": "السلطة (salad) وجبة صحية. الكعكة (cake) حلويات، والبرغر (burger) وجبات سريعة، والفطيرة (pie) مخبوزات."
+      }
+    },
+    {
+      "english": "cuisine",
+      "arabic": "مطبخ (أسلوب طهي)",
+      "page": "Extra 4",
+      "question": {
+        "q": "Japanese ____ is famous globally.",
+        "options": ["cuisine", "language", "weather", "transport"],
+        "answer": 0,
+        "justification": "المطبخ الياباني (cuisine) مشهور عالمياً. اللغة (language) والطقس (weather) والنقل (transport) ليست أشياء تشتهر بها اليابان بنفس القدر."
+      }
+    },
+    {
+      "english": "heritage",
+      "arabic": "تراث",
+      "page": "Extra 4",
+      "question": {
+        "q": "Japan has a rich cultural ____.",
+        "options": ["heritage", "problem", "economy", "disaster"],
+        "answer": 0,
+        "justification": "اليابان لديها تراث (heritage) ثقافي غني. المشكلة (problem) والاقتصاد (economy) والكارثة (disaster) لا تصف الثقافة."
+      }
+    },
+    {
+      "english": "constitution",
+      "arabic": "دستور",
+      "page": "Extra 4",
+      "question": {
+        "q": "The U.S. ____ established government structure.",
+        "options": ["constitution", "magazine", "website", "letter"],
+        "answer": 0,
+        "justification": "الدستور (constitution) هو الذي يحدد هيكل الحكومة. المجلة (magazine) والموقع الإلكتروني (website) والرسالة (letter) لا علاقة لها."
+      }
+    },
+    {
+      "english": "desalination",
+      "arabic": "تحلية المياه",
+      "page": "Extra 4",
+      "question": {
+        "q": "____ removes salt from seawater.",
+        "options": ["Desalination", "Irrigation", "Evaporation", "Condensation"],
+        "answer": 0,
+        "justification": "تحلية المياه (desalination) تزيل الملح من ماء البحر. الري (irrigation) للسقاية، والتبخر (evaporation) والكثافة (condensation) عمليات طبيعية."
+      }
+    },
+    {
+      "english": "arid",
+      "arabic": "جاف",
+      "page": "Extra 4",
+      "question": {
+        "q": "Desalination is vital for ____ regions.",
+        "options": ["arid", "rainy", "cold", "green"],
+        "answer": 0,
+        "justification": "المناطق الجافة (arid) تحتاج التحلية. الممطرة (rainy) والباردة (cold) والخضراء (green) لديها مصادر مياه طبيعية."
+      }
+    },
+    {
+      "english": "membrane",
+      "arabic": "غشاء",
+      "page": "Extra 4",
+      "question": {
+        "q": "Reverse osmosis uses a semipermeable ____.",
+        "options": ["membrane", "pipe", "pump", "tank"],
+        "answer": 0,
+        "justification": "التناضح العكسي يستخدم غشاء (membrane) شبه منفذ. الأنبوب (pipe) والمضخة (pump) والخزان (tank) مكونات أخرى."
+      }
+    },
+    {
+      "english": "brine",
+      "arabic": "محلول ملحي",
+      "page": "Extra 4",
+      "question": {
+        "q": "Concentrated ____ harms marine life.",
+        "options": ["brine", "water", "oil", "juice"],
+        "answer": 0,
+        "justification": "المحلول الملحي المركز (brine) يضر الحياة البحرية. الماء العادي (water) والزيت (oil) والعصير (juice) ليس لها نفس التأثير."
+      }
+    },
+    {
+      "english": "fossil fuel",
+      "arabic": "وقود أحفوري",
+      "page": "Extra 4",
+      "question": {
+        "q": "Coal and oil are ____.",
+        "options": ["fossil fuels", "renewable", "solar", "wind"],
+        "answer": 0,
+        "justification": "الفحم والنفط وقود أحفوري (fossil fuels). المتجدد (renewable) والطاقة الشمسية (solar) والرياح (wind) مصادر طاقة نظيفة."
+      }
+    },
+    {
+      "english": "greenhouse",
+      "arabic": "غازات الدفيئة",
+      "page": "Extra 4",
+      "question": {
+        "q": "____ gases cause global warming.",
+        "options": ["Greenhouse", "Oxygen", "Nitrogen", "Hydrogen"],
+        "answer": 0,
+        "justification": "غازات الدفيئة (greenhouse) تسبب الاحتباس الحراري. الأكسجين (oxygen) والنيتروجين (nitrogen) والهيدروجين (hydrogen) غازات أخرى."
+      }
+    },
+    {
+      "english": "abyssal",
+      "arabic": "عميق (سحيق)",
+      "page": "Extra 4",
+      "question": {
+        "q": "The ____ plains are in the deep ocean.",
+        "options": ["abyssal", "shallow", "coastal", "tropical"],
+        "answer": 0,
+        "justification": "السهول السحيقة (abyssal) في أعماق المحيط. الضحلة (shallow) قريبة من السطح، والساحلية (coastal) قرب الشاطئ، والاستوائية (tropical) حارة."
+      }
+    },
+    {
+      "english": "bioluminescent",
+      "arabic": "مضيء حيوياً",
+      "page": "Extra 4",
+      "question": {
+        "q": "Some deep-sea fish are ____.",
+        "options": ["bioluminescent", "invisible", "blind", "nocturnal"],
+        "answer": 0,
+        "justification": "أسماك الأعماق مضيئة حيوياً (bioluminescent). ليست غير مرئية (invisible) ولا عمياء (blind) ولا ليلية بالضرورة."
+      }
+    },
+    {
+      "english": "hydrothermal",
+      "arabic": "حرمائي",
+      "page": "Extra 4",
+      "question": {
+        "q": "____ vents emit superheated water.",
+        "options": ["Hydrothermal", "Geothermal", "Solar", "Electrical"],
+        "answer": 0,
+        "justification": "الفتحات الحرمائية (hydrothermal) تطلق ماءً ساخناً جداً. الحرارية الأرضية (geothermal) عامة، والشمسية (solar) والكهربائية (electrical) لا تطلق ماء."
+      }
+    },
+    {
+      "english": "chlorophyll",
+      "arabic": "كلوروفيل",
+      "page": "Extra 4",
+      "question": {
+        "q": "____ gives leaves their green color.",
+        "options": ["Chlorophyll", "Carotenoid", "Anthocyanin", "Melanin"],
+        "answer": 0,
+        "justification": "الكلوروفيل (chlorophyll) يعطي اللون الأخضر. الكاروتينويد (carotenoid) أصفر/برتقالي، والأنثوسيانين (anthocyanin) أحمر/أرجواني، والميلانين (melanin) صبغة بشرية."
+      }
+    },
+    {
+      "english": "carotenoid",
+      "arabic": "كاروتينويد",
+      "page": "Extra 4",
+      "question": {
+        "q": "____ pigments produce yellow/orange.",
+        "options": ["Carotenoid", "Chlorophyll", "Anthocyanin", "Melanin"],
+        "answer": 0,
+        "justification": "الكاروتينويد (carotenoid) صبغة صفراء/برتقالية. الكلوروفيل (chlorophyll) أخضر، والأنثوسيانين (anthocyanin) أحمر/أرجواني."
+      }
+    },
+    {
+      "english": "decompose",
+      "arabic": "يتحلل",
+      "page": "Extra 4",
+      "question": {
+        "q": "Leaves ____ and enrich the soil.",
+        "options": ["decompose", "grow", "fly", "freeze"],
+        "answer": 0,
+        "justification": "الأوراق تتحلل (decompose) وتغني التربة. النمو (grow) والطيران (fly) والتجمد (freeze) لا يحدثان للأوراق المتساقطة."
+      }
+    },
+    {
+      "english": "vibrant",
+      "arabic": "زاهي / نابض",
+      "page": "Extra 4",
+      "question": {
+        "q": "Autumn colors are ____ on sunny days.",
+        "options": ["vibrant", "dull", "dark", "faint"],
+        "answer": 0,
+        "justification": "ألوان الخريف تكون زاهية (vibrant) في الأيام المشمسة. الباهتة (dull) والداكنة (dark) والضعيفة (faint) عكس ذلك."
+      }
+    },
+    {
+      "english": "nutrient",
+      "arabic": "مغذٍ",
+      "page": "Extra 4",
+      "question": {
+        "q": "Soil provides ____ for plants.",
+        "options": ["nutrients", "water", "sunlight", "air"],
+        "answer": 0,
+        "justification": "التربة تزود النباتات بالمغذيات (nutrients). الماء (water) والشمس (sunlight) والهواء (air) عوامل أخرى."
+      }
+    },
+    {
+      "english": "resistant",
+      "arabic": "مقاوم",
+      "page": "Extra 4",
+      "question": {
+        "q": "The network was ____ to attacks.",
+        "options": ["resistant", "vulnerable", "open", "weak"],
+        "answer": 0,
+        "justification": "الشبكة كانت مقاومة (resistant) للهجمات. الضعيفة (vulnerable/weak) تعني غير محمية، والمفتوحة (open) غير آمنة."
+      }
+    },
+    {
+      "english": "accessible",
+      "arabic": "متاح / سهل الوصول",
+      "page": "Extra 4",
+      "question": {
+        "q": "The Web made the internet ____.",
+        "options": ["accessible", "difficult", "secret", "dangerous"],
+        "answer": 0,
+        "justification": "الويب جعل الإنترنت متاحاً (accessible) للجميع. الصعب (difficult) والسري (secret) والخطير (dangerous) عكس ذلك."
+      }
+    },
+    {
+      "english": "transmission",
+      "arabic": "انتقال",
+      "page": "Extra 4",
+      "question": {
+        "q": "Data ____ occurs through cables.",
+        "options": ["transmission", "collection", "storage", "deletion"],
+        "answer": 0,
+        "justification": "البيانات تنتقل (transmission) عبر الكابلات. التجميع (collection) والتخزين (storage) والحذف (deletion) عمليات أخرى."
+      }
+    },
+    {
+      "english": "capacity",
+      "arabic": "سعة / قدرة",
+      "page": "Extra 4",
+      "question": {
+        "q": "Batteries have limited ____.",
+        "options": ["capacity", "weight", "size", "color"],
+        "answer": 0,
+        "justification": "للبطاريات سعة (capacity) محدودة. الوزن (weight) والحجم (size) واللون (color) خصائص أخرى."
+      }
+    },
+    {
+      "english": "grid",
+      "arabic": "شبكة كهرباء",
+      "page": "Extra 4",
+      "question": {
+        "q": "Smart ____ manages electricity.",
+        "options": ["grid", "road", "phone", "water"],
+        "answer": 0,
+        "justification": "الشبكة الذكية (smart grid) تدير الكهرباء. الطريق (road) والهاتف (phone) والماء (water) لا علاقة لها."
+      }
+    },
+    {
+      "english": "sustainable",
+      "arabic": "مستدام",
+      "page": "Extra 4",
+      "question": {
+        "q": "Solar power is a ____ energy source.",
+        "options": ["sustainable", "temporary", "dangerous", "expensive"],
+        "answer": 0,
+        "justification": "الطاقة الشمسية مستدامة (sustainable). المؤقتة (temporary) والخطيرة (dangerous) والغالية (expensive) لا تصفها."
+      }
+    },
+    {
+      "english": "emission",
+      "arabic": "انبعاث",
+      "page": "Extra 4",
+      "question": {
+        "q": "Cars produce carbon ____.",
+        "options": ["emissions", "incomes", "prices", "noise"],
+        "answer": 0,
+        "justification": "السيارات تنتج انبعاثات كربونية (emissions). الدخل (incomes) والأسعار (prices) والضوضاء (noise) ليست غازات."
+      }
+    },
+    {
+      "english": "grant",
+      "arabic": "منحة",
+      "page": "Extra 4",
+      "question": {
+        "q": "The city provides ____ for green projects.",
+        "options": ["grants", "fines", "taxes", "bans"],
+        "answer": 0,
+        "justification": "المدينة تقدم منحاً (grants) للمشاريع الخضراء. الغرامات (fines) والضرائب (taxes) والحظر (bans) أمور سلبية."
+      }
+    }
   ]
 }

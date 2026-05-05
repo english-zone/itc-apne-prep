@@ -2,45 +2,445 @@
   "topic": "Health, Medicine & Reading",
   "pageRange": "70-72, Extra 3",
   "words": [
-    {"english":"asthma","arabic":"ربو","page":"70","question":{"q":"If someone finds it difficult to breathe, he probably has","options":["Toothache","headache","fever","asthma"],"answer":3}},
-    {"english":"toothache","arabic":"وجع أسنان","page":"70","question":{"q":"If you have a ____, you should see a dentist.","options":["toothache","headache","fever","asthma"],"answer":0}},
-    {"english":"headache","arabic":"صداع","page":"70","question":{"q":"I've got a terrible ____. I need aspirin.","options":["headache","toothache","stomachache","earache"],"answer":0}},
-    {"english":"fever","arabic":"حمى","page":"70","question":{"q":"High body temperature is called ____.","options":["cough","fever","cold","pain"],"answer":1}},
-    {"english":"aspirin","arabic":"أسبرين","page":"70","question":{"q":"Take some ____ for your headache.","options":["aspirin","sneeze","antacid","injection"],"answer":0}},
-    {"english":"sneeze","arabic":"عطس","page":"70","question":{"q":"Ahmed has a cold and can't stop ____.","options":["coughing","sneezing","eating","sleeping"],"answer":1}},
-    {"english":"antacid","arabic":"مضاد حموضة","page":"70","question":{"q":"For heartburn, take an ____.","options":["antacid","aspirin","antibiotic","painkiller"],"answer":0}},
-    {"english":"sick","arabic":"مريض","page":"70","question":{"q":"Ali is absent because he is ____.","options":["sick","well","happy","angry"],"answer":0}},
-    {"english":"injection","arabic":"حقنة","page":"70","question":{"q":"The doctor gave him an ____ for the pain.","options":["injection","pill","tablet","capsule"],"answer":0}},
-    {"english":"dental hygiene","arabic":"نظافة الأسنان","page":"71","question":{"q":"____ is crucial for healthy teeth.","options":["Dental hygiene","Physical exercise","Good food","Clean air"],"answer":0}},
-    {"english":"experiment","arabic":"تجربة","page":"71","question":{"q":"Scientists make ____ to test new medicines.","options":["experiments","games","parties","meetings"],"answer":0}},
-    {"english":"symptom","arabic":"عرض مرضي","page":"71","question":{"q":"A headache and fever are ____ of flu.","options":["symptoms","causes","cures","treatments"],"answer":0}},
-    {"english":"requirement","arabic":"متطلب","page":"70","question":{"q":"Passing the eye test is a ____ for a driving license.","options":["requirement","punishment","problem","privilege"],"answer":0}},
-    {"english":"worsen","arabic":"يسوء","page":"70","question":{"q":"Smoking ____ your health condition.","options":["improves","worsens","helps","cures"],"answer":1}},
-    {"english":"dentist","arabic":"طبيب أسنان","page":"70","question":{"q":"Visit the ____ every six months.","options":["dentist","surgeon","nurse","pharmacist"],"answer":0}},
-    {"english":"patient","arabic":"مريض","page":"70","question":{"q":"The ____ waited for the doctor.","options":["patient","nurse","visitor","driver"],"answer":0}},
-    {"english":"cure","arabic":"علاج","page":"71","question":{"q":"Scientists are searching for a ____ for cancer.","options":["cause","cure","symptom","disease"],"answer":1}},
-    {"english":"disease","arabic":"مرض","page":"71","question":{"q":"Diabetes is a chronic ____.","options":["disease","cure","symptom","treatment"],"answer":0}},
-    {"english":"aviation","arabic":"طيران","page":"102","question":{"q":"Amelia Earhart pioneered ____.","options":["medicine","aviation","education","engineering"],"answer":1}},
-    {"english":"navigator","arabic":"ملاح","page":"103","question":{"q":"Fred Noonan was Earhart's ____.","options":["husband","navigator","teacher","doctor"],"answer":1}},
-    {"english":"solo","arabic":"منفرد","page":"103","question":{"q":"She made a ____ flight across the Atlantic.","options":["solo","group","passenger","family"],"answer":0}},
-    {"english":"etiquette","arabic":"آداب","page":"108","question":{"q":"Email ____ is important in formal messages.","options":["address","etiquette","password","box"],"answer":1}},
-    {"english":"greeting","arabic":"تحية","page":"108","question":{"q":"Always start an email with a ____.","options":["mistake","greeting","complaint","warning"],"answer":1}},
-    {"english":"slang","arabic":"عامية","page":"109","question":{"q":"Avoid using ____ in formal emails.","options":["slang","sentences","punctuation","subjects"],"answer":0}},
-    {"english":"abbreviation","arabic":"اختصار","page":"109","question":{"q":"'LOL' is an ____.","options":["abbreviation","essay","message","paragraph"],"answer":0}},
-    {"english":"crude oil","arabic":"نفط خام","page":"Extra 3","question":{"q":"Plastic originates from ____.","options":["water","crude oil","sand","wood"],"answer":1}},
-    {"english":"biodegradable","arabic":"قابل للتحلل","page":"Extra 3","question":{"q":"Scientists seek ____ alternatives to plastic.","options":["stronger","biodegradable","cheaper","heavier"],"answer":1}},
-    {"english":"dynasty","arabic":"سلالة","page":"Extra 3","question":{"q":"The Great Wall was built over many ____.","options":["dynasties","empires","republics","continents"],"answer":0}},
-    {"english":"visible","arabic":"مرئي","page":"Extra 3","question":{"q":"The Wall is barely ____ from space.","options":["visible","invisible","audible","tangible"],"answer":0}},
-    {"english":"auditory","arabic":"سمعي","page":"Extra 3","question":{"q":"The ____ cortex processes sound.","options":["visual","auditory","olfactory","motor"],"answer":1}},
-    {"english":"limbic","arabic":"حوفي","page":"Extra 3","question":{"q":"The ____ system controls emotions.","options":["limbic","nervous","digestive","respiratory"],"answer":0}},
-    {"english":"nostalgic","arabic":"حنين للماضي","page":"Extra 3","question":{"q":"Old songs make me feel ____.","options":["angry","nostalgic","hungry","tired"],"answer":1}},
-    {"english":"therapy","arabic":"علاج","page":"Extra 3","question":{"q":"Music ____ helps stroke patients.","options":["therapy","surgery","pill","injection"],"answer":0}},
-    {"english":"evolution","arabic":"تطور","page":"Extra 3","question":{"q":"Music played a role in human ____.","options":["evolution","destruction","pollution","confusion"],"answer":0}},
-    {"english":"simultaneously","arabic":"في آن واحد","page":"Extra 3","question":{"q":"Music activates many brain areas ____.","options":["simultaneously","separately","slowly","never"],"answer":0}},
-    {"english":"throwaway","arabic":"استخدام مرة واحدة","page":"Extra 3","question":{"q":"Plastic bottles are part of ____ culture.","options":["throwaway","recycling","traditional","green"],"answer":0}},
-    {"english":"countermeasure","arabic":"إجراء مضاد","page":"Extra 3","question":{"q":"Scientists develop ____ against radiation.","options":["countermeasures","rockets","suits","windows"],"answer":0}},
-    {"english":"psychological","arabic":"نفسي","page":"Extra 3","question":{"q":"Long flights cause ____ strain.","options":["psychological","physical","chemical","biological"],"answer":0}},
-    {"english":"multi-planetary","arabic":"متعدد الكواكب","page":"Extra 3","question":{"q":"Becoming ____ is a dream.","options":["multi-planetary","single-planet","lost","small"],"answer":0}},
-    {"english":"shield","arabic":"درع / يقي","page":"Extra 3","question":{"q":"New materials ____ astronauts from radiation.","options":["shield","expose","harm","burn"],"answer":0}}
+    {
+      "english": "asthma",
+      "arabic": "ربو",
+      "page": "70",
+      "question": {
+        "q": "If someone finds it difficult to breathe, he probably has",
+        "options": ["Toothache", "headache", "fever", "asthma"],
+        "answer": 3,
+        "justification": "صعوبة التنفس عرض رئيسي للربو (asthma). ألم الأسنان (toothache) يسبب وجهاً، والصداع (headache) ألم في الرأس، والحمى (fever) ارتفاع حرارة."
+      }
+    },
+    {
+      "english": "toothache",
+      "arabic": "وجع أسنان",
+      "page": "70",
+      "question": {
+        "q": "If you have a ____, you should see a dentist.",
+        "options": ["toothache", "headache", "fever", "asthma"],
+        "answer": 0,
+        "justification": "وجع الأسنان (toothache) يستدعي زيارة طبيب الأسنان. الصداع (headache) قد يحتاج لراحة، والحمى (fever) لدواء، والربو (asthma) لطبيب صدرية."
+      }
+    },
+    {
+      "english": "headache",
+      "arabic": "صداع",
+      "page": "70",
+      "question": {
+        "q": "I've got a terrible ____. I need aspirin.",
+        "options": ["headache", "toothache", "stomachache", "earache"],
+        "answer": 0,
+        "justification": "الأسبرين يعالج الصداع (headache). وجع الأسنان (toothache) يحتاج طبيب أسنان، والمعدة (stomachache) تحتاج مضاد حموضة، والأذن (earache) تحتاج فحصاً."
+      }
+    },
+    {
+      "english": "fever",
+      "arabic": "حمى",
+      "page": "70",
+      "question": {
+        "q": "High body temperature is called ____.",
+        "options": ["cough", "fever", "cold", "pain"],
+        "answer": 1,
+        "justification": "ارتفاع حرارة الجسم هو الحمى (fever). الكحة (cough) عرض تنفسي، والبرد (cold) مرض فيروسي، والألم (pain) إحساس عام."
+      }
+    },
+    {
+      "english": "aspirin",
+      "arabic": "أسبرين",
+      "page": "70",
+      "question": {
+        "q": "Take some ____ for your headache.",
+        "options": ["aspirin", "sneeze", "antacid", "injection"],
+        "answer": 0,
+        "justification": "الأسبرين (aspirin) مسكن للصداع. العطس (sneeze) لا يُؤخذ، ومضاد الحموضة (antacid) للمعدة، والحقنة (injection) ليست أول علاج للصداع."
+      }
+    },
+    {
+      "english": "sneeze",
+      "arabic": "عطس",
+      "page": "70",
+      "question": {
+        "q": "Ahmed has a cold and can't stop ____.",
+        "options": ["coughing", "sneezing", "eating", "sleeping"],
+        "answer": 1,
+        "justification": "البرد يسبب العطس (sneezing). الكحة (coughing) قد تحدث لكن العطس أكثر ارتباطاً ببداية البرد، والأكل (eating) والنوم (sleeping) ليسا من أعراض البرد."
+      }
+    },
+    {
+      "english": "antacid",
+      "arabic": "مضاد حموضة",
+      "page": "70",
+      "question": {
+        "q": "For heartburn, take an ____.",
+        "options": ["antacid", "aspirin", "antibiotic", "painkiller"],
+        "answer": 0,
+        "justification": "حرقة المعدة تُعالج بمضاد الحموضة (antacid). الأسبرين (aspirin) للصداع، والمضاد الحيوي (antibiotic) للبكتيريا، والمسكن (painkiller) للألم العام."
+      }
+    },
+    {
+      "english": "sick",
+      "arabic": "مريض",
+      "page": "70",
+      "question": {
+        "q": "Ali is absent because he is ____.",
+        "options": ["sick", "well", "happy", "angry"],
+        "answer": 0,
+        "justification": "الغياب يكون بسبب المرض (sick). إذا كان بصحة جيدة (well) أو سعيداً (happy) أو غاضباً (angry) فهذه ليست أسباباً للغياب."
+      }
+    },
+    {
+      "english": "injection",
+      "arabic": "حقنة",
+      "page": "70",
+      "question": {
+        "q": "The doctor gave him an ____ for the pain.",
+        "options": ["injection", "pill", "tablet", "capsule"],
+        "answer": 0,
+        "justification": "لتسكين الألم السريع يعطي الطبيب حقنة (injection). الحبوب (pill/tablet/capsule) تؤخذ فموياً وتأخذ وقتاً أطول."
+      }
+    },
+    {
+      "english": "dental hygiene",
+      "arabic": "نظافة الأسنان",
+      "page": "71",
+      "question": {
+        "q": "____ is crucial for healthy teeth.",
+        "options": ["Dental hygiene", "Physical exercise", "Good food", "Clean air"],
+        "answer": 0,
+        "justification": "نظافة الأسنان (dental hygiene) هي أساس صحة الأسنان. التمارين (physical exercise) والطعام الجيد (good food) والهواء النظيف (clean air) للصحة العامة."
+      }
+    },
+    {
+      "english": "experiment",
+      "arabic": "تجربة",
+      "page": "71",
+      "question": {
+        "q": "Scientists make ____ to test new medicines.",
+        "options": ["experiments", "games", "parties", "meetings"],
+        "answer": 0,
+        "justification": "العلماء يجرون تجارب (experiments) لاختبار الأدوية. الألعاب (games) والحفلات (parties) والاجتماعات (meetings) ليست أدوات بحث علمي."
+      }
+    },
+    {
+      "english": "symptom",
+      "arabic": "عرض مرضي",
+      "page": "71",
+      "question": {
+        "q": "A headache and fever are ____ of flu.",
+        "options": ["symptoms", "causes", "cures", "treatments"],
+        "answer": 0,
+        "justification": "الصداع والحمى أعراض (symptoms) للإنفلونزا. الأسباب (causes) هي الفيروس، والعلاج (cure/treatment) هو الدواء."
+      }
+    },
+    {
+      "english": "requirement",
+      "arabic": "متطلب",
+      "page": "70",
+      "question": {
+        "q": "Passing the eye test is a ____ for a driving license.",
+        "options": ["requirement", "punishment", "problem", "privilege"],
+        "answer": 0,
+        "justification": "اجتياز فحص النظر متطلب (requirement) للرخصة. العقاب (punishment) والمشكلة (problem) والامتياز (privilege) لا تعبر عن شرط إلزامي."
+      }
+    },
+    {
+      "english": "worsen",
+      "arabic": "يسوء",
+      "page": "70",
+      "question": {
+        "q": "Smoking ____ your health condition.",
+        "options": ["improves", "worsens", "helps", "cures"],
+        "answer": 1,
+        "justification": "التدخين يزيد الحالة سوءاً (worsens). لا يحسن (improves) ولا يساعد (helps) ولا يعالج (cures)."
+      }
+    },
+    {
+      "english": "dentist",
+      "arabic": "طبيب أسنان",
+      "page": "70",
+      "question": {
+        "q": "Visit the ____ every six months.",
+        "options": ["dentist", "surgeon", "nurse", "pharmacist"],
+        "answer": 0,
+        "justification": "طبيب الأسنان (dentist) هو من نزوره دورياً. الجراح (surgeon) للعمليات، والممرض (nurse) للرعاية، والصيدلي (pharmacist) للأدوية."
+      }
+    },
+    {
+      "english": "patient",
+      "arabic": "مريض",
+      "page": "70",
+      "question": {
+        "q": "The ____ waited for the doctor.",
+        "options": ["patient", "nurse", "visitor", "driver"],
+        "answer": 0,
+        "justification": "المريض (patient) ينتظر الطبيب. الممرض (nurse) يعمل مع الطبيب، والزائر (visitor) يزور المريض، والسائق (driver) في الخارج."
+      }
+    },
+    {
+      "english": "cure",
+      "arabic": "علاج",
+      "page": "71",
+      "question": {
+        "q": "Scientists are searching for a ____ for cancer.",
+        "options": ["cause", "cure", "symptom", "disease"],
+        "answer": 1,
+        "justification": "البحث عن علاج (cure) للسرطان. السبب (cause) معروف جزئياً، والعرض (symptom) يتم تشخيصه، والمرض (disease) هو السرطان نفسه."
+      }
+    },
+    {
+      "english": "disease",
+      "arabic": "مرض",
+      "page": "71",
+      "question": {
+        "q": "Diabetes is a chronic ____.",
+        "options": ["disease", "cure", "symptom", "treatment"],
+        "answer": 0,
+        "justification": "السكري مرض (disease) مزمن. العلاج (cure/treatment) هو ما يُعطى للمريض، والعرض (symptom) هو علامة المرض."
+      }
+    },
+    {
+      "english": "aviation",
+      "arabic": "طيران",
+      "page": "102",
+      "question": {
+        "q": "Amelia Earhart pioneered ____.",
+        "options": ["medicine", "aviation", "education", "engineering"],
+        "answer": 1,
+        "justification": "إميليا إيرهارت رائدة في الطيران (aviation). لم تشتهر بالطب (medicine) ولا التعليم (education) ولا الهندسة (engineering)."
+      }
+    },
+    {
+      "english": "navigator",
+      "arabic": "ملاح",
+      "page": "103",
+      "question": {
+        "q": "Fred Noonan was Earhart's ____.",
+        "options": ["husband", "navigator", "teacher", "doctor"],
+        "answer": 1,
+        "justification": "فريد نونان كان ملاحاً (navigator) في رحلتها. لم يكن زوجها (husband) ولا معلمها (teacher) ولا طبيبها (doctor)."
+      }
+    },
+    {
+      "english": "solo",
+      "arabic": "منفرد",
+      "page": "103",
+      "question": {
+        "q": "She made a ____ flight across the Atlantic.",
+        "options": ["solo", "group", "passenger", "family"],
+        "answer": 0,
+        "justification": "قامت برحلة منفردة (solo). 'group' مجموعة، 'passenger' راكب، 'family' عائلة، وكلها تناقض فكرة الرحلة الفردية."
+      }
+    },
+    {
+      "english": "etiquette",
+      "arabic": "آداب",
+      "page": "108",
+      "question": {
+        "q": "Email ____ is important in formal messages.",
+        "options": ["address", "etiquette", "password", "box"],
+        "answer": 1,
+        "justification": "آداب البريد الإلكتروني (etiquette) مهمة في الرسائل الرسمية. العنوان (address) وكلمة المرور (password) والصندوق (box) عناصر تقنية وليست سلوكية."
+      }
+    },
+    {
+      "english": "greeting",
+      "arabic": "تحية",
+      "page": "108",
+      "question": {
+        "q": "Always start an email with a ____.",
+        "options": ["mistake", "greeting", "complaint", "warning"],
+        "answer": 1,
+        "justification": "نبدأ البريد بتحية (greeting). الخطأ (mistake) والشكوى (complaint) والتحذير (warning) ليست بدايات مناسبة."
+      }
+    },
+    {
+      "english": "slang",
+      "arabic": "عامية",
+      "page": "109",
+      "question": {
+        "q": "Avoid using ____ in formal emails.",
+        "options": ["slang", "sentences", "punctuation", "subjects"],
+        "answer": 0,
+        "justification": "يجب تجنب العامية (slang) في الرسائل الرسمية. الجمل (sentences) والترقيم (punctuation) والموضوعات (subjects) ضرورية."
+      }
+    },
+    {
+      "english": "abbreviation",
+      "arabic": "اختصار",
+      "page": "109",
+      "question": {
+        "q": "'LOL' is an ____.",
+        "options": ["abbreviation", "essay", "message", "paragraph"],
+        "answer": 0,
+        "justification": "'LOL' اختصار (abbreviation) لجملة. 'essay' مقال، 'message' رسالة، 'paragraph' فقرة."
+      }
+    },
+    {
+      "english": "crude oil",
+      "arabic": "نفط خام",
+      "page": "Extra 3",
+      "question": {
+        "q": "Plastic originates from ____.",
+        "options": ["water", "crude oil", "sand", "wood"],
+        "answer": 1,
+        "justification": "البلاستيك أصله من النفط الخام (crude oil). الماء (water) والرمل (sand) والخشب (wood) ليست مصادر للبلاستيك."
+      }
+    },
+    {
+      "english": "biodegradable",
+      "arabic": "قابل للتحلل",
+      "page": "Extra 3",
+      "question": {
+        "q": "Scientists seek ____ alternatives to plastic.",
+        "options": ["stronger", "biodegradable", "cheaper", "heavier"],
+        "answer": 1,
+        "justification": "بدائل قابلة للتحلل (biodegradable) أفضل للبيئة. 'stronger' أقوى، 'cheaper' أرخص، 'heavier' أثقل، لكن القابلية للتحلل هي الميزة البيئية."
+      }
+    },
+    {
+      "english": "dynasty",
+      "arabic": "سلالة",
+      "page": "Extra 3",
+      "question": {
+        "q": "The Great Wall was built over many ____.",
+        "options": ["dynasties", "empires", "republics", "continents"],
+        "answer": 0,
+        "justification": "سور الصين بني عبر سلالات (dynasties) متعاقبة. 'empires' إمبراطوريات، 'republics' جمهوريات، 'continents' قارات."
+      }
+    },
+    {
+      "english": "visible",
+      "arabic": "مرئي",
+      "page": "Extra 3",
+      "question": {
+        "q": "The Wall is barely ____ from space.",
+        "options": ["visible", "invisible", "audible", "tangible"],
+        "answer": 0,
+        "justification": "السور بالكاد مرئي (visible) من الفضاء. 'invisible' يعني غير مرئي تماماً وهذا غير دقيق. 'audible' مسموع، 'tangible' ملموس."
+      }
+    },
+    {
+      "english": "auditory",
+      "arabic": "سمعي",
+      "page": "Extra 3",
+      "question": {
+        "q": "The ____ cortex processes sound.",
+        "options": ["visual", "auditory", "olfactory", "motor"],
+        "answer": 1,
+        "justification": "القشرة السمعية (auditory cortex) تعالج الصوت. البصرية (visual) للرؤية، والشمية (olfactory) للشم، والحركية (motor) للحركة."
+      }
+    },
+    {
+      "english": "limbic",
+      "arabic": "حوفي",
+      "page": "Extra 3",
+      "question": {
+        "q": "The ____ system controls emotions.",
+        "options": ["limbic", "nervous", "digestive", "respiratory"],
+        "answer": 0,
+        "justification": "الجهاز الحوفي (limbic system) مسؤول عن العواطف. العصبي (nervous) أوسع، والهضمي (digestive) للطعام، والتنفسي (respiratory) للتنفس."
+      }
+    },
+    {
+      "english": "nostalgic",
+      "arabic": "حنين للماضي",
+      "page": "Extra 3",
+      "question": {
+        "q": "Old songs make me feel ____.",
+        "options": ["angry", "nostalgic", "hungry", "tired"],
+        "answer": 1,
+        "justification": "الأغاني القديمة تثير الحنين (nostalgic). 'angry' غاضب، 'hungry' جائع، 'tired' متعب، لا ترتبط بالمشاعر التي تثيرها الموسيقى القديمة."
+      }
+    },
+    {
+      "english": "therapy",
+      "arabic": "علاج",
+      "page": "Extra 3",
+      "question": {
+        "q": "Music ____ helps stroke patients.",
+        "options": ["therapy", "surgery", "pill", "injection"],
+        "answer": 0,
+        "justification": "العلاج بالموسيقى (music therapy) يساعد مرضى الجلطات. الجراحة (surgery) والحبوب (pill) والحقن (injection) ليست أنواعاً من العلاج بالموسيقى."
+      }
+    },
+    {
+      "english": "evolution",
+      "arabic": "تطور",
+      "page": "Extra 3",
+      "question": {
+        "q": "Music played a role in human ____.",
+        "options": ["evolution", "destruction", "pollution", "confusion"],
+        "answer": 0,
+        "justification": "الموسيقى لعبت دوراً في التطور (evolution) البشري. 'destruction' تدمير، 'pollution' تلوث، 'confusion' ارتباك."
+      }
+    },
+    {
+      "english": "simultaneously",
+      "arabic": "في آن واحد",
+      "page": "Extra 3",
+      "question": {
+        "q": "Music activates many brain areas ____.",
+        "options": ["simultaneously", "separately", "slowly", "never"],
+        "answer": 0,
+        "justification": "الموسيقى تنشط مناطق الدماغ في آن واحد (simultaneously). 'separately' بشكل منفصل، 'slowly' ببطء، 'never' لا تنشطها أبداً."
+      }
+    },
+    {
+      "english": "throwaway",
+      "arabic": "استخدام مرة واحدة",
+      "page": "Extra 3",
+      "question": {
+        "q": "Plastic bottles are part of ____ culture.",
+        "options": ["throwaway", "recycling", "traditional", "green"],
+        "answer": 0,
+        "justification": "ثقافة الاستخدام الواحد (throwaway culture) تعني التخلص السريع. 'recycling' إعادة تدوير، 'traditional' تقليدية، 'green' صديقة للبيئة."
+      }
+    },
+    {
+      "english": "countermeasure",
+      "arabic": "إجراء مضاد",
+      "page": "Extra 3",
+      "question": {
+        "q": "Scientists develop ____ against radiation.",
+        "options": ["countermeasures", "rockets", "suits", "windows"],
+        "answer": 0,
+        "justification": "يطور العلماء إجراءات مضادة (countermeasures) للإشعاع. الصواريخ (rockets) والبدلات (suits) والنوافذ (windows) ليست حلولاً علمية."
+      }
+    },
+    {
+      "english": "psychological",
+      "arabic": "نفسي",
+      "page": "Extra 3",
+      "question": {
+        "q": "Long flights cause ____ strain.",
+        "options": ["psychological", "physical", "chemical", "biological"],
+        "answer": 0,
+        "justification": "الرحلات الطويلة تسبب إجهاداً نفسياً (psychological). 'physical' جسدي، 'chemical' كيميائي، 'biological' بيولوجي."
+      }
+    },
+    {
+      "english": "multi-planetary",
+      "arabic": "متعدد الكواكب",
+      "page": "Extra 3",
+      "question": {
+        "q": "Becoming ____ is a dream.",
+        "options": ["multi-planetary", "single-planet", "lost", "small"],
+        "answer": 0,
+        "justification": "أن نصبح متعددي الكواكب (multi-planetary) حلم. 'single-planet' كوكب واحد (عكس المقصود)، 'lost' ضائع، 'small' صغير."
+      }
+    },
+    {
+      "english": "shield",
+      "arabic": "درع / يقي",
+      "page": "Extra 3",
+      "question": {
+        "q": "New materials ____ astronauts from radiation.",
+        "options": ["shield", "expose", "harm", "burn"],
+        "answer": 0,
+        "justification": "المواد الجديدة تقي (shield) رواد الفضاء من الإشعاع. 'expose' تعرض، 'harm' تؤذي، 'burn' تحرق."
+      }
+    }
   ]
 }

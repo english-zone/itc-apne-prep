@@ -2,45 +2,445 @@
   "topic": "Clothing, Weather & Reading Vocabulary",
   "pageRange": "69-70, 96-101, Extra 2",
   "words": [
-    {"english":"ring","arabic":"خاتم","page":"69","question":{"q":"Some people wear a ____ when they get married.","options":["watch","hat","ring","belt"],"answer":2}},
-    {"english":"watch","arabic":"ساعة يد","page":"69","question":{"q":"I check the time on my ____.","options":["ring","watch","belt","hat"],"answer":1}},
-    {"english":"hat","arabic":"قبعة","page":"69","question":{"q":"Wear a ____ to protect your head from the sun.","options":["hat","scarf","gloves","belt"],"answer":0}},
-    {"english":"belt","arabic":"حزام","page":"69","question":{"q":"He tightened his ____ because his pants were loose.","options":["tie","belt","watch","ring"],"answer":1}},
-    {"english":"raincoat","arabic":"معطف مطر","page":"69","question":{"q":"It's raining. I'll wear my ____.","options":["Sweater","raincoat","shoes","glasses"],"answer":1}},
-    {"english":"sweater","arabic":"سترة صوفية","page":"69","question":{"q":"Put on a ____; it's cold outside.","options":["sweater","umbrella","trainers","thobe"],"answer":0}},
-    {"english":"trainers","arabic":"حذاء رياضي","page":"69","question":{"q":"I need my ____ for football.","options":["Shoes","trainers","gloves","belt"],"answer":1}},
-    {"english":"gloves","arabic":"قفازات","page":"69","question":{"q":"In winter, wear ____ to keep your hands warm.","options":["gloves","rings","belts","hats"],"answer":0}},
-    {"english":"umbrella","arabic":"مظلة","page":"69","question":{"q":"A big ____ will keep you dry.","options":["umbrella","goggles","bag","scarf"],"answer":0}},
-    {"english":"scarf","arabic":"وشاح","page":"69","question":{"q":"Wrap a ____ around your neck in cold weather.","options":["scarf","tie","belt","glove"],"answer":0}},
-    {"english":"thobe","arabic":"ثوب","page":"69","question":{"q":"Saudi men usually wear a ____.","options":["tie","suit","thobe","shirt"],"answer":2}},
-    {"english":"tie","arabic":"ربطة عنق","page":"69","question":{"q":"He wore a ____ with his suit.","options":["tie","belt","scarf","thobe"],"answer":0}},
-    {"english":"suit","arabic":"بدلة","page":"69","question":{"q":"He bought a new ____ for the interview.","options":["scarf","suit","thobe","jacket"],"answer":1}},
-    {"english":"goggles","arabic":"نظارات واقية","page":"69","question":{"q":"Swimmers wear ____ to protect their eyes.","options":["umbrellas","goggles","hats","gloves"],"answer":1}},
-    {"english":"old fashioned","arabic":"قديم الطراز","page":"70","question":{"q":"My phone looks ____ compared to new models.","options":["modern","old fashioned","trendy","popular"],"answer":1}},
-    {"english":"modern","arabic":"حديث","page":"70","question":{"q":"Dubai has many ____ buildings.","options":["modern","old","ancient","broken"],"answer":0}},
-    {"english":"thirsty","arabic":"عطشان","page":"70","question":{"q":"I am really ____, I need water.","options":["hungry","thirsty","tired","sleepy"],"answer":1}},
-    {"english":"hungry","arabic":"جائع","page":"70","question":{"q":"After the match, I was very ____.","options":["thirsty","happy","hungry","angry"],"answer":2}},
-    {"english":"delicious","arabic":"لذيذ","page":"70","question":{"q":"This cake tastes ____.","options":["awful","delicious","salty","bitter"],"answer":1}},
-    {"english":"awful","arabic":"فظيع","page":"70","question":{"q":"The weather today is ____; it's cold and rainy.","options":["delicious","pleasant","awful","wonderful"],"answer":2}},
-    {"english":"pedal","arabic":"دواسة","page":"96","question":{"q":"The first bicycles didn't have ____.","options":["wheels","pedals","chains","brakes"],"answer":1}},
-    {"english":"lever","arabic":"رافعة","page":"96","question":{"q":"Macmillan fixed foot ____ to his bicycle.","options":["pedals","levers","wheels","chains"],"answer":1}},
-    {"english":"invention","arabic":"اختراع","page":"96","question":{"q":"Bicycles are not a new ____.","options":["invention","destruction","game","problem"],"answer":0}},
-    {"english":"crack","arabic":"صدع","page":"97","question":{"q":"Water enters ____ in the sea floor.","options":["cracks","mountains","valleys","tunnels"],"answer":0}},
-    {"english":"mineral","arabic":"معدن","page":"97","question":{"q":"Salt is a common ____.","options":["mineral","plant","animal","liquid"],"answer":0}},
-    {"english":"evaporated","arabic":"تبخر","page":"97","question":{"q":"The sea ____ completely in the past.","options":["froze","evaporated","expanded","flooded"],"answer":1}},
-    {"english":"copper","arabic":"نحاس","page":"98","question":{"q":"____ is a reddish metal.","options":["Iron","Copper","Silver","Zinc"],"answer":1}},
-    {"english":"diabetes","arabic":"مرض السكري","page":"100","question":{"q":"____ affects how the body uses sugar.","options":["Asthma","Diabetes","Cancer","Headache"],"answer":1}},
-    {"english":"insulin","arabic":"أنسولين","page":"100","question":{"q":"Type I diabetics need ____ injections.","options":["vitamin","insulin","calcium","antibiotic"],"answer":1}},
-    {"english":"glucose","arabic":"جلوكوز","page":"100","question":{"q":"____ is a simple sugar used for energy.","options":["Protein","Fat","Glucose","Fiber"],"answer":2}},
-    {"english":"carbohydrates","arabic":"كربوهيدرات","page":"100","question":{"q":"Bread and rice are sources of ____.","options":["fats","carbohydrates","proteins","vitamins"],"answer":1}},
-    {"english":"alleviate","arabic":"يخفف","page":"100","question":{"q":"This medicine will ____ your pain.","options":["worsen","alleviate","ignore","increase"],"answer":1}},
-    {"english":"symptom","arabic":"عرض مرضي","page":"100","question":{"q":"Fever is a ____ of the flu.","options":["cause","symptom","cure","disease"],"answer":1}},
-    {"english":"tissue","arabic":"نسيج","page":"100","question":{"q":"Body ____ can be damaged by disease.","options":["tissues","bones","muscles","teeth"],"answer":0}},
-    {"english":"digestion","arabic":"هضم","page":"101","question":{"q":"Food is broken down during ____.","options":["sleep","exercise","digestion","reading"],"answer":2}},
-    {"english":"diet","arabic":"نظام غذائي","page":"100","question":{"q":"A balanced ____ is essential for health.","options":["diet","exercise","hobby","habit"],"answer":0}},
-    {"english":"visible","arabic":"مرئي","page":"Extra 2","question":{"q":"Only ____ matter can be seen.","options":["visible","dark","hidden","invisible"],"answer":0}},
-    {"english":"gravitational","arabic":"جاذبي","page":"Extra 2","question":{"q":"Dark matter has ____ effects.","options":["gravitational","electrical","chemical","thermal"],"answer":0}},
-    {"english":"beverage","arabic":"مشروب","page":"Extra 2","question":{"q":"Coffee is a popular ____.","options":["beverage","food","sport","machine"],"answer":0}},
-    {"english":"optical","arabic":"بصري","page":"Extra 2","question":{"q":"A rainbow is an ____ phenomenon.","options":["optical","musical","medical","mechanical"],"answer":0}}
+    {
+      "english": "ring",
+      "arabic": "خاتم",
+      "page": "69",
+      "question": {
+        "q": "Some people wear a ____ when they get married.",
+        "options": ["watch", "hat", "ring", "belt"],
+        "answer": 2,
+        "justification": "في حفلات الزفاف، يتبادل الزوجان الخواتم (ring). الساعة (watch) تُلبس في أي وقت، والقبعة (hat) والحزام (belt) ليسا من طقوس الزواج."
+      }
+    },
+    {
+      "english": "watch",
+      "arabic": "ساعة يد",
+      "page": "69",
+      "question": {
+        "q": "I check the time on my ____.",
+        "options": ["ring", "watch", "belt", "hat"],
+        "answer": 1,
+        "justification": "الوقت يُعرف من ساعة اليد (watch). الخاتم (ring) للزينة، والحزام (belt) للملابس، والقبعة (hat) للرأس، وكلها لا تُظهر الوقت."
+      }
+    },
+    {
+      "english": "hat",
+      "arabic": "قبعة",
+      "page": "69",
+      "question": {
+        "q": "Wear a ____ to protect your head from the sun.",
+        "options": ["hat", "scarf", "gloves", "belt"],
+        "answer": 0,
+        "justification": "القبعة (hat) تحمي الرأس من الشمس. الوشاح (scarf) للرقبة، والقفازات (gloves) لليدين، والحزام (belt) للخصر."
+      }
+    },
+    {
+      "english": "belt",
+      "arabic": "حزام",
+      "page": "69",
+      "question": {
+        "q": "He tightened his ____ because his pants were loose.",
+        "options": ["tie", "belt", "watch", "ring"],
+        "answer": 1,
+        "justification": "عندما يكون البنطال واسعاً، نشد الحزام (belt). ربطة العنق (tie) على الرقبة، والساعة (watch) في المعصم، والخاتم (ring) في الإصبع."
+      }
+    },
+    {
+      "english": "raincoat",
+      "arabic": "معطف مطر",
+      "page": "69",
+      "question": {
+        "q": "It's raining. I'll wear my ____.",
+        "options": ["Sweater", "raincoat", "shoes", "glasses"],
+        "answer": 1,
+        "justification": "في المطر نرتدي معطف المطر (raincoat) ليبقينا جافين. السترة الصوفية (sweater) للتدفئة، والحذاء (shoes) للقدمين، والنظارات (glasses) للعينين."
+      }
+    },
+    {
+      "english": "sweater",
+      "arabic": "سترة صوفية",
+      "page": "69",
+      "question": {
+        "q": "Put on a ____; it's cold outside.",
+        "options": ["sweater", "umbrella", "trainers", "thobe"],
+        "answer": 0,
+        "justification": "للتدفئة في البرد نرتدي سترة صوفية (sweater). المظلة (umbrella) للمطر، والحذاء الرياضي (trainers) للرياضة، والثوب (thobe) لباس تقليدي."
+      }
+    },
+    {
+      "english": "trainers",
+      "arabic": "حذاء رياضي",
+      "page": "69",
+      "question": {
+        "q": "I need my ____ for football.",
+        "options": ["Shoes", "trainers", "gloves", "belt"],
+        "answer": 1,
+        "justification": "لكرة القدم نحتاج حذاء رياضياً (trainers). الأحذية العادية (shoes) ليست مناسبة للملاعب، والقفازات (gloves) لليدين، والحزام (belt) ليس للرياضة."
+      }
+    },
+    {
+      "english": "gloves",
+      "arabic": "قفازات",
+      "page": "69",
+      "question": {
+        "q": "In winter, wear ____ to keep your hands warm.",
+        "options": ["gloves", "rings", "belts", "hats"],
+        "answer": 0,
+        "justification": "القفازات (gloves) تحافظ على دفء اليدين. الخواتم (rings) للزينة، والأحزمة (belts) للخصر، والقبعات (hats) للرأس."
+      }
+    },
+    {
+      "english": "umbrella",
+      "arabic": "مظلة",
+      "page": "69",
+      "question": {
+        "q": "A big ____ will keep you dry.",
+        "options": ["umbrella", "goggles", "bag", "scarf"],
+        "answer": 0,
+        "justification": "المظلة (umbrella) تقي من المطر. النظارات الواقية (goggles) للعيون، والحقيبة (bag) للحمل، والوشاح (scarf) للرقبة."
+      }
+    },
+    {
+      "english": "scarf",
+      "arabic": "وشاح",
+      "page": "69",
+      "question": {
+        "q": "Wrap a ____ around your neck in cold weather.",
+        "options": ["scarf", "tie", "belt", "glove"],
+        "answer": 0,
+        "justification": "الوشاح (scarf) يُلف حول الرقبة للتدفئة. ربطة العنق (tie) للأناقة، والحزام (belt) للخصر، والقفاز (glove) لليد."
+      }
+    },
+    {
+      "english": "thobe",
+      "arabic": "ثوب",
+      "page": "69",
+      "question": {
+        "q": "Saudi men usually wear a ____.",
+        "options": ["tie", "suit", "thobe", "shirt"],
+        "answer": 2,
+        "justification": "الثوب (thobe) هو الزي التقليدي للرجال في السعودية. ربطة العنق (tie) والبدلة (suit) والقميص (shirt) لباس غربي أو رسمي ولكن ليس الزي اليومي التقليدي."
+      }
+    },
+    {
+      "english": "tie",
+      "arabic": "ربطة عنق",
+      "page": "69",
+      "question": {
+        "q": "He wore a ____ with his suit.",
+        "options": ["tie", "belt", "scarf", "thobe"],
+        "answer": 0,
+        "justification": "مع البدلة تُلبس ربطة العنق (tie). الحزام (belt) موجود أيضاً ولكن السؤال يركز على ما يُلبس مع البدلة تحديداً حول الرقبة."
+      }
+    },
+    {
+      "english": "suit",
+      "arabic": "بدلة",
+      "page": "69",
+      "question": {
+        "q": "He bought a new ____ for the interview.",
+        "options": ["scarf", "suit", "thobe", "jacket"],
+        "answer": 1,
+        "justification": "للمقابلة الرسمية يشتري بدلة (suit). الوشاح (scarf) ليس رسمياً، والثوب (thobe) تقليدي، والسترة (jacket) أقل رسمية من البدلة الكاملة."
+      }
+    },
+    {
+      "english": "goggles",
+      "arabic": "نظارات واقية",
+      "page": "69",
+      "question": {
+        "q": "Swimmers wear ____ to protect their eyes.",
+        "options": ["umbrellas", "goggles", "hats", "gloves"],
+        "answer": 1,
+        "justification": "السباحون يضعون نظارات واقية (goggles) لحماية العينين من الماء. المظلات (umbrellas) والقبعات (hats) والقفازات (gloves) لا تستخدم في الماء."
+      }
+    },
+    {
+      "english": "old fashioned",
+      "arabic": "قديم الطراز",
+      "page": "70",
+      "question": {
+        "q": "My phone looks ____ compared to new models.",
+        "options": ["modern", "old fashioned", "trendy", "popular"],
+        "answer": 1,
+        "justification": "إذا كان الهاتف يبدو قديماً مقارنة بالموديلات الحديثة، فهو (old fashioned). 'modern' يعني حديث، و'trendy' يعني على الموضة، و'popular' يعني مشهور."
+      }
+    },
+    {
+      "english": "modern",
+      "arabic": "حديث",
+      "page": "70",
+      "question": {
+        "q": "Dubai has many ____ buildings.",
+        "options": ["modern", "old", "ancient", "broken"],
+        "answer": 0,
+        "justification": "دبي معروفة بالمباني الحديثة (modern). 'old' قديم، و'ancient' أثري، و'broken' مكسور، وكلها لا تصف أفق دبي."
+      }
+    },
+    {
+      "english": "thirsty",
+      "arabic": "عطشان",
+      "page": "70",
+      "question": {
+        "q": "I am really ____, I need water.",
+        "options": ["hungry", "thirsty", "tired", "sleepy"],
+        "answer": 1,
+        "justification": "عندما تحتاج إلى ماء، فأنت عطشان (thirsty). 'hungry' جائع، 'tired' متعب، 'sleepy' نعسان."
+      }
+    },
+    {
+      "english": "hungry",
+      "arabic": "جائع",
+      "page": "70",
+      "question": {
+        "q": "After the match, I was very ____.",
+        "options": ["thirsty", "happy", "hungry", "angry"],
+        "answer": 2,
+        "justification": "بعد مجهود كبير، يشعر المرء بالجوع (hungry). 'thirsty' عطش، 'happy' سعادة، 'angry' غضب."
+      }
+    },
+    {
+      "english": "delicious",
+      "arabic": "لذيذ",
+      "page": "70",
+      "question": {
+        "q": "This cake tastes ____.",
+        "options": ["awful", "delicious", "salty", "bitter"],
+        "answer": 1,
+        "justification": "عندما يكون الطعم طيباً نقول (delicious). 'awful' فظيع، 'salty' مالح، 'bitter' مر، وكلها صفات سلبية غير مناسبة للكعكة الجيدة."
+      }
+    },
+    {
+      "english": "awful",
+      "arabic": "فظيع",
+      "page": "70",
+      "question": {
+        "q": "The weather today is ____; it's cold and rainy.",
+        "options": ["delicious", "pleasant", "awful", "wonderful"],
+        "answer": 2,
+        "justification": "الجو البارد والممطر سيئ أو فظيع (awful). 'delicious' لذيذ (للطعام)، 'pleasant' لطيف، 'wonderful' رائع، وكلها إيجابية."
+      }
+    },
+    {
+      "english": "pedal",
+      "arabic": "دواسة",
+      "page": "96",
+      "question": {
+        "q": "The first bicycles didn't have ____.",
+        "options": ["wheels", "pedals", "chains", "brakes"],
+        "answer": 1,
+        "justification": "الدراجات الأولى لم يكن بها دواسات (pedals). كانت لها عجلات (wheels)، والسلاسل (chains) والفرامل (brakes) أتت لاحقاً."
+      }
+    },
+    {
+      "english": "lever",
+      "arabic": "رافعة",
+      "page": "96",
+      "question": {
+        "q": "Macmillan fixed foot ____ to his bicycle.",
+        "options": ["pedals", "levers", "wheels", "chains"],
+        "answer": 1,
+        "justification": "ماكميلان أضاف روافع (levers) تُحرك بالقدم. 'pedals' دواسات (اختراع لاحق)، 'wheels' عجلات، 'chains' سلاسل."
+      }
+    },
+    {
+      "english": "invention",
+      "arabic": "اختراع",
+      "page": "96",
+      "question": {
+        "q": "Bicycles are not a new ____.",
+        "options": ["invention", "destruction", "game", "problem"],
+        "answer": 0,
+        "justification": "الدراجة ليست اختراعاً (invention) جديداً. 'destruction' تدمير، 'game' لعبة، 'problem' مشكلة."
+      }
+    },
+    {
+      "english": "crack",
+      "arabic": "صدع",
+      "page": "97",
+      "question": {
+        "q": "Water enters ____ in the sea floor.",
+        "options": ["cracks", "mountains", "valleys", "tunnels"],
+        "answer": 0,
+        "justification": "الماء يدخل من خلال الشقوق أو الصدوع (cracks) في قاع البحر. 'mountains' جبال، 'valleys' وديان، 'tunnels' أنفاق."
+      }
+    },
+    {
+      "english": "mineral",
+      "arabic": "معدن",
+      "page": "97",
+      "question": {
+        "q": "Salt is a common ____.",
+        "options": ["mineral", "plant", "animal", "liquid"],
+        "answer": 0,
+        "justification": "الملح معدن (mineral) شائع. 'plant' نبات، 'animal' حيوان، 'liquid' سائل."
+      }
+    },
+    {
+      "english": "evaporated",
+      "arabic": "تبخر",
+      "page": "97",
+      "question": {
+        "q": "The sea ____ completely in the past.",
+        "options": ["froze", "evaporated", "expanded", "flooded"],
+        "answer": 1,
+        "justification": "البحر تبخر (evaporated) تماماً. 'froze' تجمد، 'expanded' توسع، 'flooded' فاض."
+      }
+    },
+    {
+      "english": "copper",
+      "arabic": "نحاس",
+      "page": "98",
+      "question": {
+        "q": "____ is a reddish metal.",
+        "options": ["Iron", "Copper", "Silver", "Zinc"],
+        "answer": 1,
+        "justification": "النحاس (Copper) معدن أحمر اللون. الحديد (Iron) رمادي، والفضة (Silver) بيضاء، والزنك (Zinc) أبيض مائل للزرقة."
+      }
+    },
+    {
+      "english": "diabetes",
+      "arabic": "مرض السكري",
+      "page": "100",
+      "question": {
+        "q": "____ affects how the body uses sugar.",
+        "options": ["Asthma", "Diabetes", "Cancer", "Headache"],
+        "answer": 1,
+        "justification": "السكري (Diabetes) هو المرض الذي يؤثر على استخدام الجسم للسكر. 'Asthma' ربو، 'Cancer' سرطان، 'Headache' صداع."
+      }
+    },
+    {
+      "english": "insulin",
+      "arabic": "أنسولين",
+      "page": "100",
+      "question": {
+        "q": "Type I diabetics need ____ injections.",
+        "options": ["vitamin", "insulin", "calcium", "antibiotic"],
+        "answer": 1,
+        "justification": "مرضى السكري من النوع الأول يحتاجون حقن الأنسولين (insulin). 'vitamin' فيتامين، 'calcium' كالسيوم، 'antibiotic' مضاد حيوي."
+      }
+    },
+    {
+      "english": "glucose",
+      "arabic": "جلوكوز",
+      "page": "100",
+      "question": {
+        "q": "____ is a simple sugar used for energy.",
+        "options": ["Protein", "Fat", "Glucose", "Fiber"],
+        "answer": 2,
+        "justification": "الجلوكوز (Glucose) هو سكر بسيط يعطي طاقة. 'Protein' بروتين، 'Fat' دهن، 'Fiber' ألياف."
+      }
+    },
+    {
+      "english": "carbohydrates",
+      "arabic": "كربوهيدرات",
+      "page": "100",
+      "question": {
+        "q": "Bread and rice are sources of ____.",
+        "options": ["fats", "carbohydrates", "proteins", "vitamins"],
+        "answer": 1,
+        "justification": "الخبز والأرز مصادر للكربوهيدرات (carbohydrates). 'fats' دهون، 'proteins' بروتينات، 'vitamins' فيتامينات."
+      }
+    },
+    {
+      "english": "alleviate",
+      "arabic": "يخفف",
+      "page": "100",
+      "question": {
+        "q": "This medicine will ____ your pain.",
+        "options": ["worsen", "alleviate", "ignore", "increase"],
+        "answer": 1,
+        "justification": "الدواء يخفف (alleviate) الألم. 'worsen' يزيده سوءاً، 'ignore' يتجاهل، 'increase' يزيد."
+      }
+    },
+    {
+      "english": "symptom",
+      "arabic": "عرض مرضي",
+      "page": "100",
+      "question": {
+        "q": "Fever is a ____ of the flu.",
+        "options": ["cause", "symptom", "cure", "disease"],
+        "answer": 1,
+        "justification": "الحمى عرض (symptom) من أعراض الإنفلونزا. 'cause' سبب، 'cure' علاج، 'disease' مرض."
+      }
+    },
+    {
+      "english": "tissue",
+      "arabic": "نسيج",
+      "page": "100",
+      "question": {
+        "q": "Body ____ can be damaged by disease.",
+        "options": ["tissues", "bones", "muscles", "teeth"],
+        "answer": 0,
+        "justification": "الأنسجة (tissues) هي التي تتضرر بالأمراض. 'bones' عظام، 'muscles' عضلات، 'teeth' أسنان."
+      }
+    },
+    {
+      "english": "digestion",
+      "arabic": "هضم",
+      "page": "101",
+      "question": {
+        "q": "Food is broken down during ____.",
+        "options": ["sleep", "exercise", "digestion", "reading"],
+        "answer": 2,
+        "justification": "الطعام يُهضم أثناء عملية الهضم (digestion). 'sleep' نوم، 'exercise' تمارين، 'reading' قراءة."
+      }
+    },
+    {
+      "english": "diet",
+      "arabic": "نظام غذائي",
+      "page": "100",
+      "question": {
+        "q": "A balanced ____ is essential for health.",
+        "options": ["diet", "exercise", "hobby", "habit"],
+        "answer": 0,
+        "justification": "النظام الغذائي (diet) المتوازن أساسي للصحة. 'exercise' تمارين، 'hobby' هواية، 'habit' عادة."
+      }
+    },
+    {
+      "english": "visible",
+      "arabic": "مرئي",
+      "page": "Extra 2",
+      "question": {
+        "q": "Only ____ matter can be seen.",
+        "options": ["visible", "dark", "hidden", "invisible"],
+        "answer": 0,
+        "justification": "المادة المرئية (visible) هي التي تُرى. 'dark' مظلم، 'hidden' مخفي، 'invisible' غير مرئي."
+      }
+    },
+    {
+      "english": "gravitational",
+      "arabic": "جاذبي",
+      "page": "Extra 2",
+      "question": {
+        "q": "Dark matter has ____ effects.",
+        "options": ["gravitational", "electrical", "chemical", "thermal"],
+        "answer": 0,
+        "justification": "للمادة المظلمة تأثيرات جاذبية (gravitational). 'electrical' كهربائية، 'chemical' كيميائية، 'thermal' حرارية."
+      }
+    },
+    {
+      "english": "beverage",
+      "arabic": "مشروب",
+      "page": "Extra 2",
+      "question": {
+        "q": "Coffee is a popular ____.",
+        "options": ["beverage", "food", "sport", "machine"],
+        "answer": 0,
+        "justification": "القهوة مشروب (beverage) شعبي. 'food' طعام، 'sport' رياضة، 'machine' آلة."
+      }
+    },
+    {
+      "english": "optical",
+      "arabic": "بصري",
+      "page": "Extra 2",
+      "question": {
+        "q": "A rainbow is an ____ phenomenon.",
+        "options": ["optical", "musical", "medical", "mechanical"],
+        "answer": 0,
+        "justification": "قوس قزح ظاهرة بصرية (optical). 'musical' موسيقية، 'medical' طبية، 'mechanical' ميكانيكية."
+      }
+    }
   ]
 }
