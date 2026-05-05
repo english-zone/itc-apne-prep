@@ -2,45 +2,445 @@
   "topic": "Shopping, Materials & Reading",
   "pageRange": "74-76, Extra 6",
   "words": [
-    {"english":"department store","arabic":"متجر شامل","page":"74","question":{"q":"She bought dresses at a ____.","options":["department store","bakery","pharmacy","garage"],"answer":0}},
-    {"english":"bakery","arabic":"مخبز","page":"74","question":{"q":"Fresh bread comes from the ____.","options":["bakery","bank","pharmacy","library"],"answer":0}},
-    {"english":"drugstore","arabic":"صيدلية/دواء","page":"74","question":{"q":"Buy toiletries at the ____.","options":["drugstore","bakery","bookstore","factory"],"answer":0}},
-    {"english":"bookstore","arabic":"مكتبة بيع كتب","page":"74","question":{"q":"You can buy novels at a ____.","options":["bookstore","bakery","drugstore","restaurant"],"answer":0}},
-    {"english":"crayons","arabic":"ألوان شمعية","page":"74","question":{"q":"Children draw with ____.","options":["crayons","drums","crackers","crabs"],"answer":0}},
-    {"english":"aspect","arabic":"جانب","page":"74","question":{"q":"Safety rules apply to every ____ of life.","options":["aspect","statistic","sport","tuition"],"answer":0}},
-    {"english":"mass transit","arabic":"نقل عام","page":"74","question":{"q":"____ is best in crowded cities.","options":["Mass transit","Individualism","Peer pressure","Produce"],"answer":0}},
-    {"english":"resident","arabic":"مقيم","page":"74","question":{"q":"City ____ use mass transit.","options":["residents","consumers","aspects","methods"],"answer":0}},
-    {"english":"creative","arabic":"مبدع","page":"74","question":{"q":"An inventor has a ____ mind.","options":["creative","rural","cultural","industrial"],"answer":0}},
-    {"english":"anonymous","arabic":"مجهول","page":"75","question":{"q":"The letter was ____, no name.","options":["anonymous","egalitarian","vocational","affluent"],"answer":0}},
-    {"english":"symptom","arabic":"عرض مرضي","page":"75","question":{"q":"Fever is a ____ of the flu.","options":["symptom","cause","cure","disease"],"answer":0}},
-    {"english":"puncture","arabic":"ثقب","page":"75","question":{"q":"A tire ____ caused the accident.","options":["puncture","explosion","design","engine"],"answer":0}},
-    {"english":"explosion","arabic":"انفجار","page":"75","question":{"q":"The factory ____ killed workers.","options":["explosion","experiment","irrigation","population"],"answer":0}},
-    {"english":"automatically","arabic":"تلقائياً","page":"75","question":{"q":"The machine stops ____.","options":["automatically","manually","slowly","loudly"],"answer":0}},
-    {"english":"tolerate","arabic":"يتحمل","page":"75","question":{"q":"I cannot ____ bad behavior.","options":["tolerate","enjoy","praise","ignore"],"answer":0}},
-    {"english":"violation","arabic":"مخالفة","page":"75","question":{"q":"Parking here is a ____.","options":["violation","celebration","education","situation"],"answer":0}},
-    {"english":"destination","arabic":"وجهة","page":"75","question":{"q":"The plane changed its ____.","options":["destination","engine","speed","color"],"answer":0}},
-    {"english":"obsession","arabic":"هوس","page":"Extra 6","question":{"q":"Rugby is a national ____ in NZ.","options":["obsession","game","sport","hobby"],"answer":0}},
-    {"english":"emblem","arabic":"شعار","page":"Extra 6","question":{"q":"The All Blacks' ____ is a silver fern.","options":["emblem","flag","ball","song"],"answer":0}},
-    {"english":"caldera","arabic":"فوهة بركانية","page":"Extra 6","question":{"q":"Tambora left a huge ____.","options":["caldera","mountain","river","forest"],"answer":0}},
-    {"english":"stratosphere","arabic":"الستراتوسفير","page":"Extra 6","question":{"q":"Ash was ejected into the ____.","options":["stratosphere","ocean","ground","city"],"answer":0}},
-    {"english":"famine","arabic":"مجاعة","page":"Extra 6","question":{"q":"Crop failure caused ____.","options":["famine","feast","flood","fire"],"answer":0}},
-    {"english":"interplanetary","arabic":"بين كواكب","page":"Extra 6","question":{"q":"____ travel is the next frontier.","options":["Interplanetary","Domestic","Underground","Submarine"],"answer":0}},
-    {"english":"pharmaceutical","arabic":"صيدلاني","page":"Extra 6","question":{"q":"____ firms develop new drugs.","options":["Pharmaceutical","Automotive","Textile","Construction"],"answer":0}},
-    {"english":"facade","arabic":"واجهة","page":"Extra 6","question":{"q":"The building's ____ is stunning.","options":["facade","garden","basement","roof"],"answer":0}},
-    {"english":"annexed","arabic":"ضم / احتل","page":"Extra 6","question":{"q":"The territory was ____ by force.","options":["annexed","liberated","ignored","created"],"answer":0}},
-    {"english":"consolidation","arabic":"توطيد","page":"Extra 6","question":{"q":"Memory ____ happens during sleep.","options":["consolidation","destruction","confusion","erasure"],"answer":0}},
-    {"english":"deprivation","arabic":"حرمان","page":"Extra 6","question":{"q":"Sleep ____ impairs cognition.","options":["deprivation","excess","addition","supplement"],"answer":0}},
-    {"english":"cognitive","arabic":"معرفي","page":"Extra 6","question":{"q":"____ skills decline with age.","options":["Cognitive","Physical","Muscular","Skeletal"],"answer":0}},
-    {"english":"shielding","arabic":"تدريع","page":"Extra 6","question":{"q":"____ is essential for space travel.","options":["Shielding","Cooking","Decorating","Lighting"],"answer":0}},
-    {"english":"strategically","arabic":"استراتيجياً","page":"Extra 6","question":{"q":"Petra was ____ located.","options":["strategically","randomly","poorly","recently"],"answer":0}},
-    {"english":"chronic","arabic":"مزمن","page":"Extra 6","question":{"q":"____ illnesses last a long time.","options":["Chronic","Acute","Temporary","Mild"],"answer":0}},
-    {"english":"herbal","arabic":"عشبي","page":"Extra 6","question":{"q":"____ remedies use plants.","options":["Herbal","Chemical","Synthetic","Metallic"],"answer":0}},
-    {"english":"oath","arabic":"قسم","page":"Extra 6","question":{"q":"Doctors take a professional ____.","options":["oath","book","medicine","test"],"answer":0}},
-    {"english":"antiseptic","arabic":"مطهر","page":"Extra 6","question":{"q":"Clean wounds with ____.","options":["antiseptic","analgesic","antibiotic","antiviral"],"answer":0}},
-    {"english":"sustainable","arabic":"مستدام","page":"Extra 6","question":{"q":"____ solutions protect the planet.","options":["Sustainable","Temporary","Expensive","Dangerous"],"answer":0}},
-    {"english":"hydroponic","arabic":"زراعة مائية","page":"Extra 6","question":{"q":"____ farming needs no soil.","options":["Hydroponic","Organic","Traditional","Manual"],"answer":0}},
-    {"english":"emission","arabic":"انبعاث","page":"Extra 6","question":{"q":"Cars reduce ____ with filters.","options":["emissions","incomes","prices","noise"],"answer":0}},
-    {"english":"capacity","arabic":"سعة","page":"Extra 6","question":{"q":"The tank has a large ____.","options":["capacity","weight","size","color"],"answer":0}},
-    {"english":"grid","arabic":"شبكة كهرباء","page":"Extra 6","question":{"q":"Solar panels feed the ____.","options":["grid","road","phone","water"],"answer":0}}
+    {
+      "english": "department store",
+      "arabic": "متجر شامل",
+      "page": "74",
+      "question": {
+        "q": "She bought dresses at a ____.",
+        "options": ["department store", "bakery", "pharmacy", "garage"],
+        "answer": 0,
+        "justification": "المتجر الشامل (department store) يبيع الملابس وغيرها. المخبز (bakery) للخبز، والصيدلية (pharmacy) للأدوية، والمرأب (garage) للسيارات."
+      }
+    },
+    {
+      "english": "bakery",
+      "arabic": "مخبز",
+      "page": "74",
+      "question": {
+        "q": "Fresh bread comes from the ____.",
+        "options": ["bakery", "bank", "pharmacy", "library"],
+        "answer": 0,
+        "justification": "الخبز الطازج من المخبز (bakery). البنك (bank) للمال، والصيدلية (pharmacy) للدواء، والمكتبة (library) للكتب."
+      }
+    },
+    {
+      "english": "drugstore",
+      "arabic": "صيدلية/دواء",
+      "page": "74",
+      "question": {
+        "q": "Buy toiletries at the ____.",
+        "options": ["drugstore", "bakery", "bookstore", "factory"],
+        "answer": 0,
+        "justification": "أدوات النظافة الشخصية (toiletries) تُباع في الصيدلية/محل الأدوات (drugstore). المخبز (bakery) للخبز، والمكتبة (bookstore) للكتب، والمصنع (factory) للإنتاج."
+      }
+    },
+    {
+      "english": "bookstore",
+      "arabic": "مكتبة بيع كتب",
+      "page": "74",
+      "question": {
+        "q": "You can buy novels at a ____.",
+        "options": ["bookstore", "bakery", "drugstore", "restaurant"],
+        "answer": 0,
+        "justification": "الروايات تُشترى من متجر الكتب (bookstore). المخبز (bakery) للخبز، وصيدلية الأدوات (drugstore) لأدوات النظافة، والمطعم (restaurant) للطعام."
+      }
+    },
+    {
+      "english": "crayons",
+      "arabic": "ألوان شمعية",
+      "page": "74",
+      "question": {
+        "q": "Children draw with ____.",
+        "options": ["crayons", "drums", "crackers", "crabs"],
+        "answer": 0,
+        "justification": "الأطفال يرسمون بالألوان الشمعية (crayons). الطبول (drums) للعزف، والمفرقعات (crackers) للألعاب النارية، والسرطانات (crabs) حيوانات بحرية."
+      }
+    },
+    {
+      "english": "aspect",
+      "arabic": "جانب",
+      "page": "74",
+      "question": {
+        "q": "Safety rules apply to every ____ of life.",
+        "options": ["aspect", "statistic", "sport", "tuition"],
+        "answer": 0,
+        "justification": "قواعد السلامة تنطبق على كل جانب (aspect) من جوانب الحياة. الإحصاء (statistic) رقم، والرياضة (sport) نشاط، والرسوم الدراسية (tuition) تكلفة تعليم."
+      }
+    },
+    {
+      "english": "mass transit",
+      "arabic": "نقل عام",
+      "page": "74",
+      "question": {
+        "q": "____ is best in crowded cities.",
+        "options": ["Mass transit", "Individualism", "Peer pressure", "Produce"],
+        "answer": 0,
+        "justification": "النقل العام (mass transit) هو الأفضل في المدن المزدحمة. الفردية (individualism) عكس ذلك، وضغط الأقران (peer pressure) ظاهرة اجتماعية، والمنتجات (produce) سلع."
+      }
+    },
+    {
+      "english": "resident",
+      "arabic": "مقيم",
+      "page": "74",
+      "question": {
+        "q": "City ____ use mass transit.",
+        "options": ["residents", "consumers", "aspects", "methods"],
+        "answer": 0,
+        "justification": "سكان المدينة (residents) يستخدمون النقل العام. المستهلكون (consumers) عامة، والجوانب (aspects) زوايا، والأساليب (methods) طرق."
+      }
+    },
+    {
+      "english": "creative",
+      "arabic": "مبدع",
+      "page": "74",
+      "question": {
+        "q": "An inventor has a ____ mind.",
+        "options": ["creative", "rural", "cultural", "industrial"],
+        "answer": 0,
+        "justification": "المخترع لديه عقل مبدع (creative). الريفي (rural) للريف، والثقافي (cultural) للثقافة، والصناعي (industrial) للصناعة."
+      }
+    },
+    {
+      "english": "anonymous",
+      "arabic": "مجهول",
+      "page": "75",
+      "question": {
+        "q": "The letter was ____, no name.",
+        "options": ["anonymous", "egalitarian", "vocational", "affluent"],
+        "answer": 0,
+        "justification": "الرسالة كانت مجهولة (anonymous) بدون اسم. المساواة (egalitarian) عدالة، والمهني (vocational) تدريب، والغني (affluent) ثري."
+      }
+    },
+    {
+      "english": "symptom",
+      "arabic": "عرض مرضي",
+      "page": "75",
+      "question": {
+        "q": "Fever is a ____ of the flu.",
+        "options": ["symptom", "cause", "cure", "disease"],
+        "answer": 0,
+        "justification": "الحمى عرض (symptom) من أعراض الإنفلونزا. السبب (cause) هو الفيروس، والعلاج (cure) هو الدواء، والمرض (disease) هو الحالة المرضية نفسها."
+      }
+    },
+    {
+      "english": "puncture",
+      "arabic": "ثقب",
+      "page": "75",
+      "question": {
+        "q": "A tire ____ caused the accident.",
+        "options": ["puncture", "explosion", "design", "engine"],
+        "answer": 0,
+        "justification": "ثقب الإطار (puncture) تسبب في الحادث. الانفجار (explosion) أكبر، والتصميم (design) والتوجيه (engine) ليسا سببين مباشرين."
+      }
+    },
+    {
+      "english": "explosion",
+      "arabic": "انفجار",
+      "page": "75",
+      "question": {
+        "q": "The factory ____ killed workers.",
+        "options": ["explosion", "experiment", "irrigation", "population"],
+        "answer": 0,
+        "justification": "انفجار المصنع (explosion) قتل العمال. التجربة (experiment) اختبار، والري (irrigation) سقاية، والسكان (population) عدد الناس."
+      }
+    },
+    {
+      "english": "automatically",
+      "arabic": "تلقائياً",
+      "page": "75",
+      "question": {
+        "q": "The machine stops ____.",
+        "options": ["automatically", "manually", "slowly", "loudly"],
+        "answer": 0,
+        "justification": "الآلة تتوقف تلقائياً (automatically). يدوياً (manually) تحتاج تدخلاً بشرياً، وببطء (slowly) وبصوت عالٍ (loudly) تصف الكيفية وليس الآلية."
+      }
+    },
+    {
+      "english": "tolerate",
+      "arabic": "يتحمل",
+      "page": "75",
+      "question": {
+        "q": "I cannot ____ bad behavior.",
+        "options": ["tolerate", "enjoy", "praise", "ignore"],
+        "answer": 0,
+        "justification": "لا أستطيع تحمل (tolerate) السلوك السيئ. الاستمتاع (enjoy) والثناء (praise) والتجاهل (ignore) مواقف أخرى."
+      }
+    },
+    {
+      "english": "violation",
+      "arabic": "مخالفة",
+      "page": "75",
+      "question": {
+        "q": "Parking here is a ____.",
+        "options": ["violation", "celebration", "education", "situation"],
+        "answer": 0,
+        "justification": "الوقوف هنا مخالفة (violation). الاحتفال (celebration) والتعليم (education) والحالة (situation) لا تعبر عن شيء مخالف للقانون."
+      }
+    },
+    {
+      "english": "destination",
+      "arabic": "وجهة",
+      "page": "75",
+      "question": {
+        "q": "The plane changed its ____.",
+        "options": ["destination", "engine", "speed", "color"],
+        "answer": 0,
+        "justification": "غيرت الطائرة وجهتها (destination). المحرك (engine) والسرعة (speed) واللون (color) ليست ما يتغير غالباً."
+      }
+    },
+    {
+      "english": "obsession",
+      "arabic": "هوس",
+      "page": "Extra 6",
+      "question": {
+        "q": "Rugby is a national ____ in NZ.",
+        "options": ["obsession", "game", "sport", "hobby"],
+        "answer": 0,
+        "justification": "الرغبي هوس وطني (obsession) في نيوزيلندا. اللعبة (game) والرياضة (sport) والهواية (hobby) لا تعبر عن الشغف الجماهيري الكبير."
+      }
+    },
+    {
+      "english": "emblem",
+      "arabic": "شعار",
+      "page": "Extra 6",
+      "question": {
+        "q": "The All Blacks' ____ is a silver fern.",
+        "options": ["emblem", "flag", "ball", "song"],
+        "answer": 0,
+        "justification": "شعار (emblem) فريق All Blacks هو السرخس الفضي. العلم (flag) شيء آخر، والكرة (ball) أداة اللعب، والأغنية (song) ليست شعاراً."
+      }
+    },
+    {
+      "english": "caldera",
+      "arabic": "فوهة بركانية",
+      "page": "Extra 6",
+      "question": {
+        "q": "Tambora left a huge ____.",
+        "options": ["caldera", "mountain", "river", "forest"],
+        "answer": 0,
+        "justification": "بركان تامبورا ترك فوهة بركانية ضخمة (caldera). الجبل (mountain) والنهر (river) والغابة (forest) ليست ما يخلفه البركان."
+      }
+    },
+    {
+      "english": "stratosphere",
+      "arabic": "الستراتوسفير",
+      "page": "Extra 6",
+      "question": {
+        "q": "Ash was ejected into the ____.",
+        "options": ["stratosphere", "ocean", "ground", "city"],
+        "answer": 0,
+        "justification": "الرماد قذف إلى الستراتوسفير (stratosphere). المحيط (ocean) والأرض (ground) والمدينة (city) ليست طبقات الغلاف الجوي."
+      }
+    },
+    {
+      "english": "famine",
+      "arabic": "مجاعة",
+      "page": "Extra 6",
+      "question": {
+        "q": "Crop failure caused ____.",
+        "options": ["famine", "feast", "flood", "fire"],
+        "answer": 0,
+        "justification": "فشل المحاصيل يسبب مجاعة (famine). الوليمة (feast) عكسها، والفيضان (flood) والنار (fire) كوارث مختلفة."
+      }
+    },
+    {
+      "english": "interplanetary",
+      "arabic": "بين كواكب",
+      "page": "Extra 6",
+      "question": {
+        "q": "____ travel is the next frontier.",
+        "options": ["Interplanetary", "Domestic", "Underground", "Submarine"],
+        "answer": 0,
+        "justification": "السفر بين الكواكب (interplanetary) هو الحدود التالية. المحلي (domestic) وداخل الأرض (underground) والبحري (submarine) ليست طموحات الفضاء."
+      }
+    },
+    {
+      "english": "pharmaceutical",
+      "arabic": "صيدلاني",
+      "page": "Extra 6",
+      "question": {
+        "q": "____ firms develop new drugs.",
+        "options": ["Pharmaceutical", "Automotive", "Textile", "Construction"],
+        "answer": 0,
+        "justification": "شركات الأدوية (pharmaceutical) تطور أدوية جديدة. السيارات (automotive) والنسيج (textile) والبناء (construction) صناعات أخرى."
+      }
+    },
+    {
+      "english": "facade",
+      "arabic": "واجهة",
+      "page": "Extra 6",
+      "question": {
+        "q": "The building's ____ is stunning.",
+        "options": ["facade", "garden", "basement", "roof"],
+        "answer": 0,
+        "justification": "واجهة المبنى (facade) مذهلة. الحديقة (garden) والقبو (basement) والسقف (roof) أجزاء أخرى من المبنى."
+      }
+    },
+    {
+      "english": "annexed",
+      "arabic": "ضم / احتل",
+      "page": "Extra 6",
+      "question": {
+        "q": "The territory was ____ by force.",
+        "options": ["annexed", "liberated", "ignored", "created"],
+        "answer": 0,
+        "justification": "تم ضم الإقليم (annexed) بالقوة. التحرير (liberated) عكس الضم، والتجاهل (ignored) والإنشاء (created) لا يتوافقان مع القوة."
+      }
+    },
+    {
+      "english": "consolidation",
+      "arabic": "توطيد",
+      "page": "Extra 6",
+      "question": {
+        "q": "Memory ____ happens during sleep.",
+        "options": ["consolidation", "destruction", "confusion", "erasure"],
+        "answer": 0,
+        "justification": "توطيد الذاكرة (consolidation) يحدث أثناء النوم. التدمير (destruction) والارتباك (confusion) والمحو (erasure) عكس ذلك."
+      }
+    },
+    {
+      "english": "deprivation",
+      "arabic": "حرمان",
+      "page": "Extra 6",
+      "question": {
+        "q": "Sleep ____ impairs cognition.",
+        "options": ["deprivation", "excess", "addition", "supplement"],
+        "answer": 0,
+        "justification": "الحرمان من النوم (deprivation) يضر الإدراك. الزيادة (excess) والإضافة (addition) والمكمل (supplement) لا تعبر عن نقص النوم."
+      }
+    },
+    {
+      "english": "cognitive",
+      "arabic": "معرفي",
+      "page": "Extra 6",
+      "question": {
+        "q": "____ skills decline with age.",
+        "options": ["Cognitive", "Physical", "Muscular", "Skeletal"],
+        "answer": 0,
+        "justification": "المهارات المعرفية (cognitive) تتراجع مع العمر. الجسدية (physical) والعضلية (muscular) والهيكلية (skeletal) تتأثر أيضاً لكن السؤال يركز على العقل."
+      }
+    },
+    {
+      "english": "shielding",
+      "arabic": "تدريع",
+      "page": "Extra 6",
+      "question": {
+        "q": "____ is essential for space travel.",
+        "options": ["Shielding", "Cooking", "Decorating", "Lighting"],
+        "answer": 0,
+        "justification": "التدريع (shielding) ضروري للسفر الفضائي. الطبخ (cooking) والتزيين (decorating) والإضاءة (lighting) ليست من مستلزمات الفضاء."
+      }
+    },
+    {
+      "english": "strategically",
+      "arabic": "استراتيجياً",
+      "page": "Extra 6",
+      "question": {
+        "q": "Petra was ____ located.",
+        "options": ["strategically", "randomly", "poorly", "recently"],
+        "answer": 0,
+        "justification": "البتراء كانت موقعاً استراتيجياً (strategically). عشوائياً (randomly) وسيئاً (poorly) وحديثاً (recently) لا تصف موقعها التاريخي."
+      }
+    },
+    {
+      "english": "chronic",
+      "arabic": "مزمن",
+      "page": "Extra 6",
+      "question": {
+        "q": "____ illnesses last a long time.",
+        "options": ["Chronic", "Acute", "Temporary", "Mild"],
+        "answer": 0,
+        "justification": "الأمراض المزمنة (chronic) تستمر طويلاً. الحادة (acute) مفاجئة، والمؤقتة (temporary) والخفيفة (mild) عكس ذلك."
+      }
+    },
+    {
+      "english": "herbal",
+      "arabic": "عشبي",
+      "page": "Extra 6",
+      "question": {
+        "q": "____ remedies use plants.",
+        "options": ["Herbal", "Chemical", "Synthetic", "Metallic"],
+        "answer": 0,
+        "justification": "العلاجات العشبية (herbal) تستخدم النباتات. الكيميائية (chemical) والاصطناعية (synthetic) والمعدنية (metallic) لا تعتمد على النباتات مباشرة."
+      }
+    },
+    {
+      "english": "oath",
+      "arabic": "قسم",
+      "page": "Extra 6",
+      "question": {
+        "q": "Doctors take a professional ____.",
+        "options": ["oath", "book", "medicine", "test"],
+        "answer": 0,
+        "justification": "الأطباء يؤدون قسماً مهنياً (oath). الكتاب (book) والدواء (medicine) والاختبار (test) ليست ما يؤدى."
+      }
+    },
+    {
+      "english": "antiseptic",
+      "arabic": "مطهر",
+      "page": "Extra 6",
+      "question": {
+        "q": "Clean wounds with ____.",
+        "options": ["antiseptic", "analgesic", "antibiotic", "antiviral"],
+        "answer": 0,
+        "justification": "تنظف الجروح بالمطهر (antiseptic). المسكن (analgesic) للألم، والمضاد الحيوي (antibiotic) للبكتيريا، والمضاد الفيروسي (antiviral) للفيروسات."
+      }
+    },
+    {
+      "english": "sustainable",
+      "arabic": "مستدام",
+      "page": "Extra 6",
+      "question": {
+        "q": "____ solutions protect the planet.",
+        "options": ["Sustainable", "Temporary", "Expensive", "Dangerous"],
+        "answer": 0,
+        "justification": "الحلول المستدامة (sustainable) تحمي الكوكب. المؤقتة (temporary) والغالية (expensive) والخطيرة (dangerous) لا تفيد البيئة."
+      }
+    },
+    {
+      "english": "hydroponic",
+      "arabic": "زراعة مائية",
+      "page": "Extra 6",
+      "question": {
+        "q": "____ farming needs no soil.",
+        "options": ["Hydroponic", "Organic", "Traditional", "Manual"],
+        "answer": 0,
+        "justification": "الزراعة المائية (hydroponic) لا تحتاج تربة. العضوية (organic) والتقليدية (traditional) واليدوية (manual) قد تستخدم التربة."
+      }
+    },
+    {
+      "english": "emission",
+      "arabic": "انبعاث",
+      "page": "Extra 6",
+      "question": {
+        "q": "Cars reduce ____ with filters.",
+        "options": ["emissions", "incomes", "prices", "noise"],
+        "answer": 0,
+        "justification": "السيارات تقلل الانبعاثات (emissions) بالفلاتر. الدخل (incomes) والأسعار (prices) والضوضاء (noise) ليست ما تقلله الفلاتر."
+      }
+    },
+    {
+      "english": "capacity",
+      "arabic": "سعة",
+      "page": "Extra 6",
+      "question": {
+        "q": "The tank has a large ____.",
+        "options": ["capacity", "weight", "size", "color"],
+        "answer": 0,
+        "justification": "الخزان له سعة (capacity) كبيرة. الوزن (weight) والحجم (size) واللون (color) خصائص أخرى."
+      }
+    },
+    {
+      "english": "grid",
+      "arabic": "شبكة كهرباء",
+      "page": "Extra 6",
+      "question": {
+        "q": "Solar panels feed the ____.",
+        "options": ["grid", "road", "phone", "water"],
+        "answer": 0,
+        "justification": "الألواح الشمسية تغذي شبكة الكهرباء (grid). الطريق (road) والهاتف (phone) والماء (water) ليست أنظمة طاقة."
+      }
+    }
   ]
 }
