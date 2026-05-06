@@ -7,10 +7,11 @@
       "arabic": "جد",
       "page": "68",
       "question": {
-        "q": "He is my children's grandfather so he is my",
-        "options": ["Mother", "husband", "father", "uncle"],
-        "answer": 2,
-        "justification": "إذا كان هذا الشخص هو جد أطفالي، فلا بد أنه والدي أنا (father). 'Mother' أم، و'husband' زوج، و'uncle' عم أو خال، وكلها لا تصلح."
+        "q": "My mother's father is my _______.",
+        "options": ["uncle", "grandfather", "cousin", "nephew"],
+        "answer": 1,
+        "justification": "كلمة 'grandfather' تعني الجدّ (والد الأب أو الأم). 'uncle' هو العم/الخال، 'cousin' هو ابن العم/الخال، و'nephew' هو ابن الأخ/الأخت. وكلها لا تصلح للعلاقة المذكورة.",
+        "context_sentence": "My mother's father is my _______."
       }
     },
     {
@@ -18,10 +19,11 @@
       "arabic": "زوج",
       "page": "68",
       "question": {
-        "q": "My sister's ____ is a doctor.",
+        "q": "The woman's _______ is a doctor at the local clinic.",
         "options": ["wife", "husband", "aunt", "uncle"],
         "answer": 1,
-        "justification": "زوج الأخت هو 'husband'. 'wife' زوجة وهي غير مناسبة، و'aunt' عمة/خالة، و'uncle' عم/خال."
+        "justification": "'husband' هو الزوج. 'wife' تعني زوجة، و'aunt' عمة/خالة، و'uncle' عم/خال. السياق يتحدث عن الرجل المتزوج من امرأة.",
+        "context_sentence": "The woman's _______ is a doctor at the local clinic."
       }
     },
     {
@@ -29,10 +31,11 @@
       "arabic": "أب",
       "page": "68",
       "question": {
-        "q": "My ____ works in an office.",
-        "options": ["mother", "sister", "father", "aunt"],
-        "answer": 2,
-        "justification": "الأب هو 'father'. 'mother' أم، و'sister' أخت، و'aunt' عمة/خالة. الأب هو الأكثر شيوعاً للعمل في مكتب."
+        "q": "Every morning, my _______ drives me to school before going to work.",
+        "options": ["mother", "father", "sister", "aunt"],
+        "answer": 1,
+        "justification": "'father' هو الأب الذي يقوم بتوصيل أطفاله للمدرسة. 'mother' أم، و'sister' أخت، و'aunt' عمة/خالة، لكن العادة أن الأب هو من يوصل للمدرسة في هذا السياق.",
+        "context_sentence": "Every morning, my _______ drives me to school before going to work."
       }
     },
     {
@@ -40,10 +43,11 @@
       "arabic": "عم / خال",
       "page": "68",
       "question": {
-        "q": "He is my father's brother so he is my",
+        "q": "My father's brother is my _______.",
         "options": ["uncle", "aunt", "nephew", "niece"],
         "answer": 0,
-        "justification": "أخو الأب هو العم (uncle). 'aunt' تعني عمة/خالة، و'nephew' ابن الأخ/الأخت، و'niece' ابنة الأخ/الأخت."
+        "justification": "أخو الأب هو العم (uncle). 'aunt' تعني عمة/خالة، و'nephew' ابن الأخ/الأخت، و'niece' ابنة الأخ/الأخت. العلاقة هنا هي عم/خال.",
+        "context_sentence": "My father's brother is my _______."
       }
     },
     {
@@ -51,10 +55,11 @@
       "arabic": "عمة / خالة",
       "page": "68",
       "question": {
-        "q": "My mother's sister is my",
+        "q": "My mother's sister is my _______.",
         "options": ["aunt", "niece", "uncle", "sister"],
         "answer": 0,
-        "justification": "أخت الأم هي الخالة (aunt). 'niece' ابنة الأخ/الأخت، و'uncle' عم/خال، و'sister' أختي أنا."
+        "justification": "أخت الأم هي الخالة أو العمة (aunt). 'niece' ابنة الأخ/الأخت، و'uncle' عم/خال، و'sister' أخت مباشرة. السياق يتحدث عن أخت الأم.",
+        "context_sentence": "My mother's sister is my _______."
       }
     },
     {
@@ -62,10 +67,11 @@
       "arabic": "ابنة الأخ / الأخت",
       "page": "68",
       "question": {
-        "q": "My brother's daughter is my",
+        "q": "My brother's daughter is my _______.",
         "options": ["niece", "nephew", "cousin", "granddaughter"],
         "answer": 0,
-        "justification": "ابنة الأخ هي 'niece'. 'nephew' هو ابن الأخ، و'cousin' ابن العم/الخال، و'granddaughter' حفيدة."
+        "justification": "ابنة الأخ هي 'niece'. 'nephew' هو ابن الأخ، و'cousin' ابن العم/الخال، و'granddaughter' حفيدة. العلاقة هنا هي ابنة الأخ/الأخت.",
+        "context_sentence": "My brother's daughter is my _______."
       }
     },
     {
@@ -73,10 +79,11 @@
       "arabic": "ابن الأخ / الأخت",
       "page": "68",
       "question": {
-        "q": "My sister's son is my",
+        "q": "My sister's son is my _______.",
         "options": ["son", "nephew", "uncle", "father"],
         "answer": 1,
-        "justification": "ابن الأخت هو 'nephew'. 'son' هو ابني أنا، و'uncle' عم/خال، و'father' أب."
+        "justification": "ابن الأخت هو 'nephew'. 'son' هو ابني أنا، و'uncle' عم/خال، و'father' أب. العلاقة هنا هي ابن الأخت.",
+        "context_sentence": "My sister's son is my _______."
       }
     },
     {
@@ -84,10 +91,11 @@
       "arabic": "ابن العم / الخال",
       "page": "68",
       "question": {
-        "q": "My uncle's son is my",
+        "q": "My uncle's child is my _______.",
         "options": ["brother", "cousin", "nephew", "grandson"],
         "answer": 1,
-        "justification": "ابن العم/الخال هو 'cousin'. 'brother' أخ شقيق، و'nephew' ابن الأخ/الأخت، و'grandson' حفيد."
+        "justification": "ابن العم/الخال هو 'cousin'. 'brother' أخ شقيق، و'nephew' ابن الأخ/الأخت، و'grandson' حفيد. العلاقة هنا هي ابن العم.",
+        "context_sentence": "My uncle's child is my _______."
       }
     },
     {
@@ -95,10 +103,11 @@
       "arabic": "حفيد",
       "page": "68",
       "question": {
-        "q": "My son is my mother's",
+        "q": "My mother loves my son very much; he is her only _______.",
         "options": ["niece", "cousin", "grandfather", "grandson"],
         "answer": 3,
-        "justification": "ابني هو حفيد أمي (grandson). 'niece' ابنة الأخ، 'cousin' ابن العم، 'grandfather' جد، وهذه كلها غير صحيحة."
+        "justification": "ابني هو حفيد أمي (grandson). 'niece' ابنة الأخ، 'cousin' ابن العم، 'grandfather' جد، وهذه كلها غير صحيحة للعلاقة.",
+        "context_sentence": "My mother loves my son very much; he is her only _______."
       }
     },
     {
@@ -106,10 +115,11 @@
       "arabic": "حفيدة",
       "page": "68",
       "question": {
-        "q": "My daughter's daughter is my",
+        "q": "My daughter's daughter is my first _______.",
         "options": ["granddaughter", "grandson", "niece", "aunt"],
         "answer": 0,
-        "justification": "ابنة ابنتي هي حفيدتي (granddaughter). 'grandson' حفيد ذكر، و'niece' ابنة الأخ/الأخت، و'aunt' عمة/خالة."
+        "justification": "ابنة ابنتي هي حفيدتي (granddaughter). 'grandson' حفيد ذكر، و'niece' ابنة الأخ/الأخت، و'aunt' عمة/خالة.",
+        "context_sentence": "My daughter's daughter is my first _______."
       }
     },
     {
@@ -117,10 +127,11 @@
       "arabic": "عين",
       "page": "69",
       "question": {
-        "q": "You use your ____ to see with.",
+        "q": "Without my _______, I cannot see the beautiful sunset.",
         "options": ["nose", "eyes", "fingers", "forehead"],
         "answer": 1,
-        "justification": "نستخدم العيون (eyes) للرؤية. 'nose' أنف للشم، 'fingers' أصابع، 'forehead' جبين."
+        "justification": "نستخدم العيون (eyes) للرؤية. 'nose' أنف للشم، 'fingers' أصابع، 'forehead' جبين.",
+        "context_sentence": "Without my _______, I cannot see the beautiful sunset."
       }
     },
     {
@@ -128,10 +139,11 @@
       "arabic": "أنف",
       "page": "69",
       "question": {
-        "q": "We smell with our ____.",
+        "q": "I can smell the flowers because of my _______.",
         "options": ["nose", "ears", "eyes", "mouth"],
         "answer": 0,
-        "justification": "الشم يكون بالأنف (nose). 'ears' أذنان، 'eyes' عيون، 'mouth' فم."
+        "justification": "الشم يكون بالأنف (nose). 'ears' أذنان، 'eyes' عيون، 'mouth' فم.",
+        "context_sentence": "I can smell the flowers because of my _______."
       }
     },
     {
@@ -139,10 +151,11 @@
       "arabic": "أذن",
       "page": "69",
       "question": {
-        "q": "We have two eyes and two ____.",
+        "q": "We use our _______ to listen to music.",
         "options": ["ears", "mouths", "noses", "chests"],
         "answer": 0,
-        "justification": "لدينا أذنان (ears). 'mouths' أفواه، 'noses' أنوف، 'chests' صدور، وكلها ليست اثنتين طبيعياً."
+        "justification": "لدينا أذنان (ears) نستمع بهما. 'mouths' أفواه، 'noses' أنوف، 'chests' صدور، وكلها لا تستخدم للاستماع.",
+        "context_sentence": "We use our _______ to listen to music."
       }
     },
     {
@@ -150,10 +163,11 @@
       "arabic": "إصبع",
       "page": "69",
       "question": {
-        "q": "How many ____ are there in your hands?",
+        "q": "I have ten _______ on my hands.",
         "options": ["toes", "fingers", "thumbs", "foreheads"],
         "answer": 1,
-        "justification": "في اليد أصابع (fingers). 'toes' أصابع القدم، 'thumbs' مجرد إبهام واحد، 'foreheads' جباه."
+        "justification": "في اليد أصابع (fingers). 'toes' أصابع القدم، 'thumbs' مجرد إبهام واحد، 'foreheads' جباه.",
+        "context_sentence": "I have ten _______ on my hands."
       }
     },
     {
@@ -161,10 +175,11 @@
       "arabic": "إبهام",
       "page": "69",
       "question": {
-        "q": "The ____ is the shortest finger.",
+        "q": "The shortest but strongest digit on my hand is my _______.",
         "options": ["index", "thumb", "ring", "pinky"],
         "answer": 1,
-        "justification": "الإبهام (thumb) هو أقصر وأثخن إصبع. 'index' السبابة، 'ring' البنصر، 'pinky' الخنصر."
+        "justification": "الإبهام (thumb) هو أقصر وأقوى إصبع. 'index' السبابة، 'ring' البنصر، 'pinky' الخنصر.",
+        "context_sentence": "The shortest but strongest digit on my hand is my _______."
       }
     },
     {
@@ -172,10 +187,11 @@
       "arabic": "جبين",
       "page": "69",
       "question": {
-        "q": "Your ____ is above your eyes.",
+        "q": "She wiped the sweat from her _______.",
         "options": ["forehead", "chin", "cheek", "neck"],
         "answer": 0,
-        "justification": "الجبين (forehead) هو المنطقة فوق العينين. 'chin' ذقن، 'cheek' وجنة، 'neck' رقبة."
+        "justification": "الجبين (forehead) هو المنطقة فوق العينين. 'chin' ذقن، 'cheek' وجنة، 'neck' رقبة.",
+        "context_sentence": "She wiped the sweat from her _______."
       }
     },
     {
@@ -183,10 +199,11 @@
       "arabic": "رقبة",
       "page": "69",
       "question": {
-        "q": "Your ____ connects your head with your back.",
+        "q": "I wear a scarf around my _______ in winter.",
         "options": ["hair", "blood", "neck", "heart"],
         "answer": 2,
-        "justification": "الرقبة (neck) تصل الرأس بالجسم. 'hair' شعر، 'blood' دم، 'heart' قلب."
+        "justification": "الرقبة (neck) هي التي نلف حولها الوشاح. 'hair' شعر، 'blood' دم، 'heart' قلب.",
+        "context_sentence": "I wear a scarf around my _______ in winter."
       }
     },
     {
@@ -194,10 +211,11 @@
       "arabic": "كتف",
       "page": "69",
       "question": {
-        "q": "My ____ is at the top of my arm.",
+        "q": "He carried the heavy bag on his _______.",
         "options": ["shoulder", "knee", "toe", "chest"],
         "answer": 0,
-        "justification": "الكتف (shoulder) هو أعلى الذراع. 'knee' ركبة، 'toe' إصبع قدم، 'chest' صدر."
+        "justification": "الكتف (shoulder) هو ما يحمل عليه. 'knee' ركبة، 'toe' إصبع قدم، 'chest' صدر.",
+        "context_sentence": "He carried the heavy bag on his _______."
       }
     },
     {
@@ -205,10 +223,11 @@
       "arabic": "ركبة",
       "page": "69",
       "question": {
-        "q": "You bend your ____ to walk.",
+        "q": "After the fall, her _______ was swollen.",
         "options": ["elbow", "knee", "wrist", "ankle"],
         "answer": 1,
-        "justification": "ثني الركبة (knee) ضروري للمشي. 'elbow' كوع، 'wrist' رسغ، 'ankle' كاحل."
+        "justification": "الركبة (knee) عرضة للتورم بعد السقوط. 'elbow' كوع، 'wrist' رسغ، 'ankle' كاحل.",
+        "context_sentence": "After the fall, her _______ was swollen."
       }
     },
     {
@@ -216,10 +235,11 @@
       "arabic": "صدر",
       "page": "69",
       "question": {
-        "q": "Your heart is inside your ____.",
+        "q": "The doctor listened to my heartbeat through my _______.",
         "options": ["head", "chest", "leg", "arm"],
         "answer": 1,
-        "justification": "القلب يقع في الصدر (chest). 'head' رأس، 'leg' رجل، 'arm' ذراع."
+        "justification": "القلب يقع في الصدر (chest). 'head' رأس، 'leg' رجل، 'arm' ذراع.",
+        "context_sentence": "The doctor listened to my heartbeat through my _______."
       }
     },
     {
@@ -227,10 +247,11 @@
       "arabic": "قلب",
       "page": "69",
       "question": {
-        "q": "The ____ pumps blood.",
+        "q": "The _______ pumps blood throughout the body.",
         "options": ["brain", "lung", "heart", "liver"],
         "answer": 2,
-        "justification": "القلب (heart) يضخ الدم. 'brain' دماغ، 'lung' رئة، 'liver' كبد."
+        "justification": "القلب (heart) يضخ الدم. 'brain' دماغ، 'lung' رئة، 'liver' كبد.",
+        "context_sentence": "The _______ pumps blood throughout the body."
       }
     },
     {
@@ -238,10 +259,11 @@
       "arabic": "دم",
       "page": "69",
       "question": {
-        "q": "____ carries oxygen through the body.",
+        "q": "Red cells in our _______ carry oxygen.",
         "options": ["Water", "Blood", "Air", "Food"],
         "answer": 1,
-        "justification": "الدم (blood) هو الذي يحمل الأكسجين. 'Water' ماء، 'Air' هواء، 'Food' طعام."
+        "justification": "الدم (blood) هو الذي يحمل الأكسجين. 'Water' ماء، 'Air' هواء، 'Food' طعام.",
+        "context_sentence": "Red cells in our _______ carry oxygen."
       }
     },
     {
@@ -249,10 +271,11 @@
       "arabic": "شريان",
       "page": "69",
       "question": {
-        "q": "____ carry blood from the heart.",
+        "q": "_______ carry blood away from the heart.",
         "options": ["Veins", "Arteries", "Muscles", "Nerves"],
         "answer": 1,
-        "justification": "الشرايين (arteries) تحمل الدم من القلب إلى الجسم. 'Veins' أوردة تعيد الدم، 'Muscles' عضلات، 'Nerves' أعصاب."
+        "justification": "الشرايين (arteries) تحمل الدم من القلب إلى الجسم. 'Veins' أوردة تعيد الدم، 'Muscles' عضلات، 'Nerves' أعصاب.",
+        "context_sentence": "_______ carry blood away from the heart."
       }
     },
     {
@@ -260,10 +283,11 @@
       "arabic": "عضلة",
       "page": "69",
       "question": {
-        "q": "Biceps is a ____ in the arm.",
+        "q": "After exercise, my _______ feels sore.",
         "options": ["bone", "muscle", "joint", "tendon"],
         "answer": 1,
-        "justification": "البايسبس هي عضلة (muscle) في الذراع. 'bone' عظم، 'joint' مفصل، 'tendon' وتر."
+        "justification": "العضلة (muscle) تشعر بالألم بعد التمارين. 'bone' عظم، 'joint' مفصل، 'tendon' وتر.",
+        "context_sentence": "After exercise, my _______ feels sore."
       }
     },
     {
@@ -271,10 +295,11 @@
       "arabic": "الحبل الشوكي",
       "page": "69",
       "question": {
-        "q": "The ____ protects the spinal cord.",
-        "options": ["skull", "spine", "ribs", "pelvis"],
+        "q": "The vertebrae protect the _______ _______.",
+        "options": ["skull", "spinal cord", "ribs", "pelvis"],
         "answer": 1,
-        "justification": "العمود الفقري (spine) يحمي الحبل الشوكي. 'skull' جمجمة، 'ribs' أضلاع، 'pelvis' حوض."
+        "justification": "العمود الفقري يحمي الحبل الشوكي (spinal cord). 'skull' جمجمة، 'ribs' أضلاع، 'pelvis' حوض.",
+        "context_sentence": "The vertebrae protect the _______ _______."
       }
     },
     {
@@ -282,10 +307,11 @@
       "arabic": "يعلن",
       "page": "87",
       "question": {
-        "q": "The company decided to ____ on TV.",
+        "q": "Many companies _______ their products on social media.",
         "options": ["advertise", "ignore", "hide", "cancel"],
         "answer": 0,
-        "justification": "الشركة قررت أن تعلن (advertise). 'ignore' تتجاهل، 'hide' تخفي، 'cancel' تلغي."
+        "justification": "الشركات تعلن (advertise) عن منتجاتها. 'ignore' تتجاهل، 'hide' تخفي، 'cancel' تلغي.",
+        "context_sentence": "Many companies _______ their products on social media."
       }
     },
     {
@@ -293,10 +319,11 @@
       "arabic": "إحصائيات",
       "page": "88",
       "question": {
-        "q": "The report includes ____ about population.",
+        "q": "According to _______, the population has doubled.",
         "options": ["stories", "statistics", "pictures", "songs"],
         "answer": 1,
-        "justification": "التقرير يتضمن إحصائيات (statistics) عن السكان. 'stories' قصص، 'pictures' صور، 'songs' أغاني."
+        "justification": "الإحصائيات (statistics) تظهر الأرقام. 'stories' قصص، 'pictures' صور، 'songs' أغاني.",
+        "context_sentence": "According to _______, the population has doubled."
       }
     },
     {
@@ -304,10 +331,11 @@
       "arabic": "محروم",
       "page": "93",
       "question": {
-        "q": "____ areas often lack basic services.",
+        "q": "Volunteers help children in _______ communities.",
         "options": ["Wealthy", "Disadvantaged", "Modern", "Crowded"],
         "answer": 1,
-        "justification": "المناطق المحرومة (disadvantaged) تفتقر للخدمات. 'Wealthy' غنية، 'Modern' حديثة، 'Crowded' مزدحمة."
+        "justification": "المناطق المحرومة (disadvantaged) تفتقر للخدمات. 'Wealthy' غنية، 'Modern' حديثة، 'Crowded' مزدحمة.",
+        "context_sentence": "Volunteers help children in _______ communities."
       }
     },
     {
@@ -315,10 +343,11 @@
       "arabic": "متطوع",
       "page": "93",
       "question": {
-        "q": "Many people ____ to help in the event.",
+        "q": "He decided to _______ at the hospital every weekend.",
         "options": ["refused", "volunteered", "complained", "ignored"],
         "answer": 1,
-        "justification": "تطوعوا (volunteered) للمساعدة. 'refused' رفضوا، 'complained' اشتكوا، 'ignored' تجاهلوا."
+        "justification": "تطوع (volunteered) للعمل في المستشفى. 'refused' رفض، 'complained' اشتكى، 'ignored' تجاهل.",
+        "context_sentence": "He decided to _______ at the hospital every weekend."
       }
     },
     {
@@ -326,10 +355,11 @@
       "arabic": "مرشد",
       "page": "94",
       "question": {
-        "q": "A ____ gives advice and support.",
+        "q": "A good _______ gives advice and encouragement.",
         "options": ["student", "mentor", "patient", "customer"],
         "answer": 1,
-        "justification": "المرشد (mentor) يقدم النصح والدعم. 'student' طالب، 'patient' مريض، 'customer' زبون."
+        "justification": "المرشد (mentor) يقدم النصح. 'student' طالب، 'patient' مريض، 'customer' زبون.",
+        "context_sentence": "A good _______ gives advice and encouragement."
       }
     },
     {
@@ -337,10 +367,11 @@
       "arabic": "استقصاء",
       "page": "90",
       "question": {
-        "q": "A recent ____ showed farming is dangerous.",
+        "q": "A recent _______ showed farming is dangerous.",
         "options": ["party", "survey", "movie", "game"],
         "answer": 1,
-        "justification": "الاستقصاء (survey) هو الذي يظهر نتائج. 'party' حفلة، 'movie' فيلم، 'game' لعبة."
+        "justification": "الاستقصاء (survey) هو الذي يظهر نتائج. 'party' حفلة، 'movie' فيلم، 'game' لعبة.",
+        "context_sentence": "A recent _______ showed farming is dangerous."
       }
     },
     {
@@ -348,10 +379,11 @@
       "arabic": "سرطان",
       "page": "91",
       "question": {
-        "q": "Too much sun can cause skin ____.",
+        "q": "Too much sun can cause skin _______.",
         "options": ["cancer", "cold", "energy", "light"],
         "answer": 0,
-        "justification": "الشمس الزائدة تسبب سرطان الجلد (cancer). 'cold' برد، 'energy' طاقة، 'light' ضوء."
+        "justification": "الشمس الزائدة تسبب سرطان الجلد (cancer). 'cold' برد، 'energy' طاقة، 'light' ضوء.",
+        "context_sentence": "Too much sun can cause skin _______."
       }
     },
     {
@@ -359,10 +391,11 @@
       "arabic": "احتياطات",
       "page": "91",
       "question": {
-        "q": "Farmers should take ____ when using chemicals.",
+        "q": "Farmers should take _______ when using chemicals.",
         "options": ["precautions", "photos", "breaks", "holidays"],
         "answer": 0,
-        "justification": "يجب أخذ الاحتياطات (precautions). 'photos' صور، 'breaks' استراحات، 'holidays' عطلات."
+        "justification": "يجب أخذ الاحتياطات (precautions). 'photos' صور، 'breaks' استراحات، 'holidays' عطلات.",
+        "context_sentence": "Farmers should take _______ when using chemicals."
       }
     },
     {
@@ -370,10 +403,11 @@
       "arabic": "سام",
       "page": "91",
       "question": {
-        "q": "Some chemicals are ____ and can harm people.",
+        "q": "Some chemicals are _______ and can harm people.",
         "options": ["safe", "delicious", "poisonous", "beautiful"],
         "answer": 2,
-        "justification": "المواد الكيميائية سامة (poisonous). 'safe' آمنة، 'delicious' لذيذة، 'beautiful' جميلة."
+        "justification": "المواد الكيميائية سامة (poisonous). 'safe' آمنة، 'delicious' لذيذة، 'beautiful' جميلة.",
+        "context_sentence": "Some chemicals are _______ and can harm people."
       }
     },
     {
@@ -381,10 +415,11 @@
       "arabic": "معدات",
       "page": "91",
       "question": {
-        "q": "Farmers use heavy ____ like tractors.",
+        "q": "Farmers use heavy _______ like tractors.",
         "options": ["equipment", "paintings", "books", "clothes"],
         "answer": 0,
-        "justification": "المزارعون يستخدمون معدات (equipment) ثقيلة. 'paintings' لوحات، 'books' كتب، 'clothes' ملابس."
+        "justification": "المزارعون يستخدمون معدات (equipment) ثقيلة. 'paintings' لوحات، 'books' كتب، 'clothes' ملابس.",
+        "context_sentence": "Farmers use heavy _______ like tractors."
       }
     },
     {
@@ -392,10 +427,11 @@
       "arabic": "فقر",
       "page": "93",
       "question": {
-        "q": "VSO fights ____ around the world.",
+        "q": "VSO fights _______ around the world.",
         "options": ["wealth", "poverty", "health", "joy"],
         "answer": 1,
-        "justification": "منظمة VSO تحارب الفقر (poverty). 'wealth' ثراء، 'health' صحة، 'joy' فرح."
+        "justification": "منظمة VSO تحارب الفقر (poverty). 'wealth' ثراء، 'health' صحة، 'joy' فرح.",
+        "context_sentence": "VSO fights _______ around the world."
       }
     },
     {
@@ -403,10 +439,11 @@
       "arabic": "رعاية صحية",
       "page": "94",
       "question": {
-        "q": "VSO volunteers improve ____ in poor areas.",
+        "q": "VSO volunteers improve _______ in poor areas.",
         "options": ["healthcare", "entertainment", "transport", "sport"],
         "answer": 0,
-        "justification": "يحسنون الرعاية الصحية (healthcare). 'entertainment' ترفيه، 'transport' نقل، 'sport' رياضة."
+        "justification": "يحسنون الرعاية الصحية (healthcare). 'entertainment' ترفيه، 'transport' نقل، 'sport' رياضة.",
+        "context_sentence": "VSO volunteers improve _______ in poor areas."
       }
     },
     {
@@ -414,10 +451,11 @@
       "arabic": "دخل",
       "page": "95",
       "question": {
-        "q": "People need a good ____ to support their families.",
+        "q": "People need a good _______ to support their families.",
         "options": ["hobby", "income", "dream", "vacation"],
         "answer": 1,
-        "justification": "يحتاجون دخلاً (income) جيداً. 'hobby' هواية، 'dream' حلم، 'vacation' عطلة."
+        "justification": "يحتاجون دخلاً (income) جيداً. 'hobby' هواية، 'dream' حلم، 'vacation' عطلة.",
+        "context_sentence": "People need a good _______ to support their families."
       }
     },
     {
@@ -425,10 +463,11 @@
       "arabic": "قابل للتجديد",
       "page": "Extra 1",
       "question": {
-        "q": "Solar energy is a ____ source.",
+        "q": "Solar energy is a _______ source of power.",
         "options": ["renewable", "finite", "dangerous", "weak"],
         "answer": 0,
-        "justification": "الطاقة الشمسية متجددة (renewable). 'finite' محدودة، 'dangerous' خطرة، 'weak' ضعيفة."
+        "justification": "الطاقة الشمسية متجددة (renewable). 'finite' محدودة، 'dangerous' خطرة، 'weak' ضعيفة.",
+        "context_sentence": "Solar energy is a _______ source of power."
       }
     },
     {
@@ -436,10 +475,11 @@
       "arabic": "تلوث",
       "page": "Extra 1",
       "question": {
-        "q": "Burning coal causes air ____.",
+        "q": "Burning coal causes air _______.",
         "options": ["celebration", "pollution", "nutrition", "education"],
         "answer": 1,
-        "justification": "حرق الفحم يسبب تلوث الهواء (pollution). 'celebration' احتفال، 'nutrition' تغذية، 'education' تعليم."
+        "justification": "حرق الفحم يسبب تلوث الهواء (pollution). 'celebration' احتفال، 'nutrition' تغذية، 'education' تعليم.",
+        "context_sentence": "Burning coal causes air _______."
       }
     }
   ]
