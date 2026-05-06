@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>طباعة</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        @media print {
+            body {
+                background: white !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .no-print { display: none !important; }
+            .watermark {
+                position: fixed;
+                top: 50%; left: 50%;
+                transform: translate(-50%, -50%) rotate(-30deg);
+                font-size: 5rem;
+                color: rgba(0,113,227,0.05);
+                font-weight: 700;
+                white-space: nowrap;
+                pointer-events: none;
+                z-index: 0;
+            }
+        }
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: white;
+            direction: rtl;
+            padding: 0;
+            margin: 0;
+            color: #1d1d1f;
+        }
+        .print-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            position: relative;
+        }
+        .watermark {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%) rotate(-30deg);
+            font-size: 5rem;
+            color: rgba(0,113,227,0.04);
+            font-weight: 700;
+            white-space: nowrap;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #0071e3;
+            padding-bottom: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .header img {
+            height: 60px;
+        }
+        .header .contact {
+            font-size: 0.8rem;
+            color: #555;
+            text-align: left;
+        }
+        .footer {
+            border-top: 1px solid #ccc;
+            padding-top: 1rem;
+            margin-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8rem;
+            color: #555;
+        }
+        .footer img {
+            height: 40px;
+            opacity: 0.7;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+        .content h2 { color: #0071e3; }
+        .item {
+            background: #f8f9fd;
+            border-radius: 12px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            page-break-inside: avoid;
+        }
+        .item .q { font-weight: 600; }
+        .item .opts { margin-right: 1rem; color: #333; }
+        .btn {
+            display: inline-block;
+            background: #0071e3;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            text-decoration: none;
+            margin: 0.5rem;
+            cursor: pointer;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="print-container">
+        <div class="watermark">Massar 2030</div>
+        <div class="header">
+            <img src="assets/images/reyadah-logo.png" alt="شعار مركز الريادة" onerror="this.style.display='none'">
+            <div class="contact">
+                <p>055 223 2207 | 053 611 1332</p>
+                <p>المملكة العربية السعودية - الهفوف - حي المنار</p>
+                <p>@massar2030</p>
+                <hr>
+                <p>054 608 8130 | 054 877 5199</p>
+                <p>المملكة العربية السعودية - الأحساء - الجفر</p>
+                <p>@EnglishZoneKSA</p>
+            </div>
+        </div>
+        <div class="content" id="printContent">
+            جاري التحميل...
+        </div>
+        <div class="footer">
+            <div>
+                <p>للاستفسار والحجز</p>
+                <p>055 223 2207 | 053 611 1332 | 054 608 8130 | 054 877 5199</p>
+            </div>
+            <img src="assets/images/reyadah-logo.png" alt="شعار" onerror="this.style.display='none'">
+        </div>
+    </div>
+    <script>
+        const params = new URLSearchParams(location.search);
+        const day = params.get('day') || '1';
+        const type = params.get('type') || 'vocabulary';
+        const folder = 'day-' + day.toString().padStart(2, '0');
+        const base = 'content/' + folder;
+
+        async function loadContent() {
+            let html = '';
+            if (type === 'vocabulary') {
+                try {
+                    const resp = await fetch(`${base}/vocabulary.json`);
+                    const data = await resp.json();
+                    html += `<h2>📝 مفردات اليوم ${day}</h2>`;
+                    (data.words || []).forEach((w, i) => {
+                        if (w.question) {
+                            html += `<div class="item"><div class="q">${i+1}. ${w.question.q}</div>`;
+                            html += `<div class="opts">الخيارات: ${(w.question.options || []).join(' | ')}</div>`;
+                            html += `<div style="color:#0071e3;margin-top:0.5rem;">الكلمة: <b>${w.english}</b> – ${w.arabic} (صفحة ${w.page})</div>`;
+                            html += `</div>`;
+                        }
+                    });
+                } catch(e) { html = '<p>لا توجد مفردات.</p>'; }
+            } else if (type === 'reading') {
+                try {
+                    const resp = await fetch(`${base}/reading.json`);
+                    const data = await resp.json();
+                    html += `<h2>📖 قطع القراءة – اليوم ${day}</h2>`;
+                    (data.passages || []).forEach(p => {
+                        html += `<h3>${p.title}</h3><p style="white-space:pre-wrap;line-height:1.8">${p.text}</p>`;
+                        if (p.questions) p.questions.forEach((q, qi) => {
+                            html += `<div class="item"><div class="q">${qi+1}. ${q.q}</div>`;
+                            html += `<div class="opts">${(q.options || []).join(' | ')}</div></div>`;
+                        });
+                    });
+                } catch(e) { html = '<p>لا توجد قطع.</p>'; }
+            } else if (type === 'dictation') {
+                try {
+                    const resp = await fetch(`${base}/dictation.json`);
+                    const data = await resp.json();
+                    html += `<h2>✍️ إملاء اليوم ${day}</h2>`;
+                    (data.words || []).forEach((item, i) => {
+                        html += `<div class="item"><div class="q">${i+1}. التهجئة الصحيحة: <b>${item.correct}</b></div>`;
+                        html += `<div class="opts">الخيارات: ${item.options.join(' | ')}</div></div>`;
+                    });
+                } catch(e) { html = '<p>لا توجد كلمات إملاء.</p>'; }
+            }
+            document.getElementById('printContent').innerHTML = html || '<p>لا توجد بيانات.</p>';
+        }
+        loadContent();
+    </script>
+</body>
+</html>
