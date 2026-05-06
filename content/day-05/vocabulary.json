@@ -7,10 +7,11 @@
       "arabic": "ميكانيكي",
       "page": "72",
       "question": {
-        "q": "The ____ fixed my car.",
-        "options": ["mechanic", "teacher", "doctor", "farmer"],
-        "answer": 0,
-        "justification": "الميكانيكي (mechanic) هو من يصلح السيارات. المعلم (teacher) يعلم، والطبيب (doctor) يعالج الناس، والمزارع (farmer) يزرع الأرض."
+        "q": "The engine was making a strange noise, so I took the car to a ________.",
+        "options": ["doctor", "mechanic", "teacher", "farmer"],
+        "answer": 1,
+        "justification": "الميكانيكي (mechanic) هو من يصلح السيارات. المعلم (teacher) يعلم، والطبيب (doctor) يعالج الناس، والمزارع (farmer) يزرع الأرض.",
+        "context_sentence": "The engine was making a strange noise, so I took the car to a ________."
       }
     },
     {
@@ -18,10 +19,11 @@
       "arabic": "طبيب",
       "page": "72",
       "question": {
-        "q": "Mariam is training to be a ____.",
-        "options": ["doctor", "waiter", "secretary", "librarian"],
-        "answer": 0,
-        "justification": "مريم تتدرب لتصبح طبيبة (doctor). النادل (waiter) يقدم الطعام، والسكرتير (secretary) ينظم المواعيد، وأمين المكتبة (librarian) يعمل مع الكتب."
+        "q": "She spent years at medical school to become a qualified ________.",
+        "options": ["librarian", "waiter", "secretary", "doctor"],
+        "answer": 3,
+        "justification": "مريم تتدرب لتصبح طبيبة (doctor). النادل (waiter) يقدم الطعام، والسكرتير (secretary) ينظم المواعيد، وأمين المكتبة (librarian) يعمل مع الكتب.",
+        "context_sentence": "She spent years at medical school to become a qualified ________."
       }
     },
     {
@@ -29,10 +31,11 @@
       "arabic": "ممرض",
       "page": "72",
       "question": {
-        "q": "A ____ assists the doctor.",
-        "options": ["nurse", "mechanic", "farmer", "driver"],
-        "answer": 0,
-        "justification": "الممرض (nurse) يساعد الطبيب في رعاية المرضى. الميكانيكي (mechanic) يصلح الآلات، والمزارع (farmer) في الحقول، والسائق (driver) يقود المركبات."
+        "q": "The ________ took the patient's temperature and blood pressure.",
+        "options": ["driver", "farmer", "mechanic", "nurse"],
+        "answer": 3,
+        "justification": "الممرض (nurse) يساعد الطبيب في رعاية المرضى. الميكانيكي (mechanic) يصلح الآلات، والمزارع (farmer) في الحقول، والسائق (driver) يقود المركبات.",
+        "context_sentence": "The ________ took the patient's temperature and blood pressure."
       }
     },
     {
@@ -40,10 +43,11 @@
       "arabic": "مصنع",
       "page": "72",
       "question": {
-        "q": "We make televisions in a ____.",
-        "options": ["factory", "hospital", "bank", "office"],
-        "answer": 0,
-        "justification": "التلفزيونات تُصنع في المصنع (factory). المستشفى (hospital) يعالج المرضى، والبنك (bank) للأموال، والمكتب (office) للأعمال الإدارية."
+        "q": "The ________ produces thousands of cars every year.",
+        "options": ["office", "bank", "hospital", "factory"],
+        "answer": 3,
+        "justification": "التلفزيونات تُصنع في المصنع (factory). المستشفى (hospital) يعالج المرضى، والبنك (bank) للأموال، والمكتب (office) للأعمال الإدارية.",
+        "context_sentence": "The ________ produces thousands of cars every year."
       }
     },
     {
@@ -51,10 +55,11 @@
       "arabic": "مزارع",
       "page": "72",
       "question": {
-        "q": "____ take care of lands.",
-        "options": ["Farmers", "Doctors", "Engineers", "Barbers"],
-        "answer": 0,
-        "justification": "المزارعون (farmers) يعتنون بالأرض ويزرعونها. الأطباء (doctors) يعالجون الناس، والمهندسون (engineers) يصممون ويبنون، والحلاقون (barbers) يقصون الشعر."
+        "q": "The ________ wakes up early every morning to tend the crops.",
+        "options": ["Engineers", "Barbers", "Doctors", "Farmer"],
+        "answer": 3,
+        "justification": "المزارعون (farmers) يعتنون بالأرض ويزرعونها. الأطباء (doctors) يعالجون الناس، والمهندسون (engineers) يصممون ويبنون، والحلاقون (barbers) يقصون الشعر.",
+        "context_sentence": "The ________ wakes up early every morning to tend the crops."
       }
     },
     {
@@ -62,10 +67,11 @@
       "arabic": "معلم",
       "page": "72",
       "question": {
-        "q": "You need skills to be a good ____.",
-        "options": ["teacher", "traffic warden", "clerk", "librarian"],
-        "answer": 0,
-        "justification": "تحتاج مهارات لتكون معلماً (teacher) جيداً. مراقب المرور (traffic warden) ينظم السير، والموظف (clerk) يعمل في مكتب، وأمين المكتبة (librarian) يدير الكتب."
+        "q": "A good ________ can inspire students to love learning.",
+        "options": ["traffic warden", "teacher", "clerk", "librarian"],
+        "answer": 1,
+        "justification": "تحتاج مهارات لتكون معلماً (teacher) جيداً. مراقب المرور (traffic warden) ينظم السير، والموظف (clerk) يعمل في مكتب، وأمين المكتبة (librarian) يدير الكتب.",
+        "context_sentence": "A good ________ can inspire students to love learning."
       }
     },
     {
@@ -73,10 +79,11 @@
       "arabic": "ضابط شرطة",
       "page": "73",
       "question": {
-        "q": "A ____ deals with criminals.",
-        "options": ["police officer", "doctor", "librarian", "waiter"],
-        "answer": 0,
-        "justification": "ضابط الشرطة (police officer) يتعامل مع المجرمين. الطبيب (doctor) يعالج المرضى، وأمين المكتبة (librarian) يعمل مع الكتب، والنادل (waiter) يقدم الطعام."
+        "q": "The ________ arrested the suspect and read him his rights.",
+        "options": ["librarian", "police officer", "waiter", "doctor"],
+        "answer": 1,
+        "justification": "ضابط الشرطة (police officer) يتعامل مع المجرمين. الطبيب (doctor) يعالج المرضى، وأمين المكتبة (librarian) يعمل مع الكتب، والنادل (waiter) يقدم الطعام.",
+        "context_sentence": "The ________ arrested the suspect and read him his rights."
       }
     },
     {
@@ -84,10 +91,11 @@
       "arabic": "نادل",
       "page": "73",
       "question": {
-        "q": "Ali serves food; he is a ____.",
-        "options": ["waiter", "police", "librarian", "barber"],
-        "answer": 0,
-        "justification": "من يقدم الطعام هو النادل (waiter). الشرطة (police) تحفظ الأمن، وأمين المكتبة (librarian) يعمل مع الكتب، والحلاق (barber) يقص الشعر."
+        "q": "The ________ brought the menus and took our drink orders.",
+        "options": ["barber", "librarian", "police officer", "waiter"],
+        "answer": 3,
+        "justification": "من يقدم الطعام هو النادل (waiter). الشرطة (police) تحفظ الأمن، وأمين المكتبة (librarian) يعمل مع الكتب، والحلاق (barber) يقص الشعر.",
+        "context_sentence": "The ________ brought the menus and took our drink orders."
       }
     },
     {
@@ -95,10 +103,11 @@
       "arabic": "حلاق",
       "page": "73",
       "question": {
-        "q": "Go to the ____ for a haircut.",
-        "options": ["barber", "police", "librarian", "waiter"],
-        "answer": 0,
-        "justification": "للحصول على قصة شعر تذهب إلى الحلاق (barber). الشرطة (police) للأمن، وأمين المكتبة (librarian) للكتب، والنادل (waiter) للمطعم."
+        "q": "He visits the ________ once a month to get his hair cut and beard trimmed.",
+        "options": ["librarian", "waiter", "barber", "police officer"],
+        "answer": 2,
+        "justification": "للحصول على قصة شعر تذهب إلى الحلاق (barber). الشرطة (police) للأمن، وأمين المكتبة (librarian) للكتب، والنادل (waiter) للمطعم.",
+        "context_sentence": "He visits the ________ once a month to get his hair cut and beard trimmed."
       }
     },
     {
@@ -106,10 +115,11 @@
       "arabic": "بنك",
       "page": "73",
       "question": {
-        "q": "Open an account at a ____.",
-        "options": ["bank", "restaurant", "factory", "shop"],
+        "q": "She went to the ________ to deposit her paycheck.",
+        "options": ["bank", "shop", "restaurant", "factory"],
         "answer": 0,
-        "justification": "يفتح الحساب في البنك (bank). المطعم (restaurant) للطعام، والمصنع (factory) للإنتاج، والمتجر (shop) للبيع."
+        "justification": "يفتح الحساب في البنك (bank). المطعم (restaurant) للطعام، والمصنع (factory) للإنتاج، والمتجر (shop) للبيع.",
+        "context_sentence": "She went to the ________ to deposit her paycheck."
       }
     },
     {
@@ -117,10 +127,11 @@
       "arabic": "مطعم",
       "page": "73",
       "question": {
-        "q": "We had dinner at a nice ____.",
-        "options": ["restaurant", "bank", "pharmacy", "garage"],
-        "answer": 0,
-        "justification": "تناولنا العشاء في مطعم (restaurant). البنك (bank) للمال، والصيدلية (pharmacy) للدواء، والمرأب (garage) للسيارات."
+        "q": "They celebrated their anniversary at an Italian ________ downtown.",
+        "options": ["pharmacy", "bank", "garage", "restaurant"],
+        "answer": 3,
+        "justification": "تناولنا العشاء في مطعم (restaurant). البنك (bank) للمال، والصيدلية (pharmacy) للدواء، والمرأب (garage) للسيارات.",
+        "context_sentence": "They celebrated their anniversary at an Italian ________ downtown."
       }
     },
     {
@@ -128,10 +139,11 @@
       "arabic": "أمين مكتبة",
       "page": "73",
       "question": {
-        "q": "The ____ organized the books.",
-        "options": ["librarian", "mechanic", "farmer", "barber"],
-        "answer": 0,
-        "justification": "أمين المكتبة (librarian) ينظم الكتب. الميكانيكي (mechanic) يصلح الآلات، والمزارع (farmer) يعمل في الأرض، والحلاق (barber) يقص الشعر."
+        "q": "The ________ helped me find the reference books I needed.",
+        "options": ["barber", "farmer", "librarian", "mechanic"],
+        "answer": 2,
+        "justification": "أمين المكتبة (librarian) ينظم الكتب. الميكانيكي (mechanic) يصلح الآلات، والمزارع (farmer) يعمل في الأرض، والحلاق (barber) يقص الشعر.",
+        "context_sentence": "The ________ helped me find the reference books I needed."
       }
     },
     {
@@ -139,10 +151,11 @@
       "arabic": "سكرتير",
       "page": "73",
       "question": {
-        "q": "The ____ schedules appointments.",
-        "options": ["secretary", "mechanic", "farmer", "waiter"],
+        "q": "The ________ answers phone calls and manages the manager's schedule.",
+        "options": ["secretary", "waiter", "farmer", "mechanic"],
         "answer": 0,
-        "justification": "السكرتير (secretary) هو من يحدد المواعيد. الميكانيكي (mechanic) يصلح الآلات، والمزارع (farmer) يزرع، والنادل (waiter) يقدم الطعام."
+        "justification": "السكرتير (secretary) هو من يحدد المواعيد. الميكانيكي (mechanic) يصلح الآلات، والمزارع (farmer) يزرع، والنادل (waiter) يقدم الطعام.",
+        "context_sentence": "The ________ answers phone calls and manages the manager's schedule."
       }
     },
     {
@@ -150,10 +163,11 @@
       "arabic": "أولوية",
       "page": "73",
       "question": {
-        "q": "Getting married is his top ____.",
-        "options": ["priority", "income", "environment", "problem"],
-        "answer": 0,
-        "justification": "الزواج هو أولويته (priority) القصوى. الدخل (income) هو المال، والبيئة (environment) هي المحيط، والمشكلة (problem) أمر سلبي."
+        "q": "Safety is the number one ________ on any construction site.",
+        "options": ["problem", "income", "environment", "priority"],
+        "answer": 3,
+        "justification": "الزواج هو أولويته (priority) القصوى. الدخل (income) هو المال، والبيئة (environment) هي المحيط، والمشكلة (problem) أمر سلبي.",
+        "context_sentence": "Safety is the number one ________ on any construction site."
       }
     },
     {
@@ -161,10 +175,11 @@
       "arabic": "دخل",
       "page": "73",
       "question": {
-        "q": "A regular ____ helps pay bills.",
-        "options": ["income", "expense", "loan", "debt"],
-        "answer": 0,
-        "justification": "الدخل المنتظم (income) يساعد في دفع الفواتير. المصروف (expense) ما ينفق، والقرض (loan) مال مستعار، والدين (debt) التزام مالي."
+        "q": "She needs a steady ________ to pay the rent and other living expenses.",
+        "options": ["loan", "debt", "expense", "income"],
+        "answer": 3,
+        "justification": "الدخل المنتظم (income) يساعد في دفع الفواتير. المصروف (expense) ما ينفق، والقرض (loan) مال مستعار، والدين (debt) التزام مالي.",
+        "context_sentence": "She needs a steady ________ to pay the rent and other living expenses."
       }
     },
     {
@@ -172,10 +187,11 @@
       "arabic": "مكتظ",
       "page": "Extra 5",
       "question": {
-        "q": "California is the most ____ state.",
-        "options": ["populous", "empty", "quiet", "small"],
-        "answer": 0,
-        "justification": "كاليفورنيا هي الولاية الأكثر اكتظاظاً بالسكان (populous). الفارغة (empty) والهادئة (quiet) والصغيرة (small) عكس ذلك."
+        "q": "China is the most ________ country in the world, with over 1.4 billion people.",
+        "options": ["empty", "quiet", "small", "populous"],
+        "answer": 3,
+        "justification": "كاليفورنيا هي الولاية الأكثر اكتظاظاً بالسكان (populous). الفارغة (empty) والهادئة (quiet) والصغيرة (small) عكس ذلك.",
+        "context_sentence": "China is the most ________ country in the world, with over 1.4 billion people."
       }
     },
     {
@@ -183,10 +199,11 @@
       "arabic": "زراعة",
       "page": "Extra 5",
       "question": {
-        "q": "____ is a key sector in California.",
-        "options": ["Agriculture", "Technology", "Entertainment", "Tourism"],
-        "answer": 0,
-        "justification": "الزراعة (agriculture) قطاع رئيسي في كاليفورنيا. التكنولوجيا (technology) والترفيه (entertainment) والسياحة (tourism) قطاعات أخرى مهمة أيضاً، لكن الزراعة هي المذكورة في النص."
+        "q": "________ remains a vital part of the economy, employing millions of people.",
+        "options": ["Tourism", "Entertainment", "Technology", "Agriculture"],
+        "answer": 3,
+        "justification": "الزراعة (agriculture) قطاع رئيسي في كاليفورنيا. التكنولوجيا (technology) والترفيه (entertainment) والسياحة (tourism) قطاعات أخرى مهمة أيضاً، لكن الزراعة هي المذكورة في النص.",
+        "context_sentence": "________ remains a vital part of the economy, employing millions of people."
       }
     },
     {
@@ -194,10 +211,11 @@
       "arabic": "جفاف",
       "page": "Extra 5",
       "question": {
-        "q": "California sometimes suffers ____.",
-        "options": ["drought", "flood", "rain", "snow"],
-        "answer": 0,
-        "justification": "كاليفورنيا تعاني أحياناً من الجفاف (drought). الفيضان (flood) والمطر (rain) والثلج (snow) ظواهر مناخية أخرى."
+        "q": "The severe ________ caused the reservoirs to dry up and crops to fail.",
+        "options": ["flood", "snow", "rain", "drought"],
+        "answer": 3,
+        "justification": "كاليفورنيا تعاني أحياناً من الجفاف (drought). الفيضان (flood) والمطر (rain) والثلج (snow) ظواهر مناخية أخرى.",
+        "context_sentence": "The severe ________ caused the reservoirs to dry up and crops to fail."
       }
     },
     {
@@ -205,10 +223,11 @@
       "arabic": "قطعة أثرية",
       "page": "Extra 5",
       "question": {
-        "q": "The museum displays ancient ____.",
-        "options": ["artifacts", "animals", "plants", "machines"],
-        "answer": 0,
-        "justification": "المتحف يعرض قطعاً أثرية (artifacts). الحيوانات (animals) والنباتات (plants) والآلات (machines) قد تكون في أماكن أخرى."
+        "q": "The archaeologists discovered a rare ________ dating back to the Bronze Age.",
+        "options": ["animals", "machines", "plants", "artifacts"],
+        "answer": 3,
+        "justification": "المتحف يعرض قطعاً أثرية (artifacts). الحيوانات (animals) والنباتات (plants) والآلات (machines) قد تكون في أماكن أخرى.",
+        "context_sentence": "The archaeologists discovered a rare ________ dating back to the Bronze Age."
       }
     },
     {
@@ -216,10 +235,11 @@
       "arabic": "ري",
       "page": "Extra 5",
       "question": {
-        "q": "Farmers use ____ to water crops.",
-        "options": ["irrigation", "sleeping", "running", "eating"],
-        "answer": 0,
-        "justification": "المزارعون يستخدمون الري (irrigation) لسقاية المحاصيل. النوم (sleeping) والجري (running) والأكل (eating) لا علاقة لها بزراعة."
+        "q": "The ________ system brings water from the river to the fields through canals.",
+        "options": ["sleeping", "eating", "running", "irrigation"],
+        "answer": 3,
+        "justification": "المزارعون يستخدمون الري (irrigation) لسقاية المحاصيل. النوم (sleeping) والجري (running) والأكل (eating) لا علاقة لها بزراعة.",
+        "context_sentence": "The ________ system brings water from the river to the fields through canals."
       }
     },
     {
@@ -227,10 +247,11 @@
       "arabic": "تذبذب",
       "page": "Extra 5",
       "question": {
-        "q": "Economic ____ affects jobs.",
-        "options": ["fluctuation", "stability", "equality", "certainty"],
-        "answer": 0,
-        "justification": "التذبذب الاقتصادي (fluctuation) يؤثر على الوظائف. الاستقرار (stability) والمساواة (equality) واليقين (certainty) أمور إيجابية."
+        "q": "The ________ of oil prices makes it hard for businesses to plan ahead.",
+        "options": ["certainty", "equality", "stability", "fluctuation"],
+        "answer": 3,
+        "justification": "التذبذب الاقتصادي (fluctuation) يؤثر على الوظائف. الاستقرار (stability) والمساواة (equality) واليقين (certainty) أمور إيجابية.",
+        "context_sentence": "The ________ of oil prices makes it hard for businesses to plan ahead."
       }
     },
     {
@@ -238,10 +259,11 @@
       "arabic": "أثري",
       "page": "Extra 5",
       "question": {
-        "q": "____ sites attract tourists.",
-        "options": ["Archaeological", "Modern", "Industrial", "Residential"],
-        "answer": 0,
-        "justification": "المواقع الأثرية (archaeological) تجذب السياح. الحديثة (modern) والصناعية (industrial) والسكنية (residential) قد لا تكون بنفس الجاذبية."
+        "q": "The ________ excavation uncovered the ruins of an ancient Roman city.",
+        "options": ["Residential", "Modern", "Industrial", "Archaeological"],
+        "answer": 3,
+        "justification": "المواقع الأثرية (archaeological) تجذب السياح. الحديثة (modern) والصناعية (industrial) والسكنية (residential) قد لا تكون بنفس الجاذبية.",
+        "context_sentence": "The ________ excavation uncovered the ruins of an ancient Roman city."
       }
     },
     {
@@ -249,10 +271,11 @@
       "arabic": "نطق / صوت",
       "page": "Extra 5",
       "question": {
-        "q": "Whales produce complex ____.",
-        "options": ["vocalisations", "silence", "gestures", "lights"],
-        "answer": 0,
-        "justification": "الحيتان تصدر أصواتاً (vocalisations) معقدة. الصمت (silence) عكس ذلك، والإيماءات (gestures) والأضواء (lights) ليست وسائل تواصل الحيتان."
+        "q": "The researchers recorded the ________ of dolphins to study their communication.",
+        "options": ["silence", "lights", "gestures", "vocalisations"],
+        "answer": 3,
+        "justification": "الحيتان تصدر أصواتاً (vocalisations) معقدة. الصمت (silence) عكس ذلك، والإيماءات (gestures) والأضواء (lights) ليست وسائل تواصل الحيتان.",
+        "context_sentence": "The researchers recorded the ________ of dolphins to study their communication."
       }
     },
     {
@@ -260,10 +283,11 @@
       "arabic": "قطيع (حيتان)",
       "page": "Extra 5",
       "question": {
-        "q": "A whale family group is a ____.",
-        "options": ["pod", "school", "flock", "herd"],
-        "answer": 0,
-        "justification": "مجموعة الحيتان العائلية تسمى (pod). 'school' للأسماك، 'flock' للطيور، 'herd' للأبقار."
+        "q": "A ________ of whales was spotted migrating south for the winter.",
+        "options": ["flock", "herd", "school", "pod"],
+        "answer": 3,
+        "justification": "مجموعة الحيتان العائلية تسمى (pod). 'school' للأسماك، 'flock' للطيور، 'herd' للأبقار.",
+        "context_sentence": "A ________ of whales was spotted migrating south for the winter."
       }
     },
     {
@@ -271,10 +295,11 @@
       "arabic": "ضخم",
       "page": "Extra 5",
       "question": {
-        "q": "The pyramids are ____ structures.",
-        "options": ["monumental", "tiny", "modern", "weak"],
-        "answer": 0,
-        "justification": "الأهرامات هياكل ضخمة (monumental). الصغيرة (tiny) والحديثة (modern) والضعيفة (weak) لا تصفها."
+        "q": "Building the Great Wall was a ________ achievement that took centuries to complete.",
+        "options": ["tiny", "modern", "weak", "monumental"],
+        "answer": 3,
+        "justification": "الأهرامات هياكل ضخمة (monumental). الصغيرة (tiny) والحديثة (modern) والضعيفة (weak) لا تصفها.",
+        "context_sentence": "Building the Great Wall was a ________ achievement that took centuries to complete."
       }
     },
     {
@@ -282,10 +307,11 @@
       "arabic": "منحدر",
       "page": "Extra 5",
       "question": {
-        "q": "Workers may have used ____ to lift stones.",
-        "options": ["ramps", "carts", "ropes", "wheels"],
-        "answer": 0,
-        "justification": "العمال ربما استخدموا المنحدرات (ramps) لرفع الأحجار. العربات (carts) والحبال (ropes) والعجلات (wheels) أدوات أخرى محتملة لكن المنحدرات هي النظرية الأقوى."
+        "q": "They built a ________ to help move the heavy equipment up to the platform.",
+        "options": ["ropes", "carts", "wheels", "ramp"],
+        "answer": 3,
+        "justification": "العمال ربما استخدموا المنحدرات (ramps) لرفع الأحجار. العربات (carts) والحبال (ropes) والعجلات (wheels) أدوات أخرى محتملة لكن المنحدرات هي النظرية الأقوى.",
+        "context_sentence": "They built a ________ to help move the heavy equipment up to the platform."
       }
     },
     {
@@ -293,10 +319,11 @@
       "arabic": "كائن دقيق",
       "page": "Extra 5",
       "question": {
-        "q": "A ____ is a tiny living thing.",
-        "options": ["microorganism", "elephant", "mountain", "river"],
-        "answer": 0,
-        "justification": "الكائن الدقيق (microorganism) هو كائن حي صغير جداً. الفيل (elephant) والجبل (mountain) والنهر (river) أشياء كبيرة."
+        "q": "A ________ is too small to be seen without a microscope.",
+        "options": ["mountain", "elephant", "river", "microorganism"],
+        "answer": 3,
+        "justification": "الكائن الدقيق (microorganism) هو كائن حي صغير جداً. الفيل (elephant) والجبل (mountain) والنهر (river) أشياء كبيرة.",
+        "context_sentence": "A ________ is too small to be seen without a microscope."
       }
     },
     {
@@ -304,10 +331,11 @@
       "arabic": "بروبيوتك",
       "page": "Extra 5",
       "question": {
-        "q": "Yogurt contains ____.",
-        "options": ["probiotics", "antibiotics", "vitamins", "minerals"],
-        "answer": 0,
-        "justification": "الزبادي يحتوي على البروبيوتك (probiotics) المفيدة للهضم. المضادات الحيوية (antibiotics) تقتل البكتيريا، والفيتامينات (vitamins) والمعادن (minerals) مغذيات أخرى."
+        "q": "Doctors often recommend taking ________ supplements to support gut health.",
+        "options": ["minerals", "antibiotics", "vitamins", "probiotics"],
+        "answer": 3,
+        "justification": "الزبادي يحتوي على البروبيوتك (probiotics) المفيدة للهضم. المضادات الحيوية (antibiotics) تقتل البكتيريا، والفيتامينات (vitamins) والمعادن (minerals) مغذيات أخرى.",
+        "context_sentence": "Doctors often recommend taking ________ supplements to support gut health."
       }
     },
     {
@@ -315,10 +343,11 @@
       "arabic": "سمنة",
       "page": "Extra 5",
       "question": {
-        "q": "Antibiotic overuse may cause ____.",
-        "options": ["obesity", "thinness", "height", "vision"],
-        "answer": 0,
-        "justification": "الإفراط في المضادات الحيوية قد يسبب السمنة (obesity). النحافة (thinness) والطول (height) والنظر (vision) ليست آثاراً مرتبطة."
+        "q": "Childhood ________ is a growing health concern in many developed countries.",
+        "options": ["thinness", "height", "vision", "obesity"],
+        "answer": 3,
+        "justification": "الإفراط في المضادات الحيوية قد يسبب السمنة (obesity). النحافة (thinness) والطول (height) والنظر (vision) ليست آثاراً مرتبطة.",
+        "context_sentence": "Childhood ________ is a growing health concern in many developed countries."
       }
     },
     {
@@ -326,10 +355,11 @@
       "arabic": "مناعي",
       "page": "Extra 5",
       "question": {
-        "q": "Gut bacteria help train the ____ system.",
-        "options": ["immune", "digestive", "nervous", "respiratory"],
-        "answer": 0,
-        "justification": "بكتيريا الأمعاء تساعد في تدريب الجهاز المناعي (immune system). الهضمي (digestive) للطعام، والعصبي (nervous) للإشارات، والتنفسي (respiratory) للتنفس."
+        "q": "A strong ________ system helps fight off infections and diseases.",
+        "options": ["digestive", "respiratory", "nervous", "immune"],
+        "answer": 3,
+        "justification": "بكتيريا الأمعاء تساعد في تدريب الجهاز المناعي (immune system). الهضمي (digestive) للطعام، والعصبي (nervous) للإشارات، والتنفسي (respiratory) للتنفس.",
+        "context_sentence": "A strong ________ system helps fight off infections and diseases."
       }
     },
     {
@@ -337,10 +367,11 @@
       "arabic": "غذائي",
       "page": "Extra 5",
       "question": {
-        "q": "____ records reveal ancient eating habits.",
-        "options": ["Dietary", "Medical", "Legal", "Musical"],
-        "answer": 0,
-        "justification": "السجلات الغذائية (dietary) تكشف عادات الأكل القديمة. الطبية (medical) للأمراض، والقانونية (legal) للقوانين، والموسيقية (musical) للفن."
+        "q": "The doctor advised him to make some ________ changes to lower his cholesterol.",
+        "options": ["Legal", "Musical", "Medical", "Dietary"],
+        "answer": 3,
+        "justification": "السجلات الغذائية (dietary) تكشف عادات الأكل القديمة. الطبية (medical) للأمراض، والقانونية (legal) للقوانين، والموسيقية (musical) للفن.",
+        "context_sentence": "The doctor advised him to make some ________ changes to lower his cholesterol."
       }
     },
     {
@@ -348,10 +379,11 @@
       "arabic": "انتقال ثقافي",
       "page": "Extra 5",
       "question": {
-        "q": "Whale song evolution shows ____.",
-        "options": ["cultural transmission", "genetic mutation", "pollution", "hunting"],
-        "answer": 0,
-        "justification": "تطور أغاني الحيتان يُظهر انتقالاً ثقافياً (cultural transmission). الطفرة الجينية (genetic mutation) والتلوث (pollution) والصيد (hunting) لا تفسر تطور الأغاني."
+        "q": "Stories passed from grandparents to grandchildren are a form of ________.",
+        "options": ["pollution", "hunting", "genetic mutation", "cultural transmission"],
+        "answer": 3,
+        "justification": "تطور أغاني الحيتان يُظهر انتقالاً ثقافياً (cultural transmission). الطفرة الجينية (genetic mutation) والتلوث (pollution) والصيد (hunting) لا تفسر تطور الأغاني.",
+        "context_sentence": "Stories passed from grandparents to grandchildren are a form of ________."
       }
     },
     {
@@ -359,10 +391,11 @@
       "arabic": "بين كواكب",
       "page": "Extra 5",
       "question": {
-        "q": "Starship aims for ____ travel.",
-        "options": ["interplanetary", "domestic", "underground", "submarine"],
-        "answer": 0,
-        "justification": "ستارشيب تهدف للسفر بين الكواكب (interplanetary). المحلي (domestic) وداخل الأرض (underground) والبحري (submarine) ليست أهدافها."
+        "q": "NASA is developing new rockets for future ________ missions to Mars.",
+        "options": ["underground", "domestic", "submarine", "interplanetary"],
+        "answer": 3,
+        "justification": "ستارشيب تهدف للسفر بين الكواكب (interplanetary). المحلي (domestic) وداخل الأرض (underground) والبحري (submarine) ليست أهدافها.",
+        "context_sentence": "NASA is developing new rockets for future ________ missions to Mars."
       }
     },
     {
@@ -370,10 +403,11 @@
       "arabic": "صيدلاني",
       "page": "Extra 5",
       "question": {
-        "q": "____ countermeasures protect astronauts.",
-        "options": ["Pharmaceutical", "Musical", "Agricultural", "Architectural"],
-        "answer": 0,
-        "justification": "الإجراءات الصيدلانية (pharmaceutical) تحمي الرواد. الموسيقية (musical) والزراعية (agricultural) والمعمارية (architectural) لا علاقة لها بالحماية من الإشعاع."
+        "q": "The ________ industry invests billions in developing new medicines.",
+        "options": ["Architectural", "Musical", "Agricultural", "Pharmaceutical"],
+        "answer": 3,
+        "justification": "الإجراءات الصيدلانية (pharmaceutical) تحمي الرواد. الموسيقية (musical) والزراعية (agricultural) والمعمارية (architectural) لا علاقة لها بالحماية من الإشعاع.",
+        "context_sentence": "The ________ industry invests billions in developing new medicines."
       }
     },
     {
@@ -381,10 +415,11 @@
       "arabic": "واجهة",
       "page": "Extra 5",
       "question": {
-        "q": "The Treasury has an elaborate ____.",
-        "options": ["facade", "garden", "basement", "kitchen"],
-        "answer": 0,
-        "justification": "مبنى الخزانة له واجهة (facade) متقنة. الحديقة (garden) والقبو (basement) والمطبخ (kitchen) ليست ما تشتهر به الخزانة."
+        "q": "The old building's ________ was covered in beautiful marble carvings.",
+        "options": ["garden", "kitchen", "basement", "facade"],
+        "answer": 3,
+        "justification": "مبنى الخزانة له واجهة (facade) متقنة. الحديقة (garden) والقبو (basement) والمطبخ (kitchen) ليست ما تشتهر به الخزانة.",
+        "context_sentence": "The old building's ________ was covered in beautiful marble carvings."
       }
     },
     {
@@ -392,10 +427,11 @@
       "arabic": "ضم / احتل",
       "page": "Extra 5",
       "question": {
-        "q": "The Romans ____ the Nabataean kingdom.",
-        "options": ["annexed", "ignored", "destroyed", "built"],
-        "answer": 0,
-        "justification": "الرومان ضموا (annexed) مملكة الأنباط إلى إمبراطوريتهم. لم يتجاهلوها (ignored) ولم يدمروها بالكامل (destroyed) ولم يبنوها (built)."
+        "q": "The kingdom was ________ by its more powerful neighbor after a brief war.",
+        "options": ["ignored", "built", "destroyed", "annexed"],
+        "answer": 3,
+        "justification": "الرومان ضموا (annexed) مملكة الأنباط إلى إمبراطوريتهم. لم يتجاهلوها (ignored) ولم يدمروها بالكامل (destroyed) ولم يبنوها (built).",
+        "context_sentence": "The kingdom was ________ by its more powerful neighbor after a brief war."
       }
     },
     {
@@ -403,10 +439,11 @@
       "arabic": "توطيد / تعزيز",
       "page": "Extra 5",
       "question": {
-        "q": "Sleep aids memory ____.",
-        "options": ["consolidation", "destruction", "confusion", "erasure"],
-        "answer": 0,
-        "justification": "النوم يساعد في توطيد الذاكرة (consolidation). التدمير (destruction) والارتباك (confusion) والمحو (erasure) عكس ذلك."
+        "q": "The ________ of data from several departments helped create a unified report.",
+        "options": ["erasure", "confusion", "destruction", "consolidation"],
+        "answer": 3,
+        "justification": "النوم يساعد في توطيد الذاكرة (consolidation). التدمير (destruction) والارتباك (confusion) والمحو (erasure) عكس ذلك.",
+        "context_sentence": "The ________ of data from several departments helped create a unified report."
       }
     },
     {
@@ -414,10 +451,11 @@
       "arabic": "حرمان",
       "page": "Extra 5",
       "question": {
-        "q": "Sleep ____ harms health.",
-        "options": ["deprivation", "excess", "addition", "supplement"],
-        "answer": 0,
-        "justification": "الحرمان من النوم (deprivation) يضر الصحة. الزيادة (excess) والإضافة (addition) والمكمل (supplement) لا تعبر عن قلة النوم."
+        "q": "Sleep ________ can lead to serious health problems over time.",
+        "options": ["excess", "addition", "supplement", "deprivation"],
+        "answer": 3,
+        "justification": "الحرمان من النوم (deprivation) يضر الصحة. الزيادة (excess) والإضافة (addition) والمكمل (supplement) لا تعبر عن قلة النوم.",
+        "context_sentence": "Sleep ________ can lead to serious health problems over time."
       }
     },
     {
@@ -425,10 +463,11 @@
       "arabic": "معرفي",
       "page": "Extra 5",
       "question": {
-        "q": "____ function declines without sleep.",
-        "options": ["Cognitive", "Physical", "Muscular", "Skeletal"],
-        "answer": 0,
-        "justification": "الوظيفة المعرفية (cognitive) تتراجع بدون نوم. الجسدية (physical) والعضلية (muscular) والهيكلية (skeletal) لا تتأثر بنفس الدرجة."
+        "q": "Puzzles and brain games can help improve ________ abilities.",
+        "options": ["Skeletal", "Muscular", "Physical", "Cognitive"],
+        "answer": 3,
+        "justification": "الوظيفة المعرفية (cognitive) تتراجع بدون نوم. الجسدية (physical) والعضلية (muscular) والهيكلية (skeletal) لا تتأثر بنفس الدرجة.",
+        "context_sentence": "Puzzles and brain games can help improve ________ abilities."
       }
     },
     {
@@ -436,10 +475,11 @@
       "arabic": "تدريع",
       "page": "Extra 5",
       "question": {
-        "q": "Radiation ____ protects astronauts.",
-        "options": ["shielding", "cooking", "decorating", "lighting"],
-        "answer": 0,
-        "justification": "التدريع (shielding) يحمي رواد الفضاء من الإشعاع. الطبخ (cooking) والتزيين (decorating) والإضاءة (lighting) لا تحمي من الإشعاع."
+        "q": "The spacecraft is equipped with special ________ to protect the crew from solar radiation.",
+        "options": ["lighting", "cooking", "decorating", "shielding"],
+        "answer": 3,
+        "justification": "التدريع (shielding) يحمي رواد الفضاء من الإشعاع. الطبخ (cooking) والتزيين (decorating) والإضاءة (lighting) لا تحمي من الإشعاع.",
+        "context_sentence": "The spacecraft is equipped with special ________ to protect the crew from solar radiation."
       }
     }
   ]

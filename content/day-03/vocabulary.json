@@ -7,10 +7,11 @@
       "arabic": "ربو",
       "page": "70",
       "question": {
-        "q": "If someone finds it difficult to breathe, he probably has",
-        "options": ["Toothache", "headache", "fever", "asthma"],
-        "answer": 3,
-        "justification": "صعوبة التنفس عرض رئيسي للربو (asthma). ألم الأسنان (toothache) يسبب وجهاً، والصداع (headache) ألم في الرأس، والحمى (fever) ارتفاع حرارة."
+        "q": "He uses an inhaler because he suffers from _______.",
+        "options": ["fever", "asthma", "headache", "toothache"],
+        "answer": 1,
+        "justification": "صعوبة التنفس عرض رئيسي للربو (asthma). ألم الأسنان (toothache) يسبب وجهاً، والصداع (headache) ألم في الرأس، والحمى (fever) ارتفاع حرارة.",
+        "context_sentence": "He uses an inhaler because he suffers from _______."
       }
     },
     {
@@ -18,10 +19,11 @@
       "arabic": "وجع أسنان",
       "page": "70",
       "question": {
-        "q": "If you have a ____, you should see a dentist.",
-        "options": ["toothache", "headache", "fever", "asthma"],
-        "answer": 0,
-        "justification": "وجع الأسنان (toothache) يستدعي زيارة طبيب الأسنان. الصداع (headache) قد يحتاج لراحة، والحمى (fever) لدواء، والربو (asthma) لطبيب صدرية."
+        "q": "She couldn't sleep because of a severe _______.",
+        "options": ["asthma", "fever", "headache", "toothache"],
+        "answer": 3,
+        "justification": "وجع الأسنان (toothache) يستدعي زيارة طبيب الأسنان. الصداع (headache) قد يحتاج لراحة، والحمى (fever) لدواء، والربو (asthma) لطبيب صدرية.",
+        "context_sentence": "She couldn't sleep because of a severe _______."
       }
     },
     {
@@ -29,10 +31,11 @@
       "arabic": "صداع",
       "page": "70",
       "question": {
-        "q": "I've got a terrible ____. I need aspirin.",
-        "options": ["headache", "toothache", "stomachache", "earache"],
-        "answer": 0,
-        "justification": "الأسبرين يعالج الصداع (headache). وجع الأسنان (toothache) يحتاج طبيب أسنان، والمعدة (stomachache) تحتاج مضاد حموضة، والأذن (earache) تحتاج فحصاً."
+        "q": "Staring at the screen all day gave him a terrible _______.",
+        "options": ["toothache", "headache", "stomachache", "earache"],
+        "answer": 1,
+        "justification": "الأسبرين يعالج الصداع (headache). وجع الأسنان (toothache) يحتاج طبيب أسنان، والمعدة (stomachache) تحتاج مضاد حموضة، والأذن (earache) تحتاج فحصاً.",
+        "context_sentence": "Staring at the screen all day gave him a terrible _______."
       }
     },
     {
@@ -40,10 +43,11 @@
       "arabic": "حمى",
       "page": "70",
       "question": {
-        "q": "High body temperature is called ____.",
-        "options": ["cough", "fever", "cold", "pain"],
-        "answer": 1,
-        "justification": "ارتفاع حرارة الجسم هو الحمى (fever). الكحة (cough) عرض تنفسي، والبرد (cold) مرض فيروسي، والألم (pain) إحساس عام."
+        "q": "The child had a high _______ and was taken to the hospital.",
+        "options": ["cough", "pain", "cold", "fever"],
+        "answer": 3,
+        "justification": "ارتفاع حرارة الجسم هو الحمى (fever). الكحة (cough) عرض تنفسي، والبرد (cold) مرض فيروسي، والألم (pain) إحساس عام.",
+        "context_sentence": "The child had a high _______ and was taken to the hospital."
       }
     },
     {
@@ -51,10 +55,11 @@
       "arabic": "أسبرين",
       "page": "70",
       "question": {
-        "q": "Take some ____ for your headache.",
-        "options": ["aspirin", "sneeze", "antacid", "injection"],
-        "answer": 0,
-        "justification": "الأسبرين (aspirin) مسكن للصداع. العطس (sneeze) لا يُؤخذ، ومضاد الحموضة (antacid) للمعدة، والحقنة (injection) ليست أول علاج للصداع."
+        "q": "The doctor advised her to take _______ for the pain.",
+        "options": ["sneeze", "injection", "aspirin", "antacid"],
+        "answer": 2,
+        "justification": "الأسبرين (aspirin) مسكن للصداع. العطس (sneeze) لا يُؤخذ، ومضاد الحموضة (antacid) للمعدة، والحقنة (injection) ليست أول علاج للصداع.",
+        "context_sentence": "The doctor advised her to take _______ for the pain."
       }
     },
     {
@@ -62,10 +67,11 @@
       "arabic": "عطس",
       "page": "70",
       "question": {
-        "q": "Ahmed has a cold and can't stop ____.",
-        "options": ["coughing", "sneezing", "eating", "sleeping"],
-        "answer": 1,
-        "justification": "البرد يسبب العطس (sneezing). الكحة (coughing) قد تحدث لكن العطس أكثر ارتباطاً ببداية البرد، والأكل (eating) والنوم (sleeping) ليسا من أعراض البرد."
+        "q": "The dust made him _______ several times.",
+        "options": ["sleep", "eat", "cough", "sneeze"],
+        "answer": 3,
+        "justification": "البرد يسبب العطس (sneezing). الكحة (coughing) قد تحدث لكن العطس أكثر ارتباطاً ببداية البرد، والأكل (eating) والنوم (sleeping) ليسا من أعراض البرد.",
+        "context_sentence": "The dust made him _______ several times."
       }
     },
     {
@@ -73,10 +79,11 @@
       "arabic": "مضاد حموضة",
       "page": "70",
       "question": {
-        "q": "For heartburn, take an ____.",
-        "options": ["antacid", "aspirin", "antibiotic", "painkiller"],
-        "answer": 0,
-        "justification": "حرقة المعدة تُعالج بمضاد الحموضة (antacid). الأسبرين (aspirin) للصداع، والمضاد الحيوي (antibiotic) للبكتيريا، والمسكن (painkiller) للألم العام."
+        "q": "After eating spicy food, he took an _______ to relieve heartburn.",
+        "options": ["antibiotic", "aspirin", "painkiller", "antacid"],
+        "answer": 3,
+        "justification": "حرقة المعدة تُعالج بمضاد الحموضة (antacid). الأسبرين (aspirin) للصداع، والمضاد الحيوي (antibiotic) للبكتيريا، والمسكن (painkiller) للألم العام.",
+        "context_sentence": "After eating spicy food, he took an _______ to relieve heartburn."
       }
     },
     {
@@ -84,10 +91,11 @@
       "arabic": "مريض",
       "page": "70",
       "question": {
-        "q": "Ali is absent because he is ____.",
-        "options": ["sick", "well", "happy", "angry"],
-        "answer": 0,
-        "justification": "الغياب يكون بسبب المرض (sick). إذا كان بصحة جيدة (well) أو سعيداً (happy) أو غاضباً (angry) فهذه ليست أسباباً للغياب."
+        "q": "He stayed home because he felt _______.",
+        "options": ["happy", "well", "angry", "sick"],
+        "answer": 3,
+        "justification": "الغياب يكون بسبب المرض (sick). إذا كان بصحة جيدة (well) أو سعيداً (happy) أو غاضباً (angry) فهذه ليست أسباباً للغياب.",
+        "context_sentence": "He stayed home because he felt _______."
       }
     },
     {
@@ -95,10 +103,11 @@
       "arabic": "حقنة",
       "page": "70",
       "question": {
-        "q": "The doctor gave him an ____ for the pain.",
-        "options": ["injection", "pill", "tablet", "capsule"],
-        "answer": 0,
-        "justification": "لتسكين الألم السريع يعطي الطبيب حقنة (injection). الحبوب (pill/tablet/capsule) تؤخذ فموياً وتأخذ وقتاً أطول."
+        "q": "The nurse gave him an _______ to reduce the fever quickly.",
+        "options": ["pill", "tablet", "capsule", "injection"],
+        "answer": 3,
+        "justification": "لتسكين الألم السريع يعطي الطبيب حقنة (injection). الحبوب (pill/tablet/capsule) تؤخذ فموياً وتأخذ وقتاً أطول.",
+        "context_sentence": "The nurse gave him an _______ to reduce the fever quickly."
       }
     },
     {
@@ -106,10 +115,11 @@
       "arabic": "نظافة الأسنان",
       "page": "71",
       "question": {
-        "q": "____ is crucial for healthy teeth.",
-        "options": ["Dental hygiene", "Physical exercise", "Good food", "Clean air"],
+        "q": "Brushing and flossing regularly are part of good _______.",
+        "options": ["dental hygiene", "physical exercise", "good food", "clean air"],
         "answer": 0,
-        "justification": "نظافة الأسنان (dental hygiene) هي أساس صحة الأسنان. التمارين (physical exercise) والطعام الجيد (good food) والهواء النظيف (clean air) للصحة العامة."
+        "justification": "نظافة الأسنان (dental hygiene) هي أساس صحة الأسنان. التمارين (physical exercise) والطعام الجيد (good food) والهواء النظيف (clean air) للصحة العامة.",
+        "context_sentence": "Brushing and flossing regularly are part of good _______."
       }
     },
     {
@@ -117,10 +127,11 @@
       "arabic": "تجربة",
       "page": "71",
       "question": {
-        "q": "Scientists make ____ to test new medicines.",
-        "options": ["experiments", "games", "parties", "meetings"],
-        "answer": 0,
-        "justification": "العلماء يجرون تجارب (experiments) لاختبار الأدوية. الألعاب (games) والحفلات (parties) والاجتماعات (meetings) ليست أدوات بحث علمي."
+        "q": "The biology class conducted an _______ to observe cell division.",
+        "options": ["meeting", "party", "game", "experiment"],
+        "answer": 3,
+        "justification": "العلماء يجرون تجارب (experiments) لاختبار الأدوية. الألعاب (games) والحفلات (parties) والاجتماعات (meetings) ليست أدوات بحث علمي.",
+        "context_sentence": "The biology class conducted an _______ to observe cell division."
       }
     },
     {
@@ -128,10 +139,11 @@
       "arabic": "عرض مرضي",
       "page": "71",
       "question": {
-        "q": "A headache and fever are ____ of flu.",
-        "options": ["symptoms", "causes", "cures", "treatments"],
-        "answer": 0,
-        "justification": "الصداع والحمى أعراض (symptoms) للإنفلونزا. الأسباب (causes) هي الفيروس، والعلاج (cure/treatment) هو الدواء."
+        "q": "A sore throat is a common _______ of the flu.",
+        "options": ["cause", "symptom", "cure", "treatment"],
+        "answer": 1,
+        "justification": "الصداع والحمى أعراض (symptoms) للإنفلونزا. الأسباب (causes) هي الفيروس، والعلاج (cure/treatment) هو الدواء.",
+        "context_sentence": "A sore throat is a common _______ of the flu."
       }
     },
     {
@@ -139,10 +151,11 @@
       "arabic": "متطلب",
       "page": "70",
       "question": {
-        "q": "Passing the eye test is a ____ for a driving license.",
-        "options": ["requirement", "punishment", "problem", "privilege"],
-        "answer": 0,
-        "justification": "اجتياز فحص النظر متطلب (requirement) للرخصة. العقاب (punishment) والمشكلة (problem) والامتياز (privilege) لا تعبر عن شرط إلزامي."
+        "q": "A medical checkup is a _______ for obtaining the visa.",
+        "options": ["privilege", "punishment", "problem", "requirement"],
+        "answer": 3,
+        "justification": "اجتياز فحص النظر متطلب (requirement) للرخصة. العقاب (punishment) والمشكلة (problem) والامتياز (privilege) لا تعبر عن شرط إلزامي.",
+        "context_sentence": "A medical checkup is a _______ for obtaining the visa."
       }
     },
     {
@@ -150,10 +163,11 @@
       "arabic": "يسوء",
       "page": "70",
       "question": {
-        "q": "Smoking ____ your health condition.",
-        "options": ["improves", "worsens", "helps", "cures"],
-        "answer": 1,
-        "justification": "التدخين يزيد الحالة سوءاً (worsens). لا يحسن (improves) ولا يساعد (helps) ولا يعالج (cures)."
+        "q": "If you ignore the symptoms, your condition might _______.",
+        "options": ["help", "improve", "cure", "worsen"],
+        "answer": 3,
+        "justification": "التدخين يزيد الحالة سوءاً (worsens). لا يحسن (improves) ولا يساعد (helps) ولا يعالج (cures).",
+        "context_sentence": "If you ignore the symptoms, your condition might _______."
       }
     },
     {
@@ -161,10 +175,11 @@
       "arabic": "طبيب أسنان",
       "page": "70",
       "question": {
-        "q": "Visit the ____ every six months.",
-        "options": ["dentist", "surgeon", "nurse", "pharmacist"],
-        "answer": 0,
-        "justification": "طبيب الأسنان (dentist) هو من نزوره دورياً. الجراح (surgeon) للعمليات، والممرض (nurse) للرعاية، والصيدلي (pharmacist) للأدوية."
+        "q": "She visited the _______ for a routine checkup and cleaning.",
+        "options": ["pharmacist", "nurse", "surgeon", "dentist"],
+        "answer": 3,
+        "justification": "طبيب الأسنان (dentist) هو من نزوره دورياً. الجراح (surgeon) للعمليات، والممرض (nurse) للرعاية، والصيدلي (pharmacist) للأدوية.",
+        "context_sentence": "She visited the _______ for a routine checkup and cleaning."
       }
     },
     {
@@ -172,10 +187,11 @@
       "arabic": "مريض",
       "page": "70",
       "question": {
-        "q": "The ____ waited for the doctor.",
-        "options": ["patient", "nurse", "visitor", "driver"],
-        "answer": 0,
-        "justification": "المريض (patient) ينتظر الطبيب. الممرض (nurse) يعمل مع الطبيب، والزائر (visitor) يزور المريض، والسائق (driver) في الخارج."
+        "q": "The _______ was asked to wait in the reception area.",
+        "options": ["driver", "nurse", "visitor", "patient"],
+        "answer": 3,
+        "justification": "المريض (patient) ينتظر الطبيب. الممرض (nurse) يعمل مع الطبيب، والزائر (visitor) يزور المريض، والسائق (driver) في الخارج.",
+        "context_sentence": "The _______ was asked to wait in the reception area."
       }
     },
     {
@@ -183,10 +199,11 @@
       "arabic": "علاج",
       "page": "71",
       "question": {
-        "q": "Scientists are searching for a ____ for cancer.",
-        "options": ["cause", "cure", "symptom", "disease"],
-        "answer": 1,
-        "justification": "البحث عن علاج (cure) للسرطان. السبب (cause) معروف جزئياً، والعرض (symptom) يتم تشخيصه، والمرض (disease) هو السرطان نفسه."
+        "q": "Researchers are working hard to find a _______ for the disease.",
+        "options": ["symptom", "cause", "disease", "cure"],
+        "answer": 3,
+        "justification": "البحث عن علاج (cure) للسرطان. السبب (cause) معروف جزئياً، والعرض (symptom) يتم تشخيصه، والمرض (disease) هو السرطان نفسه.",
+        "context_sentence": "Researchers are working hard to find a _______ for the disease."
       }
     },
     {
@@ -194,10 +211,11 @@
       "arabic": "مرض",
       "page": "71",
       "question": {
-        "q": "Diabetes is a chronic ____.",
-        "options": ["disease", "cure", "symptom", "treatment"],
-        "answer": 0,
-        "justification": "السكري مرض (disease) مزمن. العلاج (cure/treatment) هو ما يُعطى للمريض، والعرض (symptom) هو علامة المرض."
+        "q": "Heart _______ is one of the leading causes of death worldwide.",
+        "options": ["treatment", "cure", "symptom", "disease"],
+        "answer": 3,
+        "justification": "السكري مرض (disease) مزمن. العلاج (cure/treatment) هو ما يُعطى للمريض، والعرض (symptom) هو علامة المرض.",
+        "context_sentence": "Heart _______ is one of the leading causes of death worldwide."
       }
     },
     {
@@ -205,10 +223,11 @@
       "arabic": "طيران",
       "page": "102",
       "question": {
-        "q": "Amelia Earhart pioneered ____.",
-        "options": ["medicine", "aviation", "education", "engineering"],
-        "answer": 1,
-        "justification": "إميليا إيرهارت رائدة في الطيران (aviation). لم تشتهر بالطب (medicine) ولا التعليم (education) ولا الهندسة (engineering)."
+        "q": "She studied _______ and became a pilot for a major airline.",
+        "options": ["engineering", "education", "medicine", "aviation"],
+        "answer": 3,
+        "justification": "إميليا إيرهارت رائدة في الطيران (aviation). لم تشتهر بالطب (medicine) ولا التعليم (education) ولا الهندسة (engineering).",
+        "context_sentence": "She studied _______ and became a pilot for a major airline."
       }
     },
     {
@@ -216,10 +235,11 @@
       "arabic": "ملاح",
       "page": "103",
       "question": {
-        "q": "Fred Noonan was Earhart's ____.",
-        "options": ["husband", "navigator", "teacher", "doctor"],
-        "answer": 1,
-        "justification": "فريد نونان كان ملاحاً (navigator) في رحلتها. لم يكن زوجها (husband) ولا معلمها (teacher) ولا طبيبها (doctor)."
+        "q": "The ship's _______ plotted the course across the ocean.",
+        "options": ["teacher", "doctor", "husband", "navigator"],
+        "answer": 3,
+        "justification": "فريد نونان كان ملاحاً (navigator) في رحلتها. لم يكن زوجها (husband) ولا معلمها (teacher) ولا طبيبها (doctor).",
+        "context_sentence": "The ship's _______ plotted the course across the ocean."
       }
     },
     {
@@ -227,10 +247,11 @@
       "arabic": "منفرد",
       "page": "103",
       "question": {
-        "q": "She made a ____ flight across the Atlantic.",
-        "options": ["solo", "group", "passenger", "family"],
-        "answer": 0,
-        "justification": "قامت برحلة منفردة (solo). 'group' مجموعة، 'passenger' راكب، 'family' عائلة، وكلها تناقض فكرة الرحلة الفردية."
+        "q": "The musician gave a _______ performance without any backing band.",
+        "options": ["group", "passenger", "family", "solo"],
+        "answer": 3,
+        "justification": "قامت برحلة منفردة (solo). 'group' مجموعة، 'passenger' راكب، 'family' عائلة، وكلها تناقض فكرة الرحلة الفردية.",
+        "context_sentence": "The musician gave a _______ performance without any backing band."
       }
     },
     {
@@ -238,10 +259,11 @@
       "arabic": "آداب",
       "page": "108",
       "question": {
-        "q": "Email ____ is important in formal messages.",
-        "options": ["address", "etiquette", "password", "box"],
-        "answer": 1,
-        "justification": "آداب البريد الإلكتروني (etiquette) مهمة في الرسائل الرسمية. العنوان (address) وكلمة المرور (password) والصندوق (box) عناصر تقنية وليست سلوكية."
+        "q": "Knowing proper _______ is essential when attending formal dinners.",
+        "options": ["password", "address", "box", "etiquette"],
+        "answer": 3,
+        "justification": "آداب البريد الإلكتروني (etiquette) مهمة في الرسائل الرسمية. العنوان (address) وكلمة المرور (password) والصندوق (box) عناصر تقنية وليست سلوكية.",
+        "context_sentence": "Knowing proper _______ is essential when attending formal dinners."
       }
     },
     {
@@ -249,10 +271,11 @@
       "arabic": "تحية",
       "page": "108",
       "question": {
-        "q": "Always start an email with a ____.",
-        "options": ["mistake", "greeting", "complaint", "warning"],
-        "answer": 1,
-        "justification": "نبدأ البريد بتحية (greeting). الخطأ (mistake) والشكوى (complaint) والتحذير (warning) ليست بدايات مناسبة."
+        "q": "A friendly _______ can make guests feel welcome.",
+        "options": ["complaint", "warning", "mistake", "greeting"],
+        "answer": 3,
+        "justification": "نبدأ البريد بتحية (greeting). الخطأ (mistake) والشكوى (complaint) والتحذير (warning) ليست بدايات مناسبة.",
+        "context_sentence": "A friendly _______ can make guests feel welcome."
       }
     },
     {
@@ -260,10 +283,11 @@
       "arabic": "عامية",
       "page": "109",
       "question": {
-        "q": "Avoid using ____ in formal emails.",
-        "options": ["slang", "sentences", "punctuation", "subjects"],
-        "answer": 0,
-        "justification": "يجب تجنب العامية (slang) في الرسائل الرسمية. الجمل (sentences) والترقيم (punctuation) والموضوعات (subjects) ضرورية."
+        "q": "Using too much _______ in your essay will lower your grade.",
+        "options": ["punctuation", "sentences", "subjects", "slang"],
+        "answer": 3,
+        "justification": "يجب تجنب العامية (slang) في الرسائل الرسمية. الجمل (sentences) والترقيم (punctuation) والموضوعات (subjects) ضرورية.",
+        "context_sentence": "Using too much _______ in your essay will lower your grade."
       }
     },
     {
@@ -271,10 +295,11 @@
       "arabic": "اختصار",
       "page": "109",
       "question": {
-        "q": "'LOL' is an ____.",
-        "options": ["abbreviation", "essay", "message", "paragraph"],
-        "answer": 0,
-        "justification": "'LOL' اختصار (abbreviation) لجملة. 'essay' مقال، 'message' رسالة، 'paragraph' فقرة."
+        "q": "The doctor used a medical _______ that the patient didn't understand.",
+        "options": ["message", "paragraph", "essay", "abbreviation"],
+        "answer": 3,
+        "justification": "'LOL' اختصار (abbreviation) لجملة. 'essay' مقال، 'message' رسالة، 'paragraph' فقرة.",
+        "context_sentence": "The doctor used a medical _______ that the patient didn't understand."
       }
     },
     {
@@ -282,10 +307,11 @@
       "arabic": "نفط خام",
       "page": "Extra 3",
       "question": {
-        "q": "Plastic originates from ____.",
-        "options": ["water", "crude oil", "sand", "wood"],
-        "answer": 1,
-        "justification": "البلاستيك أصله من النفط الخام (crude oil). الماء (water) والرمل (sand) والخشب (wood) ليست مصادر للبلاستيك."
+        "q": "_______ is refined to produce petrol and diesel.",
+        "options": ["wood", "sand", "water", "crude oil"],
+        "answer": 3,
+        "justification": "البلاستيك أصله من النفط الخام (crude oil). الماء (water) والرمل (sand) والخشب (wood) ليست مصادر للبلاستيك.",
+        "context_sentence": "_______ is refined to produce petrol and diesel."
       }
     },
     {
@@ -293,10 +319,11 @@
       "arabic": "قابل للتحلل",
       "page": "Extra 3",
       "question": {
-        "q": "Scientists seek ____ alternatives to plastic.",
-        "options": ["stronger", "biodegradable", "cheaper", "heavier"],
-        "answer": 1,
-        "justification": "بدائل قابلة للتحلل (biodegradable) أفضل للبيئة. 'stronger' أقوى، 'cheaper' أرخص، 'heavier' أثقل، لكن القابلية للتحلل هي الميزة البيئية."
+        "q": "The company now uses _______ packaging to reduce waste.",
+        "options": ["heavier", "cheaper", "stronger", "biodegradable"],
+        "answer": 3,
+        "justification": "بدائل قابلة للتحلل (biodegradable) أفضل للبيئة. 'stronger' أقوى، 'cheaper' أرخص، 'heavier' أثقل، لكن القابلية للتحلل هي الميزة البيئية.",
+        "context_sentence": "The company now uses _______ packaging to reduce waste."
       }
     },
     {
@@ -304,10 +331,11 @@
       "arabic": "سلالة",
       "page": "Extra 3",
       "question": {
-        "q": "The Great Wall was built over many ____.",
-        "options": ["dynasties", "empires", "republics", "continents"],
-        "answer": 0,
-        "justification": "سور الصين بني عبر سلالات (dynasties) متعاقبة. 'empires' إمبراطوريات، 'republics' جمهوريات، 'continents' قارات."
+        "q": "The Ming _______ ruled China for almost 300 years.",
+        "options": ["republic", "empire", "continent", "dynasty"],
+        "answer": 3,
+        "justification": "سور الصين بني عبر سلالات (dynasties) متعاقبة. 'empires' إمبراطوريات، 'republics' جمهوريات، 'continents' قارات.",
+        "context_sentence": "The Ming _______ ruled China for almost 300 years."
       }
     },
     {
@@ -315,10 +343,11 @@
       "arabic": "مرئي",
       "page": "Extra 3",
       "question": {
-        "q": "The Wall is barely ____ from space.",
-        "options": ["visible", "invisible", "audible", "tangible"],
-        "answer": 0,
-        "justification": "السور بالكاد مرئي (visible) من الفضاء. 'invisible' يعني غير مرئي تماماً وهذا غير دقيق. 'audible' مسموع، 'tangible' ملموس."
+        "q": "The stars are clearly _______ on a cloudless night.",
+        "options": ["tangible", "invisible", "audible", "visible"],
+        "answer": 3,
+        "justification": "السور بالكاد مرئي (visible) من الفضاء. 'invisible' يعني غير مرئي تماماً وهذا غير دقيق. 'audible' مسموع، 'tangible' ملموس.",
+        "context_sentence": "The stars are clearly _______ on a cloudless night."
       }
     },
     {
@@ -326,10 +355,11 @@
       "arabic": "سمعي",
       "page": "Extra 3",
       "question": {
-        "q": "The ____ cortex processes sound.",
-        "options": ["visual", "auditory", "olfactory", "motor"],
-        "answer": 1,
-        "justification": "القشرة السمعية (auditory cortex) تعالج الصوت. البصرية (visual) للرؤية، والشمية (olfactory) للشم، والحركية (motor) للحركة."
+        "q": "The _______ nerve sends sound signals to the brain.",
+        "options": ["motor", "olfactory", "visual", "auditory"],
+        "answer": 3,
+        "justification": "القشرة السمعية (auditory cortex) تعالج الصوت. البصرية (visual) للرؤية، والشمية (olfactory) للشم، والحركية (motor) للحركة.",
+        "context_sentence": "The _______ nerve sends sound signals to the brain."
       }
     },
     {
@@ -337,10 +367,11 @@
       "arabic": "حوفي",
       "page": "Extra 3",
       "question": {
-        "q": "The ____ system controls emotions.",
-        "options": ["limbic", "nervous", "digestive", "respiratory"],
-        "answer": 0,
-        "justification": "الجهاز الحوفي (limbic system) مسؤول عن العواطف. العصبي (nervous) أوسع، والهضمي (digestive) للطعام، والتنفسي (respiratory) للتنفس."
+        "q": "The _______ system is responsible for our emotional responses.",
+        "options": ["respiratory", "digestive", "nervous", "limbic"],
+        "answer": 3,
+        "justification": "الجهاز الحوفي (limbic system) مسؤول عن العواطف. العصبي (nervous) أوسع، والهضمي (digestive) للطعام، والتنفسي (respiratory) للتنفس.",
+        "context_sentence": "The _______ system is responsible for our emotional responses."
       }
     },
     {
@@ -348,10 +379,11 @@
       "arabic": "حنين للماضي",
       "page": "Extra 3",
       "question": {
-        "q": "Old songs make me feel ____.",
-        "options": ["angry", "nostalgic", "hungry", "tired"],
-        "answer": 1,
-        "justification": "الأغاني القديمة تثير الحنين (nostalgic). 'angry' غاضب، 'hungry' جائع، 'tired' متعب، لا ترتبط بالمشاعر التي تثيرها الموسيقى القديمة."
+        "q": "Looking at old photographs made her feel _______.",
+        "options": ["hungry", "tired", "angry", "nostalgic"],
+        "answer": 3,
+        "justification": "الأغاني القديمة تثير الحنين (nostalgic). 'angry' غاضب، 'hungry' جائع، 'tired' متعب، لا ترتبط بالمشاعر التي تثيرها الموسيقى القديمة.",
+        "context_sentence": "Looking at old photographs made her feel _______."
       }
     },
     {
@@ -359,10 +391,11 @@
       "arabic": "علاج",
       "page": "Extra 3",
       "question": {
-        "q": "Music ____ helps stroke patients.",
-        "options": ["therapy", "surgery", "pill", "injection"],
-        "answer": 0,
-        "justification": "العلاج بالموسيقى (music therapy) يساعد مرضى الجلطات. الجراحة (surgery) والحبوب (pill) والحقن (injection) ليست أنواعاً من العلاج بالموسيقى."
+        "q": "Physical _______ helped him recover after the accident.",
+        "options": ["injection", "surgery", "pill", "therapy"],
+        "answer": 3,
+        "justification": "العلاج بالموسيقى (music therapy) يساعد مرضى الجلطات. الجراحة (surgery) والحبوب (pill) والحقن (injection) ليست أنواعاً من العلاج بالموسيقى.",
+        "context_sentence": "Physical _______ helped him recover after the accident."
       }
     },
     {
@@ -370,10 +403,11 @@
       "arabic": "تطور",
       "page": "Extra 3",
       "question": {
-        "q": "Music played a role in human ____.",
-        "options": ["evolution", "destruction", "pollution", "confusion"],
-        "answer": 0,
-        "justification": "الموسيقى لعبت دوراً في التطور (evolution) البشري. 'destruction' تدمير، 'pollution' تلوث، 'confusion' ارتباك."
+        "q": "Darwin's theory of _______ explains how species change over time.",
+        "options": ["destruction", "pollution", "confusion", "evolution"],
+        "answer": 3,
+        "justification": "الموسيقى لعبت دوراً في التطور (evolution) البشري. 'destruction' تدمير، 'pollution' تلوث، 'confusion' ارتباك.",
+        "context_sentence": "Darwin's theory of _______ explains how species change over time."
       }
     },
     {
@@ -381,10 +415,11 @@
       "arabic": "في آن واحد",
       "page": "Extra 3",
       "question": {
-        "q": "Music activates many brain areas ____.",
-        "options": ["simultaneously", "separately", "slowly", "never"],
-        "answer": 0,
-        "justification": "الموسيقى تنشط مناطق الدماغ في آن واحد (simultaneously). 'separately' بشكل منفصل، 'slowly' ببطء، 'never' لا تنشطها أبداً."
+        "q": "The two events happened _______, so we couldn't attend both.",
+        "options": ["separately", "slowly", "never", "simultaneously"],
+        "answer": 3,
+        "justification": "الموسيقى تنشط مناطق الدماغ في آن واحد (simultaneously). 'separately' بشكل منفصل، 'slowly' ببطء، 'never' لا تنشطها أبداً.",
+        "context_sentence": "The two events happened _______, so we couldn't attend both."
       }
     },
     {
@@ -392,10 +427,11 @@
       "arabic": "استخدام مرة واحدة",
       "page": "Extra 3",
       "question": {
-        "q": "Plastic bottles are part of ____ culture.",
-        "options": ["throwaway", "recycling", "traditional", "green"],
-        "answer": 0,
-        "justification": "ثقافة الاستخدام الواحد (throwaway culture) تعني التخلص السريع. 'recycling' إعادة تدوير، 'traditional' تقليدية، 'green' صديقة للبيئة."
+        "q": "We live in a _______ society that discards too many products after a single use.",
+        "options": ["green", "traditional", "recycling", "throwaway"],
+        "answer": 3,
+        "justification": "ثقافة الاستخدام الواحد (throwaway culture) تعني التخلص السريع. 'recycling' إعادة تدوير، 'traditional' تقليدية، 'green' صديقة للبيئة.",
+        "context_sentence": "We live in a _______ society that discards too many products after a single use."
       }
     },
     {
@@ -403,10 +439,11 @@
       "arabic": "إجراء مضاد",
       "page": "Extra 3",
       "question": {
-        "q": "Scientists develop ____ against radiation.",
-        "options": ["countermeasures", "rockets", "suits", "windows"],
-        "answer": 0,
-        "justification": "يطور العلماء إجراءات مضادة (countermeasures) للإشعاع. الصواريخ (rockets) والبدلات (suits) والنوافذ (windows) ليست حلولاً علمية."
+        "q": "The government introduced a new security _______ to prevent cyberattacks.",
+        "options": ["rocket", "suit", "window", "countermeasure"],
+        "answer": 3,
+        "justification": "يطور العلماء إجراءات مضادة (countermeasures) للإشعاع. الصواريخ (rockets) والبدلات (suits) والنوافذ (windows) ليست حلولاً علمية.",
+        "context_sentence": "The government introduced a new security _______ to prevent cyberattacks."
       }
     },
     {
@@ -414,10 +451,11 @@
       "arabic": "نفسي",
       "page": "Extra 3",
       "question": {
-        "q": "Long flights cause ____ strain.",
-        "options": ["psychological", "physical", "chemical", "biological"],
-        "answer": 0,
-        "justification": "الرحلات الطويلة تسبب إجهاداً نفسياً (psychological). 'physical' جسدي، 'chemical' كيميائي، 'biological' بيولوجي."
+        "q": "The war left deep _______ scars on the survivors.",
+        "options": ["physical", "biological", "chemical", "psychological"],
+        "answer": 3,
+        "justification": "الرحلات الطويلة تسبب إجهاداً نفسياً (psychological). 'physical' جسدي، 'chemical' كيميائي، 'biological' بيولوجي.",
+        "context_sentence": "The war left deep _______ scars on the survivors."
       }
     },
     {
@@ -425,10 +463,11 @@
       "arabic": "متعدد الكواكب",
       "page": "Extra 3",
       "question": {
-        "q": "Becoming ____ is a dream.",
-        "options": ["multi-planetary", "single-planet", "lost", "small"],
-        "answer": 0,
-        "justification": "أن نصبح متعددي الكواكب (multi-planetary) حلم. 'single-planet' كوكب واحد (عكس المقصود)، 'lost' ضائع، 'small' صغير."
+        "q": "Elon Musk dreams of making humanity a _______ species.",
+        "options": ["small", "lost", "single-planet", "multi-planetary"],
+        "answer": 3,
+        "justification": "أن نصبح متعددي الكواكب (multi-planetary) حلم. 'single-planet' كوكب واحد (عكس المقصود)، 'lost' ضائع، 'small' صغير.",
+        "context_sentence": "Elon Musk dreams of making humanity a _______ species."
       }
     },
     {
@@ -436,10 +475,11 @@
       "arabic": "درع / يقي",
       "page": "Extra 3",
       "question": {
-        "q": "New materials ____ astronauts from radiation.",
-        "options": ["shield", "expose", "harm", "burn"],
-        "answer": 0,
-        "justification": "المواد الجديدة تقي (shield) رواد الفضاء من الإشعاع. 'expose' تعرض، 'harm' تؤذي، 'burn' تحرق."
+        "q": "The thick walls _______ the inhabitants from the extreme heat.",
+        "options": ["burn", "harm", "expose", "shield"],
+        "answer": 3,
+        "justification": "المواد الجديدة تقي (shield) رواد الفضاء من الإشعاع. 'expose' تعرض، 'harm' تؤذي، 'burn' تحرق.",
+        "context_sentence": "The thick walls _______ the inhabitants from the extreme heat."
       }
     }
   ]

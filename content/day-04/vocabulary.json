@@ -7,10 +7,11 @@
       "arabic": "يطبخ",
       "page": "72",
       "question": {
-        "q": "Ahmed can ____ really well.",
-        "options": ["cook", "eat", "drink", "clean"],
-        "answer": 0,
-        "justification": "إذا كان أحمد طاهياً ماهراً، فهو يطبخ (cook) جيداً. الأكل (eat) صفة من يتناول الطعام، والشرب (drink) للسوائل، والتنظيف (clean) للنظافة."
+        "q": "She managed to ________ a wonderful dinner despite the limited ingredients.",
+        "options": ["drink", "clean", "eat", "cook"],
+        "answer": 3,
+        "justification": "إذا كان أحمد طاهياً ماهراً، فهو يطبخ (cook) جيداً. الأكل (eat) صفة من يتناول الطعام، والشرب (drink) للسوائل، والتنظيف (clean) للنظافة.",
+        "context_sentence": "She managed to ________ a wonderful dinner despite the limited ingredients."
       }
     },
     {
@@ -18,10 +19,11 @@
       "arabic": "طاهٍ",
       "page": "72",
       "question": {
-        "q": "A ____ works in a restaurant kitchen.",
-        "options": ["chef", "waiter", "driver", "farmer"],
-        "answer": 0,
-        "justification": "الطاهي (chef) يعمل في مطبخ المطعم. النادل (waiter) يقدم الطعام، والسائق (driver) يقود، والمزارع (farmer) في الحقول."
+        "q": "The head ________ of the hotel restaurant trained in Paris.",
+        "options": ["driver", "farmer", "waiter", "chef"],
+        "answer": 3,
+        "justification": "الطاهي (chef) يعمل في مطبخ المطعم. النادل (waiter) يقدم الطعام، والسائق (driver) يقود، والمزارع (farmer) في الحقول.",
+        "context_sentence": "The head ________ of the hotel restaurant trained in Paris."
       }
     },
     {
@@ -29,10 +31,11 @@
       "arabic": "يقلي",
       "page": "72",
       "question": {
-        "q": "We need oil to ____ the potatoes.",
-        "options": ["fry", "boil", "grill", "steam"],
-        "answer": 0,
-        "justification": "لقلي البطاطس (fry) نحتاج زيت. السلق (boil) يحتاج ماء، والشوي (grill) على النار، والطهي بالبخار (steam) لا يحتاج زيتاً."
+        "q": "We need oil to ________ the potatoes until they are golden and crispy.",
+        "options": ["steam", "grill", "boil", "fry"],
+        "answer": 3,
+        "justification": "لقلي البطاطس (fry) نحتاج زيت. السلق (boil) يحتاج ماء، والشوي (grill) على النار، والطهي بالبخار (steam) لا يحتاج زيتاً.",
+        "context_sentence": "We need oil to ________ the potatoes until they are golden and crispy."
       }
     },
     {
@@ -40,10 +43,11 @@
       "arabic": "يشوي",
       "page": "72",
       "question": {
-        "q": "____ the chicken over charcoal.",
-        "options": ["Grill", "Boil", "Steam", "Fry"],
-        "answer": 0,
-        "justification": "الدجاج على الفحم يُشوى (grill). السلق (boil) في ماء، والبخار (steam) بالبخار، والقلي (fry) بالزيت."
+        "q": "They decided to ________ the fish over charcoal for a smoky flavor.",
+        "options": ["Steam", "Fry", "Boil", "Grill"],
+        "answer": 3,
+        "justification": "الدجاج على الفحم يُشوى (grill). السلق (boil) في ماء، والبخار (steam) بالبخار، والقلي (fry) بالزيت.",
+        "context_sentence": "They decided to ________ the fish over charcoal for a smoky flavor."
       }
     },
     {
@@ -51,10 +55,11 @@
       "arabic": "يغلي",
       "page": "72",
       "question": {
-        "q": "____ water before adding rice.",
-        "options": ["Boil", "Freeze", "Cool", "Mix"],
-        "answer": 0,
-        "justification": "يجب غلي الماء (boil) قبل إضافة الأرز. التجميد (freeze) والتبريد (cool) والخلط (mix) ليست خطوات طبخ الأرز."
+        "q": "You should ________ the water first before adding the pasta.",
+        "options": ["Freeze", "Mix", "Cool", "Boil"],
+        "answer": 3,
+        "justification": "يجب غلي الماء (boil) قبل إضافة الأرز. التجميد (freeze) والتبريد (cool) والخلط (mix) ليست خطوات طبخ الأرز.",
+        "context_sentence": "You should ________ the water first before adding the pasta."
       }
     },
     {
@@ -62,10 +67,11 @@
       "arabic": "بالبخار",
       "page": "72",
       "question": {
-        "q": "____ vegetables to keep them healthy.",
-        "options": ["Steam", "Fry", "Burn", "Raw"],
-        "answer": 0,
-        "justification": "الطهي بالبخار (steam) يحافظ على القيمة الغذائية. القلي (fry) يدمر بعض الفيتامينات، والحرق (burn) يفسدها، والنيئة (raw) لا تطهى."
+        "q": "To keep the vitamins, it's better to ________ the vegetables rather than boil them.",
+        "options": ["Raw", "Fry", "Burn", "Steam"],
+        "answer": 3,
+        "justification": "الطهي بالبخار (steam) يحافظ على القيمة الغذائية. القلي (fry) يدمر بعض الفيتامينات، والحرق (burn) يفسدها، والنيئة (raw) لا تطهى.",
+        "context_sentence": "To keep the vitamins, it's better to ________ the vegetables rather than boil them."
       }
     },
     {
@@ -73,10 +79,11 @@
       "arabic": "غداء",
       "page": "72",
       "question": {
-        "q": "Most people eat ____ at noon.",
-        "options": ["breakfast", "lunch", "dinner", "snack"],
-        "answer": 1,
-        "justification": "الغداء (lunch) هو وجبة الظهيرة. الفطور (breakfast) صباحاً، والعشاء (dinner) مساءً، والوجبة الخفيفة (snack) بين الوجبات."
+        "q": "We usually have a light ________ around noon.",
+        "options": ["dinner", "snack", "breakfast", "lunch"],
+        "answer": 3,
+        "justification": "الغداء (lunch) هو وجبة الظهيرة. الفطور (breakfast) صباحاً، والعشاء (dinner) مساءً، والوجبة الخفيفة (snack) بين الوجبات.",
+        "context_sentence": "We usually have a light ________ around noon."
       }
     },
     {
@@ -84,10 +91,11 @@
       "arabic": "فطور",
       "page": "72",
       "question": {
-        "q": "I eat ____ at 7 AM.",
-        "options": ["lunch", "breakfast", "dinner", "supper"],
-        "answer": 1,
-        "justification": "الساعة 7 صباحاً هي وقت الفطور (breakfast). الغداء (lunch) ظهراً، والعشاء (dinner) مساءً."
+        "q": "I eat ________ at 7 AM every day before leaving for work.",
+        "options": ["supper", "dinner", "lunch", "breakfast"],
+        "answer": 3,
+        "justification": "الساعة 7 صباحاً هي وقت الفطور (breakfast). الغداء (lunch) ظهراً، والعشاء (dinner) مساءً.",
+        "context_sentence": "I eat ________ at 7 AM every day before leaving for work."
       }
     },
     {
@@ -95,10 +103,11 @@
       "arabic": "عشاء",
       "page": "72",
       "question": {
-        "q": "The family gathers for ____ in the evening.",
-        "options": ["dinner", "lunch", "breakfast", "brunch"],
-        "answer": 0,
-        "justification": "في المساء تجتمع العائلة للعشاء (dinner). الغداء (lunch) ظهراً، والفطور (breakfast) صباحاً."
+        "q": "The family sits together in the evening for a traditional ________.",
+        "options": ["breakfast", "brunch", "lunch", "dinner"],
+        "answer": 3,
+        "justification": "في المساء تجتمع العائلة للعشاء (dinner). الغداء (lunch) ظهراً، والفطور (breakfast) صباحاً.",
+        "context_sentence": "The family sits together in the evening for a traditional ________."
       }
     },
     {
@@ -106,10 +115,11 @@
       "arabic": "خيار",
       "page": "72",
       "question": {
-        "q": "Add ____ to the salad.",
-        "options": ["cucumber", "pasta", "rice", "bread"],
-        "answer": 0,
-        "justification": "الخيار (cucumber) مكون شائع في السلطة. المعكرونة (pasta) والأرز (rice) والخبز (bread) ليست مكونات سلطة تقليدية."
+        "q": "She sliced a fresh ________ to add to the salad.",
+        "options": ["rice", "bread", "pasta", "cucumber"],
+        "answer": 3,
+        "justification": "الخيار (cucumber) مكون شائع في السلطة. المعكرونة (pasta) والأرز (rice) والخبز (bread) ليست مكونات سلطة تقليدية.",
+        "context_sentence": "She sliced a fresh ________ to add to the salad."
       }
     },
     {
@@ -117,10 +127,11 @@
       "arabic": "معكرونة",
       "page": "72",
       "question": {
-        "q": "Italians eat a lot of ____.",
-        "options": ["pasta", "rice", "bread", "potatoes"],
-        "answer": 0,
-        "justification": "الإيطاليون يشتهرون بأكل المعكرونة (pasta). الأرز (rice) في آسيا، والخبز (bread) عام، والبطاطس (potatoes) في أوروبا."
+        "q": "Italian cuisine is famous for its variety of ________ dishes.",
+        "options": ["potatoes", "bread", "rice", "pasta"],
+        "answer": 3,
+        "justification": "الإيطاليون يشتهرون بأكل المعكرونة (pasta). الأرز (rice) في آسيا، والخبز (bread) عام، والبطاطس (potatoes) في أوروبا.",
+        "context_sentence": "Italian cuisine is famous for its variety of ________ dishes."
       }
     },
     {
@@ -128,10 +139,11 @@
       "arabic": "مدمن",
       "page": "72",
       "question": {
-        "q": "He is ____ to coffee.",
-        "options": ["addicted", "allergic", "used", "opposed"],
-        "answer": 0,
-        "justification": "مدمن القهوة (addicted) لا يستطيع التوقف عنها. الحساسية (allergic) رد فعل مناعي، ومعتاد (used) لا تعبر عن الإدمان، ومعارض (opposed) يعني رافض."
+        "q": "He is completely ________ to coffee and cannot start his day without it.",
+        "options": ["used", "opposed", "allergic", "addicted"],
+        "answer": 3,
+        "justification": "مدمن القهوة (addicted) لا يستطيع التوقف عنها. الحساسية (allergic) رد فعل مناعي، ومعتاد (used) لا تعبر عن الإدمان، ومعارض (opposed) يعني رافض.",
+        "context_sentence": "He is completely ________ to coffee and cannot start his day without it."
       }
     },
     {
@@ -139,10 +151,11 @@
       "arabic": "صيدلية",
       "page": "73",
       "question": {
-        "q": "Buy medicine at the ____.",
-        "options": ["pharmacy", "bank", "restaurant", "garage"],
-        "answer": 0,
-        "justification": "الأدوية تُشترى من الصيدلية (pharmacy). البنك (bank) للمال، والمطعم (restaurant) للطعام، والمرأب (garage) للسيارات."
+        "q": "You can buy painkillers at the ________ on the corner.",
+        "options": ["garage", "restaurant", "bank", "pharmacy"],
+        "answer": 3,
+        "justification": "الأدوية تُشترى من الصيدلية (pharmacy). البنك (bank) للمال، والمطعم (restaurant) للطعام، والمرأب (garage) للسيارات.",
+        "context_sentence": "You can buy painkillers at the ________ on the corner."
       }
     },
     {
@@ -150,10 +163,11 @@
       "arabic": "دخل",
       "page": "73",
       "question": {
-        "q": "His monthly ____ is SR10000.",
-        "options": ["income", "expense", "debt", "bill"],
-        "answer": 0,
-        "justification": "الدخل الشهري (income) هو ما يكسبه. المصروف (expense) ما ينفقه، والدين (debt) ما عليه، والفاتورة (bill) تدفع."
+        "q": "His monthly ________ is just enough to cover the bills.",
+        "options": ["debt", "expense", "bill", "income"],
+        "answer": 3,
+        "justification": "الدخل الشهري (income) هو ما يكسبه. المصروف (expense) ما ينفقه، والدين (debt) ما عليه، والفاتورة (bill) تدفع.",
+        "context_sentence": "His monthly ________ is just enough to cover the bills."
       }
     },
     {
@@ -161,10 +175,11 @@
       "arabic": "سلطة",
       "page": "72",
       "question": {
-        "q": "For a healthy meal, eat a ____.",
-        "options": ["salad", "cake", "burger", "pie"],
-        "answer": 0,
-        "justification": "السلطة (salad) وجبة صحية. الكعكة (cake) حلويات، والبرغر (burger) وجبات سريعة، والفطيرة (pie) مخبوزات."
+        "q": "For a light and healthy meal, she prepared a fresh green ________.",
+        "options": ["pie", "cake", "burger", "salad"],
+        "answer": 3,
+        "justification": "السلطة (salad) وجبة صحية. الكعكة (cake) حلويات، والبرغر (burger) وجبات سريعة، والفطيرة (pie) مخبوزات.",
+        "context_sentence": "For a light and healthy meal, she prepared a fresh green ________."
       }
     },
     {
@@ -172,10 +187,11 @@
       "arabic": "مطبخ (أسلوب طهي)",
       "page": "Extra 4",
       "question": {
-        "q": "Japanese ____ is famous globally.",
-        "options": ["cuisine", "language", "weather", "transport"],
-        "answer": 0,
-        "justification": "المطبخ الياباني (cuisine) مشهور عالمياً. اللغة (language) والطقس (weather) والنقل (transport) ليست أشياء تشتهر بها اليابان بنفس القدر."
+        "q": "Japanese ________ is known for its delicate flavors and fresh ingredients.",
+        "options": ["weather", "transport", "language", "cuisine"],
+        "answer": 3,
+        "justification": "المطبخ الياباني (cuisine) مشهور عالمياً. اللغة (language) والطقس (weather) والنقل (transport) ليست أشياء تشتهر بها اليابان بنفس القدر.",
+        "context_sentence": "Japanese ________ is known for its delicate flavors and fresh ingredients."
       }
     },
     {
@@ -183,10 +199,11 @@
       "arabic": "تراث",
       "page": "Extra 4",
       "question": {
-        "q": "Japan has a rich cultural ____.",
-        "options": ["heritage", "problem", "economy", "disaster"],
-        "answer": 0,
-        "justification": "اليابان لديها تراث (heritage) ثقافي غني. المشكلة (problem) والاقتصاد (economy) والكارثة (disaster) لا تصف الثقافة."
+        "q": "The old city is a UNESCO World ________ site, protected for future generations.",
+        "options": ["problem", "disaster", "economy", "heritage"],
+        "answer": 3,
+        "justification": "اليابان لديها تراث (heritage) ثقافي غني. المشكلة (problem) والاقتصاد (economy) والكارثة (disaster) لا تصف الثقافة.",
+        "context_sentence": "The old city is a UNESCO World ________ site, protected for future generations."
       }
     },
     {
@@ -194,10 +211,11 @@
       "arabic": "دستور",
       "page": "Extra 4",
       "question": {
-        "q": "The U.S. ____ established government structure.",
-        "options": ["constitution", "magazine", "website", "letter"],
-        "answer": 0,
-        "justification": "الدستور (constitution) هو الذي يحدد هيكل الحكومة. المجلة (magazine) والموقع الإلكتروني (website) والرسالة (letter) لا علاقة لها."
+        "q": "The country's ________ guarantees freedom of speech to all citizens.",
+        "options": ["letter", "magazine", "website", "constitution"],
+        "answer": 3,
+        "justification": "الدستور (constitution) هو الذي يحدد هيكل الحكومة. المجلة (magazine) والموقع الإلكتروني (website) والرسالة (letter) لا علاقة لها.",
+        "context_sentence": "The country's ________ guarantees freedom of speech to all citizens."
       }
     },
     {
@@ -205,10 +223,11 @@
       "arabic": "تحلية المياه",
       "page": "Extra 4",
       "question": {
-        "q": "____ removes salt from seawater.",
-        "options": ["Desalination", "Irrigation", "Evaporation", "Condensation"],
-        "answer": 0,
-        "justification": "تحلية المياه (desalination) تزيل الملح من ماء البحر. الري (irrigation) للسقاية، والتبخر (evaporation) والكثافة (condensation) عمليات طبيعية."
+        "q": "The ________ plant turns seawater into drinking water.",
+        "options": ["Condensation", "Irrigation", "Evaporation", "Desalination"],
+        "answer": 3,
+        "justification": "تحلية المياه (desalination) تزيل الملح من ماء البحر. الري (irrigation) للسقاية، والتبخر (evaporation) والكثافة (condensation) عمليات طبيعية.",
+        "context_sentence": "The ________ plant turns seawater into drinking water."
       }
     },
     {
@@ -216,10 +235,11 @@
       "arabic": "جاف",
       "page": "Extra 4",
       "question": {
-        "q": "Desalination is vital for ____ regions.",
-        "options": ["arid", "rainy", "cold", "green"],
-        "answer": 0,
-        "justification": "المناطق الجافة (arid) تحتاج التحلية. الممطرة (rainy) والباردة (cold) والخضراء (green) لديها مصادر مياه طبيعية."
+        "q": "Water is very scarce in the ________ desert regions.",
+        "options": ["green", "cold", "rainy", "arid"],
+        "answer": 3,
+        "justification": "المناطق الجافة (arid) تحتاج التحلية. الممطرة (rainy) والباردة (cold) والخضراء (green) لديها مصادر مياه طبيعية.",
+        "context_sentence": "Water is very scarce in the ________ desert regions."
       }
     },
     {
@@ -227,10 +247,11 @@
       "arabic": "غشاء",
       "page": "Extra 4",
       "question": {
-        "q": "Reverse osmosis uses a semipermeable ____.",
-        "options": ["membrane", "pipe", "pump", "tank"],
-        "answer": 0,
-        "justification": "التناضح العكسي يستخدم غشاء (membrane) شبه منفذ. الأنبوب (pipe) والمضخة (pump) والخزان (tank) مكونات أخرى."
+        "q": "Reverse osmosis uses a thin ________ to filter out salt and impurities.",
+        "options": ["tank", "pump", "pipe", "membrane"],
+        "answer": 3,
+        "justification": "التناضح العكسي يستخدم غشاء (membrane) شبه منفذ. الأنبوب (pipe) والمضخة (pump) والخزان (tank) مكونات أخرى.",
+        "context_sentence": "Reverse osmosis uses a thin ________ to filter out salt and impurities."
       }
     },
     {
@@ -238,10 +259,11 @@
       "arabic": "محلول ملحي",
       "page": "Extra 4",
       "question": {
-        "q": "Concentrated ____ harms marine life.",
-        "options": ["brine", "water", "oil", "juice"],
-        "answer": 0,
-        "justification": "المحلول الملحي المركز (brine) يضر الحياة البحرية. الماء العادي (water) والزيت (oil) والعصير (juice) ليس لها نفس التأثير."
+        "q": "The waste ________ left after desalination can harm sea creatures.",
+        "options": ["juice", "oil", "water", "brine"],
+        "answer": 3,
+        "justification": "المحلول الملحي المركز (brine) يضر الحياة البحرية. الماء العادي (water) والزيت (oil) والعصير (juice) ليس لها نفس التأثير.",
+        "context_sentence": "The waste ________ left after desalination can harm sea creatures."
       }
     },
     {
@@ -249,10 +271,11 @@
       "arabic": "وقود أحفوري",
       "page": "Extra 4",
       "question": {
-        "q": "Coal and oil are ____.",
-        "options": ["fossil fuels", "renewable", "solar", "wind"],
-        "answer": 0,
-        "justification": "الفحم والنفط وقود أحفوري (fossil fuels). المتجدد (renewable) والطاقة الشمسية (solar) والرياح (wind) مصادر طاقة نظيفة."
+        "q": "Burning ________ like coal and oil releases harmful gases.",
+        "options": ["wind", "solar", "renewable", "fossil fuels"],
+        "answer": 3,
+        "justification": "الفحم والنفط وقود أحفوري (fossil fuels). المتجدد (renewable) والطاقة الشمسية (solar) والرياح (wind) مصادر طاقة نظيفة.",
+        "context_sentence": "Burning ________ like coal and oil releases harmful gases."
       }
     },
     {
@@ -260,10 +283,11 @@
       "arabic": "غازات الدفيئة",
       "page": "Extra 4",
       "question": {
-        "q": "____ gases cause global warming.",
-        "options": ["Greenhouse", "Oxygen", "Nitrogen", "Hydrogen"],
-        "answer": 0,
-        "justification": "غازات الدفيئة (greenhouse) تسبب الاحتباس الحراري. الأكسجين (oxygen) والنيتروجين (nitrogen) والهيدروجين (hydrogen) غازات أخرى."
+        "q": "________ gases trap heat in the atmosphere and cause global warming.",
+        "options": ["Hydrogen", "Nitrogen", "Oxygen", "Greenhouse"],
+        "answer": 3,
+        "justification": "غازات الدفيئة (greenhouse) تسبب الاحتباس الحراري. الأكسجين (oxygen) والنيتروجين (nitrogen) والهيدروجين (hydrogen) غازات أخرى.",
+        "context_sentence": "________ gases trap heat in the atmosphere and cause global warming."
       }
     },
     {
@@ -271,10 +295,11 @@
       "arabic": "عميق (سحيق)",
       "page": "Extra 4",
       "question": {
-        "q": "The ____ plains are in the deep ocean.",
-        "options": ["abyssal", "shallow", "coastal", "tropical"],
-        "answer": 0,
-        "justification": "السهول السحيقة (abyssal) في أعماق المحيط. الضحلة (shallow) قريبة من السطح، والساحلية (coastal) قرب الشاطئ، والاستوائية (tropical) حارة."
+        "q": "The ________ plains lie thousands of meters below the ocean surface.",
+        "options": ["tropical", "coastal", "shallow", "abyssal"],
+        "answer": 3,
+        "justification": "السهول السحيقة (abyssal) في أعماق المحيط. الضحلة (shallow) قريبة من السطح، والساحلية (coastal) قرب الشاطئ، والاستوائية (tropical) حارة.",
+        "context_sentence": "The ________ plains lie thousands of meters below the ocean surface."
       }
     },
     {
@@ -282,10 +307,11 @@
       "arabic": "مضيء حيوياً",
       "page": "Extra 4",
       "question": {
-        "q": "Some deep-sea fish are ____.",
-        "options": ["bioluminescent", "invisible", "blind", "nocturnal"],
-        "answer": 0,
-        "justification": "أسماك الأعماق مضيئة حيوياً (bioluminescent). ليست غير مرئية (invisible) ولا عمياء (blind) ولا ليلية بالضرورة."
+        "q": "The ________ creatures glow in the dark depths of the ocean.",
+        "options": ["nocturnal", "blind", "invisible", "bioluminescent"],
+        "answer": 3,
+        "justification": "أسماك الأعماق مضيئة حيوياً (bioluminescent). ليست غير مرئية (invisible) ولا عمياء (blind) ولا ليلية بالضرورة.",
+        "context_sentence": "The ________ creatures glow in the dark depths of the ocean."
       }
     },
     {
@@ -293,10 +319,11 @@
       "arabic": "حرمائي",
       "page": "Extra 4",
       "question": {
-        "q": "____ vents emit superheated water.",
-        "options": ["Hydrothermal", "Geothermal", "Solar", "Electrical"],
-        "answer": 0,
-        "justification": "الفتحات الحرمائية (hydrothermal) تطلق ماءً ساخناً جداً. الحرارية الأرضية (geothermal) عامة، والشمسية (solar) والكهربائية (electrical) لا تطلق ماء."
+        "q": "________ vents on the seafloor release extremely hot water.",
+        "options": ["Electrical", "Geothermal", "Solar", "Hydrothermal"],
+        "answer": 3,
+        "justification": "الفتحات الحرمائية (hydrothermal) تطلق ماءً ساخناً جداً. الحرارية الأرضية (geothermal) عامة، والشمسية (solar) والكهربائية (electrical) لا تطلق ماء.",
+        "context_sentence": "________ vents on the seafloor release extremely hot water."
       }
     },
     {
@@ -304,10 +331,11 @@
       "arabic": "كلوروفيل",
       "page": "Extra 4",
       "question": {
-        "q": "____ gives leaves their green color.",
-        "options": ["Chlorophyll", "Carotenoid", "Anthocyanin", "Melanin"],
-        "answer": 0,
-        "justification": "الكلوروفيل (chlorophyll) يعطي اللون الأخضر. الكاروتينويد (carotenoid) أصفر/برتقالي، والأنثوسيانين (anthocyanin) أحمر/أرجواني، والميلانين (melanin) صبغة بشرية."
+        "q": "________ is the pigment that makes leaves look green.",
+        "options": ["Melanin", "Anthocyanin", "Carotenoid", "Chlorophyll"],
+        "answer": 3,
+        "justification": "الكلوروفيل (chlorophyll) يعطي اللون الأخضر. الكاروتينويد (carotenoid) أصفر/برتقالي، والأنثوسيانين (anthocyanin) أحمر/أرجواني، والميلانين (melanin) صبغة بشرية.",
+        "context_sentence": "________ is the pigment that makes leaves look green."
       }
     },
     {
@@ -315,10 +343,11 @@
       "arabic": "كاروتينويد",
       "page": "Extra 4",
       "question": {
-        "q": "____ pigments produce yellow/orange.",
-        "options": ["Carotenoid", "Chlorophyll", "Anthocyanin", "Melanin"],
-        "answer": 0,
-        "justification": "الكاروتينويد (carotenoid) صبغة صفراء/برتقالية. الكلوروفيل (chlorophyll) أخضر، والأنثوسيانين (anthocyanin) أحمر/أرجواني."
+        "q": "The yellow and orange colors of autumn leaves come from ________ pigments.",
+        "options": ["Melanin", "Anthocyanin", "Chlorophyll", "Carotenoid"],
+        "answer": 3,
+        "justification": "الكاروتينويد (carotenoid) صبغة صفراء/برتقالية. الكلوروفيل (chlorophyll) أخضر، والأنثوسيانين (anthocyanin) أحمر/أرجواني.",
+        "context_sentence": "The yellow and orange colors of autumn leaves come from ________ pigments."
       }
     },
     {
@@ -326,10 +355,11 @@
       "arabic": "يتحلل",
       "page": "Extra 4",
       "question": {
-        "q": "Leaves ____ and enrich the soil.",
-        "options": ["decompose", "grow", "fly", "freeze"],
-        "answer": 0,
-        "justification": "الأوراق تتحلل (decompose) وتغني التربة. النمو (grow) والطيران (fly) والتجمد (freeze) لا يحدثان للأوراق المتساقطة."
+        "q": "Fallen leaves slowly ________ and turn into soil.",
+        "options": ["freeze", "grow", "fly", "decompose"],
+        "answer": 3,
+        "justification": "الأوراق تتحلل (decompose) وتغني التربة. النمو (grow) والطيران (fly) والتجمد (freeze) لا يحدثان للأوراق المتساقطة.",
+        "context_sentence": "Fallen leaves slowly ________ and turn into soil."
       }
     },
     {
@@ -337,10 +367,11 @@
       "arabic": "زاهي / نابض",
       "page": "Extra 4",
       "question": {
-        "q": "Autumn colors are ____ on sunny days.",
-        "options": ["vibrant", "dull", "dark", "faint"],
-        "answer": 0,
-        "justification": "ألوان الخريف تكون زاهية (vibrant) في الأيام المشمسة. الباهتة (dull) والداكنة (dark) والضعيفة (faint) عكس ذلك."
+        "q": "The artist used ________ colors to make the painting come alive.",
+        "options": ["faint", "dark", "dull", "vibrant"],
+        "answer": 3,
+        "justification": "ألوان الخريف تكون زاهية (vibrant) في الأيام المشمسة. الباهتة (dull) والداكنة (dark) والضعيفة (faint) عكس ذلك.",
+        "context_sentence": "The artist used ________ colors to make the painting come alive."
       }
     },
     {
@@ -348,10 +379,11 @@
       "arabic": "مغذٍ",
       "page": "Extra 4",
       "question": {
-        "q": "Soil provides ____ for plants.",
-        "options": ["nutrients", "water", "sunlight", "air"],
-        "answer": 0,
-        "justification": "التربة تزود النباتات بالمغذيات (nutrients). الماء (water) والشمس (sunlight) والهواء (air) عوامل أخرى."
+        "q": "Plants absorb ________ from the soil through their roots.",
+        "options": ["sunlight", "air", "water", "nutrients"],
+        "answer": 3,
+        "justification": "التربة تزود النباتات بالمغذيات (nutrients). الماء (water) والشمس (sunlight) والهواء (air) عوامل أخرى.",
+        "context_sentence": "Plants absorb ________ from the soil through their roots."
       }
     },
     {
@@ -359,10 +391,11 @@
       "arabic": "مقاوم",
       "page": "Extra 4",
       "question": {
-        "q": "The network was ____ to attacks.",
-        "options": ["resistant", "vulnerable", "open", "weak"],
-        "answer": 0,
-        "justification": "الشبكة كانت مقاومة (resistant) للهجمات. الضعيفة (vulnerable/weak) تعني غير محمية، والمفتوحة (open) غير آمنة."
+        "q": "The material is highly ________ to heat, so it's used in firefighter suits.",
+        "options": ["weak", "open", "vulnerable", "resistant"],
+        "answer": 3,
+        "justification": "الشبكة كانت مقاومة (resistant) للهجمات. الضعيفة (vulnerable/weak) تعني غير محمية، والمفتوحة (open) غير آمنة.",
+        "context_sentence": "The material is highly ________ to heat, so it's used in firefighter suits."
       }
     },
     {
@@ -370,10 +403,11 @@
       "arabic": "متاح / سهل الوصول",
       "page": "Extra 4",
       "question": {
-        "q": "The Web made the internet ____.",
-        "options": ["accessible", "difficult", "secret", "dangerous"],
-        "answer": 0,
-        "justification": "الويب جعل الإنترنت متاحاً (accessible) للجميع. الصعب (difficult) والسري (secret) والخطير (dangerous) عكس ذلك."
+        "q": "The new ramp makes the building ________ to wheelchair users.",
+        "options": ["dangerous", "difficult", "secret", "accessible"],
+        "answer": 3,
+        "justification": "الويب جعل الإنترنت متاحاً (accessible) للجميع. الصعب (difficult) والسري (secret) والخطير (dangerous) عكس ذلك.",
+        "context_sentence": "The new ramp makes the building ________ to wheelchair users."
       }
     },
     {
@@ -381,10 +415,11 @@
       "arabic": "انتقال",
       "page": "Extra 4",
       "question": {
-        "q": "Data ____ occurs through cables.",
-        "options": ["transmission", "collection", "storage", "deletion"],
-        "answer": 0,
-        "justification": "البيانات تنتقل (transmission) عبر الكابلات. التجميع (collection) والتخزين (storage) والحذف (deletion) عمليات أخرى."
+        "q": "The ________ of data over fiber optic cables is extremely fast.",
+        "options": ["deletion", "collection", "storage", "transmission"],
+        "answer": 3,
+        "justification": "البيانات تنتقل (transmission) عبر الكابلات. التجميع (collection) والتخزين (storage) والحذف (deletion) عمليات أخرى.",
+        "context_sentence": "The ________ of data over fiber optic cables is extremely fast."
       }
     },
     {
@@ -392,10 +427,11 @@
       "arabic": "سعة / قدرة",
       "page": "Extra 4",
       "question": {
-        "q": "Batteries have limited ____.",
-        "options": ["capacity", "weight", "size", "color"],
-        "answer": 0,
-        "justification": "للبطاريات سعة (capacity) محدودة. الوزن (weight) والحجم (size) واللون (color) خصائص أخرى."
+        "q": "The fuel tank has a ________ of 60 litres.",
+        "options": ["color", "size", "weight", "capacity"],
+        "answer": 3,
+        "justification": "للبطاريات سعة (capacity) محدودة. الوزن (weight) والحجم (size) واللون (color) خصائص أخرى.",
+        "context_sentence": "The fuel tank has a ________ of 60 litres."
       }
     },
     {
@@ -403,10 +439,11 @@
       "arabic": "شبكة كهرباء",
       "page": "Extra 4",
       "question": {
-        "q": "Smart ____ manages electricity.",
-        "options": ["grid", "road", "phone", "water"],
-        "answer": 0,
-        "justification": "الشبكة الذكية (smart grid) تدير الكهرباء. الطريق (road) والهاتف (phone) والماء (water) لا علاقة لها."
+        "q": "Solar panels feed electricity into the national ________.",
+        "options": ["phone", "water", "road", "grid"],
+        "answer": 3,
+        "justification": "الشبكة الذكية (smart grid) تدير الكهرباء. الطريق (road) والهاتف (phone) والماء (water) لا علاقة لها.",
+        "context_sentence": "Solar panels feed electricity into the national ________."
       }
     },
     {
@@ -414,10 +451,11 @@
       "arabic": "مستدام",
       "page": "Extra 4",
       "question": {
-        "q": "Solar power is a ____ energy source.",
-        "options": ["sustainable", "temporary", "dangerous", "expensive"],
-        "answer": 0,
-        "justification": "الطاقة الشمسية مستدامة (sustainable). المؤقتة (temporary) والخطيرة (dangerous) والغالية (expensive) لا تصفها."
+        "q": "We need to find ________ sources of energy that won't harm the planet.",
+        "options": ["expensive", "dangerous", "temporary", "sustainable"],
+        "answer": 3,
+        "justification": "الطاقة الشمسية مستدامة (sustainable). المؤقتة (temporary) والخطيرة (dangerous) والغالية (expensive) لا تصفها.",
+        "context_sentence": "We need to find ________ sources of energy that won't harm the planet."
       }
     },
     {
@@ -425,10 +463,11 @@
       "arabic": "انبعاث",
       "page": "Extra 4",
       "question": {
-        "q": "Cars produce carbon ____.",
-        "options": ["emissions", "incomes", "prices", "noise"],
-        "answer": 0,
-        "justification": "السيارات تنتج انبعاثات كربونية (emissions). الدخل (incomes) والأسعار (prices) والضوضاء (noise) ليست غازات."
+        "q": "The factory reduced its carbon ________ by installing filters.",
+        "options": ["noise", "prices", "incomes", "emissions"],
+        "answer": 3,
+        "justification": "السيارات تنتج انبعاثات كربونية (emissions). الدخل (incomes) والأسعار (prices) والضوضاء (noise) ليست غازات.",
+        "context_sentence": "The factory reduced its carbon ________ by installing filters."
       }
     },
     {
@@ -436,10 +475,11 @@
       "arabic": "منحة",
       "page": "Extra 4",
       "question": {
-        "q": "The city provides ____ for green projects.",
-        "options": ["grants", "fines", "taxes", "bans"],
-        "answer": 0,
-        "justification": "المدينة تقدم منحاً (grants) للمشاريع الخضراء. الغرامات (fines) والضرائب (taxes) والحظر (bans) أمور سلبية."
+        "q": "The university received a research ________ to study renewable energy.",
+        "options": ["bans", "taxes", "fines", "grants"],
+        "answer": 3,
+        "justification": "المدينة تقدم منحاً (grants) للمشاريع الخضراء. الغرامات (fines) والضرائب (taxes) والحظر (bans) أمور سلبية.",
+        "context_sentence": "The university received a research ________ to study renewable energy."
       }
     }
   ]

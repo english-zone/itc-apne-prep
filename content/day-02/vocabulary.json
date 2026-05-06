@@ -7,10 +7,11 @@
       "arabic": "خاتم",
       "page": "69",
       "question": {
-        "q": "Some people wear a ____ when they get married.",
-        "options": ["watch", "hat", "ring", "belt"],
+        "q": "They exchanged wedding ________ made of gold.",
+        "options": ["belt", "hat", "ring", "watch"],
         "answer": 2,
-        "justification": "في حفلات الزفاف، يتبادل الزوجان الخواتم (ring). الساعة (watch) تُلبس في أي وقت، والقبعة (hat) والحزام (belt) ليسا من طقوس الزواج."
+        "justification": "في حفلات الزفاف، يتبادل الزوجان الخواتم (ring). الساعة (watch) تُلبس في أي وقت، والقبعة (hat) والحزام (belt) ليسا من طقوس الزواج.",
+        "context_sentence": "They exchanged wedding ________ made of gold."
       }
     },
     {
@@ -18,10 +19,11 @@
       "arabic": "ساعة يد",
       "page": "69",
       "question": {
-        "q": "I check the time on my ____.",
-        "options": ["ring", "watch", "belt", "hat"],
-        "answer": 1,
-        "justification": "الوقت يُعرف من ساعة اليد (watch). الخاتم (ring) للزينة، والحزام (belt) للملابس، والقبعة (hat) للرأس، وكلها لا تُظهر الوقت."
+        "q": "I glanced at my ________ to see if I was late.",
+        "options": ["belt", "hat", "ring", "watch"],
+        "answer": 3,
+        "justification": "الوقت يُعرف من ساعة اليد (watch). الخاتم (ring) للزينة، والحزام (belt) للملابس، والقبعة (hat) للرأس، وكلها لا تُظهر الوقت.",
+        "context_sentence": "I glanced at my ________ to see if I was late."
       }
     },
     {
@@ -29,10 +31,11 @@
       "arabic": "قبعة",
       "page": "69",
       "question": {
-        "q": "Wear a ____ to protect your head from the sun.",
-        "options": ["hat", "scarf", "gloves", "belt"],
-        "answer": 0,
-        "justification": "القبعة (hat) تحمي الرأس من الشمس. الوشاح (scarf) للرقبة، والقفازات (gloves) لليدين، والحزام (belt) للخصر."
+        "q": "She put on a wide‑brimmed ________ to protect her face from the sun.",
+        "options": ["scarf", "gloves", "hat", "belt"],
+        "answer": 2,
+        "justification": "القبعة (hat) تحمي الرأس من الشمس. الوشاح (scarf) للرقبة، والقفازات (gloves) لليدين، والحزام (belt) للخصر.",
+        "context_sentence": "She put on a wide‑brimmed ________ to protect her face from the sun."
       }
     },
     {
@@ -40,10 +43,11 @@
       "arabic": "حزام",
       "page": "69",
       "question": {
-        "q": "He tightened his ____ because his pants were loose.",
-        "options": ["tie", "belt", "watch", "ring"],
-        "answer": 1,
-        "justification": "عندما يكون البنطال واسعاً، نشد الحزام (belt). ربطة العنق (tie) على الرقبة، والساعة (watch) في المعصم، والخاتم (ring) في الإصبع."
+        "q": "His trousers kept slipping, so he fastened his ________ tighter.",
+        "options": ["tie", "ring", "watch", "belt"],
+        "answer": 3,
+        "justification": "عندما يكون البنطال واسعاً، نشد الحزام (belt). ربطة العنق (tie) على الرقبة، والساعة (watch) في المعصم، والخاتم (ring) في الإصبع.",
+        "context_sentence": "His trousers kept slipping, so he fastened his ________ tighter."
       }
     },
     {
@@ -51,10 +55,11 @@
       "arabic": "معطف مطر",
       "page": "69",
       "question": {
-        "q": "It's raining. I'll wear my ____.",
-        "options": ["Sweater", "raincoat", "shoes", "glasses"],
-        "answer": 1,
-        "justification": "في المطر نرتدي معطف المطر (raincoat) ليبقينا جافين. السترة الصوفية (sweater) للتدفئة، والحذاء (shoes) للقدمين، والنظارات (glasses) للعينين."
+        "q": "The children put on their yellow ________ before splashing in the puddles.",
+        "options": ["shoes", "glasses", "sweater", "raincoat"],
+        "answer": 3,
+        "justification": "في المطر نرتدي معطف المطر (raincoat). السترة الصوفية (sweater) للتدفئة، والحذاء (shoes) للقدمين، والنظارات (glasses) للعينين.",
+        "context_sentence": "The children put on their yellow ________ before splashing in the puddles."
       }
     },
     {
@@ -62,10 +67,11 @@
       "arabic": "سترة صوفية",
       "page": "69",
       "question": {
-        "q": "Put on a ____; it's cold outside.",
-        "options": ["sweater", "umbrella", "trainers", "thobe"],
-        "answer": 0,
-        "justification": "للتدفئة في البرد نرتدي سترة صوفية (sweater). المظلة (umbrella) للمطر، والحذاء الرياضي (trainers) للرياضة، والثوب (thobe) لباس تقليدي."
+        "q": "It's chilly outside, so I'll grab a thick ________.",
+        "options": ["trainers", "sweater", "thobe", "umbrella"],
+        "answer": 1,
+        "justification": "للتدفئة في البرد نرتدي سترة صوفية (sweater). المظلة (umbrella) للمطر، والحذاء الرياضي (trainers) للرياضة، والثوب (thobe) لباس تقليدي.",
+        "context_sentence": "It's chilly outside, so I'll grab a thick ________."
       }
     },
     {
@@ -73,10 +79,11 @@
       "arabic": "حذاء رياضي",
       "page": "69",
       "question": {
-        "q": "I need my ____ for football.",
-        "options": ["Shoes", "trainers", "gloves", "belt"],
+        "q": "For gym class, you must wear comfortable ________.",
+        "options": ["shoes", "trainers", "gloves", "belt"],
         "answer": 1,
-        "justification": "لكرة القدم نحتاج حذاء رياضياً (trainers). الأحذية العادية (shoes) ليست مناسبة للملاعب، والقفازات (gloves) لليدين، والحزام (belt) ليس للرياضة."
+        "justification": "لكرة القدم نحتاج حذاء رياضياً (trainers). الأحذية العادية (shoes) ليست مناسبة للملاعب، والقفازات (gloves) لليدين، والحزام (belt) ليس للرياضة.",
+        "context_sentence": "For gym class, you must wear comfortable ________."
       }
     },
     {
@@ -84,10 +91,11 @@
       "arabic": "قفازات",
       "page": "69",
       "question": {
-        "q": "In winter, wear ____ to keep your hands warm.",
-        "options": ["gloves", "rings", "belts", "hats"],
-        "answer": 0,
-        "justification": "القفازات (gloves) تحافظ على دفء اليدين. الخواتم (rings) للزينة، والأحزمة (belts) للخصر، والقبعات (hats) للرأس."
+        "q": "She wore woolen ________ to keep her fingers warm in the snow.",
+        "options": ["hats", "belts", "rings", "gloves"],
+        "answer": 3,
+        "justification": "القفازات (gloves) تحافظ على دفء اليدين. الخواتم (rings) للزينة، والأحزمة (belts) للخصر، والقبعات (hats) للرأس.",
+        "context_sentence": "She wore woolen ________ to keep her fingers warm in the snow."
       }
     },
     {
@@ -95,10 +103,11 @@
       "arabic": "مظلة",
       "page": "69",
       "question": {
-        "q": "A big ____ will keep you dry.",
-        "options": ["umbrella", "goggles", "bag", "scarf"],
-        "answer": 0,
-        "justification": "المظلة (umbrella) تقي من المطر. النظارات الواقية (goggles) للعيون، والحقيبة (bag) للحمل، والوشاح (scarf) للرقبة."
+        "q": "He opened his ________ as the rain started to pour.",
+        "options": ["goggles", "umbrella", "bag", "scarf"],
+        "answer": 1,
+        "justification": "المظلة (umbrella) تقي من المطر. النظارات الواقية (goggles) للعيون، والحقيبة (bag) للحمل، والوشاح (scarf) للرقبة.",
+        "context_sentence": "He opened his ________ as the rain started to pour."
       }
     },
     {
@@ -106,10 +115,11 @@
       "arabic": "وشاح",
       "page": "69",
       "question": {
-        "q": "Wrap a ____ around your neck in cold weather.",
-        "options": ["scarf", "tie", "belt", "glove"],
-        "answer": 0,
-        "justification": "الوشاح (scarf) يُلف حول الرقبة للتدفئة. ربطة العنق (tie) للأناقة، والحزام (belt) للخصر، والقفاز (glove) لليد."
+        "q": "She wrapped a colorful ________ around her neck before heading out.",
+        "options": ["belt", "scarf", "tie", "glove"],
+        "answer": 1,
+        "justification": "الوشاح (scarf) يُلف حول الرقبة للتدفئة. ربطة العنق (tie) للأناقة، والحزام (belt) للخصر، والقفاز (glove) لليد.",
+        "context_sentence": "She wrapped a colorful ________ around her neck before heading out."
       }
     },
     {
@@ -117,10 +127,11 @@
       "arabic": "ثوب",
       "page": "69",
       "question": {
-        "q": "Saudi men usually wear a ____.",
-        "options": ["tie", "suit", "thobe", "shirt"],
+        "q": "The man wore a crisp white ________ for the national celebration.",
+        "options": ["tie", "shirt", "thobe", "suit"],
         "answer": 2,
-        "justification": "الثوب (thobe) هو الزي التقليدي للرجال في السعودية. ربطة العنق (tie) والبدلة (suit) والقميص (shirt) لباس غربي أو رسمي ولكن ليس الزي اليومي التقليدي."
+        "justification": "الثوب (thobe) هو الزي التقليدي للرجال في السعودية. ربطة العنق (tie) والبدلة (suit) والقميص (shirt) لباس غربي أو رسمي ولكن ليس الزي اليومي التقليدي.",
+        "context_sentence": "The man wore a crisp white ________ for the national celebration."
       }
     },
     {
@@ -128,10 +139,11 @@
       "arabic": "ربطة عنق",
       "page": "69",
       "question": {
-        "q": "He wore a ____ with his suit.",
-        "options": ["tie", "belt", "scarf", "thobe"],
-        "answer": 0,
-        "justification": "مع البدلة تُلبس ربطة العنق (tie). الحزام (belt) موجود أيضاً ولكن السؤال يركز على ما يُلبس مع البدلة تحديداً حول الرقبة."
+        "q": "He wore a silk ________ that matched his pocket square perfectly.",
+        "options": ["scarf", "belt", "thobe", "tie"],
+        "answer": 3,
+        "justification": "مع البدلة تُلبس ربطة العنق (tie). الحزام (belt) موجود أيضاً ولكن السؤال يركز على ما يُلبس مع البدلة تحديداً حول الرقبة.",
+        "context_sentence": "He wore a silk ________ that matched his pocket square perfectly."
       }
     },
     {
@@ -139,10 +151,11 @@
       "arabic": "بدلة",
       "page": "69",
       "question": {
-        "q": "He bought a new ____ for the interview.",
-        "options": ["scarf", "suit", "thobe", "jacket"],
-        "answer": 1,
-        "justification": "للمقابلة الرسمية يشتري بدلة (suit). الوشاح (scarf) ليس رسمياً، والثوب (thobe) تقليدي، والسترة (jacket) أقل رسمية من البدلة الكاملة."
+        "q": "For his job interview, he bought a dark blue ________.",
+        "options": ["scarf", "jacket", "thobe", "suit"],
+        "answer": 3,
+        "justification": "للمقابلة الرسمية يشتري بدلة (suit). الوشاح (scarf) ليس رسمياً، والثوب (thobe) تقليدي، والسترة (jacket) أقل رسمية من البدلة الكاملة.",
+        "context_sentence": "For his job interview, he bought a dark blue ________."
       }
     },
     {
@@ -150,10 +163,11 @@
       "arabic": "نظارات واقية",
       "page": "69",
       "question": {
-        "q": "Swimmers wear ____ to protect their eyes.",
-        "options": ["umbrellas", "goggles", "hats", "gloves"],
-        "answer": 1,
-        "justification": "السباحون يضعون نظارات واقية (goggles) لحماية العينين من الماء. المظلات (umbrellas) والقبعات (hats) والقفازات (gloves) لا تستخدم في الماء."
+        "q": "The swimmer adjusted her ________ before diving into the pool.",
+        "options": ["gloves", "hats", "umbrellas", "goggles"],
+        "answer": 3,
+        "justification": "السباحون يضعون نظارات واقية (goggles) لحماية العينين من الماء. المظلات (umbrellas) والقبعات (hats) والقفازات (gloves) لا تستخدم في الماء.",
+        "context_sentence": "The swimmer adjusted her ________ before diving into the pool."
       }
     },
     {
@@ -161,10 +175,11 @@
       "arabic": "قديم الطراز",
       "page": "70",
       "question": {
-        "q": "My phone looks ____ compared to new models.",
-        "options": ["modern", "old fashioned", "trendy", "popular"],
-        "answer": 1,
-        "justification": "إذا كان الهاتف يبدو قديماً مقارنة بالموديلات الحديثة، فهو (old fashioned). 'modern' يعني حديث، و'trendy' يعني على الموضة، و'popular' يعني مشهور."
+        "q": "My grandmother still uses an ________ sewing machine, but it works perfectly.",
+        "options": ["modern", "popular", "trendy", "old fashioned"],
+        "answer": 3,
+        "justification": "إذا كان الشيء يبدو قديماً مقارنة بالموديلات الحديثة، فهو (old fashioned). 'modern' يعني حديث، و'trendy' يعني على الموضة، و'popular' يعني مشهور.",
+        "context_sentence": "My grandmother still uses an ________ sewing machine, but it works perfectly."
       }
     },
     {
@@ -172,10 +187,11 @@
       "arabic": "حديث",
       "page": "70",
       "question": {
-        "q": "Dubai has many ____ buildings.",
-        "options": ["modern", "old", "ancient", "broken"],
-        "answer": 0,
-        "justification": "دبي معروفة بالمباني الحديثة (modern). 'old' قديم، و'ancient' أثري، و'broken' مكسور، وكلها لا تصف أفق دبي."
+        "q": "The city skyline is full of ________ glass towers.",
+        "options": ["broken", "ancient", "old", "modern"],
+        "answer": 3,
+        "justification": "دبي معروفة بالمباني الحديثة (modern). 'old' قديم، و'ancient' أثري، و'broken' مكسور، وكلها لا تصف أفق دبي.",
+        "context_sentence": "The city skyline is full of ________ glass towers."
       }
     },
     {
@@ -183,10 +199,11 @@
       "arabic": "عطشان",
       "page": "70",
       "question": {
-        "q": "I am really ____, I need water.",
-        "options": ["hungry", "thirsty", "tired", "sleepy"],
-        "answer": 1,
-        "justification": "عندما تحتاج إلى ماء، فأنت عطشان (thirsty). 'hungry' جائع، 'tired' متعب، 'sleepy' نعسان."
+        "q": "After running for an hour, he felt extremely ________ and drank a whole bottle.",
+        "options": ["tired", "sleepy", "hungry", "thirsty"],
+        "answer": 3,
+        "justification": "عندما تحتاج إلى ماء، فأنت عطشان (thirsty). 'hungry' جائع، 'tired' متعب، 'sleepy' نعسان.",
+        "context_sentence": "After running for an hour, he felt extremely ________ and drank a whole bottle."
       }
     },
     {
@@ -194,10 +211,11 @@
       "arabic": "جائع",
       "page": "70",
       "question": {
-        "q": "After the match, I was very ____.",
-        "options": ["thirsty", "happy", "hungry", "angry"],
-        "answer": 2,
-        "justification": "بعد مجهود كبير، يشعر المرء بالجوع (hungry). 'thirsty' عطش، 'happy' سعادة، 'angry' غضب."
+        "q": "The hikers were ________ after the long walk, so they ate sandwiches.",
+        "options": ["thirsty", "angry", "happy", "hungry"],
+        "answer": 3,
+        "justification": "بعد مجهود كبير، يشعر المرء بالجوع (hungry). 'thirsty' عطش، 'happy' سعادة، 'angry' غضب.",
+        "context_sentence": "The hikers were ________ after the long walk, so they ate sandwiches."
       }
     },
     {
@@ -205,10 +223,11 @@
       "arabic": "لذيذ",
       "page": "70",
       "question": {
-        "q": "This cake tastes ____.",
-        "options": ["awful", "delicious", "salty", "bitter"],
-        "answer": 1,
-        "justification": "عندما يكون الطعم طيباً نقول (delicious). 'awful' فظيع، 'salty' مالح، 'bitter' مر، وكلها صفات سلبية غير مناسبة للكعكة الجيدة."
+        "q": "The homemade soup tasted ________, with just the right amount of spices.",
+        "options": ["bitter", "salty", "awful", "delicious"],
+        "answer": 3,
+        "justification": "عندما يكون الطعم طيباً نقول (delicious). 'awful' فظيع، 'salty' مالح، 'bitter' مر، وكلها صفات سلبية غير مناسبة للطعام الجيد.",
+        "context_sentence": "The homemade soup tasted ________, with just the right amount of spices."
       }
     },
     {
@@ -216,10 +235,11 @@
       "arabic": "فظيع",
       "page": "70",
       "question": {
-        "q": "The weather today is ____; it's cold and rainy.",
-        "options": ["delicious", "pleasant", "awful", "wonderful"],
-        "answer": 2,
-        "justification": "الجو البارد والممطر سيئ أو فظيع (awful). 'delicious' لذيذ (للطعام)، 'pleasant' لطيف، 'wonderful' رائع، وكلها إيجابية."
+        "q": "The weather today is ________; it's stormy and freezing cold.",
+        "options": ["pleasant", "wonderful", "delicious", "awful"],
+        "answer": 3,
+        "justification": "الجو البارد والممطر سيئ أو فظيع (awful). 'delicious' لذيذ (للطعام)، 'pleasant' لطيف، 'wonderful' رائع، وكلها إيجابية.",
+        "context_sentence": "The weather today is ________; it's stormy and freezing cold."
       }
     },
     {
@@ -227,10 +247,11 @@
       "arabic": "دواسة",
       "page": "96",
       "question": {
-        "q": "The first bicycles didn't have ____.",
-        "options": ["wheels", "pedals", "chains", "brakes"],
+        "q": "He pressed the ________ harder to cycle up the steep hill.",
+        "options": ["chains", "pedals", "brakes", "wheels"],
         "answer": 1,
-        "justification": "الدراجات الأولى لم يكن بها دواسات (pedals). كانت لها عجلات (wheels)، والسلاسل (chains) والفرامل (brakes) أتت لاحقاً."
+        "justification": "الدراجات الأولى لم يكن بها دواسات (pedals). كانت لها عجلات (wheels)، والسلاسل (chains) والفرامل (brakes) أتت لاحقاً.",
+        "context_sentence": "He pressed the ________ harder to cycle up the steep hill."
       }
     },
     {
@@ -238,10 +259,11 @@
       "arabic": "رافعة",
       "page": "96",
       "question": {
-        "q": "Macmillan fixed foot ____ to his bicycle.",
-        "options": ["pedals", "levers", "wheels", "chains"],
-        "answer": 1,
-        "justification": "ماكميلان أضاف روافع (levers) تُحرك بالقدم. 'pedals' دواسات (اختراع لاحق)، 'wheels' عجلات، 'chains' سلاسل."
+        "q": "Macmillan fixed foot ________ to his bicycle to move it forward.",
+        "options": ["levers", "pedals", "wheels", "chains"],
+        "answer": 0,
+        "justification": "ماكميلان أضاف روافع (levers) تُحرك بالقدم. 'pedals' دواسات (اختراع لاحق)، 'wheels' عجلات، 'chains' سلاسل.",
+        "context_sentence": "Macmillan fixed foot ________ to his bicycle to move it forward."
       }
     },
     {
@@ -249,10 +271,11 @@
       "arabic": "اختراع",
       "page": "96",
       "question": {
-        "q": "Bicycles are not a new ____.",
+        "q": "The telephone is a revolutionary ________ that changed communication.",
         "options": ["invention", "destruction", "game", "problem"],
         "answer": 0,
-        "justification": "الدراجة ليست اختراعاً (invention) جديداً. 'destruction' تدمير، 'game' لعبة، 'problem' مشكلة."
+        "justification": "الدراجة ليست اختراعاً (invention) جديداً. 'destruction' تدمير، 'game' لعبة، 'problem' مشكلة.",
+        "context_sentence": "The telephone is a revolutionary ________ that changed communication."
       }
     },
     {
@@ -260,10 +283,11 @@
       "arabic": "صدع",
       "page": "97",
       "question": {
-        "q": "Water enters ____ in the sea floor.",
-        "options": ["cracks", "mountains", "valleys", "tunnels"],
-        "answer": 0,
-        "justification": "الماء يدخل من خلال الشقوق أو الصدوع (cracks) في قاع البحر. 'mountains' جبال، 'valleys' وديان، 'tunnels' أنفاق."
+        "q": "Water seeped through a ________ in the sea floor.",
+        "options": ["valleys", "tunnels", "mountains", "cracks"],
+        "answer": 3,
+        "justification": "الماء يدخل من خلال الشقوق أو الصدوع (cracks) في قاع البحر. 'mountains' جبال، 'valleys' وديان، 'tunnels' أنفاق.",
+        "context_sentence": "Water seeped through a ________ in the sea floor."
       }
     },
     {
@@ -271,10 +295,11 @@
       "arabic": "معدن",
       "page": "97",
       "question": {
-        "q": "Salt is a common ____.",
-        "options": ["mineral", "plant", "animal", "liquid"],
-        "answer": 0,
-        "justification": "الملح معدن (mineral) شائع. 'plant' نبات، 'animal' حيوان، 'liquid' سائل."
+        "q": "Salt is a natural ________ found in many foods.",
+        "options": ["plant", "mineral", "animal", "liquid"],
+        "answer": 1,
+        "justification": "الملح معدن (mineral) شائع. 'plant' نبات، 'animal' حيوان، 'liquid' سائل.",
+        "context_sentence": "Salt is a natural ________ found in many foods."
       }
     },
     {
@@ -282,10 +307,11 @@
       "arabic": "تبخر",
       "page": "97",
       "question": {
-        "q": "The sea ____ completely in the past.",
-        "options": ["froze", "evaporated", "expanded", "flooded"],
-        "answer": 1,
-        "justification": "البحر تبخر (evaporated) تماماً. 'froze' تجمد، 'expanded' توسع، 'flooded' فاض."
+        "q": "The puddle ________ in the hot sun within an hour.",
+        "options": ["flooded", "expanded", "froze", "evaporated"],
+        "answer": 3,
+        "justification": "البحر تبخر (evaporated) تماماً. 'froze' تجمد، 'expanded' توسع، 'flooded' فاض.",
+        "context_sentence": "The puddle ________ in the hot sun within an hour."
       }
     },
     {
@@ -293,10 +319,11 @@
       "arabic": "نحاس",
       "page": "98",
       "question": {
-        "q": "____ is a reddish metal.",
-        "options": ["Iron", "Copper", "Silver", "Zinc"],
-        "answer": 1,
-        "justification": "النحاس (Copper) معدن أحمر اللون. الحديد (Iron) رمادي، والفضة (Silver) بيضاء، والزنك (Zinc) أبيض مائل للزرقة."
+        "q": "Wires inside the cable are made of ________ because it conducts electricity well.",
+        "options": ["Iron", "Silver", "Zinc", "Copper"],
+        "answer": 3,
+        "justification": "النحاس (Copper) معدن أحمر اللون. الحديد (Iron) رمادي، والفضة (Silver) بيضاء، والزنك (Zinc) أبيض مائل للزرقة.",
+        "context_sentence": "Wires inside the cable are made of ________ because it conducts electricity well."
       }
     },
     {
@@ -304,10 +331,11 @@
       "arabic": "مرض السكري",
       "page": "100",
       "question": {
-        "q": "____ affects how the body uses sugar.",
-        "options": ["Asthma", "Diabetes", "Cancer", "Headache"],
+        "q": "People with ________ must monitor their blood sugar regularly.",
+        "options": ["Cancer", "Diabetes", "Asthma", "Headache"],
         "answer": 1,
-        "justification": "السكري (Diabetes) هو المرض الذي يؤثر على استخدام الجسم للسكر. 'Asthma' ربو، 'Cancer' سرطان، 'Headache' صداع."
+        "justification": "السكري (Diabetes) هو المرض الذي يؤثر على استخدام الجسم للسكر. 'Asthma' ربو، 'Cancer' سرطان، 'Headache' صداع.",
+        "context_sentence": "People with ________ must monitor their blood sugar regularly."
       }
     },
     {
@@ -315,10 +343,11 @@
       "arabic": "أنسولين",
       "page": "100",
       "question": {
-        "q": "Type I diabetics need ____ injections.",
-        "options": ["vitamin", "insulin", "calcium", "antibiotic"],
+        "q": "Type I diabetics need daily ________ injections to survive.",
+        "options": ["antibiotic", "insulin", "vitamin", "calcium"],
         "answer": 1,
-        "justification": "مرضى السكري من النوع الأول يحتاجون حقن الأنسولين (insulin). 'vitamin' فيتامين، 'calcium' كالسيوم، 'antibiotic' مضاد حيوي."
+        "justification": "مرضى السكري من النوع الأول يحتاجون حقن الأنسولين (insulin). 'vitamin' فيتامين، 'calcium' كالسيوم، 'antibiotic' مضاد حيوي.",
+        "context_sentence": "Type I diabetics need daily ________ injections to survive."
       }
     },
     {
@@ -326,10 +355,11 @@
       "arabic": "جلوكوز",
       "page": "100",
       "question": {
-        "q": "____ is a simple sugar used for energy.",
-        "options": ["Protein", "Fat", "Glucose", "Fiber"],
-        "answer": 2,
-        "justification": "الجلوكوز (Glucose) هو سكر بسيط يعطي طاقة. 'Protein' بروتين، 'Fat' دهن، 'Fiber' ألياف."
+        "q": "During digestion, carbohydrates are broken down into ________ for energy.",
+        "options": ["Fiber", "Fat", "Protein", "Glucose"],
+        "answer": 3,
+        "justification": "الجلوكوز (Glucose) هو سكر بسيط يعطي طاقة. 'Protein' بروتين، 'Fat' دهن، 'Fiber' ألياف.",
+        "context_sentence": "During digestion, carbohydrates are broken down into ________ for energy."
       }
     },
     {
@@ -337,10 +367,11 @@
       "arabic": "كربوهيدرات",
       "page": "100",
       "question": {
-        "q": "Bread and rice are sources of ____.",
-        "options": ["fats", "carbohydrates", "proteins", "vitamins"],
-        "answer": 1,
-        "justification": "الخبز والأرز مصادر للكربوهيدرات (carbohydrates). 'fats' دهون، 'proteins' بروتينات، 'vitamins' فيتامينات."
+        "q": "Pasta and bread are rich in ________, which give you energy.",
+        "options": ["fats", "vitamins", "carbohydrates", "proteins"],
+        "answer": 2,
+        "justification": "الخبز والأرز مصادر للكربوهيدرات (carbohydrates). 'fats' دهون، 'proteins' بروتينات، 'vitamins' فيتامينات.",
+        "context_sentence": "Pasta and bread are rich in ________, which give you energy."
       }
     },
     {
@@ -348,10 +379,11 @@
       "arabic": "يخفف",
       "page": "100",
       "question": {
-        "q": "This medicine will ____ your pain.",
-        "options": ["worsen", "alleviate", "ignore", "increase"],
-        "answer": 1,
-        "justification": "الدواء يخفف (alleviate) الألم. 'worsen' يزيده سوءاً، 'ignore' يتجاهل، 'increase' يزيد."
+        "q": "The doctor gave her medicine to ________ the severe back pain.",
+        "options": ["increase", "ignore", "worsen", "alleviate"],
+        "answer": 3,
+        "justification": "الدواء يخفف (alleviate) الألم. 'worsen' يزيده سوءاً، 'ignore' يتجاهل، 'increase' يزيد.",
+        "context_sentence": "The doctor gave her medicine to ________ the severe back pain."
       }
     },
     {
@@ -359,10 +391,11 @@
       "arabic": "عرض مرضي",
       "page": "100",
       "question": {
-        "q": "Fever is a ____ of the flu.",
-        "options": ["cause", "symptom", "cure", "disease"],
+        "q": "A runny nose and sneezing are common ________ of a cold.",
+        "options": ["disease", "symptom", "cause", "cure"],
         "answer": 1,
-        "justification": "الحمى عرض (symptom) من أعراض الإنفلونزا. 'cause' سبب، 'cure' علاج، 'disease' مرض."
+        "justification": "الحمى عرض (symptom) من أعراض الإنفلونزا. 'cause' سبب، 'cure' علاج، 'disease' مرض.",
+        "context_sentence": "A runny nose and sneezing are common ________ of a cold."
       }
     },
     {
@@ -370,10 +403,11 @@
       "arabic": "نسيج",
       "page": "100",
       "question": {
-        "q": "Body ____ can be damaged by disease.",
-        "options": ["tissues", "bones", "muscles", "teeth"],
-        "answer": 0,
-        "justification": "الأنسجة (tissues) هي التي تتضرر بالأمراض. 'bones' عظام، 'muscles' عضلات، 'teeth' أسنان."
+        "q": "The doctor examined a sample of ________ under the microscope.",
+        "options": ["bones", "teeth", "tissues", "muscles"],
+        "answer": 2,
+        "justification": "الأنسجة (tissues) هي التي تتضرر بالأمراض. 'bones' عظام، 'muscles' عضلات، 'teeth' أسنان.",
+        "context_sentence": "The doctor examined a sample of ________ under the microscope."
       }
     },
     {
@@ -381,10 +415,11 @@
       "arabic": "هضم",
       "page": "101",
       "question": {
-        "q": "Food is broken down during ____.",
-        "options": ["sleep", "exercise", "digestion", "reading"],
-        "answer": 2,
-        "justification": "الطعام يُهضم أثناء عملية الهضم (digestion). 'sleep' نوم، 'exercise' تمارين، 'reading' قراءة."
+        "q": "Drinking water aids the process of ________ after a heavy meal.",
+        "options": ["exercise", "digestion", "sleep", "reading"],
+        "answer": 1,
+        "justification": "الطعام يُهضم أثناء عملية الهضم (digestion). 'sleep' نوم، 'exercise' تمارين، 'reading' قراءة.",
+        "context_sentence": "Drinking water aids the process of ________ after a heavy meal."
       }
     },
     {
@@ -392,10 +427,11 @@
       "arabic": "نظام غذائي",
       "page": "100",
       "question": {
-        "q": "A balanced ____ is essential for health.",
-        "options": ["diet", "exercise", "hobby", "habit"],
+        "q": "A healthy ________ includes plenty of fruits, vegetables, and whole grains.",
+        "options": ["diet", "habit", "exercise", "hobby"],
         "answer": 0,
-        "justification": "النظام الغذائي (diet) المتوازن أساسي للصحة. 'exercise' تمارين، 'hobby' هواية، 'habit' عادة."
+        "justification": "النظام الغذائي (diet) المتوازن أساسي للصحة. 'exercise' تمارين، 'hobby' هواية، 'habit' عادة.",
+        "context_sentence": "A healthy ________ includes plenty of fruits, vegetables, and whole grains."
       }
     },
     {
@@ -403,10 +439,11 @@
       "arabic": "مرئي",
       "page": "Extra 2",
       "question": {
-        "q": "Only ____ matter can be seen.",
-        "options": ["visible", "dark", "hidden", "invisible"],
-        "answer": 0,
-        "justification": "المادة المرئية (visible) هي التي تُرى. 'dark' مظلم، 'hidden' مخفي، 'invisible' غير مرئي."
+        "q": "Only the top of the iceberg is ________ above the water; the rest lies hidden.",
+        "options": ["invisible", "dark", "visible", "hidden"],
+        "answer": 2,
+        "justification": "المادة المرئية (visible) هي التي تُرى. 'dark' مظلم، 'hidden' مخفي، 'invisible' غير مرئي.",
+        "context_sentence": "Only the top of the iceberg is ________ above the water; the rest lies hidden."
       }
     },
     {
@@ -414,10 +451,11 @@
       "arabic": "جاذبي",
       "page": "Extra 2",
       "question": {
-        "q": "Dark matter has ____ effects.",
-        "options": ["gravitational", "electrical", "chemical", "thermal"],
-        "answer": 0,
-        "justification": "للمادة المظلمة تأثيرات جاذبية (gravitational). 'electrical' كهربائية، 'chemical' كيميائية، 'thermal' حرارية."
+        "q": "The moon's ________ pull causes the ocean tides.",
+        "options": ["electrical", "chemical", "thermal", "gravitational"],
+        "answer": 3,
+        "justification": "للمادة المظلمة تأثيرات جاذبية (gravitational). 'electrical' كهربائية، 'chemical' كيميائية، 'thermal' حرارية.",
+        "context_sentence": "The moon's ________ pull causes the ocean tides."
       }
     },
     {
@@ -425,10 +463,11 @@
       "arabic": "مشروب",
       "page": "Extra 2",
       "question": {
-        "q": "Coffee is a popular ____.",
-        "options": ["beverage", "food", "sport", "machine"],
-        "answer": 0,
-        "justification": "القهوة مشروب (beverage) شعبي. 'food' طعام، 'sport' رياضة، 'machine' آلة."
+        "q": "Tea is the most popular hot ________ in the world, especially in Britain.",
+        "options": ["machine", "sport", "food", "beverage"],
+        "answer": 3,
+        "justification": "القهوة مشروب (beverage) شعبي. 'food' طعام، 'sport' رياضة، 'machine' آلة.",
+        "context_sentence": "Tea is the most popular hot ________ in the world, especially in Britain."
       }
     },
     {
@@ -436,10 +475,11 @@
       "arabic": "بصري",
       "page": "Extra 2",
       "question": {
-        "q": "A rainbow is an ____ phenomenon.",
-        "options": ["optical", "musical", "medical", "mechanical"],
-        "answer": 0,
-        "justification": "قوس قزح ظاهرة بصرية (optical). 'musical' موسيقية، 'medical' طبية، 'mechanical' ميكانيكية."
+        "q": "A mirage is an ________ illusion caused by the bending of light rays.",
+        "options": ["musical", "optical", "mechanical", "medical"],
+        "answer": 1,
+        "justification": "قوس قزح ظاهرة بصرية (optical). 'musical' موسيقية، 'medical' طبية، 'mechanical' ميكانيكية.",
+        "context_sentence": "A mirage is an ________ illusion caused by the bending of light rays."
       }
     }
   ]
