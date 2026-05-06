@@ -3,30 +3,215 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reading Test</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Reading – Harvard Classic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
     <style>
-        .container { max-width: 600px; margin: auto; background: white; border-radius: 28px; padding: 1.5rem; }
-        .timer { font-size: 1.5rem; font-weight: 700; text-align: center; margin-bottom: 1.5rem; }
-        .passage-box { background: #f8f9fd; border-radius: 18px; padding: 1.2rem; margin-bottom: 1.5rem; }
-        .q-block { background: #f5f5f7; border-radius: 16px; padding: 1rem; margin-bottom: 1.2rem; }
-        .q-block p { font-weight: 600; }
-        label { display: block; margin-bottom: 0.4rem; cursor: pointer; }
-        .btn { display: block; margin: 1.5rem auto 0; background: #0071e3; color: white; border: none; border-radius: 28px; padding: 1rem 2.5rem; font-size: 1.1rem; cursor: pointer; }
-        .result { text-align: center; font-size: 1.3rem; font-weight: 600; margin-top: 1.2rem; }
-        .feedback-inline { margin-top: 0.5rem; padding: 0.5rem; border-radius: 8px; font-size: 0.9rem; display: none; }
-        .feedback-inline.correct { background: #e8f5e9; color: #2e7d32; display: block; }
-        .feedback-inline.wrong { background: #fbe9e7; color: #c62828; display: block; }
-        .page-badge { font-size: 0.7rem; color: #aaa; margin-right: 0.5rem; font-style: italic; }
+        :root {
+            --paper: #faf7f2;
+            --text: #3e3a36;
+            --heading: #2c2416;
+            --accent: #8b7355;
+            --border: #d4c8b6;
+            --shadow: 0 4px 20px rgba(0,0,0,0.08);
+            --radius: 6px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Source Serif 4', 'Georgia', 'Times New Roman', serif;
+            background: #e8e0d5;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d4c8b6' fill-opacity='0.2'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            display: flex;
+            justify-content: center;
+            padding: 2rem 1rem;
+            min-height: 100vh;
+            line-height: 1.9;
+            color: var(--text);
+        }
+
+        .book-container {
+            max-width: 780px;
+            width: 100%;
+            background: var(--paper);
+            border-radius: 2px;
+            box-shadow: var(--shadow), 0 0 0 1px rgba(139,115,85,0.15);
+            padding: 3rem 3.5rem;
+            position: relative;
+        }
+
+        /* ribbon effect */
+        .book-container::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 40px;
+            width: 4px; height: 100%;
+            background: linear-gradient(to bottom, transparent 0%, rgba(139,115,85,0.25) 15%, rgba(139,115,85,0.25) 85%, transparent 100%);
+            border-radius: 2px;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', 'Georgia', serif;
+            color: var(--heading);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            line-height: 1.3;
+            letter-spacing: 0.02em;
+        }
+
+        h3 {
+            font-size: 1.6rem;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 0.4rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .passage-box {
+            background: rgba(255,255,255,0.5);
+            border-left: 3px solid var(--accent);
+            padding: 1.2rem 1.8rem;
+            margin: 1.5rem 0;
+            font-size: 1.1rem;
+            text-align: justify;
+            text-indent: 1.5em;
+            border-radius: 0 var(--radius) var(--radius) 0;
+            box-shadow: inset 0 0 8px rgba(139,115,85,0.06);
+        }
+
+        .passage-box p {
+            margin-bottom: 1rem;
+        }
+
+        .q-block {
+            background: #faf7f2;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.2rem 1.5rem;
+            margin: 1.2rem 0;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+        }
+
+        .q-block p {
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+        }
+
+        label {
+            display: block;
+            padding: 0.5rem 0.8rem;
+            margin: 0.3rem 0;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.15s;
+            font-family: 'Source Serif 4', serif;
+            font-size: 1rem;
+        }
+
+        label:hover {
+            background: rgba(139,115,85,0.08);
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--accent);
+            color: #faf7f2;
+            padding: 0.7rem 2.2rem;
+            border-radius: 3px;
+            font-size: 1.05rem;
+            font-weight: 500;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin-top: 2rem;
+            font-family: 'Inter', sans-serif;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn:hover { background: #6b5a45; }
+
+        .btn-print {
+            background: transparent;
+            color: var(--accent);
+            border: 1px solid var(--accent);
+            box-shadow: none;
+            margin-right: 1rem;
+            padding: 0.5rem 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        .btn-print:hover { background: rgba(139,115,85,0.1); }
+
+        .timer {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.2rem;
+            color: var(--accent);
+            text-align: right;
+            margin-bottom: 1rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 1px dotted var(--border);
+        }
+
+        .result {
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .feedback-inline {
+            margin-top: 0.5rem;
+            padding: 0.6rem 1rem;
+            border-radius: 3px;
+            font-size: 0.95rem;
+            display: none;
+            border-left: 4px solid transparent;
+        }
+
+        .feedback-inline.correct {
+            background: #edf7ed;
+            color: #2e5e2e;
+            border-left-color: #2e5e2e;
+            display: block;
+        }
+
+        .feedback-inline.wrong {
+            background: #fdf0ed;
+            color: #8b3a3a;
+            border-left-color: #8b3a3a;
+            display: block;
+        }
+
+        .page-badge {
+            font-size: 0.75rem;
+            color: #b5a48b;
+            margin-right: 0.5rem;
+            font-style: italic;
+        }
+
+        @media (max-width: 600px) {
+            .book-container {
+                padding: 1.5rem;
+            }
+            h3 { font-size: 1.3rem; }
+        }
     </style>
 </head>
 <body>
-<div class="container">
-<button class="btn no-print" onclick="window.open('print.html?day='+new URLSearchParams(location.search).get('day')+'&type=reading','_blank')" style="background:#ff9500;margin-bottom:1rem;">🖨️ طباعة</button>
-<button class="btn" onclick="window.open('print.html?day=' + new URLSearchParams(location.search).get('day') + '&type=reading', '_blank')" style="background:#ff9500;margin-bottom:1rem;display:inline-block;">🖨️ طباعة</button>
+<div class="book-container">
     <div class="timer" id="timer">⏳ 40:00</div>
     <div id="content">جاري التحميل...</div>
-    <button class="btn" onclick="submitAll()">إنهاء الاختبار</button>
+    <div style="margin-top:2rem; display: flex; justify-content: space-between; align-items: center;">
+        <button class="btn" onclick="submitAll()">إنهاء الاختبار</button>
+        <button class="btn btn-print" onclick="window.open('print.html?day='+new URLSearchParams(location.search).get('day')+'&type=reading','_blank')">🖨️ طباعة</button>
+    </div>
     <div class="result" id="result"></div>
 </div>
 <script>
@@ -41,13 +226,13 @@
       .then(data => {
           passages = data.passages || [];
           if (!passages.length) {
-              document.getElementById('content').innerHTML = '<p>لا توجد نصوص.</p>';
+              document.getElementById('content').innerHTML = '<p style="font-style:italic; color:#8b7355;">لا توجد نصوص لهذا اليوم.</p>';
               return;
           }
           let html = '', qCounter = 0;
           passages.forEach(p => {
-              let pageBadge = p.page ? `<span class="page-badge">(ص ${p.page})</span>` : '';
-              html += `<div class="passage-box"><h3>${p.title} ${pageBadge}</h3><p>${p.text.replace(/\n/g,'<br>')}</p></div>`;
+              let pageBadge = p.page ? `<span class="page-badge">ص ${p.page}</span>` : '';
+              html += `<h3>${p.title} ${pageBadge}</h3><div class="passage-box">${p.text.replace(/\n/g,'<br>')}</div>`;
               if (p.questions) p.questions.forEach(q => {
                   html += `<div class="q-block" id="qb${qCounter}"><p>${++qCounter}. ${q.q}</p>`;
                   (q.options || []).forEach((opt, oi) => {
@@ -72,7 +257,7 @@
     }
 
     function checkSingle(qIndex, selectedValue) {
-        if (answeredFlags[qIndex]) return; // already answered
+        if (answeredFlags[qIndex]) return;
         answeredFlags[qIndex] = true;
         let totalIdx = 0;
         let questionData = null;
@@ -90,7 +275,6 @@
         const fb = document.getElementById('fb' + qIndex);
         fb.className = 'feedback-inline ' + (isCorrect ? 'correct' : 'wrong');
         fb.innerHTML = (isCorrect ? '✅ صحيح! ' : '❌ خطأ. ') + (questionData.justification || '');
-        // تعطيل الخيارات
         const radios = document.getElementsByName('q' + qIndex);
         radios.forEach(r => r.disabled = true);
     }
@@ -119,7 +303,7 @@
         let perc = Math.round((correct / total) * 100);
         let res = document.getElementById('result');
         res.textContent = `النتيجة: ${correct} / ${total} (${perc}%)`;
-        res.style.color = perc >= 50 ? '#34c759' : '#ff3b30';
+        res.style.color = perc >= 50 ? '#2e5e2e' : '#8b3a3a';
     }
 </script>
 </body>
