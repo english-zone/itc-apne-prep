@@ -1,36 +1,486 @@
-cd /workspaces/itc-apne-prep
-
-cat > content/day-07/vocabulary.json << 'EOF'
 {
   "topic": "Final Review Vocabulary (Aurora & Al-Faw)",
   "pageRange": "Review",
   "words": [
-    {"english":"aurora","arabic":"شفق قطبي","page":"Review","question":{"q":"The ____ is a light display in the sky near the poles.","options":["aurora","tsunami","volcano","earthquake"],"answer":0,"justification":"الشفق القطبي (aurora) هو عرض ضوئي طبيعي في السماء قرب القطبين. تسونامي (tsunami) موجات مد، والبركان (volcano) جبل ناري، والزلزال (earthquake) اهتزاز أرضي."}},
-    {"english":"crackling","arabic":"طقطقة","page":"Review","question":{"q":"Observers reported hearing ____ sounds from aurora.","options":["crackling","silent","musical","loud"],"answer":0,"justification":"سُمعت أصوات طقطقة (crackling) خفيفة قرب الشفق. الصامت (silent) عكس ذلك، والموسيقي (musical) والمرتفع (loud) ليست أوصافاً دقيقة."}},
-    {"english":"sizzling","arabic":"أزيز","page":"Review","question":{"q":"Some described the auroral sound as ____.","options":["sizzling","freezing","shining","floating"],"answer":0,"justification":"البعض وصف صوت الشفق بأنه أزيز (sizzling) مثل أزيز الطعام في المقلاة. التجمد (freezing) واللمعان (shining) والطفو (floating) ليست أصواتاً."}},
-    {"english":"geomagnetic","arabic":"مغناطيسية أرضية","page":"Review","question":{"q":"The ____ storm causes both lights and sounds.","options":["geomagnetic","solar","seismic","atmospheric"],"answer":0,"justification":"العاصفة المغناطيسية الأرضية (geomagnetic) تولد الأضواء والأصوات. الشمسية (solar) واسعة، والزلزالية (seismic) للأرض، والجوية (atmospheric) عامة."}},
-    {"english":"induce","arabic":"يحث / يولد","page":"Review","question":{"q":"The storm ____ tiny electrical charges.","options":["induces","blocks","removes","ignores"],"answer":0,"justification":"العاصفة تولد (induce) شحنات كهربائية صغيرة. المنع (blocks) والإزالة (removes) والتجاهل (ignores) عكس ذلك."}},
-    {"english":"vibrate","arabic":"يهتز","page":"Review","question":{"q":"Pine needles ____ and create faint sounds.","options":["vibrate","melt","grow","disappear"],"answer":0,"justification":"الإبر الصنوبرية تهتز (vibrate) وتصدر أصواتاً خافتة. الذوبان (melt) والنمو (grow) والاختفاء (disappear) لا ينتج عنها أصوات."}},
-    {"english":"elusive","arabic":"بعيد المنال / صعب الإمساك","page":"Review","question":{"q":"The auroral sound is ____ and hard to capture.","options":["elusive","obvious","loud","permanent"],"answer":0,"justification":"الصوت الشفقي بعيد المنال (elusive) ويصعب تسجيله. الواضح (obvious) والمرتفع (loud) والدائم (permanent) عكس ذلك."}},
-    {"english":"folklore","arabic":"فولكلور / تراث شعبي","page":"Review","question":{"q":"Sámi ____ includes stories of auroral sounds.","options":["folklore","science","technology","industry"],"answer":0,"justification":"الفولكلور (folklore) السامي يتضمن قصصاً عن أصوات الشفق. العلم (science) والتكنولوجيا (technology) والصناعة (industry) مجالات حديثة."}},
-    {"english":"sensory","arabic":"حسي","page":"Review","question":{"q":"The aurora is a full ____ experience.","options":["sensory","visual","auditory","tactile"],"answer":0,"justification":"تجربة الشفق حسية (sensory) كاملة. البصرية (visual) والسمعية (auditory) واللمسية (tactile) أجزاء منها."}},
-    {"english":"celestial","arabic":"سماوي","page":"Review","question":{"q":"Tourists hope to witness the ____ display.","options":["celestial","underground","oceanic","urban"],"answer":0,"justification":"السياح يأملون مشاهدة العرض السماوي (celestial). الأرضي (underground) والمحيطي (oceanic) والحضري (urban) ليست مشاهد سماوية."}},
-    {"english":"colossus","arabic":"تمثال ضخم / عملاق","page":"Review","question":{"q":"Al‑Faw is called the ____ of the desert.","options":["colossus","village","oasis","mirage"],"answer":0,"justification":"الفاو يسمى عملاق الصحراء (colossus). القرية (village) صغيرة، والواحة (oasis) خضراء، والسراب (mirage) وهم."}},
-    {"english":"frankincense","arabic":"لبان / بخور","page":"Review","question":{"q":"Al‑Faw was a stop on the ____ trade route.","options":["frankincense","silk","spice","gold"],"answer":0,"justification":"الفاو كانت محطة على طريق تجارة اللبان (frankincense). الحرير (silk) والتوابل (spice) والذهب (gold) طرق أخرى."}},
-    {"english":"caravan","arabic":"قافلة","page":"Review","question":{"q":"____ of camels carried goods through Al‑Faw.","options":["Caravans","Fleets","Armies","Herds"],"answer":0,"justification":"قوافل (caravans) الجمال كانت تنقل البضائع. الأساطيل (fleets) للسفن، والجيوش (armies) للجنود، والقطعان (herds) للحيوانات."}},
-    {"english":"cosmopolitan","arabic":"عالمي / متعدد الثقافات","page":"Review","question":{"q":"Al‑Faw was a ____ hub with goods from many nations.","options":["cosmopolitan","isolated","primitive","empty"],"answer":0,"justification":"الفاو كان مركزاً عالمياً (cosmopolitan) متنوع الثقافات. المعزول (isolated) والبدائي (primitive) والفارغ (empty) عكس ذلك."}},
-    {"english":"irrigation","arabic":"ري","page":"Review","question":{"q":"Al‑Faw had a complex ____ system.","options":["irrigation","transportation","education","defense"],"answer":0,"justification":"الفاو تمتلك نظام ري (irrigation) معقد. النقل (transportation) والتعليم (education) والدفاع (defense) أنظمة أخرى."}},
-    {"english":"inscription","arabic":"نقش / كتابة","page":"Review","question":{"q":"The tombs were decorated with ____.","options":["inscriptions","paintings","tapestries","statues"],"answer":0,"justification":"القبور زُينت بنقوش (inscriptions). اللوحات (paintings) والسجاد (tapestries) والتماثيل (statues) ليست ما ذكر في النص."}},
-    {"english":"decline","arabic":"انحدار / تراجع","page":"Review","question":{"q":"Al‑Faw declined after the ____ of incense trade.","options":["decline","rise","peak","boom"],"answer":0,"justification":"تراجعت الفاو بعد انحدار (decline) تجارة البخور. الصعود (rise) والذروة (peak) والازدهار (boom) عكس ذلك."}},
-    {"english":"UNESCO","arabic":"اليونسكو","page":"Review","question":{"q":"Al‑Faw was declared a ____ World Heritage Site.","options":["UNESCO","NASA","NATO","OPEC"],"answer":0,"justification":"اليونسكو (UNESCO) هي منظمة التراث العالمي. ناسا (NASA) للفضاء، والناتو (NATO) عسكري، وأوبك (OPEC) للنفط."}},
-    {"english":"subterranean","arabic":"تحت الأرض","page":"Review","question":{"q":"Montreal has a ____ network of tunnels.","options":["subterranean","aerial","surface","coastal"],"answer":0,"justification":"مونتريال لديها شبكة أنفاق تحت الأرض (subterranean). الجوي (aerial) والسطح (surface) والساحلي (coastal) ليست تحت الأرض."}},
-    {"english":"labyrinth","arabic":"متاهة","page":"Review","question":{"q":"The Underground City is like a ____.","options":["labyrinth","highway","bridge","tower"],"answer":0,"justification":"المدينة تحت الأرض تشبه المتاهة (labyrinth). الطريق السريع (highway) والجسر (bridge) والبرج (tower) لا تصفها."}}
+    {
+      "english": "aurora",
+      "arabic": "شفق قطبي",
+      "page": "Review",
+      "question": {
+        "q": "The northern lights, also known as _______, are a spectacular natural phenomenon in the polar skies.",
+        "options": ["satellite", "phenomenon", "aurora", "ecosystem"],
+        "answer": 2,
+        "justification": "الشفق القطبي (aurora) هو عرض ضوئي طبيعي في السماء قرب القطبين. تسونامي (tsunami) موجات مد، والبركان (volcano) جبل ناري، والزلزال (earthquake) اهتزاز أرضي.",
+        "context_sentence": "The northern lights, also known as _______, are a spectacular natural phenomenon in the polar skies."
+      }
+    },
+    {
+      "english": "crackling",
+      "arabic": "طقطقة",
+      "page": "Review",
+      "question": {
+        "q": "We could hear the _______ of burning wood in the fireplace.",
+        "options": ["sizzling", "crackling", "navigation", "satellite"],
+        "answer": 1,
+        "justification": "سُمعت أصوات طقطقة (crackling) خفيفة قرب الشفق. الصامت (silent) عكس ذلك، والموسيقي (musical) والمرتفع (loud) ليست أوصافاً دقيقة.",
+        "context_sentence": "We could hear the _______ of burning wood in the fireplace."
+      }
+    },
+    {
+      "english": "sizzling",
+      "arabic": "أزيز",
+      "page": "Review",
+      "question": {
+        "q": "The _______ sound of the steak on the grill made everyone hungry.",
+        "options": ["geomagnetic", "sizzling", "shield", "consolidation"],
+        "answer": 1,
+        "justification": "البعض وصف صوت الشفق بأنه أزيز (sizzling) مثل أزيز الطعام في المقلاة. التجمد (freezing) واللمعان (shining) والطفو (floating) ليست أصواتاً.",
+        "context_sentence": "The _______ sound of the steak on the grill made everyone hungry."
+      }
+    },
+    {
+      "english": "geomagnetic",
+      "arabic": "مغناطيسية أرضية",
+      "page": "Review",
+      "question": {
+        "q": "Scientists monitor _______ storms that can disrupt satellite communications.",
+        "options": ["induce", "geomagnetic", "sustainable", "satellite"],
+        "answer": 1,
+        "justification": "العاصفة المغناطيسية الأرضية (geomagnetic) تولد الأضواء والأصوات. الشمسية (solar) واسعة، والزلزالية (seismic) للأرض، والجوية (atmospheric) عامة.",
+        "context_sentence": "Scientists monitor _______ storms that can disrupt satellite communications."
+      }
+    },
+    {
+      "english": "induce",
+      "arabic": "يحث / يولد",
+      "page": "Review",
+      "question": {
+        "q": "Certain medications can _______ drowsiness as a side effect.",
+        "options": ["induce", "vibrate", "navigator", "cosmopolitan"],
+        "answer": 0,
+        "justification": "العاصفة تولد (induce) شحنات كهربائية صغيرة. المنع (blocks) والإزالة (removes) والتجاهل (ignores) عكس ذلك.",
+        "context_sentence": "Certain medications can _______ drowsiness as a side effect."
+      }
+    },
+    {
+      "english": "vibrate",
+      "arabic": "يهتز",
+      "page": "Review",
+      "question": {
+        "q": "The phone started to _______ when someone called, but there was no ringtone.",
+        "options": ["grid", "vibrate", "heritage", "infrastructure"],
+        "answer": 1,
+        "justification": "الإبر الصنوبرية تهتز (vibrate) وتصدر أصواتاً خافتة. الذوبان (melt) والنمو (grow) والاختفاء (disappear) لا ينتج عنها أصوات.",
+        "context_sentence": "The phone started to _______ when someone called, but there was no ringtone."
+      }
+    },
+    {
+      "english": "elusive",
+      "arabic": "بعيد المنال / صعب الإمساك",
+      "page": "Review",
+      "question": {
+        "q": "The rare butterfly is so _______ that few photographers have captured it on camera.",
+        "options": ["immune", "elusive", "emission", "aurora"],
+        "answer": 1,
+        "justification": "الصوت الشفقي بعيد المنال (elusive) ويصعب تسجيله. الواضح (obvious) والمرتفع (loud) والدائم (permanent) عكس ذلك.",
+        "context_sentence": "The rare butterfly is so _______ that few photographers have captured it on camera."
+      }
+    },
+    {
+      "english": "folklore",
+      "arabic": "فولكلور / تراث شعبي",
+      "page": "Review",
+      "question": {
+        "q": "According to _______, a ghost haunts the old castle on the hill.",
+        "options": ["innovation", "folklore", "grid", "sustainable"],
+        "answer": 1,
+        "justification": "الفولكلور (folklore) السامي يتضمن قصصاً عن أصوات الشفق. العلم (science) والتكنولوجيا (technology) والصناعة (industry) مجالات حديثة.",
+        "context_sentence": "According to _______, a ghost haunts the old castle on the hill."
+      }
+    },
+    {
+      "english": "sensory",
+      "arabic": "حسي",
+      "page": "Review",
+      "question": {
+        "q": "The newborn explored the world through _______ experiences like touch and taste.",
+        "options": ["capacity", "drought", "sensory", "renewable"],
+        "answer": 2,
+        "justification": "تجربة الشفق حسية (sensory) كاملة. البصرية (visual) والسمعية (auditory) واللمسية (tactile) أجزاء منها.",
+        "context_sentence": "The newborn explored the world through _______ experiences like touch and taste."
+      }
+    },
+    {
+      "english": "celestial",
+      "arabic": "سماوي",
+      "page": "Review",
+      "question": {
+        "q": "Astronomers study _______ bodies such as stars, planets, and comets.",
+        "options": ["deprivation", "celestial", "innovation", "obesity"],
+        "answer": 1,
+        "justification": "السياح يأملون مشاهدة العرض السماوي (celestial). الأرضي (underground) والمحيطي (oceanic) والحضري (urban) ليست مشاهد سماوية.",
+        "context_sentence": "Astronomers study _______ bodies such as stars, planets, and comets."
+      }
+    },
+    {
+      "english": "colossus",
+      "arabic": "تمثال ضخم / عملاق",
+      "page": "Review",
+      "question": {
+        "q": "The statue of the ancient king stood like a _______ over the valley.",
+        "options": ["ecosystem", "colossus", "phenomenon", "drought"],
+        "answer": 1,
+        "justification": "الفاو يسمى عملاق الصحراء (colossus). القرية (village) صغيرة، والواحة (oasis) خضراء، والسراب (mirage) وهم.",
+        "context_sentence": "The statue of the ancient king stood like a _______ over the valley."
+      }
+    },
+    {
+      "english": "frankincense",
+      "arabic": "لبان / بخور",
+      "page": "Review",
+      "question": {
+        "q": "The ancient temple was filled with the sweet aroma of burning _______.",
+        "options": ["navigation", "frankincense", "shield", "celestial"],
+        "answer": 1,
+        "justification": "الفاو كانت محطة على طريق تجارة اللبان (frankincense). الحرير (silk) والتوابل (spice) والذهب (gold) طرق أخرى.",
+        "context_sentence": "The ancient temple was filled with the sweet aroma of burning _______."
+      }
+    },
+    {
+      "english": "caravan",
+      "arabic": "قافلة",
+      "page": "Review",
+      "question": {
+        "q": "A long _______ of camels crossed the desert, carrying spices and silks.",
+        "options": ["sensory", "caravan", "renewable", "consolidation"],
+        "answer": 1,
+        "justification": "قوافل (caravans) الجمال كانت تنقل البضائع. الأساطيل (fleets) للسفن، والجيوش (armies) للجنود، والقطعان (herds) للحيوانات.",
+        "context_sentence": "A long _______ of camels crossed the desert, carrying spices and silks."
+      }
+    },
+    {
+      "english": "cosmopolitan",
+      "arabic": "عالمي / متعدد الثقافات",
+      "page": "Review",
+      "question": {
+        "q": "New York City is known for its _______ atmosphere, where people from all over the world live together.",
+        "options": ["grid", "cosmopolitan", "deprivation", "heritage"],
+        "answer": 1,
+        "justification": "الفاو كان مركزاً عالمياً (cosmopolitan) متنوع الثقافات. المعزول (isolated) والبدائي (primitive) والفارغ (empty) عكس ذلك.",
+        "context_sentence": "New York City is known for its _______ atmosphere, where people from all over the world live together."
+      }
+    },
+    {
+      "english": "irrigation",
+      "arabic": "ري",
+      "page": "Review",
+      "question": {
+        "q": "The canals provided _______ to the fields, ensuring the crops grew tall and healthy.",
+        "options": ["capacity", "irrigation", "obesity", "crackling"],
+        "answer": 1,
+        "justification": "الفاو تمتلك نظام ري (irrigation) معقد. النقل (transportation) والتعليم (education) والدفاع (defense) أنظمة أخرى.",
+        "context_sentence": "The canals provided _______ to the fields, ensuring the crops grew tall and healthy."
+      }
+    },
+    {
+      "english": "inscription",
+      "arabic": "نقش / كتابة",
+      "page": "Review",
+      "question": {
+        "q": "The stone tablet had an ancient _______ carved into its surface.",
+        "options": ["inscription", "emission", "sustainable", "colossus"],
+        "answer": 0,
+        "justification": "القبور زُينت بنقوش (inscriptions). اللوحات (paintings) والسجاد (tapestries) والتماثيل (statues) ليست ما ذكر في النص.",
+        "context_sentence": "The stone tablet had an ancient _______ carved into its surface."
+      }
+    },
+    {
+      "english": "decline",
+      "arabic": "انحدار / تراجع",
+      "page": "Review",
+      "question": {
+        "q": "The empire began to _______ after a hundred years of prosperity.",
+        "options": ["decline", "sizzling", "ecosystem", "grid"],
+        "answer": 0,
+        "justification": "تراجعت الفاو بعد انحدار (decline) تجارة البخور. الصعود (rise) والذروة (peak) والازدهار (boom) عكس ذلك.",
+        "context_sentence": "The empire began to _______ after a hundred years of prosperity."
+      }
+    },
+    {
+      "english": "UNESCO",
+      "arabic": "اليونسكو",
+      "page": "Review",
+      "question": {
+        "q": "The pyramids of Giza are a _______ World Heritage Site.",
+        "options": ["UNESCO", "geomagnetic", "sensory", "frankincense"],
+        "answer": 0,
+        "justification": "اليونسكو (UNESCO) هي منظمة التراث العالمي. ناسا (NASA) للفضاء، والناتو (NATO) عسكري، وأوبك (OPEC) للنفط.",
+        "context_sentence": "The pyramids of Giza are a _______ World Heritage Site."
+      }
+    },
+    {
+      "english": "subterranean",
+      "arabic": "تحت الأرض",
+      "page": "Review",
+      "question": {
+        "q": "The _______ tunnels beneath the city were used as shelters during the war.",
+        "options": ["navigation", "subterranean", "renewable", "shield"],
+        "answer": 1,
+        "justification": "مونتريال لديها شبكة أنفاق تحت الأرض (subterranean). الجوي (aerial) والسطح (surface) والساحلي (coastal) ليست تحت الأرض.",
+        "context_sentence": "The _______ tunnels beneath the city were used as shelters during the war."
+      }
+    },
+    {
+      "english": "labyrinth",
+      "arabic": "متاهة",
+      "page": "Review",
+      "question": {
+        "q": "Getting lost in the _______ of narrow streets was part of the adventure in the old medina.",
+        "options": ["celestial", "labyrinth", "folklore", "crackling"],
+        "answer": 1,
+        "justification": "المدينة تحت الأرض تشبه المتاهة (labyrinth). الطريق السريع (highway) والجسر (bridge) والبرج (tower) لا تصفها.",
+        "context_sentence": "Getting lost in the _______ of narrow streets was part of the adventure in the old medina."
+      }
+    },
+    {
+      "english": "sustainable",
+      "arabic": "مستدام",
+      "page": "Extra-7",
+      "question": {
+        "q": "We need to find a _______ source of energy that won't run out.",
+        "options": ["infrastructure", "phenomenon", "sustainable", "irrigation"],
+        "answer": 2,
+        "justification": "'sustainable' تعني قادر على الاستمرار دون استنزاف الموارد. 'temporary' مؤقت، 'weak' ضعيف، 'limited' محدود.",
+        "context_sentence": "We need to find a _______ source of energy that won't run out."
+      }
+    },
+    {
+      "english": "innovation",
+      "arabic": "ابتكار",
+      "page": "Extra-7",
+      "question": {
+        "q": "The company encourages _______ by rewarding employees for creative ideas.",
+        "options": ["capacity", "innovation", "caravan", "labyrinth"],
+        "answer": 1,
+        "justification": "'innovation' تعني ابتكار أو تجديد. 'destruction' تدمير، 'tradition' تقليد، 'imitation' تقليد (نسخ).",
+        "context_sentence": "The company encourages _______ by rewarding employees for creative ideas."
+      }
+    },
+    {
+      "english": "ecosystem",
+      "arabic": "نظام بيئي",
+      "page": "Extra-7",
+      "question": {
+        "q": "Coral reefs are a delicate _______ that can be easily damaged by pollution.",
+        "options": ["elusive", "ecosystem", "decline", "UNESCO"],
+        "answer": 1,
+        "justification": "'ecosystem' يشير إلى مجتمع الكائنات الحية وبيئتها. 'machine' آلة، 'building' مبنى، 'vehicle' مركبة.",
+        "context_sentence": "Coral reefs are a delicate _______ that can be easily damaged by pollution."
+      }
+    },
+    {
+      "english": "phenomenon",
+      "arabic": "ظاهرة",
+      "page": "Extra-7",
+      "question": {
+        "q": "The sudden increase in temperature was a natural _______ that scientists studied.",
+        "options": ["inscription", "phenomenon", "deprivation", "cosmopolitan"],
+        "answer": 1,
+        "justification": "'phenomenon' تعني ظاهرة طبيعية أو اجتماعية ملفتة. 'problem' مشكلة، 'solution' حل، 'theory' نظرية.",
+        "context_sentence": "The sudden increase in temperature was a natural _______ that scientists studied."
+      }
+    },
+    {
+      "english": "navigation",
+      "arabic": "ملاحة",
+      "page": "Extra-7",
+      "question": {
+        "q": "Early sailors used the stars for _______ across the open ocean.",
+        "options": ["sustainable", "folklore", "emission", "navigation"],
+        "answer": 3,
+        "justification": "'navigation' تعني فن توجيه المركبات أو السفن. 'cooking' طبخ، 'gardening' زراعة، 'painting' رسم.",
+        "context_sentence": "Early sailors used the stars for _______ across the open ocean."
+      }
+    },
+    {
+      "english": "heritage",
+      "arabic": "تراث",
+      "page": "Extra-7",
+      "question": {
+        "q": "The ancient mosque is part of the cultural _______ of the region.",
+        "options": ["subterranean", "colossus", "immuna", "heritage"],
+        "answer": 3,
+        "justification": "'heritage' تعني إرث ثقافي أو تاريخي. 'problem' مشكلة، 'expense' مصروف، 'noise' ضوضاء.",
+        "context_sentence": "The ancient mosque is part of the cultural _______ of the region."
+      }
+    },
+    {
+      "english": "renewable",
+      "arabic": "متجدد",
+      "page": "Extra-7",
+      "question": {
+        "q": "Wind and solar power are _______ energy sources.",
+        "options": ["induce", "labyrinth", "renewable", "capacity"],
+        "answer": 2,
+        "justification": "'renewable' تعني قابل للتجديد مثل الطاقة الشمسية. 'finite' محدود، 'dangerous' خطر، 'expensive' غالي.",
+        "context_sentence": "Wind and solar power are _______ energy sources."
+      }
+    },
+    {
+      "english": "infrastructure",
+      "arabic": "بنية تحتية",
+      "page": "Extra-7",
+      "question": {
+        "q": "The city is spending billions on improving its _______ including roads and bridges.",
+        "options": ["sensory", "infrastructure", "decline", "drought"],
+        "answer": 1,
+        "justification": "'infrastructure' تشير إلى المرافق الأساسية كالطرق والجسور. 'entertainment' ترفيه، 'fashion' موضة، 'cuisine' مطبخ.",
+        "context_sentence": "The city is spending billions on improving its _______ including roads and bridges."
+      }
+    },
+    {
+      "english": "satellite",
+      "arabic": "قمر صناعي",
+      "page": "Extra-7",
+      "question": {
+        "q": "The _______ orbits the Earth and sends back weather data.",
+        "options": ["crackling", "satellite", "caravan", "obesity"],
+        "answer": 1,
+        "justification": "'satellite' هو جسم يدور حول كوكب، وغالباً يستخدم للاتصالات. 'submarine' غواصة، 'airplane' طائرة، 'train' قطار.",
+        "context_sentence": "The _______ orbits the Earth and sends back weather data."
+      }
+    },
+    {
+      "english": "drought",
+      "arabic": "جفاف",
+      "page": "Extra-7",
+      "question": {
+        "q": "The severe _______ caused the crops to wither and die.",
+        "options": ["UNESCO", "cognitive", "drought", "sizzling"],
+        "answer": 2,
+        "justification": "'drought' تعني فترة طويلة من الجفاف. 'flood' فيضان، 'earthquake' زلزال، 'volcano' بركان.",
+        "context_sentence": "The severe _______ caused the crops to wither and die."
+      }
+    },
+    {
+      "english": "obesity",
+      "arabic": "سمنة",
+      "page": "Extra-7",
+      "question": {
+        "q": "Childhood _______ is a growing concern due to poor diet and lack of exercise.",
+        "options": ["grid", "innovation", "obesity", "folklore"],
+        "answer": 2,
+        "justification": "'obesity' حالة زيادة الوزن المفرطة. 'thinness' نحافة، 'tallness' طول، 'weakness' ضعف.",
+        "context_sentence": "Childhood _______ is a growing concern due to poor diet and lack of exercise."
+      }
+    },
+    {
+      "english": "immune",
+      "arabic": "مناعي",
+      "page": "Extra-7",
+      "question": {
+        "q": "Eating healthy food can boost your _______ system.",
+        "options": ["irrigation", "immune", "inscription", "phenomenon"],
+        "answer": 1,
+        "justification": "'immune' يتعلق بجهاز المناعة. 'digestive' هضمي، 'nervous' عصبي، 'skeletal' هيكلي.",
+        "context_sentence": "Eating healthy food can boost your _______ system."
+      }
+    },
+    {
+      "english": "cognitive",
+      "arabic": "معرفي",
+      "page": "Extra-7",
+      "question": {
+        "q": "Puzzles and memory games can help maintain _______ function in old age.",
+        "options": ["geothermal", "cognitive", "celestial", "heritage"],
+        "answer": 1,
+        "justification": "'cognitive' تعني متعلق بالعمليات العقلية كالتفكير. 'physical' جسدي، 'emotional' عاطفي، 'social' اجتماعي.",
+        "context_sentence": "Puzzles and memory games can help maintain _______ function in old age."
+      }
+    },
+    {
+      "english": "deprivation",
+      "arabic": "حرمان",
+      "page": "Extra-7",
+      "question": {
+        "q": "Sleep _______ can lead to serious health problems.",
+        "options": ["deprivation", "ecosystem", "navigation", "frankincense"],
+        "answer": 0,
+        "justification": "'deprivation' تعني الحرمان من شيء ضروري. 'excess' إفراط، 'addition' إضافة، 'balance' توازن.",
+        "context_sentence": "Sleep _______ can lead to serious health problems."
+      }
+    },
+    {
+      "english": "consolidation",
+      "arabic": "توطيد",
+      "page": "Extra-7",
+      "question": {
+        "q": "The _______ of the two companies created a new industry leader.",
+        "options": ["shielding", "vibrate", "consolidation", "aurora"],
+        "answer": 2,
+        "justification": "'consolidation' تعني دمج أو تقوية شيء مثل الذاكرة. 'destruction' تدمير، 'separation' فصل، 'weakening' إضعاف.",
+        "context_sentence": "The _______ of the two companies created a new industry leader."
+      }
+    },
+    {
+      "english": "shield",
+      "arabic": "درع / يقي",
+      "page": "Extra-7",
+      "question": {
+        "q": "The ozone layer acts as a _______ against harmful ultraviolet rays.",
+        "options": ["shield", "elusive", "subterranean", "colossus"],
+        "answer": 0,
+        "justification": "'shield' كفعل تعني يحمي، وكاسم تعني درع. 'attack' يهاجم، 'expose' يعرض، 'damage' يتلف.",
+        "context_sentence": "The ozone layer acts as a _______ against harmful ultraviolet rays."
+      }
+    },
+    {
+      "english": "emission",
+      "arabic": "انبعاث",
+      "page": "Extra-7",
+      "question": {
+        "q": "Factories must reduce their carbon _______ to combat climate change.",
+        "options": ["sustainable", "emission", "cosmopolitan", "labyrinth"],
+        "answer": 1,
+        "justification": "'emission' تعني انبعاث الغازات. 'absorption' امتصاص، 'reflection' انعكاس، 'collection' جمع.",
+        "context_sentence": "Factories must reduce their carbon _______ to combat climate change."
+      }
+    },
+    {
+      "english": "grid",
+      "arabic": "شبكة كهرباء",
+      "page": "Extra-7",
+      "question": {
+        "q": "The entire neighborhood lost power when the _______ failed.",
+        "options": ["grid", "phenomenon", "caravan", "obesity"],
+        "answer": 0,
+        "justification": "'grid' تشير إلى شبكة الكهرباء. 'river' نهر، 'forest' غابة، 'mountain' جبل.",
+        "context_sentence": "The entire neighborhood lost power when the _______ failed."
+      }
+    },
+    {
+      "english": "capacity",
+      "arabic": "سعة",
+      "page": "Extra-7",
+      "question": {
+        "q": "The stadium has a _______ of 50,000 spectators.",
+        "options": ["innovation", "capacity", "stratosphere", "decline"],
+        "answer": 1,
+        "justification": "'capacity' تعني قدرة استيعاب أو حجم. 'color' لون، 'shape' شكل، 'speed' سرعة.",
+        "context_sentence": "The stadium has a _______ of 50,000 spectators."
+      }
+    },
+    {
+      "english": "strategically",
+      "arabic": "استراتيجياً",
+      "page": "Extra-7",
+      "question": {
+        "q": "The castle was _______ located on a hilltop for defense.",
+        "options": ["strategically", "sizzling", "UNESCO", "drought"],
+        "answer": 0,
+        "justification": "'strategically' تعني بطريقة مخططة بعناية. 'randomly' عشوائياً، 'poorly' بشكل سيئ، 'quickly' بسرعة.",
+        "context_sentence": "The castle was _______ located on a hilltop for defense."
+      }
+    }
   ]
 }
-EOF
-
-git add content/day-07/vocabulary.json
-git commit -m "إضافة مفردات اليوم السابع من القطعتين مع تبريرات موسّعة"
-git push origin main
-
-echo "✅ تم إنشاء مفردات اليوم السابع. جربها الآن على الموقع."
