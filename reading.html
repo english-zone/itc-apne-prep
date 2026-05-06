@@ -14,6 +14,10 @@
         label { display: block; margin-bottom: 0.4rem; cursor: pointer; }
         .btn { display: block; margin: 1.5rem auto 0; background: #0071e3; color: white; border: none; border-radius: 28px; padding: 1rem 2.5rem; font-size: 1.1rem; cursor: pointer; }
         .result { text-align: center; font-size: 1.3rem; font-weight: 600; margin-top: 1.2rem; }
+        .feedback-inline { margin-top: 0.5rem; padding: 0.5rem; border-radius: 8px; font-size: 0.9rem; display: none; }
+        .feedback-inline.correct { background: #e8f5e9; color: #2e7d32; display: block; }
+        .feedback-inline.wrong { background: #fbe9e7; color: #c62828; display: block; }
+        .page-badge { font-size: 0.7rem; color: #aaa; margin-right: 0.5rem; font-style: italic; }
     </style>
 </head>
 <body>
@@ -28,6 +32,8 @@
     const day = params.get('day') || '1';
     const folder = 'day-' + day.toString().padStart(2, '0');
     let passages = [], timeRemaining = 2400, interval;
+    let answeredFlags = [];
+
     fetch('content/' + folder + '/reading.json')
       .then(r => r.json())
       .then(data => {
@@ -38,15 +44,17 @@
           }
           let html = '', qCounter = 0;
           passages.forEach(p => {
-              html += `<div class="passage-box"><h3>${p.title}</h3><p>${p.text.replace(/\n/g,'<br>')}</p></div>`;
+              let pageBadge = p.page ? `<span class="page-badge">(ص ${p.page})</span>` : '';
+              html += `<div class="passage-box"><h3>${p.title} ${pageBadge}</h3><p>${p.text.replace(/\n/g,'<br>')}</p></div>`;
               if (p.questions) p.questions.forEach(q => {
-                  html += `<div class="q-block"><p>${++qCounter}. ${q.q}</p>`;
+                  html += `<div class="q-block" id="qb${qCounter}"><p>${++qCounter}. ${q.q}</p>`;
                   (q.options || []).forEach((opt, oi) => {
-                      html += `<label><input type="radio" name="q${qCounter-1}" value="${oi}"> ${opt}</label>`;
+                      html += `<label><input type="radio" name="q${qCounter-1}" value="${oi}" onchange="checkSingle(${qCounter-1}, this.value)"> ${opt}</label>`;
                   });
-                  html += '</div>';
+                  html += `<div class="feedback-inline" id="fb${qCounter-1}"></div></div>`;
               });
           });
+          answeredFlags = new Array(qCounter).fill(false);
           document.getElementById('content').innerHTML = html;
           startTimer();
       })
@@ -60,27 +68,56 @@
             if (timeRemaining <= 0) { clearInterval(interval); submitAll(); }
         }, 1000);
     }
+
+    function checkSingle(qIndex, selectedValue) {
+        if (answeredFlags[qIndex]) return; // already answered
+        answeredFlags[qIndex] = true;
+        let totalIdx = 0;
+        let questionData = null;
+        for (const p of passages) {
+            if (!p.questions) continue;
+            if (qIndex - totalIdx < p.questions.length) {
+                questionData = p.questions[qIndex - totalIdx];
+                break;
+            }
+            totalIdx += p.questions.length;
+        }
+        if (!questionData) return;
+        const correct = questionData.answer != null ? questionData.answer : questionData.correct;
+        const isCorrect = (parseInt(selectedValue) === correct);
+        const fb = document.getElementById('fb' + qIndex);
+        fb.className = 'feedback-inline ' + (isCorrect ? 'correct' : 'wrong');
+        fb.innerHTML = (isCorrect ? '✅ صحيح! ' : '❌ خطأ. ') + (questionData.justification || '');
+        // تعطيل الخيارات
+        const radios = document.getElementsByName('q' + qIndex);
+        radios.forEach(r => r.disabled = true);
+    }
+
     function submitAll() {
         clearInterval(interval);
-        let total = 0, correct = 0, mistakes = [];
-        passages.forEach(p => {
-            if (!p.questions) return;
-            p.questions.forEach((q, qi) => {
-                let idx = total++;
-                let sel = document.querySelector(`input[name="q${idx}"]:checked`);
-                let ans = q.answer !== undefined ? q.answer : q.correct;
-                if (sel && parseInt(sel.value) === ans) correct++;
-                else mistakes.push({ question: q.q, correct: (q.options || [])[ans] || ans });
-            });
-        });
+        let total = 0, correct = 0;
+        for (let i = 0; i < answeredFlags.length; i++) {
+            total++;
+            const selected = document.querySelector(`input[name="q${i}"]:checked`);
+            if (!selected) continue;
+            let questionData = null;
+            let offset = 0;
+            for (const p of passages) {
+                if (!p.questions) continue;
+                if (i - offset < p.questions.length) {
+                    questionData = p.questions[i - offset];
+                    break;
+                }
+                offset += p.questions.length;
+            }
+            if (!questionData) continue;
+            const ans = questionData.answer != null ? questionData.answer : questionData.correct;
+            if (parseInt(selected.value) === ans) correct++;
+        }
         let perc = Math.round((correct / total) * 100);
         let res = document.getElementById('result');
         res.textContent = `النتيجة: ${correct} / ${total} (${perc}%)`;
         res.style.color = perc >= 50 ? '#34c759' : '#ff3b30';
-        if (mistakes.length) {
-            let saved = JSON.parse(localStorage.getItem('apne_mistakes') || '[]');
-            localStorage.setItem('apne_mistakes', JSON.stringify(saved.concat(mistakes)));
-        }
     }
 </script>
 </body>
