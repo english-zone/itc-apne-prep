@@ -3,7 +3,7 @@ const params = new URLSearchParams(location.search);
 const day = params.get('day') || '1';
 const folder = 'day-' + day.toString().padStart(2, '0');
 let wordsData = [];
-fetch('content/' + folder + '/vocabulary.json').then(r=>r.json()).then(data=>{
+fetch('content/' + folder + '/vocabulary.json?v=' + Date.now()).then(r=>r.json()).then(data=>{
 wordsData = data.words || [];
 if(!wordsData.length){ document.getElementById('vocabContent').innerHTML='<p>لا توجد مفردات.</p>'; return; }
 let html = ''; wordsData.forEach((w,i)=>{
