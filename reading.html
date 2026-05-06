@@ -22,6 +22,7 @@
 </head>
 <body>
 <div class="container">
+<button class="btn no-print" onclick="window.open('print.html?day='+new URLSearchParams(location.search).get('day')+'&type=reading','_blank')" style="background:#ff9500;margin-bottom:1rem;">🖨️ طباعة</button>
 <button class="btn" onclick="window.open('print.html?day=' + new URLSearchParams(location.search).get('day') + '&type=reading', '_blank')" style="background:#ff9500;margin-bottom:1rem;display:inline-block;">🖨️ طباعة</button>
     <div class="timer" id="timer">⏳ 40:00</div>
     <div id="content">جاري التحميل...</div>
