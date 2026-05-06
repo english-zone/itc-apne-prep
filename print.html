@@ -14,7 +14,6 @@
                 print-color-adjust: exact;
             }
             .no-print { display: none !important; }
-            .page-break { page-break-before: always; }
             .watermark {
                 position: fixed;
                 top: 50%; left: 50%;
@@ -26,6 +25,8 @@
                 pointer-events: none;
                 z-index: 0;
             }
+            /* إخفاء ورقة الإجابة تماماً عند الطباعة */
+            .answer-key { display: none !important; }
         }
         body {
             font-family: 'Cairo', sans-serif;
@@ -151,8 +152,7 @@
             جاري التحميل...
         </div>
 
-        <!-- ورقة الإجابة -->
-        <div class="page-break"></div>
+        <!-- ورقة الإجابة (ستظهر فقط على الشاشة، وتُخفى عند الطباعة) -->
         <div class="answer-key" id="answerKey">
             <h3>📋 ورقة الإجابة</h3>
             <div id="answerList">جاري التحميل...</div>
@@ -199,8 +199,7 @@
                                 num: i+1,
                                 word: w.english,
                                 arabic: w.arabic,
-                                page: w.page,
-                                justification: w.question.justification || ''
+                                page: w.page
                             });
                         }
                     });
