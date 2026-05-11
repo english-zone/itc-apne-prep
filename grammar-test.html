@@ -1,1 +1,105 @@
-<!DOCTYPE html><html lang="ar"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Grammar Test</title><link rel="stylesheet" href="css/style.css"><style>.container{max-width:600px;margin:auto;background:white;border-radius:28px;padding:1.5rem}.timer{font-size:1.5rem;font-weight:700;text-align:center;margin-bottom:1.5rem}.q-block{background:#f5f5f7;border-radius:16px;padding:1rem;margin-bottom:1.2rem}label{display:block;margin-bottom:.4rem;cursor:pointer}.btn{display:block;margin:1.5rem auto 0;background:#0071e3;color:white;border:none;border-radius:28px;padding:1rem 2.5rem;font-size:1.1rem;cursor:pointer}.result{text-align:center;font-size:1.3rem;font-weight:600;margin-top:1.2rem}</style></head><body><div class="container"><div class="timer" id="timer">⏳ 40:00</div><div id="content">جاري التحميل...</div><button class="btn" onclick="submitAll()">إنهاء</button><div class="result" id="result"></div></div><script>const p=new URLSearchParams(location.search);const day=p.get('day')||'1';const folder='day-'+day.toString().padStart(2,'0');let questions=[],remaining=2400,interval;fetch('content/'+folder+'/grammar-test.json').then(r=>r.json()).then(data=>{questions=Array.isArray(data)?data:data.questions||[];if(!questions.length){document.getElementById('content').innerHTML='<p>لا توجد أسئلة.</p>';return}let h='';questions.forEach((q,i)=>{h+='<div class="q-block"><p>'+(i+1)+'. '+ (q.q||q.question) +'</p>';q.options.forEach((o,j)=>{h+='<label><input type="radio" name="q'+i+'" value="'+j+'"> '+o+'</label>'});h+='</div>'});document.getElementById('content').innerHTML=h;startTimer()}).catch(()=>document.getElementById('content').innerHTML='<p>تعذر التحميل.</p>');function startTimer(){interval=setInterval(()=>{remaining--;let m=Math.floor(remaining/60),s=remaining%60;document.getElementById('timer').textContent='⏳ '+m+':'+s.toString().padStart(2,'0');if(remaining<=0){clearInterval(interval);submitAll()}},1000)}function submitAll(){clearInterval(interval);let correct=0;questions.forEach((q,i)=>{let sel=document.querySelector('input[name="q'+i+'"]:checked');let ans=q.answer!=null?q.answer:q.correct;if(sel&&parseInt(sel.value)===ans)correct++});let perc=Math.round(correct/questions.length*100);let res=document.getElementById('result');res.textContent='النتيجة: '+correct+'/'+questions.length+' ('+perc+'%)';res.style.color=perc>=50?'#34c759':'#ff3b30';let mistakes=[];questions.forEach((q,i)=>{let sel=document.querySelector('input[name="q'+i+'"]:checked');let ans=q.answer!=null?q.answer:q.correct;if(!(sel&&parseInt(sel.value)===ans))mistakes.push({question:q.q||q.question,correct:(q.options||[])[ans]||ans})});if(mistakes.length){let saved=JSON.parse(localStorage.getItem('apne_mistakes')||'[]');localStorage.setItem('apne_mistakes',JSON.stringify(saved.concat(mistakes)))}}</script></body></html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Test</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .container { max-width: 600px; margin: auto; background: white; border-radius: 28px; padding: 1.5rem; }
+        .timer { font-size: 1.5rem; font-weight: 700; text-align: center; margin-bottom: 1.5rem; }
+        .q-block { background: #f5f5f7; border-radius: 16px; padding: 1rem; margin-bottom: 1.2rem; }
+        label { display: block; margin-bottom: 0.4rem; cursor: pointer; }
+        .btn { display: block; margin: 1.5rem auto 0; background: #0071e3; color: white; border: none; border-radius: 28px; padding: 1rem 2.5rem; font-size: 1.1rem; cursor: pointer; }
+        .result { text-align: center; font-size: 1.3rem; font-weight: 600; margin-top: 1.2rem; }
+        .feedback-inline { margin-top: 0.5rem; padding: 0.5rem; border-radius: 8px; font-size: 0.9rem; display: none; }
+        .feedback-inline.correct { background: #e8f5e9; color: #2e7d32; display: block; }
+        .feedback-inline.wrong { background: #fbe9e7; color: #c62828; display: block; }
+        .page-badge { font-size: 0.7rem; color: #aaa; margin-right: 0.5rem; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="timer" id="timer">⏳ 40:00</div>
+    <div id="content">جاري التحميل...</div>
+    <button class="btn" onclick="submitAll()">إنهاء الاختبار</button>
+    <div class="result" id="result"></div>
+</div>
+<script>
+    const params = new URLSearchParams(location.search);
+    const day = params.get('day') || '1';
+    const folder = 'day-' + day.toString().padStart(2, '0');
+    let questions = [], timeRemaining = 2400, interval;
+    let answeredFlags = [];
+
+    fetch('content/' + folder + '/grammar-test.json')
+      .then(r => r.json())
+      .then(data => {
+          questions = Array.isArray(data) ? data : data.questions || [];
+          if (!questions.length) {
+              document.getElementById('content').innerHTML = '<p>لا توجد أسئلة.</p>';
+              return;
+          }
+          let html = '';
+          questions.forEach((q, i) => {
+              let opts = [...(q.options || [])];
+              let correctAns = q.answer != null ? q.answer : q.correct;
+              let correctText = opts[correctAns];
+              // خلط الخيارات عشوائياً
+              opts.sort(() => Math.random() - 0.5);
+              let newIdx = opts.indexOf(correctText);
+              if(newIdx === -1) newIdx = correctAns;
+              q._shuffledOptions = opts;
+              q._shuffledAnswer = newIdx;
+              
+              html += `<div class="q-block" id="qb${i}"><p>${i+1}. ${q.q || q.question}</p>`;
+              opts.forEach((opt, oi) => {
+                  html += `<label><input type="radio" name="q${i}" value="${oi}" onchange="checkSingle(${i}, this.value)"> ${opt}</label>`;
+              });
+              html += `<div class="feedback-inline" id="fb${i}"></div></div>`;
+          });
+          answeredFlags = new Array(questions.length).fill(false);
+          document.getElementById('content').innerHTML = html;
+          startTimer();
+      })
+      .catch(() => document.getElementById('content').innerHTML = '<p>تعذر التحميل.</p>');
+
+    function startTimer() {
+        interval = setInterval(() => {
+            timeRemaining--;
+            let m = Math.floor(timeRemaining / 60), s = timeRemaining % 60;
+            document.getElementById('timer').textContent = `⏳ ${m}:${s.toString().padStart(2, '0')}`;
+            if (timeRemaining <= 0) { clearInterval(interval); submitAll(); }
+        }, 1000);
+    }
+
+    function checkSingle(qIndex, selectedValue) {
+        if (answeredFlags[qIndex]) return;
+        answeredFlags[qIndex] = true;
+        const q = questions[qIndex];
+        const correct = q._shuffledAnswer != null ? q._shuffledAnswer : (q.answer != null ? q.answer : q.correct);
+        const isCorrect = (parseInt(selectedValue) === correct);
+        const fb = document.getElementById('fb' + qIndex);
+        fb.className = 'feedback-inline ' + (isCorrect ? 'correct' : 'wrong');
+        fb.innerHTML = (isCorrect ? '✅ صحيح! ' : '❌ خطأ. ') + (q.justification || '');
+        // تعطيل الخيارات
+        const radios = document.getElementsByName('q' + qIndex);
+        radios.forEach(r => r.disabled = true);
+    }
+
+    function submitAll() {
+        clearInterval(interval);
+        let correct = 0;
+        questions.forEach((q, i) => {
+            const sel = document.querySelector(`input[name="q${i}"]:checked`);
+            const ans = q._shuffledAnswer != null ? q._shuffledAnswer : (q.answer != null ? q.answer : q.correct);
+            if (sel && parseInt(sel.value) === ans) correct++;
+        });
+        let perc = Math.round((correct / questions.length) * 100);
+        let res = document.getElementById('result');
+        res.textContent = `النتيجة: ${correct} / ${questions.length} (${perc}%)`;
+        res.style.color = perc >= 50 ? '#34c759' : '#ff3b30';
+    }
+</script>
+</body>
+</html>
