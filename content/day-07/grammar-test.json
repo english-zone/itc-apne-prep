@@ -1,22 +1,387 @@
 [
-  {"q":"Bilal hasn't read ______ the book to understand the story.","options":["any","as much as","enough of","many of"],"answer":2},
-  {"q":"Mohammed doesn't have ______ free time.","options":["much","lots","all","as many as"],"answer":0},
-  {"q":"Ibrahim was born ______ Riyadh.","options":["on","by","in","at"],"answer":2},
-  {"q":"Jamal likes ______ camping with friends.","options":["gone","to go","go","be going"],"answer":1},
-  {"q":"My brother and I ______ the soccer match on TV last night.","options":["have been watching","watch","are watching","watched"],"answer":3},
-  {"q":"Dana lived in Canada for many years, so she ______ cold weather.","options":["used to","is used to","use to","is use to"],"answer":1},
-  {"q":"Hussain doesn't know ______ car to buy.","options":["which","whom","who","where"],"answer":0},
-  {"q":"Where did you get the money ______?","options":["away","for","out","from"],"answer":3},
-  {"q":"If ______ snowing, we will go skiing.","options":["it will be","it is","it was","will"],"answer":1},
-  {"q":"______ is a popular hobby for many people.","options":["Reading","To read","Reads","Read"],"answer":0},
-  {"q":"If the weather _____ nice tomorrow, we will go for a picnic.","options":["is","are","be","been"],"answer":0},
-  {"q":"Some teachers ____ much homework.","options":["give","gives","are give","is give"],"answer":0},
-  {"q":"I ____ to the mall after school.","options":["goed","gone","went","going"],"answer":2},
-  {"q":"Look! The boys ____ football.","options":["play","played","are playing","plays"],"answer":2},
-  {"q":"He ____ before I arrived.","options":["has left","had left","left","leaves"],"answer":1},
-  {"q":"This book ____ by my father.","options":["was written","wrote","is writing","writes"],"answer":0},
-  {"q":"My sister is ____ than me.","options":["young","younger","youngest","more young"],"answer":1},
-  {"q":"She enjoys ____ in the park.","options":["running","to run","run","ran"],"answer":0},
-  {"q":"You ____ talk loudly in the library.","options":["should","may","mustn't","can"],"answer":2},
-  {"q":"I ____ my work yet.","options":["didn't finish","haven't finished","don't finish","wasn't finish"],"answer":1}
+  {
+    "q": "Bilal hasn't read ______ the book to understand the story.",
+    "options": [
+      "any",
+      "as much as",
+      "enough of",
+      "many of"
+    ],
+    "answer": 2,
+    "justification": "'enough of' تعني 'ما يكفي من'. مع الكتاب نستخدم 'enough of the book'. 'any' لا تصلح هنا، 'as much as' للمقارنة، و'many of' للمعدود."
+  },
+  {
+    "q": "Mohammed doesn't have ______ free time.",
+    "options": [
+      "much",
+      "lots",
+      "all",
+      "as many as"
+    ],
+    "answer": 0,
+    "justification": "'free time' غير معدود، لذا نستخدم 'much' في النفي. 'lots' تحتاج 'of'، و'all' لا تصلح هنا."
+  },
+  {
+    "q": "Ibrahim was born ______ Riyadh.",
+    "options": [
+      "on",
+      "by",
+      "in",
+      "at"
+    ],
+    "answer": 2,
+    "justification": "مع المدن نستخدم 'in'. 'on' للأسطح، 'by' للوسيلة، و'at' لأماكن محددة."
+  },
+  {
+    "q": "Jamal likes ______ camping with friends.",
+    "options": [
+      "gone",
+      "to go",
+      "go",
+      "be going"
+    ],
+    "answer": 1,
+    "justification": "بعد 'like' يمكن استخدام المصدر مع 'to' (to go) أو الفعل مع -ing. هنا 'to go' هو الصحيح."
+  },
+  {
+    "q": "My brother and I ______ the soccer match on TV last night.",
+    "options": [
+      "have been watching",
+      "watch",
+      "are watching",
+      "watched"
+    ],
+    "answer": 3,
+    "justification": "'last night' تدل على الماضي البسيط، لذا 'watched'."
+  },
+  {
+    "q": "Dana lived in Canada for many years, so she ______ cold weather.",
+    "options": [
+      "used to",
+      "is used to",
+      "use to",
+      "is use to"
+    ],
+    "answer": 1,
+    "justification": "'is used to' تعني معتادة على. 'used to' تعبر عن عادة ماضية فقط."
+  },
+  {
+    "q": "Hussain doesn't know ______ car to buy.",
+    "options": [
+      "which",
+      "whom",
+      "who",
+      "where"
+    ],
+    "answer": 0,
+    "justification": "'which' للسؤال عن الاختيار بين أشياء محددة (أي سيارة)."
+  },
+  {
+    "q": "Where did you get the money ______?",
+    "options": [
+      "away",
+      "for",
+      "out",
+      "from"
+    ],
+    "answer": 3,
+    "justification": "'get money from' هو التعبير الصحيح (من أين حصلت على المال)."
+  },
+  {
+    "q": "If ______ snowing, we will go skiing.",
+    "options": [
+      "it will be",
+      "it is",
+      "it was",
+      "will"
+    ],
+    "answer": 1,
+    "justification": "First Conditional: If + present simple, will + infinitive."
+  },
+  {
+    "q": "______ is a popular hobby for many people.",
+    "options": [
+      "Reading",
+      "To read",
+      "Reads",
+      "Read"
+    ],
+    "answer": 0,
+    "justification": "'Reading' كمصدر (gerund) يعمل كفاعل للجملة."
+  },
+  {
+    "q": "If the weather _____ nice tomorrow, we will go for a picnic.",
+    "options": [
+      "is",
+      "are",
+      "be",
+      "been"
+    ],
+    "answer": 0,
+    "justification": "First Conditional: If + present simple (is)."
+  },
+  {
+    "q": "Some teachers ____ much homework.",
+    "options": [
+      "give",
+      "gives",
+      "are give",
+      "is give"
+    ],
+    "answer": 0,
+    "justification": "'Some teachers' جمع، الفعل بصيغة الجمع 'give'."
+  },
+  {
+    "q": "I ____ to the mall after school.",
+    "options": [
+      "goed",
+      "gone",
+      "went",
+      "going"
+    ],
+    "answer": 2,
+    "justification": "الماضي البسيط من 'go' هو 'went'."
+  },
+  {
+    "q": "Look! The boys ____ football.",
+    "options": [
+      "play",
+      "played",
+      "are playing",
+      "plays"
+    ],
+    "answer": 2,
+    "justification": "'Look!' تدل على المضارع المستمر: 'are playing'."
+  },
+  {
+    "q": "He ____ before I arrived.",
+    "options": [
+      "has left",
+      "had left",
+      "left",
+      "leaves"
+    ],
+    "answer": 1,
+    "justification": "حدث قبل وصولي في الماضي: Past Perfect 'had left'."
+  },
+  {
+    "q": "This book ____ by my father.",
+    "options": [
+      "was written",
+      "wrote",
+      "is writing",
+      "writes"
+    ],
+    "answer": 0,
+    "justification": "مبني للمجهول ماضي: 'was written'."
+  },
+  {
+    "q": "My sister is ____ than me.",
+    "options": [
+      "young",
+      "younger",
+      "youngest",
+      "more young"
+    ],
+    "answer": 1,
+    "justification": "مقارنة بين اثنين: 'younger than'."
+  },
+  {
+    "q": "She enjoys ____ in the park.",
+    "options": [
+      "running",
+      "to run",
+      "run",
+      "ran"
+    ],
+    "answer": 0,
+    "justification": "بعد 'enjoy' يأتي gerund: 'running'."
+  },
+  {
+    "q": "You ____ talk loudly in the library.",
+    "options": [
+      "should",
+      "may",
+      "mustn't",
+      "can"
+    ],
+    "answer": 2,
+    "justification": "'mustn't' تعبر عن المنع (ممنوع التحدث بصوت عالٍ)."
+  },
+  {
+    "q": "I ____ my work yet.",
+    "options": [
+      "didn't finish",
+      "haven't finished",
+      "don't finish",
+      "wasn't finish"
+    ],
+    "answer": 1,
+    "justification": "'yet' مع المضارع التام المنفي: 'haven't finished'."
+  },
+  {
+    "q": "She said that she ____ tired.",
+    "options": [
+      "is",
+      "was",
+      "has been",
+      "will be"
+    ],
+    "answer": 1,
+    "justification": "Reported Speech: نرجع الفعل خطوة للوراء. 'I am tired' تصبح 'she was tired'."
+  },
+  {
+    "q": "If I ____ you, I would apologize.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "be"
+    ],
+    "answer": 2,
+    "justification": "Second Conditional: If + past simple ('were' مع جميع الضمائر)."
+  },
+  {
+    "q": "If he had studied, he ____ the exam.",
+    "options": [
+      "passes",
+      "will pass",
+      "would pass",
+      "would have passed"
+    ],
+    "answer": 3,
+    "justification": "Third Conditional: If + past perfect, would have + p.p."
+  },
+  {
+    "q": "You ____ smoke here. It's a hospital.",
+    "options": [
+      "mustn't",
+      "needn't",
+      "should",
+      "can"
+    ],
+    "answer": 0,
+    "justification": "'mustn't' للتحريم. 'needn't' لعدم الضرورة."
+  },
+  {
+    "q": "I had my car ____ yesterday.",
+    "options": [
+      "repair",
+      "repaired",
+      "repairing",
+      "to repair"
+    ],
+    "answer": 1,
+    "justification": "Causative: have + شيء + p.p. 'had my car repaired'."
+  },
+  {
+    "q": "I would rather ____ at home tonight.",
+    "options": [
+      "stay",
+      "staying",
+      "to stay",
+      "stayed"
+    ],
+    "answer": 0,
+    "justification": "بعد 'would rather' يأتي المصدر بدون to: 'stay'."
+  },
+  {
+    "q": "I wish I ____ more money.",
+    "options": [
+      "have",
+      "had",
+      "will have",
+      "having"
+    ],
+    "answer": 1,
+    "justification": "Wish + past simple للتمني في الحاضر (مستحيل)."
+  },
+  {
+    "q": "Do you know where ____?",
+    "options": [
+      "is the bank",
+      "the bank is",
+      "the bank",
+      "bank is"
+    ],
+    "answer": 1,
+    "justification": "Embedded question: الترتيب فاعل + فعل (the bank is)."
+  },
+  {
+    "q": "She prefers walking ____ driving.",
+    "options": [
+      "than",
+      "to",
+      "from",
+      "for"
+    ],
+    "answer": 1,
+    "justification": "'prefer + gerund + to + gerund'. 'Prefer...than' غير صحيح."
+  },
+  {
+    "q": "You'd better ____ now, or you'll miss the bus.",
+    "options": [
+      "leave",
+      "leaving",
+      "to leave",
+      "left"
+    ],
+    "answer": 0,
+    "justification": "بعد 'had better' يأتي المصدر بدون to: 'leave'."
+  },
+  {
+    "q": "He denied ____ the money.",
+    "options": [
+      "take",
+      "to take",
+      "taking",
+      "took"
+    ],
+    "answer": 2,
+    "justification": "بعد 'deny' يأتي gerund: 'taking'."
+  },
+  {
+    "q": "If water boils, it ____ into steam.",
+    "options": [
+      "turn",
+      "turns",
+      "turned",
+      "will turn"
+    ],
+    "answer": 1,
+    "justification": "Zero Conditional: If + present, present (حقيقة علمية)."
+  },
+  {
+    "q": "The teacher asked the students ____ quiet.",
+    "options": [
+      "be",
+      "to be",
+      "being",
+      "been"
+    ],
+    "answer": 1,
+    "justification": "بعد 'ask someone' يأتي 'to + مصدر': 'to be quiet'."
+  },
+  {
+    "q": "She is not ____ to drive yet.",
+    "options": [
+      "enough old",
+      "old enough",
+      "too old",
+      "very old"
+    ],
+    "answer": 1,
+    "justification": "'enough' تأتي بعد الصفة: 'old enough'."
+  },
+  {
+    "q": "Neither Ali nor Sami ____ here.",
+    "options": [
+      "is",
+      "are",
+      "be",
+      "were"
+    ],
+    "answer": 0,
+    "justification": "مع 'neither...nor' الفعل يتبع الفاعل الأقرب (Sami مفرد): 'is'."
+  }
 ]
