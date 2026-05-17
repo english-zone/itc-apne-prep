@@ -23,31 +23,14 @@
       ]
     },
     {
-      "title": "Japan: The Land of the Rising Sun (Passage 3)",
-      "text": "Japan is an island nation in East Asia consisting of four main islands: Honshu, Hokkaido, Kyushu, and Shikoku. It lies in the Pacific Ocean and has a population of around 126 million, making it one of the most densely populated countries in the world. Japan is known for its blend of ancient traditions and cutting‑edge technology. Its capital, Tokyo, is among the world's largest and most vibrant cities.\n\nJapan is a global leader in the automotive and electronics industries. Companies such as Toyota, Sony, and Panasonic have become household names worldwide. The country is also famous for its bullet trains (Shinkansen), which can reach speeds of up to 320 km/h, linking major cities with incredible efficiency. In addition, anime and manga are cultural exports that have gained a massive international following.\n\nJapanese culture places a strong emphasis on respect, discipline, and harmony. The tea ceremony, calligraphy, and flower arranging (ikebana) are traditional arts that are still widely practised. The Japanese education system is rigorous, and students consistently rank highly in mathematics and science on international tests.\n\nJapan faces several challenges, including an aging population, a declining birth rate, and frequent natural disasters such as earthquakes, tsunamis, and typhoons. Despite these difficulties, Japan remains the world's third‑largest economy and a fascinating blend of the old and the new.",
+      "title": "The Sahara Desert (Passage 3)",
+      "text": "The Sahara is the largest hot desert on Earth, stretching across much of North Africa from the Atlantic Ocean in the west to the Red Sea in the east. Covering approximately 9.2 million square kilometers, it is comparable in size to the entire United States. The desert occupies parts of eleven countries, including Algeria, Egypt, Libya, Morocco, and Sudan. Despite its reputation as a barren wasteland, the Sahara is home to a surprisingly diverse range of plant and animal species that have adapted to its harsh climate.\n\nTemperatures in the Sahara can soar to over 50°C in the daytime and drop to near freezing at night. Rainfall is extremely rare, with some areas receiving less than 25 millimeters annually. However, the Sahara was not always a desert. About 10,000 years ago, the region experienced a wetter climate with lakes and rivers, supporting a variety of wildlife and early human settlements. Rock paintings found in the Sahara depict elephants, giraffes, and crocodiles, indicating a much greener past.\n\nThe Sahara's economy depends heavily on the extraction of natural resources. The desert contains vast reserves of oil and natural gas, particularly in Algeria and Libya. Additionally, rich deposits of phosphates, iron ore, and uranium contribute significantly to the national income of several Saharan countries. However, the exploitation of these resources has raised environmental concerns, including pollution and the destruction of natural habitats.\n\nDesertification, the process by which fertile land becomes desert, is a major problem along the Sahara's southern border, the Sahel region. Overgrazing by livestock, deforestation, and poor agricultural practices have accelerated the spread of the desert, threatening the livelihoods of millions of people. International organizations are working with local governments to combat desertification through reforestation projects and sustainable farming methods.\n\nIn recent years, the Sahara has attracted attention as a potential source of solar energy. The vast expanses of sun-baked sand receive more sunlight than anywhere else on Earth, making the desert an ideal location for large-scale solar power plants. Projects such as the Desertec initiative aim to harness this energy and export it to Europe, providing a clean and abundant source of electricity. If these ambitious plans succeed, the Sahara could one day become a global hub for renewable energy, transforming both the local and global economies.",
       "questions": [
-        {"q":"1. How many main islands does Japan consist of?","options":["Three","Four","Five","Six"],"answer":1},
-        {"q":"2. Which industry is Japan a global leader in?","options":["Textile","Automotive","Mining","Farming"],"answer":1},
-        {"q":"3. What is the Shinkansen?","options":["A traditional art","A bullet train","A tea ceremony","A type of sushi"],"answer":1},
-        {"q":"4. The Japanese education system emphasises:","options":["sports","discipline and respect","music","politics"],"answer":1}
-      ]
-    },
-    {
-      "title": "The USA Federal Government (Passage 4)",
-      "text": "The federal government of the United States is divided into three branches: the legislative, the executive, and the judicial. The legislative branch, Congress, consists of the Senate and the House of Representatives. Each state has two senators, while the number of representatives depends on the state's population. The executive branch is headed by the President, who serves as both head of state and head of government. The judicial branch is represented by the Supreme Court, which has the final say on matters of constitutional law. The system of checks and balances ensures that no single branch becomes too powerful.",
-      "questions": [
-        {"q":"5. Which branch makes laws?","options":["Executive","Judicial","Legislative","Military"],"answer":2},
-        {"q":"6. How many senators does each state have?","options":["One","Two","Three","Based on population"],"answer":1},
-        {"q":"7. Who heads the executive branch?","options":["The Chief Justice","The Vice President","The President","The Speaker"],"answer":2}
-      ]
-    },
-    {
-      "title": "Water Desalination (Passage 5)",
-      "text": "Desalination is the process of removing salt from seawater to produce fresh water. It is especially important in arid regions such as the Middle East and North Africa. The most common methods are reverse osmosis, which forces seawater through a membrane to filter out salt, and thermal distillation, which heats seawater to create steam that is then condensed. Although desalination provides a reliable water source, it requires a great deal of energy and produces concentrated brine that can harm marine ecosystems if not properly managed. Researchers are now exploring renewable energy to make desalination more sustainable.",
-      "questions": [
-        {"q":"8. What does desalination remove from seawater?","options":["Salt","Sand","Oil","Bacteria"],"answer":0},
-        {"q":"9. Which method uses a membrane?","options":["Thermal distillation","Reverse osmosis","Solar desalination","Filtration"],"answer":1},
-        {"q":"10. What environmental issue is associated with desalination?","options":["Deforestation","Brine harming marine life","Ozone depletion","Soil erosion"],"answer":1}
+        {"q":"1. What is the approximate area of the Sahara?","options":["2.5 million km²","9.2 million km²","4 million km²","15 million km²"],"answer":1},
+        {"q":"2. In paragraph 2, the word 'wetter' means:","options":["drier","cooler","having more rain","windier"],"answer":2},
+        {"q":"3. According to paragraph 5, what energy source does the Sahara offer?","options":["Wind","Oil","Solar","Nuclear"],"answer":2},
+        {"q":"4. What does the Desertec initiative aim to do?","options":["Extract uranium","Combat desertification","Export solar energy to Europe","Reduce tourism"],"answer":2},
+        {"q":"5. Which of the following is NOT mentioned as a resource found in the Sahara?","options":["Oil","Phosphates","Diamonds","Iron ore"],"answer":2}
       ]
     }
   ]
