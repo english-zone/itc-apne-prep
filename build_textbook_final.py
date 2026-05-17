@@ -48,8 +48,6 @@ def build_vocab(day_num):
     if not v: return ""
     words = v.get("words", [])
     sec = '<section class="vocabulary">\n<h2 class="section-title">المفردات</h2>\n'
-    
-    # جدول الكلمات
     if words:
         sec += '<table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>\n'
         for i, w in enumerate(words):
@@ -57,19 +55,23 @@ def build_vocab(day_num):
             ara = escape(w.get("arabic",""))
             sec += f'<tr><td>{i+1}</td><td class="en" dir="ltr">{eng}</td><td class="ar">{ara}</td></tr>\n'
         sec += '</tbody></table>\n'
-    
-    # أسئلة المفردات (من داخل كل كلمة)
-    sec += f'<div class="questions"><h4>أسئلة المفردات ({len(words)} سؤال)</h4><ol>\n'
-    for w in words:
-        q_data = w.get("question", {})
-        if q_data:
-            q_text = escape(q_data.get("q", ""))
-            opts = q_data.get("options", [])
-            sec += f'<li>{q_text}<ol type="a">\n'
-            for opt in opts:
-                sec += f'<li>{escape(opt)}</li>\n'
-            sec += '</ol></li>\n'
-    sec += '</ol></div>\n'
+        
+        # استخراج الأسئلة من داخل كل كلمة
+        all_questions = []
+        for w in words:
+            q_data = w.get("question")
+            if q_data:
+                all_questions.append(q_data)
+        if all_questions:
+            sec += '<div class="questions"><h4>أسئلة المفردات</h4><ol>\n'
+            for q in all_questions:
+                q_text = escape(q.get("q", ""))
+                opts = q.get("options", [])
+                sec += f'<li>{q_text}<ol type="a">\n'
+                for opt in opts:
+                    sec += f'<li>{escape(opt)}</li>\n'
+                sec += '</ol></li>\n'
+            sec += '</ol></div>\n'
     sec += '</section>\n'
     return sec
 
@@ -144,6 +146,40 @@ def build_glossary():
             idx += 1
             rows += f'<tr><td>{idx}</td><td class="en" dir="ltr">{escape(eng)}</td><td class="ar">{escape(w.get("arabic",""))}</td></tr>\n'
     return f'<section class="glossary"><h2 class="section-title">مسرد الكلمات</h2><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>{rows}</tbody></table></section>'
+
+# ---------- المقدمة الكاملة من القلب ----------
+intro_text = """
+الحمد لله الذي علّم بالقلم، علّم الإنسان ما لم يعلم، والصلاة والسلام على سيدنا محمد ﷺ، خير معلمٍ للبشرية.
+
+أضع بين أيديكم هذا الكتاب التعليمي الشامل المخصص للتحضير لاختبار <strong>APNE-ITC</strong>، والذي صُمم بعناية ليكون دليلاً عملياً ومنهجاً تدريبياً متكاملاً يساعد الطلاب على بناء أساس قوي في اللغة الإنجليزية والاستعداد للاختبار بطريقة منظمة وواضحة.
+
+لقد كان جمع هذه المادة العلمية وتنظيمها رحلة شاقة، استغرقت ساعات طويلة من البحث والتدقيق والمراجعة في أمهات الكتب والمراجع العالمية، بالإضافة إلى الاطلاع على نماذج الاختبارات السابقة وتجميعاتها. كان الهدف من وراء هذا الجهد هو تقديم محتوى تعليمي فريد يختصر الطريق على الطالب، ويغنيه عن التشتت بين المصادر المتفرقة.
+
+تم إعداد هذا البرنامج التدريبي وفق خطة مكثفة تمتد على <strong>سبعة أيام تدريبية</strong>، بواقع <strong>ساعتين يومياً</strong>، بحيث يمر الطالب بشكل تدريجي على أهم المهارات المطلوبة في الاختبار من قراءة، وقواعد، ومفردات، وتمارين تطبيقية، ومراجعات عملية.
+
+يحتوي هذا الكتاب على:
+<ul>
+<li>شرح مبسط ومنظم لقواعد اللغة الإنجليزية الأكثر أهمية في الاختبار.</li>
+<li>مفردات أساسية ومتكررة مع تدريبات وأسئلة تطبيقية.</li>
+<li>قطع قراءة متنوعة مع أسئلة فهم تساعد على تطوير مهارة الاستيعاب والتحليل.</li>
+<li>تدريبات إملاء (Dictation) وأنشطة تعليمية داعمة للتثبيت والمراجعة.</li>
+<li>اختبارات وتمارين يومية لتقييم التقدم بشكل مستمر.</li>
+<li><strong>ستة تجميعات تدريبية كاملة</strong> تحاكي نمط الأسئلة المتوقعة وتساعد الطالب على رفع جاهزيته للاختبار.</li>
+<li>مراجعة شاملة واختبار تجريبي في نهاية البرنامج لتثبيت المهارات وتعزيز الثقة قبل الاختبار.</li>
+</ul>
+
+لقد روعي في إعداد هذا الكتاب أن يكون عملياً وسهل الاستخدام، بحيث يستطيع الطالب الاستفادة منه داخل القاعة التدريبية أو بشكل ذاتي، مع التركيز على تبسيط المعلومة، وتقديمها بصورة واضحة، وربطها بأمثلة وتمارين تساعد على الفهم السريع والتطبيق المباشر.
+
+إن هذا العمل هو ثمرة جهد وتجربة تعليمية هدفت إلى تقديم محتوى تدريبي منظم وفعّال يختصر الطريق على الطالب، ويساعده على الاستعداد لاختبار <strong>APNE-ITC</strong> بثقة وكفاءة بإذن الله.
+
+أسأل الله أن ينفع بهذا العمل، وأن يكون سبباً في نجاح الطلبة وتحقيق طموحاتهم، وأن يجعل فيه الفائدة والتوفيق للجميع.
+
+<br>
+<div style="text-align:left; margin-top:2rem;">
+<strong>المؤلف والمدرب</strong><br>
+أنس عبد الرحمن
+</div>
+"""
 
 # Start HTML
 html = '''<!DOCTYPE html>
@@ -243,11 +279,10 @@ html += '<p class="subtitle">معهد الريادة للتدريب</p>'
 html += '<p class="author">إعداد المدرب: <strong>أنس عبد الرحمن</strong><br>للتسجيل: 0546088130 – 0548775199</p>'
 html += '</div>'
 
-# Introduction
+# Introduction (من القلب)
 html += '<section class="intro">'
 html += '<h2 class="section-title">مقدمة الكتاب</h2>'
-html += '<p>الحمد لله الذي علّم بالقلم… (النص الكامل للمقدمة). أسأل الله أن ينفع بهذا العمل.</p>'
-html += '<p class="author-sign">المؤلف والمدرب<br>أنس عبد الرحمن</p>'
+html += intro_text
 html += '</section>'
 
 # Syllabus
@@ -312,4 +347,4 @@ html += '</div></body></html>'
 with open('textbook.html', 'w', encoding='utf-8') as f:
     f.write(html)
 
-print("✅ textbook.html تم إنشاؤه – حجم:", round(os.path.getsize('textbook.html')/1024), "KB")
+print("✅ textbook.html تم إنشاؤه بنجاح – حجم:", round(os.path.getsize('textbook.html')/1024), "KB")
