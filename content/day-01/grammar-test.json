@@ -40,5 +40,16 @@
   {"q":"Either Sarah or her brother ____ taking the car.","options":["is","are","were","have"],"answer":0,"justification":"الأقرب 'brother' (مفرد): 'is'."},
   {"q":"There ____ some water on the floor.","options":["is","are","were","have"],"answer":0,"justification":"'water' غير معدود، الفعل مفرد 'is'."},
   {"q":"I made the cake by ____.","options":["me","myself","my","mine"],"answer":1,"justification":"انعكاسي: 'myself' يعود على 'I'."},
-  {"q":"The person ____ I spoke to was helpful.","options":["which","whom","whose","what"],"answer":1,"justification":"'whom' للمفعول العاقل (رسمي)."}
+  {"q":"The person ____ I spoke to was helpful.","options":["which","whom","whose","what"],"answer":1,"justification":"'whom' للمفعول العاقل (رسمي)."},
+  {"q":"One ____, two ____.","options":["child / childs","child / children","child / childrens","children / children"],"answer":1,"justification":"'child' جمعها الشاذ 'children'."},
+  {"q":"My ____ are very clean.","options":["tooth","teeth","tooths","teeths"],"answer":1,"justification":"'tooth' جمعها 'teeth'."},
+  {"q":"He has many ____ on his farm.","options":["sheep","sheeps","sheepes","sheep's"],"answer":0,"justification":"'sheep' يبقى كما هو في الجمع."},
+  {"q":"Two ____ are walking in the forest.","options":["wolfs","wolves","wolfes","wolve"],"answer":1,"justification":"'wolf' تجمع 'wolves' (f → ves)."},
+  {"q":"I don't have ____ friends in this city.","options":["much","many","a little","little"],"answer":1,"justification":"'friends' معدود، نستخدم 'many'."},
+  {"q":"She has ____ money, so she can buy the book.","options":["few","a few","little","a little"],"answer":3,"justification":"'money' غير معدود، 'a little' بمعنى بعض (كاف)."},
+  {"q":"There is too ____ salt in the soup.","options":["many","much","few","a few"],"answer":1,"justification":"'salt' غير معدود، نستخدم 'much'."},
+  {"q":"We have ____ chairs for everyone. We don't need more.","options":["few","little","enough","too"],"answer":2,"justification":"'enough' = كافٍ."},
+  {"q":"He feels lonely because he has very ____ friends.","options":["few","a few","little","a little"],"answer":0,"justification":"'few' بمعنى قليل جداً (سلبي) مع المعدود."},
+  {"q":"There is ____ hope left. We will lose.","options":["a little","little","much","many"],"answer":1,"justification":"'little' قليل جداً (سلبي) مع غير المعدود."},
+  {"q":"This coffee is ____ hot to drink.","options":["enough","too","a little","much"],"answer":1,"justification":"'too' بمعنى أكثر من اللازم."}
 ]
