@@ -11,19 +11,17 @@ def escape(txt):
 
 
 def is_english(text):
-    """يعيد True إذا كان النص يتكون أساساً من أحرف إنجليزية"""
     if not text: return False
-    alpha_chars = [c for c in text if c.isalpha()]
-    if not alpha_chars: return False
-    eng_count = sum(1 for c in alpha_chars if c.isascii())
-    return eng_count / len(alpha_chars) > 0.7
+    alpha = [c for c in text if c.isalpha()]
+    if not alpha: return False
+    eng = sum(1 for c in alpha if c.isascii() and c.isalpha())
+    return (eng / len(alpha)) > 0.6
 
 def wrap_en(txt):
-    """يغلف النص بوسم span باتجاه LTR إذا كان يحتوي على أحرف إنجليزية"""
     if not txt: return ""
-    # إذا كان النص يحتوي على أي حرف إنجليزي، نلفه بـ dir="ltr"
+    # أي نص إنجليزي ولو كلمة واحدة: اجعله LTR
     if any(c.isascii() and c.isalpha() for c in txt):
-        return f'<span dir="ltr" style="unicode-bidi:embed;direction:ltr;">{txt}</span>'
+        return f'<span dir="ltr" style="unicode-bidi:isolate; direction: ltr; text-align: left;">{txt}</span>'
     return txt
 
 def build_reading(day_num):
@@ -41,7 +39,7 @@ def build_reading(day_num):
         if is_english(p.get("text", "")):
             sec += f'<div class="passage-text" dir="ltr">{text}</div>\n'
         else:
-            sec += f'<div class="passage-text">{text}</div>\n'
+            sec += f'<div class="passage-text" dir="ltr">{text}</div>\n'
         if questions:
             sec += '<div class="questions"><h4>أسئلة الفهم</h4><ol>\n'
             for q in questions:
@@ -66,7 +64,7 @@ def build_vocab(day_num):
         for i, w in enumerate(words):
             eng = escape(w.get("english",""))
             ara = escape(w.get("arabic",""))
-            sec += f'<tr><td>{i+1}</td><td class="en" dir="ltr">{eng}</td><td class="ar">{ara}</td></tr>\n'
+            sec += f'<tr><td>{i+1}</td><td class="en" dir="ltr" style="text-align: left;">{eng}</td><td class="ar">{ara}</td></tr>\n'
         sec += '</tbody></table>\n'
         all_questions = []
         for w in words:
@@ -279,7 +277,14 @@ article.passage { margin-bottom: 2.5rem; }
 table.word-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
 table.word-table th { background: var(--primary); color: white; padding: 10px; font-family: 'Inter', sans-serif; }
 table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 12px; }
-.en, .english, [lang="en"] { font-family: 'Inter', sans-serif; direction: ltr; text-align: left; }
+.en, .english, [lang="en"], [dir="ltr"] {
+  font-family: 'Inter', sans-serif;
+  direction: ltr !important;
+  text-align: left !important;
+  unicode-bidi: isolate;
+}
+.english, [lang="en"] { font-family: 'Inter', sans-serif; }
+.passage-text[dir="ltr"] { text-align: left; direction: ltr; }
 [dir="ltr"] { direction: ltr; unicode-bidi: embed; }
 .dictation ul { list-style: square; padding-right: 2rem; }
 .grammar-lesson { border: 1px solid #ddd; padding: 2rem; border-radius: 8px; background: #fafafa; margin: 1rem 0; }
