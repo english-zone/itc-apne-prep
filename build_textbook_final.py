@@ -1,11 +1,5 @@
-import json, os
+import json, os, re
 import html as html_mod
-
-days = 7
-day_titles = [
-    "Letter to the Editor", "The Risks of Farming", "Voluntary Service Overseas",
-    "Bicycles", "The Red Sea", "Diabetes", "مراجعة شاملة"
-]
 
 def load_json(path):
     if not os.path.exists(path): return None
@@ -15,14 +9,21 @@ def load_json(path):
 def escape(txt):
     return html_mod.escape(str(txt)) if txt else ""
 
+def wrap_en(txt):
+    """يغلف النص بوسم span باتجاه LTR إذا كان يحتوي على أحرف إنجليزية"""
+    if not txt: return ""
+    # إذا كان النص يحتوي على أي حرف إنجليزي، نلفه بـ dir="ltr"
+    if any(c.isascii() and c.isalpha() for c in txt):
+        return f'<span dir="ltr" style="unicode-bidi:embed;direction:ltr;">{txt}</span>'
+    return txt
+
 def build_reading(day_num):
     r = load_json(f"content/day-{day_num:02d}/reading.json")
     if not r: return ""
     passages = r.get("passages", [])
     if not passages and isinstance(r, list):
         passages = r
-    sec = '<section class="reading">\n'
-    sec += f'<h2 class="section-title">قطع القراءة ({len(passages)} قطع)</h2>\n'
+    sec = f'<section class="reading"><h2 class="section-title">قطع القراءة ({len(passages)} قطع)</h2>\n'
     for pi, p in enumerate(passages):
         title = escape(p.get("title", f"Passage {pi+1}"))
         text = escape(p.get("text", "")).replace("\n", "<br>")
@@ -34,9 +35,9 @@ def build_reading(day_num):
             for q in questions:
                 q_text = escape(q.get("q", ""))
                 opts = q.get("options", [])
-                sec += f'<li>{q_text}<ol type="a">\n'
+                sec += f'<li>{wrap_en(q_text)}<ol type="a">\n'
                 for opt in opts:
-                    sec += f'<li>{escape(opt)}</li>\n'
+                    sec += f'<li>{wrap_en(escape(opt))}</li>\n'
                 sec += '</ol></li>\n'
             sec += '</ol></div>\n'
         sec += '</article>\n'
@@ -55,8 +56,6 @@ def build_vocab(day_num):
             ara = escape(w.get("arabic",""))
             sec += f'<tr><td>{i+1}</td><td class="en" dir="ltr">{eng}</td><td class="ar">{ara}</td></tr>\n'
         sec += '</tbody></table>\n'
-        
-        # استخراج الأسئلة من داخل كل كلمة
         all_questions = []
         for w in words:
             q_data = w.get("question")
@@ -67,9 +66,9 @@ def build_vocab(day_num):
             for q in all_questions:
                 q_text = escape(q.get("q", ""))
                 opts = q.get("options", [])
-                sec += f'<li>{q_text}<ol type="a">\n'
+                sec += f'<li>{wrap_en(q_text)}<ol type="a">\n'
                 for opt in opts:
-                    sec += f'<li>{escape(opt)}</li>\n'
+                    sec += f'<li>{wrap_en(escape(opt))}</li>\n'
                 sec += '</ol></li>\n'
             sec += '</ol></div>\n'
     sec += '</section>\n'
@@ -85,9 +84,9 @@ def build_dictation(day_num):
         if isinstance(w, dict):
             correct = escape(w.get("correct", ""))
             opts = w.get("options", [])
-            sec += f'<li><strong>{correct}</strong> — {escape(", ".join(opts))}</li>\n'
+            sec += f'<li><strong>{wrap_en(correct)}</strong> — {wrap_en(", ".join(opts))}</li>\n'
         else:
-            sec += f'<li>{escape(w)}</li>\n'
+            sec += f'<li>{wrap_en(escape(w))}</li>\n'
     sec += '</ul>\n</section>\n'
     return sec
 
@@ -107,9 +106,9 @@ def build_grammar_test(day_num):
     for q in questions:
         q_text = escape(q.get("q", ""))
         opts = q.get("options", [])
-        sec += f'<li>{q_text}<ol type="a">\n'
+        sec += f'<li>{wrap_en(q_text)}<ol type="a">\n'
         for opt in opts:
-            sec += f'<li>{escape(opt)}</li>\n'
+            sec += f'<li>{wrap_en(escape(opt))}</li>\n'
         sec += '</ol></li>\n'
     sec += '</ol>\n</section>\n'
     return sec
@@ -123,16 +122,16 @@ def build_compilation(i):
     for q in questions:
         q_text = escape(q.get("q", ""))
         opts = q.get("options", [])
-        sec += f'<li>{q_text}<ol type="a">\n'
+        sec += f'<li>{wrap_en(q_text)}<ol type="a">\n'
         for opt in opts:
-            sec += f'<li>{escape(opt)}</li>\n'
+            sec += f'<li>{wrap_en(escape(opt))}</li>\n'
         sec += '</ol></li>\n'
     sec += '</ol>\n</section>\n'
     return sec
 
 def build_glossary():
     all_words = []
-    for d in range(1, 7):
+    for d in range(1, 8):
         v = load_json(f"content/day-{d:02d}/vocabulary.json")
         if v:
             all_words.extend(v.get("words", []))
@@ -147,30 +146,55 @@ def build_glossary():
             rows += f'<tr><td>{idx}</td><td class="en" dir="ltr">{escape(eng)}</td><td class="ar">{escape(w.get("arabic",""))}</td></tr>\n'
     return f'<section class="glossary"><h2 class="section-title">مسرد الكلمات</h2><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>{rows}</tbody></table></section>'
 
-# ---------- المقدمة الكاملة من القلب ----------
+def get_reading_title(day_num):
+    r = load_json(f"content/day-{day_num:02d}/reading.json")
+    if not r: return f"Day {day_num} Reading"
+    passages = r.get("passages", [])
+    if not passages and isinstance(r, list):
+        passages = r
+    if passages:
+        first = passages[0] if isinstance(passages[0], dict) else None
+        if first:
+            return first.get("title", f"Passage {day_num}")
+    return f"Day {day_num} Reading"
+
+def get_vocab_topic(day_num):
+    v = load_json(f"content/day-{day_num:02d}/vocabulary.json")
+    if v:
+        return v.get("topic", f"Vocabulary Day {day_num}")
+    return f"Vocabulary Day {day_num}"
+
+syllabus_rows = ""
+for d in range(1, 8):
+    reading_title = get_reading_title(d)
+    vocab_topic = get_vocab_topic(d)
+    grammar = ["Present/Past Simple", "Continuous Tenses", "Perfect Tenses",
+               "Passive Voice", "Comparative/Superlative", "Gerund/Infinitive", "قواعد جديدة ومراجعة شاملة"][d-1]
+    syllabus_rows += f'<tr><td>اليوم {d}</td><td>{escape(reading_title)}</td><td>{escape(vocab_topic)}</td><td>{grammar}</td></tr>\n'
+
+day_titles = [get_reading_title(d) for d in range(1, 8)]
+
 intro_text = """
 الحمد لله الذي علّم بالقلم، علّم الإنسان ما لم يعلم، والصلاة والسلام على سيدنا محمد ﷺ، خير معلمٍ للبشرية.
 
-أضع بين أيديكم هذا الكتاب التعليمي الشامل المخصص للتحضير لاختبار <strong>APNE-ITC</strong>، والذي صُمم بعناية ليكون دليلاً عملياً ومنهجاً تدريبياً متكاملاً يساعد الطلاب على بناء أساس قوي في اللغة الإنجليزية والاستعداد للاختبار بطريقة منظمة وواضحة.
+أضع بين أيديكم هذا الكتاب التعليمي الشامل المخصص للتحضير لاختبار APNE-ITC، والذي صُمم بعناية ليكون دليلاً عملياً ومنهجاً تدريبياً متكاملاً يساعد الطلاب على بناء أساس قوي في اللغة الإنجليزية والاستعداد للاختبار بطريقة منظمة وواضحة.
 
 لقد كان جمع هذه المادة العلمية وتنظيمها رحلة شاقة، استغرقت ساعات طويلة من البحث والتدقيق والمراجعة في أمهات الكتب والمراجع العالمية، بالإضافة إلى الاطلاع على نماذج الاختبارات السابقة وتجميعاتها. كان الهدف من وراء هذا الجهد هو تقديم محتوى تعليمي فريد يختصر الطريق على الطالب، ويغنيه عن التشتت بين المصادر المتفرقة.
 
-تم إعداد هذا البرنامج التدريبي وفق خطة مكثفة تمتد على <strong>سبعة أيام تدريبية</strong>، بواقع <strong>ساعتين يومياً</strong>، بحيث يمر الطالب بشكل تدريجي على أهم المهارات المطلوبة في الاختبار من قراءة، وقواعد، ومفردات، وتمارين تطبيقية، ومراجعات عملية.
+تم إعداد هذا البرنامج التدريبي وفق خطة مكثفة تمتد على سبعة أيام تدريبية، بواقع ساعتين يومياً، بحيث يمر الطالب بشكل تدريجي على أهم المهارات المطلوبة في الاختبار من قراءة، وقواعد، ومفردات، وتمارين تطبيقية، ومراجعات عملية.
 
 يحتوي هذا الكتاب على:
-<ul>
-<li>شرح مبسط ومنظم لقواعد اللغة الإنجليزية الأكثر أهمية في الاختبار.</li>
-<li>مفردات أساسية ومتكررة مع تدريبات وأسئلة تطبيقية.</li>
-<li>قطع قراءة متنوعة مع أسئلة فهم تساعد على تطوير مهارة الاستيعاب والتحليل.</li>
-<li>تدريبات إملاء (Dictation) وأنشطة تعليمية داعمة للتثبيت والمراجعة.</li>
-<li>اختبارات وتمارين يومية لتقييم التقدم بشكل مستمر.</li>
-<li><strong>ستة تجميعات تدريبية كاملة</strong> تحاكي نمط الأسئلة المتوقعة وتساعد الطالب على رفع جاهزيته للاختبار.</li>
-<li>مراجعة شاملة واختبار تجريبي في نهاية البرنامج لتثبيت المهارات وتعزيز الثقة قبل الاختبار.</li>
-</ul>
+- شرح مبسط ومنظم لقواعد اللغة الإنجليزية الأكثر أهمية في الاختبار.
+- مفردات أساسية ومتكررة مع تدريبات وأسئلة تطبيقية.
+- قطع قراءة متنوعة مع أسئلة فهم تساعد على تطوير مهارة الاستيعاب والتحليل.
+- تدريبات إملاء وأنشطة تعليمية داعمة للتثبيت والمراجعة.
+- اختبارات وتمارين يومية لتقييم التقدم بشكل مستمر.
+- ستة تجميعات تدريبية كاملة تحاكي نمط الأسئلة المتوقعة.
+- مراجعة شاملة واختبار تجريبي في نهاية البرنامج.
 
-لقد روعي في إعداد هذا الكتاب أن يكون عملياً وسهل الاستخدام، بحيث يستطيع الطالب الاستفادة منه داخل القاعة التدريبية أو بشكل ذاتي، مع التركيز على تبسيط المعلومة، وتقديمها بصورة واضحة، وربطها بأمثلة وتمارين تساعد على الفهم السريع والتطبيق المباشر.
+لقد روعي في إعداد هذا الكتاب أن يكون عملياً وسهل الاستخدام، بحيث يستطيع الطالب الاستفادة منه داخل القاعة التدريبية أو بشكل ذاتي.
 
-إن هذا العمل هو ثمرة جهد وتجربة تعليمية هدفت إلى تقديم محتوى تدريبي منظم وفعّال يختصر الطريق على الطالب، ويساعده على الاستعداد لاختبار <strong>APNE-ITC</strong> بثقة وكفاءة بإذن الله.
+إن هذا العمل هو ثمرة جهد وتجربة تعليمية هدفت إلى تقديم محتوى تدريبي منظم وفعّال يختصر الطريق على الطالب، ويساعده على الاستعداد لاختبار APNE-ITC بثقة وكفاءة بإذن الله.
 
 أسأل الله أن ينفع بهذا العمل، وأن يكون سبباً في نجاح الطلبة وتحقيق طموحاتهم، وأن يجعل فيه الفائدة والتوفيق للجميع.
 
@@ -181,12 +205,12 @@ intro_text = """
 </div>
 """
 
-# Start HTML
 html = '''<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<title>كتاب APNE-ITC – معهد الريادة للتدريب</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دليل الطالب للتميز في APNE‑ITC – معهد الريادة للتدريب</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600;700&display=swap');
 :root {
@@ -244,6 +268,7 @@ table.word-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
 table.word-table th { background: var(--primary); color: white; padding: 10px; font-family: 'Inter', sans-serif; }
 table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 12px; }
 .en { font-family: 'Inter', sans-serif; }
+[dir="ltr"] { direction: ltr; unicode-bidi: embed; }
 .dictation ul { list-style: square; padding-right: 2rem; }
 .grammar-lesson { border: 1px solid #ddd; padding: 2rem; border-radius: 8px; background: #fafafa; margin: 1rem 0; }
 .grammar-lesson table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
@@ -255,6 +280,23 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 .references { margin-top: 4rem; }
 .references p { margin: 0.3rem 0; }
 .footer-note { text-align: center; margin-top: 4rem; padding: 2rem; background: #f0ede5; border-radius: 8px; }
+
+/* تحسينات الجوال */
+@media (max-width: 768px) {
+  body { padding: 0.5rem; font-size: 1rem; }
+  .book { padding: 1.5rem; }
+  .cover h1 { font-size: 2.2rem; }
+  .cover .subtitle { font-size: 1.1rem; }
+  .section-title { font-size: 1.5rem; }
+  .print-btn { padding: 8px 20px; font-size: 0.9rem; top: 10px; right: 10px; }
+  table.word-table th, table.word-table td { padding: 6px; font-size: 0.85rem; }
+}
+@media (max-width: 480px) {
+  .book { padding: 1rem; }
+  .cover h1 { font-size: 1.8rem; }
+  .cover .subtitle { font-size: 1rem; }
+  .section-title { font-size: 1.3rem; }
+}
 @media print {
   body { background: white; padding: 0; }
   .book { box-shadow: none; border-radius: 0; padding: 2cm; max-width: 100%; }
@@ -270,39 +312,24 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <div class="book">
 '''
 
-# Cover
 html += '<div class="cover">'
 html += '<img src="assets/images/reyadah-logo.png" alt="شعار المعهد" class="logo" width="150">'
-html += '<h1>English Grammar Master Guide</h1>'
-html += '<p class="subtitle">APNE-ITC Preparation Course</p>'
-html += '<p class="subtitle">معهد الريادة للتدريب</p>'
+html += '<h1>دليل الطالب للتميز في APNE‑ITC</h1>'
+html += '<p class="subtitle">الدليل الشامل للتحضير لاختبار APNE – إعداد معهد الريادة للتدريب</p>'
 html += '<p class="author">إعداد المدرب: <strong>أنس عبد الرحمن</strong><br>للتسجيل: 0546088130 – 0548775199</p>'
 html += '</div>'
 
-# Introduction (من القلب)
 html += '<section class="intro">'
 html += '<h2 class="section-title">مقدمة الكتاب</h2>'
 html += intro_text
 html += '</section>'
 
-# Syllabus
 html += '<section class="syllabus">'
 html += '<h2 class="section-title">المنهج الدراسي</h2>'
 html += '<table class="word-table"><thead><tr><th>اليوم</th><th>القراءة</th><th>المفردات</th><th>القواعد</th></tr></thead><tbody>'
-syllabus = [
-    ("اليوم 1", "Letter to the Editor", "Family & Body Parts", "Present/Past Simple"),
-    ("اليوم 2", "The Risks of Farming", "Clothing & Weather", "Continuous Tenses"),
-    ("اليوم 3", "Voluntary Service Overseas", "Health & Medicine", "Perfect Tenses"),
-    ("اليوم 4", "Bicycles", "Food & Drink", "Passive Voice"),
-    ("اليوم 5", "The Red Sea", "Jobs & Work", "Comparative/Superlative"),
-    ("اليوم 6", "Diabetes", "Shopping & Materials", "Gerund/Infinitive"),
-    ("اليوم 7", "مراجعة شاملة", "كل الكلمات", "مراجعة شاملة"),
-]
-for row in syllabus:
-    html += '<tr>' + ''.join(f'<td>{r}</td>' for r in row) + '</tr>'
+html += syllabus_rows
 html += '</tbody></table></section>'
 
-# Days
 for d in range(1, 8):
     html += f'<div class="day" id="day-{d}"><h1 class="section-title">اليوم {d} – {day_titles[d-1]}</h1>'
     html += build_reading(d)
@@ -312,16 +339,13 @@ for d in range(1, 8):
     html += build_grammar_test(d)
     html += '</div>'
 
-# Compilations
 html += '<section class="compilations">'
 for i in range(1, 7):
     html += build_compilation(i)
 html += '</section>'
 
-# Glossary
 html += build_glossary()
 
-# References
 html += '<section class="references"><h2 class="section-title">المصادر والمراجع</h2>'
 refs = [
     "English Grammar in Use – Raymond Murphy (Cambridge)",
@@ -337,7 +361,6 @@ for r in refs:
     html += f'<p>• {r}</p>'
 html += '</section>'
 
-# Footer
 html += '<div class="footer-note">'
 html += '<p><strong>معهد الريادة للتدريب</strong><br>إعداد المدرب: أنس عبد الرحمن<br>0546088130 | 0548775199</p>'
 html += '</div>'
@@ -347,4 +370,4 @@ html += '</div></body></html>'
 with open('textbook.html', 'w', encoding='utf-8') as f:
     f.write(html)
 
-print("✅ textbook.html تم إنشاؤه بنجاح – حجم:", round(os.path.getsize('textbook.html')/1024), "KB")
+print("✅ textbook.html جاهز بحجم:", round(os.path.getsize('textbook.html')/1024), "KB")

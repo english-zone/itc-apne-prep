@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>دليل الطالب للتميز في APNE‑ITC</title>
+<title>دليل الطالب للتميز في APNE‑ITC – معهد الريادة للتدريب</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600;700&display=swap');
 :root {
@@ -57,22 +57,32 @@ article.passage { margin-bottom: 2.5rem; }
 .passage-text { background: #f9f9f6; padding: 1.5rem; border-right: 5px solid var(--accent); margin: 1rem 0; white-space: pre-line; }
 .questions ol { list-style: none; counter-reset: q-counter; }
 .questions > ol > li::before { counter-increment: q-counter; content: counter(q-counter) ". "; font-weight: bold; color: var(--primary); }
-table.word-table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+table.word-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
 table.word-table th { background: var(--primary); color: white; padding: 10px; font-family: 'Inter', sans-serif; }
-table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 8px; }
+table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 12px; }
 .en { font-family: 'Inter', sans-serif; }
 [dir="ltr"] { direction: ltr; unicode-bidi: embed; }
-.vocab-flex { display: flex; gap: 2rem; flex-wrap: wrap; }
-.vocab-col { flex: 1 1 45%; }
+.dictation ul { list-style: square; padding-right: 2rem; }
+.grammar-lesson { border: 1px solid #ddd; padding: 2rem; border-radius: 8px; background: #fafafa; margin: 1rem 0; }
+.grammar-lesson table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+.grammar-lesson th { background: #e9ecef; padding: 8px; }
+.grammar-lesson td { border: 1px solid #ddd; padding: 8px; }
+.grammar-lesson h2, .grammar-lesson h3 { color: var(--primary); }
+.grammar-lesson strong { color: var(--accent); }
+.glossary { margin-top: 4rem; }
+.references { margin-top: 4rem; }
+.references p { margin: 0.3rem 0; }
+.footer-note { text-align: center; margin-top: 4rem; padding: 2rem; background: #f0ede5; border-radius: 8px; }
+
+/* تحسينات الجوال */
 @media (max-width: 768px) {
-  .vocab-flex { flex-direction: column; }
-  .vocab-col { flex: 1 1 100%; }
   body { padding: 0.5rem; font-size: 1rem; }
   .book { padding: 1.5rem; }
   .cover h1 { font-size: 2.2rem; }
   .cover .subtitle { font-size: 1.1rem; }
   .section-title { font-size: 1.5rem; }
   .print-btn { padding: 8px 20px; font-size: 0.9rem; top: 10px; right: 10px; }
+  table.word-table th, table.word-table td { padding: 6px; font-size: 0.85rem; }
 }
 @media (max-width: 480px) {
   .book { padding: 1rem; }
@@ -93,7 +103,36 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <body>
 <button class="print-btn" onclick="window.print()">🖨️ طباعة / PDF</button>
 <div class="book">
-<div class="cover"><img src="assets/images/reyadah-logo.png" alt="شعار المعهد" class="logo" width="150"><h1>دليل الطالب للتميز في APNE‑ITC</h1><p class="subtitle">الدليل الشامل للتحضير لاختبار APNE – إعداد معهد الريادة للتدريب</p><p class="author">إعداد المدرب: <strong>أنس عبد الرحمن</strong><br>للتسجيل: 0546088130 – 0548775199</p></div><section class="intro"><h2 class="section-title">مقدمة الكتاب</h2>(المقدمة الكاملة هنا)</section><section class="syllabus"><h2 class="section-title">المنهج الدراسي</h2><table class="word-table"><thead><tr><th>اليوم</th><th>القراءة</th><th>المفردات</th><th>القواعد</th></tr></thead><tbody><tr><td>اليوم 1</td><td>Letter to the Editor</td><td>Vocabulary from Day 1 Passages</td><td>Present/Past Simple</td></tr>
+<div class="cover"><img src="assets/images/reyadah-logo.png" alt="شعار المعهد" class="logo" width="150"><h1>دليل الطالب للتميز في APNE‑ITC</h1><p class="subtitle">الدليل الشامل للتحضير لاختبار APNE – إعداد معهد الريادة للتدريب</p><p class="author">إعداد المدرب: <strong>أنس عبد الرحمن</strong><br>للتسجيل: 0546088130 – 0548775199</p></div><section class="intro"><h2 class="section-title">مقدمة الكتاب</h2>
+الحمد لله الذي علّم بالقلم، علّم الإنسان ما لم يعلم، والصلاة والسلام على سيدنا محمد ﷺ، خير معلمٍ للبشرية.
+
+أضع بين أيديكم هذا الكتاب التعليمي الشامل المخصص للتحضير لاختبار APNE-ITC، والذي صُمم بعناية ليكون دليلاً عملياً ومنهجاً تدريبياً متكاملاً يساعد الطلاب على بناء أساس قوي في اللغة الإنجليزية والاستعداد للاختبار بطريقة منظمة وواضحة.
+
+لقد كان جمع هذه المادة العلمية وتنظيمها رحلة شاقة، استغرقت ساعات طويلة من البحث والتدقيق والمراجعة في أمهات الكتب والمراجع العالمية، بالإضافة إلى الاطلاع على نماذج الاختبارات السابقة وتجميعاتها. كان الهدف من وراء هذا الجهد هو تقديم محتوى تعليمي فريد يختصر الطريق على الطالب، ويغنيه عن التشتت بين المصادر المتفرقة.
+
+تم إعداد هذا البرنامج التدريبي وفق خطة مكثفة تمتد على سبعة أيام تدريبية، بواقع ساعتين يومياً، بحيث يمر الطالب بشكل تدريجي على أهم المهارات المطلوبة في الاختبار من قراءة، وقواعد، ومفردات، وتمارين تطبيقية، ومراجعات عملية.
+
+يحتوي هذا الكتاب على:
+- شرح مبسط ومنظم لقواعد اللغة الإنجليزية الأكثر أهمية في الاختبار.
+- مفردات أساسية ومتكررة مع تدريبات وأسئلة تطبيقية.
+- قطع قراءة متنوعة مع أسئلة فهم تساعد على تطوير مهارة الاستيعاب والتحليل.
+- تدريبات إملاء وأنشطة تعليمية داعمة للتثبيت والمراجعة.
+- اختبارات وتمارين يومية لتقييم التقدم بشكل مستمر.
+- ستة تجميعات تدريبية كاملة تحاكي نمط الأسئلة المتوقعة.
+- مراجعة شاملة واختبار تجريبي في نهاية البرنامج.
+
+لقد روعي في إعداد هذا الكتاب أن يكون عملياً وسهل الاستخدام، بحيث يستطيع الطالب الاستفادة منه داخل القاعة التدريبية أو بشكل ذاتي.
+
+إن هذا العمل هو ثمرة جهد وتجربة تعليمية هدفت إلى تقديم محتوى تدريبي منظم وفعّال يختصر الطريق على الطالب، ويساعده على الاستعداد لاختبار APNE-ITC بثقة وكفاءة بإذن الله.
+
+أسأل الله أن ينفع بهذا العمل، وأن يكون سبباً في نجاح الطلبة وتحقيق طموحاتهم، وأن يجعل فيه الفائدة والتوفيق للجميع.
+
+<br>
+<div style="text-align:left; margin-top:2rem;">
+<strong>المؤلف والمدرب</strong><br>
+أنس عبد الرحمن
+</div>
+</section><section class="syllabus"><h2 class="section-title">المنهج الدراسي</h2><table class="word-table"><thead><tr><th>اليوم</th><th>القراءة</th><th>المفردات</th><th>القواعد</th></tr></thead><tbody><tr><td>اليوم 1</td><td>Letter to the Editor</td><td>Vocabulary from Day 1 Passages</td><td>Present/Past Simple</td></tr>
 <tr><td>اليوم 2</td><td>Bicycles</td><td>Clothing, Weather &amp; Reading Vocabulary</td><td>Continuous Tenses</td></tr>
 <tr><td>اليوم 3</td><td>Amelia Earhart</td><td>Health, Medicine &amp; Reading</td><td>Perfect Tenses</td></tr>
 <tr><td>اليوم 4</td><td>Japan</td><td>Vocabulary from Day 4 Passages</td><td>Passive Voice</td></tr>
@@ -251,8 +290,8 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 </section>
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
-<div class="vocab-flex">
-<div class="vocab-col"><div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody><tr><td>1</td><td class="en" dir="ltr">advertise</td><td class="ar">يعلن</td></tr>
+<table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
+<tr><td>1</td><td class="en" dir="ltr">advertise</td><td class="ar">يعلن</td></tr>
 <tr><td>2</td><td class="en" dir="ltr">traditional</td><td class="ar">تقليدي</td></tr>
 <tr><td>3</td><td class="en" dir="ltr">statistics</td><td class="ar">إحصائيات</td></tr>
 <tr><td>4</td><td class="en" dir="ltr">attention</td><td class="ar">انتباه</td></tr>
@@ -301,8 +340,8 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <tr><td>47</td><td class="en" dir="ltr">variety</td><td class="ar">تنوع</td></tr>
 <tr><td>48</td><td class="en" dir="ltr">essentially</td><td class="ar">أساساً</td></tr>
 <tr><td>49</td><td class="en" dir="ltr">demand</td><td class="ar">طلب</td></tr>
-</tbody></table></div></div>
-<div class="vocab-col"><div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>
+</tbody></table>
+<div class="questions"><h4>أسئلة المفردات</h4><ol>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The company decided to _______ their new product on television to reach more people.</span><ol type="a">
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">advertise</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ignore</span></li>
@@ -423,9 +462,181 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">paintings</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">songs</span></li>
 </ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She chose a healthy _______ with regular exercise and balanced meals.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">lifestyle</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">problem</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">mistake</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">accident</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He does _______ work at the hospital every Saturday without getting paid.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">voluntary</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">forced</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">paid</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">difficult</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The charity helps people who live in _______ and cannot afford basic needs.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">poverty</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">wealth</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">luxury</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">comfort</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The government provides extra support to schools in _______ areas.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">disadvantaged</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">wealthy</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">rich</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">comfortable</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Many _______s helped clean the beach after the storm.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">volunteer</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">prisoner</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">tourist</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">visitor</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The United Nations is an international _______ that promotes peace.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">organization</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">problem</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">animal</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">machine</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The government should provide free _______ to all citizens.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">healthcare</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">entertainment</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">transport</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sport</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">A good _______ helps young people develop their skills and confidence.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">mentor</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">student</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">patient</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">customer</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She found a new _______ to solve the math problem quickly.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">method</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">mistake</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">accident</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">failure</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The company plans to _______ a new branch in the city next year.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">establish</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">destroy</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ignore</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cancel</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Reading books every day can help _______ your vocabulary.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">improve</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">worsen</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">forget</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">lose</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Many families _______ to pay their bills when prices keep rising.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">struggle</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">celebrate</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">relax</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">enjoy</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He needs a steady _______ to support his family and pay the rent.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">income</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">hobby</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">dream</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">vacation</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She is a _______ photographer and takes excellent photos for magazines.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">professional</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">amateur</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">careless</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">lazy</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The heavy rain destroyed all the _______ that the farmer had planted.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">crops</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">buildings</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">books</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cars</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The new machine works more _______ than the old one, saving time and energy.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">efficiently</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">slowly</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">carelessly</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">loudly</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The police used fingerprints to _______ the criminal.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">identify</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">hide</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">release</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">forget</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">If you work hard, you can _______ your goals in life.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">achieve</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">lose</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">destroy</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ignore</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The _______ of this product is very high; it will last for many years.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">quality</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">price</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">color</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">size</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">There is a big _______ between knowing the truth and proving it.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">difference</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">similarity</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">secret</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">problem</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">You should _______ your friends, but always verify important information yourself.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">trust</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">doubt</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">hate</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">fear</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">We need a _______ source of information; the internet has too many false stories.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">reliable</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">weak</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">slow</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">noisy</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">When the fire alarm rang, everyone left the building _______.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">immediately</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">slowly</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">carelessly</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">angrily</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The company conducted a _______ to find out what customers think about their products.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">survey</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">party</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">game</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">movie</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The _______ of students in the class prefer studying in the morning rather than at night.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">majority</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">minority</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">few</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">none</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">After a good meal, he felt _______ and didn&#x27;t want to eat anything more.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">content</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">hungry</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">angry</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">worried</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The supermarket offers a wide _______ of fruits and vegetables from around the world.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">variety</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">shortage</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">problem</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">failure</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The two designs are _______ the same; there is very little difference between them.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">essentially</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">completely</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">rarely</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">accidentally</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">There is a high _______ for cold drinks during the hot summer months.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">demand</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">supply</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">waste</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">silence</span></li>
+</ol></li>
 </ol></div>
-</div>
-</div>
 </section>
 <section class="dictation">
 <h2 class="section-title">الإملاء</h2>
@@ -970,6 +1181,204 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">yours</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">your</span></li>
 </ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Ali has broken ____ leg.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">hers</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">his</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">their</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">her</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">We gave them our telephone number, and they gave us ____.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">their</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">our</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ours</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">theirs</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">My car is cheap, but ____ is expensive.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">our</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">hers</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">your</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">her</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">You can&#x27;t have any chocolate! It&#x27;s all ____.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">my</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">her</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">their</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">his</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Hold the bag please while I put the shopping in ____.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">him</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">it</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">them</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">us</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Essam watched the children carefully as ____ crossed the road.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">them</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">him</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">they</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">us</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I wonder why Rashed rushed off. Did you upset ____?</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">he</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">him</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">we</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">they</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Thank you for collecting ____.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">me</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">he</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">she</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">they</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Open the door. It&#x27;s ____.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">they</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">me</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">her</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The teacher ____ teaches us English is very kind.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">which</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">whom</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">who</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">whose</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The car ____ I bought is very fast.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">which</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">who</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">whom</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">whose</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The boy ____ bag was stolen is crying.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">which</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">who</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">whom</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">whose</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Every student ____ to follow the rules.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">have</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">has</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">are</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">were</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Neither Ali nor his sisters ____ here.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">are</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">was</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">has</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">There ____ a lot of cars in the parking lot.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">are</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">was</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">has</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Mathematics ____ my favorite subject.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">are</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">were</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">have</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Everybody ____ to be happy.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">want</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">wants</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">wanting</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">have wanted</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Neither the teacher nor the students ____ satisfied.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">are</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">was</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">has</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Either Sarah or her brother ____ taking the car.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">are</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">were</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">have</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">There ____ some water on the floor.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">are</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">were</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">have</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I made the cake by ____.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">me</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">myself</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">my</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">mine</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The person ____ I spoke to was helpful.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">which</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">whom</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">whose</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">what</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">One ____, two ____.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">child / childs</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">child / children</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">child / childrens</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">children / children</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">My ____ are very clean.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">tooth</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">teeth</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">tooths</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">teeths</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He has many ____ on his farm.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sheep</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sheeps</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sheepes</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sheep&#x27;s</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Two ____ are walking in the forest.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">wolfs</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">wolves</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">wolfes</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">wolve</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I don&#x27;t have ____ friends in this city.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">much</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">many</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a little</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">little</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She has ____ money, so she can buy the book.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">few</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a few</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">little</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a little</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">There is too ____ salt in the soup.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">many</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">much</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">few</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a few</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">We have ____ chairs for everyone. We don&#x27;t need more.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">few</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">little</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">enough</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">too</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He feels lonely because he has very ____ friends.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">few</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a few</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">little</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a little</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">There is ____ hope left. We will lose.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a little</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">little</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">much</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">many</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">This coffee is ____ hot to drink.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">enough</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">too</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a little</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">much</span></li>
+</ol></li>
 </ol>
 </section>
 </div><div class="day" id="day-2"><h1 class="section-title">اليوم 2 – Bicycles</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
@@ -1123,8 +1532,8 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 </section>
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
-<div class="vocab-flex">
-<div class="vocab-col"><div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody><tr><td>1</td><td class="en" dir="ltr">ring</td><td class="ar">خاتم</td></tr>
+<table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
+<tr><td>1</td><td class="en" dir="ltr">ring</td><td class="ar">خاتم</td></tr>
 <tr><td>2</td><td class="en" dir="ltr">watch</td><td class="ar">ساعة يد</td></tr>
 <tr><td>3</td><td class="en" dir="ltr">hat</td><td class="ar">قبعة</td></tr>
 <tr><td>4</td><td class="en" dir="ltr">belt</td><td class="ar">حزام</td></tr>
@@ -1164,8 +1573,8 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <tr><td>38</td><td class="en" dir="ltr">gravitational</td><td class="ar">جاذبي</td></tr>
 <tr><td>39</td><td class="en" dir="ltr">beverage</td><td class="ar">مشروب</td></tr>
 <tr><td>40</td><td class="en" dir="ltr">optical</td><td class="ar">بصري</td></tr>
-</tbody></table></div></div>
-<div class="vocab-col"><div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>
+</tbody></table>
+<div class="questions"><h4>أسئلة المفردات</h4><ol>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">They exchanged wedding ________ made of gold.</span><ol type="a">
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">belt</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">hat</span></li>
@@ -1286,9 +1695,127 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">delicious</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">awful</span></li>
 </ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He pressed the ________ harder to cycle up the steep hill.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">chains</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">pedals</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">brakes</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">wheels</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Macmillan fixed foot ________ to his bicycle to move it forward.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">levers</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">pedals</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">wheels</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">chains</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The telephone is a revolutionary ________ that changed communication.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">invention</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">destruction</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">game</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">problem</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Water seeped through a ________ in the sea floor.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">valleys</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">tunnels</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">mountains</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cracks</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Salt is a natural ________ found in many foods.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">plant</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">mineral</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">animal</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">liquid</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The puddle ________ in the hot sun within an hour.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">flooded</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">expanded</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">froze</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">evaporated</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Wires inside the cable are made of ________ because it conducts electricity well.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Iron</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Silver</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Zinc</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Copper</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">People with ________ must monitor their blood sugar regularly.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Cancer</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Diabetes</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Asthma</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Headache</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Type I diabetics need daily ________ injections to survive.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">antibiotic</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">insulin</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">vitamin</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">calcium</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">During digestion, carbohydrates are broken down into ________ for energy.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Fiber</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Fat</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Protein</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Glucose</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Pasta and bread are rich in ________, which give you energy.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">fats</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">vitamins</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">carbohydrates</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">proteins</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The doctor gave her medicine to ________ the severe back pain.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">increase</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ignore</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">worsen</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">alleviate</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">A runny nose and sneezing are common ________ of a cold.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">disease</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">symptom</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cause</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cure</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The doctor examined a sample of ________ under the microscope.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">bones</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">teeth</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">tissues</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">muscles</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Drinking water aids the process of ________ after a heavy meal.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">exercise</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">digestion</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sleep</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">reading</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">A healthy ________ includes plenty of fruits, vegetables, and whole grains.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">diet</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">habit</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">exercise</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">hobby</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Only the top of the iceberg is ________ above the water; the rest lies hidden.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">invisible</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">dark</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">visible</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">hidden</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The moon&#x27;s ________ pull causes the ocean tides.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">electrical</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">chemical</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">thermal</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">gravitational</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Tea is the most popular hot ________ in the world, especially in Britain.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">machine</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sport</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">food</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">beverage</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">A mirage is an ________ illusion caused by the bending of light rays.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">musical</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">optical</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">mechanical</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">medical</span></li>
+</ol></li>
 </ol></div>
-</div>
-</div>
 </section>
 <section class="dictation">
 <h2 class="section-title">الإملاء</h2>
@@ -1866,6 +2393,126 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The</span></li>
 <li>–</li>
 </ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She is ____ best player in the team.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">an</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">c.the</span></li>
+<li>–</li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I love ____ Chinese food.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">an</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">the</span></li>
+<li>–</li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">____ United Kingdom voted to leave the European Union.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">A</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">An</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The</span></li>
+<li>–</li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He goes to work by ____ bus.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">an</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">the</span></li>
+<li>–</li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">____ water is essential for life.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">A</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">An</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The</span></li>
+<li>–</li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I am the first person here, ____?</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">amn&#x27;t I?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">aren&#x27;t I?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">isn&#x27;t it?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">don&#x27;t I?</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Open the window, ____?</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">don&#x27;t you?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">shall we?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">will you?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">won&#x27;t you?</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Look! The boys ____ in the garden.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">play</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">played</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">are playing</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">were playing</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">While I ____ dinner, the phone rang.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cook</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cooked</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">was cooking</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">am cooking</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">This time next week, we ____ on a plane to London.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sit</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">will sit</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">will be sitting</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">are sitting</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She ____ her room at the moment.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cleans</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is cleaning</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cleaned</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">will clean</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He ____ TV when I arrived.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">watches</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">watched</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">was watching</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is watching</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">They ____ football tomorrow at 5 pm.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">play</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">played</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">will be playing</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">are playing</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She is a good student, ____?</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is she?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">isn&#x27;t she?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">does she?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">doesn&#x27;t she?</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">You haven&#x27;t seen this film, ____?</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">haven&#x27;t you?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">have you?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">did you?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">didn&#x27;t you?</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Let&#x27;s go for a walk, ____?</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">will we?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">shall we?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">don&#x27;t we?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">won&#x27;t we?</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He can&#x27;t drive, ____?</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">can he?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">can&#x27;t he?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">does he?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">doesn&#x27;t he?</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">We saw ____ beautiful bird in the tree. ____ bird was blue.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a, A</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a, The</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">the, A</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">the, The</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Mount Everest is ____ highest mountain in the world.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">an</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">the</span></li>
+<li>–</li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I have ____ breakfast at 7 am every day.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">an</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">the</span></li>
+<li>–</li>
+</ol></li>
 </ol>
 </section>
 </div><div class="day" id="day-3"><h1 class="section-title">اليوم 3 – Amelia Earhart</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
@@ -2019,8 +2666,8 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 </section>
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
-<div class="vocab-flex">
-<div class="vocab-col"><div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody><tr><td>1</td><td class="en" dir="ltr">asthma</td><td class="ar">ربو</td></tr>
+<table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
+<tr><td>1</td><td class="en" dir="ltr">asthma</td><td class="ar">ربو</td></tr>
 <tr><td>2</td><td class="en" dir="ltr">toothache</td><td class="ar">وجع أسنان</td></tr>
 <tr><td>3</td><td class="en" dir="ltr">headache</td><td class="ar">صداع</td></tr>
 <tr><td>4</td><td class="en" dir="ltr">fever</td><td class="ar">حمى</td></tr>
@@ -2060,8 +2707,8 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <tr><td>38</td><td class="en" dir="ltr">psychological</td><td class="ar">نفسي</td></tr>
 <tr><td>39</td><td class="en" dir="ltr">multi-planetary</td><td class="ar">متعدد الكواكب</td></tr>
 <tr><td>40</td><td class="en" dir="ltr">shield</td><td class="ar">درع / يقي</td></tr>
-</tbody></table></div></div>
-<div class="vocab-col"><div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>
+</tbody></table>
+<div class="questions"><h4>أسئلة المفردات</h4><ol>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He uses an inhaler because he suffers from _______.</span><ol type="a">
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">fever</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">asthma</span></li>
@@ -2182,9 +2829,127 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">husband</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">navigator</span></li>
 </ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The musician gave a _______ performance without any backing band.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">group</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">passenger</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">family</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">solo</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Knowing proper _______ is essential when attending formal dinners.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">password</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">address</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">box</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">etiquette</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">A friendly _______ can make guests feel welcome.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">complaint</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">warning</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">mistake</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">greeting</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Using too much _______ in your essay will lower your grade.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">punctuation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sentences</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">subjects</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">slang</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The doctor used a medical _______ that the patient didn&#x27;t understand.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">message</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">paragraph</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">essay</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">abbreviation</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">_______ is refined to produce petrol and diesel.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">wood</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sand</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">water</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">crude oil</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The company now uses _______ packaging to reduce waste.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">heavier</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cheaper</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">stronger</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">biodegradable</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The Ming _______ ruled China for almost 300 years.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">republic</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">empire</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">continent</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">dynasty</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The stars are clearly _______ on a cloudless night.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">tangible</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">invisible</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">audible</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">visible</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The _______ nerve sends sound signals to the brain.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">motor</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">olfactory</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">visual</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">auditory</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The _______ system is responsible for our emotional responses.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">respiratory</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">digestive</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">nervous</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">limbic</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Looking at old photographs made her feel _______.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">hungry</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">tired</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">angry</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">nostalgic</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Physical _______ helped him recover after the accident.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">injection</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">surgery</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">pill</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">therapy</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Darwin&#x27;s theory of _______ explains how species change over time.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">destruction</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">pollution</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">confusion</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">evolution</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The two events happened _______, so we couldn&#x27;t attend both.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">separately</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">slowly</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">never</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">simultaneously</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">We live in a _______ society that discards too many products after a single use.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">green</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">traditional</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">recycling</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">throwaway</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The government introduced a new security _______ to prevent cyberattacks.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">rocket</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">suit</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">window</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">countermeasure</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The war left deep _______ scars on the survivors.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">physical</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">biological</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">chemical</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">psychological</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Elon Musk dreams of making humanity a _______ species.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">small</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">lost</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">single-planet</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">multi-planetary</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The thick walls _______ the inhabitants from the extreme heat.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">burn</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">harm</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">expose</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">shield</span></li>
+</ol></li>
 </ol></div>
-</div>
-</div>
 </section>
 <section class="dictation">
 <h2 class="section-title">الإملاء</h2>
@@ -2616,6 +3381,126 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">at</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
 </ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He lives ____ Riyadh.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">in</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">on</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">at</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Put the book ____ the table.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">in</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">on</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">at</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I&#x27;ll see you ____ the morning.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">in</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">on</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">at</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She&#x27;s waiting ____ the bus stop.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">in</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">on</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">at</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He succeeded ____ passing the exam.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">on</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">in</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">of</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I&#x27;m looking ____ my glasses. Have you seen them?</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">at</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">after</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">out</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">This picture reminds me ____ our holiday.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">of</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">in</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She takes care ____ her little brother.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">of</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">on</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">We depend ____ technology a lot.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">in</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">on</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">of</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I forgave him ____ breaking my toy.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">on</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">of</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Don&#x27;t worry ____ the test. You&#x27;ll do great.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">about</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">on</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">of</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Thank you ____ helping me.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">on</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">of</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I&#x27;m thinking ____ buying a new car.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">in</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">on</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">about</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">of</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He got rid ____ all the old newspapers.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">from</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">with</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">of</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I&#x27;ve never ____ to that restaurant.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">been</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">went</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">gone</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">be</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">They haven&#x27;t arrived ____.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">yet</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">already</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">just</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ever</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She has ____ finished her project.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">yet</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">just</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ever</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">never</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">This is the first time I ____ such a beautiful view.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">saw</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">have seen</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">had seen</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">will see</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The film ____ by the time we got to the cinema.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">started</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">had started</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">has started</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">starts</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">By 2030, Saudi Arabia ____ a lot of new projects.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">completes</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">completed</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">will have completed</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is completing</span></li>
+</ol></li>
 </ol>
 </section>
 </div><div class="day" id="day-4"><h1 class="section-title">اليوم 4 – Japan</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
@@ -2769,8 +3654,8 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 </section>
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
-<div class="vocab-flex">
-<div class="vocab-col"><div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody><tr><td>1</td><td class="en" dir="ltr">heritage</td><td class="ar">تراث</td></tr>
+<table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
+<tr><td>1</td><td class="en" dir="ltr">heritage</td><td class="ar">تراث</td></tr>
 <tr><td>2</td><td class="en" dir="ltr">cuisine</td><td class="ar">مطبخ (أسلوب طهي)</td></tr>
 <tr><td>3</td><td class="en" dir="ltr">discipline</td><td class="ar">انضباط</td></tr>
 <tr><td>4</td><td class="en" dir="ltr">rigorous</td><td class="ar">صارم</td></tr>
@@ -2825,8 +3710,8 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <tr><td>53</td><td class="en" dir="ltr">renewable</td><td class="ar">متجدد</td></tr>
 <tr><td>54</td><td class="en" dir="ltr">sustainable</td><td class="ar">مستدام</td></tr>
 <tr><td>55</td><td class="en" dir="ltr">crucial</td><td class="ar">حاسم</td></tr>
-</tbody></table></div></div>
-<div class="vocab-col"><div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>
+</tbody></table>
+<div class="questions"><h4>أسئلة المفردات</h4><ol>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Japan is known for its rich cultural _______, including ancient temples and traditional festivals.</span><ol type="a">
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">problem</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">disaster</span></li>
@@ -2947,9 +3832,217 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">construction</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">medicine</span></li>
 </ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Education is highly _______ in Japan, with the government spending a large portion of its budget on schools.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">prioritized</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ignored</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">rejected</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">delayed</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Students take international _______ to compare their performance with others around the world.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">assessments</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">holidays</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">games</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">parties</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The school offers many _______ activities such as sports clubs, music lessons, and drama.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">extracurricular</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">academic</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">difficult</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">boring</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The art of beautiful writing, known as _______, is still practiced in many cultures.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">calligraphy</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">photography</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">architecture</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sculpture</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">_______ is the Japanese art of flower arranging, focusing on harmony and balance.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Ikebana</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Origami</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Sushi</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Karate</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Strong _______ hit the coast every summer, bringing heavy rain and powerful winds.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">typhoons</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">earthquakes</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">volcanoes</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">droughts</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Despite many natural disasters, the people remain _______ and quickly rebuild their communities.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">resilient</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">weak</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">afraid</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">lazy</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Each state elects two _______ to represent it in the upper house of Congress.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">senators</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">presidents</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">judges</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">mayors</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The number of _______ each state has depends on its population.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">representatives</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">senators</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">governors</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ministers</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Congress approves the national _______, deciding how money is spent on defense, education, and healthcare.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">budget</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">flag</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">anthem</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">holiday</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Only Congress has the power to _______ war against another country.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">declare</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">celebrate</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ignore</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cancel</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The executive branch must _______ the laws that Congress passes.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">implement</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ignore</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">destroy</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">forget</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The President serves as the _______ of the armed forces.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">commander-in-chief</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">teacher</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">doctor</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">lawyer</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The President meets with his _______ regularly to discuss important national issues.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cabinet</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">family</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">students</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">athletes</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Judges must _______ the meaning of laws to apply them correctly.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">interpret</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ignore</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">write</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">delete</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The Supreme Court can _______ a law if it goes against the constitution.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">overturn</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">support</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">write</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">publish</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Supreme Court justices are _______ by the President and confirmed by the Senate.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">appointed</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">elected</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">hired</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">bought</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The Senate must _______ the President&#x27;s nominations before they take office.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">confirmed</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">rejected</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ignored</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">forgotten</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The system of _______ ensures that no single branch of government becomes too powerful.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">checks and balances</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">free market</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">military rule</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">absolute power</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The new policy _______ cooperation between different government departments.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">fosters</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">destroys</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ignores</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">weakens</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Each branch of government has _______ powers and responsibilities.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">distinct</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">identical</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">shared</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">unclear</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">_______ is a water purification method that uses a semipermeable membrane to remove salt.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Reverse osmosis</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Thermal distillation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Solar power</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Wind energy</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">_______ involves heating seawater to create steam, which is then condensed into fresh water.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Thermal distillation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Reverse osmosis</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Freezing</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Mixing</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Water _______ is a serious problem in desert regions where rainfall is very low.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">scarcity</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">abundance</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">purity</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">color</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Many Middle Eastern countries _______ heavily on desalination for their fresh water supply.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">rely</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ignore</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">waste</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">pollute</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Building and operating desalination plants is very _______ due to the energy and equipment required.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">costly</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cheap</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">simple</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">fast</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Technological _______ have made desalination more efficient and less expensive over time.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">advancements</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">problems</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">failures</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">delays</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Desalination _______ environmental challenges because it consumes large amounts of energy.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">poses</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">solves</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ignores</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">celebrates</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The project requires a _______ amount of funding to complete on time.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">significant</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">small</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">tiny</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">minor</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Proper _______ of chemical waste is essential to protect the environment.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">disposal</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">creation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">collection</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">storage</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The oil spill caused great damage to _______ life along the coast.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">marine</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">land</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">air</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">urban</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Coral reefs are delicate _______ that can be destroyed by pollution and climate change.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ecosystems</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">buildings</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">machines</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">vehicles</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Solar and wind power are examples of _______ energy sources that will never run out.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">renewable</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">fossil</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">nuclear</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">limited</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">We need to find _______ solutions to protect the planet for future generations.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sustainable</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">temporary</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">dangerous</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">expensive</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Clean water is _______ for human survival; without it, we cannot live.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">crucial</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">optional</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">unnecessary</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">harmful</span></li>
+</ol></li>
 </ol></div>
-</div>
-</div>
 </section>
 <section class="dictation">
 <h2 class="section-title">الإملاء</h2>
@@ -3408,6 +4501,126 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">so</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">nor</span></li>
 </ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He doesn&#x27;t smoke, ____ does he drink.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">and</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">but</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">or</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">nor</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She went to bed early, ____ she was very tired.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">so</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">yet</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">and</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">____ it was cold, we went swimming.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Because</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Although</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">If</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Unless</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">You can&#x27;t enter ____ you have a ticket.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">if</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">unless</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">when</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">because</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">You can borrow my car ____ you drive carefully.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">unless</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">although</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">provided that</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">but</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I&#x27;ll call you ____ I arrive.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">while</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">when</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">although</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">unless</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">____ you study hard, you will fail.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">If</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Unless</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">When</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Because</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He passed the exam ____ he didn&#x27;t study much.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">because</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">even though</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">if</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">so</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I listened to music ____ I worked.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">while</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">because</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">unless</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">or</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She hasn&#x27;t eaten anything ____ breakfast.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">since</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">in</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">on</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">We have lived in this house ____ ten years.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">since</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">in</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">at</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The book ____ by my father in 1990.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">wrote</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">was written</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">has written</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">writes</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The window ____ by the wind last night.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">broke</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">was broken</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">breaks</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is broken</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">All the food ____ before we arrived.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">eaten</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">had been eaten</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ate</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is eaten</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">By the time we got there, the concert ____.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">started</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">has started</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">had started</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">was started</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Don&#x27;t worry ____ the exam. You&#x27;ll do great.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">about</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">on</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">of</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Thank you ____ helping me.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">on</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">of</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He got rid ____ all the old newspapers.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">from</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">with</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">of</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I&#x27;ve never ____ to that restaurant.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">been</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">went</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">gone</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">be</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">This is the first time I ____ such a beautiful view.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">saw</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">have seen</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">had seen</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">will see</span></li>
+</ol></li>
 </ol>
 </section>
 </div><div class="day" id="day-5"><h1 class="section-title">اليوم 5 – California</h1><section class="reading"><h2 class="section-title">قطع القراءة (2 قطع)</h2>
@@ -3508,8 +4721,8 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 </section>
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
-<div class="vocab-flex">
-<div class="vocab-col"><div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody><tr><td>1</td><td class="en" dir="ltr">populous</td><td class="ar">مكتظ بالسكان</td></tr>
+<table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
+<tr><td>1</td><td class="en" dir="ltr">populous</td><td class="ar">مكتظ بالسكان</td></tr>
 <tr><td>2</td><td class="en" dir="ltr">diverse</td><td class="ar">متنوع</td></tr>
 <tr><td>3</td><td class="en" dir="ltr">coastlines</td><td class="ar">سواحل</td></tr>
 <tr><td>4</td><td class="en" dir="ltr">lush</td><td class="ar">خصبة</td></tr>
@@ -3549,8 +4762,8 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <tr><td>38</td><td class="en" dir="ltr">revive</td><td class="ar">ينعش</td></tr>
 <tr><td>39</td><td class="en" dir="ltr">conservation</td><td class="ar">حفظ / صيانة</td></tr>
 <tr><td>40</td><td class="en" dir="ltr">archaeological</td><td class="ar">أثري</td></tr>
-</tbody></table></div></div>
-<div class="vocab-col"><div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>
+</tbody></table>
+<div class="questions"><h4>أسئلة المفردات</h4><ol>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">California is the most _______ state in the United States, with over 39 million residents.</span><ol type="a">
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">empty</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">quiet</span></li>
@@ -3671,9 +4884,127 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">disaster</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">economy</span></li>
 </ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The Nile River is the _______ of Egypt, providing water for drinking, farming, and transportation.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">lifeblood</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">problem</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">enemy</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">waste</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">For thousands of years, the river has provided _______ to the people living along its banks.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sustenance</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">destruction</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">pollution</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">confusion</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Egyptian civilization has existed for several _______, dating back to ancient times.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">millennia</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">days</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">months</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">weeks</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The pyramids are _______ structures that have stood for over 4,000 years.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">monumental</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">tiny</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">modern</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">simple</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The ancient Egyptians had a _______ understanding of mathematics and engineering.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">profound</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">shallow</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">weak</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">simple</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Cairo is a _______ city, full of people, traffic, and activity at all hours.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">bustling</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">quiet</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">empty</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sleepy</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">As a major _______, Cairo combines modern skyscrapers with historic mosques and markets.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">metropolis</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">village</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">desert</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">forest</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The Egyptian Museum contains thousands of ancient _______, including jewelry and statues.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">artifacts</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">animals</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">plants</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">machines</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Tourists visit the traditional _______ in Cairo to buy spices, perfumes, and handmade crafts.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">souks</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">malls</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">airports</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">factories</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The _______ of old and new architecture makes Cairo a fascinating city to explore.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">juxtaposition</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">destruction</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">separation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">removal</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Most of Egypt has an _______ climate, with very hot summers and almost no rain.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">arid</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">rainy</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">humid</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cold</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The land along the Nile is more _______ for farming because of the river&#x27;s water.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">hospitable</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">hostile</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">dangerous</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">useless</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Rice, wheat, and cotton are widely _______ in the fertile land near the Nile.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cultivated</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">destroyed</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ignored</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">wasted</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Egyptian farmers developed _______ irrigation systems to make the most of limited water.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sophisticated</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">simple</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">useless</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">broken</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The _______ of the Egyptian people makes visitors feel welcome and at home.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">hospitality</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">anger</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">rudeness</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">coldness</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Egypt&#x27;s history is a rich _______ of different cultures, traditions, and civilizations.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">tapestry</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">thread</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cloth</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">fabric</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Economic _______ have made it difficult for some businesses to plan for the future.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">fluctuations</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">stability</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">certainty</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">predictability</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The government is taking steps to _______ the tourism industry after years of decline.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">revive</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">destroy</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ignore</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">weaken</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">_______ projects help protect Egypt&#x27;s ancient monuments from damage and decay.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Conservation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Destruction</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Neglect</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Abandonment</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The _______ sites in Luxor attract scholars and tourists from all over the world.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">archaeological</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">modern</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">industrial</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">residential</span></li>
+</ol></li>
 </ol></div>
-</div>
-</div>
 </section>
 <section class="dictation">
 <h2 class="section-title">الإملاء</h2>
@@ -4183,6 +5514,126 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">most careful</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">the most careful</span></li>
 </ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">My bag is as ____ as yours.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">heavy</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">heavier</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">heaviest</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">more heavy</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">This lesson is ____ than the last one.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">easy</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">easier</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">easiest</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">the easiest</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She sings ____ than anyone else.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">beautiful</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">more beautifully</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">most beautifully</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">beautifuller</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">That was the ____ trip I&#x27;ve ever taken.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">long</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">longer</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">longest</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">most long</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">This cake is ____ delicious ____ the one we had yesterday.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">as / as</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">more / as</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">as / than</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">most / than</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">We stayed in a ____ hotel during our vacation.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">five-star</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">five stars</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">five-starred</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">five-star&#x27;s</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She is a very ____ person; she always helps others.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">kind-hearted</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">kind hearted</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">kind-heart</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">kind heart</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He bought a ____ car yesterday.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">two-doors</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">two-door</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">two doors</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">two-door&#x27;s</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I have a ____ daughter.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ten years old</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ten-year-old</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ten years-old</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ten year old</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">This is a ____ battery; it lasts for days.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">long-lasting</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">long-lasted</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">longing-lasting</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">long-last</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">My grandfather still uses an ____ phone.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">old-fashion</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">old-fashioned</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">old-fashioning</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">old fashion</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">That actor is very ____; everyone knows him.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">well-known</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">good-known</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">well-knowing</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">well-know</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I prefer ____ drinks without sugar.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sugar-free</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sugar-freed</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sugar-freen</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">free-sugar</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He is a ____ man; he never gets angry.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cold-blood</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cold-blooded</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cold-blooding</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">blood-cold</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She wore a ____ dress to the party.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">good-looking</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">well-looking</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">good-looked</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">good-look</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">This is a ____ opportunity; don&#x27;t waste it.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">life-changed</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">life-changing</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">life-changes</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">changing-life</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">We saw a ____ documentary about space.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">thought-provoking</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">thought-provoked</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">thought-provokes</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">thought-provoke</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The ____ criminal was finally caught.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cold-blooded</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cold-blood</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cold-blooding</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">blood-cold</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I&#x27;m looking for a ____ apartment.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">two-bedroom</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">two-bedrooms</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">two-bedroom&#x27;s</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">two-bed</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She works in a ____ environment and is always stressed.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">high-pressure</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">high-pressured</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">highly-pressure</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">high-pressuring</span></li>
+</ol></li>
 </ol>
 </section>
 </div><div class="day" id="day-6"><h1 class="section-title">اليوم 6 – The All Blacks (New Zealand Rugby)</h1><section class="reading"><h2 class="section-title">قطع القراءة (2 قطع)</h2>
@@ -4307,8 +5758,8 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 </section>
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
-<div class="vocab-flex">
-<div class="vocab-col"><div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody><tr><td>1</td><td class="en" dir="ltr">obsession</td><td class="ar">هوس</td></tr>
+<table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
+<tr><td>1</td><td class="en" dir="ltr">obsession</td><td class="ar">هوس</td></tr>
 <tr><td>2</td><td class="en" dir="ltr">tough</td><td class="ar">شاق / قاسٍ</td></tr>
 <tr><td>3</td><td class="en" dir="ltr">contact sport</td><td class="ar">رياضة احتكاك</td></tr>
 <tr><td>4</td><td class="en" dir="ltr">originated</td><td class="ar">نشأ</td></tr>
@@ -4352,8 +5803,8 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <tr><td>42</td><td class="en" dir="ltr">legacy</td><td class="ar">إرث</td></tr>
 <tr><td>43</td><td class="en" dir="ltr">aftermath</td><td class="ar">ما بعد الكارثة</td></tr>
 <tr><td>44</td><td class="en" dir="ltr">epidemic</td><td class="ar">وباء</td></tr>
-</tbody></table></div></div>
-<div class="vocab-col"><div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>
+</tbody></table>
+<div class="questions"><h4>أسئلة المفردات</h4><ol>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Football is more than just a sport in Brazil; it&#x27;s a national _______.</span><ol type="a">
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">obsession</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">hobby</span></li>
@@ -4474,9 +5925,151 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Snow</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Sand</span></li>
 </ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The entire village was _______ by the powerful explosion, leaving nothing standing.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">annihilated</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">built</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">saved</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">protected</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">After the eruption, a large _______ formed where the mountain&#x27;s peak had been blown away.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">caldera</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">river</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">forest</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">lake</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The volcanic ash was ejected into the _______, where it circled the globe for months.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">stratosphere</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ocean</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">river</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">forest</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The earthquake caused widespread _______, destroying homes, roads, and schools.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">devastation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">celebration</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">construction</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">decoration</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The war resulted in thousands of _______, including both soldiers and civilians.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">fatalities</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">births</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">celebrations</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">victories</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">During the drought, many people died of _______ because crops failed completely.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">starvation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">wealth</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">health</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">fitness</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Contaminated water can cause _______ diseases that affect the stomach and digestion.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">intestinal</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">visual</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">auditory</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">dental</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">_______ dioxide is a gas released by volcanoes that can reflect sunlight and cool the Earth.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Sulfur</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Oxygen</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Nitrogen</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Hydrogen</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Canada is located in the Northern _______, while Australia is in the Southern _______.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">hemisphere</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">continent</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">country</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">city</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Rice is a _______ food in many Asian countries, eaten with almost every meal.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">staple</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">luxury</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">rare</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">occasional</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Crop failure and drought led to widespread _______, with millions of people facing hunger.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">famine</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">feast</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">harvest</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">abundance</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">_______ is a disease spread by lice and fleas, causing high fever and body rash.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Typhus</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Diabetes</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Asthma</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Cancer</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Drinking contaminated water can cause _______, a disease that leads to severe dehydration.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cholera</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">malaria</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">influenza</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">allergy</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The king&#x27;s _______ lasted for 40 years, bringing peace and prosperity to the country.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">reign</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">fall</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">destruction</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">chaos</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The country went through a _______ period of political change, with protests and elections.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">tumultuous</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">calm</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">quiet</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">peaceful</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The city of Paris is often _______ with romance and love.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">synonymous</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">unrelated</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">opposite</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">different</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Smoking is strongly _______ with lung cancer; smokers have a much higher risk.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">correlated</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">unrelated</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">disconnected</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">separate</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The _______ scale means that each step represents a tenfold increase, not a simple addition.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">logarithmic</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">linear</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">simple</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">flat</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The _______ of the circle is 10 meters, meaning it is 5 meters from the center to the edge.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">diameter</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">radius</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">circumference</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">length</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">After days of climbing, they finally reached the _______ of the mountain.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">summit</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">base</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">valley</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">river</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The doctor said the tumor was _______, so there was no need to worry.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">benign</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">dangerous</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">deadly</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">harmful</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The scientist&#x27;s _______ includes several important discoveries that changed medicine.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">legacy</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">failure</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">mistake</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">problem</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">In the _______ of the earthquake, rescue teams searched for survivors under the rubble.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">aftermath</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">beginning</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">start</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">peak</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The country faced a serious _______ of influenza, affecting millions of people.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">epidemic</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">celebration</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">construction</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">education</span></li>
+</ol></li>
 </ol></div>
-</div>
-</div>
 </section>
 <section class="dictation">
 <h2 class="section-title">الإملاء</h2>
@@ -4855,9 +6448,129 @@ It is important <b>to arrive</b> on time.
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">get used to</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">use to</span></li>
 </ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He didn&#x27;t ____ like vegetables, but now he does.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">use to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">be used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">get used to</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I ____ waking up early because I do it every day.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">am used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">get used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">use to</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">They ____ take a walk by the river when they lived there.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">are used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">get used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">use to</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He keeps ____ even though I asked him to stop.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">talk</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to talk</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">talking</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to talking</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She finished ____ her homework before dinner.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">do</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to do</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">doing</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to doing</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">We hope ____ you soon.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">see</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to see</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">seeing</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to seeing</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He offered ____ us with the bags.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">help</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to help</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">helping</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to helping</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I would like ____ a cup of tea.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">have</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to have</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">having</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to having</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She seems ____ very happy today.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">be</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to be</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">being</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to being</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He admitted ____ the window.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">break</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to break</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">breaking</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to breaking</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She denied ____ the money.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">take</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to take</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">taking</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to taking</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">We are looking forward to ____ you.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">see</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to see</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">seeing</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to seeing</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He is good at ____ problems.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">solve</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to solve</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">solving</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to solving</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I am tired of ____ the same thing every day.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">do</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to do</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">doing</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to doing</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She left without ____ goodbye.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">say</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to say</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">saying</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to saying</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He ____ be a heavy smoker, but he quit last year.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">get used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">use to</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">My grandmother ____ telling us stories before bed. She did it every night.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">was used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">got used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is used to</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I can&#x27;t ____ the hot weather; I&#x27;m always sweating.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">am used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">get used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">use to</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He is a soldier, so he ____ dangerous situations.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">get used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">use to</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">When I was a child, I ____ believe in magic.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">use to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">am used to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">get used to</span></li>
+</ol></li>
 </ol>
 </section>
-</div><div class="day" id="day-7"><h1 class="section-title">اليوم 7 – Tintin in Tibet (Passage 1)</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
+</div><div class="day" id="day-7"><h1 class="section-title">اليوم 7 – Tintin in Tibet (Passage 1)</h1><section class="reading"><h2 class="section-title">قطع القراءة (5 قطع)</h2>
 <article class="passage"><h3>Tintin in Tibet (Passage 1)</h3>
 <div class="passage-text">Are you familiar with the cartoon character Tintin? If so, you may be familiar with the comic book Tintin in Tibet, which first appeared in 1960. Perhaps you have read the Arabic version. In the story, Tintin hears the terrible news that the airplane carrying his Chinese friend, Chang, has crashed in the snowy Himalayan mountains of Tibet with no survivors. Tintin then has a dream, in which he sees that Chang is still alive, and so he travels high into the Himalayas to find and rescue his friend. The world&#x27;s highest and most formidable mountain range was a fitting setting for this heart-warming tale of tragedy, friendship, and courage. East Asia is, by far, the world&#x27;s busiest and most populous region, with billions of people constantly on the move by land, sea, and air. And yet, if you open up a live air-traffic map of East Asia, you will see that aviation activity is totally absent from one vast region within the region: Tibet is essentially a no-fly zone.<br><br>The autonomous region of Tibet lies in southwest China. Covering an area of 2.5 million square kilometers, Tibet is 20% larger than Saudi Arabia. In addition to its great size, the Tibetan plateau is the highest region on Earth, with an average elevation of around 4,000 meters. Mount Everest, the world&#x27;s highest mountain, is located in the south of the region, on Tibet&#x27;s border with the neighboring country of Nepal. The presence of the Himalayan range within its territory has earned Tibet the nickname &quot;The Roof of the World,&quot; and many of Asia&#x27;s most famous rivers, such as the Yangtze, the Indus, and the Mekong have their source here. Despite its vast size, however, Tibet&#x27;s population is only around 3 million, and there is virtually no internal demand for air travel. This lack of demand for either international or domestic air travel means that Lhasa, Tibet&#x27;s capital, hosts the region&#x27;s sole international airport.<br><br>An early indication of the extreme dangers of flying in such an inhospitable environment was provided in the 1940s, during World War II. The British needed to airlift supplies from their bases in northeastern India into China to assist the Chinese in their struggle against the Japanese forces that were occupying Chinese territory at the time. The extreme weather conditions that the pilots encountered on these missions included wind speeds of up to 320 kilometers per hour. Over a three-and-a-half-year period, a total of 594 aircraft were lost and 1,659 fatalities were recorded. To put these numbers into perspective, these non-combat losses were even greater than the combat losses suffered by the allied air crews at the hands of the German Luftwaffe during the Battle of Britain. Indeed, in some months, as many as 50% of the aircraft flying these routes were crashing into the mountains of the Tibetan plateau.<br><br>Even today, 75 years after World War II, the elevated terrain of the Tibetan plateau presents very real dangers for all types of aircraft. These dangers take many forms. For example, commercial airliners usually cruise at an altitude of around 11,000 meters, which is well above even Mount Everest. But, in emergency situations, such as a cabin depressurization or an engine failure, standard procedure is for the aircraft to descend to a much lower altitude of around 3,000 meters to enable the passengers and crew to breathe normally, as the emergency oxygen supply will only last for 20 minutes. However, because the average elevation of the Tibetan plateau is around 4,000 meters, the aircraft would almost certainly crash into a mountainside if such a descent were attempted. Faced with the need to divert the aircraft to a suitable airport for an emergency landing, pilots flying over the Tibetan plateau have very few options.<br><br>Turbulence - the sudden, jerky, up-and-down movement of an aircraft caused by irregular airflow - poses a potential hazard in the skies above the Tibetan plateau. Fortunately, modern passenger planes are engineered to withstand almost anything the sky can throw at them, so, although turbulence is a common in-flight occurrence, it is rarely dangerous. That said, so-called &quot;mountain wave turbulence&quot; can be a very different matter. The towering Himalayan peaks force the high-speed winds sharply upwards, and this creates severe waves of turbulence as the air passes over the mountain peaks. Scientists in India have reportedly succeeded in modeling turbulence parameters over the central Himalayas for the first time, and it is hoped that this breakthrough could make air travel in the region less of a risk. Nevertheless, the unforgiving Tibetan plateau will likely remain a &quot;next-to-no-fly zone&quot; for many years to come.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
@@ -4957,11 +6670,57 @@ It is important <b>to arrive</b> on time.
 </ol></li>
 </ol></div>
 </article>
+<article class="passage"><h3>The USA Federal Government (Passage 4)</h3>
+<div class="passage-text">The federal government of the United States is divided into three branches: the legislative, the executive, and the judicial. The legislative branch, Congress, consists of the Senate and the House of Representatives. Each state has two senators, while the number of representatives depends on the state&#x27;s population. The executive branch is headed by the President, who serves as both head of state and head of government. The judicial branch is represented by the Supreme Court, which has the final say on matters of constitutional law. The system of checks and balances ensures that no single branch becomes too powerful.</div>
+<div class="questions"><h4>أسئلة الفهم</h4><ol>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">5. Which branch makes laws?</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Executive</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Judicial</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Legislative</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Military</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">6. How many senators does each state have?</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">One</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Two</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Three</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Based on population</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">7. Who heads the executive branch?</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The Chief Justice</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The Vice President</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The President</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The Speaker</span></li>
+</ol></li>
+</ol></div>
+</article>
+<article class="passage"><h3>Water Desalination (Passage 5)</h3>
+<div class="passage-text">Desalination is the process of removing salt from seawater to produce fresh water. It is especially important in arid regions such as the Middle East and North Africa. The most common methods are reverse osmosis, which forces seawater through a membrane to filter out salt, and thermal distillation, which heats seawater to create steam that is then condensed. Although desalination provides a reliable water source, it requires a great deal of energy and produces concentrated brine that can harm marine ecosystems if not properly managed. Researchers are now exploring renewable energy to make desalination more sustainable.</div>
+<div class="questions"><h4>أسئلة الفهم</h4><ol>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">8. What does desalination remove from seawater?</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Salt</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Sand</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Oil</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Bacteria</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">9. Which method uses a membrane?</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Thermal distillation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Reverse osmosis</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Solar desalination</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Filtration</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">10. What environmental issue is associated with desalination?</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Deforestation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Brine harming marine life</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Ozone depletion</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Soil erosion</span></li>
+</ol></li>
+</ol></div>
+</article>
 </section>
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
-<div class="vocab-flex">
-<div class="vocab-col"><div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody><tr><td>1</td><td class="en" dir="ltr">aurora</td><td class="ar">شفق قطبي</td></tr>
+<table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
+<tr><td>1</td><td class="en" dir="ltr">aurora</td><td class="ar">شفق قطبي</td></tr>
 <tr><td>2</td><td class="en" dir="ltr">crackling</td><td class="ar">طقطقة</td></tr>
 <tr><td>3</td><td class="en" dir="ltr">sizzling</td><td class="ar">أزيز</td></tr>
 <tr><td>4</td><td class="en" dir="ltr">geomagnetic</td><td class="ar">مغناطيسية أرضية</td></tr>
@@ -5001,8 +6760,8 @@ It is important <b>to arrive</b> on time.
 <tr><td>38</td><td class="en" dir="ltr">grid</td><td class="ar">شبكة كهرباء</td></tr>
 <tr><td>39</td><td class="en" dir="ltr">capacity</td><td class="ar">سعة</td></tr>
 <tr><td>40</td><td class="en" dir="ltr">strategically</td><td class="ar">استراتيجياً</td></tr>
-</tbody></table></div></div>
-<div class="vocab-col"><div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>
+</tbody></table>
+<div class="questions"><h4>أسئلة المفردات</h4><ol>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She set her alarm for 2 AM and drove far from the city lights, hoping to witness the green _______ dance across the sky.</span><ol type="a">
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">satellite</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">phenomenon</span></li>
@@ -5123,9 +6882,127 @@ It is important <b>to arrive</b> on time.
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">folklore</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">crackling</span></li>
 </ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The company switched to _______ packaging made from recycled materials that won&#x27;t end up in landfills.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">infrastructure</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">phenomenon</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sustainable</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">irrigation</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The new electric car design is a great _______; it solves many problems that older models struggled with.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">capacity</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">innovation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">caravan</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">labyrinth</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The introduction of a new predator into the lake completely disrupted the natural _______ and many fish populations declined.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">elusive</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ecosystem</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">decline</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">UNESCO</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The sudden increase in temperature across the entire continent was a natural _______ that scientists rushed to understand.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">inscription</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">phenomenon</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">deprivation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cosmopolitan</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Before GPS was invented, sailors relied on the stars and a compass for accurate _______ across the ocean.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sustainable</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">folklore</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">emission</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">navigation</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The traditional dance has been passed down for generations and is now protected as part of the country&#x27;s cultural _______.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">subterranean</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">colossus</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">immuna</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">heritage</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Unlike oil and gas, which will eventually run out, solar and wind power are _______ sources of energy.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">induce</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">labyrinth</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">renewable</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">capacity</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The government is investing heavily in _______ projects such as roads, bridges, and high-speed internet for rural areas.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sensory</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">infrastructure</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">decline</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">drought</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The television channels are broadcast from a _______ orbiting thousands of kilometres above the Earth.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">crackling</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">satellite</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">caravan</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">obesity</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The severe _______ lasted for three years; rivers dried up completely and farmers lost their entire harvest.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">UNESCO</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cognitive</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">drought</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sizzling</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Doctors are concerned about the rise in childhood _______ because it leads to diabetes and heart problems later in life.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">grid</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">innovation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">obesity</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">folklore</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Getting enough sleep and eating well can strengthen your _______ system and help you fight off infections.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">irrigation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">immune</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">inscription</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">phenomenon</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Reading books and solving puzzles can help maintain _______ abilities as people get older.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">geothermal</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cognitive</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">celestial</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">heritage</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Sleep _______ for several nights in a row can cause serious health problems, including high blood pressure.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">deprivation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">ecosystem</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">navigation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">frankincense</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The _______ of several departments into one large team saved the company money and improved efficiency.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">shielding</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">vibrate</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">consolidation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">aurora</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The thick concrete walls were designed to _______ the workers inside from dangerous radiation.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">shield</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">elusive</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">subterranean</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">colossus</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The government introduced strict limits on carbon _______ from factories to combat climate change.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sustainable</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">emission</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">cosmopolitan</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">labyrinth</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">When lightning struck the power station, the entire _______ went down and the city was in darkness for hours.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">grid</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">phenomenon</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">caravan</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">obesity</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The concert hall has a seating _______ of 2,000 people, and all tickets were sold out within hours.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">innovation</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">capacity</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">stratosphere</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">decline</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The company _______ placed its new warehouse near the motorway to reduce transport costs and delivery times.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">strategically</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">sizzling</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">UNESCO</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">drought</span></li>
+</ol></li>
 </ol></div>
-</div>
-</div>
 </section>
 <section class="dictation">
 <h2 class="section-title">الإملاء</h2>
@@ -5647,6 +7524,126 @@ It is important <b>to arrive</b> on time.
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">haven&#x27;t finished</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">don&#x27;t finish</span></li>
 <li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">wasn&#x27;t finish</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She said that she ____ tired.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">was</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">has been</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">will be</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">If I ____ you, I would apologize.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">am</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">was</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">were</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">be</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">If he had studied, he ____ the exam.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">passes</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">will pass</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">would pass</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">would have passed</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">You ____ smoke here. It&#x27;s a hospital.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">mustn&#x27;t</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">needn&#x27;t</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">should</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">can</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I had my car ____ yesterday.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">repair</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">repaired</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">repairing</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to repair</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I would rather ____ at home tonight.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">stay</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">staying</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to stay</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">stayed</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I wish I ____ more money.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">have</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">had</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">will have</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">having</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Do you know where ____?</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is the bank</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">the bank is</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">the bank</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">bank is</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She prefers walking ____ driving.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">than</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">from</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">for</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">You&#x27;d better ____ now, or you&#x27;ll miss the bus.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">leave</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">leaving</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to leave</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">left</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">He denied ____ the money.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">take</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to take</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">taking</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">took</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">If water boils, it ____ into steam.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">turn</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">turns</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">turned</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">will turn</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The teacher asked the students ____ quiet.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">be</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">to be</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">being</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">been</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">She is not ____ to drive yet.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">enough old</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">old enough</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">too old</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">very old</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Neither Ali nor Sami ____ here.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">is</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">are</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">be</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">were</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">I saw ____ cat. ____ cat was black.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a, The</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">the, A</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">a, A</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">the, The</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">You are a student, ____?</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">aren&#x27;t you?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">isn&#x27;t it?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">don&#x27;t you?</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">you are?</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">Give me ____ pen, please. This one is broken.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">other</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">another</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">others</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">the others</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">It was ____ a beautiful day that we went to the beach.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">so</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">such</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">very</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">too</span></li>
+</ol></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">The concert starts ____ 7 p.m.</span><ol type="a">
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">in</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">on</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">at</span></li>
+<li><span dir="ltr" style="unicode-bidi:embed;direction:ltr;">from</span></li>
 </ol></li>
 </ol>
 </section>
