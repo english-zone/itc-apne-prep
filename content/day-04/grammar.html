@@ -1,49 +1,313 @@
-<div class="grammar-content">
-<h2>🏛️ Passive Voice (المبني للمجهول)</h2>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>قواعد اللغة الإنجليزية – اليوم الثالث (المتكامل)</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
 
-<p><strong>الاستخدام:</strong> عندما نريد التركيز على الفعل أو المفعول به بدلاً من الفاعل، أو عندما يكون الفاعل غير مهم أو غير معروف.</p>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
 
-<h3>🔁 كيف نحول جملة من Active إلى Passive؟</h3>
-<ol>
-<li>ننقل <b>المفعول به</b> (Object) إلى بداية الجملة.</li>
-<li>نضع الفعل <b>be</b> في نفس زمن الجملة الأصلية + <b>past participle</b> (التصريف الثالث).</li>
-<li>نضع الفاعل الأصلي (إن أردنا) بعد <b>by</b>.</li>
-</ol>
-<p><strong>مثال توضيحي:</strong></p>
-<p style="text-align:center;font-size:1.2rem;">
-Active: The cat 🐱 chased the mouse 🐭.<br>
-Passive: The mouse 🐭 was chased by the cat 🐱.<br>
-<span style="font-size:1.5rem;">⬅️ المفعول به يتحرك إلى الأمام</span>
-</p>
+  body {
+    font-family: 'Tajawal', 'Segoe UI', sans-serif;
+    background: #f0f5ff;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+  }
 
-<h3>📊 جدول الأزمنة في المبني للمجهول</h3>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr><th>الزمن</th><th>Active</th><th>Passive</th><th>be + p.p.</th></tr>
-<tr><td>Present Simple</td><td>They <b>make</b> cars.</td><td>Cars <b>are made</b>.</td><td>am/is/are + p.p.</td></tr>
-<tr><td>Past Simple</td><td>My father <b>wrote</b> this book.</td><td>This book <b>was written</b> by my father.</td><td>was/were + p.p.</td></tr>
-<tr><td>Future Simple</td><td>I <b>will do</b> the exercise.</td><td>The exercise <b>will be done</b> by me.</td><td>will be + p.p.</td></tr>
-<tr><td>Present Continuous</td><td>They <b>are building</b> a house.</td><td>A house <b>is being built</b>.</td><td>am/is/are being + p.p.</td></tr>
-<tr><td>Past Continuous</td><td>He <b>was painting</b> the wall.</td><td>The wall <b>was being painted</b>.</td><td>was/were being + p.p.</td></tr>
-<tr><td>Present Perfect</td><td>She <b>has written</b> the report.</td><td>The report <b>has been written</b>.</td><td>have/has been + p.p.</td></tr>
-<tr><td>Past Perfect</td><td>They <b>had finished</b> the work.</td><td>The work <b>had been finished</b>.</td><td>had been + p.p.</td></tr>
-<tr><td>Future Perfect</td><td>We <b>will have completed</b> it.</td><td>It <b>will have been completed</b>.</td><td>will have been + p.p.</td></tr>
-</table>
+  .page {
+    max-width: 1050px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 28px;
+    padding: 2rem 1.8rem;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.06);
+    border: 1px solid #e0e7f2;
+  }
 
-<h3>🔧 Modal Verbs في المبني للمجهول</h3>
-<p><strong>التركيب:</strong> modal + <b>be</b> + past participle</p>
+  h2 {
+    font-size: 2.2rem;
+    color: #00264d;
+    border-right: 8px solid #0071e3;
+    padding-right: 1rem;
+    margin: 2.5rem 0 1.3rem;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  h2::before {
+    content: "📌";
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+    color: #004080;
+    margin: 1.8rem 0 1rem;
+    padding: 0.5rem 1rem;
+    background: #f4f8ff;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  h3::before {
+    content: "✨";
+    font-size: 1.5rem;
+  }
+
+  p, li {
+    font-size: 1.1rem;
+    line-height: 2;
+    color: #1a1a2e;
+    margin-bottom: 0.6rem;
+  }
+
+  strong { color: #b33c00; }
+  b { color: #c4450c; }
+
+  ul, ol {
+    list-style-type: none;
+    padding-right: 1.8rem;
+  }
+
+  li {
+    margin-bottom: 0.7rem;
+    position: relative;
+    padding-right: 1.8rem;
+  }
+
+  li::before {
+    content: "✔️";
+    position: absolute;
+    right: 0;
+    color: #28a745;
+    font-size: 1.2rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+    border: 1px solid #d6e0f0;
+  }
+
+  th {
+    background: #0059b3;
+    color: white;
+    font-weight: 700;
+    padding: 12px 8px;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  td {
+    padding: 10px 8px;
+    text-align: center;
+    font-size: 0.98rem;
+    border-bottom: 1px solid #e0e8f5;
+    background-color: #fafcff;
+  }
+
+  tr:last-child td { border-bottom: none; }
+
+  .tip-box {
+    background: #fff9e6;
+    border-right: 6px solid #ffaa00;
+    padding: 1rem 1.2rem;
+    border-radius: 12px;
+    margin: 1.2rem 0;
+    font-size: 1.05rem;
+  }
+
+  .verb-table td { text-align: right; }
+
+  hr {
+    border: 1px dashed #b3c7e6;
+    margin: 2rem 0;
+  }
+
+  .print-footer {
+    text-align: center;
+    margin-top: 2.8rem;
+    padding: 1rem;
+    background: #eef3fd;
+    border-radius: 16px;
+    font-weight: bold;
+    color: #0059b3;
+    font-size: 1.1rem;
+  }
+
+  @media print {
+    body { background: white; padding: 0; }
+    .page { box-shadow: none; border: none; padding: 1rem; max-width: 100%; }
+    h2 { border-right: 4px solid black; }
+    h2::before { display: none; }
+    th { background: #ddd; color: black; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<h2>✅ الأزمنة التامة (Perfect Tenses)</h2>
+
+<h3>1️⃣ المضارع التام (Present Perfect)</h3>
+<p><strong>متى نستخدمه؟</strong></p>
 <ul>
-<li>You <b>must</b> finish the report. → The report <b>must be</b> finished.</li>
-<li>We <b>can</b> solve the problem. → The problem <b>can be</b> solved.</li>
-<li>They <b>should</b> respect the rules. → The rules <b>should be</b> respected.</li>
-<li>Someone <b>may</b> steal the money. → The money <b>may be</b> stolen.</li>
-<li>We <b>have to</b> clean the room. → The room <b>has to be</b> cleaned.</li>
+<li>شيء خلّص وأثره باقي: I <b>have lost</b> my keys. (مش قادر أفتح الباب).</li>
+<li>تجربة في الحياة: She <b>has visited</b> Paris.</li>
+<li>مع فترات لم تنتهِ: <b>Have</b> you <b>seen</b> him <u>today</u>?</li>
 </ul>
+<p>⚠️ <b>لا نبدأ سؤالاً بـ "When" مع المضارع التام.</b></p>
+<p><strong>التركيب:</strong> have / has + التصريف الثالث</p>
+<table>
+<tr><th>👤</th><th>✅ مثبت</th><th>❌ منفي</th><th>❓ سؤال</th></tr>
+<tr><td>I/You/We/They</td><td>have eaten</td><td>haven't eaten</td><td>Have … eaten?</td></tr>
+<tr><td>He/She/It</td><td>has eaten</td><td>hasn't eaten</td><td>Has … eaten?</td></tr>
+</table>
+<p><strong>كلمات تشير له:</strong> ever, never, just, already, yet, <b>for</b>, <b>since</b>, so far, recently, this week.</p>
 
 <hr>
-<h3>📌 متى نستخدم المبني للمجهول؟</h3>
-<ul>
-<li>عندما يكون الفاعل غير معروف: <em>My wallet <b>was stolen</b>.</em></li>
-<li>عندما يكون الفاعل غير مهم: <em>Coffee <b>is grown</b> in Brazil.</em></li>
-<li>في الكتابات العلمية والرسمية: <em>The experiment <b>was conducted</b> in a lab.</em></li>
-</ul>
+
+<h3>2️⃣ الماضي التام (Past Perfect)</h3>
+<p><strong>حدث صار قبل حدث تاني في الماضي:</strong> When I arrived, she <b>had already left</b>.</p>
+<p><strong>التركيب:</strong> had + التصريف الثالث (للجميع)</p>
+<table>
+<tr><th>✅</th><th>❌</th><th>❓</th></tr>
+<tr><td>had eaten</td><td>hadn't eaten</td><td>Had … eaten?</td></tr>
+</table>
+
+<hr>
+
+<h3>3️⃣ المستقبل التام (Future Perfect)</h3>
+<p><strong>حدث راح يكون خلص قبل وقت في المستقبل:</strong> By next summer, I <b>will have graduated</b>.</p>
+<p><strong>التركيب:</strong> will + have + التصريف الثالث</p>
+<table>
+<tr><th>✅</th><th>❌</th><th>❓</th></tr>
+<tr><td>will have eaten</td><td>won't have eaten</td><td>Will … have eaten?</td></tr>
+</table>
+
+<hr>
+
+<h2>📅 For / Since</h2>
+<table>
+<tr><th>Since (نقطة بداية)</th><th>For (مدة)</th></tr>
+<tr><td>since Monday</td><td>for two hours</td></tr>
+<tr><td>since 2010</td><td>for a long time</td></tr>
+<tr><td>since I was a child</td><td>for ages</td></tr>
+</table>
+
+<hr>
+
+<h2>📌 حروف الجر (Prepositions) – in / on / at</h2>
+<table>
+<tr><th>حرف</th><th>🏠 مكان</th><th>⏰ زمان</th></tr>
+<tr><td><b>in</b></td><td>in the room</td><td>in April, in the morning</td></tr>
+<tr><td><b>on</b></td><td>on the table</td><td>on Monday, on June 25</td></tr>
+<tr><td><b>at</b></td><td>at the door</td><td>at 6 o'clock, at night</td></tr>
+</table>
+
+<hr>
+
+<h2>🔗 أفعال مع حروف جر (Verbs + Prepositions)</h2>
+<table class="verb-table">
+<tr><th>التركيب</th><th>المعنى</th><th>مثال</th></tr>
+<tr><td>depend <b>on</b></td><td>يعتمد على</td><td>I depend on my car.</td></tr>
+<tr><td>look <b>for</b></td><td>يبحث عن</td><td>I'm looking for a job.</td></tr>
+<tr><td>get rid <b>of</b></td><td>يتخلص من</td><td>She got rid of the old clothes.</td></tr>
+<tr><td>take care <b>of</b></td><td>يعتني بـ</td><td>Take care of your health.</td></tr>
+<tr><td>succeed <b>in</b></td><td>ينجح في</td><td>He succeeded in the exam.</td></tr>
+<tr><td>remind <b>of</b></td><td>يذكّر بـ</td><td>This song reminds me of you.</td></tr>
+<tr><td>forgive <b>for</b></td><td>يغفر على</td><td>I forgave him for his mistake.</td></tr>
+<tr><td>thank <b>for</b></td><td>يشكر على</td><td>Thank you for helping.</td></tr>
+<tr><td>worry <b>about</b></td><td>يقلق على</td><td>Don't worry about me.</td></tr>
+</table>
+
+<hr>
+
+<h2>🏛️ المبني للمجهول (Passive Voice)</h2>
+<p><strong>نستخدمه لما يكون الفاعل مش مهم أو مش معروف.</strong></p>
+<p><strong>التحويلة:</strong> المفعول به يصير فاعل + <b>be</b> في نفس الزمن + التصريف الثالث.</p>
+<p style="text-align:center;font-size:1.2rem;">🐱 The cat chased the mouse 🐭 → The mouse 🐭 <b>was chased</b> by the cat.</p>
+
+<h3>📊 الأزمنة في المبني للمجهول</h3>
+<table>
+<tr><th>الزمن</th><th>المبني للمعلوم</th><th>المبني للمجهول</th></tr>
+<tr><td>Present Simple</td><td>They make cars.</td><td>Cars <b>are made</b>.</td></tr>
+<tr><td>Past Simple</td><td>He wrote the book.</td><td>The book <b>was written</b>.</td></tr>
+<tr><td>Future</td><td>I will do it.</td><td>It <b>will be done</b>.</td></tr>
+<tr><td>Present Continuous</td><td>They are building a house.</td><td>A house <b>is being built</b>.</td></tr>
+<tr><td>Past Continuous</td><td>He was painting the wall.</td><td>The wall <b>was being painted</b>.</td></tr>
+<tr><td>Present Perfect</td><td>She has written the report.</td><td>The report <b>has been written</b>.</td></tr>
+<tr><td>Past Perfect</td><td>They had finished.</td><td>It <b>had been finished</b>.</td></tr>
+</table>
+
+<h3>🔧 الأفعال الناقصة في المبني للمجهول</h3>
+<p>modal + <b>be</b> + p.p. : The work <b>must be</b> done. / Rules <b>should be</b> respected.</p>
+
+<hr>
+
+<h2>🔗 حروف العطف (Conjunctions)</h2>
+
+<h3>1️⃣ حروف العطف المتساوية (FANBOYS)</h3>
+<p><strong>تربط جملتين متساويتين. الحروف هي:</strong></p>
+<table>
+<tr><th>الحرف</th><th>المعنى</th><th>مثال</th></tr>
+<tr><td><b>F</b>or</td><td>لأن (سبب)</td><td>I went to bed early, <b>for</b> I was tired.</td></tr>
+<tr><td><b>A</b>nd</td><td>و</td><td>She studies hard <b>and</b> she works.</td></tr>
+<tr><td><b>N</b>or</td><td>ولا</td><td>He doesn't smoke, <b>nor</b> does he drink.</td></tr>
+<tr><td><b>B</b>ut</td><td>لكن</td><td>I like tea, <b>but</b> I don't like coffee.</td></tr>
+<tr><td><b>O</b>r</td><td>أو</td><td>Hurry up, <b>or</b> you'll be late.</td></tr>
+<tr><td><b>Y</b>et</td><td>ومع ذلك</td><td>He's rich, <b>yet</b> he's unhappy.</td></tr>
+<tr><td><b>S</b>o</td><td>لذلك</td><td>It rained, <b>so</b> we stayed home.</td></tr>
+</table>
+<div class="tip-box">
+💡 <b>فاصلة قبل FANBOYS:</b> إذا جاءت بعدها جملة كاملة (فعل وفاعل)، نضع فاصلة قبل الحرف.
 </div>
+
+<hr>
+
+<h3>2️⃣ حروف العطف التابعة (Subordinating Conjunctions)</h3>
+<p><strong>تربط جملة رئيسية بجملة ثانوية (تعتمد على الأولى).</strong></p>
+<p>أشهرها: <b>because, although, if, when, while, unless, even though, as long as, provided that</b>.</p>
+
+<h4>🌟 التركيز على Provided That</h4>
+<p><strong>معناها:</strong> "بشرط أن" – تُستخدم لوضع شرط ضروري لحدوث الشيء.</p>
+<ul>
+<li><b>Provided that</b> you study hard, you will pass. (بشرط أن تدرس بجد، ستنجح).</li>
+<li>You can go out, <b>provided that</b> you finish your homework.</li>
+</ul>
+<p><strong>نفس المعنى:</strong> as long as, on condition that.</p>
+
+<h4>أمثلة على حروف تابعة أخرى:</h4>
+<table>
+<tr><th>الحرف</th><th>المعنى</th><th>مثال</th></tr>
+<tr><td>because</td><td>لأن</td><td>I stayed home <b>because</b> I was sick.</td></tr>
+<tr><td>although / even though</td><td>رغم أن</td><td><b>Although</b> it rained, we went out.</td></tr>
+<tr><td>unless</td><td>إلا إذا</td><td>You can't enter <b>unless</b> you have a ticket.</td></tr>
+<tr><td>while</td><td>بينما</td><td>I listened to music <b>while</b> I worked.</td></tr>
+<tr><td>if</td><td>إذا</td><td><b>If</b> you come, I'll be happy.</td></tr>
+<tr><td>as long as</td><td>طالما</td><td><b>As long as</b> you're here, I'm safe.</td></tr>
+</table>
+
+<div class="tip-box">
+🧠 <b>نصيحة:</b> اسأل نفسك: "هل الجملة الثانية سبب؟ شرط؟ تناقض؟" عشان تختار الحرف الصح. وإذا بدأت الجملة بالحرف التابع، ضع فاصلة بعده: <b>Although</b> she was tired, she went to work.
+</div>
+
+<div class="print-footer">
+  💪 أتقن القواعد بالممارسة اليومية – مركز الريادة للتدريب.
+</div>
+
+</div>
+</body>
+</html>
