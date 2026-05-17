@@ -1,317 +1,32 @@
+سأستخرج المفردات الأساسية من القطع الثلاث الأصلية لليوم الأول، وأصمم جملًا سياقية تشرح المعنى مباشرة دون الحاجة للرجوع إلى القطعة.
+
+```json
 {
-  "topic": "Family, Body & Reading Vocabulary",
-  "pageRange": "68-69, 87-95",
+  "topic": "Vocabulary from Day 1 Passages",
+  "pageRange": "87-95",
   "words": [
-    {
-      "english": "grandfather",
-      "arabic": "جد",
-      "page": "68",
-      "question": {
-        "q": "My mother's father is my _______.",
-        "options": ["uncle", "grandfather", "cousin", "nephew"],
-        "answer": 1,
-        "justification": "كلمة 'grandfather' تعني الجدّ (والد الأب أو الأم). 'uncle' هو العم/الخال، 'cousin' هو ابن العم/الخال، و'nephew' هو ابن الأخ/الأخت. وكلها لا تصلح للعلاقة المذكورة.",
-        "context_sentence": "My mother's father is my _______."
-      }
-    },
-    {
-      "english": "husband",
-      "arabic": "زوج",
-      "page": "68",
-      "question": {
-        "q": "The woman's _______ is a doctor at the local clinic.",
-        "options": ["wife", "husband", "aunt", "uncle"],
-        "answer": 1,
-        "justification": "'husband' هو الزوج. 'wife' تعني زوجة، و'aunt' عمة/خالة، و'uncle' عم/خال. السياق يتحدث عن الرجل المتزوج من امرأة.",
-        "context_sentence": "The woman's _______ is a doctor at the local clinic."
-      }
-    },
-    {
-      "english": "father",
-      "arabic": "أب",
-      "page": "68",
-      "question": {
-        "q": "Every morning, my _______ drives me to school before going to work.",
-        "options": ["mother", "father", "sister", "aunt"],
-        "answer": 1,
-        "justification": "'father' هو الأب الذي يقوم بتوصيل أطفاله للمدرسة. 'mother' أم، و'sister' أخت، و'aunt' عمة/خالة، لكن العادة أن الأب هو من يوصل للمدرسة في هذا السياق.",
-        "context_sentence": "Every morning, my _______ drives me to school before going to work."
-      }
-    },
-    {
-      "english": "uncle",
-      "arabic": "عم / خال",
-      "page": "68",
-      "question": {
-        "q": "My father's brother is my _______.",
-        "options": ["uncle", "aunt", "nephew", "niece"],
-        "answer": 0,
-        "justification": "أخو الأب هو العم (uncle). 'aunt' تعني عمة/خالة، و'nephew' ابن الأخ/الأخت، و'niece' ابنة الأخ/الأخت. العلاقة هنا هي عم/خال.",
-        "context_sentence": "My father's brother is my _______."
-      }
-    },
-    {
-      "english": "aunt",
-      "arabic": "عمة / خالة",
-      "page": "68",
-      "question": {
-        "q": "My mother's sister is my _______.",
-        "options": ["aunt", "niece", "uncle", "sister"],
-        "answer": 0,
-        "justification": "أخت الأم هي الخالة أو العمة (aunt). 'niece' ابنة الأخ/الأخت، و'uncle' عم/خال، و'sister' أخت مباشرة. السياق يتحدث عن أخت الأم.",
-        "context_sentence": "My mother's sister is my _______."
-      }
-    },
-    {
-      "english": "niece",
-      "arabic": "ابنة الأخ / الأخت",
-      "page": "68",
-      "question": {
-        "q": "My brother's daughter is my _______.",
-        "options": ["niece", "nephew", "cousin", "granddaughter"],
-        "answer": 0,
-        "justification": "ابنة الأخ هي 'niece'. 'nephew' هو ابن الأخ، و'cousin' ابن العم/الخال، و'granddaughter' حفيدة. العلاقة هنا هي ابنة الأخ/الأخت.",
-        "context_sentence": "My brother's daughter is my _______."
-      }
-    },
-    {
-      "english": "nephew",
-      "arabic": "ابن الأخ / الأخت",
-      "page": "68",
-      "question": {
-        "q": "My sister's son is my _______.",
-        "options": ["son", "nephew", "uncle", "father"],
-        "answer": 1,
-        "justification": "ابن الأخت هو 'nephew'. 'son' هو ابني أنا، و'uncle' عم/خال، و'father' أب. العلاقة هنا هي ابن الأخت.",
-        "context_sentence": "My sister's son is my _______."
-      }
-    },
-    {
-      "english": "cousin",
-      "arabic": "ابن العم / الخال",
-      "page": "68",
-      "question": {
-        "q": "My uncle's child is my _______.",
-        "options": ["brother", "cousin", "nephew", "grandson"],
-        "answer": 1,
-        "justification": "ابن العم/الخال هو 'cousin'. 'brother' أخ شقيق، و'nephew' ابن الأخ/الأخت، و'grandson' حفيد. العلاقة هنا هي ابن العم.",
-        "context_sentence": "My uncle's child is my _______."
-      }
-    },
-    {
-      "english": "grandson",
-      "arabic": "حفيد",
-      "page": "68",
-      "question": {
-        "q": "My mother loves my son very much; he is her only _______.",
-        "options": ["niece", "cousin", "grandfather", "grandson"],
-        "answer": 3,
-        "justification": "ابني هو حفيد أمي (grandson). 'niece' ابنة الأخ، 'cousin' ابن العم، 'grandfather' جد، وهذه كلها غير صحيحة للعلاقة.",
-        "context_sentence": "My mother loves my son very much; he is her only _______."
-      }
-    },
-    {
-      "english": "granddaughter",
-      "arabic": "حفيدة",
-      "page": "68",
-      "question": {
-        "q": "My daughter's daughter is my first _______.",
-        "options": ["granddaughter", "grandson", "niece", "aunt"],
-        "answer": 0,
-        "justification": "ابنة ابنتي هي حفيدتي (granddaughter). 'grandson' حفيد ذكر، و'niece' ابنة الأخ/الأخت، و'aunt' عمة/خالة.",
-        "context_sentence": "My daughter's daughter is my first _______."
-      }
-    },
-    {
-      "english": "eye",
-      "arabic": "عين",
-      "page": "69",
-      "question": {
-        "q": "Without my _______, I cannot see the beautiful sunset.",
-        "options": ["nose", "eyes", "fingers", "forehead"],
-        "answer": 1,
-        "justification": "نستخدم العيون (eyes) للرؤية. 'nose' أنف للشم، 'fingers' أصابع، 'forehead' جبين.",
-        "context_sentence": "Without my _______, I cannot see the beautiful sunset."
-      }
-    },
-    {
-      "english": "nose",
-      "arabic": "أنف",
-      "page": "69",
-      "question": {
-        "q": "I can smell the flowers because of my _______.",
-        "options": ["nose", "ears", "eyes", "mouth"],
-        "answer": 0,
-        "justification": "الشم يكون بالأنف (nose). 'ears' أذنان، 'eyes' عيون، 'mouth' فم.",
-        "context_sentence": "I can smell the flowers because of my _______."
-      }
-    },
-    {
-      "english": "ear",
-      "arabic": "أذن",
-      "page": "69",
-      "question": {
-        "q": "We use our _______ to listen to music.",
-        "options": ["ears", "mouths", "noses", "chests"],
-        "answer": 0,
-        "justification": "لدينا أذنان (ears) نستمع بهما. 'mouths' أفواه، 'noses' أنوف، 'chests' صدور، وكلها لا تستخدم للاستماع.",
-        "context_sentence": "We use our _______ to listen to music."
-      }
-    },
-    {
-      "english": "finger",
-      "arabic": "إصبع",
-      "page": "69",
-      "question": {
-        "q": "I have ten _______ on my hands.",
-        "options": ["toes", "fingers", "thumbs", "foreheads"],
-        "answer": 1,
-        "justification": "في اليد أصابع (fingers). 'toes' أصابع القدم، 'thumbs' مجرد إبهام واحد، 'foreheads' جباه.",
-        "context_sentence": "I have ten _______ on my hands."
-      }
-    },
-    {
-      "english": "thumb",
-      "arabic": "إبهام",
-      "page": "69",
-      "question": {
-        "q": "The shortest but strongest digit on my hand is my _______.",
-        "options": ["index", "thumb", "ring", "pinky"],
-        "answer": 1,
-        "justification": "الإبهام (thumb) هو أقصر وأقوى إصبع. 'index' السبابة، 'ring' البنصر، 'pinky' الخنصر.",
-        "context_sentence": "The shortest but strongest digit on my hand is my _______."
-      }
-    },
-    {
-      "english": "forehead",
-      "arabic": "جبين",
-      "page": "69",
-      "question": {
-        "q": "She wiped the sweat from her _______.",
-        "options": ["forehead", "chin", "cheek", "neck"],
-        "answer": 0,
-        "justification": "الجبين (forehead) هو المنطقة فوق العينين. 'chin' ذقن، 'cheek' وجنة، 'neck' رقبة.",
-        "context_sentence": "She wiped the sweat from her _______."
-      }
-    },
-    {
-      "english": "neck",
-      "arabic": "رقبة",
-      "page": "69",
-      "question": {
-        "q": "I wear a scarf around my _______ in winter.",
-        "options": ["hair", "blood", "neck", "heart"],
-        "answer": 2,
-        "justification": "الرقبة (neck) هي التي نلف حولها الوشاح. 'hair' شعر، 'blood' دم، 'heart' قلب.",
-        "context_sentence": "I wear a scarf around my _______ in winter."
-      }
-    },
-    {
-      "english": "shoulder",
-      "arabic": "كتف",
-      "page": "69",
-      "question": {
-        "q": "He carried the heavy bag on his _______.",
-        "options": ["shoulder", "knee", "toe", "chest"],
-        "answer": 0,
-        "justification": "الكتف (shoulder) هو ما يحمل عليه. 'knee' ركبة، 'toe' إصبع قدم، 'chest' صدر.",
-        "context_sentence": "He carried the heavy bag on his _______."
-      }
-    },
-    {
-      "english": "knee",
-      "arabic": "ركبة",
-      "page": "69",
-      "question": {
-        "q": "After the fall, her _______ was swollen.",
-        "options": ["elbow", "knee", "wrist", "ankle"],
-        "answer": 1,
-        "justification": "الركبة (knee) عرضة للتورم بعد السقوط. 'elbow' كوع، 'wrist' رسغ، 'ankle' كاحل.",
-        "context_sentence": "After the fall, her _______ was swollen."
-      }
-    },
-    {
-      "english": "chest",
-      "arabic": "صدر",
-      "page": "69",
-      "question": {
-        "q": "The doctor listened to my heartbeat through my _______.",
-        "options": ["head", "chest", "leg", "arm"],
-        "answer": 1,
-        "justification": "القلب يقع في الصدر (chest). 'head' رأس، 'leg' رجل، 'arm' ذراع.",
-        "context_sentence": "The doctor listened to my heartbeat through my _______."
-      }
-    },
-    {
-      "english": "heart",
-      "arabic": "قلب",
-      "page": "69",
-      "question": {
-        "q": "The _______ pumps blood throughout the body.",
-        "options": ["brain", "lung", "heart", "liver"],
-        "answer": 2,
-        "justification": "القلب (heart) يضخ الدم. 'brain' دماغ، 'lung' رئة، 'liver' كبد.",
-        "context_sentence": "The _______ pumps blood throughout the body."
-      }
-    },
-    {
-      "english": "blood",
-      "arabic": "دم",
-      "page": "69",
-      "question": {
-        "q": "Red cells in our _______ carry oxygen.",
-        "options": ["Water", "Blood", "Air", "Food"],
-        "answer": 1,
-        "justification": "الدم (blood) هو الذي يحمل الأكسجين. 'Water' ماء، 'Air' هواء، 'Food' طعام.",
-        "context_sentence": "Red cells in our _______ carry oxygen."
-      }
-    },
-    {
-      "english": "artery",
-      "arabic": "شريان",
-      "page": "69",
-      "question": {
-        "q": "_______ carry blood away from the heart.",
-        "options": ["Veins", "Arteries", "Muscles", "Nerves"],
-        "answer": 1,
-        "justification": "الشرايين (arteries) تحمل الدم من القلب إلى الجسم. 'Veins' أوردة تعيد الدم، 'Muscles' عضلات، 'Nerves' أعصاب.",
-        "context_sentence": "_______ carry blood away from the heart."
-      }
-    },
-    {
-      "english": "muscle",
-      "arabic": "عضلة",
-      "page": "69",
-      "question": {
-        "q": "After exercise, my _______ feels sore.",
-        "options": ["bone", "muscle", "joint", "tendon"],
-        "answer": 1,
-        "justification": "العضلة (muscle) تشعر بالألم بعد التمارين. 'bone' عظم، 'joint' مفصل، 'tendon' وتر.",
-        "context_sentence": "After exercise, my _______ feels sore."
-      }
-    },
-    {
-      "english": "spinal cord",
-      "arabic": "الحبل الشوكي",
-      "page": "69",
-      "question": {
-        "q": "The vertebrae protect the _______ _______.",
-        "options": ["skull", "spinal cord", "ribs", "pelvis"],
-        "answer": 1,
-        "justification": "العمود الفقري يحمي الحبل الشوكي (spinal cord). 'skull' جمجمة، 'ribs' أضلاع، 'pelvis' حوض.",
-        "context_sentence": "The vertebrae protect the _______ _______."
-      }
-    },
     {
       "english": "advertise",
       "arabic": "يعلن",
       "page": "87",
       "question": {
-        "q": "Many companies _______ their products on social media.",
+        "q": "The company decided to _______ their new product on television to reach more people.",
         "options": ["advertise", "ignore", "hide", "cancel"],
         "answer": 0,
-        "justification": "الشركات تعلن (advertise) عن منتجاتها. 'ignore' تتجاهل، 'hide' تخفي، 'cancel' تلغي.",
-        "context_sentence": "Many companies _______ their products on social media."
+        "justification": "'advertise' means to promote a product publicly. 'ignore' means pay no attention, 'hide' means conceal, and 'cancel' means call off.",
+        "context_sentence": "The company decided to _______ their new product on television to reach more people."
+      }
+    },
+    {
+      "english": "traditional",
+      "arabic": "تقليدي",
+      "page": "87",
+      "question": {
+        "q": "Many people still prefer _______ methods of learning, such as reading books and attending lectures.",
+        "options": ["traditional", "modern", "digital", "advanced"],
+        "answer": 0,
+        "justification": "'traditional' means old-style, long-established. 'modern' means current, 'digital' means electronic, 'advanced' means highly developed.",
+        "context_sentence": "Many people still prefer _______ methods of learning, such as reading books and attending lectures."
       }
     },
     {
@@ -319,59 +34,155 @@
       "arabic": "إحصائيات",
       "page": "88",
       "question": {
-        "q": "According to _______, the population has doubled.",
-        "options": ["stories", "statistics", "pictures", "songs"],
-        "answer": 1,
-        "justification": "الإحصائيات (statistics) تظهر الأرقام. 'stories' قصص، 'pictures' صور، 'songs' أغاني.",
-        "context_sentence": "According to _______, the population has doubled."
+        "q": "According to government _______, the population of the city increased by 20% last year.",
+        "options": ["statistics", "stories", "pictures", "songs"],
+        "answer": 0,
+        "justification": "'statistics' are numerical facts or data. 'stories' are narratives, 'pictures' are images, 'songs' are musical compositions.",
+        "context_sentence": "According to government _______, the population of the city increased by 20% last year."
       }
     },
     {
-      "english": "disadvantaged",
-      "arabic": "محروم",
-      "page": "93",
+      "english": "attention",
+      "arabic": "انتباه",
+      "page": "87",
       "question": {
-        "q": "Volunteers help children in _______ communities.",
-        "options": ["Wealthy", "Disadvantaged", "Modern", "Crowded"],
-        "answer": 1,
-        "justification": "المناطق المحرومة (disadvantaged) تفتقر للخدمات. 'Wealthy' غنية، 'Modern' حديثة، 'Crowded' مزدحمة.",
-        "context_sentence": "Volunteers help children in _______ communities."
+        "q": "The teacher asked the students to pay _______ during the lesson.",
+        "options": ["attention", "money", "respect", "time"],
+        "answer": 0,
+        "justification": "'attention' means focus or concentration. 'money' is currency, 'respect' is admiration, 'time' is duration.",
+        "context_sentence": "The teacher asked the students to pay _______ during the lesson."
       }
     },
     {
-      "english": "volunteer",
-      "arabic": "متطوع",
-      "page": "93",
+      "english": "prove",
+      "arabic": "يثبت",
+      "page": "88",
       "question": {
-        "q": "He decided to _______ at the hospital every weekend.",
-        "options": ["refused", "volunteered", "complained", "ignored"],
-        "answer": 1,
-        "justification": "تطوع (volunteered) للعمل في المستشفى. 'refused' رفض، 'complained' اشتكى، 'ignored' تجاهل.",
-        "context_sentence": "He decided to _______ at the hospital every weekend."
+        "q": "The lawyer needed more evidence to _______ that his client was innocent.",
+        "options": ["prove", "hide", "deny", "forget"],
+        "answer": 0,
+        "justification": "'prove' means demonstrate the truth. 'hide' means conceal, 'deny' means refuse to admit, 'forget' means fail to remember.",
+        "context_sentence": "The lawyer needed more evidence to _______ that his client was innocent."
       }
     },
     {
-      "english": "mentor",
-      "arabic": "مرشد",
-      "page": "94",
+      "english": "effective",
+      "arabic": "فعال",
+      "page": "88",
       "question": {
-        "q": "A good _______ gives advice and encouragement.",
-        "options": ["student", "mentor", "patient", "customer"],
-        "answer": 1,
-        "justification": "المرشد (mentor) يقدم النصح. 'student' طالب، 'patient' مريض، 'customer' زبون.",
-        "context_sentence": "A good _______ gives advice and encouragement."
+        "q": "This medicine is very _______ against headaches; you'll feel better in minutes.",
+        "options": ["effective", "useless", "expensive", "dangerous"],
+        "answer": 0,
+        "justification": "'effective' means producing the intended result. 'useless' means not working, 'expensive' means costly, 'dangerous' means risky.",
+        "context_sentence": "This medicine is very _______ against headaches; you'll feel better in minutes."
       }
     },
     {
-      "english": "survey",
-      "arabic": "استقصاء",
+      "english": "respond",
+      "arabic": "يستجيب",
+      "page": "87",
+      "question": {
+        "q": "I sent him an email, but he didn't _______ until three days later.",
+        "options": ["respond", "leave", "arrive", "sleep"],
+        "answer": 0,
+        "justification": "'respond' means reply or answer. 'leave' means depart, 'arrive' means reach, 'sleep' means rest.",
+        "context_sentence": "I sent him an email, but he didn't _______ until three days later."
+      }
+    },
+    {
+      "english": "influence",
+      "arabic": "يؤثر",
+      "page": "87",
+      "question": {
+        "q": "Parents have a great _______ on their children's behavior.",
+        "options": ["influence", "problem", "secret", "distance"],
+        "answer": 0,
+        "justification": "'influence' means effect or impact. 'problem' means difficulty, 'secret' means hidden information, 'distance' means space between.",
+        "context_sentence": "Parents have a great _______ on their children's behavior."
+      }
+    },
+    {
+      "english": "purchase",
+      "arabic": "شراء",
+      "page": "87",
+      "question": {
+        "q": "She made a large _______ at the store and bought clothes, shoes, and a handbag.",
+        "options": ["purchase", "mistake", "noise", "promise"],
+        "answer": 0,
+        "justification": "'purchase' means buy. 'mistake' means error, 'noise' means sound, 'promise' means commitment.",
+        "context_sentence": "She made a large _______ at the store and bought clothes, shoes, and a handbag."
+      }
+    },
+    {
+      "english": "advertisement",
+      "arabic": "إعلان",
+      "page": "87",
+      "question": {
+        "q": "The new _______ on social media attracted thousands of customers to the online store.",
+        "options": ["advertisement", "newspaper", "dictionary", "recipe"],
+        "answer": 0,
+        "justification": "'advertisement' is a public promotion. 'newspaper' is a printed publication, 'dictionary' is a word reference, 'recipe' is cooking instructions.",
+        "context_sentence": "The new _______ on social media attracted thousands of customers to the online store."
+      }
+    },
+    {
+      "english": "farming",
+      "arabic": "زراعة",
       "page": "90",
       "question": {
-        "q": "A recent _______ showed farming is dangerous.",
-        "options": ["party", "survey", "movie", "game"],
-        "answer": 1,
-        "justification": "الاستقصاء (survey) هو الذي يظهر نتائج. 'party' حفلة، 'movie' فيلم، 'game' لعبة.",
-        "context_sentence": "A recent _______ showed farming is dangerous."
+        "q": "_______ is a hard job that requires waking up very early every morning.",
+        "options": ["Farming", "Teaching", "Painting", "Dancing"],
+        "answer": 0,
+        "justification": "'farming' means agriculture. 'teaching' means education, 'painting' means art, 'dancing' means moving to music.",
+        "context_sentence": "_______ is a hard job that requires waking up very early every morning."
+      }
+    },
+    {
+      "english": "dangerous",
+      "arabic": "خطير",
+      "page": "90",
+      "question": {
+        "q": "Playing with fire is extremely _______ and can cause serious injuries.",
+        "options": ["dangerous", "fun", "safe", "exciting"],
+        "answer": 0,
+        "justification": "'dangerous' means risky or unsafe. 'fun' means enjoyable, 'safe' means secure, 'exciting' means thrilling.",
+        "context_sentence": "Playing with fire is extremely _______ and can cause serious injuries."
+      }
+    },
+    {
+      "english": "environment",
+      "arabic": "بيئة",
+      "page": "90",
+      "question": {
+        "q": "We should protect our _______ by reducing pollution and planting more trees.",
+        "options": ["environment", "building", "computer", "vehicle"],
+        "answer": 0,
+        "justification": "'environment' means surroundings or nature. 'building' is a structure, 'computer' is a device, 'vehicle' is a transport machine.",
+        "context_sentence": "We should protect our _______ by reducing pollution and planting more trees."
+      }
+    },
+    {
+      "english": "tolerance",
+      "arabic": "تحمل",
+      "page": "90",
+      "question": {
+        "q": "He has a low _______ for pain, so even a small cut makes him cry.",
+        "options": ["tolerance", "appetite", "memory", "speed"],
+        "answer": 0,
+        "justification": "'tolerance' means ability to endure. 'appetite' means hunger, 'memory' means ability to remember, 'speed' means quickness.",
+        "context_sentence": "He has a low _______ for pain, so even a small cut makes him cry."
+      }
+    },
+    {
+      "english": "exposure",
+      "arabic": "تعرض",
+      "page": "90",
+      "question": {
+        "q": "Long _______ to the sun can damage your skin.",
+        "options": ["exposure", "distance", "protection", "freedom"],
+        "answer": 0,
+        "justification": "'exposure' means being in contact with something. 'distance' means space, 'protection' means safety, 'freedom' means liberty.",
+        "context_sentence": "Long _______ to the sun can damage your skin."
       }
     },
     {
@@ -379,11 +190,23 @@
       "arabic": "سرطان",
       "page": "91",
       "question": {
-        "q": "Too much sun can cause skin _______.",
-        "options": ["cancer", "cold", "energy", "light"],
+        "q": "Smoking is a major cause of lung _______.",
+        "options": ["cancer", "energy", "comfort", "joy"],
         "answer": 0,
-        "justification": "الشمس الزائدة تسبب سرطان الجلد (cancer). 'cold' برد، 'energy' طاقة، 'light' ضوء.",
-        "context_sentence": "Too much sun can cause skin _______."
+        "justification": "'cancer' is a serious disease. 'energy' means power, 'comfort' means ease, 'joy' means happiness.",
+        "context_sentence": "Smoking is a major cause of lung _______."
+      }
+    },
+    {
+      "english": "chemicals",
+      "arabic": "مواد كيميائية",
+      "page": "91",
+      "question": {
+        "q": "Farmers should wear protective clothing when they spray _______ on crops.",
+        "options": ["chemicals", "water", "seeds", "flowers"],
+        "answer": 0,
+        "justification": "'chemicals' are substances used in industry or farming. 'water' is liquid, 'seeds' are for planting, 'flowers' are plants.",
+        "context_sentence": "Farmers should wear protective clothing when they spray _______ on crops."
       }
     },
     {
@@ -391,23 +214,11 @@
       "arabic": "احتياطات",
       "page": "91",
       "question": {
-        "q": "Farmers should take _______ when using chemicals.",
+        "q": "Before riding a bike, you should take safety _______ such as wearing a helmet.",
         "options": ["precautions", "photos", "breaks", "holidays"],
         "answer": 0,
-        "justification": "يجب أخذ الاحتياطات (precautions). 'photos' صور، 'breaks' استراحات، 'holidays' عطلات.",
-        "context_sentence": "Farmers should take _______ when using chemicals."
-      }
-    },
-    {
-      "english": "poisonous",
-      "arabic": "سام",
-      "page": "91",
-      "question": {
-        "q": "Some chemicals are _______ and can harm people.",
-        "options": ["safe", "delicious", "poisonous", "beautiful"],
-        "answer": 2,
-        "justification": "المواد الكيميائية سامة (poisonous). 'safe' آمنة، 'delicious' لذيذة، 'beautiful' جميلة.",
-        "context_sentence": "Some chemicals are _______ and can harm people."
+        "justification": "'precautions' are safety measures. 'photos' are images, 'breaks' are pauses, 'holidays' are vacations.",
+        "context_sentence": "Before riding a bike, you should take safety _______ such as wearing a helmet."
       }
     },
     {
@@ -415,11 +226,47 @@
       "arabic": "معدات",
       "page": "91",
       "question": {
-        "q": "Farmers use heavy _______ like tractors.",
+        "q": "The construction workers used heavy _______ to lift the large stones.",
         "options": ["equipment", "paintings", "books", "clothes"],
         "answer": 0,
-        "justification": "المزارعون يستخدمون معدات (equipment) ثقيلة. 'paintings' لوحات، 'books' كتب، 'clothes' ملابس.",
-        "context_sentence": "Farmers use heavy _______ like tractors."
+        "justification": "'equipment' means tools or machinery. 'paintings' are art, 'books' are reading material, 'clothes' are garments.",
+        "context_sentence": "The construction workers used heavy _______ to lift the large stones."
+      }
+    },
+    {
+      "english": "injuries",
+      "arabic": "إصابات",
+      "page": "91",
+      "question": {
+        "q": "The car accident caused serious _______ to the driver.",
+        "options": ["injuries", "celebrations", "paintings", "songs"],
+        "answer": 0,
+        "justification": "'injuries' means physical harm. 'celebrations' means parties, 'paintings' means art, 'songs' means music.",
+        "context_sentence": "The car accident caused serious _______ to the driver."
+      }
+    },
+    {
+      "english": "lifestyle",
+      "arabic": "نمط حياة",
+      "page": "91",
+      "question": {
+        "q": "She chose a healthy _______ with regular exercise and balanced meals.",
+        "options": ["lifestyle", "problem", "mistake", "accident"],
+        "answer": 0,
+        "justification": "'lifestyle' means way of living. 'problem' means difficulty, 'mistake' means error, 'accident' means unintentional event.",
+        "context_sentence": "She chose a healthy _______ with regular exercise and balanced meals."
+      }
+    },
+    {
+      "english": "voluntary",
+      "arabic": "تطوعي",
+      "page": "93",
+      "question": {
+        "q": "He does _______ work at the hospital every Saturday without getting paid.",
+        "options": ["voluntary", "forced", "paid", "difficult"],
+        "answer": 0,
+        "justification": "'voluntary' means done freely without payment. 'forced' means compelled, 'paid' means with money, 'difficult' means hard.",
+        "context_sentence": "He does _______ work at the hospital every Saturday without getting paid."
       }
     },
     {
@@ -427,11 +274,47 @@
       "arabic": "فقر",
       "page": "93",
       "question": {
-        "q": "VSO fights _______ around the world.",
-        "options": ["wealth", "poverty", "health", "joy"],
-        "answer": 1,
-        "justification": "منظمة VSO تحارب الفقر (poverty). 'wealth' ثراء، 'health' صحة، 'joy' فرح.",
-        "context_sentence": "VSO fights _______ around the world."
+        "q": "The charity helps people who live in _______ and cannot afford basic needs.",
+        "options": ["poverty", "wealth", "luxury", "comfort"],
+        "answer": 0,
+        "justification": "'poverty' means state of being poor. 'wealth' means richness, 'luxury' means great comfort, 'comfort' means ease.",
+        "context_sentence": "The charity helps people who live in _______ and cannot afford basic needs."
+      }
+    },
+    {
+      "english": "disadvantaged",
+      "arabic": "محروم",
+      "page": "93",
+      "question": {
+        "q": "The government provides extra support to schools in _______ areas.",
+        "options": ["disadvantaged", "wealthy", "rich", "comfortable"],
+        "answer": 0,
+        "justification": "'disadvantaged' means lacking basic resources. 'wealthy' means rich, 'rich' means wealthy, 'comfortable' means pleasant.",
+        "context_sentence": "The government provides extra support to schools in _______ areas."
+      }
+    },
+    {
+      "english": "volunteer",
+      "arabic": "متطوع",
+      "page": "93",
+      "question": {
+        "q": "Many _______s helped clean the beach after the storm.",
+        "options": ["volunteer", "prisoner", "tourist", "visitor"],
+        "answer": 0,
+        "justification": "'volunteer' means someone who offers to help without pay. 'prisoner' means captive, 'tourist' means traveler, 'visitor' means guest.",
+        "context_sentence": "Many _______s helped clean the beach after the storm."
+      }
+    },
+    {
+      "english": "organization",
+      "arabic": "منظمة",
+      "page": "93",
+      "question": {
+        "q": "The United Nations is an international _______ that promotes peace.",
+        "options": ["organization", "problem", "animal", "machine"],
+        "answer": 0,
+        "justification": "'organization' means a structured group. 'problem' means difficulty, 'animal' means creature, 'machine' means device.",
+        "context_sentence": "The United Nations is an international _______ that promotes peace."
       }
     },
     {
@@ -439,11 +322,71 @@
       "arabic": "رعاية صحية",
       "page": "94",
       "question": {
-        "q": "VSO volunteers improve _______ in poor areas.",
+        "q": "The government should provide free _______ to all citizens.",
         "options": ["healthcare", "entertainment", "transport", "sport"],
         "answer": 0,
-        "justification": "يحسنون الرعاية الصحية (healthcare). 'entertainment' ترفيه، 'transport' نقل، 'sport' رياضة.",
-        "context_sentence": "VSO volunteers improve _______ in poor areas."
+        "justification": "'healthcare' means medical services. 'entertainment' means amusement, 'transport' means movement, 'sport' means physical activity.",
+        "context_sentence": "The government should provide free _______ to all citizens."
+      }
+    },
+    {
+      "english": "mentor",
+      "arabic": "مرشد",
+      "page": "94",
+      "question": {
+        "q": "A good _______ helps young people develop their skills and confidence.",
+        "options": ["mentor", "student", "patient", "customer"],
+        "answer": 0,
+        "justification": "'mentor' means guide or advisor. 'student' means learner, 'patient' means sick person, 'customer' means buyer.",
+        "context_sentence": "A good _______ helps young people develop their skills and confidence."
+      }
+    },
+    {
+      "english": "method",
+      "arabic": "طريقة",
+      "page": "94",
+      "question": {
+        "q": "She found a new _______ to solve the math problem quickly.",
+        "options": ["method", "mistake", "accident", "failure"],
+        "answer": 0,
+        "justification": "'method' means a way of doing something. 'mistake' means error, 'accident' means unintentional event, 'failure' means lack of success.",
+        "context_sentence": "She found a new _______ to solve the math problem quickly."
+      }
+    },
+    {
+      "english": "establish",
+      "arabic": "يؤسس",
+      "page": "93",
+      "question": {
+        "q": "The company plans to _______ a new branch in the city next year.",
+        "options": ["establish", "destroy", "ignore", "cancel"],
+        "answer": 0,
+        "justification": "'establish' means set up or create. 'destroy' means ruin, 'ignore' means disregard, 'cancel' means call off.",
+        "context_sentence": "The company plans to _______ a new branch in the city next year."
+      }
+    },
+    {
+      "english": "improve",
+      "arabic": "يحسن",
+      "page": "94",
+      "question": {
+        "q": "Reading books every day can help _______ your vocabulary.",
+        "options": ["improve", "worsen", "forget", "lose"],
+        "answer": 0,
+        "justification": "'improve' means make better. 'worsen' means make worse, 'forget' means fail to remember, 'lose' means misplace.",
+        "context_sentence": "Reading books every day can help _______ your vocabulary."
+      }
+    },
+    {
+      "english": "struggle",
+      "arabic": "يكافح",
+      "page": "95",
+      "question": {
+        "q": "Many families _______ to pay their bills when prices keep rising.",
+        "options": ["struggle", "celebrate", "relax", "enjoy"],
+        "answer": 0,
+        "justification": "'struggle' means face difficulty. 'celebrate' means enjoy an event, 'relax' means rest, 'enjoy' means take pleasure.",
+        "context_sentence": "Many families _______ to pay their bills when prices keep rising."
       }
     },
     {
@@ -451,36 +394,205 @@
       "arabic": "دخل",
       "page": "95",
       "question": {
-        "q": "People need a good _______ to support their families.",
-        "options": ["hobby", "income", "dream", "vacation"],
-        "answer": 1,
-        "justification": "يحتاجون دخلاً (income) جيداً. 'hobby' هواية، 'dream' حلم، 'vacation' عطلة.",
-        "context_sentence": "People need a good _______ to support their families."
-      }
-    },
-    {
-      "english": "renewable",
-      "arabic": "قابل للتجديد",
-      "page": "Extra 1",
-      "question": {
-        "q": "Solar energy is a _______ source of power.",
-        "options": ["renewable", "finite", "dangerous", "weak"],
+        "q": "He needs a steady _______ to support his family and pay the rent.",
+        "options": ["income", "hobby", "dream", "vacation"],
         "answer": 0,
-        "justification": "الطاقة الشمسية متجددة (renewable). 'finite' محدودة، 'dangerous' خطرة، 'weak' ضعيفة.",
-        "context_sentence": "Solar energy is a _______ source of power."
+        "justification": "'income' means money earned. 'hobby' means leisure activity, 'dream' means aspiration, 'vacation' means holiday.",
+        "context_sentence": "He needs a steady _______ to support his family and pay the rent."
       }
     },
     {
-      "english": "pollution",
-      "arabic": "تلوث",
-      "page": "Extra 1",
+      "english": "professional",
+      "arabic": "مهني",
+      "page": "94",
       "question": {
-        "q": "Burning coal causes air _______.",
-        "options": ["celebration", "pollution", "nutrition", "education"],
-        "answer": 1,
-        "justification": "حرق الفحم يسبب تلوث الهواء (pollution). 'celebration' احتفال، 'nutrition' تغذية، 'education' تعليم.",
-        "context_sentence": "Burning coal causes air _______."
+        "q": "She is a _______ photographer and takes excellent photos for magazines.",
+        "options": ["professional", "amateur", "careless", "lazy"],
+        "answer": 0,
+        "justification": "'professional' means trained and skilled. 'amateur' means non-professional, 'careless' means not careful, 'lazy' means unwilling to work.",
+        "context_sentence": "She is a _______ photographer and takes excellent photos for magazines."
+      }
+    },
+    {
+      "english": "crops",
+      "arabic": "محاصيل",
+      "page": "95",
+      "question": {
+        "q": "The heavy rain destroyed all the _______ that the farmer had planted.",
+        "options": ["crops", "buildings", "books", "cars"],
+        "answer": 0,
+        "justification": "'crops' are plants grown for food. 'buildings' are structures, 'books' are reading material, 'cars' are vehicles.",
+        "context_sentence": "The heavy rain destroyed all the _______ that the farmer had planted."
+      }
+    },
+    {
+      "english": "efficiently",
+      "arabic": "بكفاءة",
+      "page": "95",
+      "question": {
+        "q": "The new machine works more _______ than the old one, saving time and energy.",
+        "options": ["efficiently", "slowly", "carelessly", "loudly"],
+        "answer": 0,
+        "justification": "'efficiently' means in a productive manner. 'slowly' means at low speed, 'carelessly' means without care, 'loudly' means with high volume.",
+        "context_sentence": "The new machine works more _______ than the old one, saving time and energy."
+      }
+    },
+    {
+      "english": "identify",
+      "arabic": "يحدد",
+      "page": "95",
+      "question": {
+        "q": "The police used fingerprints to _______ the criminal.",
+        "options": ["identify", "hide", "release", "forget"],
+        "answer": 0,
+        "justification": "'identify' means recognize or name. 'hide' means conceal, 'release' means set free, 'forget' means fail to remember.",
+        "context_sentence": "The police used fingerprints to _______ the criminal."
+      }
+    },
+    {
+      "english": "achieve",
+      "arabic": "يحقق",
+      "page": "95",
+      "question": {
+        "q": "If you work hard, you can _______ your goals in life.",
+        "options": ["achieve", "lose", "destroy", "ignore"],
+        "answer": 0,
+        "justification": "'achieve' means reach or accomplish. 'lose' means misplace, 'destroy' means ruin, 'ignore' means disregard.",
+        "context_sentence": "If you work hard, you can _______ your goals in life."
+      }
+    },
+    {
+      "english": "quality",
+      "arabic": "جودة",
+      "page": "95",
+      "question": {
+        "q": "The _______ of this product is very high; it will last for many years.",
+        "options": ["quality", "price", "color", "size"],
+        "answer": 0,
+        "justification": "'quality' means standard or excellence. 'price' means cost, 'color' means hue, 'size' means dimensions.",
+        "context_sentence": "The _______ of this product is very high; it will last for many years."
+      }
+    },
+    {
+      "english": "difference",
+      "arabic": "فرق",
+      "page": "95",
+      "question": {
+        "q": "There is a big _______ between knowing the truth and proving it.",
+        "options": ["difference", "similarity", "secret", "problem"],
+        "answer": 0,
+        "justification": "'difference' means distinction. 'similarity' means likeness, 'secret' means hidden information, 'problem' means difficulty.",
+        "context_sentence": "There is a big _______ between knowing the truth and proving it."
+      }
+    },
+    {
+      "english": "trust",
+      "arabic": "يثق",
+      "page": "88",
+      "question": {
+        "q": "You should _______ your friends, but always verify important information yourself.",
+        "options": ["trust", "doubt", "hate", "fear"],
+        "answer": 0,
+        "justification": "'trust' means have confidence in. 'doubt' means question, 'hate' means dislike intensely, 'fear' means be afraid of.",
+        "context_sentence": "You should _______ your friends, but always verify important information yourself."
+      }
+    },
+    {
+      "english": "reliable",
+      "arabic": "موثوق",
+      "page": "88",
+      "question": {
+        "q": "We need a _______ source of information; the internet has too many false stories.",
+        "options": ["reliable", "weak", "slow", "noisy"],
+        "answer": 0,
+        "justification": "'reliable' means dependable or trustworthy. 'weak' means not strong, 'slow' means not fast, 'noisy' means loud.",
+        "context_sentence": "We need a _______ source of information; the internet has too many false stories."
+      }
+    },
+    {
+      "english": "immediately",
+      "arabic": "فوراً",
+      "page": "89",
+      "question": {
+        "q": "When the fire alarm rang, everyone left the building _______.",
+        "options": ["immediately", "slowly", "carelessly", "angrily"],
+        "answer": 0,
+        "justification": "'immediately' means without delay. 'slowly' means at low speed, 'carelessly' means without care, 'angrily' means with anger.",
+        "context_sentence": "When the fire alarm rang, everyone left the building _______."
+      }
+    },
+    {
+      "english": "survey",
+      "arabic": "استقصاء",
+      "page": "90",
+      "question": {
+        "q": "The company conducted a _______ to find out what customers think about their products.",
+        "options": ["survey", "party", "game", "movie"],
+        "answer": 0,
+        "justification": "'survey' means a study of opinions. 'party' means celebration, 'game' means sport or play, 'movie' means film.",
+        "context_sentence": "The company conducted a _______ to find out what customers think about their products."
+      }
+    },
+    {
+      "english": "majority",
+      "arabic": "أغلبية",
+      "page": "90",
+      "question": {
+        "q": "The _______ of students in the class prefer studying in the morning rather than at night.",
+        "options": ["majority", "minority", "few", "none"],
+        "answer": 0,
+        "justification": "'majority' means most or more than half. 'minority' means less than half, 'few' means not many, 'none' means zero.",
+        "context_sentence": "The _______ of students in the class prefer studying in the morning rather than at night."
+      }
+    },
+    {
+      "english": "content",
+      "arabic": "راضٍ",
+      "page": "91",
+      "question": {
+        "q": "After a good meal, he felt _______ and didn't want to eat anything more.",
+        "options": ["content", "hungry", "angry", "worried"],
+        "answer": 0,
+        "justification": "'content' means satisfied. 'hungry' means wanting food, 'angry' means mad, 'worried' means anxious.",
+        "context_sentence": "After a good meal, he felt _______ and didn't want to eat anything more."
+      }
+    },
+    {
+      "english": "variety",
+      "arabic": "تنوع",
+      "page": "91",
+      "question": {
+        "q": "The supermarket offers a wide _______ of fruits and vegetables from around the world.",
+        "options": ["variety", "shortage", "problem", "failure"],
+        "answer": 0,
+        "justification": "'variety' means range or diversity. 'shortage' means lack, 'problem' means difficulty, 'failure' means lack of success.",
+        "context_sentence": "The supermarket offers a wide _______ of fruits and vegetables from around the world."
+      }
+    },
+    {
+      "english": "essentially",
+      "arabic": "أساساً",
+      "page": "92",
+      "question": {
+        "q": "The two designs are _______ the same; there is very little difference between them.",
+        "options": ["essentially", "completely", "rarely", "accidentally"],
+        "answer": 0,
+        "justification": "'essentially' means basically or fundamentally. 'completely' means fully, 'rarely' means seldom, 'accidentally' means by chance.",
+        "context_sentence": "The two designs are _______ the same; there is very little difference between them."
+      }
+    },
+    {
+      "english": "demand",
+      "arabic": "طلب",
+      "page": "93",
+      "question": {
+        "q": "There is a high _______ for cold drinks during the hot summer months.",
+        "options": ["demand", "supply", "waste", "silence"],
+        "answer": 0,
+        "justification": "'demand' means need or desire. 'supply' means provision, 'waste' means rubbish, 'silence' means quietness.",
+        "context_sentence": "There is a high _______ for cold drinks during the hot summer months."
       }
     }
   ]
 }
+```
