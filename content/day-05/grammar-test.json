@@ -23,5 +23,20 @@
   {"q":"This lesson is ____ than the last one.","options":["easy","easier","easiest","the easiest"],"answer":1},
   {"q":"She sings ____ than anyone else.","options":["beautiful","more beautifully","most beautifully","beautifuller"],"answer":1},
   {"q":"That was the ____ trip I've ever taken.","options":["long","longer","longest","most long"],"answer":2},
-  {"q":"This cake is ____ delicious ____ the one we had yesterday.","options":["as / as","more / as","as / than","most / than"],"answer":0}
+  {"q":"This cake is ____ delicious ____ the one we had yesterday.","options":["as / as","more / as","as / than","most / than"],"answer":0},
+  {"q":"We stayed in a ____ hotel during our vacation.","options":["five-star","five stars","five-starred","five-star's"],"answer":0},
+  {"q":"She is a very ____ person; she always helps others.","options":["kind-hearted","kind hearted","kind-heart","kind heart"],"answer":0},
+  {"q":"He bought a ____ car yesterday.","options":["two-doors","two-door","two doors","two-door's"],"answer":1},
+  {"q":"I have a ____ daughter.","options":["ten years old","ten-year-old","ten years-old","ten year old"],"answer":1},
+  {"q":"This is a ____ battery; it lasts for days.","options":["long-lasting","long-lasted","longing-lasting","long-last"],"answer":0},
+  {"q":"My grandfather still uses an ____ phone.","options":["old-fashion","old-fashioned","old-fashioning","old fashion"],"answer":1},
+  {"q":"That actor is very ____; everyone knows him.","options":["well-known","good-known","well-knowing","well-know"],"answer":0},
+  {"q":"I prefer ____ drinks without sugar.","options":["sugar-free","sugar-freed","sugar-freen","free-sugar"],"answer":0},
+  {"q":"He is a ____ man; he never gets angry.","options":["cold-blood","cold-blooded","cold-blooding","blood-cold"],"answer":1},
+  {"q":"She wore a ____ dress to the party.","options":["good-looking","well-looking","good-looked","good-look"],"answer":0},
+  {"q":"This is a ____ opportunity; don't waste it.","options":["life-changed","life-changing","life-changes","changing-life"],"answer":1},
+  {"q":"We saw a ____ documentary about space.","options":["thought-provoking","thought-provoked","thought-provokes","thought-provoke"],"answer":0},
+  {"q":"The ____ criminal was finally caught.","options":["cold-blooded","cold-blood","cold-blooding","blood-cold"],"answer":0},
+  {"q":"I'm looking for a ____ apartment.","options":["two-bedroom","two-bedrooms","two-bedroom's","two-bed"],"answer":0},
+  {"q":"She works in a ____ environment and is always stressed.","options":["high-pressure","high-pressured","highly-pressure","high-pressuring"],"answer":0}
 ]
