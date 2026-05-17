@@ -19,11 +19,7 @@ def is_english(text):
 
 def wrap_en(txt):
     if not txt: return ""
-    # أي نص إنجليزي ولو كلمة واحدة: اجعله LTR
-    if any(c.isascii() and c.isalpha() for c in txt):
-        return f'<span dir="ltr" style="unicode-bidi:isolate; direction: ltr; text-align: left;">{txt}</span>'
-    return txt
-
+    return f'<bdi dir="ltr">{txt}</bdi>'  # استخدام <bdi> يمنع تأثير الاتجاه المحيط
 def build_reading(day_num):
     r = load_json(f"content/day-{day_num:02d}/reading.json")
     if not r: return ""
@@ -39,7 +35,7 @@ def build_reading(day_num):
         if is_english(p.get("text", "")):
             sec += f'<div class="passage-text" dir="ltr">{text}</div>\n'
         else:
-            sec += f'<div class="passage-text" dir="ltr">{text}</div>\n'
+            sec += f'<div class="passage-text">{text}</div>\n'
         if questions:
             sec += '<div class="questions"><h4>أسئلة الفهم</h4><ol>\n'
             for q in questions:
@@ -64,7 +60,7 @@ def build_vocab(day_num):
         for i, w in enumerate(words):
             eng = escape(w.get("english",""))
             ara = escape(w.get("arabic",""))
-            sec += f'<tr><td>{i+1}</td><td class="en" dir="ltr" style="text-align: left;">{eng}</td><td class="ar">{ara}</td></tr>\n'
+            sec += f'<tr><td>{i+1}</td><td class="en">{eng}</td><td class="ar">{ara}</td></tr>\n'
         sec += '</tbody></table>\n'
         all_questions = []
         for w in words:
@@ -277,14 +273,8 @@ article.passage { margin-bottom: 2.5rem; }
 table.word-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
 table.word-table th { background: var(--primary); color: white; padding: 10px; font-family: 'Inter', sans-serif; }
 table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 12px; }
-.en, .english, [lang="en"], [dir="ltr"] {
-  font-family: 'Inter', sans-serif;
-  direction: ltr !important;
-  text-align: left !important;
-  unicode-bidi: isolate;
-}
-.english, [lang="en"] { font-family: 'Inter', sans-serif; }
-.passage-text[dir="ltr"] { text-align: left; direction: ltr; }
+.en, .english { font-family: 'Inter', sans-serif; }
+[dir="ltr"] { direction: ltr; text-align: left; unicode-bidi: isolate; }
 [dir="ltr"] { direction: ltr; unicode-bidi: embed; }
 .dictation ul { list-style: square; padding-right: 2rem; }
 .grammar-lesson { border: 1px solid #ddd; padding: 2rem; border-radius: 8px; background: #fafafa; margin: 1rem 0; }
