@@ -1,6 +1,3 @@
-cd /workspaces/itc-apne-prep
-
-cat > content/day-04/vocabulary.json << 'EOF'
 {
   "topic": "Vocabulary from Day 4 Passages",
   "pageRange": "Japan, USA Gov, Water Desalination (Extra 4)",
@@ -667,10 +664,3 @@ cat > content/day-04/vocabulary.json << 'EOF'
     }
   ]
 }
-EOF
-
-git add content/day-04/vocabulary.json
-git commit -m "تحديث مفردات اليوم الرابع: 45 كلمة حصراً من القطع الأصلية"
-git push origin main
-
-echo "✅ تم رفع ملف اليوم الرابع بـ 45 كلمة. جربه الآن: https://english-zone.github.io/itc-apne-prep/practice.html?day=4"

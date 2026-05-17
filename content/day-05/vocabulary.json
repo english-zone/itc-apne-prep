@@ -1,6 +1,3 @@
-cd /workspaces/itc-apne-prep
-
-cat > content/day-05/vocabulary.json << 'EOF'
 {
   "topic": "Vocabulary from Day 5 Passages (California & Egypt)",
   "pageRange": "Extra 5",
@@ -487,10 +484,3 @@ cat > content/day-05/vocabulary.json << 'EOF'
     }
   ]
 }
-EOF
-
-git add content/day-05/vocabulary.json
-git commit -m "تحديث مفردات اليوم الخامس: 40 كلمة حصراً من قطعتي California و Egypt"
-git push origin main
-
-echo "✅ تم رفع ملف اليوم الخامس بـ 40 كلمة من القطع الأصلية. جربه الآن: https://english-zone.github.io/itc-apne-prep/practice.html?day=5"

@@ -1,15 +1,3 @@
-بالتأكيد. تم استلام ملف اليوم السادس، وسأقوم الآن باستبداله بالكامل بمفردات مستخرجة **حصرياً من قطعتي اليوم السادس الأصليتين**:  
-- **The All Blacks (New Zealand Rugby)**  
-- **Tambora Volcanic Eruption**
-
-جميع الكلمات الجديدة مأخوذة من هاتين القطعتين فقط، مع جمل سياقية توضح المعنى دون الحاجة للرجوع للنص، وعددها 45 كلمة.
-
-شغّل هذا الأمر في الطرفية لإنشاء الملف ورفعه فوراً:
-
-```bash
-cd /workspaces/itc-apne-prep
-
-cat > content/day-06/vocabulary.json << 'EOF'
 {
   "topic": "Vocabulary from Day 6 Passages (All Blacks & Tambora)",
   "pageRange": "Extra 6",
@@ -544,11 +532,3 @@ cat > content/day-06/vocabulary.json << 'EOF'
     }
   ]
 }
-EOF
-
-git add content/day-06/vocabulary.json
-git commit -m "تحديث مفردات اليوم السادس: 45 كلمة حصراً من قطعتي All Blacks و Tambora"
-git push origin main
-
-echo "✅ تم رفع ملف اليوم السادس بـ 45 كلمة من القطع الأصلية. جربه الآن: https://english-zone.github.io/itc-apne-prep/practice.html?day=6"
-```
