@@ -268,23 +268,6 @@ for day in range(6):
             print_questions(pdf, questions, 10)
         pdf.add_line()
     
-    # --- واجب منزلي (إن وجد) ---
-    hw_path = f"{day_dir}/homework.json"
-    hw_data = load_json(hw_path)
-    if hw_data:
-        pdf.section_title('الواجب المنزلي', level=2)
-        hw_passages = hw_data.get('reading', []) if isinstance(hw_data, dict) else hw_data
-        if isinstance(hw_passages, list):
-            for hp in hw_passages:
-                if isinstance(hp, dict):
-                    htitle = hp.get('title', 'قطعة')
-                    htext = hp.get('text', '')
-                    hquestions = hp.get('questions', [])
-                    pdf.section_title(htitle, level=3)
-                    pdf.ar_multi(htext, size=10)
-                    if hquestions:
-                        print_questions(pdf, hquestions, 10)
-        pdf.add_line()
 
 # ---------- اليوم السابع (مراجعة) ----------
 pdf.add_page()
