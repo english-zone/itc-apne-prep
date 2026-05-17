@@ -1,54 +1,282 @@
-<div class="grammar-content">
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>قواعد اللغة الإنجليزية – Comparative & Superlative & Compound Adjectives</title>
 <style>
-  .circle-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin: 2rem 0; }
-  .circle-card { 
-    width: 130px; height: 130px; border-radius: 50%; 
-    background: linear-gradient(145deg, #e6f0fa, #ffffff);
-    box-shadow: 0 8px 20px rgba(0,113,227,0.15);
-    display: flex; flex-direction: column; align-items: center; justify-content: center;
-    font-weight: 700; text-align: center; padding: 0.5rem;
-    border: 3px solid #0071e3;
-    transition: transform 0.2s;
+  @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Tajawal', 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #f0f5ff 0%, #e8f0fe 100%);
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
   }
-  .circle-card:hover { transform: scale(1.05); }
-  .circle-card .adj { font-size: 1.2rem; color: #1d1d1f; }
-  .circle-card .comp { font-size: 1rem; color: #0071e3; }
-  .circle-card .number { font-size: 0.8rem; color: #ff9500; margin-top: 4px; }
-  .section-title { font-size: 1.4rem; font-weight: 700; margin-top: 2rem; color: #0071e3; text-align: center; }
+
+  .page {
+    max-width: 1100px;
+    width: 100%;
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 36px;
+    padding: 2.5rem 2rem;
+    box-shadow: 0 25px 50px rgba(0, 80, 150, 0.15);
+    border: 1px solid rgba(0,113,227,0.2);
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    color: #00264d;
+    text-align: center;
+    margin: 2.5rem 0 1.8rem;
+    position: relative;
+    font-weight: 700;
+  }
+
+  h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: linear-gradient(90deg, #0071e3, #ff9500);
+    margin: 0.8rem auto 0;
+    border-radius: 5px;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    color: #003366;
+    margin: 2rem 0 1rem;
+    padding: 0.5rem 1.2rem;
+    background: linear-gradient(to left, #f4f8ff, #ffffff);
+    border-radius: 18px;
+    display: inline-block;
+    border-right: 6px solid #0071e3;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 2rem 0 1.2rem;
+    color: #0059b3;
+    text-align: center;
+    background: #eef3fd;
+    padding: 0.6rem;
+    border-radius: 14px;
+    letter-spacing: 1px;
+  }
+
+  p, li {
+    font-size: 1.1rem;
+    line-height: 2;
+    color: #1a1a2e;
+    margin-bottom: 0.6rem;
+  }
+
+  strong { color: #b33c00; }
+  b { color: #004080; }
+
+  ul, ol {
+    list-style-type: none;
+    padding-right: 1.8rem;
+    margin: 1rem 0;
+  }
+
+  li {
+    margin-bottom: 0.7rem;
+    position: relative;
+    padding-right: 2rem;
+  }
+
+  li::before {
+    content: "●";
+    position: absolute;
+    right: 0;
+    color: #0071e3;
+    font-size: 1.3rem;
+  }
+
+  .circle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.8rem;
+    margin: 2rem 0;
+  }
+
+  .circle-card {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #ffffff, #f0f5ff);
+    box-shadow: 0 15px 30px rgba(0,113,227,0.15), inset 0 0 0 3px rgba(255,255,255,0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.8rem;
+    border: 3px solid #0071e3;
+    transition: all 0.3s ease;
+    position: relative;
+    backdrop-filter: blur(5px);
+  }
+
+  .circle-card:hover {
+    transform: scale(1.08);
+    box-shadow: 0 20px 40px rgba(0,113,227,0.25);
+    border-color: #ff9500;
+  }
+
+  .circle-card .adj {
+    font-size: 1.3rem;
+    color: #1d1d1f;
+    font-weight: 700;
+  }
+
+  .circle-card .comp {
+    font-size: 1.1rem;
+    color: #0071e3;
+    margin-top: 4px;
+    font-weight: 700;
+  }
+
+  .circle-card .number {
+    font-size: 0.8rem;
+    color: #ff9500;
+    margin-top: 6px;
+    background: rgba(255,149,0,0.1);
+    padding: 2px 8px;
+    border-radius: 12px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.8rem 0;
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+    border: 1px solid #d6e0f0;
+  }
+
+  th {
+    background: linear-gradient(180deg, #0059b3, #003d80);
+    color: white;
+    font-weight: 700;
+    padding: 14px 10px;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  td {
+    padding: 12px 10px;
+    text-align: center;
+    font-size: 1rem;
+    border-bottom: 1px solid #e0e8f5;
+    background-color: #fafcff;
+  }
+
+  tr:last-child td { border-bottom: none; }
+
+  .tip-box {
+    background: #fff9e6;
+    border-right: 6px solid #ffaa00;
+    padding: 1.2rem 1.5rem;
+    border-radius: 16px;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 12px rgba(255,170,0,0.1);
+  }
+
+  .example-box {
+    background: #e8f5e9;
+    padding: 1rem 1.2rem;
+    border-radius: 14px;
+    margin: 1.2rem 0;
+    border-right: 6px solid #28a745;
+  }
+
+  hr {
+    border: none;
+    border-top: 2px dashed #b3c7e6;
+    margin: 2.5rem 0;
+  }
+
+  .print-footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1.2rem;
+    background: linear-gradient(90deg, #eef3fd, #ffffff);
+    border-radius: 20px;
+    font-weight: bold;
+    color: #0059b3;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+
+  @media print {
+    body { background: white; padding: 0; }
+    .page { box-shadow: none; border: none; padding: 1rem; max-width: 100%; }
+    h2::after { display: none; }
+    th { background: #ddd; color: black; }
+    .circle-card { border: 2px solid black; }
+  }
 </style>
+</head>
+<body>
+<div class="page">
 
-<h2>📊 Comparative & Superlative (المقارنة والتفضيل)</h2>
+<h2>📊 Comparative & Superlative<br><small style="font-size:1.2rem;color:#666;">(المقارنة والتفضيل)</small></h2>
 
+<!-- ========== شرح عام ========== -->
+<div class="tip-box">
+  <strong>💡 الفكرة الأساسية:</strong>
+  <ul style="margin-top:0.5rem;">
+    <li><b>Comparative (المقارنة):</b> نقارن بين شيئين أو شخصين.</li>
+    <li><b>Superlative (التفضيل):</b> نقارن بين مجموعة (أكثر من اثنين) ونختار الأعلى أو الأقل.</li>
+    <li>هناك أيضاً <b>as...as</b> للمساواة.</li>
+    <li>الصفات تنقسم إلى <b>قصيرة</b> (مقطع واحد أو اثنان) و<b>طويلة</b> (مقطعين أو أكثر).</li>
+  </ul>
+</div>
+
+<!-- ========== Comparative ========== -->
 <h3>🔹 Comparative Adjectives (المقارنة بين شيئين)</h3>
 
-<!-- الصفات القصيرة + er + than -->
-<div class="section-title">① الصفات القصيرة (+er + than)</div>
+<div class="section-title">① الصفات القصيرة (مقطع واحد غالباً) : نضيف <b>-er + than</b></div>
 <div class="circle-container">
   <div class="circle-card"><span class="adj">short</span><span class="comp">shorter</span><span class="number">1</span></div>
   <div class="circle-card"><span class="adj">small</span><span class="comp">smaller</span><span class="number">2</span></div>
   <div class="circle-card"><span class="adj">big</span><span class="comp">bigger</span><span class="number">3</span></div>
   <div class="circle-card"><span class="adj">tall</span><span class="comp">taller</span><span class="number">4</span></div>
 </div>
+<p><b>قاعدة إملائية:</b> إذا انتهت الصفة بحرف ساكن يسبقه حرف علة واحد، نضاعف الحرف الأخير: <b>big → bigger</b>.</p>
+<p><b>أمثلة:</b> My house is <b>smaller than</b> yours. / He is <b>taller than</b> his brother.</p>
 
-<!-- الصفات التي تنتهي بـ Y -->
-<div class="section-title">② الصفات التي تنتهي بـ Y (Y → i + er)</div>
+<div class="section-title">② الصفات التي تنتهي بـ <b>Y</b> : نقلب Y إلى <b>i</b> ثم نضيف <b>-er</b></div>
 <div class="circle-container">
   <div class="circle-card"><span class="adj">easy</span><span class="comp">easier</span><span class="number">1</span></div>
   <div class="circle-card"><span class="adj">heavy</span><span class="comp">heavier</span><span class="number">2</span></div>
   <div class="circle-card"><span class="adj">happy</span><span class="comp">happier</span><span class="number">3</span></div>
   <div class="circle-card"><span class="adj">busy</span><span class="comp">busier</span><span class="number">4</span></div>
 </div>
+<p>هذه الصفات غالباً من مقطعين وتنتهي بـ y. نطبق القاعدة: <b>easy → easier than</b>.</p>
 
-<!-- الشواذ -->
-<div class="section-title">③ الشواذ (Irregular)</div>
+<div class="section-title">③ الشواذ (Irregular) – لا تخضع للقواعد</div>
 <div class="circle-container">
   <div class="circle-card"><span class="adj">good</span><span class="comp">better</span><span class="number">1</span></div>
   <div class="circle-card"><span class="adj">bad</span><span class="comp">worse</span><span class="number">2</span></div>
   <div class="circle-card"><span class="adj">far</span><span class="comp">farther</span><span class="number">3</span></div>
 </div>
+<p>يجب حفظ هذه الصفات كما هي. <b>farther</b> تستخدم للمسافة الفعلية، أما <b>further</b> فتستخدم للمعنى المجازي (مزيد من).</p>
 
-<!-- More / Less + صفة طويلة -->
-<div class="section-title">④ الصفات الطويلة (More / Less + adj + than)</div>
+<div class="section-title">④ الصفات الطويلة (مقطعين أو أكثر) : نضع <b>more / less + adj + than</b></div>
 <div class="circle-container">
   <div class="circle-card"><span class="adj">beautiful</span><span class="comp">more beautiful</span><span class="number">1</span></div>
   <div class="circle-card"><span class="adj">amazing</span><span class="comp">more amazing</span><span class="number">2</span></div>
@@ -57,12 +285,14 @@
   <div class="circle-card"><span class="adj">stressful</span><span class="comp">more stressful</span><span class="number">5</span></div>
   <div class="circle-card"><span class="adj">marvelous</span><span class="comp">more marvelous</span><span class="number">6</span></div>
 </div>
+<p>لا نضيف -er للصفات الطويلة أبداً، بل نستخدم <b>more</b> (أكثر) أو <b>less</b> (أقل). مثال: This book is <b>more interesting than</b> that one.</p>
 
 <hr>
 
+<!-- ========== Superlative ========== -->
 <h3>🔹 Superlative (التفضيل بين مجموعة)</h3>
 
-<div class="section-title">الصفات القصيرة (the + adj + est)</div>
+<div class="section-title">الصفات القصيرة : <b>the + adj + -est</b></div>
 <div class="circle-container">
   <div class="circle-card"><span class="adj">tall</span><span class="comp">the tallest</span><span class="number">1</span></div>
   <div class="circle-card"><span class="adj">big</span><span class="comp">the biggest</span><span class="number">2</span></div>
@@ -70,20 +300,65 @@
   <div class="circle-card"><span class="adj">good</span><span class="comp">the best</span><span class="number">4</span></div>
   <div class="circle-card"><span class="adj">bad</span><span class="comp">the worst</span><span class="number">5</span></div>
 </div>
+<p>نستخدم <b>the</b> قبل الصفة لأننا نحدد الأعلى/الأفضل. <b>good → the best, bad → the worst</b>.</p>
+<p>مثال: She is <b>the smartest</b> student in the class. / This is <b>the best</b> day ever.</p>
 
-<div class="section-title">الصفات الطويلة (the most / the least + adj)</div>
+<div class="section-title">الصفات الطويلة : <b>the most / the least + adj</b></div>
 <div class="circle-container">
   <div class="circle-card"><span class="adj">beautiful</span><span class="comp">the most beautiful</span><span class="number">1</span></div>
   <div class="circle-card"><span class="adj">interesting</span><span class="comp">the most interesting</span><span class="number">2</span></div>
   <div class="circle-card"><span class="adj">careful</span><span class="comp">the least careful</span><span class="number">3</span></div>
 </div>
+<p>مثال: This is <b>the most expensive</b> car in the showroom. / He is <b>the least organized</b> person I know.</p>
 
 <hr>
 
+<!-- ========== as...as ========== -->
 <h3>🟰 as...as (المساواة)</h3>
-<p style="text-align:center;font-size:1.1rem;">
-Jimmy is <b>as tall as</b> his brother. (متساويان)<br>
-🚫 <b>not as...as</b> (نفي المساواة): Jimmy is <b>not as fast as</b> his father.
+<p style="text-align:center;font-size:1.2rem;">
+  للتعبير عن التساوي نستخدم: <b>as + الصفة + as</b><br>
+  Jimmy is <b>as tall as</b> his brother. (متساويان في الطول)<br>
+  🚫 للنفي: <b>not as...as</b> أو <b>not so...as</b><br>
+  Jimmy is <b>not as fast as</b> his father. (ليس بنفس السرعة)
 </p>
 
+<hr>
+
+<!-- ========== Compound Adjectives ========== -->
+<h2>🧩 Compound Adjectives (الصفات المركبة)</h2>
+<div class="tip-box">
+  <strong>📌 ما هي الصفة المركبة؟</strong> صفة مكونة من كلمتين أو أكثر، توصل بينها شرطة (-) لتشكيل معنى واحد. تُستخدم لوصف الأسماء وتأتي قبل الاسم عادة.
 </div>
+
+<h3>🔹 أنواع الصفات المركبة الشائعة</h3>
+
+<table>
+<tr><th>النوع</th><th>التركيبة</th><th>أمثلة</th></tr>
+<tr><td>العدد + اسم (مفرد)</td><td>Number + Noun (singular)</td><td><b>a five-star</b> hotel, <b>a two-door</b> car, <b>a ten-page</b> report</td></tr>
+<tr><td>العدد + اسم + صفة</td><td>Number + Noun + Adjective</td><td><b>a five-year-old</b> boy, <b>a six-foot-tall</b> man</td></tr>
+<tr><td>صفة + اسم بـ ed</td><td>Adjective + Noun-ed</td><td><b>a kind-hearted</b> person, <b>a left-handed</b> pitcher, <b>a cold-blooded</b> animal</td></tr>
+<tr><td>صفة / حال + اسم المفعول</td><td>Adjective/Adverb + Past Participle</td><td><b>well-known</b> actor, <b>highly-respected</b> teacher, <b>old-fashioned</b> dress</td></tr>
+<tr><td>صفة / حال + اسم الفاعل</td><td>Adjective/Adverb + Present Participle</td><td><b>good-looking</b> guy, <b>long-lasting</b> battery, <b>fast-moving</b> train</td></tr>
+<tr><td>اسم + صفة / اسم + اسم المفعول</td><td>Noun + Adjective / Noun + Past Participle</td><td><b>sugar-free</b> drink, <b>heart-broken</b> girl, <b>sun-dried</b> tomatoes</td></tr>
+</table>
+
+<div class="example-box">
+  <strong>✍️ أمثلة إضافية في جمل:</strong><br>
+  - I bought a <b>brand-new</b> laptop. (جديد جداً)<br>
+  - She is a <b>well-behaved</b> child. (حسنة السلوك)<br>
+  - He works in a <b>high-pressure</b> environment. (ضغط عالي)<br>
+  - We stayed in a <b>three-star</b> hotel. (ثلاث نجوم)<br>
+  - This is a <b>life-changing</b> experience. (يغير الحياة)
+</div>
+
+<div class="tip-box">
+  🧠 <b>نصيحة ذهبية:</b> الصفات المركبة تجعل كلامك دقيقاً واحترافياً. احفظها ككتلة واحدة ولا تنسَ الشرطة (-) لتبين أنها وحدة واحدة تصف الاسم الذي بعدها.
+</div>
+
+<div class="print-footer">
+  💪 أتقن المقارنة والتفضيل والصفات المركبة – مركز الريادة للتدريب.
+</div>
+
+</div>
+</body>
+</html>
