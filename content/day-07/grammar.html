@@ -1,16 +1,166 @@
-<div class="grammar-content">
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دليل قواعد اللغة الإنجليزية الشامل – ITC APNE</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--              ENGLISH GRAMMAR MASTER GUIDE               -->
-<!-- ═══════════════════════════════════════════════════════ -->
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Tajawal', 'Segoe UI', sans-serif;
+    background: #f0f5ff;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+  }
+
+  .page {
+    max-width: 1100px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 28px;
+    padding: 2rem 1.8rem;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.06);
+    border: 1px solid #e0e7f2;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: #00264d;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  h1::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(90deg, #0071e3, #ff9500);
+    margin: 0.8rem auto 2rem;
+    border-radius: 4px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: #00264d;
+    border-right: 8px solid #0071e3;
+    padding-right: 1rem;
+    margin: 2.5rem 0 1.3rem;
+    line-height: 1.4;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    color: #004080;
+    margin: 1.8rem 0 1rem;
+    padding: 0.4rem 1rem;
+    background: #f4f8ff;
+    border-radius: 12px;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    color: #003366;
+    margin: 1.2rem 0 0.6rem;
+  }
+
+  p, li {
+    font-size: 1.05rem;
+    line-height: 2;
+    color: #1a1a2e;
+    margin-bottom: 0.5rem;
+  }
+
+  strong { color: #b33c00; }
+  b { color: #c4450c; }
+
+  ul, ol {
+    list-style-type: none;
+    padding-right: 1.8rem;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-right: 1.5rem;
+  }
+
+  li::before {
+    content: "•";
+    position: absolute;
+    right: 0;
+    color: #0071e3;
+    font-weight: bold;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background: white;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+    border: 1px solid #d6e0f0;
+  }
+
+  th {
+    background: #0059b3;
+    color: white;
+    font-weight: 700;
+    padding: 12px 8px;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  td {
+    padding: 10px 8px;
+    text-align: center;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #e0e8f5;
+    background-color: #fafcff;
+  }
+
+  tr:last-child td { border-bottom: none; }
+
+  .print-footer {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    background: #eef3fd;
+    border-radius: 16px;
+    font-weight: bold;
+    color: #0059b3;
+    font-size: 1.1rem;
+  }
+
+  hr {
+    border: 1px dashed #b3c7e6;
+    margin: 2rem 0;
+  }
+
+  @media print {
+    body { background: white; padding: 0; }
+    .page { box-shadow: none; border: none; padding: 1rem; max-width: 100%; }
+    h2 { border-right: 4px solid black; }
+    th { background: #ddd; color: black; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
 
 <h1>📚 English Grammar Master Guide – ITC APNE</h1>
 <p style="text-align:center; color:#555;">دليل شامل من إعداد أ. معاذ – مركز الريادة للتدريب</p>
 
-<!-- 1. TENSES OVERVIEW -->
+<!-- 1. TENSES -->
 <h2>🕒 English Tenses (الأزمنة)</h2>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#0071e3;color:white;"><th>الزمن</th><th>الاستخدام</th><th>التركيب</th><th>مثال</th></tr>
+<table>
+<tr><th>الزمن</th><th>الاستخدام</th><th>التركيب</th><th>مثال</th></tr>
 <tr><td>Present Simple</td><td>حقائق، عادات، جداول</td><td>V/Vs</td><td>He <b>works</b> every day.</td></tr>
 <tr><td>Past Simple</td><td>أحداث ماضية منتهية</td><td>V2/V-ed</td><td>I <b>went</b> to Jeddah yesterday.</td></tr>
 <tr><td>Future Simple</td><td>قرارات، توقعات، وعود</td><td>will + V</td><td>I <b>will call</b> you later.</td></tr>
@@ -20,16 +170,15 @@
 <tr><td>Present Perfect</td><td>خبرة، نتيجة، مستمر حتى الآن</td><td>have/has + V3</td><td>I <b>have visited</b> Dubai.</td></tr>
 <tr><td>Past Perfect</td><td>حدث قبل حدث ماضٍ</td><td>had + V3</td><td>He <b>had left</b> before I came.</td></tr>
 <tr><td>Future Perfect</td><td>سيكتمل قبل وقت مستقبلي</td><td>will have + V3</td><td>I <b>will have finished</b> by 5.</td></tr>
-<tr><td>Present Perfect Continuous</td><td>بدأ ومستمر حتى الآن (تركيز على المدة)</td><td>have/has been + V-ing</td><td>I <b>have been studying</b> for 2 hours.</td></tr>
+<tr><td>Present Perfect Continuous</td><td>بدأ ومستمر حتى الآن</td><td>have/has been + V-ing</td><td>I <b>have been studying</b> for 2 hours.</td></tr>
 <tr><td>Past Perfect Continuous</td><td>مستمر قبل حدث ماضٍ</td><td>had been + V-ing</td><td>He <b>had been working</b> all day.</td></tr>
 <tr><td>Future Perfect Continuous</td><td>مستمر حتى وقت مستقبلي</td><td>will have been + V-ing</td><td>I <b>will have been teaching</b> for 10 years.</td></tr>
 </table>
 
-<!-- 2. PASSIVE VOICE -->
+<!-- 2. PASSIVE -->
 <h2>🏛️ Passive Voice (المبني للمجهول)</h2>
-<p>نستخدمه للتركيز على الفعل أو المفعول، أو عندما يكون الفاعل غير معروف.</p>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#0071e3;color:white;"><th>الزمن</th><th>Active</th><th>Passive</th></tr>
+<table>
+<tr><th>الزمن</th><th>Active</th><th>Passive</th></tr>
 <tr><td>Present Simple</td><td>They <b>make</b> cars.</td><td>Cars <b>are made</b>.</td></tr>
 <tr><td>Past Simple</td><td>She <b>wrote</b> a letter.</td><td>A letter <b>was written</b>.</td></tr>
 <tr><td>Future Simple</td><td>He <b>will fix</b> it.</td><td>It <b>will be fixed</b>.</td></tr>
@@ -41,8 +190,8 @@
 
 <!-- 3. CONDITIONALS -->
 <h2>🔀 Conditionals (If)</h2>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#0071e3;color:white;"><th>النوع</th><th>If-clause</th><th>Main clause</th><th>مثال</th></tr>
+<table>
+<tr><th>النوع</th><th>If-clause</th><th>Main clause</th><th>مثال</th></tr>
 <tr><td>Zero</td><td>Present Simple</td><td>Present Simple</td><td>If you <b>heat</b> ice, it <b>melts</b>.</td></tr>
 <tr><td>First</td><td>Present Simple</td><td>will + V</td><td>If it <b>rains</b>, I <b>will stay</b> home.</td></tr>
 <tr><td>Second</td><td>Past Simple</td><td>would + V</td><td>If I <b>were</b> rich, I <b>would travel</b>.</td></tr>
@@ -51,8 +200,8 @@
 
 <!-- 4. REPORTED SPEECH -->
 <h2>🗣️ Reported Speech (الكلام المنقول)</h2>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#0071e3;color:white;"><th>Direct</th><th>Reported</th></tr>
+<table>
+<tr><th>Direct</th><th>Reported</th></tr>
 <tr><td>"I <b>am</b> tired."</td><td>She said she <b>was</b> tired.</td></tr>
 <tr><td>"I <b>will come</b>."</td><td>He said he <b>would come</b>.</td></tr>
 <tr><td>"I <b>bought</b> a car."</td><td>She said she <b>had bought</b> a car.</td></tr>
@@ -63,8 +212,8 @@
 
 <!-- 5. MODALS -->
 <h2>🔧 Modals (الأفعال الناقصة)</h2>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#0071e3;color:white;"><th>Modal</th><th>الاستخدام</th><th>مثال</th></tr>
+<table>
+<tr><th>Modal</th><th>الاستخدام</th><th>مثال</th></tr>
 <tr><td>can</td><td>قدرة / إذن</td><td>I <b>can</b> speak English.</td></tr>
 <tr><td>could</td><td>قدرة ماضية / طلب مهذب</td><td><b>Could</b> you help me?</td></tr>
 <tr><td>may</td><td>إذن / احتمال</td><td>It <b>may</b> rain.</td></tr>
@@ -79,59 +228,53 @@
 
 <!-- 6. GERUND vs INFINITIVE -->
 <h2>🔄 Gerund vs Infinitive</h2>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#0071e3;color:white;"><th>+ Gerund (V-ing)</th><th>+ Infinitive (to V)</th><th>+ Either (no/slight difference)</th></tr>
-<tr>
-<td>enjoy, mind, stop, suggest, avoid, imagine, finish, keep, miss, practise, consider, risk, deny, postpone, admit</td>
-<td>decide, want, hope, promise, agree, plan, offer, refuse, seem, learn, need, expect, would like, ask, help</td>
-<td>begin, start, continue, like, love, hate, prefer</td>
-</tr>
+<table>
+<tr><th>+ Gerund (V-ing)</th><th>+ Infinitive (to V)</th></tr>
+<tr><td>enjoy, mind, stop, suggest, avoid, imagine, finish, keep, miss, practise, consider, risk, deny, postpone, admit</td><td>decide, want, hope, promise, agree, plan, offer, refuse, seem, learn, need, expect, would like, ask, help</td></tr>
 </table>
-<p><strong>أفعال تتغيّر معناها:</strong></p>
+<p><strong>أفعال يتغير معناها:</strong></p>
 <ul>
-<li><b>stop + gerund:</b> يتوقف عن فعل (He stopped smoking.)</li>
-<li><b>stop + to مصدر:</b> يتوقف ليفعل شيئاً (He stopped to smoke.)</li>
-<li><b>remember + gerund:</b> يتذكر فعل شيء ماضٍ (I remember locking the door.)</li>
-<li><b>remember + to مصدر:</b> يتذكر أن عليه فعله (Remember to lock the door.)</li>
-<li><b>try + gerund:</b> يجرب طريقة جديدة (Try restarting the computer.)</li>
-<li><b>try + to مصدر:</b> يبذل جهداً (I tried to lift the box.)</li>
+<li><b>stop + gerund:</b> يتوقف عن (He stopped smoking.)</li>
+<li><b>stop + to:</b> يتوقف ليفعل (He stopped to smoke.)</li>
+<li><b>remember + gerund:</b> يتذكر فعل شيء (I remember locking.)</li>
+<li><b>remember + to:</b> يتذكر أن يفعل (Remember to lock.)</li>
+<li><b>try + gerund:</b> يجرب (Try restarting.)</li>
+<li><b>try + to:</b> يبذل جهداً (I tried to lift.)</li>
 </ul>
 
 <!-- 7. ARTICLES -->
 <h2>📖 Articles (a / an / the)</h2>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#0071e3;color:white;"><th>النوع</th><th>الاستخدام</th><th>مثال</th></tr>
-<tr><td>a / an</td><td>شيء غير محدد (يُذكر لأول مرة)</td><td>I saw <b>a</b> cat.</td></tr>
-<tr><td>the</td><td>شيء محدد (معروف، فريد، أو مذكور قبلاً)</td><td><b>The</b> sun, <b>the</b> cat I saw</td></tr>
-<tr><td>–</td><td>جمع عام، غير معدود عام، أعلام</td><td>I like dogs. Water is essential. Saudi Arabia.</td></tr>
+<table>
+<tr><th>النوع</th><th>الاستخدام</th><th>مثال</th></tr>
+<tr><td>a / an</td><td>غير محدد (للمرة الأولى)</td><td>I saw <b>a</b> cat.</td></tr>
+<tr><td>the</td><td>محدد (معروف، فريد، مذكور سابقاً)</td><td><b>The</b> sun, <b>the</b> cat I saw</td></tr>
+<tr><td>–</td><td>جمع عام، غير معدود، أعلام</td><td>I like dogs. Water. Saudi Arabia.</td></tr>
 </table>
 
 <!-- 8. PREPOSITIONS -->
 <h2>📌 Prepositions (حروف الجر)</h2>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#0071e3;color:white;"><th>Time</th><th>Place</th><th>Movement</th></tr>
+<table>
+<tr><th>Time</th><th>Place</th><th>Movement</th></tr>
 <tr><td><b>at</b> 6, at night</td><td><b>at</b> home, at the door</td><td><b>to</b>, <b>from</b>, <b>into</b>, <b>out of</b></td></tr>
 <tr><td><b>on</b> Monday, on June 1</td><td><b>on</b> the table, on the street</td><td><b>onto</b>, <b>off</b>, <b>across</b></td></tr>
 <tr><td><b>in</b> June, in 2020, in the morning</td><td><b>in</b> Riyadh, in the room</td><td><b>through</b>, <b>along</b>, <b>up</b>, <b>down</b></td></tr>
 </table>
-<p><strong>Verbs + Prepositions (أفعال + حروف جر شائعة):</strong></p>
-<p>depend <b>on</b>, believe <b>in</b>, look <b>for</b>, wait <b>for</b>, listen <b>to</b>, talk <b>about</b>, think <b>of/about</b>, agree <b>with/to</b>, apologize <b>for</b>, apply <b>for</b>, care <b>about</b>, complain <b>about</b>, consist <b>of</b>, succeed <b>in</b>, suffer <b>from</b>, worry <b>about</b>.</p>
+<p><strong>أفعال + حروف جر:</strong> depend <b>on</b>, believe <b>in</b>, look <b>for</b>, wait <b>for</b>, listen <b>to</b>, think <b>of/about</b>, succeed <b>in</b>, worry <b>about</b>.</p>
 
 <!-- 9. COMPARATIVE & SUPERLATIVE -->
 <h2>📊 Comparative & Superlative</h2>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#0071e3;color:white;"><th>الصفة</th><th>Comparative</th><th>Superlative</th></tr>
-<tr><td>قصيرة (1 مقطع)</td><td>adj + er + than</td><td>the adj + est</td></tr>
-<tr><td>طويلة (2+ مقاطع)</td><td>more + adj + than</td><td>the most + adj</td></tr>
+<table>
+<tr><th>الصفة</th><th>Comparative</th><th>Superlative</th></tr>
+<tr><td>قصيرة</td><td>adj + er + than</td><td>the adj + est</td></tr>
+<tr><td>طويلة</td><td>more + adj + than</td><td>the most + adj</td></tr>
 <tr><td>شاذة</td><td>better, worse, farther</td><td>best, worst, farthest</td></tr>
 </table>
-<p><strong>as...as:</strong> للمساواة (He is <b>as tall as</b> me).</p>
-<p><strong>not as...as / less...than:</strong> للنفي (She is <b>less careful than</b> her sister).</p>
+<p><strong>as...as:</strong> للمساواة. <strong>not as...as / less...than:</strong> للنفي.</p>
 
 <!-- 10. PRONOUNS -->
 <h2>👤 Pronouns (الضمائر)</h2>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#0071e3;color:white;"><th>Subject</th><th>Object</th><th>Possessive Adj.</th><th>Possessive Pron.</th><th>Reflexive</th></tr>
+<table>
+<tr><th>Subject</th><th>Object</th><th>Possessive Adj.</th><th>Possessive Pron.</th><th>Reflexive</th></tr>
 <tr><td>I</td><td>me</td><td>my</td><td>mine</td><td>myself</td></tr>
 <tr><td>He</td><td>him</td><td>his</td><td>his</td><td>himself</td></tr>
 <tr><td>She</td><td>her</td><td>her</td><td>hers</td><td>herself</td></tr>
@@ -142,7 +285,6 @@
 
 <!-- 11. QUESTION TAGS -->
 <h2>🏷️ Question Tags (الأسئلة الذيلية)</h2>
-<p>مثبت + منفي؟ / منفي + مثبت؟</p>
 <ul>
 <li>You are tired, <b>aren't you?</b></li>
 <li>He won't come, <b>will he?</b></li>
@@ -151,205 +293,87 @@
 <li>Let's go, <b>shall we?</b> / Open the door, <b>will you?</b></li>
 </ul>
 
-<!-- 12. ADVANCED: WOULD RATHER / PREFER / HAD BETTER -->
-<h2>🔥 Advanced Expressions</h2>
-<h3>Would Rather / Prefer / Had Better</h3>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr><td><b>would rather + V1</b></td><td>I'd rather <b>stay</b> home.</td></tr>
-<tr><td><b>would rather + فاعل + V2</b></td><td>I'd rather you <b>didn't go</b>.</td></tr>
-<tr><td><b>prefer + V-ing to V-ing</b></td><td>I prefer <b>walking to driving</b>.</td></tr>
-<tr><td><b>had better + V1</b> (تحذير/نصيحة قوية)</td><td>You'd better <b>hurry</b>.</td></tr>
-</table>
+<!-- 12. ADVANCED EXPRESSIONS -->
+<h2>🔥 Advanced Grammar</h2>
 
-<!-- 13. CAUSATIVE -->
-<h3>Causative (have/get something done)</h3>
+<h3>🔹 Would Rather / Prefer / Had Better</h3>
 <ul>
-<li>I <b>had my car repaired</b>. (أصلحت سيارتي عند الميكانيكي)</li>
-<li>She <b>got her hair cut</b>. (قصت شعرها عند الكوافير)</li>
+<li><b>would rather + V1:</b> I'd rather <b>stay</b> home.</li>
+<li><b>would rather + فاعل + V2:</b> I'd rather you <b>didn't go</b>.</li>
+<li><b>prefer + V-ing to V-ing:</b> I prefer <b>walking to driving</b>.</li>
+<li><b>had better + V1:</b> You'd better <b>hurry</b>.</li>
 </ul>
 
-<!-- 14. WISH / IF ONLY -->
-<h3>Wish / If only (التمني)</h3>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr><td>حاضر (مستحيل)</td><td>wish + Past Simple</td><td>I wish I <b>had</b> more time.</td></tr>
-<tr><td>ماضي (ندم)</td><td>wish + Past Perfect</td><td>I wish I <b>had studied</b> harder.</td></tr>
-<tr><td>مستقبل (شكوى/أمل)</td><td>wish + would + V1</td><td>I wish it <b>would stop</b> raining.</td></tr>
-</table>
+<h3>🔸 Possessive 's (الملكية)</h3>
+<ul>
+<li><b>Ali's</b> car (مفرد)</li>
+<li><b>parents'</b> house (جمع منتظم)</li>
+<li><b>children's</b> toys (جمع غير منتظم)</li>
+<li><b>Ali and Sara's</b> house (ملكية مشتركة)</li>
+</ul>
 
-<!-- 15. EMBEDDED QUESTIONS -->
-<h3>Embedded Questions (الأسئلة المضمنة)</h3>
-<p>بعد عبارات مثل: <em>Do you know...? / Can you tell me...? / I wonder...</em></p>
+<h3>🔹 Tricky Grammar Points</h3>
+
+<h4>Used to / Be used to / Get used to</h4>
+<ul>
+<li>I <b>used to smoke</b>. (عادة ماضية)</li>
+<li>I <b>am used to waking</b> early. (معتاد)</li>
+<li>You will <b>get used to driving</b>. (ستعتاد)</li>
+</ul>
+
+<h4>Another / Other / Others</h4>
+<ul>
+<li><b>another</b> cup (واحد إضافي)</li>
+<li><b>other</b> problems (صفة للجمع)</li>
+<li><b>the other</b> shoe (الآخر من اثنين)</li>
+<li>some voted yes; <b>others</b> voted no.</li>
+</ul>
+
+<h4>Much / Many / Few / Little</h4>
+<ul>
+<li><b>much</b> time (غير معدود – سؤال/نفي)</li>
+<li><b>many</b> books (معدود – سؤال/نفي)</li>
+<li><b>a few</b> ideas (قليل إيجابي معدود)</li>
+<li><b>a little</b> hope (قليل إيجابي غير معدود)</li>
+<li><b>few</b> people (قليل جداً سلبي)</li>
+<li><b>little</b> time (قليل جداً سلبي)</li>
+</ul>
+
+<h4>So / Such</h4>
+<ul>
+<li>He is <b>so tall</b> that...</li>
+<li>It was <b>such a good</b> movie that...</li>
+</ul>
+
+<h4>Although / Despite / In spite of</h4>
+<ul>
+<li><b>Although</b> he was sick, he came.</li>
+<li><b>Despite</b> being sick, he came.</li>
+</ul>
+
+<h4>Causative (have/get something done)</h4>
+<ul>
+<li>I <b>had my car repaired</b>.</li>
+<li>She <b>got her hair cut</b>.</li>
+</ul>
+
+<h4>Wish / If only</h4>
+<ul>
+<li>I wish I <b>had</b> more time. (حاضر)</li>
+<li>I wish I <b>had studied</b>. (ماضي)</li>
+<li>I wish it <b>would stop</b> raining. (مستقبل)</li>
+</ul>
+
+<h4>Embedded Questions</h4>
 <ul>
 <li>Where is the bank? → Do you know <b>where the bank is</b>?</li>
-<li>What time does it start? → Can you tell me <b>what time it starts</b>?</li>
-</ul>
-<p><strong>ترتيب الكلمات:</strong> فاعل + فعل (وليس سؤالاً).</p>
-
-<hr>
-<h2>📝 خاتمة</h2>
-<p>هذا الدليل الشامل يغطي معظم قواعد اللغة الإنجليزية المطلوبة لاختبار ITC. احتفظ به وراجعه باستمرار. تذكّر أن الممارسة هي مفتاح الإتقان.</p>
-<p style="text-align:center;color:#0071e3;"><strong>بالتوفيق لجميع الطلاب – مركز الريادة للتدريب</strong></p>
-
-<<<<<<< HEAD
-=======
-<h3>6. Gerund vs Infinitive</h3>
-<ul>
-<li>enjoy doing / want to do / stop doing vs stop to do</li>
 </ul>
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--       ADVANCED GRAMMAR FOR ITC (قواعد متقدمة)           -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-<hr>
-<h2>🔥 Advanced Grammar for ITC</h2>
-
-<!-- ─── Would Rather ─── -->
-<h3>🔹 Would Rather (يفضّل)</h3>
-<p><strong>الاستخدام:</strong> للتعبير عن التفضيل.</p>
-
-<h4>1. تفضيل عام (فاعل واحد):</h4>
-<p><strong>would rather + مصدر بدون to</strong></p>
-<ul>
-<li>I <b>would rather stay</b> at home. (أفضّل البقاء في البيت)</li>
-<li>He <b>would rather not go</b> to the party. (يفضّل ألا يذهب)</li>
-</ul>
-
-<h4>2. تفضيل لفاعلين مختلفين:</h4>
-<p><strong>would rather + فاعل + ماضي بسيط</strong> (للحاضر أو المستقبل)</p>
-<ul>
-<li>I <b>would rather</b> you <b>stayed</b> here. (أفضّل أن تبقى أنت هنا)</li>
-<li>She <b>would rather</b> he <b>didn't come</b>. (تفضّل ألا يأتي هو)</li>
-</ul>
-
-<h4>3. تفضيل لشيء مضى (ندم):</h4>
-<p><strong>would rather + فاعل + ماضي تام (had + p.p.)</strong></p>
-<ul>
-<li>I <b>would rather</b> you <b>had told</b> me the truth. (كنت أفضّل لو أخبرتني الحقيقة)</li>
-</ul>
-
-<h4>4. مع than:</h4>
-<ul>
-<li>I<b>'d rather</b> walk <b>than</b> take a taxi.</li>
-<li>She<b>'d rather</b> die <b>than</b> apologize.</li>
-</ul>
-
-<hr>
-
-<!-- ─── Possessive 's ─── -->
-<h3>🔸 Possessive 's (الملكية)</h3>
-
-<h4>1. المفرد:</h4>
-<p>اسم مفرد + <b>'s</b></p>
-<ul>
-<li><b>Ali's</b> car is new. (سيارة علي جديدة)</li>
-<li>The <b>teacher's</b> book is on the desk.</li>
-</ul>
-
-<h4>2. الجمع المنتظم:</h4>
-<p>اسم جمع ينتهي بـ s + <b>'</b> فقط</p>
-<ul>
-<li>My <b>parents'</b> house is big. (بيت والديّ كبير)</li>
-<li>The <b>students'</b> books are here.</li>
-</ul>
-
-<h4>3. الجمع غير المنتظم:</h4>
-<p>اسم جمع لا ينتهي بـ s + <b>'s</b></p>
-<ul>
-<li><b>Children's</b> toys. (ألعاب الأطفال)</li>
-<li><b>Men's</b> clothes. (ملابس الرجال)</li>
-<li><b>Women's</b> rights. (حقوق النساء)</li>
-</ul>
-
-<h4>4. ملكية متسلسلة:</h4>
-<ul>
-<li><b>Ali and Sara's</b> house. (بيت مشترك)</li>
-<li><b>Ali's and Sara's</b> houses. (بيتان منفصلان)</li>
-</ul>
-
-<h4>5. مع الزمن أو المسافة:</h4>
-<ul>
-<li><b>a week's</b> holiday (إجازة أسبوع)</li>
-<li><b>ten minutes'</b> walk (مسافة ١٠ دقائق مشياً)</li>
-</ul>
-
-<hr>
-
-<!-- ─── Tricky Grammar ─── -->
-<h3>🎯 Tricky Grammar Points for ITC</h3>
-
-<h4>1. Used to / Be used to / Get used to</h4>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr><th>التعبير</th><th>المعنى</th><th>التركيب</th><th>مثال</th></tr>
-<tr><td>used to</td><td>عادة ماضية</td><td>used to + مصدر</td><td>I <b>used to smoke</b>.</td></tr>
-<tr><td>be used to</td><td>معتاد على</td><td>be used to + gerund</td><td>I <b>am used to waking</b> early.</td></tr>
-<tr><td>get used to</td><td>يعتاد تدريجياً</td><td>get used to + gerund</td><td>You will <b>get used to driving</b>.</td></tr>
-</table>
-
-<h4>2. Another / Other / Others / The Other</h4>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr><th>الكلمة</th><th>الاستخدام</th><th>مثال</th></tr>
-<tr><td>another</td><td>واحد إضافي (مفرد)</td><td>Give me <b>another</b> cup.</td></tr>
-<tr><td>other</td><td>صفة + جمع أو غير معدود</td><td>We have <b>other</b> problems.</td></tr>
-<tr><td>the other</td><td>الآخر من اثنين / البقية</td><td>Where is <b>the other</b> shoe?</td></tr>
-<tr><td>others</td><td>ضمير جمع (غير محدد)</td><td>Some voted yes; <b>others</b> voted no.</td></tr>
-<tr><td>the others</td><td>الباقون من مجموعة محددة</td><td>Only two work; <b>the others</b> don't.</td></tr>
-</table>
-
-<h4>3. Much / Many / A lot of / Few / Little</h4>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr><th>الكلمة</th><th>الاستخدام</th><th>مثال</th></tr>
-<tr><td>much</td><td>غير معدود (سؤال/نفي)</td><td>I don't have <b>much</b> time.</td></tr>
-<tr><td>many</td><td>معدود (سؤال/نفي)</td><td>How <b>many</b> books?</td></tr>
-<tr><td>a lot of</td><td>معدود وغير معدود (إثبات)</td><td>I have <b>a lot of</b> friends.</td></tr>
-<tr><td>a few</td><td>قليل (معدود - إيجابي)</td><td>I have <b>a few</b> ideas.</td></tr>
-<tr><td>a little</td><td>قليل (غير معدود - إيجابي)</td><td>There is <b>a little</b> hope.</td></tr>
-<tr><td>few</td><td>قليل جداً (معدود - سلبي)</td><td><b>Few</b> people came.</td></tr>
-<tr><td>little</td><td>قليل جداً (غير معدود - سلبي)</td><td>There is <b>little</b> time left.</td></tr>
-</table>
-
-<h4>4. So / Such</h4>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr><th>الكلمة</th><th>التركيب</th><th>مثال</th></tr>
-<tr><td>so</td><td>so + صفة / ظرف</td><td>He is <b>so tall</b> that he hits the ceiling.</td></tr>
-<tr><td>such</td><td>such + (a/an) + صفة + اسم</td><td>It was <b>such a good</b> movie that I watched it twice.</td></tr>
-</table>
-
-<h4>5. Although / Despite / In spite of</h4>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr><th>الكلمة</th><th>التركيب</th><th>مثال</th></tr>
-<tr><td>Although / Even though</td><td>+ فاعل + فعل</td><td><b>Although</b> he was sick, he came to work.</td></tr>
-<tr><td>Despite / In spite of</td><td>+ اسم / gerund</td><td><b>Despite</b> being sick, he came to work.</td></tr>
-</table>
-
-<h4>6. Conditional Sentences (If)</h4>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr><th>النوع</th><th>التركيب</th><th>مثال</th></tr>
-<tr><td>Zero</td><td>If + present simple, present simple</td><td>If you <b>heat</b> water, it <b>boils</b>.</td></tr>
-<tr><td>First</td><td>If + present simple, will + مصدر</td><td>If it <b>rains</b>, I <b>will stay</b> home.</td></tr>
-<tr><td>Second</td><td>If + past simple, would + مصدر</td><td>If I <b>were</b> you, I <b>would go</b>.</td></tr>
-<tr><td>Third</td><td>If + past perfect, would have + p.p.</td><td>If I <b>had studied</b>, I <b>would have passed</b>.</td></tr>
-</table>
-
-<h4>7. Reported Speech (الكلام المنقول)</h4>
-<p><strong>القاعدة:</strong> نرجع الفعل خطوة إلى الوراء.</p>
-<ul>
-<li>Direct: "I <b>am</b> tired," she said.</li>
-<li>Reported: She said (that) she <b>was</b> tired.</li>
-<li>Direct: "I <b>will come</b>," he said.</li>
-<li>Reported: He said (that) he <b>would come</b>.</li>
-<li>Direct: "I <b>bought</b> a car," she said.</li>
-<li>Reported: She said (that) she <b>had bought</b> a car.</li>
-</ul>
-
-<h4>8. Causative (have/get something done)</h4>
-<p>عندما يدفع الشخص لآخر ليفعل شيئاً له.</p>
-<ul>
-<li>I <b>had my hair cut</b> yesterday. (قصصت شعري عند الحلاق)</li>
-<li>She <b>got her car repaired</b>. (أصلحت سيارتها عند الميكانيكي)</li>
-</ul>
-
-<hr>
-<p style="text-align:center; color:#0071e3; margin-top:2rem;"><strong>✍️ تذكّر: راجع أمثلة كل قاعدة وطبّقها في جمل من عندك. النجاح في ITC يبدأ من الفهم ثم التطبيق.</strong></p>
->>>>>>> 0847bca81bea88f301bea64e544b6b4f0ed27038
+<div class="print-footer">
+  ✍️ تذكّر: راجع أمثلة كل قاعدة وطبّقها في جمل من عندك. النجاح في ITC يبدأ من الفهم ثم التطبيق.<br>
+  بالتوفيق لجميع الطلاب – مركز الريادة للتدريب
 </div>
+
+</div>
+</body>
+</html>
