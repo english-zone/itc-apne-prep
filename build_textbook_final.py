@@ -40,7 +40,7 @@ def build_reading(day_num):
             if is_english(p.get("text", "")):
             sec += f'<div class="passage-text english" lang="en">{text}</div>\n'
         else:
-            sec += f'<div class="passage-text">{text}</div>\n'
+            sec += f'<div class="passage-text">{text}</div>\n
         if questions:
             sec += '<div class="questions"><h4>أسئلة الفهم</h4><ol>\n'
             for q in questions:
