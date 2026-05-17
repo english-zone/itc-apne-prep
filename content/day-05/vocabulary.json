@@ -1,197 +1,92 @@
+cd /workspaces/itc-apne-prep
+
+cat > content/day-05/vocabulary.json << 'EOF'
 {
-  "topic": "Jobs, Work & Reading",
-  "pageRange": "72-74, Extra 5",
+  "topic": "Vocabulary from Day 5 Passages (California & Egypt)",
+  "pageRange": "Extra 5",
   "words": [
     {
-      "english": "mechanic",
-      "arabic": "ميكانيكي",
-      "page": "72",
-      "question": {
-        "q": "The engine was making a strange noise, so I took the car to a ________.",
-        "options": ["doctor", "mechanic", "teacher", "farmer"],
-        "answer": 1,
-        "justification": "الميكانيكي (mechanic) هو من يصلح السيارات. المعلم (teacher) يعلم، والطبيب (doctor) يعالج الناس، والمزارع (farmer) يزرع الأرض.",
-        "context_sentence": "The engine was making a strange noise, so I took the car to a ________."
-      }
-    },
-    {
-      "english": "doctor",
-      "arabic": "طبيب",
-      "page": "72",
-      "question": {
-        "q": "She spent years at medical school to become a qualified ________.",
-        "options": ["librarian", "waiter", "secretary", "doctor"],
-        "answer": 3,
-        "justification": "مريم تتدرب لتصبح طبيبة (doctor). النادل (waiter) يقدم الطعام، والسكرتير (secretary) ينظم المواعيد، وأمين المكتبة (librarian) يعمل مع الكتب.",
-        "context_sentence": "She spent years at medical school to become a qualified ________."
-      }
-    },
-    {
-      "english": "nurse",
-      "arabic": "ممرض",
-      "page": "72",
-      "question": {
-        "q": "The ________ took the patient's temperature and blood pressure.",
-        "options": ["driver", "farmer", "mechanic", "nurse"],
-        "answer": 3,
-        "justification": "الممرض (nurse) يساعد الطبيب في رعاية المرضى. الميكانيكي (mechanic) يصلح الآلات، والمزارع (farmer) في الحقول، والسائق (driver) يقود المركبات.",
-        "context_sentence": "The ________ took the patient's temperature and blood pressure."
-      }
-    },
-    {
-      "english": "factory",
-      "arabic": "مصنع",
-      "page": "72",
-      "question": {
-        "q": "The ________ produces thousands of cars every year.",
-        "options": ["office", "bank", "hospital", "factory"],
-        "answer": 3,
-        "justification": "التلفزيونات تُصنع في المصنع (factory). المستشفى (hospital) يعالج المرضى، والبنك (bank) للأموال، والمكتب (office) للأعمال الإدارية.",
-        "context_sentence": "The ________ produces thousands of cars every year."
-      }
-    },
-    {
-      "english": "farmer",
-      "arabic": "مزارع",
-      "page": "72",
-      "question": {
-        "q": "The ________ wakes up early every morning to tend the crops.",
-        "options": ["Engineers", "Barbers", "Doctors", "Farmer"],
-        "answer": 3,
-        "justification": "المزارعون (farmers) يعتنون بالأرض ويزرعونها. الأطباء (doctors) يعالجون الناس، والمهندسون (engineers) يصممون ويبنون، والحلاقون (barbers) يقصون الشعر.",
-        "context_sentence": "The ________ wakes up early every morning to tend the crops."
-      }
-    },
-    {
-      "english": "teacher",
-      "arabic": "معلم",
-      "page": "72",
-      "question": {
-        "q": "A good ________ can inspire students to love learning.",
-        "options": ["traffic warden", "teacher", "clerk", "librarian"],
-        "answer": 1,
-        "justification": "تحتاج مهارات لتكون معلماً (teacher) جيداً. مراقب المرور (traffic warden) ينظم السير، والموظف (clerk) يعمل في مكتب، وأمين المكتبة (librarian) يدير الكتب.",
-        "context_sentence": "A good ________ can inspire students to love learning."
-      }
-    },
-    {
-      "english": "police officer",
-      "arabic": "ضابط شرطة",
-      "page": "73",
-      "question": {
-        "q": "The ________ arrested the suspect and read him his rights.",
-        "options": ["librarian", "police officer", "waiter", "doctor"],
-        "answer": 1,
-        "justification": "ضابط الشرطة (police officer) يتعامل مع المجرمين. الطبيب (doctor) يعالج المرضى، وأمين المكتبة (librarian) يعمل مع الكتب، والنادل (waiter) يقدم الطعام.",
-        "context_sentence": "The ________ arrested the suspect and read him his rights."
-      }
-    },
-    {
-      "english": "waiter",
-      "arabic": "نادل",
-      "page": "73",
-      "question": {
-        "q": "The ________ brought the menus and took our drink orders.",
-        "options": ["barber", "librarian", "police officer", "waiter"],
-        "answer": 3,
-        "justification": "من يقدم الطعام هو النادل (waiter). الشرطة (police) تحفظ الأمن، وأمين المكتبة (librarian) يعمل مع الكتب، والحلاق (barber) يقص الشعر.",
-        "context_sentence": "The ________ brought the menus and took our drink orders."
-      }
-    },
-    {
-      "english": "barber",
-      "arabic": "حلاق",
-      "page": "73",
-      "question": {
-        "q": "He visits the ________ once a month to get his hair cut and beard trimmed.",
-        "options": ["librarian", "waiter", "barber", "police officer"],
-        "answer": 2,
-        "justification": "للحصول على قصة شعر تذهب إلى الحلاق (barber). الشرطة (police) للأمن، وأمين المكتبة (librarian) للكتب، والنادل (waiter) للمطعم.",
-        "context_sentence": "He visits the ________ once a month to get his hair cut and beard trimmed."
-      }
-    },
-    {
-      "english": "bank",
-      "arabic": "بنك",
-      "page": "73",
-      "question": {
-        "q": "She went to the ________ to deposit her paycheck.",
-        "options": ["bank", "shop", "restaurant", "factory"],
-        "answer": 0,
-        "justification": "يفتح الحساب في البنك (bank). المطعم (restaurant) للطعام، والمصنع (factory) للإنتاج، والمتجر (shop) للبيع.",
-        "context_sentence": "She went to the ________ to deposit her paycheck."
-      }
-    },
-    {
-      "english": "restaurant",
-      "arabic": "مطعم",
-      "page": "73",
-      "question": {
-        "q": "They celebrated their anniversary at an Italian ________ downtown.",
-        "options": ["pharmacy", "bank", "garage", "restaurant"],
-        "answer": 3,
-        "justification": "تناولنا العشاء في مطعم (restaurant). البنك (bank) للمال، والصيدلية (pharmacy) للدواء، والمرأب (garage) للسيارات.",
-        "context_sentence": "They celebrated their anniversary at an Italian ________ downtown."
-      }
-    },
-    {
-      "english": "librarian",
-      "arabic": "أمين مكتبة",
-      "page": "73",
-      "question": {
-        "q": "The ________ helped me find the reference books I needed.",
-        "options": ["barber", "farmer", "librarian", "mechanic"],
-        "answer": 2,
-        "justification": "أمين المكتبة (librarian) ينظم الكتب. الميكانيكي (mechanic) يصلح الآلات، والمزارع (farmer) يعمل في الأرض، والحلاق (barber) يقص الشعر.",
-        "context_sentence": "The ________ helped me find the reference books I needed."
-      }
-    },
-    {
-      "english": "secretary",
-      "arabic": "سكرتير",
-      "page": "73",
-      "question": {
-        "q": "The ________ answers phone calls and manages the manager's schedule.",
-        "options": ["secretary", "waiter", "farmer", "mechanic"],
-        "answer": 0,
-        "justification": "السكرتير (secretary) هو من يحدد المواعيد. الميكانيكي (mechanic) يصلح الآلات، والمزارع (farmer) يزرع، والنادل (waiter) يقدم الطعام.",
-        "context_sentence": "The ________ answers phone calls and manages the manager's schedule."
-      }
-    },
-    {
-      "english": "priority",
-      "arabic": "أولوية",
-      "page": "73",
-      "question": {
-        "q": "Safety is the number one ________ on any construction site.",
-        "options": ["problem", "income", "environment", "priority"],
-        "answer": 3,
-        "justification": "الزواج هو أولويته (priority) القصوى. الدخل (income) هو المال، والبيئة (environment) هي المحيط، والمشكلة (problem) أمر سلبي.",
-        "context_sentence": "Safety is the number one ________ on any construction site."
-      }
-    },
-    {
-      "english": "income",
-      "arabic": "دخل",
-      "page": "73",
-      "question": {
-        "q": "She needs a steady ________ to pay the rent and other living expenses.",
-        "options": ["loan", "debt", "expense", "income"],
-        "answer": 3,
-        "justification": "الدخل المنتظم (income) يساعد في دفع الفواتير. المصروف (expense) ما ينفق، والقرض (loan) مال مستعار، والدين (debt) التزام مالي.",
-        "context_sentence": "She needs a steady ________ to pay the rent and other living expenses."
-      }
-    },
-    {
       "english": "populous",
-      "arabic": "مكتظ",
+      "arabic": "مكتظ بالسكان",
       "page": "Extra 5",
       "question": {
-        "q": "China is the most ________ country in the world, with over 1.4 billion people.",
+        "q": "California is the most _______ state in the United States, with over 39 million residents.",
         "options": ["empty", "quiet", "small", "populous"],
         "answer": 3,
-        "justification": "كاليفورنيا هي الولاية الأكثر اكتظاظاً بالسكان (populous). الفارغة (empty) والهادئة (quiet) والصغيرة (small) عكس ذلك.",
-        "context_sentence": "China is the most ________ country in the world, with over 1.4 billion people."
+        "justification": "'Populous' means having a large population. The sentence mentions 39 million residents, indicating a large population.",
+        "context_sentence": "California is the most _______ state in the United States, with over 39 million residents."
+      }
+    },
+    {
+      "english": "diverse",
+      "arabic": "متنوع",
+      "page": "Extra 5",
+      "question": {
+        "q": "California's _______ geography includes beaches, forests, deserts, and mountains.",
+        "options": ["diverse", "uniform", "flat", "empty"],
+        "answer": 0,
+        "justification": "'Diverse' means varied or different. The sentence lists different types of landscapes, showing variety.",
+        "context_sentence": "California's _______ geography includes beaches, forests, deserts, and mountains."
+      }
+    },
+    {
+      "english": "coastlines",
+      "arabic": "سواحل",
+      "page": "Extra 5",
+      "question": {
+        "q": "Tourists love California's beautiful _______ with sandy beaches and ocean views.",
+        "options": ["coastlines", "mountains", "deserts", "forests"],
+        "answer": 0,
+        "justification": "'Coastlines' are where land meets the sea. The sentence mentions sandy beaches and ocean views.",
+        "context_sentence": "Tourists love California's beautiful _______ with sandy beaches and ocean views."
+      }
+    },
+    {
+      "english": "lush",
+      "arabic": "خصبة",
+      "page": "Extra 5",
+      "question": {
+        "q": "The northern part of the state is covered with _______ green forests that receive plenty of rain.",
+        "options": ["lush", "dry", "barren", "rocky"],
+        "answer": 0,
+        "justification": "'Lush' means rich and abundant vegetation. The sentence describes green forests with plenty of rain.",
+        "context_sentence": "The northern part of the state is covered with _______ green forests that receive plenty of rain."
+      }
+    },
+    {
+      "english": "deserts",
+      "arabic": "صحاري",
+      "page": "Extra 5",
+      "question": {
+        "q": "Death Valley is one of the hottest _______ in the world, with temperatures reaching over 50°C.",
+        "options": ["deserts", "forests", "lakes", "islands"],
+        "answer": 0,
+        "justification": "'Deserts' are dry, hot areas. Death Valley is a famous desert with extreme heat.",
+        "context_sentence": "Death Valley is one of the hottest _______ in the world, with temperatures reaching over 50°C."
+      }
+    },
+    {
+      "english": "towering",
+      "arabic": "شاهقة",
+      "page": "Extra 5",
+      "question": {
+        "q": "The _______ mountains in California attract climbers from around the world.",
+        "options": ["towering", "tiny", "flat", "rolling"],
+        "answer": 0,
+        "justification": "'Towering' means very tall. The sentence mentions mountains that attract climbers, indicating great height.",
+        "context_sentence": "The _______ mountains in California attract climbers from around the world."
+      }
+    },
+    {
+      "english": "hubs",
+      "arabic": "مراكز",
+      "page": "Extra 5",
+      "question": {
+        "q": "Los Angeles and San Francisco are major _______ of culture, entertainment, and technology.",
+        "options": ["hubs", "villages", "suburbs", "farms"],
+        "answer": 0,
+        "justification": "'Hubs' are centers of activity. The sentence names major cities that are centers of various industries.",
+        "context_sentence": "Los Angeles and San Francisco are major _______ of culture, entertainment, and technology."
       }
     },
     {
@@ -199,59 +94,383 @@
       "arabic": "زراعة",
       "page": "Extra 5",
       "question": {
-        "q": "________ remains a vital part of the economy, employing millions of people.",
-        "options": ["Tourism", "Entertainment", "Technology", "Agriculture"],
-        "answer": 3,
-        "justification": "الزراعة (agriculture) قطاع رئيسي في كاليفورنيا. التكنولوجيا (technology) والترفيه (entertainment) والسياحة (tourism) قطاعات أخرى مهمة أيضاً، لكن الزراعة هي المذكورة في النص.",
-        "context_sentence": "________ remains a vital part of the economy, employing millions of people."
+        "q": "_______ is a critical part of California's economy, providing fruits and vegetables to the entire nation.",
+        "options": ["Agriculture", "Technology", "Entertainment", "Tourism"],
+        "answer": 0,
+        "justification": "'Agriculture' means farming. The sentence mentions providing fruits and vegetables.",
+        "context_sentence": "_______ is a critical part of California's economy, providing fruits and vegetables to the entire nation."
       }
     },
     {
-      "english": "drought",
-      "arabic": "جفاف",
+      "english": "component",
+      "arabic": "مكون",
       "page": "Extra 5",
       "question": {
-        "q": "The severe ________ caused the reservoirs to dry up and crops to fail.",
-        "options": ["flood", "snow", "rain", "drought"],
-        "answer": 3,
-        "justification": "كاليفورنيا تعاني أحياناً من الجفاف (drought). الفيضان (flood) والمطر (rain) والثلج (snow) ظواهر مناخية أخرى.",
-        "context_sentence": "The severe ________ caused the reservoirs to dry up and crops to fail."
+        "q": "The agricultural sector is an essential _______ of the state's economy.",
+        "options": ["component", "problem", "waste", "failure"],
+        "answer": 0,
+        "justification": "'Component' means a part or element. The sentence describes agriculture as an essential part of the economy.",
+        "context_sentence": "The agricultural sector is an essential _______ of the state's economy."
       }
     },
     {
-      "english": "artifact",
-      "arabic": "قطعة أثرية",
+      "english": "productive",
+      "arabic": "منتجة",
       "page": "Extra 5",
       "question": {
-        "q": "The archaeologists discovered a rare ________ dating back to the Bronze Age.",
-        "options": ["animals", "machines", "plants", "artifacts"],
-        "answer": 3,
-        "justification": "المتحف يعرض قطعاً أثرية (artifacts). الحيوانات (animals) والنباتات (plants) والآلات (machines) قد تكون في أماكن أخرى.",
-        "context_sentence": "The archaeologists discovered a rare ________ dating back to the Bronze Age."
+        "q": "The Central Valley is one of the most _______ agricultural regions in the world.",
+        "options": ["productive", "empty", "useless", "small"],
+        "answer": 0,
+        "justification": "'Productive' means producing a lot. The sentence says it is one of the most agricultural regions.",
+        "context_sentence": "The Central Valley is one of the most _______ agricultural regions in the world."
       }
     },
     {
-      "english": "irrigation",
-      "arabic": "ري",
+      "english": "portion",
+      "arabic": "جزء",
       "page": "Extra 5",
       "question": {
-        "q": "The ________ system brings water from the river to the fields through canals.",
-        "options": ["sleeping", "eating", "running", "irrigation"],
-        "answer": 3,
-        "justification": "المزارعون يستخدمون الري (irrigation) لسقاية المحاصيل. النوم (sleeping) والجري (running) والأكل (eating) لا علاقة لها بزراعة.",
-        "context_sentence": "The ________ system brings water from the river to the fields through canals."
+        "q": "A significant _______ of the nation's fruits and nuts comes from California.",
+        "options": ["portion", "waste", "failure", "problem"],
+        "answer": 0,
+        "justification": "'Portion' means a part or share. The sentence says a significant share of fruits comes from California.",
+        "context_sentence": "A significant _______ of the nation's fruits and nuts comes from California."
       }
     },
     {
-      "english": "fluctuation",
-      "arabic": "تذبذب",
+      "english": "scarcity",
+      "arabic": "ندرة",
       "page": "Extra 5",
       "question": {
-        "q": "The ________ of oil prices makes it hard for businesses to plan ahead.",
-        "options": ["certainty", "equality", "stability", "fluctuation"],
-        "answer": 3,
-        "justification": "التذبذب الاقتصادي (fluctuation) يؤثر على الوظائف. الاستقرار (stability) والمساواة (equality) واليقين (certainty) أمور إيجابية.",
-        "context_sentence": "The ________ of oil prices makes it hard for businesses to plan ahead."
+        "q": "Water _______ is a major problem for farmers in dry regions.",
+        "options": ["scarcity", "abundance", "purity", "color"],
+        "answer": 0,
+        "justification": "'Scarcity' means shortage. Farmers in dry regions face water shortage.",
+        "context_sentence": "Water _______ is a major problem for farmers in dry regions."
+      }
+    },
+    {
+      "english": "regulations",
+      "arabic": "لوائح",
+      "page": "Extra 5",
+      "question": {
+        "q": "Environmental _______ require farmers to limit the use of certain chemicals.",
+        "options": ["regulations", "celebrations", "invitations", "decorations"],
+        "answer": 0,
+        "justification": "'Regulations' are rules or laws. The sentence mentions rules that limit chemical use.",
+        "context_sentence": "Environmental _______ require farmers to limit the use of certain chemicals."
+      }
+    },
+    {
+      "english": "attractions",
+      "arabic": "معالم جذب",
+      "page": "Extra 5",
+      "question": {
+        "q": "Disneyland and Yosemite are popular _______ for tourists visiting California.",
+        "options": ["attractions", "problems", "secrets", "failures"],
+        "answer": 0,
+        "justification": "'Attractions' are places that draw visitors. Disneyland and Yosemite are famous tourist spots.",
+        "context_sentence": "Disneyland and Yosemite are popular _______ for tourists visiting California."
+      }
+    },
+    {
+      "english": "vibrant",
+      "arabic": "نابض بالحياة",
+      "page": "Extra 5",
+      "question": {
+        "q": "San Francisco is known for its _______ neighborhoods, full of colorful houses and lively streets.",
+        "options": ["vibrant", "quiet", "empty", "boring"],
+        "answer": 0,
+        "justification": "'Vibrant' means lively and energetic. The sentence describes colorful houses and lively streets.",
+        "context_sentence": "San Francisco is known for its _______ neighborhoods, full of colorful houses and lively streets."
+      }
+    },
+    {
+      "english": "infrastructure",
+      "arabic": "بنية تحتية",
+      "page": "Extra 5",
+      "question": {
+        "q": "The government is spending money to improve roads, bridges, and other essential _______.",
+        "options": ["infrastructure", "entertainment", "fashion", "cuisine"],
+        "answer": 0,
+        "justification": "'Infrastructure' refers to basic physical systems like roads and bridges.",
+        "context_sentence": "The government is spending money to improve roads, bridges, and other essential _______."
+      }
+    },
+    {
+      "english": "enhance",
+      "arabic": "يعزز",
+      "page": "Extra 5",
+      "question": {
+        "q": "The new emergency systems will _______ public safety across the state.",
+        "options": ["enhance", "reduce", "destroy", "ignore"],
+        "answer": 0,
+        "justification": "'Enhance' means improve or increase. Public safety will be improved by new systems.",
+        "context_sentence": "The new emergency systems will _______ public safety across the state."
+      }
+    },
+    {
+      "english": "sustainable",
+      "arabic": "مستدام",
+      "page": "Extra 5",
+      "question": {
+        "q": "The state encourages _______ farming methods that protect the environment for future generations.",
+        "options": ["sustainable", "harmful", "temporary", "wasteful"],
+        "answer": 0,
+        "justification": "'Sustainable' means able to continue without harming the environment. The sentence mentions protecting the environment.",
+        "context_sentence": "The state encourages _______ farming methods that protect the environment for future generations."
+      }
+    },
+    {
+      "english": "mitigate",
+      "arabic": "يخفف",
+      "page": "Extra 5",
+      "question": {
+        "q": "Building stronger walls can _______ the damage caused by earthquakes.",
+        "options": ["mitigate", "increase", "worsen", "cause"],
+        "answer": 0,
+        "justification": "'Mitigate' means reduce the severity of something. The sentence discusses reducing earthquake damage.",
+        "context_sentence": "Building stronger walls can _______ the damage caused by earthquakes."
+      }
+    },
+    {
+      "english": "heritage",
+      "arabic": "تراث",
+      "page": "Extra 5",
+      "question": {
+        "q": "Egypt is famous for its rich cultural _______, including the pyramids and ancient temples.",
+        "options": ["heritage", "problem", "disaster", "economy"],
+        "answer": 0,
+        "justification": "'Heritage' means traditions and monuments passed down from the past. Pyramids and temples are part of Egypt's heritage.",
+        "context_sentence": "Egypt is famous for its rich cultural _______, including the pyramids and ancient temples."
+      }
+    },
+    {
+      "english": "lifeblood",
+      "arabic": "شريان الحياة",
+      "page": "Extra 5",
+      "question": {
+        "q": "The Nile River is the _______ of Egypt, providing water for drinking, farming, and transportation.",
+        "options": ["lifeblood", "problem", "enemy", "waste"],
+        "answer": 0,
+        "justification": "'Lifeblood' means something essential for survival. The Nile provides water for multiple vital needs.",
+        "context_sentence": "The Nile River is the _______ of Egypt, providing water for drinking, farming, and transportation."
+      }
+    },
+    {
+      "english": "sustenance",
+      "arabic": "قوت",
+      "page": "Extra 5",
+      "question": {
+        "q": "For thousands of years, the river has provided _______ to the people living along its banks.",
+        "options": ["sustenance", "destruction", "pollution", "confusion"],
+        "answer": 0,
+        "justification": "'Sustenance' means food and drink that supports life. The river provides for the people's needs.",
+        "context_sentence": "For thousands of years, the river has provided _______ to the people living along its banks."
+      }
+    },
+    {
+      "english": "millennia",
+      "arabic": "آلاف السنين",
+      "page": "Extra 5",
+      "question": {
+        "q": "Egyptian civilization has existed for several _______, dating back to ancient times.",
+        "options": ["millennia", "days", "months", "weeks"],
+        "answer": 0,
+        "justification": "'Millennia' means thousands of years. Egyptian civilization is thousands of years old.",
+        "context_sentence": "Egyptian civilization has existed for several _______, dating back to ancient times."
+      }
+    },
+    {
+      "english": "monumental",
+      "arabic": "ضخم / أثري",
+      "page": "Extra 5",
+      "question": {
+        "q": "The pyramids are _______ structures that have stood for over 4,000 years.",
+        "options": ["monumental", "tiny", "modern", "simple"],
+        "answer": 0,
+        "justification": "'Monumental' means very large and impressive. The pyramids are ancient and massive.",
+        "context_sentence": "The pyramids are _______ structures that have stood for over 4,000 years."
+      }
+    },
+    {
+      "english": "profound",
+      "arabic": "عميق",
+      "page": "Extra 5",
+      "question": {
+        "q": "The ancient Egyptians had a _______ understanding of mathematics and engineering.",
+        "options": ["profound", "shallow", "weak", "simple"],
+        "answer": 0,
+        "justification": "'Profound' means deep and thorough. Their engineering skills were advanced.",
+        "context_sentence": "The ancient Egyptians had a _______ understanding of mathematics and engineering."
+      }
+    },
+    {
+      "english": "bustling",
+      "arabic": "صاخب",
+      "page": "Extra 5",
+      "question": {
+        "q": "Cairo is a _______ city, full of people, traffic, and activity at all hours.",
+        "options": ["bustling", "quiet", "empty", "sleepy"],
+        "answer": 0,
+        "justification": "'Bustling' means full of busy activity. The sentence describes a city full of people and activity.",
+        "context_sentence": "Cairo is a _______ city, full of people, traffic, and activity at all hours."
+      }
+    },
+    {
+      "english": "metropolis",
+      "arabic": "مدينة كبرى",
+      "page": "Extra 5",
+      "question": {
+        "q": "As a major _______, Cairo combines modern skyscrapers with historic mosques and markets.",
+        "options": ["metropolis", "village", "desert", "forest"],
+        "answer": 0,
+        "justification": "'Metropolis' means a very large city. Cairo is a major urban center.",
+        "context_sentence": "As a major _______, Cairo combines modern skyscrapers with historic mosques and markets."
+      }
+    },
+    {
+      "english": "artifacts",
+      "arabic": "قطع أثرية",
+      "page": "Extra 5",
+      "question": {
+        "q": "The Egyptian Museum contains thousands of ancient _______, including jewelry and statues.",
+        "options": ["artifacts", "animals", "plants", "machines"],
+        "answer": 0,
+        "justification": "'Artifacts' are objects made by humans, usually of historical interest. The museum holds historical objects.",
+        "context_sentence": "The Egyptian Museum contains thousands of ancient _______, including jewelry and statues."
+      }
+    },
+    {
+      "english": "souks",
+      "arabic": "أسواق",
+      "page": "Extra 5",
+      "question": {
+        "q": "Tourists visit the traditional _______ in Cairo to buy spices, perfumes, and handmade crafts.",
+        "options": ["souks", "malls", "airports", "factories"],
+        "answer": 0,
+        "justification": "'Souks' are traditional Arab markets. The sentence mentions buying spices and crafts.",
+        "context_sentence": "Tourists visit the traditional _______ in Cairo to buy spices, perfumes, and handmade crafts."
+      }
+    },
+    {
+      "english": "juxtaposition",
+      "arabic": "تجاور",
+      "page": "Extra 5",
+      "question": {
+        "q": "The _______ of old and new architecture makes Cairo a fascinating city to explore.",
+        "options": ["juxtaposition", "destruction", "separation", "removal"],
+        "answer": 0,
+        "justification": "'Juxtaposition' means placing two things side by side for contrast. Old and new buildings placed together create interest.",
+        "context_sentence": "The _______ of old and new architecture makes Cairo a fascinating city to explore."
+      }
+    },
+    {
+      "english": "arid",
+      "arabic": "جاف",
+      "page": "Extra 5",
+      "question": {
+        "q": "Most of Egypt has an _______ climate, with very hot summers and almost no rain.",
+        "options": ["arid", "rainy", "humid", "cold"],
+        "answer": 0,
+        "justification": "'Arid' means extremely dry. The sentence describes very hot summers and almost no rain.",
+        "context_sentence": "Most of Egypt has an _______ climate, with very hot summers and almost no rain."
+      }
+    },
+    {
+      "english": "hospitable",
+      "arabic": "ملائم",
+      "page": "Extra 5",
+      "question": {
+        "q": "The land along the Nile is more _______ for farming because of the river's water.",
+        "options": ["hospitable", "hostile", "dangerous", "useless"],
+        "answer": 0,
+        "justification": "'Hospitable' means favorable for living or growing. The river makes the land suitable for farming.",
+        "context_sentence": "The land along the Nile is more _______ for farming because of the river's water."
+      }
+    },
+    {
+      "english": "cultivated",
+      "arabic": "مزروع",
+      "page": "Extra 5",
+      "question": {
+        "q": "Rice, wheat, and cotton are widely _______ in the fertile land near the Nile.",
+        "options": ["cultivated", "destroyed", "ignored", "wasted"],
+        "answer": 0,
+        "justification": "'Cultivated' means grown or farmed. The sentence lists crops that are farmed.",
+        "context_sentence": "Rice, wheat, and cotton are widely _______ in the fertile land near the Nile."
+      }
+    },
+    {
+      "english": "sophisticated",
+      "arabic": "متطور",
+      "page": "Extra 5",
+      "question": {
+        "q": "Egyptian farmers developed _______ irrigation systems to make the most of limited water.",
+        "options": ["sophisticated", "simple", "useless", "broken"],
+        "answer": 0,
+        "justification": "'Sophisticated' means advanced or complex. The irrigation systems were advanced for their time.",
+        "context_sentence": "Egyptian farmers developed _______ irrigation systems to make the most of limited water."
+      }
+    },
+    {
+      "english": "hospitality",
+      "arabic": "ضيافة",
+      "page": "Extra 5",
+      "question": {
+        "q": "The _______ of the Egyptian people makes visitors feel welcome and at home.",
+        "options": ["hospitality", "anger", "rudeness", "coldness"],
+        "answer": 0,
+        "justification": "'Hospitality' means friendly and generous reception of guests. Visitors feel welcome.",
+        "context_sentence": "The _______ of the Egyptian people makes visitors feel welcome and at home."
+      }
+    },
+    {
+      "english": "tapestry",
+      "arabic": "نسيج",
+      "page": "Extra 5",
+      "question": {
+        "q": "Egypt's history is a rich _______ of different cultures, traditions, and civilizations.",
+        "options": ["tapestry", "thread", "cloth", "fabric"],
+        "answer": 0,
+        "justification": "'Tapestry' here means a complex combination of things. It describes the mix of cultures in Egypt's history.",
+        "context_sentence": "Egypt's history is a rich _______ of different cultures, traditions, and civilizations."
+      }
+    },
+    {
+      "english": "fluctuations",
+      "arabic": "تذبذبات",
+      "page": "Extra 5",
+      "question": {
+        "q": "Economic _______ have made it difficult for some businesses to plan for the future.",
+        "options": ["fluctuations", "stability", "certainty", "predictability"],
+        "answer": 0,
+        "justification": "'Fluctuations' means changes or variations. Economic changes make planning difficult.",
+        "context_sentence": "Economic _______ have made it difficult for some businesses to plan for the future."
+      }
+    },
+    {
+      "english": "revive",
+      "arabic": "ينعش",
+      "page": "Extra 5",
+      "question": {
+        "q": "The government is taking steps to _______ the tourism industry after years of decline.",
+        "options": ["revive", "destroy", "ignore", "weaken"],
+        "answer": 0,
+        "justification": "'Revive' means bring back to life or strength. The tourism industry needs to be brought back.",
+        "context_sentence": "The government is taking steps to _______ the tourism industry after years of decline."
+      }
+    },
+    {
+      "english": "conservation",
+      "arabic": "حفظ / صيانة",
+      "page": "Extra 5",
+      "question": {
+        "q": "_______ projects help protect Egypt's ancient monuments from damage and decay.",
+        "options": ["Conservation", "Destruction", "Neglect", "Abandonment"],
+        "answer": 0,
+        "justification": "'Conservation' means preservation and protection. The sentence mentions protecting ancient monuments.",
+        "context_sentence": "_______ projects help protect Egypt's ancient monuments from damage and decay."
       }
     },
     {
@@ -259,228 +478,19 @@
       "arabic": "أثري",
       "page": "Extra 5",
       "question": {
-        "q": "The ________ excavation uncovered the ruins of an ancient Roman city.",
-        "options": ["Residential", "Modern", "Industrial", "Archaeological"],
-        "answer": 3,
-        "justification": "المواقع الأثرية (archaeological) تجذب السياح. الحديثة (modern) والصناعية (industrial) والسكنية (residential) قد لا تكون بنفس الجاذبية.",
-        "context_sentence": "The ________ excavation uncovered the ruins of an ancient Roman city."
-      }
-    },
-    {
-      "english": "vocalisation",
-      "arabic": "نطق / صوت",
-      "page": "Extra 5",
-      "question": {
-        "q": "The researchers recorded the ________ of dolphins to study their communication.",
-        "options": ["silence", "lights", "gestures", "vocalisations"],
-        "answer": 3,
-        "justification": "الحيتان تصدر أصواتاً (vocalisations) معقدة. الصمت (silence) عكس ذلك، والإيماءات (gestures) والأضواء (lights) ليست وسائل تواصل الحيتان.",
-        "context_sentence": "The researchers recorded the ________ of dolphins to study their communication."
-      }
-    },
-    {
-      "english": "pod",
-      "arabic": "قطيع (حيتان)",
-      "page": "Extra 5",
-      "question": {
-        "q": "A ________ of whales was spotted migrating south for the winter.",
-        "options": ["flock", "herd", "school", "pod"],
-        "answer": 3,
-        "justification": "مجموعة الحيتان العائلية تسمى (pod). 'school' للأسماك، 'flock' للطيور، 'herd' للأبقار.",
-        "context_sentence": "A ________ of whales was spotted migrating south for the winter."
-      }
-    },
-    {
-      "english": "monumental",
-      "arabic": "ضخم",
-      "page": "Extra 5",
-      "question": {
-        "q": "Building the Great Wall was a ________ achievement that took centuries to complete.",
-        "options": ["tiny", "modern", "weak", "monumental"],
-        "answer": 3,
-        "justification": "الأهرامات هياكل ضخمة (monumental). الصغيرة (tiny) والحديثة (modern) والضعيفة (weak) لا تصفها.",
-        "context_sentence": "Building the Great Wall was a ________ achievement that took centuries to complete."
-      }
-    },
-    {
-      "english": "ramp",
-      "arabic": "منحدر",
-      "page": "Extra 5",
-      "question": {
-        "q": "They built a ________ to help move the heavy equipment up to the platform.",
-        "options": ["ropes", "carts", "wheels", "ramp"],
-        "answer": 3,
-        "justification": "العمال ربما استخدموا المنحدرات (ramps) لرفع الأحجار. العربات (carts) والحبال (ropes) والعجلات (wheels) أدوات أخرى محتملة لكن المنحدرات هي النظرية الأقوى.",
-        "context_sentence": "They built a ________ to help move the heavy equipment up to the platform."
-      }
-    },
-    {
-      "english": "microorganism",
-      "arabic": "كائن دقيق",
-      "page": "Extra 5",
-      "question": {
-        "q": "A ________ is too small to be seen without a microscope.",
-        "options": ["mountain", "elephant", "river", "microorganism"],
-        "answer": 3,
-        "justification": "الكائن الدقيق (microorganism) هو كائن حي صغير جداً. الفيل (elephant) والجبل (mountain) والنهر (river) أشياء كبيرة.",
-        "context_sentence": "A ________ is too small to be seen without a microscope."
-      }
-    },
-    {
-      "english": "probiotic",
-      "arabic": "بروبيوتك",
-      "page": "Extra 5",
-      "question": {
-        "q": "Doctors often recommend taking ________ supplements to support gut health.",
-        "options": ["minerals", "antibiotics", "vitamins", "probiotics"],
-        "answer": 3,
-        "justification": "الزبادي يحتوي على البروبيوتك (probiotics) المفيدة للهضم. المضادات الحيوية (antibiotics) تقتل البكتيريا، والفيتامينات (vitamins) والمعادن (minerals) مغذيات أخرى.",
-        "context_sentence": "Doctors often recommend taking ________ supplements to support gut health."
-      }
-    },
-    {
-      "english": "obesity",
-      "arabic": "سمنة",
-      "page": "Extra 5",
-      "question": {
-        "q": "Childhood ________ is a growing health concern in many developed countries.",
-        "options": ["thinness", "height", "vision", "obesity"],
-        "answer": 3,
-        "justification": "الإفراط في المضادات الحيوية قد يسبب السمنة (obesity). النحافة (thinness) والطول (height) والنظر (vision) ليست آثاراً مرتبطة.",
-        "context_sentence": "Childhood ________ is a growing health concern in many developed countries."
-      }
-    },
-    {
-      "english": "immune",
-      "arabic": "مناعي",
-      "page": "Extra 5",
-      "question": {
-        "q": "A strong ________ system helps fight off infections and diseases.",
-        "options": ["digestive", "respiratory", "nervous", "immune"],
-        "answer": 3,
-        "justification": "بكتيريا الأمعاء تساعد في تدريب الجهاز المناعي (immune system). الهضمي (digestive) للطعام، والعصبي (nervous) للإشارات، والتنفسي (respiratory) للتنفس.",
-        "context_sentence": "A strong ________ system helps fight off infections and diseases."
-      }
-    },
-    {
-      "english": "dietary",
-      "arabic": "غذائي",
-      "page": "Extra 5",
-      "question": {
-        "q": "The doctor advised him to make some ________ changes to lower his cholesterol.",
-        "options": ["Legal", "Musical", "Medical", "Dietary"],
-        "answer": 3,
-        "justification": "السجلات الغذائية (dietary) تكشف عادات الأكل القديمة. الطبية (medical) للأمراض، والقانونية (legal) للقوانين، والموسيقية (musical) للفن.",
-        "context_sentence": "The doctor advised him to make some ________ changes to lower his cholesterol."
-      }
-    },
-    {
-      "english": "cultural transmission",
-      "arabic": "انتقال ثقافي",
-      "page": "Extra 5",
-      "question": {
-        "q": "Stories passed from grandparents to grandchildren are a form of ________.",
-        "options": ["pollution", "hunting", "genetic mutation", "cultural transmission"],
-        "answer": 3,
-        "justification": "تطور أغاني الحيتان يُظهر انتقالاً ثقافياً (cultural transmission). الطفرة الجينية (genetic mutation) والتلوث (pollution) والصيد (hunting) لا تفسر تطور الأغاني.",
-        "context_sentence": "Stories passed from grandparents to grandchildren are a form of ________."
-      }
-    },
-    {
-      "english": "interplanetary",
-      "arabic": "بين كواكب",
-      "page": "Extra 5",
-      "question": {
-        "q": "NASA is developing new rockets for future ________ missions to Mars.",
-        "options": ["underground", "domestic", "submarine", "interplanetary"],
-        "answer": 3,
-        "justification": "ستارشيب تهدف للسفر بين الكواكب (interplanetary). المحلي (domestic) وداخل الأرض (underground) والبحري (submarine) ليست أهدافها.",
-        "context_sentence": "NASA is developing new rockets for future ________ missions to Mars."
-      }
-    },
-    {
-      "english": "pharmaceutical",
-      "arabic": "صيدلاني",
-      "page": "Extra 5",
-      "question": {
-        "q": "The ________ industry invests billions in developing new medicines.",
-        "options": ["Architectural", "Musical", "Agricultural", "Pharmaceutical"],
-        "answer": 3,
-        "justification": "الإجراءات الصيدلانية (pharmaceutical) تحمي الرواد. الموسيقية (musical) والزراعية (agricultural) والمعمارية (architectural) لا علاقة لها بالحماية من الإشعاع.",
-        "context_sentence": "The ________ industry invests billions in developing new medicines."
-      }
-    },
-    {
-      "english": "facade",
-      "arabic": "واجهة",
-      "page": "Extra 5",
-      "question": {
-        "q": "The old building's ________ was covered in beautiful marble carvings.",
-        "options": ["garden", "kitchen", "basement", "facade"],
-        "answer": 3,
-        "justification": "مبنى الخزانة له واجهة (facade) متقنة. الحديقة (garden) والقبو (basement) والمطبخ (kitchen) ليست ما تشتهر به الخزانة.",
-        "context_sentence": "The old building's ________ was covered in beautiful marble carvings."
-      }
-    },
-    {
-      "english": "annexed",
-      "arabic": "ضم / احتل",
-      "page": "Extra 5",
-      "question": {
-        "q": "The kingdom was ________ by its more powerful neighbor after a brief war.",
-        "options": ["ignored", "built", "destroyed", "annexed"],
-        "answer": 3,
-        "justification": "الرومان ضموا (annexed) مملكة الأنباط إلى إمبراطوريتهم. لم يتجاهلوها (ignored) ولم يدمروها بالكامل (destroyed) ولم يبنوها (built).",
-        "context_sentence": "The kingdom was ________ by its more powerful neighbor after a brief war."
-      }
-    },
-    {
-      "english": "consolidation",
-      "arabic": "توطيد / تعزيز",
-      "page": "Extra 5",
-      "question": {
-        "q": "The ________ of data from several departments helped create a unified report.",
-        "options": ["erasure", "confusion", "destruction", "consolidation"],
-        "answer": 3,
-        "justification": "النوم يساعد في توطيد الذاكرة (consolidation). التدمير (destruction) والارتباك (confusion) والمحو (erasure) عكس ذلك.",
-        "context_sentence": "The ________ of data from several departments helped create a unified report."
-      }
-    },
-    {
-      "english": "deprivation",
-      "arabic": "حرمان",
-      "page": "Extra 5",
-      "question": {
-        "q": "Sleep ________ can lead to serious health problems over time.",
-        "options": ["excess", "addition", "supplement", "deprivation"],
-        "answer": 3,
-        "justification": "الحرمان من النوم (deprivation) يضر الصحة. الزيادة (excess) والإضافة (addition) والمكمل (supplement) لا تعبر عن قلة النوم.",
-        "context_sentence": "Sleep ________ can lead to serious health problems over time."
-      }
-    },
-    {
-      "english": "cognitive",
-      "arabic": "معرفي",
-      "page": "Extra 5",
-      "question": {
-        "q": "Puzzles and brain games can help improve ________ abilities.",
-        "options": ["Skeletal", "Muscular", "Physical", "Cognitive"],
-        "answer": 3,
-        "justification": "الوظيفة المعرفية (cognitive) تتراجع بدون نوم. الجسدية (physical) والعضلية (muscular) والهيكلية (skeletal) لا تتأثر بنفس الدرجة.",
-        "context_sentence": "Puzzles and brain games can help improve ________ abilities."
-      }
-    },
-    {
-      "english": "shielding",
-      "arabic": "تدريع",
-      "page": "Extra 5",
-      "question": {
-        "q": "The spacecraft is equipped with special ________ to protect the crew from solar radiation.",
-        "options": ["lighting", "cooking", "decorating", "shielding"],
-        "answer": 3,
-        "justification": "التدريع (shielding) يحمي رواد الفضاء من الإشعاع. الطبخ (cooking) والتزيين (decorating) والإضاءة (lighting) لا تحمي من الإشعاع.",
-        "context_sentence": "The spacecraft is equipped with special ________ to protect the crew from solar radiation."
+        "q": "The _______ sites in Luxor attract scholars and tourists from all over the world.",
+        "options": ["archaeological", "modern", "industrial", "residential"],
+        "answer": 0,
+        "justification": "'Archaeological' relates to ancient history and ruins. Luxor is famous for its ancient ruins.",
+        "context_sentence": "The _______ sites in Luxor attract scholars and tourists from all over the world."
       }
     }
   ]
 }
+EOF
+
+git add content/day-05/vocabulary.json
+git commit -m "تحديث مفردات اليوم الخامس: 40 كلمة حصراً من قطعتي California و Egypt"
+git push origin main
+
+echo "✅ تم رفع ملف اليوم الخامس بـ 40 كلمة من القطع الأصلية. جربه الآن: https://english-zone.github.io/itc-apne-prep/practice.html?day=5"
