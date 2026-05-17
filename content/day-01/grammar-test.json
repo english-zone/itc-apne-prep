@@ -38,5 +38,7 @@
   {"q":"Everybody ____ to be happy.","options":["want","wants","wanting","have wanted"],"answer":1,"justification":"'Everybody' مفرد، الفعل 'wants'."},
   {"q":"Neither the teacher nor the students ____ satisfied.","options":["is","are","was","has"],"answer":1,"justification":"الأقرب 'students' (جمع): 'are'."},
   {"q":"Either Sarah or her brother ____ taking the car.","options":["is","are","were","have"],"answer":0,"justification":"الأقرب 'brother' (مفرد): 'is'."},
-  {"q":"There ____ some water on the floor.","options":["is","are","were","have"],"answer":0,"justification":"'water' غير معدود، الفعل مفرد 'is'."}
+  {"q":"There ____ some water on the floor.","options":["is","are","were","have"],"answer":0,"justification":"'water' غير معدود، الفعل مفرد 'is'."},
+  {"q":"I made the cake by ____.","options":["me","myself","my","mine"],"answer":1,"justification":"انعكاسي: 'myself' يعود على 'I'."},
+  {"q":"The person ____ I spoke to was helpful.","options":["which","whom","whose","what"],"answer":1,"justification":"'whom' للمفعول العاقل (رسمي)."}
 ]
