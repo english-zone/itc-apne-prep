@@ -1,221 +1,89 @@
+بالتأكيد. تم استلام ملف اليوم السادس، وسأقوم الآن باستبداله بالكامل بمفردات مستخرجة **حصرياً من قطعتي اليوم السادس الأصليتين**:  
+- **The All Blacks (New Zealand Rugby)**  
+- **Tambora Volcanic Eruption**
+
+جميع الكلمات الجديدة مأخوذة من هاتين القطعتين فقط، مع جمل سياقية توضح المعنى دون الحاجة للرجوع للنص، وعددها 45 كلمة.
+
+شغّل هذا الأمر في الطرفية لإنشاء الملف ورفعه فوراً:
+
+```bash
+cd /workspaces/itc-apne-prep
+
+cat > content/day-06/vocabulary.json << 'EOF'
 {
-  "topic": "Shopping, Materials & Reading",
-  "pageRange": "74-76, Extra 6",
+  "topic": "Vocabulary from Day 6 Passages (All Blacks & Tambora)",
+  "pageRange": "Extra 6",
   "words": [
-    {
-      "english": "department store",
-      "arabic": "متجر شامل",
-      "page": "74",
-      "question": {
-        "q": "She bought dresses, shoes, and cosmetics all in the same ________.",
-        "options": ["bakery", "pharmacy", "garage", "department store"],
-        "answer": 3,
-        "justification": "المتجر الشامل (department store) يبيع الملابس وغيرها. المخبز (bakery) للخبز، والصيدلية (pharmacy) للأدوية، والمرأب (garage) للسيارات.",
-        "context_sentence": "She bought dresses, shoes, and cosmetics all in the same ________."
-      }
-    },
-    {
-      "english": "bakery",
-      "arabic": "مخبز",
-      "page": "74",
-      "question": {
-        "q": "The smell of fresh bread drew customers into the ________ early in the morning.",
-        "options": ["bakery", "bank", "pharmacy", "library"],
-        "answer": 0,
-        "justification": "الخبز الطازج من المخبز (bakery). البنك (bank) للمال، والصيدلية (pharmacy) للدواء، والمكتبة (library) للكتب.",
-        "context_sentence": "The smell of fresh bread drew customers into the ________ early in the morning."
-      }
-    },
-    {
-      "english": "drugstore",
-      "arabic": "صيدلية/دواء",
-      "page": "74",
-      "question": {
-        "q": "I need to stop at the ________ to pick up shampoo and toothpaste.",
-        "options": ["factory", "bookstore", "bakery", "drugstore"],
-        "answer": 3,
-        "justification": "أدوات النظافة الشخصية (toiletries) تُباع في الصيدلية/محل الأدوات (drugstore). المخبز (bakery) للخبز، والمكتبة (bookstore) للكتب، والمصنع (factory) للإنتاج.",
-        "context_sentence": "I need to stop at the ________ to pick up shampoo and toothpaste."
-      }
-    },
-    {
-      "english": "bookstore",
-      "arabic": "مكتبة بيع كتب",
-      "page": "74",
-      "question": {
-        "q": "He spent hours browsing the shelves of the ________ looking for a good novel.",
-        "options": ["restaurant", "bakery", "drugstore", "bookstore"],
-        "answer": 3,
-        "justification": "الروايات تُشترى من متجر الكتب (bookstore). المخبز (bakery) للخبز، وصيدلية الأدوات (drugstore) لأدوات النظافة، والمطعم (restaurant) للطعام.",
-        "context_sentence": "He spent hours browsing the shelves of the ________ looking for a good novel."
-      }
-    },
-    {
-      "english": "crayons",
-      "arabic": "ألوان شمعية",
-      "page": "74",
-      "question": {
-        "q": "The children used bright ________ to color the pictures in their drawing books.",
-        "options": ["crabs", "crackers", "drums", "crayons"],
-        "answer": 3,
-        "justification": "الأطفال يرسمون بالألوان الشمعية (crayons). الطبول (drums) للعزف، والمفرقعات (crackers) للألعاب النارية، والسرطانات (crabs) حيوانات بحرية.",
-        "context_sentence": "The children used bright ________ to color the pictures in their drawing books."
-      }
-    },
-    {
-      "english": "aspect",
-      "arabic": "جانب",
-      "page": "74",
-      "question": {
-        "q": "One important ________ of learning a language is practicing every day.",
-        "options": ["statistic", "sport", "tuition", "aspect"],
-        "answer": 3,
-        "justification": "قواعد السلامة تنطبق على كل جانب (aspect) من جوانب الحياة. الإحصاء (statistic) رقم، والرياضة (sport) نشاط، والرسوم الدراسية (tuition) تكلفة تعليم.",
-        "context_sentence": "One important ________ of learning a language is practicing every day."
-      }
-    },
-    {
-      "english": "mass transit",
-      "arabic": "نقل عام",
-      "page": "74",
-      "question": {
-        "q": "Cities like Tokyo and London rely heavily on ________ to move millions of people daily.",
-        "options": ["Individualism", "Peer pressure", "Produce", "Mass transit"],
-        "answer": 3,
-        "justification": "النقل العام (mass transit) هو الأفضل في المدن المزدحمة. الفردية (individualism) عكس ذلك، وضغط الأقران (peer pressure) ظاهرة اجتماعية، والمنتجات (produce) سلع.",
-        "context_sentence": "Cities like Tokyo and London rely heavily on ________ to move millions of people daily."
-      }
-    },
-    {
-      "english": "resident",
-      "arabic": "مقيم",
-      "page": "74",
-      "question": {
-        "q": "Every ________ of the building must show an ID card to enter.",
-        "options": ["methods", "consumers", "aspects", "residents"],
-        "answer": 3,
-        "justification": "سكان المدينة (residents) يستخدمون النقل العام. المستهلكون (consumers) عامة، والجوانب (aspects) زوايا، والأساليب (methods) طرق.",
-        "context_sentence": "Every ________ of the building must show an ID card to enter."
-      }
-    },
-    {
-      "english": "creative",
-      "arabic": "مبدع",
-      "page": "74",
-      "question": {
-        "q": "She has a very ________ mind and is always coming up with new inventions.",
-        "options": ["rural", "cultural", "industrial", "creative"],
-        "answer": 3,
-        "justification": "المخترع لديه عقل مبدع (creative). الريفي (rural) للريف، والثقافي (cultural) للثقافة، والصناعي (industrial) للصناعة.",
-        "context_sentence": "She has a very ________ mind and is always coming up with new inventions."
-      }
-    },
-    {
-      "english": "anonymous",
-      "arabic": "مجهول",
-      "page": "75",
-      "question": {
-        "q": "The charity received a generous donation from an ________ donor.",
-        "options": ["egalitarian", "affluent", "vocational", "anonymous"],
-        "answer": 3,
-        "justification": "الرسالة كانت مجهولة (anonymous) بدون اسم. المساواة (egalitarian) عدالة، والمهني (vocational) تدريب، والغني (affluent) ثري.",
-        "context_sentence": "The charity received a generous donation from an ________ donor."
-      }
-    },
-    {
-      "english": "symptom",
-      "arabic": "عرض مرضي",
-      "page": "75",
-      "question": {
-        "q": "A runny nose is a common ________ of a cold.",
-        "options": ["cure", "cause", "disease", "symptom"],
-        "answer": 3,
-        "justification": "الحمى عرض (symptom) من أعراض الإنفلونزا. السبب (cause) هو الفيروس، والعلاج (cure) هو الدواء، والمرض (disease) هو الحالة المرضية نفسها.",
-        "context_sentence": "A runny nose is a common ________ of a cold."
-      }
-    },
-    {
-      "english": "puncture",
-      "arabic": "ثقب",
-      "page": "75",
-      "question": {
-        "q": "The cyclist had to stop because a nail caused a ________ in the front tire.",
-        "options": ["design", "explosion", "engine", "puncture"],
-        "answer": 3,
-        "justification": "ثقب الإطار (puncture) تسبب في الحادث. الانفجار (explosion) أكبر، والتصميم (design) والتوجيه (engine) ليسا سببين مباشرين.",
-        "context_sentence": "The cyclist had to stop because a nail caused a ________ in the front tire."
-      }
-    },
-    {
-      "english": "explosion",
-      "arabic": "انفجار",
-      "page": "75",
-      "question": {
-        "q": "The ________ at the chemical plant was heard several kilometers away.",
-        "options": ["population", "irrigation", "experiment", "explosion"],
-        "answer": 3,
-        "justification": "انفجار المصنع (explosion) قتل العمال. التجربة (experiment) اختبار، والري (irrigation) سقاية، والسكان (population) عدد الناس.",
-        "context_sentence": "The ________ at the chemical plant was heard several kilometers away."
-      }
-    },
-    {
-      "english": "automatically",
-      "arabic": "تلقائياً",
-      "page": "75",
-      "question": {
-        "q": "The system ________ saves your work every five minutes, so you won't lose data.",
-        "options": ["loudly", "slowly", "manually", "automatically"],
-        "answer": 3,
-        "justification": "الآلة تتوقف تلقائياً (automatically). يدوياً (manually) تحتاج تدخلاً بشرياً، وببطء (slowly) وبصوت عالٍ (loudly) تصف الكيفية وليس الآلية.",
-        "context_sentence": "The system ________ saves your work every five minutes, so you won't lose data."
-      }
-    },
-    {
-      "english": "tolerate",
-      "arabic": "يتحمل",
-      "page": "75",
-      "question": {
-        "q": "The teacher will not ________ any form of cheating during the exam.",
-        "options": ["praise", "enjoy", "ignore", "tolerate"],
-        "answer": 3,
-        "justification": "لا أستطيع تحمل (tolerate) السلوك السيئ. الاستمتاع (enjoy) والثناء (praise) والتجاهل (ignore) مواقف أخرى.",
-        "context_sentence": "The teacher will not ________ any form of cheating during the exam."
-      }
-    },
-    {
-      "english": "violation",
-      "arabic": "مخالفة",
-      "page": "75",
-      "question": {
-        "q": "Speeding is a serious ________ of traffic laws and can result in a heavy fine.",
-        "options": ["education", "celebration", "situation", "violation"],
-        "answer": 3,
-        "justification": "الوقوف هنا مخالفة (violation). الاحتفال (celebration) والتعليم (education) والحالة (situation) لا تعبر عن شيء مخالف للقانون.",
-        "context_sentence": "Speeding is a serious ________ of traffic laws and can result in a heavy fine."
-      }
-    },
-    {
-      "english": "destination",
-      "arabic": "وجهة",
-      "page": "75",
-      "question": {
-        "q": "Our final ________ is a beautiful island off the coast of Greece.",
-        "options": ["engine", "color", "speed", "destination"],
-        "answer": 3,
-        "justification": "غيرت الطائرة وجهتها (destination). المحرك (engine) والسرعة (speed) واللون (color) ليست ما يتغير غالباً.",
-        "context_sentence": "Our final ________ is a beautiful island off the coast of Greece."
-      }
-    },
     {
       "english": "obsession",
       "arabic": "هوس",
       "page": "Extra 6",
       "question": {
-        "q": "Football is more than just a sport in Brazil; it's a national ________.",
-        "options": ["hobby", "game", "sport", "obsession"],
-        "answer": 3,
-        "justification": "الرغبي هوس وطني (obsession) في نيوزيلندا. اللعبة (game) والرياضة (sport) والهواية (hobby) لا تعبر عن الشغف الجماهيري الكبير.",
-        "context_sentence": "Football is more than just a sport in Brazil; it's a national ________."
+        "q": "Football is more than just a sport in Brazil; it's a national _______.",
+        "options": ["obsession", "hobby", "game", "pastime"],
+        "answer": 0,
+        "justification": "'Obsession' means an extreme passion or fixation. The sentence contrasts a sport with a national obsession, indicating something much deeper than a hobby.",
+        "context_sentence": "Football is more than just a sport in Brazil; it's a national _______."
+      }
+    },
+    {
+      "english": "tough",
+      "arabic": "شاق / قاسٍ",
+      "page": "Extra 6",
+      "question": {
+        "q": "Rugby is a _______ sport that requires both physical strength and mental endurance.",
+        "options": ["gentle", "easy", "tough", "relaxing"],
+        "answer": 2,
+        "justification": "'Tough' means difficult or demanding. Rugby is described as requiring strength and endurance, indicating it is a hard sport.",
+        "context_sentence": "Rugby is a _______ sport that requires both physical strength and mental endurance."
+      }
+    },
+    {
+      "english": "contact sport",
+      "arabic": "رياضة احتكاك",
+      "page": "Extra 6",
+      "question": {
+        "q": "Boxing and rugby are examples of _______, where players physically engage with each other.",
+        "options": ["contact sport", "table sport", "water sport", "mind sport"],
+        "answer": 0,
+        "justification": "'Contact sport' involves physical contact between players. Rugby and boxing fit this category.",
+        "context_sentence": "Boxing and rugby are examples of _______, where players physically engage with each other."
+      }
+    },
+    {
+      "english": "originated",
+      "arabic": "نشأ",
+      "page": "Extra 6",
+      "question": {
+        "q": "The game of rugby _______ in England during the 19th century before spreading worldwide.",
+        "options": ["ended", "originated", "disappeared", "declined"],
+        "answer": 1,
+        "justification": "'Originated' means began or started. The sentence says rugby started in England.",
+        "context_sentence": "The game of rugby _______ in England during the 19th century before spreading worldwide."
+      }
+    },
+    {
+      "english": "distinctive",
+      "arabic": "مميز",
+      "page": "Extra 6",
+      "question": {
+        "q": "The team's _______ black uniform makes them easy to recognize on the field.",
+        "options": ["distinctive", "ordinary", "common", "similar"],
+        "answer": 0,
+        "justification": "'Distinctive' means unique or easily recognizable. The black uniform sets them apart.",
+        "context_sentence": "The team's _______ black uniform makes them easy to recognize on the field."
+      }
+    },
+    {
+      "english": "kit",
+      "arabic": "طقم رياضي",
+      "page": "Extra 6",
+      "question": {
+        "q": "The football team's new _______ includes shirts, shorts, and socks with the sponsor's logo.",
+        "options": ["kit", "car", "house", "meal"],
+        "answer": 0,
+        "justification": "'Kit' refers to a set of clothing for sports. The sentence mentions shirts and shorts.",
+        "context_sentence": "The football team's new _______ includes shirts, shorts, and socks with the sponsor's logo."
       }
     },
     {
@@ -223,11 +91,179 @@
       "arabic": "شعار",
       "page": "Extra 6",
       "question": {
-        "q": "The national ________ of Canada is the maple leaf.",
-        "options": ["song", "flag", "ball", "emblem"],
-        "answer": 3,
-        "justification": "شعار (emblem) فريق All Blacks هو السرخس الفضي. العلم (flag) شيء آخر، والكرة (ball) أداة اللعب، والأغنية (song) ليست شعاراً.",
-        "context_sentence": "The national ________ of Canada is the maple leaf."
+        "q": "The maple leaf is the national _______ of Canada, appearing on the country's flag.",
+        "options": ["emblem", "song", "city", "language"],
+        "answer": 0,
+        "justification": "'Emblem' means a symbolic badge or logo. The maple leaf is a symbol of Canada.",
+        "context_sentence": "The maple leaf is the national _______ of Canada, appearing on the country's flag."
+      }
+    },
+    {
+      "english": "brand",
+      "arabic": "علامة تجارية",
+      "page": "Extra 6",
+      "question": {
+        "q": "Apple is one of the most valuable _______ in the world, known for its iPhones and computers.",
+        "options": ["brand", "country", "river", "mountain"],
+        "answer": 0,
+        "justification": "'Brand' refers to a commercial name and identity. Apple is a famous brand.",
+        "context_sentence": "Apple is one of the most valuable _______ in the world, known for its iPhones and computers."
+      }
+    },
+    {
+      "english": "corporate",
+      "arabic": "مؤسسي / شركات",
+      "page": "Extra 6",
+      "question": {
+        "q": "Large _______ sponsors often invest millions in sports teams for advertising purposes.",
+        "options": ["corporate", "individual", "personal", "private"],
+        "answer": 0,
+        "justification": "'Corporate' relates to companies. The sentence mentions 'large sponsors' that invest millions.",
+        "context_sentence": "Large _______ sponsors often invest millions in sports teams for advertising purposes."
+      }
+    },
+    {
+      "english": "sponsor",
+      "arabic": "راعٍ",
+      "page": "Extra 6",
+      "question": {
+        "q": "The event was a success thanks to the generous _______ who provided financial support.",
+        "options": ["sponsor", "player", "teacher", "student"],
+        "answer": 0,
+        "justification": "'Sponsor' means a person or company that provides funds. The sentence mentions financial support.",
+        "context_sentence": "The event was a success thanks to the generous _______ who provided financial support."
+      }
+    },
+    {
+      "english": "negotiated",
+      "arabic": "تفاوض",
+      "page": "Extra 6",
+      "question": {
+        "q": "The company _______ a new contract with the supplier to reduce costs by 15%.",
+        "options": ["negotiated", "ignored", "forgot", "refused"],
+        "answer": 0,
+        "justification": "'Negotiated' means discussed to reach an agreement. The sentence mentions reducing costs through a contract.",
+        "context_sentence": "The company _______ a new contract with the supplier to reduce costs by 15%."
+      }
+    },
+    {
+      "english": "jersey",
+      "arabic": "قميص رياضي",
+      "page": "Extra 6",
+      "question": {
+        "q": "Fans buy their team's _______ to wear on match days to show their support.",
+        "options": ["jersey", "hat", "shoe", "watch"],
+        "answer": 0,
+        "justification": "'Jersey' is a sports shirt. Fans wear the team's jersey to show support.",
+        "context_sentence": "Fans buy their team's _______ to wear on match days to show their support."
+      }
+    },
+    {
+      "english": "catastrophic",
+      "arabic": "كارثي",
+      "page": "Extra 6",
+      "question": {
+        "q": "The flood had _______ effects on the village, destroying homes and crops.",
+        "options": ["catastrophic", "minor", "helpful", "beneficial"],
+        "answer": 0,
+        "justification": "'Catastrophic' means disastrous. The sentence describes destruction of homes and crops.",
+        "context_sentence": "The flood had _______ effects on the village, destroying homes and crops."
+      }
+    },
+    {
+      "english": "eruption",
+      "arabic": "ثوران",
+      "page": "Extra 6",
+      "question": {
+        "q": "The _______ of the volcano sent ash and smoke high into the sky.",
+        "options": ["eruption", "creation", "building", "painting"],
+        "answer": 0,
+        "justification": "'Eruption' means a sudden explosion of lava and ash from a volcano.",
+        "context_sentence": "The _______ of the volcano sent ash and smoke high into the sky."
+      }
+    },
+    {
+      "english": "consequences",
+      "arabic": "عواقب",
+      "page": "Extra 6",
+      "question": {
+        "q": "Smoking has serious health _______, including lung cancer and heart disease.",
+        "options": ["consequences", "benefits", "rewards", "celebrations"],
+        "answer": 0,
+        "justification": "'Consequences' are results, usually negative. The sentence mentions health problems.",
+        "context_sentence": "Smoking has serious health _______, including lung cancer and heart disease."
+      }
+    },
+    {
+      "english": "magnitude",
+      "arabic": "حجم / قوة",
+      "page": "Extra 6",
+      "question": {
+        "q": "The earthquake had a _______ of 7.8, making it one of the strongest ever recorded.",
+        "options": ["magnitude", "color", "smell", "taste"],
+        "answer": 0,
+        "justification": "'Magnitude' means size or intensity, especially for earthquakes.",
+        "context_sentence": "The earthquake had a _______ of 7.8, making it one of the strongest ever recorded."
+      }
+    },
+    {
+      "english": "dormant",
+      "arabic": "خامد",
+      "page": "Extra 6",
+      "question": {
+        "q": "The volcano has been _______ for centuries, but scientists warn it could erupt again.",
+        "options": ["dormant", "active", "dead", "sleeping"],
+        "answer": 0,
+        "justification": "'Dormant' means temporarily inactive. The volcano is not currently erupting but could.",
+        "context_sentence": "The volcano has been _______ for centuries, but scientists warn it could erupt again."
+      }
+    },
+    {
+      "english": "ominous",
+      "arabic": "مشؤوم",
+      "page": "Extra 6",
+      "question": {
+        "q": "The dark clouds and strong wind were _______ signs of the approaching storm.",
+        "options": ["ominous", "pleasant", "welcome", "gentle"],
+        "answer": 0,
+        "justification": "'Ominous' means threatening or suggesting something bad will happen.",
+        "context_sentence": "The dark clouds and strong wind were _______ signs of the approaching storm."
+      }
+    },
+    {
+      "english": "intensified",
+      "arabic": "اشتد",
+      "page": "Extra 6",
+      "question": {
+        "q": "The fighting _______ as both sides received more weapons and soldiers.",
+        "options": ["intensified", "weakened", "stopped", "softened"],
+        "answer": 0,
+        "justification": "'Intensified' means became stronger or more extreme.",
+        "context_sentence": "The fighting _______ as both sides received more weapons and soldiers."
+      }
+    },
+    {
+      "english": "pyroclastic",
+      "arabic": "حمم بركانية",
+      "page": "Extra 6",
+      "question": {
+        "q": "_______ flows are deadly clouds of hot gas and rock that race down a volcano during an eruption.",
+        "options": ["Pyroclastic", "Water", "Snow", "Sand"],
+        "answer": 0,
+        "justification": "'Pyroclastic' refers to fast-moving volcanic material. The sentence describes deadly clouds of hot gas and rock.",
+        "context_sentence": "_______ flows are deadly clouds of hot gas and rock that race down a volcano during an eruption."
+      }
+    },
+    {
+      "english": "annihilated",
+      "arabic": "أبيد",
+      "page": "Extra 6",
+      "question": {
+        "q": "The entire village was _______ by the powerful explosion, leaving nothing standing.",
+        "options": ["annihilated", "built", "saved", "protected"],
+        "answer": 0,
+        "justification": "'Annihilated' means completely destroyed. The sentence says nothing was left standing.",
+        "context_sentence": "The entire village was _______ by the powerful explosion, leaving nothing standing."
       }
     },
     {
@@ -235,11 +271,11 @@
       "arabic": "فوهة بركانية",
       "page": "Extra 6",
       "question": {
-        "q": "After the eruption, a large ________ was formed where the mountain once stood.",
-        "options": ["river", "forest", "mountain", "caldera"],
-        "answer": 3,
-        "justification": "بركان تامبورا ترك فوهة بركانية ضخمة (caldera). الجبل (mountain) والنهر (river) والغابة (forest) ليست ما يخلفه البركان.",
-        "context_sentence": "After the eruption, a large ________ was formed where the mountain once stood."
+        "q": "After the eruption, a large _______ formed where the mountain's peak had been blown away.",
+        "options": ["caldera", "river", "forest", "lake"],
+        "answer": 0,
+        "justification": "'Caldera' is a large volcanic crater formed by the collapse of a volcano after an eruption.",
+        "context_sentence": "After the eruption, a large _______ formed where the mountain's peak had been blown away."
       }
     },
     {
@@ -247,11 +283,95 @@
       "arabic": "الستراتوسفير",
       "page": "Extra 6",
       "question": {
-        "q": "Jet planes often fly in the lower part of the ________, where the air is thin and stable.",
-        "options": ["city", "ocean", "ground", "stratosphere"],
-        "answer": 3,
-        "justification": "الرماد قذف إلى الستراتوسفير (stratosphere). المحيط (ocean) والأرض (ground) والمدينة (city) ليست طبقات الغلاف الجوي.",
-        "context_sentence": "Jet planes often fly in the lower part of the ________, where the air is thin and stable."
+        "q": "The volcanic ash was ejected into the _______, where it circled the globe for months.",
+        "options": ["stratosphere", "ocean", "river", "forest"],
+        "answer": 0,
+        "justification": "'Stratosphere' is the layer of the atmosphere above the troposphere. Ash reaching there can travel worldwide.",
+        "context_sentence": "The volcanic ash was ejected into the _______, where it circled the globe for months."
+      }
+    },
+    {
+      "english": "devastation",
+      "arabic": "دمار",
+      "page": "Extra 6",
+      "question": {
+        "q": "The earthquake caused widespread _______, destroying homes, roads, and schools.",
+        "options": ["devastation", "celebration", "construction", "decoration"],
+        "answer": 0,
+        "justification": "'Devastation' means severe destruction or damage. The sentence lists destroyed infrastructure.",
+        "context_sentence": "The earthquake caused widespread _______, destroying homes, roads, and schools."
+      }
+    },
+    {
+      "english": "fatalities",
+      "arabic": "وفيات",
+      "page": "Extra 6",
+      "question": {
+        "q": "The war resulted in thousands of _______, including both soldiers and civilians.",
+        "options": ["fatalities", "births", "celebrations", "victories"],
+        "answer": 0,
+        "justification": "'Fatalities' means deaths resulting from an accident or disaster.",
+        "context_sentence": "The war resulted in thousands of _______, including both soldiers and civilians."
+      }
+    },
+    {
+      "english": "starvation",
+      "arabic": "مجاعة",
+      "page": "Extra 6",
+      "question": {
+        "q": "During the drought, many people died of _______ because crops failed completely.",
+        "options": ["starvation", "wealth", "health", "fitness"],
+        "answer": 0,
+        "justification": "'Starvation' means extreme hunger and lack of food leading to death.",
+        "context_sentence": "During the drought, many people died of _______ because crops failed completely."
+      }
+    },
+    {
+      "english": "intestinal",
+      "arabic": "معوي",
+      "page": "Extra 6",
+      "question": {
+        "q": "Contaminated water can cause _______ diseases that affect the stomach and digestion.",
+        "options": ["intestinal", "visual", "auditory", "dental"],
+        "answer": 0,
+        "justification": "'Intestinal' relates to the intestines. The sentence mentions stomach and digestion.",
+        "context_sentence": "Contaminated water can cause _______ diseases that affect the stomach and digestion."
+      }
+    },
+    {
+      "english": "sulfur",
+      "arabic": "كبريت",
+      "page": "Extra 6",
+      "question": {
+        "q": "_______ dioxide is a gas released by volcanoes that can reflect sunlight and cool the Earth.",
+        "options": ["Sulfur", "Oxygen", "Nitrogen", "Hydrogen"],
+        "answer": 0,
+        "justification": "'Sulfur' is a yellow chemical element. Volcanoes release sulfur dioxide, which affects climate.",
+        "context_sentence": "_______ dioxide is a gas released by volcanoes that can reflect sunlight and cool the Earth."
+      }
+    },
+    {
+      "english": "hemisphere",
+      "arabic": "نصف الكرة الأرضية",
+      "page": "Extra 6",
+      "question": {
+        "q": "Canada is located in the Northern _______, while Australia is in the Southern _______.",
+        "options": ["hemisphere", "continent", "country", "city"],
+        "answer": 0,
+        "justification": "'Hemisphere' is a half of the Earth. The sentence contrasts Northern and Southern halves.",
+        "context_sentence": "Canada is located in the Northern _______, while Australia is in the Southern _______."
+      }
+    },
+    {
+      "english": "staple",
+      "arabic": "غذاء أساسي",
+      "page": "Extra 6",
+      "question": {
+        "q": "Rice is a _______ food in many Asian countries, eaten with almost every meal.",
+        "options": ["staple", "luxury", "rare", "occasional"],
+        "answer": 0,
+        "justification": "'Staple' means a basic and important food item. Rice is a daily food in Asia.",
+        "context_sentence": "Rice is a _______ food in many Asian countries, eaten with almost every meal."
       }
     },
     {
@@ -259,228 +379,176 @@
       "arabic": "مجاعة",
       "page": "Extra 6",
       "question": {
-        "q": "The war and drought led to widespread ________, with millions suffering from hunger.",
-        "options": ["feast", "fire", "flood", "famine"],
-        "answer": 3,
-        "justification": "فشل المحاصيل يسبب مجاعة (famine). الوليمة (feast) عكسها، والفيضان (flood) والنار (fire) كوارث مختلفة.",
-        "context_sentence": "The war and drought led to widespread ________, with millions suffering from hunger."
+        "q": "Crop failure and drought led to widespread _______, with millions of people facing hunger.",
+        "options": ["famine", "feast", "harvest", "abundance"],
+        "answer": 0,
+        "justification": "'Famine' means extreme shortage of food affecting a large population.",
+        "context_sentence": "Crop failure and drought led to widespread _______, with millions of people facing hunger."
       }
     },
     {
-      "english": "interplanetary",
-      "arabic": "بين كواكب",
+      "english": "typhus",
+      "arabic": "التيفوس",
       "page": "Extra 6",
       "question": {
-        "q": "Scientists are working on ________ travel that would allow humans to visit Mars.",
-        "options": ["Domestic", "Submarine", "Underground", "Interplanetary"],
-        "answer": 3,
-        "justification": "السفر بين الكواكب (interplanetary) هو الحدود التالية. المحلي (domestic) وداخل الأرض (underground) والبحري (submarine) ليست طموحات الفضاء.",
-        "context_sentence": "Scientists are working on ________ travel that would allow humans to visit Mars."
+        "q": "_______ is a disease spread by lice and fleas, causing high fever and body rash.",
+        "options": ["Typhus", "Diabetes", "Asthma", "Cancer"],
+        "answer": 0,
+        "justification": "'Typhus' is a bacterial disease transmitted by insects. It causes fever and rash.",
+        "context_sentence": "_______ is a disease spread by lice and fleas, causing high fever and body rash."
       }
     },
     {
-      "english": "pharmaceutical",
-      "arabic": "صيدلاني",
+      "english": "cholera",
+      "arabic": "الكوليرا",
       "page": "Extra 6",
       "question": {
-        "q": "The ________ company developed a new vaccine in record time.",
-        "options": ["Construction", "Automotive", "Textile", "Pharmaceutical"],
-        "answer": 3,
-        "justification": "شركات الأدوية (pharmaceutical) تطور أدوية جديدة. السيارات (automotive) والنسيج (textile) والبناء (construction) صناعات أخرى.",
-        "context_sentence": "The ________ company developed a new vaccine in record time."
+        "q": "Drinking contaminated water can cause _______, a disease that leads to severe dehydration.",
+        "options": ["cholera", "malaria", "influenza", "allergy"],
+        "answer": 0,
+        "justification": "'Cholera' is a water-borne disease causing severe diarrhea and dehydration.",
+        "context_sentence": "Drinking contaminated water can cause _______, a disease that leads to severe dehydration."
       }
     },
     {
-      "english": "facade",
-      "arabic": "واجهة",
+      "english": "reign",
+      "arabic": "حكم",
       "page": "Extra 6",
       "question": {
-        "q": "The ________ of the cathedral is decorated with magnificent stone carvings.",
-        "options": ["roof", "basement", "garden", "facade"],
-        "answer": 3,
-        "justification": "واجهة المبنى (facade) مذهلة. الحديقة (garden) والقبو (basement) والسقف (roof) أجزاء أخرى من المبنى.",
-        "context_sentence": "The ________ of the cathedral is decorated with magnificent stone carvings."
+        "q": "The king's _______ lasted for 40 years, bringing peace and prosperity to the country.",
+        "options": ["reign", "fall", "destruction", "chaos"],
+        "answer": 0,
+        "justification": "'Reign' means the period of rule of a king or queen. The sentence mentions 40 years of peace.",
+        "context_sentence": "The king's _______ lasted for 40 years, bringing peace and prosperity to the country."
       }
     },
     {
-      "english": "annexed",
-      "arabic": "ضم / احتل",
+      "english": "tumultuous",
+      "arabic": "مضطرب",
       "page": "Extra 6",
       "question": {
-        "q": "The neighboring country ________ the disputed territory after a long conflict.",
-        "options": ["created", "ignored", "liberated", "annexed"],
-        "answer": 3,
-        "justification": "تم ضم الإقليم (annexed) بالقوة. التحرير (liberated) عكس الضم، والتجاهل (ignored) والإنشاء (created) لا يتوافقان مع القوة.",
-        "context_sentence": "The neighboring country ________ the disputed territory after a long conflict."
+        "q": "The country went through a _______ period of political change, with protests and elections.",
+        "options": ["tumultuous", "calm", "quiet", "peaceful"],
+        "answer": 0,
+        "justification": "'Tumultuous' means chaotic and disorderly. Protests and elections suggest a turbulent time.",
+        "context_sentence": "The country went through a _______ period of political change, with protests and elections."
       }
     },
     {
-      "english": "consolidation",
-      "arabic": "توطيد",
+      "english": "synonymous",
+      "arabic": "مرادف",
       "page": "Extra 6",
       "question": {
-        "q": "The ________ of several small companies created one large corporation.",
-        "options": ["erasure", "confusion", "destruction", "consolidation"],
-        "answer": 3,
-        "justification": "توطيد الذاكرة (consolidation) يحدث أثناء النوم. التدمير (destruction) والارتباك (confusion) والمحو (erasure) عكس ذلك.",
-        "context_sentence": "The ________ of several small companies created one large corporation."
+        "q": "The city of Paris is often _______ with romance and love.",
+        "options": ["synonymous", "unrelated", "opposite", "different"],
+        "answer": 0,
+        "justification": "'Synonymous' means closely associated with. Paris is strongly associated with romance.",
+        "context_sentence": "The city of Paris is often _______ with romance and love."
       }
     },
     {
-      "english": "deprivation",
-      "arabic": "حرمان",
+      "english": "correlated",
+      "arabic": "مترابط",
       "page": "Extra 6",
       "question": {
-        "q": "Sensory ________ can lead to hallucinations as the brain tries to create its own stimulation.",
-        "options": ["excess", "supplement", "addition", "deprivation"],
-        "answer": 3,
-        "justification": "الحرمان من النوم (deprivation) يضر الإدراك. الزيادة (excess) والإضافة (addition) والمكمل (supplement) لا تعبر عن نقص النوم.",
-        "context_sentence": "Sensory ________ can lead to hallucinations as the brain tries to create its own stimulation."
+        "q": "Smoking is strongly _______ with lung cancer; smokers have a much higher risk.",
+        "options": ["correlated", "unrelated", "disconnected", "separate"],
+        "answer": 0,
+        "justification": "'Correlated' means linked or connected. Smoking and lung cancer are linked.",
+        "context_sentence": "Smoking is strongly _______ with lung cancer; smokers have a much higher risk."
       }
     },
     {
-      "english": "cognitive",
-      "arabic": "معرفي",
+      "english": "logarithmic",
+      "arabic": "لوغاريتمي",
       "page": "Extra 6",
       "question": {
-        "q": "Reading and solving puzzles are excellent ways to maintain ________ health.",
-        "options": ["Skeletal", "Physical", "Muscular", "Cognitive"],
-        "answer": 3,
-        "justification": "المهارات المعرفية (cognitive) تتراجع مع العمر. الجسدية (physical) والعضلية (muscular) والهيكلية (skeletal) تتأثر أيضاً لكن السؤال يركز على العقل.",
-        "context_sentence": "Reading and solving puzzles are excellent ways to maintain ________ health."
+        "q": "The _______ scale means that each step represents a tenfold increase, not a simple addition.",
+        "options": ["logarithmic", "linear", "simple", "flat"],
+        "answer": 0,
+        "justification": "'Logarithmic' refers to a scale where each unit is multiplied, not added. The sentence defines this concept.",
+        "context_sentence": "The _______ scale means that each step represents a tenfold increase, not a simple addition."
       }
     },
     {
-      "english": "shielding",
-      "arabic": "تدريع",
+      "english": "diameter",
+      "arabic": "قطر",
       "page": "Extra 6",
       "question": {
-        "q": "The nuclear reactor is surrounded by heavy ________ to prevent radiation leaks.",
-        "options": ["Decorating", "Cooking", "Lighting", "Shielding"],
-        "answer": 3,
-        "justification": "التدريع (shielding) ضروري للسفر الفضائي. الطبخ (cooking) والتزيين (decorating) والإضاءة (lighting) ليست من مستلزمات الفضاء.",
-        "context_sentence": "The nuclear reactor is surrounded by heavy ________ to prevent radiation leaks."
+        "q": "The _______ of the circle is 10 meters, meaning it is 5 meters from the center to the edge.",
+        "options": ["diameter", "radius", "circumference", "length"],
+        "answer": 0,
+        "justification": "'Diameter' is the distance across a circle. The sentence gives a measurement of 10 meters.",
+        "context_sentence": "The _______ of the circle is 10 meters, meaning it is 5 meters from the center to the edge."
       }
     },
     {
-      "english": "strategically",
-      "arabic": "استراتيجياً",
+      "english": "summit",
+      "arabic": "قمة",
       "page": "Extra 6",
       "question": {
-        "q": "The castle was ________ built on top of a hill to provide a clear view of approaching enemies.",
-        "options": ["recently", "randomly", "poorly", "strategically"],
-        "answer": 3,
-        "justification": "البتراء كانت موقعاً استراتيجياً (strategically). عشوائياً (randomly) وسيئاً (poorly) وحديثاً (recently) لا تصف موقعها التاريخي.",
-        "context_sentence": "The castle was ________ built on top of a hill to provide a clear view of approaching enemies."
+        "q": "After days of climbing, they finally reached the _______ of the mountain.",
+        "options": ["summit", "base", "valley", "river"],
+        "answer": 0,
+        "justification": "'Summit' means the top of a mountain. Climbing leads to the summit.",
+        "context_sentence": "After days of climbing, they finally reached the _______ of the mountain."
       }
     },
     {
-      "english": "chronic",
-      "arabic": "مزمن",
+      "english": "benign",
+      "arabic": "حميد",
       "page": "Extra 6",
       "question": {
-        "q": "She suffers from ________ back pain that never really goes away.",
-        "options": ["Mild", "Acute", "Temporary", "Chronic"],
-        "answer": 3,
-        "justification": "الأمراض المزمنة (chronic) تستمر طويلاً. الحادة (acute) مفاجئة، والمؤقتة (temporary) والخفيفة (mild) عكس ذلك.",
-        "context_sentence": "She suffers from ________ back pain that never really goes away."
+        "q": "The doctor said the tumor was _______, so there was no need to worry.",
+        "options": ["benign", "dangerous", "deadly", "harmful"],
+        "answer": 0,
+        "justification": "'Benign' means not harmful. A benign tumor is not cancerous.",
+        "context_sentence": "The doctor said the tumor was _______, so there was no need to worry."
       }
     },
     {
-      "english": "herbal",
-      "arabic": "عشبي",
+      "english": "legacy",
+      "arabic": "إرث",
       "page": "Extra 6",
       "question": {
-        "q": "Many people prefer ________ teas to regular tea because they are natural and caffeine-free.",
-        "options": ["Synthetic", "Chemical", "Metallic", "Herbal"],
-        "answer": 3,
-        "justification": "العلاجات العشبية (herbal) تستخدم النباتات. الكيميائية (chemical) والاصطناعية (synthetic) والمعدنية (metallic) لا تعتمد على النباتات مباشرة.",
-        "context_sentence": "Many people prefer ________ teas to regular tea because they are natural and caffeine-free."
+        "q": "The scientist's _______ includes several important discoveries that changed medicine.",
+        "options": ["legacy", "failure", "mistake", "problem"],
+        "answer": 0,
+        "justification": "'Legacy' means something handed down from the past. The sentence mentions discoveries that changed medicine.",
+        "context_sentence": "The scientist's _______ includes several important discoveries that changed medicine."
       }
     },
     {
-      "english": "oath",
-      "arabic": "قسم",
+      "english": "aftermath",
+      "arabic": "ما بعد الكارثة",
       "page": "Extra 6",
       "question": {
-        "q": "Before testifying in court, the witness must take an ________ to tell the truth.",
-        "options": ["medicine", "test", "book", "oath"],
-        "answer": 3,
-        "justification": "الأطباء يؤدون قسماً مهنياً (oath). الكتاب (book) والدواء (medicine) والاختبار (test) ليست ما يؤدى.",
-        "context_sentence": "Before testifying in court, the witness must take an ________ to tell the truth."
+        "q": "In the _______ of the earthquake, rescue teams searched for survivors under the rubble.",
+        "options": ["aftermath", "beginning", "start", "peak"],
+        "answer": 0,
+        "justification": "'Aftermath' refers to the period after a disaster. Rescue operations happen after an earthquake.",
+        "context_sentence": "In the _______ of the earthquake, rescue teams searched for survivors under the rubble."
       }
     },
     {
-      "english": "antiseptic",
-      "arabic": "مطهر",
+      "english": "epidemic",
+      "arabic": "وباء",
       "page": "Extra 6",
       "question": {
-        "q": "The nurse applied an ________ to the cut before putting on the bandage.",
-        "options": ["antibiotic", "antiviral", "analgesic", "antiseptic"],
-        "answer": 3,
-        "justification": "تنظف الجروح بالمطهر (antiseptic). المسكن (analgesic) للألم، والمضاد الحيوي (antibiotic) للبكتيريا، والمضاد الفيروسي (antiviral) للفيروسات.",
-        "context_sentence": "The nurse applied an ________ to the cut before putting on the bandage."
-      }
-    },
-    {
-      "english": "sustainable",
-      "arabic": "مستدام",
-      "page": "Extra 6",
-      "question": {
-        "q": "The company is committed to using ________ materials that do not harm the environment.",
-        "options": ["Temporary", "Dangerous", "Expensive", "Sustainable"],
-        "answer": 3,
-        "justification": "الحلول المستدامة (sustainable) تحمي الكوكب. المؤقتة (temporary) والغالية (expensive) والخطيرة (dangerous) لا تفيد البيئة.",
-        "context_sentence": "The company is committed to using ________ materials that do not harm the environment."
-      }
-    },
-    {
-      "english": "hydroponic",
-      "arabic": "زراعة مائية",
-      "page": "Extra 6",
-      "question": {
-        "q": "In ________ farming, plants grow in a nutrient-rich water solution without any soil.",
-        "options": ["Manual", "Organic", "Traditional", "Hydroponic"],
-        "answer": 3,
-        "justification": "الزراعة المائية (hydroponic) لا تحتاج تربة. العضوية (organic) والتقليدية (traditional) واليدوية (manual) قد تستخدم التربة.",
-        "context_sentence": "In ________ farming, plants grow in a nutrient-rich water solution without any soil."
-      }
-    },
-    {
-      "english": "emission",
-      "arabic": "انبعاث",
-      "page": "Extra 6",
-      "question": {
-        "q": "New laws aim to reduce the ________ of greenhouse gases from factories.",
-        "options": ["noise", "incomes", "prices", "emissions"],
-        "answer": 3,
-        "justification": "السيارات تقلل الانبعاثات (emissions) بالفلاتر. الدخل (incomes) والأسعار (prices) والضوضاء (noise) ليست ما تقلله الفلاتر.",
-        "context_sentence": "New laws aim to reduce the ________ of greenhouse gases from factories."
-      }
-    },
-    {
-      "english": "capacity",
-      "arabic": "سعة",
-      "page": "Extra 6",
-      "question": {
-        "q": "The stadium has a seating ________ of over 80,000 spectators.",
-        "options": ["size", "color", "weight", "capacity"],
-        "answer": 3,
-        "justification": "الخزان له سعة (capacity) كبيرة. الوزن (weight) والحجم (size) واللون (color) خصائص أخرى.",
-        "context_sentence": "The stadium has a seating ________ of over 80,000 spectators."
-      }
-    },
-    {
-      "english": "grid",
-      "arabic": "شبكة كهرباء",
-      "page": "Extra 6",
-      "question": {
-        "q": "The entire city lost power because of a failure in the national ________.",
-        "options": ["water", "phone", "road", "grid"],
-        "answer": 3,
-        "justification": "الألواح الشمسية تغذي شبكة الكهرباء (grid). الطريق (road) والهاتف (phone) والماء (water) ليست أنظمة طاقة.",
-        "context_sentence": "The entire city lost power because of a failure in the national ________."
+        "q": "The country faced a serious _______ of influenza, affecting millions of people.",
+        "options": ["epidemic", "celebration", "construction", "education"],
+        "answer": 0,
+        "justification": "'Epidemic' means a widespread occurrence of a disease. Influenza spreading widely fits this definition.",
+        "context_sentence": "The country faced a serious _______ of influenza, affecting millions of people."
       }
     }
   ]
 }
+EOF
+
+git add content/day-06/vocabulary.json
+git commit -m "تحديث مفردات اليوم السادس: 45 كلمة حصراً من قطعتي All Blacks و Tambora"
+git push origin main
+
+echo "✅ تم رفع ملف اليوم السادس بـ 45 كلمة من القطع الأصلية. جربه الآن: https://english-zone.github.io/itc-apne-prep/practice.html?day=6"
+```
