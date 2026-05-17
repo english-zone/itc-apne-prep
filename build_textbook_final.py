@@ -38,6 +38,7 @@ def build_reading(day_num):
         sec += f'<article class="passage"><h3>{title}</h3>\n'
         if is_english(p.get("text", "")):
             if is_english(p.get("text", "")):
+            pass  # سيتم ملؤه لاحقاً
             sec += f'<div class="passage-text english" lang="en">{text}</div>\n'
         else:
             sec += f'<div class="passage-text">{text}</div>\n
