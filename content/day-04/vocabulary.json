@@ -1,185 +1,20 @@
+cd /workspaces/itc-apne-prep
+
+cat > content/day-04/vocabulary.json << 'EOF'
 {
-  "topic": "Food, Drink & Reading",
-  "pageRange": "71-72, Extra 4",
+  "topic": "Vocabulary from Day 4 Passages",
+  "pageRange": "Japan, USA Gov, Water Desalination (Extra 4)",
   "words": [
     {
-      "english": "cook",
-      "arabic": "يطبخ",
-      "page": "72",
+      "english": "heritage",
+      "arabic": "تراث",
+      "page": "Extra 4",
       "question": {
-        "q": "She managed to ________ a wonderful dinner despite the limited ingredients.",
-        "options": ["drink", "clean", "eat", "cook"],
+        "q": "Japan is known for its rich cultural _______, including ancient temples and traditional festivals.",
+        "options": ["problem", "disaster", "economy", "heritage"],
         "answer": 3,
-        "justification": "إذا كان أحمد طاهياً ماهراً، فهو يطبخ (cook) جيداً. الأكل (eat) صفة من يتناول الطعام، والشرب (drink) للسوائل، والتنظيف (clean) للنظافة.",
-        "context_sentence": "She managed to ________ a wonderful dinner despite the limited ingredients."
-      }
-    },
-    {
-      "english": "chef",
-      "arabic": "طاهٍ",
-      "page": "72",
-      "question": {
-        "q": "The head ________ of the hotel restaurant trained in Paris.",
-        "options": ["driver", "farmer", "waiter", "chef"],
-        "answer": 3,
-        "justification": "الطاهي (chef) يعمل في مطبخ المطعم. النادل (waiter) يقدم الطعام، والسائق (driver) يقود، والمزارع (farmer) في الحقول.",
-        "context_sentence": "The head ________ of the hotel restaurant trained in Paris."
-      }
-    },
-    {
-      "english": "fry",
-      "arabic": "يقلي",
-      "page": "72",
-      "question": {
-        "q": "We need oil to ________ the potatoes until they are golden and crispy.",
-        "options": ["steam", "grill", "boil", "fry"],
-        "answer": 3,
-        "justification": "لقلي البطاطس (fry) نحتاج زيت. السلق (boil) يحتاج ماء، والشوي (grill) على النار، والطهي بالبخار (steam) لا يحتاج زيتاً.",
-        "context_sentence": "We need oil to ________ the potatoes until they are golden and crispy."
-      }
-    },
-    {
-      "english": "grill",
-      "arabic": "يشوي",
-      "page": "72",
-      "question": {
-        "q": "They decided to ________ the fish over charcoal for a smoky flavor.",
-        "options": ["Steam", "Fry", "Boil", "Grill"],
-        "answer": 3,
-        "justification": "الدجاج على الفحم يُشوى (grill). السلق (boil) في ماء، والبخار (steam) بالبخار، والقلي (fry) بالزيت.",
-        "context_sentence": "They decided to ________ the fish over charcoal for a smoky flavor."
-      }
-    },
-    {
-      "english": "boil",
-      "arabic": "يغلي",
-      "page": "72",
-      "question": {
-        "q": "You should ________ the water first before adding the pasta.",
-        "options": ["Freeze", "Mix", "Cool", "Boil"],
-        "answer": 3,
-        "justification": "يجب غلي الماء (boil) قبل إضافة الأرز. التجميد (freeze) والتبريد (cool) والخلط (mix) ليست خطوات طبخ الأرز.",
-        "context_sentence": "You should ________ the water first before adding the pasta."
-      }
-    },
-    {
-      "english": "steam",
-      "arabic": "بالبخار",
-      "page": "72",
-      "question": {
-        "q": "To keep the vitamins, it's better to ________ the vegetables rather than boil them.",
-        "options": ["Raw", "Fry", "Burn", "Steam"],
-        "answer": 3,
-        "justification": "الطهي بالبخار (steam) يحافظ على القيمة الغذائية. القلي (fry) يدمر بعض الفيتامينات، والحرق (burn) يفسدها، والنيئة (raw) لا تطهى.",
-        "context_sentence": "To keep the vitamins, it's better to ________ the vegetables rather than boil them."
-      }
-    },
-    {
-      "english": "lunch",
-      "arabic": "غداء",
-      "page": "72",
-      "question": {
-        "q": "We usually have a light ________ around noon.",
-        "options": ["dinner", "snack", "breakfast", "lunch"],
-        "answer": 3,
-        "justification": "الغداء (lunch) هو وجبة الظهيرة. الفطور (breakfast) صباحاً، والعشاء (dinner) مساءً، والوجبة الخفيفة (snack) بين الوجبات.",
-        "context_sentence": "We usually have a light ________ around noon."
-      }
-    },
-    {
-      "english": "breakfast",
-      "arabic": "فطور",
-      "page": "72",
-      "question": {
-        "q": "I eat ________ at 7 AM every day before leaving for work.",
-        "options": ["supper", "dinner", "lunch", "breakfast"],
-        "answer": 3,
-        "justification": "الساعة 7 صباحاً هي وقت الفطور (breakfast). الغداء (lunch) ظهراً، والعشاء (dinner) مساءً.",
-        "context_sentence": "I eat ________ at 7 AM every day before leaving for work."
-      }
-    },
-    {
-      "english": "dinner",
-      "arabic": "عشاء",
-      "page": "72",
-      "question": {
-        "q": "The family sits together in the evening for a traditional ________.",
-        "options": ["breakfast", "brunch", "lunch", "dinner"],
-        "answer": 3,
-        "justification": "في المساء تجتمع العائلة للعشاء (dinner). الغداء (lunch) ظهراً، والفطور (breakfast) صباحاً.",
-        "context_sentence": "The family sits together in the evening for a traditional ________."
-      }
-    },
-    {
-      "english": "cucumber",
-      "arabic": "خيار",
-      "page": "72",
-      "question": {
-        "q": "She sliced a fresh ________ to add to the salad.",
-        "options": ["rice", "bread", "pasta", "cucumber"],
-        "answer": 3,
-        "justification": "الخيار (cucumber) مكون شائع في السلطة. المعكرونة (pasta) والأرز (rice) والخبز (bread) ليست مكونات سلطة تقليدية.",
-        "context_sentence": "She sliced a fresh ________ to add to the salad."
-      }
-    },
-    {
-      "english": "pasta",
-      "arabic": "معكرونة",
-      "page": "72",
-      "question": {
-        "q": "Italian cuisine is famous for its variety of ________ dishes.",
-        "options": ["potatoes", "bread", "rice", "pasta"],
-        "answer": 3,
-        "justification": "الإيطاليون يشتهرون بأكل المعكرونة (pasta). الأرز (rice) في آسيا، والخبز (bread) عام، والبطاطس (potatoes) في أوروبا.",
-        "context_sentence": "Italian cuisine is famous for its variety of ________ dishes."
-      }
-    },
-    {
-      "english": "addicted",
-      "arabic": "مدمن",
-      "page": "72",
-      "question": {
-        "q": "He is completely ________ to coffee and cannot start his day without it.",
-        "options": ["used", "opposed", "allergic", "addicted"],
-        "answer": 3,
-        "justification": "مدمن القهوة (addicted) لا يستطيع التوقف عنها. الحساسية (allergic) رد فعل مناعي، ومعتاد (used) لا تعبر عن الإدمان، ومعارض (opposed) يعني رافض.",
-        "context_sentence": "He is completely ________ to coffee and cannot start his day without it."
-      }
-    },
-    {
-      "english": "pharmacy",
-      "arabic": "صيدلية",
-      "page": "73",
-      "question": {
-        "q": "You can buy painkillers at the ________ on the corner.",
-        "options": ["garage", "restaurant", "bank", "pharmacy"],
-        "answer": 3,
-        "justification": "الأدوية تُشترى من الصيدلية (pharmacy). البنك (bank) للمال، والمطعم (restaurant) للطعام، والمرأب (garage) للسيارات.",
-        "context_sentence": "You can buy painkillers at the ________ on the corner."
-      }
-    },
-    {
-      "english": "income",
-      "arabic": "دخل",
-      "page": "73",
-      "question": {
-        "q": "His monthly ________ is just enough to cover the bills.",
-        "options": ["debt", "expense", "bill", "income"],
-        "answer": 3,
-        "justification": "الدخل الشهري (income) هو ما يكسبه. المصروف (expense) ما ينفقه، والدين (debt) ما عليه، والفاتورة (bill) تدفع.",
-        "context_sentence": "His monthly ________ is just enough to cover the bills."
-      }
-    },
-    {
-      "english": "salad",
-      "arabic": "سلطة",
-      "page": "72",
-      "question": {
-        "q": "For a light and healthy meal, she prepared a fresh green ________.",
-        "options": ["pie", "cake", "burger", "salad"],
-        "answer": 3,
-        "justification": "السلطة (salad) وجبة صحية. الكعكة (cake) حلويات، والبرغر (burger) وجبات سريعة، والفطيرة (pie) مخبوزات.",
-        "context_sentence": "For a light and healthy meal, she prepared a fresh green ________."
+        "justification": "'Heritage' means the traditions and history passed down through generations. The sentence talks about temples and festivals, which are part of cultural heritage.",
+        "context_sentence": "Japan is known for its rich cultural _______, including ancient temples and traditional festivals."
       }
     },
     {
@@ -187,23 +22,35 @@
       "arabic": "مطبخ (أسلوب طهي)",
       "page": "Extra 4",
       "question": {
-        "q": "Japanese ________ is known for its delicate flavors and fresh ingredients.",
+        "q": "Japanese _______ is famous worldwide for dishes like sushi, ramen, and tempura.",
         "options": ["weather", "transport", "language", "cuisine"],
         "answer": 3,
-        "justification": "المطبخ الياباني (cuisine) مشهور عالمياً. اللغة (language) والطقس (weather) والنقل (transport) ليست أشياء تشتهر بها اليابان بنفس القدر.",
-        "context_sentence": "Japanese ________ is known for its delicate flavors and fresh ingredients."
+        "justification": "'Cuisine' refers to a style of cooking. The examples sushi and ramen are types of food, so cuisine is the correct word.",
+        "context_sentence": "Japanese _______ is famous worldwide for dishes like sushi, ramen, and tempura."
       }
     },
     {
-      "english": "heritage",
-      "arabic": "تراث",
+      "english": "discipline",
+      "arabic": "انضباط",
       "page": "Extra 4",
       "question": {
-        "q": "The old city is a UNESCO World ________ site, protected for future generations.",
-        "options": ["problem", "disaster", "economy", "heritage"],
-        "answer": 3,
-        "justification": "اليابان لديها تراث (heritage) ثقافي غني. المشكلة (problem) والاقتصاد (economy) والكارثة (disaster) لا تصف الثقافة.",
-        "context_sentence": "The old city is a UNESCO World ________ site, protected for future generations."
+        "q": "The school is known for its strict _______; students must follow all the rules.",
+        "options": ["discipline", "freedom", "chaos", "confusion"],
+        "answer": 0,
+        "justification": "'Discipline' means controlled behavior following rules. The sentence describes a strict environment that requires rule-following.",
+        "context_sentence": "The school is known for its strict _______; students must follow all the rules."
+      }
+    },
+    {
+      "english": "rigorous",
+      "arabic": "صارم",
+      "page": "Extra 4",
+      "question": {
+        "q": "The university has a _______ admission process; only the top students are accepted.",
+        "options": ["rigorous", "easy", "simple", "relaxed"],
+        "answer": 0,
+        "justification": "'Rigorous' means very strict and demanding. The phrase 'only top students are accepted' indicates a strict selection process.",
+        "context_sentence": "The university has a _______ admission process; only the top students are accepted."
       }
     },
     {
@@ -211,11 +58,47 @@
       "arabic": "دستور",
       "page": "Extra 4",
       "question": {
-        "q": "The country's ________ guarantees freedom of speech to all citizens.",
+        "q": "The country's _______ was written over 200 years ago and still protects citizens' rights today.",
         "options": ["letter", "magazine", "website", "constitution"],
         "answer": 3,
-        "justification": "الدستور (constitution) هو الذي يحدد هيكل الحكومة. المجلة (magazine) والموقع الإلكتروني (website) والرسالة (letter) لا علاقة لها.",
-        "context_sentence": "The country's ________ guarantees freedom of speech to all citizens."
+        "justification": "'Constitution' is a set of fundamental laws that govern a country. It is designed to last and protect rights.",
+        "context_sentence": "The country's _______ was written over 200 years ago and still protects citizens' rights today."
+      }
+    },
+    {
+      "english": "legislative",
+      "arabic": "تشريعي",
+      "page": "Extra 4",
+      "question": {
+        "q": "The _______ branch of government is responsible for making and passing laws.",
+        "options": ["legislative", "executive", "judicial", "military"],
+        "answer": 0,
+        "justification": "'Legislative' relates to law-making. The sentence explicitly states 'making and passing laws', which is the role of the legislative branch.",
+        "context_sentence": "The _______ branch of government is responsible for making and passing laws."
+      }
+    },
+    {
+      "english": "executive",
+      "arabic": "تنفيذي",
+      "page": "Extra 4",
+      "question": {
+        "q": "The President heads the _______ branch and enforces the country's laws.",
+        "options": ["executive", "legislative", "judicial", "media"],
+        "answer": 0,
+        "justification": "'Executive' refers to the branch that carries out laws. The President is the head of the executive branch.",
+        "context_sentence": "The President heads the _______ branch and enforces the country's laws."
+      }
+    },
+    {
+      "english": "judicial",
+      "arabic": "قضائي",
+      "page": "Extra 4",
+      "question": {
+        "q": "The _______ branch interprets laws and makes sure they follow the constitution.",
+        "options": ["judicial", "executive", "legislative", "military"],
+        "answer": 0,
+        "justification": "'Judicial' relates to courts and judges. Interpreting laws is the role of the judicial branch.",
+        "context_sentence": "The _______ branch interprets laws and makes sure they follow the constitution."
       }
     },
     {
@@ -223,11 +106,11 @@
       "arabic": "تحلية المياه",
       "page": "Extra 4",
       "question": {
-        "q": "The ________ plant turns seawater into drinking water.",
+        "q": "The new _______ plant converts seawater into fresh drinking water for the city.",
         "options": ["Condensation", "Irrigation", "Evaporation", "Desalination"],
         "answer": 3,
-        "justification": "تحلية المياه (desalination) تزيل الملح من ماء البحر. الري (irrigation) للسقاية، والتبخر (evaporation) والكثافة (condensation) عمليات طبيعية.",
-        "context_sentence": "The ________ plant turns seawater into drinking water."
+        "justification": "'Desalination' is the process of removing salt from seawater. The sentence describes converting seawater into drinking water.",
+        "context_sentence": "The new _______ plant converts seawater into fresh drinking water for the city."
       }
     },
     {
@@ -235,11 +118,11 @@
       "arabic": "جاف",
       "page": "Extra 4",
       "question": {
-        "q": "Water is very scarce in the ________ desert regions.",
+        "q": "Desert regions are extremely _______, receiving very little rainfall throughout the year.",
         "options": ["green", "cold", "rainy", "arid"],
         "answer": 3,
-        "justification": "المناطق الجافة (arid) تحتاج التحلية. الممطرة (rainy) والباردة (cold) والخضراء (green) لديها مصادر مياه طبيعية.",
-        "context_sentence": "Water is very scarce in the ________ desert regions."
+        "justification": "'Arid' means very dry with little rain. Desert regions are the best example of arid climates.",
+        "context_sentence": "Desert regions are extremely _______, receiving very little rainfall throughout the year."
       }
     },
     {
@@ -247,11 +130,11 @@
       "arabic": "غشاء",
       "page": "Extra 4",
       "question": {
-        "q": "Reverse osmosis uses a thin ________ to filter out salt and impurities.",
+        "q": "Reverse osmosis pushes water through a thin _______ to remove salt and impurities.",
         "options": ["tank", "pump", "pipe", "membrane"],
         "answer": 3,
-        "justification": "التناضح العكسي يستخدم غشاء (membrane) شبه منفذ. الأنبوب (pipe) والمضخة (pump) والخزان (tank) مكونات أخرى.",
-        "context_sentence": "Reverse osmosis uses a thin ________ to filter out salt and impurities."
+        "justification": "'Membrane' is a thin layer that filters substances. In desalination, a semipermeable membrane filters out salt.",
+        "context_sentence": "Reverse osmosis pushes water through a thin _______ to remove salt and impurities."
       }
     },
     {
@@ -259,11 +142,11 @@
       "arabic": "محلول ملحي",
       "page": "Extra 4",
       "question": {
-        "q": "The waste ________ left after desalination can harm sea creatures.",
+        "q": "The leftover _______ from desalination is very salty and can damage marine life.",
         "options": ["juice", "oil", "water", "brine"],
         "answer": 3,
-        "justification": "المحلول الملحي المركز (brine) يضر الحياة البحرية. الماء العادي (water) والزيت (oil) والعصير (juice) ليس لها نفس التأثير.",
-        "context_sentence": "The waste ________ left after desalination can harm sea creatures."
+        "justification": "'Brine' is highly concentrated salt water. It is a waste product of desalination that harms sea creatures.",
+        "context_sentence": "The leftover _______ from desalination is very salty and can damage marine life."
       }
     },
     {
@@ -271,11 +154,11 @@
       "arabic": "وقود أحفوري",
       "page": "Extra 4",
       "question": {
-        "q": "Burning ________ like coal and oil releases harmful gases.",
+        "q": "Coal, oil, and natural gas are examples of _______, which release carbon dioxide when burned.",
         "options": ["wind", "solar", "renewable", "fossil fuels"],
         "answer": 3,
-        "justification": "الفحم والنفط وقود أحفوري (fossil fuels). المتجدد (renewable) والطاقة الشمسية (solar) والرياح (wind) مصادر طاقة نظيفة.",
-        "context_sentence": "Burning ________ like coal and oil releases harmful gases."
+        "justification": "'Fossil fuels' are energy sources formed from ancient organic matter. Coal and oil are classic examples.",
+        "context_sentence": "Coal, oil, and natural gas are examples of _______, which release carbon dioxide when burned."
       }
     },
     {
@@ -283,167 +166,479 @@
       "arabic": "غازات الدفيئة",
       "page": "Extra 4",
       "question": {
-        "q": "________ gases trap heat in the atmosphere and cause global warming.",
+        "q": "_______ gases like carbon dioxide trap heat in the atmosphere and contribute to global warming.",
         "options": ["Hydrogen", "Nitrogen", "Oxygen", "Greenhouse"],
         "answer": 3,
-        "justification": "غازات الدفيئة (greenhouse) تسبب الاحتباس الحراري. الأكسجين (oxygen) والنيتروجين (nitrogen) والهيدروجين (hydrogen) غازات أخرى.",
-        "context_sentence": "________ gases trap heat in the atmosphere and cause global warming."
+        "justification": "'Greenhouse gases' trap heat and warm the planet. Carbon dioxide is a primary greenhouse gas.",
+        "context_sentence": "_______ gases like carbon dioxide trap heat in the atmosphere and contribute to global warming."
       }
     },
     {
-      "english": "abyssal",
-      "arabic": "عميق (سحيق)",
+      "english": "indigenous",
+      "arabic": "السكان الأصليون",
       "page": "Extra 4",
       "question": {
-        "q": "The ________ plains lie thousands of meters below the ocean surface.",
-        "options": ["tropical", "coastal", "shallow", "abyssal"],
-        "answer": 3,
-        "justification": "السهول السحيقة (abyssal) في أعماق المحيط. الضحلة (shallow) قريبة من السطح، والساحلية (coastal) قرب الشاطئ، والاستوائية (tropical) حارة.",
-        "context_sentence": "The ________ plains lie thousands of meters below the ocean surface."
+        "q": "The _______ people of Japan have lived on the islands for thousands of years.",
+        "options": ["indigenous", "foreign", "modern", "European"],
+        "answer": 0,
+        "justification": "'Indigenous' means native to a place. The sentence refers to people who have lived somewhere for thousands of years.",
+        "context_sentence": "The _______ people of Japan have lived on the islands for thousands of years."
       }
     },
     {
-      "english": "bioluminescent",
-      "arabic": "مضيء حيوياً",
+      "english": "innovation",
+      "arabic": "ابتكار",
       "page": "Extra 4",
       "question": {
-        "q": "The ________ creatures glow in the dark depths of the ocean.",
-        "options": ["nocturnal", "blind", "invisible", "bioluminescent"],
-        "answer": 3,
-        "justification": "أسماك الأعماق مضيئة حيوياً (bioluminescent). ليست غير مرئية (invisible) ولا عمياء (blind) ولا ليلية بالضرورة.",
-        "context_sentence": "The ________ creatures glow in the dark depths of the ocean."
+        "q": "Japan is a leader in technological _______, constantly creating new devices and systems.",
+        "options": ["innovation", "tradition", "decline", "confusion"],
+        "answer": 0,
+        "justification": "'Innovation' means new ideas or inventions. 'Constantly creating new devices' indicates innovation.",
+        "context_sentence": "Japan is a leader in technological _______, constantly creating new devices and systems."
       }
     },
     {
-      "english": "hydrothermal",
-      "arabic": "حرمائي",
+      "english": "automotive",
+      "arabic": "صناعة السيارات",
       "page": "Extra 4",
       "question": {
-        "q": "________ vents on the seafloor release extremely hot water.",
-        "options": ["Electrical", "Geothermal", "Solar", "Hydrothermal"],
-        "answer": 3,
-        "justification": "الفتحات الحرمائية (hydrothermal) تطلق ماءً ساخناً جداً. الحرارية الأرضية (geothermal) عامة، والشمسية (solar) والكهربائية (electrical) لا تطلق ماء.",
-        "context_sentence": "________ vents on the seafloor release extremely hot water."
+        "q": "Toyota and Honda are famous names in the _______ industry.",
+        "options": ["automotive", "textile", "agriculture", "aerospace"],
+        "answer": 0,
+        "justification": "'Automotive' relates to cars and vehicles. Toyota and Honda are car manufacturers.",
+        "context_sentence": "Toyota and Honda are famous names in the _______ industry."
       }
     },
     {
-      "english": "chlorophyll",
-      "arabic": "كلوروفيل",
+      "english": "electronics",
+      "arabic": "إلكترونيات",
       "page": "Extra 4",
       "question": {
-        "q": "________ is the pigment that makes leaves look green.",
-        "options": ["Melanin", "Anthocyanin", "Carotenoid", "Chlorophyll"],
-        "answer": 3,
-        "justification": "الكلوروفيل (chlorophyll) يعطي اللون الأخضر. الكاروتينويد (carotenoid) أصفر/برتقالي، والأنثوسيانين (anthocyanin) أحمر/أرجواني، والميلانين (melanin) صبغة بشرية.",
-        "context_sentence": "________ is the pigment that makes leaves look green."
+        "q": "Companies like Sony and Panasonic are global leaders in _______.",
+        "options": ["electronics", "farming", "fishing", "mining"],
+        "answer": 0,
+        "justification": "'Electronics' refers to devices like TVs and phones. Sony and Panasonic are electronics companies.",
+        "context_sentence": "Companies like Sony and Panasonic are global leaders in _______."
       }
     },
     {
-      "english": "carotenoid",
-      "arabic": "كاروتينويد",
+      "english": "robotics",
+      "arabic": "الروبوتات",
       "page": "Extra 4",
       "question": {
-        "q": "The yellow and orange colors of autumn leaves come from ________ pigments.",
-        "options": ["Melanin", "Anthocyanin", "Chlorophyll", "Carotenoid"],
-        "answer": 3,
-        "justification": "الكاروتينويد (carotenoid) صبغة صفراء/برتقالية. الكلوروفيل (chlorophyll) أخضر، والأنثوسيانين (anthocyanin) أحمر/أرجواني.",
-        "context_sentence": "The yellow and orange colors of autumn leaves come from ________ pigments."
+        "q": "Japan invests heavily in _______ to build machines that can work alongside humans.",
+        "options": ["robotics", "agriculture", "tourism", "fashion"],
+        "answer": 0,
+        "justification": "'Robotics' is the science of building robots. The sentence mentions 'machines that work alongside humans'.",
+        "context_sentence": "Japan invests heavily in _______ to build machines that can work alongside humans."
       }
     },
     {
-      "english": "decompose",
-      "arabic": "يتحلل",
+      "english": "animation",
+      "arabic": "الرسوم المتحركة",
       "page": "Extra 4",
       "question": {
-        "q": "Fallen leaves slowly ________ and turn into soil.",
-        "options": ["freeze", "grow", "fly", "decompose"],
-        "answer": 3,
-        "justification": "الأوراق تتحلل (decompose) وتغني التربة. النمو (grow) والطيران (fly) والتجمد (freeze) لا يحدثان للأوراق المتساقطة.",
-        "context_sentence": "Fallen leaves slowly ________ and turn into soil."
+        "q": "Japanese _______ has gained fans all over the world through movies and TV series.",
+        "options": ["animation", "agriculture", "construction", "medicine"],
+        "answer": 0,
+        "justification": "'Animation' refers to cartoons and animated films. Japan is famous for anime.",
+        "context_sentence": "Japanese _______ has gained fans all over the world through movies and TV series."
       }
     },
     {
-      "english": "vibrant",
-      "arabic": "زاهي / نابض",
+      "english": "prioritized",
+      "arabic": "يعطي أولوية",
       "page": "Extra 4",
       "question": {
-        "q": "The artist used ________ colors to make the painting come alive.",
-        "options": ["faint", "dark", "dull", "vibrant"],
-        "answer": 3,
-        "justification": "ألوان الخريف تكون زاهية (vibrant) في الأيام المشمسة. الباهتة (dull) والداكنة (dark) والضعيفة (faint) عكس ذلك.",
-        "context_sentence": "The artist used ________ colors to make the painting come alive."
+        "q": "Education is highly _______ in Japan, with the government spending a large portion of its budget on schools.",
+        "options": ["prioritized", "ignored", "rejected", "delayed"],
+        "answer": 0,
+        "justification": "'Prioritized' means treated as more important. The sentence describes heavy investment in education.",
+        "context_sentence": "Education is highly _______ in Japan, with the government spending a large portion of its budget on schools."
       }
     },
     {
-      "english": "nutrient",
-      "arabic": "مغذٍ",
+      "english": "assessments",
+      "arabic": "تقييمات",
       "page": "Extra 4",
       "question": {
-        "q": "Plants absorb ________ from the soil through their roots.",
-        "options": ["sunlight", "air", "water", "nutrients"],
-        "answer": 3,
-        "justification": "التربة تزود النباتات بالمغذيات (nutrients). الماء (water) والشمس (sunlight) والهواء (air) عوامل أخرى.",
-        "context_sentence": "Plants absorb ________ from the soil through their roots."
+        "q": "Students take international _______ to compare their performance with others around the world.",
+        "options": ["assessments", "holidays", "games", "parties"],
+        "answer": 0,
+        "justification": "'Assessments' are tests or evaluations. The sentence talks about comparing performance internationally.",
+        "context_sentence": "Students take international _______ to compare their performance with others around the world."
       }
     },
     {
-      "english": "resistant",
-      "arabic": "مقاوم",
+      "english": "extracurricular",
+      "arabic": "لامنهجي",
       "page": "Extra 4",
       "question": {
-        "q": "The material is highly ________ to heat, so it's used in firefighter suits.",
-        "options": ["weak", "open", "vulnerable", "resistant"],
-        "answer": 3,
-        "justification": "الشبكة كانت مقاومة (resistant) للهجمات. الضعيفة (vulnerable/weak) تعني غير محمية، والمفتوحة (open) غير آمنة.",
-        "context_sentence": "The material is highly ________ to heat, so it's used in firefighter suits."
+        "q": "The school offers many _______ activities such as sports clubs, music lessons, and drama.",
+        "options": ["extracurricular", "academic", "difficult", "boring"],
+        "answer": 0,
+        "justification": "'Extracurricular' means outside the regular curriculum. Sports, music, and drama are examples.",
+        "context_sentence": "The school offers many _______ activities such as sports clubs, music lessons, and drama."
       }
     },
     {
-      "english": "accessible",
-      "arabic": "متاح / سهل الوصول",
+      "english": "calligraphy",
+      "arabic": "فن الخط",
       "page": "Extra 4",
       "question": {
-        "q": "The new ramp makes the building ________ to wheelchair users.",
-        "options": ["dangerous", "difficult", "secret", "accessible"],
-        "answer": 3,
-        "justification": "الويب جعل الإنترنت متاحاً (accessible) للجميع. الصعب (difficult) والسري (secret) والخطير (dangerous) عكس ذلك.",
-        "context_sentence": "The new ramp makes the building ________ to wheelchair users."
+        "q": "The art of beautiful writing, known as _______, is still practiced in many cultures.",
+        "options": ["calligraphy", "photography", "architecture", "sculpture"],
+        "answer": 0,
+        "justification": "'Calligraphy' is decorative handwriting. The sentence defines it as 'the art of beautiful writing'.",
+        "context_sentence": "The art of beautiful writing, known as _______, is still practiced in many cultures."
       }
     },
     {
-      "english": "transmission",
-      "arabic": "انتقال",
+      "english": "ikebana",
+      "arabic": "فن تنسيق الزهور",
       "page": "Extra 4",
       "question": {
-        "q": "The ________ of data over fiber optic cables is extremely fast.",
-        "options": ["deletion", "collection", "storage", "transmission"],
-        "answer": 3,
-        "justification": "البيانات تنتقل (transmission) عبر الكابلات. التجميع (collection) والتخزين (storage) والحذف (deletion) عمليات أخرى.",
-        "context_sentence": "The ________ of data over fiber optic cables is extremely fast."
+        "q": "_______ is the Japanese art of flower arranging, focusing on harmony and balance.",
+        "options": ["Ikebana", "Origami", "Sushi", "Karate"],
+        "answer": 0,
+        "justification": "'Ikebana' is the traditional Japanese art of flower arrangement. The sentence explicitly mentions flower arranging.",
+        "context_sentence": "_______ is the Japanese art of flower arranging, focusing on harmony and balance."
       }
     },
     {
-      "english": "capacity",
-      "arabic": "سعة / قدرة",
+      "english": "typhoons",
+      "arabic": "أعاصير",
       "page": "Extra 4",
       "question": {
-        "q": "The fuel tank has a ________ of 60 litres.",
-        "options": ["color", "size", "weight", "capacity"],
-        "answer": 3,
-        "justification": "للبطاريات سعة (capacity) محدودة. الوزن (weight) والحجم (size) واللون (color) خصائص أخرى.",
-        "context_sentence": "The fuel tank has a ________ of 60 litres."
+        "q": "Strong _______ hit the coast every summer, bringing heavy rain and powerful winds.",
+        "options": ["typhoons", "earthquakes", "volcanoes", "droughts"],
+        "answer": 0,
+        "justification": "'Typhoons' are tropical storms. The sentence describes heavy rain and powerful winds typical of typhoons.",
+        "context_sentence": "Strong _______ hit the coast every summer, bringing heavy rain and powerful winds."
       }
     },
     {
-      "english": "grid",
-      "arabic": "شبكة كهرباء",
+      "english": "resilient",
+      "arabic": "صامد",
       "page": "Extra 4",
       "question": {
-        "q": "Solar panels feed electricity into the national ________.",
-        "options": ["phone", "water", "road", "grid"],
-        "answer": 3,
-        "justification": "الشبكة الذكية (smart grid) تدير الكهرباء. الطريق (road) والهاتف (phone) والماء (water) لا علاقة لها.",
-        "context_sentence": "Solar panels feed electricity into the national ________."
+        "q": "Despite many natural disasters, the people remain _______ and quickly rebuild their communities.",
+        "options": ["resilient", "weak", "afraid", "lazy"],
+        "answer": 0,
+        "justification": "'Resilient' means able to recover quickly. Rebuilding after disasters shows resilience.",
+        "context_sentence": "Despite many natural disasters, the people remain _______ and quickly rebuild their communities."
+      }
+    },
+    {
+      "english": "senators",
+      "arabic": "أعضاء مجلس الشيوخ",
+      "page": "Extra 4",
+      "question": {
+        "q": "Each state elects two _______ to represent it in the upper house of Congress.",
+        "options": ["senators", "presidents", "judges", "mayors"],
+        "answer": 0,
+        "justification": "'Senators' are members of the Senate. The sentence mentions the upper house of Congress.",
+        "context_sentence": "Each state elects two _______ to represent it in the upper house of Congress."
+      }
+    },
+    {
+      "english": "representatives",
+      "arabic": "نواب",
+      "page": "Extra 4",
+      "question": {
+        "q": "The number of _______ each state has depends on its population.",
+        "options": ["representatives", "senators", "governors", "ministers"],
+        "answer": 0,
+        "justification": "'Representatives' are members of the House. Their number depends on state population.",
+        "context_sentence": "The number of _______ each state has depends on its population."
+      }
+    },
+    {
+      "english": "budget",
+      "arabic": "ميزانية",
+      "page": "Extra 4",
+      "question": {
+        "q": "Congress approves the national _______, deciding how money is spent on defense, education, and healthcare.",
+        "options": ["budget", "flag", "anthem", "holiday"],
+        "answer": 0,
+        "justification": "'Budget' is a plan for spending money. The sentence describes allocating funds to different sectors.",
+        "context_sentence": "Congress approves the national _______, deciding how money is spent on defense, education, and healthcare."
+      }
+    },
+    {
+      "english": "declare",
+      "arabic": "يعلن",
+      "page": "Extra 4",
+      "question": {
+        "q": "Only Congress has the power to _______ war against another country.",
+        "options": ["declare", "celebrate", "ignore", "cancel"],
+        "answer": 0,
+        "justification": "'Declare' means officially announce. Declaring war is a formal government action.",
+        "context_sentence": "Only Congress has the power to _______ war against another country."
+      }
+    },
+    {
+      "english": "implement",
+      "arabic": "ينفذ",
+      "page": "Extra 4",
+      "question": {
+        "q": "The executive branch must _______ the laws that Congress passes.",
+        "options": ["implement", "ignore", "destroy", "forget"],
+        "answer": 0,
+        "justification": "'Implement' means put into action. The executive branch carries out laws.",
+        "context_sentence": "The executive branch must _______ the laws that Congress passes."
+      }
+    },
+    {
+      "english": "commander-in-chief",
+      "arabic": "القائد الأعلى للقوات المسلحة",
+      "page": "Extra 4",
+      "question": {
+        "q": "The President serves as the _______ of the armed forces.",
+        "options": ["commander-in-chief", "teacher", "doctor", "lawyer"],
+        "answer": 0,
+        "justification": "'Commander-in-chief' is the highest military leader. The President holds this role.",
+        "context_sentence": "The President serves as the _______ of the armed forces."
+      }
+    },
+    {
+      "english": "cabinet",
+      "arabic": "مجلس الوزراء",
+      "page": "Extra 4",
+      "question": {
+        "q": "The President meets with his _______ regularly to discuss important national issues.",
+        "options": ["cabinet", "family", "students", "athletes"],
+        "answer": 0,
+        "justification": "'Cabinet' refers to senior government officials. The President consults them on national matters.",
+        "context_sentence": "The President meets with his _______ regularly to discuss important national issues."
+      }
+    },
+    {
+      "english": "interpret",
+      "arabic": "يفسر",
+      "page": "Extra 4",
+      "question": {
+        "q": "Judges must _______ the meaning of laws to apply them correctly.",
+        "options": ["interpret", "ignore", "write", "delete"],
+        "answer": 0,
+        "justification": "'Interpret' means explain the meaning. Judges interpret laws to decide cases.",
+        "context_sentence": "Judges must _______ the meaning of laws to apply them correctly."
+      }
+    },
+    {
+      "english": "overturn",
+      "arabic": "يلغي",
+      "page": "Extra 4",
+      "question": {
+        "q": "The Supreme Court can _______ a law if it goes against the constitution.",
+        "options": ["overturn", "support", "write", "publish"],
+        "answer": 0,
+        "justification": "'Overturn' means cancel or reverse. The Court can cancel unconstitutional laws.",
+        "context_sentence": "The Supreme Court can _______ a law if it goes against the constitution."
+      }
+    },
+    {
+      "english": "appointed",
+      "arabic": "مُعيّن",
+      "page": "Extra 4",
+      "question": {
+        "q": "Supreme Court justices are _______ by the President and confirmed by the Senate.",
+        "options": ["appointed", "elected", "hired", "bought"],
+        "answer": 0,
+        "justification": "'Appointed' means chosen for a position. Justices are not elected but appointed.",
+        "context_sentence": "Supreme Court justices are _______ by the President and confirmed by the Senate."
+      }
+    },
+    {
+      "english": "confirmed",
+      "arabic": "يُثبّت (يوافق على)",
+      "page": "Extra 4",
+      "question": {
+        "q": "The Senate must _______ the President's nominations before they take office.",
+        "options": ["confirmed", "rejected", "ignored", "forgotten"],
+        "answer": 0,
+        "justification": "'Confirmed' means formally approved. The Senate approves presidential appointments.",
+        "context_sentence": "The Senate must _______ the President's nominations before they take office."
+      }
+    },
+    {
+      "english": "checks and balances",
+      "arabic": "الضوابط والتوازنات",
+      "page": "Extra 4",
+      "question": {
+        "q": "The system of _______ ensures that no single branch of government becomes too powerful.",
+        "options": ["checks and balances", "free market", "military rule", "absolute power"],
+        "answer": 0,
+        "justification": "'Checks and balances' is a system that limits power. It prevents any branch from dominating.",
+        "context_sentence": "The system of _______ ensures that no single branch of government becomes too powerful."
+      }
+    },
+    {
+      "english": "fosters",
+      "arabic": "يعزز",
+      "page": "Extra 4",
+      "question": {
+        "q": "The new policy _______ cooperation between different government departments.",
+        "options": ["fosters", "destroys", "ignores", "weakens"],
+        "answer": 0,
+        "justification": "'Fosters' means encourages or promotes. The sentence describes improved cooperation.",
+        "context_sentence": "The new policy _______ cooperation between different government departments."
+      }
+    },
+    {
+      "english": "distinct",
+      "arabic": "متميز",
+      "page": "Extra 4",
+      "question": {
+        "q": "Each branch of government has _______ powers and responsibilities.",
+        "options": ["distinct", "identical", "shared", "unclear"],
+        "answer": 0,
+        "justification": "'Distinct' means clearly different. The branches have separate powers.",
+        "context_sentence": "Each branch of government has _______ powers and responsibilities."
+      }
+    },
+    {
+      "english": "reverse osmosis",
+      "arabic": "التناضح العكسي",
+      "page": "Extra 4",
+      "question": {
+        "q": "_______ is a water purification method that uses a semipermeable membrane to remove salt.",
+        "options": ["Reverse osmosis", "Thermal distillation", "Solar power", "Wind energy"],
+        "answer": 0,
+        "justification": "'Reverse osmosis' forces water through a membrane to filter out salt. The sentence describes this process.",
+        "context_sentence": "_______ is a water purification method that uses a semipermeable membrane to remove salt."
+      }
+    },
+    {
+      "english": "thermal distillation",
+      "arabic": "التقطير الحراري",
+      "page": "Extra 4",
+      "question": {
+        "q": "_______ involves heating seawater to create steam, which is then condensed into fresh water.",
+        "options": ["Thermal distillation", "Reverse osmosis", "Freezing", "Mixing"],
+        "answer": 0,
+        "justification": "'Thermal distillation' uses heat to evaporate and condense water. The sentence describes heating seawater to make steam.",
+        "context_sentence": "_______ involves heating seawater to create steam, which is then condensed into fresh water."
+      }
+    },
+    {
+      "english": "scarcity",
+      "arabic": "ندرة",
+      "page": "Extra 4",
+      "question": {
+        "q": "Water _______ is a serious problem in desert regions where rainfall is very low.",
+        "options": ["scarcity", "abundance", "purity", "color"],
+        "answer": 0,
+        "justification": "'Scarcity' means shortage. Desert regions lack water, hence water scarcity.",
+        "context_sentence": "Water _______ is a serious problem in desert regions where rainfall is very low."
+      }
+    },
+    {
+      "english": "rely",
+      "arabic": "يعتمد على",
+      "page": "Extra 4",
+      "question": {
+        "q": "Many Middle Eastern countries _______ heavily on desalination for their fresh water supply.",
+        "options": ["rely", "ignore", "waste", "pollute"],
+        "answer": 0,
+        "justification": "'Rely' means depend on. The sentence indicates strong dependence on desalination.",
+        "context_sentence": "Many Middle Eastern countries _______ heavily on desalination for their fresh water supply."
+      }
+    },
+    {
+      "english": "costly",
+      "arabic": "مكلف",
+      "page": "Extra 4",
+      "question": {
+        "q": "Building and operating desalination plants is very _______ due to the energy and equipment required.",
+        "options": ["costly", "cheap", "simple", "fast"],
+        "answer": 0,
+        "justification": "'Costly' means expensive. The sentence explains that desalination requires significant resources.",
+        "context_sentence": "Building and operating desalination plants is very _______ due to the energy and equipment required."
+      }
+    },
+    {
+      "english": "advancements",
+      "arabic": "تطورات",
+      "page": "Extra 4",
+      "question": {
+        "q": "Technological _______ have made desalination more efficient and less expensive over time.",
+        "options": ["advancements", "problems", "failures", "delays"],
+        "answer": 0,
+        "justification": "'Advancements' means progress or improvements. The sentence describes efficiency and cost reduction.",
+        "context_sentence": "Technological _______ have made desalination more efficient and less expensive over time."
+      }
+    },
+    {
+      "english": "poses",
+      "arabic": "يشكل",
+      "page": "Extra 4",
+      "question": {
+        "q": "Desalination _______ environmental challenges because it consumes large amounts of energy.",
+        "options": ["poses", "solves", "ignores", "celebrates"],
+        "answer": 0,
+        "justification": "'Poses' means presents or creates. The sentence discusses challenges created by desalination.",
+        "context_sentence": "Desalination _______ environmental challenges because it consumes large amounts of energy."
+      }
+    },
+    {
+      "english": "significant",
+      "arabic": "كبير",
+      "page": "Extra 4",
+      "question": {
+        "q": "The project requires a _______ amount of funding to complete on time.",
+        "options": ["significant", "small", "tiny", "minor"],
+        "answer": 0,
+        "justification": "'Significant' means large or important. The sentence indicates a large amount of funding is needed.",
+        "context_sentence": "The project requires a _______ amount of funding to complete on time."
+      }
+    },
+    {
+      "english": "disposal",
+      "arabic": "التخلص من",
+      "page": "Extra 4",
+      "question": {
+        "q": "Proper _______ of chemical waste is essential to protect the environment.",
+        "options": ["disposal", "creation", "collection", "storage"],
+        "answer": 0,
+        "justification": "'Disposal' means getting rid of something. The sentence discusses getting rid of waste safely.",
+        "context_sentence": "Proper _______ of chemical waste is essential to protect the environment."
+      }
+    },
+    {
+      "english": "marine",
+      "arabic": "بحري",
+      "page": "Extra 4",
+      "question": {
+        "q": "The oil spill caused great damage to _______ life along the coast.",
+        "options": ["marine", "land", "air", "urban"],
+        "answer": 0,
+        "justification": "'Marine' refers to the sea. The sentence mentions damage along the coast, so marine life is affected.",
+        "context_sentence": "The oil spill caused great damage to _______ life along the coast."
+      }
+    },
+    {
+      "english": "ecosystems",
+      "arabic": "أنظمة بيئية",
+      "page": "Extra 4",
+      "question": {
+        "q": "Coral reefs are delicate _______ that can be destroyed by pollution and climate change.",
+        "options": ["ecosystems", "buildings", "machines", "vehicles"],
+        "answer": 0,
+        "justification": "'Ecosystems' are communities of living organisms. Coral reefs are natural ecosystems.",
+        "context_sentence": "Coral reefs are delicate _______ that can be destroyed by pollution and climate change."
+      }
+    },
+    {
+      "english": "renewable",
+      "arabic": "متجدد",
+      "page": "Extra 4",
+      "question": {
+        "q": "Solar and wind power are examples of _______ energy sources that will never run out.",
+        "options": ["renewable", "fossil", "nuclear", "limited"],
+        "answer": 0,
+        "justification": "'Renewable' means able to be replenished. Solar and wind energy are naturally replenished.",
+        "context_sentence": "Solar and wind power are examples of _______ energy sources that will never run out."
       }
     },
     {
@@ -451,36 +646,31 @@
       "arabic": "مستدام",
       "page": "Extra 4",
       "question": {
-        "q": "We need to find ________ sources of energy that won't harm the planet.",
-        "options": ["expensive", "dangerous", "temporary", "sustainable"],
-        "answer": 3,
-        "justification": "الطاقة الشمسية مستدامة (sustainable). المؤقتة (temporary) والخطيرة (dangerous) والغالية (expensive) لا تصفها.",
-        "context_sentence": "We need to find ________ sources of energy that won't harm the planet."
+        "q": "We need to find _______ solutions to protect the planet for future generations.",
+        "options": ["sustainable", "temporary", "dangerous", "expensive"],
+        "answer": 0,
+        "justification": "'Sustainable' means able to continue without harming the environment. The sentence mentions protecting the planet.",
+        "context_sentence": "We need to find _______ solutions to protect the planet for future generations."
       }
     },
     {
-      "english": "emission",
-      "arabic": "انبعاث",
+      "english": "crucial",
+      "arabic": "حاسم",
       "page": "Extra 4",
       "question": {
-        "q": "The factory reduced its carbon ________ by installing filters.",
-        "options": ["noise", "prices", "incomes", "emissions"],
-        "answer": 3,
-        "justification": "السيارات تنتج انبعاثات كربونية (emissions). الدخل (incomes) والأسعار (prices) والضوضاء (noise) ليست غازات.",
-        "context_sentence": "The factory reduced its carbon ________ by installing filters."
-      }
-    },
-    {
-      "english": "grant",
-      "arabic": "منحة",
-      "page": "Extra 4",
-      "question": {
-        "q": "The university received a research ________ to study renewable energy.",
-        "options": ["bans", "taxes", "fines", "grants"],
-        "answer": 3,
-        "justification": "المدينة تقدم منحاً (grants) للمشاريع الخضراء. الغرامات (fines) والضرائب (taxes) والحظر (bans) أمور سلبية.",
-        "context_sentence": "The university received a research ________ to study renewable energy."
+        "q": "Clean water is _______ for human survival; without it, we cannot live.",
+        "options": ["crucial", "optional", "unnecessary", "harmful"],
+        "answer": 0,
+        "justification": "'Crucial' means extremely important. The sentence states we cannot live without water, indicating its importance.",
+        "context_sentence": "Clean water is _______ for human survival; without it, we cannot live."
       }
     }
   ]
 }
+EOF
+
+git add content/day-04/vocabulary.json
+git commit -m "تحديث مفردات اليوم الرابع: 45 كلمة حصراً من القطع الأصلية"
+git push origin main
+
+echo "✅ تم رفع ملف اليوم الرابع بـ 45 كلمة. جربه الآن: https://english-zone.github.io/itc-apne-prep/practice.html?day=4"
