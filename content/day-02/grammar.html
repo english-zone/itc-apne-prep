@@ -1,365 +1,432 @@
-```html
-<div class="grammar-content">
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>قواعد اللغة الإنجليزية – مبسطة جداً</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--              SIMPLE TENSES (الأزمنة البسيطة)              -->
-<!-- ═══════════════════════════════════════════════════════ -->
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
-<h2>⚡ Simple Tenses (الأزمنة البسيطة)</h2>
+  body {
+    font-family: 'Tajawal', 'Segoe UI', sans-serif;
+    background: #f0f5ff;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+  }
 
-<h3>🔹 Present Simple (المضارع البسيط)</h3>
-<p><strong>الاستخدام:</strong></p>
+  .page {
+    max-width: 1000px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 28px;
+    padding: 2rem 1.8rem;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.06);
+    border: 1px solid #e0e7f2;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+    color: #00264d;
+    border-right: 8px solid #0071e3;
+    padding-right: 1rem;
+    margin: 2.5rem 0 1.3rem;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  h2::before {
+    content: "📌";
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+    color: #004080;
+    margin: 1.8rem 0 1rem;
+    padding: 0.5rem 1rem;
+    background: #f4f8ff;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  h3::before {
+    content: "✨";
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 2;
+    color: #1a1a2e;
+    margin-bottom: 0.8rem;
+  }
+
+  strong {
+    color: #b33c00;
+    font-weight: 700;
+  }
+
+  b {
+    color: #c4450c;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-right: 1.8rem;
+  }
+
+  li {
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    position: relative;
+    padding-right: 1.8rem;
+    line-height: 1.8;
+  }
+
+  li::before {
+    content: "✔️";
+    position: absolute;
+    right: 0;
+    color: #28a745;
+    font-size: 1.2rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0 1.5rem;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+    border: 1px solid #d6e0f0;
+  }
+
+  th {
+    background: #0059b3;
+    color: white;
+    font-weight: 700;
+    padding: 12px 10px;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  td {
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    border-bottom: 1px solid #e0e8f5;
+    background-color: #fafcff;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+
+  .tag-table th {
+    background: #1e3a5f;
+  }
+
+  .green-row td { background: #e6ffe6; }
+  .red-row td { background: #ffe6e6; }
+  .blue-row td { background: #e6ecff; }
+
+  hr {
+    border: 1px dashed #b3c7e6;
+    margin: 2rem 0;
+  }
+
+  .note {
+    background: #fff9e6;
+    border-right: 6px solid #ffaa00;
+    padding: 1rem 1.2rem;
+    border-radius: 12px;
+    margin: 1.2rem 0;
+    font-size: 1.05rem;
+  }
+
+  .print-footer {
+    text-align: center;
+    margin-top: 2.8rem;
+    padding: 1rem;
+    background: #eef3fd;
+    border-radius: 16px;
+    font-weight: bold;
+    color: #0059b3;
+    font-size: 1.1rem;
+  }
+
+  @media print {
+    body {
+      background: white;
+      padding: 0;
+    }
+    .page {
+      box-shadow: none;
+      border: none;
+      padding: 1rem;
+      max-width: 100%;
+    }
+    h2 { border-right: 4px solid black; }
+    h2::before { display: none; }
+    th { background: #ddd; color: black; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- ========== الأزمنة البسيطة ========== -->
+<h2>⚡ الأزمنة البسيطة (Simple Tenses)</h2>
+
+<h3>1️⃣ المضارع البسيط (Present Simple)</h3>
+<p><strong>نستخدمه عشان:</strong></p>
 <ul>
-<li>حقائق عامة ودائمة: The Earth <b>rotates</b> around its axis.</li>
-<li>عادات متكررة: He <b>gets up</b> at 8 o'clock every morning.</li>
-<li>جداول ومواعيد مستقبلية: The train <b>leaves</b> at 3 tomorrow.</li>
+<li>حقيقة ثابتة: <b>The Earth moves</b> around the sun.</li>
+<li>شيء يتكرر كل يوم: <b>He drinks</b> coffee every morning.</li>
+<li>مواعيد وجداول: The bus <b>leaves</b> at 8:00.</li>
 </ul>
-
-<p><strong>التركيب:</strong></p>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#fffde7"><th>النوع</th><th>الضمير</th><th>الفعل</th></tr>
-<tr><td><b style="color:green">A:</b> مثبت</td><td>I / you / we / they</td><td>work</td></tr>
-<tr><td></td><td>He / she / it</td><td>work<b>s</b></td></tr>
-<tr><td><b style="color:red">N:</b> منفي</td><td>I / you / we / they</td><td>do not (don't) work</td></tr>
-<tr><td></td><td>He / she / it</td><td>does not (doesn't) work</td></tr>
-<tr><td><b style="color:blue">Q:</b> سؤال</td><td>Do I / you / we / they</td><td>work?</td></tr>
-<tr><td></td><td>Does he / she / it</td><td>work?</td></tr>
+<p><strong>كيف نكونه:</strong></p>
+<table>
+<tr><th>👤 الضمير</th><th>✅ مثبت</th><th>❌ منفي</th><th>❓ سؤال</th></tr>
+<tr><td>I / You / We / They</td><td>play</td><td>don't play</td><td>Do ... play?</td></tr>
+<tr><td>He / She / It</td><td>plays</td><td>doesn't play</td><td>Does ... play?</td></tr>
 </table>
-
-<p><strong>كلمات دالة:</strong> always, every day/month/year, never, often, normally, seldom, sometimes, usually, twice a week, all the time.</p>
+<p><strong>كلمات بتساعد:</strong> always, usually, sometimes, every day, never.</p>
 
 <hr>
 
-<h3>🔸 Past Simple (الماضي البسيط)</h3>
-<p><strong>الاستخدام:</strong></p>
+<h3>2️⃣ الماضي البسيط (Past Simple)</h3>
+<p><strong>نستخدمه لشيء خلص في الماضي:</strong></p>
 <ul>
-<li>حدث انتهى في الماضي: I <b>met</b> my friend <u>yesterday</u>.</li>
-<li>سلسلة أحداث متتالية (القصص): He <b>opened</b> the door, <b>switched on</b> the light and <b>fed</b> his cat.</li>
-<li>حدث قطع حدثًا مستمرًا: He <b>fell</b> asleep while the teacher <b>was explaining</b>.</li>
+<li>حدث وانتهى: I <b>visited</b> my uncle last week.</li>
+<li>قصة متسلسلة: He <b>opened</b> the door and <b>entered</b>.</li>
 </ul>
-
-<p><strong>التركيب:</strong></p>
-<ul>
-<li><b>Regular verbs:</b> verb + ed → worked, played</li>
-<li><b>Irregular verbs:</b> التصريف الثاني → went, ate</li>
-</ul>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#fffde7"><th>النوع</th><th>الضمير</th><th>الفعل</th></tr>
-<tr><td><b style="color:green">A:</b></td><td>I / He / She / It / You / We / They</td><td>worked / went</td></tr>
-<tr><td><b style="color:red">N:</b></td><td>الكل</td><td>did not (didn't) work / go</td></tr>
-<tr><td><b style="color:blue">Q:</b></td><td>Did + الكل</td><td>work / go?</td></tr>
+<p><strong>كيف نكونه:</strong></p>
+<table>
+<tr><th>👤 الضمير</th><th>✅ مثبت (فعل + ed / تصريف تاني)</th><th>❌ منفي</th><th>❓ سؤال</th></tr>
+<tr><td>كل الضمائر</td><td>played / went</td><td>didn't play / didn't go</td><td>Did ... play / go?</td></tr>
 </table>
-
-<p><strong>كلمات دالة:</strong> yesterday, 2 minutes/hours/days ago, in 1970, the other day, last month/year/week/Sunday.</p>
+<p><strong>كلمات بتساعد:</strong> yesterday, last night, two days ago, in 2020.</p>
 
 <hr>
 
-<h3>🔹 Future Simple (المستقبل البسيط)</h3>
-<p><strong>الاستخدام:</strong></p>
+<h3>3️⃣ المستقبل البسيط (Future Simple)</h3>
+<p><strong>نستخدمه لشيء رح يصير بعدين:</strong></p>
 <ul>
-<li>أحداث مستقبلية: I<b>'ll call</b> you <u>tomorrow</u>.</li>
-<li>توقعات: I <b>think</b> it <b>will rain</b> tomorrow.</li>
-<li>قرار لحظي: Do you like these shoes? – Yes, I<b>'ll buy</b> them.</li>
-<li>الجملة الشرطية الأولى: If the weather is fine, we<b>'ll go</b> to the country.</li>
+<li>توقع: I think it <b>will rain</b>.</li>
+<li>قرار سريع: I<b>'ll help</b> you.</li>
+<li>شرط بسيط: If I see him, I<b>'ll tell</b> him.</li>
 </ul>
-
-<p><strong>التركيب:</strong></p>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#fffde7"><th>النوع</th><th>الضمير</th><th>الفعل</th></tr>
-<tr><td><b style="color:green">A:</b></td><td>I / we</td><td>shall◆ / will + work</td></tr>
-<tr><td></td><td>He / she / it / you / they</td><td>will + work</td></tr>
-<tr><td><b style="color:red">N:</b></td><td>I / we</td><td>shall not (shan't) / will not (won't) + work</td></tr>
-<tr><td></td><td>الباقي</td><td>will not (won't) + work</td></tr>
-<tr><td><b style="color:blue">Q:</b></td><td>Shall / Will + I / we</td><td>work?</td></tr>
-<tr><td></td><td>Will + he / she / it / you / they</td><td>work?</td></tr>
+<p><strong>كيف نكونه:</strong></p>
+<table>
+<tr><th>👤 الضمير</th><th>✅ مثبت</th><th>❌ منفي</th><th>❓ سؤال</th></tr>
+<tr><td>I / We</td><td>shall/will play</td><td>shan't / won't play</td><td>Shall/Will ... play?</td></tr>
+<tr><td>He/She/It/You/They</td><td>will play</td><td>won't play</td><td>Will ... play?</td></tr>
 </table>
-
-<p>◆ <b>NOTE:</b> Shall تُستخدم غالبًا في الأسئلة: Shall I…? / Shall we…?<br>
-في المحادثة نستخدم عادة: <b>I'll</b> و <b>we'll</b>.</p>
-
-<p><strong>كلمات دالة:</strong> tomorrow, the day after tomorrow, next week/month/year, soon, in the near future, some day, in two days/five minutes.</p>
+<p><small>🎤 بالمحادثة نقول I'll – We'll.</small></p>
+<p><strong>كلمات بتساعد:</strong> tomorrow, next week, soon, in two days.</p>
 
 <hr>
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--           CONTINUOUS TENSES (الأزمنة المستمرة)           -->
-<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ========== الأزمنة المستمرة ========== -->
+<h2>🌊 الأزمنة المستمرة (Continuous Tenses)</h2>
 
-<h2>🌊 Continuous Tenses (الأزمنة المستمرة)</h2>
-
-<h3>🔹 Present Continuous (المضارع المستمر)</h3>
-<p><strong>الاستخدام:</strong></p>
+<h3>1️⃣ المضارع المستمر (Present Continuous)</h3>
+<p><strong>نستخدمه لشيء عم يصير هلا أو قريب:</strong></p>
 <ul>
-<li>حدث يحدث الآن لحظة الكلام: Look! The boys <b>are playing</b> football.</li>
-<li>حدث يحدث في هذه الفترة وليس بالضرورة الآن: We <b>are studying</b> very hard <u>these days</u>.</li>
-<li>ترتيب مستقبلي مؤكد: I <b>am meeting</b> my friend at the station. She <b>is arriving</b> at 8 pm.</li>
+<li>الآن: Look! The cat <b>is sleeping</b>.</li>
+<li>هالفترة: I<b>'m reading</b> a nice book these days.</li>
+<li>خطة أكيدة: I<b>'m meeting</b> him at 5.</li>
 </ul>
-
-<p><strong>التركيب:</strong> to be (am/is/are) + verb + <b>-ing</b></p>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#e3f2fd"><th>النوع</th><th>الضمير</th><th>الفعل</th></tr>
-<tr><td><b style="color:green">A:</b></td><td>I</td><td>am (I'm) working</td></tr>
-<tr><td></td><td>He / she / it</td><td>is (he's) working</td></tr>
-<tr><td></td><td>You / we / they</td><td>are (we're) working</td></tr>
-<tr><td><b style="color:red">N:</b></td><td>I</td><td>am not (I'm not) working</td></tr>
-<tr><td></td><td>He / she / it</td><td>is not (isn't) working</td></tr>
-<tr><td></td><td>You / we / they</td><td>are not (aren't) working</td></tr>
-<tr><td><b style="color:blue">Q:</b></td><td>Am I</td><td>working?</td></tr>
-<tr><td></td><td>Is he / she / it</td><td>working?</td></tr>
-<tr><td></td><td>Are you / we / they</td><td>working?</td></tr>
+<p><strong>التركيبة:</strong> am / is / are + فعل + ing</p>
+<table>
+<tr><th>👤</th><th>✅ مثبت</th><th>❌ منفي</th><th>❓ سؤال</th></tr>
+<tr><td>I</td><td>am eating</td><td>am not eating</td><td>Am I eating?</td></tr>
+<tr><td>He / She / It</td><td>is eating</td><td>isn't eating</td><td>Is ... eating?</td></tr>
+<tr><td>You / We / They</td><td>are eating</td><td>aren't eating</td><td>Are ... eating?</td></tr>
 </table>
-
-<p><strong>كلمات دالة:</strong> now, at the moment, at present, Look!, Listen!, these days, this morning, today.</p>
+<p><strong>كلمات بتساعد:</strong> now, at the moment, Look!, Listen!, today.</p>
 
 <hr>
 
-<h3>🔸 Past Continuous (الماضي المستمر)</h3>
-<p><strong>الاستخدام:</strong></p>
+<h3>2️⃣ الماضي المستمر (Past Continuous)</h3>
+<p><strong>نستخدمه لشيء كان مستمر بوقت معين بالماضي:</strong></p>
 <ul>
-<li>حدث مستمر في وقت محدد في الماضي: What <b>were</b> you <b>doing</b> <u>at 6 o'clock yesterday</u>?</li>
-<li>حدثان مستمران في نفس الوقت: She <b>was cooking</b> dinner and her kids <b>were watching</b> TV.</li>
-<li>حدث مستمر قطعه حدث قصير: I <b>was working</b> on computer when the telephone <b>rang</b>.</li>
-<li>وصف الخلفية في القصص: The sun <b>was shining</b> and the birds <b>were singing</b>...</li>
+<li>ساعة معينة: At 7 pm I <b>was watching</b> TV.</li>
+<li>حدثين بنفس الوقت: She <b>was cooking</b> while he <b>was reading</b>.</li>
+<li>حدث قطع حدث: I <b>was sleeping</b> when the phone rang.</li>
 </ul>
-
-<p><strong>التركيب:</strong> to be (was/were) + verb + <b>-ing</b></p>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#e3f2fd"><th>النوع</th><th>الضمير</th><th>الفعل</th></tr>
-<tr><td><b style="color:green">A:</b></td><td>I / He / she / it</td><td>was working</td></tr>
-<tr><td></td><td>You / we / they</td><td>were working</td></tr>
-<tr><td><b style="color:red">N:</b></td><td>I / He / she / it</td><td>was not (wasn't) working</td></tr>
-<tr><td></td><td>You / we / they</td><td>were not (weren't) working</td></tr>
-<tr><td><b style="color:blue">Q:</b></td><td>Was I / he / she / it</td><td>working?</td></tr>
-<tr><td></td><td>Were you / we / they</td><td>working?</td></tr>
+<p><strong>التركيبة:</strong> was / were + فعل + ing</p>
+<table>
+<tr><th>👤</th><th>✅ مثبت</th><th>❌ منفي</th><th>❓ سؤال</th></tr>
+<tr><td>I / He / She / It</td><td>was playing</td><td>wasn't playing</td><td>Was ... playing?</td></tr>
+<tr><td>You / We / They</td><td>were playing</td><td>weren't playing</td><td>Were ... playing?</td></tr>
 </table>
-
-<p><strong>كلمات دالة:</strong> at 6 o'clock yesterday, from 3 to 6, on Monday, when Mum came, while.</p>
+<p><strong>كلمات بتساعد:</strong> at 6 o'clock yesterday, while, when.</p>
 
 <hr>
 
-<h3>🔹 Future Continuous (المستقبل المستمر)</h3>
-<p><strong>الاستخدام:</strong></p>
+<h3>3️⃣ المستقبل المستمر (Future Continuous)</h3>
+<p><strong>شيء رح يكون مستمر بوقت محدد بالمستقبل:</strong></p>
 <ul>
-<li>حدث سيكون مستمرًا في لحظة معينة في المستقبل: I <b>will be playing</b> tennis <u>at 10am tomorrow</u>.</li>
-<li><u>This time on Sunday</u> I<b>'ll be bathing</b> in the sea.</li>
-<li>When you arrive, he <b>will be waiting</b> for you.</li>
+<li>This time tomorrow I <b>will be flying</b> to Dubai.</li>
 </ul>
-
-<p><strong>التركيب:</strong> shall/will + be + verb + <b>-ing</b></p>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#e3f2fd"><th>النوع</th><th>الضمير</th><th>الفعل</th></tr>
-<tr><td><b style="color:green">A:</b></td><td>I / we</td><td>shall◆ / will be working</td></tr>
-<tr><td></td><td>He / she / it / you / they</td><td>will be working</td></tr>
-<tr><td><b style="color:red">N:</b></td><td>I / we</td><td>shall not (shan't) / will not (won't) be working</td></tr>
-<tr><td></td><td>الباقي</td><td>will not (won't) be working</td></tr>
-<tr><td><b style="color:blue">Q:</b></td><td>Shall / Will I / we</td><td>be working?</td></tr>
-<tr><td></td><td>Will he / she / it / you / they</td><td>be working?</td></tr>
+<p><strong>التركيبة:</strong> will + be + فعل + ing</p>
+<table>
+<tr><th>👤</th><th>✅ مثبت</th><th>❌ منفي</th><th>❓ سؤال</th></tr>
+<tr><td>I / We</td><td>shall/will be eating</td><td>shan't/won't be eating</td><td>Shall/Will ... be eating?</td></tr>
+<tr><td>الباقي</td><td>will be eating</td><td>won't be eating</td><td>Will ... be eating?</td></tr>
 </table>
-
-<p><strong>كلمات دالة:</strong> at 5 o'clock tomorrow, this time on Sunday, when I come.</p>
 
 <hr>
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--             PERFECT TENSES (الأزمنة التامة)              -->
-<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ========== الأزمنة التامة ========== -->
+<h2>✅ الأزمنة التامة (Perfect Tenses)</h2>
 
-<h2>✅ Perfect Tenses (الأزمنة التامة)</h2>
-
-<h3>🔹 Present Perfect (المضارع التام)</h3>
-<p><strong>الاستخدام:</strong></p>
+<h3>1️⃣ المضارع التام (Present Perfect)</h3>
+<p><strong>نستخدمه لشيء خلص بس له علاقة بالحاضر:</strong></p>
 <ul>
-<li>حدث له نتيجة في الحاضر (وقت الحدث غير مهم): I <b>have lost</b> my keys. I can't open the door.</li>
-<li>حدث مكتمل متصل بالحاضر: I <b>have seen</b> this film and I can discuss it with you now.</li>
-<li>مع فترات زمنية لم تنتهِ بعد (this morning/today/this week/this year): <b>Have</b> you <b>called</b> your mother <u>today</u>?</li>
+<li>نتيجة شايفينها: I <b>have lost</b> my keys (ما معي أفتح).</li>
+<li>تجربة بالحياة: She <b>has visited</b> Paris.</li>
+<li>مدة من الماضي للحين: We <b>have lived</b> here <b>for</b> 5 years.</li>
 </ul>
-
-<p>⚠️ <b>ملاحظة:</b> أسئلة المضارع التام لا تبدأ بـ <b>When</b>:<br>
-❌ <s>When did you see this film?</s> (هذا Past Simple)<br>
-✅ Have you seen this film?</p>
-
-<p><strong>التركيب:</strong> have/has + participle II (التصريف الثالث)</p>
-<ul>
-<li>Regular verbs + ed: worked, asked</li>
-<li>Irregular verbs – III column: gone, eaten</li>
-</ul>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#e8f5e9"><th>النوع</th><th>الضمير</th><th>الفعل</th></tr>
-<tr><td><b style="color:green">A:</b></td><td>I / we / you / they</td><td>have worked/gone</td></tr>
-<tr><td></td><td>He / she / it</td><td>has worked/gone</td></tr>
-<tr><td><b style="color:red">N:</b></td><td>I / we / you / they</td><td>have not (haven't) worked/gone</td></tr>
-<tr><td></td><td>He / she / it</td><td>has not (hasn't) worked/gone</td></tr>
-<tr><td><b style="color:blue">Q:</b></td><td>Have I / we / you / they</td><td>worked/gone?</td></tr>
-<tr><td></td><td>Has he / she / it</td><td>worked/gone?</td></tr>
+<p>⚠️ ما نبدأ سؤال بـ "When" مع هالزمن.</p>
+<p><strong>التركيبة:</strong> have / has + التصريف الثالث</p>
+<table>
+<tr><th>👤</th><th>✅ مثبت</th><th>❌ منفي</th><th>❓ سؤال</th></tr>
+<tr><td>I / You / We / They</td><td>have eaten</td><td>haven't eaten</td><td>Have ... eaten?</td></tr>
+<tr><td>He / She / It</td><td>has eaten</td><td>hasn't eaten</td><td>Has ... eaten?</td></tr>
 </table>
-
-<p><strong>كلمات دالة:</strong> already, ever, just, never, not yet, so far, till now, up to now, of late, lately, recently, <b>for</b> and <b>since</b>, This is the first time..., this morning/evening, today, this week, this year.</p>
+<p><strong>كلمات بتساعد:</strong> ever, never, just, already, yet, for, since.</p>
 
 <hr>
 
-<h3>🔸 Past Perfect (الماضي التام)</h3>
-<p><strong>الاستخدام:</strong></p>
+<h3>2️⃣ الماضي التام (Past Perfect)</h3>
+<p><strong>حدث صار قبل حدث ثاني بالماضي:</strong></p>
 <ul>
-<li>حدث اكتمل <b>قبل</b> حدث آخر في الماضي: She <b>had already finished</b> her work <u>when he came</u>.</li>
-<li>By the time the police arrived, he <b>had already disappeared</b>.</li>
-<li><b>لا يُستخدم</b> لسلسلة أحداث متتالية (نستخدم Past Simple): When I <b>wrote</b> the letter, I <b>posted</b> it.</li>
-<li>مع التعبيرات: hardly/scarcely/nearly/barely + when: I <b>had hardly done</b> it when they came.</li>
-<li><b>No sooner</b> had they arrived <b>than</b> it started to rain.</li>
+<li>When I arrived, she <b>had already left</b>.</li>
+<li>By 5 pm, I <b>had finished</b> the work.</li>
 </ul>
-
-<p><strong>التركيب:</strong> had + participle II</p>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#e8f5e9"><th>النوع</th><th>الضمير</th><th>الفعل</th></tr>
-<tr><td><b style="color:green">A:</b></td><td>I / you / we / they / He / she / it</td><td>had worked/gone</td></tr>
-<tr><td><b style="color:red">N:</b></td><td>الكل</td><td>had not (hadn't) worked/gone</td></tr>
-<tr><td><b style="color:blue">Q:</b></td><td>Had + الكل</td><td>worked/gone?</td></tr>
+<p><strong>التركيبة:</strong> had + التصريف الثالث (للجميع)</p>
+<table>
+<tr><th>👤</th><th>✅ مثبت</th><th>❌ منفي</th><th>❓ سؤال</th></tr>
+<tr><td>كل الضمائر</td><td>had gone</td><td>hadn't gone</td><td>Had ... gone?</td></tr>
 </table>
-
-<p><strong>كلمات دالة:</strong> when I entered, by 5 o'clock yesterday (نفس ظروف Present Perfect لكن في سياق الماضي), no sooner...than.</p>
 
 <hr>
 
-<h3>🔹 Future Perfect (المستقبل التام)</h3>
-<p><strong>الاستخدام:</strong></p>
+<h3>3️⃣ المستقبل التام (Future Perfect)</h3>
+<p><strong>حدث رح يخلص قبل وقت معين بالمستقبل:</strong></p>
 <ul>
-<li>حدث سيكتمل <b>قبل</b> لحظة محددة في المستقبل: She <b>will have finished</b> this work <u>by 2 o'clock tomorrow</u>.</li>
-<li>The film <b>will have already started</b> <u>by the time we come</u>. Hurry up!</li>
+<li>By next summer, I <b>will have graduated</b>.</li>
 </ul>
-
-<p><strong>التركيب:</strong> shall/will + have + participle II</p>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#e8f5e9"><th>النوع</th><th>الضمير</th><th>الفعل</th></tr>
-<tr><td><b style="color:green">A:</b></td><td>I / we</td><td>shall◆ / will have worked/gone</td></tr>
-<tr><td></td><td>He / she / it / you / they</td><td>will have worked/gone</td></tr>
-<tr><td><b style="color:red">N:</b></td><td>I / we</td><td>shall not (shan't) / will not (won't) have worked/gone</td></tr>
-<tr><td></td><td>الباقي</td><td>will not (won't) have worked/gone</td></tr>
-<tr><td><b style="color:blue">Q:</b></td><td>Shall / Will I / we</td><td>have worked/gone?</td></tr>
-<tr><td></td><td>Will he / she / it / you / they</td><td>have worked/gone?</td></tr>
+<p><strong>التركيبة:</strong> will + have + التصريف الثالث</p>
+<table>
+<tr><th>👤</th><th>✅ مثبت</th><th>❌ منفي</th><th>❓ سؤال</th></tr>
+<tr><td>I / We</td><td>shall/will have done</td><td>shan't/won't have done</td><td>Shall/Will ... have done?</td></tr>
+<tr><td>الباقي</td><td>will have done</td><td>won't have done</td><td>Will ... have done?</td></tr>
 </table>
-
-<p><strong>كلمات دالة:</strong> by this time tomorrow, by 2 o'clock tomorrow, when you come back.</p>
 
 <hr>
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--     PERFECT CONTINUOUS TENSES (الأزمنة التامة المستمرة)   -->
-<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ========== الأزمنة التامة المستمرة ========== -->
+<h2>🔄 الأزمنة التامة المستمرة (Perfect Continuous)</h2>
 
-<h2>🔄 Perfect Continuous Tenses (الأزمنة التامة المستمرة)</h2>
-
-<h3>🔹 Present Perfect Continuous (المضارع التام المستمر)</h3>
-<p><strong>الاستخدام:</strong></p>
+<h3>1️⃣ المضارع التام المستمر</h3>
+<p><strong>حدث بدأ من فترة وللحين مستمر:</strong></p>
 <ul>
-<li>للتعبير عن مدة استمرار حدث حتى الآن: I<b>'ve been learning</b> English <u>for six years</u>.</li>
-<li>It<b>'s been raining</b> <u>all day</u>.</li>
-<li>للتعبير عما كنا نفعله مؤخرًا (مع وجود دليل): Your hands are dirty. – I<b>'ve been painting</b> the walls.</li>
+<li>I <b>have been studying</b> for 3 hours (ولسا بدرس).</li>
 </ul>
-
-<p>⚠️ <b>NOTE:</b> لا نستخدم Present Perfect Continuous مع الأفعال غير المستمرة مثل <b>be, know, have</b>:<br>
-✅ How long <b>have</b> you <b>had</b> your car? (Present Perfect)</p>
-
-<p><strong>التركيب:</strong> have/has + been + verb + <b>-ing</b></p>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#fff3e0"><th>النوع</th><th>الضمير</th><th>الفعل</th></tr>
-<tr><td><b style="color:green">A:</b></td><td>I / we / you / they</td><td>have been working</td></tr>
-<tr><td></td><td>He / she / it</td><td>has been working</td></tr>
-<tr><td><b style="color:red">N:</b></td><td>I / we / you / they</td><td>have not (haven't) been working</td></tr>
-<tr><td></td><td>He / she / it</td><td>has not (hasn't) been working</td></tr>
-<tr><td><b style="color:blue">Q:</b></td><td>Have I / we / you / they</td><td>been working?</td></tr>
-<tr><td></td><td>Has he / she / it</td><td>been working?</td></tr>
+<p><strong>التركيبة:</strong> have/has + been + فعل + ing</p>
+<table>
+<tr><th>👤</th><th>✅ مثبت</th><th>❌ منفي</th><th>❓ سؤال</th></tr>
+<tr><td>I / You / We / They</td><td>have been waiting</td><td>haven't been waiting</td><td>Have ... been waiting?</td></tr>
+<tr><td>He / She / It</td><td>has been waiting</td><td>hasn't been waiting</td><td>Has ... been waiting?</td></tr>
 </table>
-
-<p><strong>كلمات دالة:</strong> for, since, How long...?</p>
+<p><strong>كلمات:</strong> for, since, How long...?</p>
 
 <hr>
 
-<h3>🔸 Past Perfect Continuous (الماضي التام المستمر)</h3>
-<p><strong>الاستخدام:</strong></p>
+<h3>2️⃣ الماضي التام المستمر</h3>
+<p><strong>حدث استمر لفترة قبل حدث ثاني بالماضي:</strong></p>
 <ul>
-<li>حدث بدأ قبل لحظة في الماضي واستمر حتى تلك اللحظة أو كان لا يزال مستمرًا: We could not go out because it <b>had been raining</b> <u>for two hours</u>.</li>
-<li>حدث لم يعد مستمرًا في تلك اللحظة لكن آثاره واضحة: The baby's face was red and wet. He <b>had been crying</b>.</li>
+<li>He was tired because he <b>had been running</b>.</li>
 </ul>
-
-<p><strong>التركيب:</strong> had + been + verb + <b>-ing</b></p>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#fff3e0"><th>النوع</th><th>الضمير</th><th>الفعل</th></tr>
-<tr><td><b style="color:green">A:</b></td><td>I / we / you / they / He / she / it</td><td>had been working</td></tr>
-<tr><td><b style="color:red">N:</b></td><td>الكل</td><td>had not (hadn't) been working</td></tr>
-<tr><td><b style="color:blue">Q:</b></td><td>Had + الكل</td><td>been working?</td></tr>
+<p><strong>التركيبة:</strong> had + been + فعل + ing (للجميع)</p>
+<table>
+<tr><th>👤</th><th>✅ مثبت</th><th>❌ منفي</th><th>❓ سؤال</th></tr>
+<tr><td>كل الضمائر</td><td>had been sleeping</td><td>hadn't been sleeping</td><td>Had ... been sleeping?</td></tr>
 </table>
-
-<p><strong>كلمات دالة:</strong> since, for.</p>
 
 <hr>
 
-<h3>🔹 Future Perfect Continuous (المستقبل التام المستمر)</h3>
-<p><strong>الاستخدام:</strong></p>
+<h3>3️⃣ المستقبل التام المستمر</h3>
+<p><strong>حدث رح يستمر حتى نقطة بالمستقبل:</strong></p>
 <ul>
-<li>حدث سيبدأ قبل لحظة في المستقبل ويستمر حتى تلك اللحظة: You <b>will have been waiting</b> <u>for</u> more than two hours when her plane finally arrives.</li>
-<li>In the fall I <b>will have been studying</b> here <u>for</u> 2 years.</li>
-<li>He will be tired when he arrives. He <b>will have been travelling</b> <u>for</u> 24 hours.</li>
+<li>In May, I <b>will have been working</b> here for 10 years.</li>
 </ul>
-
-<p><strong>التركيب:</strong> shall/will + have + been + verb + <b>-ing</b></p>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#fff3e0"><th>النوع</th><th>الضمير</th><th>الفعل</th></tr>
-<tr><td><b style="color:green">A:</b></td><td>I / we</td><td>shall◆ / will have been working</td></tr>
-<tr><td></td><td>He / she / it / you / they</td><td>will have been working</td></tr>
-<tr><td><b style="color:red">N:</b></td><td>I / we</td><td>shall not (shan't) / will not (won't) have been working</td></tr>
-<tr><td></td><td>الباقي</td><td>will not (won't) have been working</td></tr>
-<tr><td><b style="color:blue">Q:</b></td><td>Shall / Will I / we</td><td>have been working?</td></tr>
-<tr><td></td><td>Will he / she / it / you / they</td><td>have been working?</td></tr>
+<p><strong>التركيبة:</strong> will + have + been + فعل + ing</p>
+<table>
+<tr><th>👤</th><th>✅ مثبت</th><th>❌ منفي</th><th>❓ سؤال</th></tr>
+<tr><td>I / We</td><td>shall/will have been doing</td><td>shan't/won't have been doing</td><td>Shall/Will ... have been doing?</td></tr>
+<tr><td>الباقي</td><td>will have been doing</td><td>won't have been doing</td><td>Will ... have been doing?</td></tr>
 </table>
-
-<p><strong>كلمات دالة:</strong> for.</p>
 
 <hr>
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--              QUESTION TAGS (الأسئلة الذيلية)              -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-<h2>🏷️ Question Tags (الأسئلة الذيلية)</h2>
-<p><strong>القاعدة:</strong> إذا كانت الجملة مثبتة، يصبح السؤال منفيًا والعكس. نستخدم نفس الفعل المساعد في الجملة.</p>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
+<!-- ========== الأسئلة الذيلية ========== -->
+<h2>🏷️ الأسئلة الذيلية (Question Tags)</h2>
+<p><strong>زي "مش كدا؟" بالعربي. الجملة المثبتة تاخد سؤال منفي، والمنفية تاخد مثبت.</strong></p>
+<table class="tag-table">
 <tr><th>الجملة</th><th>السؤال الذيلي</th></tr>
-<tr><td>You're coming,</td><td><b>aren't you?</b></td></tr>
-<tr><td>He won't be late,</td><td><b>will he?</b></td></tr>
-<tr><td>She doesn't like coffee,</td><td><b>does she?</b></td></tr>
-<tr><td>I need to finish,</td><td><b>don't I?</b></td></tr>
-<tr><td>They've already left,</td><td><b>haven't they?</b></td></tr>
-<tr><td>It's a beautiful day,</td><td><b>isn't it?</b></td></tr>
+<tr><td>You are happy,</td><td><b>aren't you?</b></td></tr>
+<tr><td>He can't swim,</td><td><b>can he?</b></td></tr>
+<tr><td>She likes tea,</td><td><b>doesn't she?</b></td></tr>
+<tr><td>I am late,</td><td><b>aren't I?</b> ⚠️</td></tr>
+<tr><td>Let's go,</td><td><b>shall we?</b></td></tr>
 </table>
-<p><strong>ملاحظات:</strong> مع "I am" نستخدم "aren't I?" وليس "amn't I?". ومع الجمل الأمرية نستخدم "will you?".</p>
+<div class="note">
+  💡 مع <b>I am</b> بنقول <b>aren't I?</b> مش "amn't I".
+</div>
 
 <hr>
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--           THE DEFINITE ARTICLE (أداة التعريف)            -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-<h2>📖 The Definite Article (The)</h2>
-<p><strong>متى نستخدم "The":</strong></p>
+<!-- ========== أداة التعريف The ========== -->
+<h2>📖 أداة التعريف (The)</h2>
+<p><strong>نستخدم The لما الشيء معروف أو فريد.</strong></p>
 <ul>
-<li>عندما يكون الشيء معروفًا: <b>the</b> sun, <b>the</b> moon, <b>the</b> sky.</li>
-<li>مع الأشياء الفريدة: <b>the</b> internet, <b>the</b> environment, <b>the</b> government.</li>
-<li>عند ذكر شيء للمرة الثانية: I saw a dog. <b>The</b> dog was big.</li>
-<li>مع الأنهار والبحار والمحيطات والصحاري: <b>the</b> Nile, <b>the</b> Red Sea, <b>the</b> Sahara.</li>
-<li>مع الدول التي تحتوي على Kingdom, States, Republic: <b>the</b> United Kingdom, <b>the</b> United States.</li>
-<li>مع الصفات العليا وأرقام الترتيب: <b>the</b> best, <b>the</b> tallest, <b>the</b> first.</li>
-<li>مع الجنسيات التي تنتهي بـ -ish, -ch, -ese: <b>the</b> British, <b>the</b> Chinese.</li>
+<li>شيء فريد: <b>The sun</b>, <b>the moon</b>.</li>
+<li>ذكرناه قبل: I saw a cat. <b>The cat</b> was black.</li>
+<li>مع الأنهار والبحار: <b>The Nile</b>, <b>The Red Sea</b>.</li>
+<li>مع الصفات العليا: <b>the best</b>, <b>the tallest</b>.</li>
+<li>دول فيها كلمة Kingdom/States: <b>The United Kingdom</b>.</li>
 </ul>
 
-<p><strong>متى لا نستخدم "The":</strong></p>
+<p><strong>لا نستخدم The مع:</strong></p>
 <ul>
-<li>أسماء الدول المفردة: Saudi Arabia, France.</li>
-<li>الأسماء العامة غير المعدودة: Water is essential.</li>
-<li>أيام الأسبوع والشهور: on Monday, in January.</li>
-<li>أسماء الوجبات: I have lunch at 1.</li>
-<li>الألعاب الرياضية: He plays football.</li>
-<li>اللغات: She speaks English.</li>
-<li>أسماء المواد الدراسية: Math is difficult.</li>
+<li>أيام الأسبوع: on Monday.</li>
+<li>الرياضات: play football.</li>
+<li>اللغات: speak Arabic.</li>
+<li>الوجبات: have breakfast.</li>
+<li>الدول المفردة: Saudi Arabia.</li>
 </ul>
+
+<div class="print-footer">
+  💪 تدرب كل يوم ولو 10 دقائق – وربي رح تفهم القواعد بسهولة! مركز الريادة للتدريب.
+</div>
 
 </div>
-```
+</body>
+</html>
