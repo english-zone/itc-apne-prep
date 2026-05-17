@@ -9,10 +9,10 @@ def escape(txt):
     return html_mod.escape(str(txt)) if txt else ""
 
 def wrap_en(txt):
-    """نغلف النص بوسم lang='en' ليأخذ اتجاه LTR تلقائياً"""
     if not txt:
         return ""
-    return f'<span lang="en" style="unicode-bidi:isolate;direction:ltr;">{txt}</span>'
+    # نستخدم <bdi> لعزل الاتجاه تماماً، مع ضمان اتجاه LTR داخلياً
+    return f'<bdi dir="ltr">{txt}</bdi>'
 
 def build_reading(day_num):
     r = load_json(f"content/day-{day_num:02d}/reading.json")
@@ -26,7 +26,7 @@ def build_reading(day_num):
         text = escape(p.get("text", "")).replace("\n", "<br>")
         questions = p.get("questions", [])
         sec += f'<article class="passage"><h3>{title}</h3>\n'
-        sec += f'<div class="passage-text" lang="en">{text}</div>\n'
+        sec += f'<div class="passage-text" dir="ltr">{text}</div>\n'
         if questions:
             sec += '<div class="questions"><h4>أسئلة الفهم</h4><ol>\n'
             for q in questions:
@@ -51,7 +51,7 @@ def build_vocab(day_num):
         for i, w in enumerate(words):
             eng = escape(w.get("english",""))
             ara = escape(w.get("arabic",""))
-            sec += f'<tr><td>{i+1}</td><td class="en" lang="en">{eng}</td><td class="ar">{ara}</td></tr>\n'
+            sec += f'<tr><td>{i+1}</td><td class="en" dir="ltr">{eng}</td><td class="ar">{ara}</td></tr>\n'
         sec += '</tbody></table>\n'
         all_questions = []
         for w in words:
@@ -247,7 +247,17 @@ table.word-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
 table.word-table th { background: var(--primary); color: white; padding: 10px; font-family: 'Inter', sans-serif; }
 table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 12px; }
 .en { font-family: 'Inter', sans-serif; }
-[lang="en"] { direction: ltr; text-align: left; unicode-bidi: isolate; }
+[dir="ltr"] {
+  direction: ltr !important;
+  text-align: left !important;
+  unicode-bidi: isolate !important;
+}
+bdi[dir="ltr"] {
+  direction: ltr !important;
+  text-align: left !important;
+  unicode-bidi: isolate !important;
+}
+
 .dictation ul { list-style: square; padding-right: 2rem; }
 .grammar-lesson { border: 1px solid #ddd; padding: 2rem; border-radius: 8px; background: #fafafa; margin: 1rem 0; }
 .grammar-lesson table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
