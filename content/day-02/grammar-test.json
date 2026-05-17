@@ -23,5 +23,20 @@
   {"q":"I love ____ Chinese food.","options":["a","an","the","–"],"answer":3},
   {"q":"____ United Kingdom voted to leave the European Union.","options":["A","An","The","–"],"answer":2},
   {"q":"He goes to work by ____ bus.","options":["a","an","the","–"],"answer":3},
-  {"q":"____ water is essential for life.","options":["A","An","The","–"],"answer":3}
+  {"q":"____ water is essential for life.","options":["A","An","The","–"],"answer":3},
+  {"q":"I am the first person here, ____?","options":["amn't I?","aren't I?","isn't it?","don't I?"],"answer":1},
+  {"q":"Open the window, ____?","options":["don't you?","shall we?","will you?","won't you?"],"answer":2},
+  {"q":"Look! The boys ____ in the garden.","options":["play","played","are playing","were playing"],"answer":2},
+  {"q":"While I ____ dinner, the phone rang.","options":["cook","cooked","was cooking","am cooking"],"answer":2},
+  {"q":"This time next week, we ____ on a plane to London.","options":["sit","will sit","will be sitting","are sitting"],"answer":2},
+  {"q":"She ____ her room at the moment.","options":["cleans","is cleaning","cleaned","will clean"],"answer":1},
+  {"q":"He ____ TV when I arrived.","options":["watches","watched","was watching","is watching"],"answer":2},
+  {"q":"They ____ football tomorrow at 5 pm.","options":["play","played","will be playing","are playing"],"answer":2},
+  {"q":"She is a good student, ____?","options":["is she?","isn't she?","does she?","doesn't she?"],"answer":1},
+  {"q":"You haven't seen this film, ____?","options":["haven't you?","have you?","did you?","didn't you?"],"answer":1},
+  {"q":"Let's go for a walk, ____?","options":["will we?","shall we?","don't we?","won't we?"],"answer":1},
+  {"q":"He can't drive, ____?","options":["can he?","can't he?","does he?","doesn't he?"],"answer":0},
+  {"q":"We saw ____ beautiful bird in the tree. ____ bird was blue.","options":["a, A","a, The","the, A","the, The"],"answer":1},
+  {"q":"Mount Everest is ____ highest mountain in the world.","options":["a","an","the","–"],"answer":2},
+  {"q":"I have ____ breakfast at 7 am every day.","options":["a","an","the","–"],"answer":3}
 ]
