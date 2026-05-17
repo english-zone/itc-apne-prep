@@ -1,112 +1,249 @@
-<div class="grammar-content">
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>قواعد اللغة الإنجليزية – اليوم الثالث</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--             PERFECT TENSES (الأزمنة التامة)              -->
-<!-- ═══════════════════════════════════════════════════════ -->
+  * { box-sizing: border-box; margin: 0; padding: 0; }
 
-<h2>✅ Perfect Tenses (الأزمنة التامة)</h2>
+  body {
+    font-family: 'Tajawal', 'Segoe UI', sans-serif;
+    background: #f0f5ff;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+  }
 
-<h3>🔹 Present Perfect (المضارع التام)</h3>
-<p><strong>الاستخدام:</strong></p>
+  .page {
+    max-width: 1000px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 28px;
+    padding: 2rem 1.8rem;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.06);
+    border: 1px solid #e0e7f2;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+    color: #00264d;
+    border-right: 8px solid #0071e3;
+    padding-right: 1rem;
+    margin: 2.5rem 0 1.3rem;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  h2::before {
+    content: "📌";
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+    color: #004080;
+    margin: 1.8rem 0 1rem;
+    padding: 0.5rem 1rem;
+    background: #f4f8ff;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  h3::before {
+    content: "✨";
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 2;
+    color: #1a1a2e;
+    margin-bottom: 0.8rem;
+  }
+
+  strong {
+    color: #b33c00;
+    font-weight: 700;
+  }
+
+  b {
+    color: #c4450c;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-right: 1.8rem;
+  }
+
+  li {
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    position: relative;
+    padding-right: 1.8rem;
+    line-height: 1.8;
+  }
+
+  li::before {
+    content: "✔️";
+    position: absolute;
+    right: 0;
+    color: #28a745;
+    font-size: 1.2rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0 1.5rem;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+    border: 1px solid #d6e0f0;
+  }
+
+  th {
+    background: #0059b3;
+    color: white;
+    font-weight: 700;
+    padding: 12px 10px;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  td {
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    border-bottom: 1px solid #e0e8f5;
+    background-color: #fafcff;
+  }
+
+  tr:last-child td { border-bottom: none; }
+
+  .tip-box {
+    background: #fff9e6;
+    border-right: 6px solid #ffaa00;
+    padding: 1rem 1.2rem;
+    border-radius: 12px;
+    margin: 1.2rem 0;
+    font-size: 1.05rem;
+  }
+
+  .verb-table td {
+    text-align: right;
+    font-size: 0.95rem;
+  }
+
+  hr {
+    border: 1px dashed #b3c7e6;
+    margin: 2rem 0;
+  }
+
+  .print-footer {
+    text-align: center;
+    margin-top: 2.8rem;
+    padding: 1rem;
+    background: #eef3fd;
+    border-radius: 16px;
+    font-weight: bold;
+    color: #0059b3;
+    font-size: 1.1rem;
+  }
+
+  @media print {
+    body { background: white; padding: 0; }
+    .page { box-shadow: none; border: none; padding: 1rem; max-width: 100%; }
+    h2 { border-right: 4px solid black; }
+    h2::before { display: none; }
+    th { background: #ddd; color: black; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<h2>✅ الأزمنة التامة (Perfect Tenses)</h2>
+
+<h3>1️⃣ المضارع التام (Present Perfect)</h3>
+<p><strong>نستخدمه في 3 حالات:</strong></p>
 <ul>
-<li>حدث له نتيجة في الحاضر (وقت الحدث غير مهم): I <b>have lost</b> my keys. I can't open the door.</li>
-<li>حدث مكتمل متصل بالحاضر: I <b>have seen</b> this film and I can discuss it with you now.</li>
-<li>مع فترات زمنية لم تنتهِ بعد (this morning/today/this week/this year): <b>Have</b> you <b>called</b> your mother <u>today</u>?</li>
+<li>شيء خلّص بس أثره موجود: I <b>have lost</b> my keys. (ما عندي مفتاح أفتح الباب).</li>
+<li>تجربة في الحياة: She <b>has visited</b> Paris. (هي كذا شافت باريس).</li>
+<li>فترة ما خلصت للحين: <b>Have</b> you <b>seen</b> him <u>today</u>? (اليوم لسا ما خلص).</li>
 </ul>
+<p><strong>⚠️ ما نبدأ سؤال بـ "When" مع هالزمن أبداً!</strong></p>
 
-<p>⚠️ <b>ملاحظة:</b> أسئلة المضارع التام لا تبدأ بـ <b>When</b>:<br>
-❌ When did you see this film? (Past Simple)<br>
-✅ Have you seen this film?</p>
-
-<p><strong>التركيب:</strong> have/has + participle II (التصريف الثالث)</p>
-<ul>
-<li>Regular verbs + ed: worked, asked</li>
-<li>Irregular verbs – III column: gone, eaten</li>
-</ul>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#e8f5e9"><th>النوع</th><th>الضمير</th><th>الفعل</th></tr>
-<tr><td><b style="color:green">A:</b></td><td>I / we / you / they</td><td>have worked/gone</td></tr>
-<tr><td></td><td>He / she / it</td><td>has worked/gone</td></tr>
-<tr><td><b style="color:red">N:</b></td><td>I / we / you / they</td><td>have not (haven't) worked/gone</td></tr>
-<tr><td></td><td>He / she / it</td><td>has not (hasn't) worked/gone</td></tr>
-<tr><td><b style="color:blue">Q:</b></td><td>Have I / we / you / they</td><td>worked/gone?</td></tr>
-<tr><td></td><td>Has he / she / it</td><td>worked/gone?</td></tr>
+<p><strong>التركيبة:</strong> have / has + التصريف الثالث</p>
+<table>
+<tr><th>👤 الضمير</th><th>✅ مثبت</th><th>❌ منفي</th><th>❓ سؤال</th></tr>
+<tr><td>I / You / We / They</td><td>have eaten</td><td>haven't eaten</td><td>Have … eaten?</td></tr>
+<tr><td>He / She / It</td><td>has eaten</td><td>hasn't eaten</td><td>Has … eaten?</td></tr>
 </table>
 
-<p><strong>كلمات دالة:</strong> already, ever, just, never, not yet, so far, till now, up to now, of late, lately, recently, <b>for</b> and <b>since</b>, This is the first time..., this morning/evening, today, this week, this year.</p>
+<p><strong>كلمات تشير له:</strong> ever, never, just, already, yet, <b>for</b>, <b>since</b>, so far, recently, this week, today.</p>
+
+<div class="tip-box">
+  💡 <b>for</b> = مدة (ساعتين، 3 أيام). <b>since</b> = نقطة بداية (من الساعة 2، من 2010).
+</div>
 
 <hr>
 
-<h3>🔸 Past Perfect (الماضي التام)</h3>
-<p><strong>الاستخدام:</strong></p>
+<h3>2️⃣ الماضي التام (Past Perfect)</h3>
+<p><strong>حدث صار قبل حدث تاني في الماضي.</strong></p>
 <ul>
-<li>حدث اكتمل <b>قبل</b> حدث آخر في الماضي: She <b>had already finished</b> her work <u>when he came</u>.</li>
-<li>By the time the police arrived, he <b>had already disappeared</b>.</li>
-<li><b>لا يُستخدم</b> لسلسلة أحداث متتالية (نستخدم Past Simple): When I <b>wrote</b> the letter, I <b>posted</b> it.</li>
-<li>مع التعبيرات: hardly/scarcely/nearly/barely + when: I <b>had hardly done</b> it when they came.</li>
-<li><b>No sooner</b> had they arrived <b>than</b> it started to rain.</li>
+<li>When I arrived, she <b>had already left</b>. (لما وصلت، هي كانت مشيت قبلي).</li>
+<li>By 5 pm, I <b>had finished</b> the work.</li>
 </ul>
-
-<p><strong>التركيب:</strong> had + participle II</p>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#e8f5e9"><th>النوع</th><th>الضمير</th><th>الفعل</th></tr>
-<tr><td><b style="color:green">A:</b></td><td>I / you / we / they / He / she / it</td><td>had worked/gone</td></tr>
-<tr><td><b style="color:red">N:</b></td><td>الكل</td><td>had not (hadn't) worked/gone</td></tr>
-<tr><td><b style="color:blue">Q:</b></td><td>Had + الكل</td><td>worked/gone?</td></tr>
+<p><strong>التركيبة:</strong> had + التصريف الثالث (كل الضمائر نفس الشيء)</p>
+<table>
+<tr><th>✅ مثبت</th><th>❌ منفي</th><th>❓ سؤال</th></tr>
+<tr><td>had eaten</td><td>hadn't eaten</td><td>Had … eaten?</td></tr>
 </table>
-
-<p><strong>كلمات دالة:</strong> when I entered, by 5 o'clock yesterday (نفس ظروف Present Perfect لكن في سياق الماضي), no sooner...than.</p>
+<p><strong>كلمات تساعده:</strong> when I arrived, by yesterday, no sooner… than.</p>
 
 <hr>
 
-<h3>🔹 Future Perfect (المستقبل التام)</h3>
-<p><strong>الاستخدام:</strong></p>
+<h3>3️⃣ المستقبل التام (Future Perfect)</h3>
+<p><strong>حدث راح يكون خلص قبل وقت معين في المستقبل.</strong></p>
 <ul>
-<li>حدث سيكتمل <b>قبل</b> لحظة محددة في المستقبل: She <b>will have finished</b> this work <u>by 2 o'clock tomorrow</u>.</li>
-<li>The film <b>will have already started</b> <u>by the time we come</u>. Hurry up!</li>
+<li>By next summer, I <b>will have graduated</b>.</li>
+<li>By 8 pm, she <b>will have arrived</b>.</li>
 </ul>
-
-<p><strong>التركيب:</strong> shall/will + have + participle II</p>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr style="background:#e8f5e9"><th>النوع</th><th>الضمير</th><th>الفعل</th></tr>
-<tr><td><b style="color:green">A:</b></td><td>I / we</td><td>shall◆ / will have worked/gone</td></tr>
-<tr><td></td><td>He / she / it / you / they</td><td>will have worked/gone</td></tr>
-<tr><td><b style="color:red">N:</b></td><td>I / we</td><td>shall not (shan't) / will not (won't) have worked/gone</td></tr>
-<tr><td></td><td>الباقي</td><td>will not (won't) have worked/gone</td></tr>
-<tr><td><b style="color:blue">Q:</b></td><td>Shall / Will I / we</td><td>have worked/gone?</td></tr>
-<tr><td></td><td>Will he / she / it / you / they</td><td>have worked/gone?</td></tr>
+<p><strong>التركيبة:</strong> will + have + التصريف الثالث</p>
+<table>
+<tr><th>✅ مثبت</th><th>❌ منفي</th><th>❓ سؤال</th></tr>
+<tr><td>will have eaten</td><td>won't have eaten</td><td>Will … have eaten?</td></tr>
 </table>
-
-<p><strong>كلمات دالة:</strong> by this time tomorrow, by 2 o'clock tomorrow, when you come back.</p>
 
 <hr>
 
-<h3>📅 For / Since (مدة / نقطة بداية)</h3>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr><th>Since</th><th>For</th></tr>
-<tr><td>Since Monday</td><td>For two hours</td></tr>
-<tr><td>Since 2010</td><td>For a long time</td></tr>
-<tr><td>Since I was a child</td><td>For ages</td></tr>
+<h2>📅 For / Since</h2>
+<table>
+<tr><th>Since (نقطة بداية)</th><th>For (مدة)</th></tr>
+<tr><td>since Monday</td><td>for two hours</td></tr>
+<tr><td>since 2010</td><td>for a long time</td></tr>
+<tr><td>since I was a child</td><td>for ages</td></tr>
 </table>
-<p><strong>تذكر:</strong> Since + نقطة بداية. For + مدة زمنية. كلاهما يُستخدمان مع الأزمنة التامة.</p>
+<p><strong>التلميحة الذهبية:</strong> Since = متى بدأ؟ For = كم استمر؟</p>
 
 <hr>
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--              PREPOSITIONS (حروف الجر)                    -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-<h2>📌 Prepositions (حروف الجر)</h2>
-
-<h3>🔧 in / on / at (الزمان والمكان)</h3>
-<table border="1" cellpadding="4" style="border-collapse:collapse;width:100%">
-<tr><th>Place</th><th>Time</th></tr>
-<tr><td><b>in</b> a room, in Jeddah</td><td><b>in</b> April, in the morning</td></tr>
-<tr><td><b>on</b> the table, on Alnajah street</td><td><b>on</b> Monday, on June 25</td></tr>
-<tr><td><b>at</b> the door, at home</td><td><b>at</b> 6 o'clock, at night</td></tr>
+<h2>📌 حروف الجر (Prepositions)</h2>
+<h3>in / on / at للزمان والمكان</h3>
+<table>
+<tr><th>حرف الجر</th><th>🏠 مكان</th><th>⏰ زمان</th></tr>
+<tr><td><b>in</b></td><td>in the room, in Jeddah</td><td>in April, in the morning</td></tr>
+<tr><td><b>on</b></td><td>on the table, on Alnajah St.</td><td>on Monday, on June 25</td></tr>
+<tr><td><b>at</b></td><td>at the door, at home</td><td>at 6 o'clock, at night</td></tr>
 </table>
-
-<h3>📝 أمثلة من الكتاب:</h3>
 <ul>
 <li>Ali hasn't seen his friend <b>for</b> ages.</li>
 <li>Jawad has lived here <b>since</b> September.</li>
@@ -116,46 +253,34 @@
 
 <hr>
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--         VERB + PREPOSITION (أفعال مع حروف جر)           -->
-<!-- ═══════════════════════════════════════════════════════ -->
+<h2>🔗 أفعال مع حروف جر (Verbs + Prepositions)</h2>
+<p><strong>احفظ الفعل مع حرف الجر كقطعة واحدة.</strong></p>
 
-<h2>🔗 Verbs with Prepositions (أفعال + حروف جر)</h2>
-<p><strong>ملاحظة:</strong> هذه قائمة تراكيب فعل + حرف جر شائعة يجب حفظها كوحدة واحدة.</p>
-
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr><th style="width:50%">العمود الأيسر</th><th style="width:50%">العمود الأيمن</th></tr>
-<tr><td>
-compliment (someone) <b>on</b>; congratulate <b>on</b>; concentrate <b>on</b>; consent <b>to</b>; consist <b>of</b>; convince (someone) <b>of</b> (something); deal <b>with</b>; decide <b>between</b>; decide <b>on</b>; depend <b>on</b>; (dis)approve <b>of</b>; dream <b>about, of</b>; excuse (someone) <b>for</b>; explain (something) <b>to</b>; feel <b>like</b>; forget <b>about</b>; forgive (someone) <b>for</b>; get along <b>with</b>; get back <b>from</b>; get rid <b>of</b>; get through <b>with</b>; get used <b>to</b>; happen <b>to</b>; have confidence <b>in</b>; have influence <b>over</b>; have an opportunity <b>for</b>; have patience <b>with</b>; have a reason <b>for</b>.
-</td><td>
-search <b>for</b>; see <b>about</b>; send <b>for</b>; separate <b>from</b>; show up <b>at</b>; speak <b>about</b>; spend (money) <b>on</b>; stop <b>from</b>; substitute <b>for</b>; subtract <b>from</b>; succeed <b>in</b>; suspect (someone) <b>of</b>; take advantage <b>of</b>; take care <b>of</b>; talk <b>about</b>; talk <b>over</b>; talk <b>to</b>; thank (someone) <b>for</b>; think <b>about</b>; think <b>of</b>; throw <b>away</b>; vote <b>for</b>; wait <b>for</b>; warn <b>about</b>; waste (money) <b>on</b>; wish <b>for</b>; work <b>for</b>; worry <b>about</b>.
-</td></tr>
+<h3>أهم التركيبات:</h3>
+<table class="verb-table">
+<tr><th>التركيب</th><th>المعنى</th><th>مثال</th></tr>
+<tr><td>depend <b>on</b></td><td>يعتمد على</td><td>I depend on my car.</td></tr>
+<tr><td>look <b>for</b> / search <b>for</b></td><td>يبحث عن</td><td>I'm looking for a job.</td></tr>
+<tr><td>get rid <b>of</b></td><td>يتخلص من</td><td>She got rid of the old clothes.</td></tr>
+<tr><td>take care <b>of</b></td><td>يعتني بـ</td><td>Take care of your health.</td></tr>
+<tr><td>succeed <b>in</b></td><td>ينجح في</td><td>He succeeded in the exam.</td></tr>
+<tr><td>remind (someone) <b>of</b></td><td>يذكّر بـ</td><td>This song reminds me of you.</td></tr>
+<tr><td>forgive (someone) <b>for</b></td><td>يغفر لـ</td><td>I forgave him for his mistake.</td></tr>
+<tr><td>take advantage <b>of</b></td><td>يستغل</td><td>Don't take advantage of him.</td></tr>
+<tr><td>thank (someone) <b>for</b></td><td>يشكر على</td><td>Thank you for helping.</td></tr>
+<tr><td>worry <b>about</b></td><td>يقلق على</td><td>Don't worry about me.</td></tr>
+<tr><td>wait <b>for</b></td><td>ينتظر</td><td>I'm waiting for the bus.</td></tr>
+<tr><td>think <b>about</b></td><td>يفكر في</td><td>Think about the future.</td></tr>
 </table>
 
-<hr>
+<div class="tip-box">
+  🧠 <b>نصيحة:</b> اكتب كل يوم 5 تراكيب مع جملة من حياتك. الحفظ بالاستعمال أسهل بكتير.
+</div>
 
-<h3>🔎 شرح مختصر لبعض التركيبات المهمة مع أمثلة</h3>
-<table border="1" cellpadding="6" style="border-collapse:collapse;width:100%">
-<tr><th>الفعل + حرف الجر</th><th>المعنى بالعربية</th><th>مثال إنجليزي</th><th>الترجمة</th></tr>
-<tr><td><b>depend on</b></td><td>يعتمد على</td><td>I depend on my car to get to work.</td><td>أعتمد على سيارتي للوصول إلى العمل.</td></tr>
-<tr><td><b>get rid of</b></td><td>يتخلص من</td><td>She got rid of the old books.</td><td>تخلصت من الكتب القديمة.</td></tr>
-<tr><td><b>take care of</b></td><td>يعتني بـ / يتولى أمر</td><td>Can you take care of the dog?</td><td>هل يمكنك الاعتناء بالكلب؟</td></tr>
-<tr><td><b>look for / search for</b></td><td>يبحث عن</td><td>They are looking for a new apartment.</td><td>يبحثون عن شقة جديدة.</td></tr>
-<tr><td><b>remind (someone) of</b></td><td>يذكّر شخصًا بـ</td><td>This song reminds me of summer.</td><td>هذه الأغنية تذكرني بالصيف.</td></tr>
-<tr><td><b>succeed in</b></td><td>ينجح في</td><td>He succeeded in passing the exam.</td><td>نجح في اجتياز الامتحان.</td></tr>
-<tr><td><b>forgive (someone) for</b></td><td>يغفر لـ</td><td>I forgave him for the mistake.</td><td>غفرت له على الخطأ.</td></tr>
-<tr><td><b>take advantage of</b></td><td>يستغل / يستفيد من</td><td>Don't take advantage of her kindness.</td><td>لا تستغل لطفها.</td></tr>
-</table>
-
-<hr>
-
-<h3>📝 ملاحظات عامة ونصائح للتعلّم</h3>
-<ul>
-<li><strong>حفظ مجموعات صغيرة:</strong> احفظ 5–8 تراكيب يوميًا مع مثال واحد عملي لكل تركيب.</li>
-<li><strong>جمل شخصية:</strong> اكتب جملًا تتعلق بحياتك لتثبيت المعنى.</li>
-<li><strong>التمييز ككتلة واحدة:</strong> تعامل مع الفعل + حرف الجر كوحدة لغوية عند القراءة والاستماع.</li>
-<li><strong>ملاحظة المعنى:</strong> بعض الأفعال يتغير معناها بتغيير حرف الجر — احفظ الفروق (مثال: <em>look after</em> ≠ <em>look for</em>).</li>
-<li><strong>تمارين:</strong> اصنع تمارين ملء الفراغات أو بطاقات مراجعة لتكرار الاستدعاء.</li>
-</ul>
+<div class="print-footer">
+  💪 اليوم الثالث – الأزمنة التامة وحروف الجر. ربنا يوفقك! مركز الريادة للتدريب.
+</div>
 
 </div>
+</body>
+</html>
