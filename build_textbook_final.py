@@ -9,6 +9,15 @@ def load_json(path):
 def escape(txt):
     return html_mod.escape(str(txt)) if txt else ""
 
+
+def is_english(text):
+    """يعيد True إذا كان النص يتكون أساساً من أحرف إنجليزية"""
+    if not text: return False
+    alpha_chars = [c for c in text if c.isalpha()]
+    if not alpha_chars: return False
+    eng_count = sum(1 for c in alpha_chars if c.isascii())
+    return eng_count / len(alpha_chars) > 0.7
+
 def wrap_en(txt):
     """يغلف النص بوسم span باتجاه LTR إذا كان يحتوي على أحرف إنجليزية"""
     if not txt: return ""
@@ -29,7 +38,10 @@ def build_reading(day_num):
         text = escape(p.get("text", "")).replace("\n", "<br>")
         questions = p.get("questions", [])
         sec += f'<article class="passage"><h3>{title}</h3>\n'
-        sec += f'<div class="passage-text">{text}</div>\n'
+        if is_english(p.get("text", "")):
+            sec += f'<div class="passage-text" dir="ltr">{text}</div>\n'
+        else:
+            sec += f'<div class="passage-text">{text}</div>\n'
         if questions:
             sec += '<div class="questions"><h4>أسئلة الفهم</h4><ol>\n'
             for q in questions:
@@ -267,7 +279,7 @@ article.passage { margin-bottom: 2.5rem; }
 table.word-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
 table.word-table th { background: var(--primary); color: white; padding: 10px; font-family: 'Inter', sans-serif; }
 table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 12px; }
-.en { font-family: 'Inter', sans-serif; }
+.en, .english, [lang="en"] { font-family: 'Inter', sans-serif; direction: ltr; text-align: left; }
 [dir="ltr"] { direction: ltr; unicode-bidi: embed; }
 .dictation ul { list-style: square; padding-right: 2rem; }
 .grammar-lesson { border: 1px solid #ddd; padding: 2rem; border-radius: 8px; background: #fafafa; margin: 1rem 0; }
