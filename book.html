@@ -27,9 +27,40 @@
   ul { list-style-type: none; padding-right: 1.5rem; }
   li::before { content: "•"; color: #0071e3; display: inline-block; width: 1em; margin-left: 0.5em; }
   @media print { body { padding: 1cm; } .page-break { page-break-before: always; } }
+
+  @media print {
+    @page {
+      size: A4;
+      margin: 2cm 1.5cm;
+      @top-center {
+        content: element(header);
+      }
+      @bottom-center {
+        content: counter(page);
+        font-size: 12px;
+        font-family: 'Tajawal';
+      }
+    }
+    body { padding: 0; }
+    .header-print { display: block !important; position: running(header); text-align: center; }
+    .header-print img { height: 40px; }
+    .cover { page-break-after: always; }
+    h2 { page-break-before: always; }
+    .no-print { display: none; }
+  }
+  .header-print { display: none; }
+
 </style>
 </head>
 <body>
+
+<div class="no-print" style="text-align:center; margin:1rem 0;">
+  <button onclick="window.print()" style="background:#0071e3; color:#fff; padding:0.8rem 2rem; border:none; border-radius:12px; font-size:1.1rem; font-family:'Tajawal'; cursor:pointer;">
+    🖨️ تنزيل الكتاب بصيغة PDF (طباعة)
+  </button>
+  <p style="margin-top:0.5rem; font-size:0.9rem; color:#666;">اضغط Ctrl+P واختر "Save as PDF"</p>
+</div>
+
 <div class="cover">
 <h1>📚 English Grammar Master Guide</h1>
 <p class="subtitle"><strong>APNE-ITC Preparation Course</strong></p>
@@ -468,9 +499,40 @@ In poor communities many people struggle to make enough money to live. VSO volun
     h2::after { display: none; }
     th { background: #ddd; color: black; }
   }
+
+  @media print {
+    @page {
+      size: A4;
+      margin: 2cm 1.5cm;
+      @top-center {
+        content: element(header);
+      }
+      @bottom-center {
+        content: counter(page);
+        font-size: 12px;
+        font-family: 'Tajawal';
+      }
+    }
+    body { padding: 0; }
+    .header-print { display: block !important; position: running(header); text-align: center; }
+    .header-print img { height: 40px; }
+    .cover { page-break-after: always; }
+    h2 { page-break-before: always; }
+    .no-print { display: none; }
+  }
+  .header-print { display: none; }
+
 </style>
 </head>
 <body>
+
+<div class="no-print" style="text-align:center; margin:1rem 0;">
+  <button onclick="window.print()" style="background:#0071e3; color:#fff; padding:0.8rem 2rem; border:none; border-radius:12px; font-size:1.1rem; font-family:'Tajawal'; cursor:pointer;">
+    🖨️ تنزيل الكتاب بصيغة PDF (طباعة)
+  </button>
+  <p style="margin-top:0.5rem; font-size:0.9rem; color:#666;">اضغط Ctrl+P واختر "Save as PDF"</p>
+</div>
+
 <div class="container">
 
 <h2>🍀 Present Simple & Past Simple</h2>
@@ -704,6 +766,12 @@ In poor communities many people struggle to make enough money to live. VSO volun
 <div class="footer-note">✍️ تدرب على كتابة جمل خاصة بك لتثبيت القواعد. مركز الريادة للتدريب.</div>
 
 </div>
+
+<div class="header-print">
+  <img src="assets/images/reyadah-logo.png" alt="شعار معهد الريادة" height="40">
+  <span style="font-size:16px; margin-right:10px;">معهد الريادة للتدريب – كتاب APNE-ITC</span>
+</div>
+
 </body>
 </html>
 
@@ -1523,9 +1591,40 @@ In poor communities many people struggle to make enough money to live. VSO volun
     h2::before { display: none; }
     th { background: #ddd; color: black; }
   }
+
+  @media print {
+    @page {
+      size: A4;
+      margin: 2cm 1.5cm;
+      @top-center {
+        content: element(header);
+      }
+      @bottom-center {
+        content: counter(page);
+        font-size: 12px;
+        font-family: 'Tajawal';
+      }
+    }
+    body { padding: 0; }
+    .header-print { display: block !important; position: running(header); text-align: center; }
+    .header-print img { height: 40px; }
+    .cover { page-break-after: always; }
+    h2 { page-break-before: always; }
+    .no-print { display: none; }
+  }
+  .header-print { display: none; }
+
 </style>
 </head>
 <body>
+
+<div class="no-print" style="text-align:center; margin:1rem 0;">
+  <button onclick="window.print()" style="background:#0071e3; color:#fff; padding:0.8rem 2rem; border:none; border-radius:12px; font-size:1.1rem; font-family:'Tajawal'; cursor:pointer;">
+    🖨️ تنزيل الكتاب بصيغة PDF (طباعة)
+  </button>
+  <p style="margin-top:0.5rem; font-size:0.9rem; color:#666;">اضغط Ctrl+P واختر "Save as PDF"</p>
+</div>
+
 <div class="page">
 
 <!-- ========== الأزمنة البسيطة ========== -->
@@ -1769,6 +1868,12 @@ In poor communities many people struggle to make enough money to live. VSO volun
 </div>
 
 </div>
+
+<div class="header-print">
+  <img src="assets/images/reyadah-logo.png" alt="شعار معهد الريادة" height="40">
+  <span style="font-size:16px; margin-right:10px;">معهد الريادة للتدريب – كتاب APNE-ITC</span>
+</div>
+
 </body>
 </html>
 
@@ -2507,9 +2612,40 @@ Schools and businesses require more formal writing, and they expect people to us
     h2::before { display: none; }
     th { background: #ddd; color: black; }
   }
+
+  @media print {
+    @page {
+      size: A4;
+      margin: 2cm 1.5cm;
+      @top-center {
+        content: element(header);
+      }
+      @bottom-center {
+        content: counter(page);
+        font-size: 12px;
+        font-family: 'Tajawal';
+      }
+    }
+    body { padding: 0; }
+    .header-print { display: block !important; position: running(header); text-align: center; }
+    .header-print img { height: 40px; }
+    .cover { page-break-after: always; }
+    h2 { page-break-before: always; }
+    .no-print { display: none; }
+  }
+  .header-print { display: none; }
+
 </style>
 </head>
 <body>
+
+<div class="no-print" style="text-align:center; margin:1rem 0;">
+  <button onclick="window.print()" style="background:#0071e3; color:#fff; padding:0.8rem 2rem; border:none; border-radius:12px; font-size:1.1rem; font-family:'Tajawal'; cursor:pointer;">
+    🖨️ تنزيل الكتاب بصيغة PDF (طباعة)
+  </button>
+  <p style="margin-top:0.5rem; font-size:0.9rem; color:#666;">اضغط Ctrl+P واختر "Save as PDF"</p>
+</div>
+
 <div class="page">
 
 <h2>✅ الأزمنة التامة (Perfect Tenses)</h2>
@@ -2624,6 +2760,12 @@ Schools and businesses require more formal writing, and they expect people to us
 </div>
 
 </div>
+
+<div class="header-print">
+  <img src="assets/images/reyadah-logo.png" alt="شعار معهد الريادة" height="40">
+  <span style="font-size:16px; margin-right:10px;">معهد الريادة للتدريب – كتاب APNE-ITC</span>
+</div>
+
 </body>
 </html>
 
@@ -3376,9 +3518,40 @@ To address these challenges, researchers are exploring renewable energy sources 
     h2::before { display: none; }
     th { background: #ddd; color: black; }
   }
+
+  @media print {
+    @page {
+      size: A4;
+      margin: 2cm 1.5cm;
+      @top-center {
+        content: element(header);
+      }
+      @bottom-center {
+        content: counter(page);
+        font-size: 12px;
+        font-family: 'Tajawal';
+      }
+    }
+    body { padding: 0; }
+    .header-print { display: block !important; position: running(header); text-align: center; }
+    .header-print img { height: 40px; }
+    .cover { page-break-after: always; }
+    h2 { page-break-before: always; }
+    .no-print { display: none; }
+  }
+  .header-print { display: none; }
+
 </style>
 </head>
 <body>
+
+<div class="no-print" style="text-align:center; margin:1rem 0;">
+  <button onclick="window.print()" style="background:#0071e3; color:#fff; padding:0.8rem 2rem; border:none; border-radius:12px; font-size:1.1rem; font-family:'Tajawal'; cursor:pointer;">
+    🖨️ تنزيل الكتاب بصيغة PDF (طباعة)
+  </button>
+  <p style="margin-top:0.5rem; font-size:0.9rem; color:#666;">اضغط Ctrl+P واختر "Save as PDF"</p>
+</div>
+
 <div class="page">
 
 <h2>✅ الأزمنة التامة (Perfect Tenses)</h2>
@@ -3531,6 +3704,12 @@ To address these challenges, researchers are exploring renewable energy sources 
 </div>
 
 </div>
+
+<div class="header-print">
+  <img src="assets/images/reyadah-logo.png" alt="شعار معهد الريادة" height="40">
+  <span style="font-size:16px; margin-right:10px;">معهد الريادة للتدريب – كتاب APNE-ITC</span>
+</div>
+
 </body>
 </html>
 
@@ -4282,9 +4461,40 @@ In recent years, Egypt has faced various challenges, including economic fluctuat
     th { background: #ddd; color: black; }
     .circle-card { border: 2px solid black; }
   }
+
+  @media print {
+    @page {
+      size: A4;
+      margin: 2cm 1.5cm;
+      @top-center {
+        content: element(header);
+      }
+      @bottom-center {
+        content: counter(page);
+        font-size: 12px;
+        font-family: 'Tajawal';
+      }
+    }
+    body { padding: 0; }
+    .header-print { display: block !important; position: running(header); text-align: center; }
+    .header-print img { height: 40px; }
+    .cover { page-break-after: always; }
+    h2 { page-break-before: always; }
+    .no-print { display: none; }
+  }
+  .header-print { display: none; }
+
 </style>
 </head>
 <body>
+
+<div class="no-print" style="text-align:center; margin:1rem 0;">
+  <button onclick="window.print()" style="background:#0071e3; color:#fff; padding:0.8rem 2rem; border:none; border-radius:12px; font-size:1.1rem; font-family:'Tajawal'; cursor:pointer;">
+    🖨️ تنزيل الكتاب بصيغة PDF (طباعة)
+  </button>
+  <p style="margin-top:0.5rem; font-size:0.9rem; color:#666;">اضغط Ctrl+P واختر "Save as PDF"</p>
+</div>
+
 <div class="page">
 
 <h2>📊 Comparative & Superlative<br><small style="font-size:1.2rem;color:#666;">(المقارنة والتفضيل)</small></h2>
@@ -4414,6 +4624,12 @@ In recent years, Egypt has faced various challenges, including economic fluctuat
 </div>
 
 </div>
+
+<div class="header-print">
+  <img src="assets/images/reyadah-logo.png" alt="شعار معهد الريادة" height="40">
+  <span style="font-size:16px; margin-right:10px;">معهد الريادة للتدريب – كتاب APNE-ITC</span>
+</div>
+
 </body>
 </html>
 
@@ -5113,9 +5329,40 @@ Fine particles of volcanic ash, ejected high into the stratosphere, were carried
     h2::before { display: none; }
     th { background: #ddd; color: black; }
   }
+
+  @media print {
+    @page {
+      size: A4;
+      margin: 2cm 1.5cm;
+      @top-center {
+        content: element(header);
+      }
+      @bottom-center {
+        content: counter(page);
+        font-size: 12px;
+        font-family: 'Tajawal';
+      }
+    }
+    body { padding: 0; }
+    .header-print { display: block !important; position: running(header); text-align: center; }
+    .header-print img { height: 40px; }
+    .cover { page-break-after: always; }
+    h2 { page-break-before: always; }
+    .no-print { display: none; }
+  }
+  .header-print { display: none; }
+
 </style>
 </head>
 <body>
+
+<div class="no-print" style="text-align:center; margin:1rem 0;">
+  <button onclick="window.print()" style="background:#0071e3; color:#fff; padding:0.8rem 2rem; border:none; border-radius:12px; font-size:1.1rem; font-family:'Tajawal'; cursor:pointer;">
+    🖨️ تنزيل الكتاب بصيغة PDF (طباعة)
+  </button>
+  <p style="margin-top:0.5rem; font-size:0.9rem; color:#666;">اضغط Ctrl+P واختر "Save as PDF"</p>
+</div>
+
 <div class="page">
 
 <h2>🔄 Gerund vs Infinitive (المصدر مع ing أو to)</h2>
@@ -5182,6 +5429,12 @@ It is important <b>to arrive</b> on time.
 </div>
 
 </div>
+
+<div class="header-print">
+  <img src="assets/images/reyadah-logo.png" alt="شعار معهد الريادة" height="40">
+  <span style="font-size:16px; margin-right:10px;">معهد الريادة للتدريب – كتاب APNE-ITC</span>
+</div>
+
 </body>
 </html>
 
@@ -5906,9 +6159,40 @@ Japan faces several challenges, including an aging population, a declining birth
     h2 { border-right: 4px solid black; }
     th { background: #ddd; color: black; }
   }
+
+  @media print {
+    @page {
+      size: A4;
+      margin: 2cm 1.5cm;
+      @top-center {
+        content: element(header);
+      }
+      @bottom-center {
+        content: counter(page);
+        font-size: 12px;
+        font-family: 'Tajawal';
+      }
+    }
+    body { padding: 0; }
+    .header-print { display: block !important; position: running(header); text-align: center; }
+    .header-print img { height: 40px; }
+    .cover { page-break-after: always; }
+    h2 { page-break-before: always; }
+    .no-print { display: none; }
+  }
+  .header-print { display: none; }
+
 </style>
 </head>
 <body>
+
+<div class="no-print" style="text-align:center; margin:1rem 0;">
+  <button onclick="window.print()" style="background:#0071e3; color:#fff; padding:0.8rem 2rem; border:none; border-radius:12px; font-size:1.1rem; font-family:'Tajawal'; cursor:pointer;">
+    🖨️ تنزيل الكتاب بصيغة PDF (طباعة)
+  </button>
+  <p style="margin-top:0.5rem; font-size:0.9rem; color:#666;">اضغط Ctrl+P واختر "Save as PDF"</p>
+</div>
+
 <div class="page">
 
 <h1>📚 English Grammar Master Guide – ITC APNE</h1>
@@ -6132,6 +6416,12 @@ Japan faces several challenges, including an aging population, a declining birth
 </div>
 
 </div>
+
+<div class="header-print">
+  <img src="assets/images/reyadah-logo.png" alt="شعار معهد الريادة" height="40">
+  <span style="font-size:16px; margin-right:10px;">معهد الريادة للتدريب – كتاب APNE-ITC</span>
+</div>
+
 </body>
 </html>
 
@@ -7135,6 +7425,12 @@ Japan faces several challenges, including an aging population, a declining birth
 <p>للتسجيل: <strong>0546088130</strong> | <strong>0548775199</strong></p>
 <p style="margin-top:1rem;">الموقع: <strong>english-zone.github.io/itc-apne-prep</strong></p>
 <p>تم بحمد الله – نتمنى لكم التوفيق والنجاح في اختبار APNE</p>
+</div>
+
+
+<div class="header-print">
+  <img src="assets/images/reyadah-logo.png" alt="شعار معهد الريادة" height="40">
+  <span style="font-size:16px; margin-right:10px;">معهد الريادة للتدريب – كتاب APNE-ITC</span>
 </div>
 
 </body>
