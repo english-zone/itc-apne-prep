@@ -25,13 +25,12 @@
                 pointer-events: none;
                 z-index: 0;
             }
-            /* إخفاء ورقة الإجابة تماماً عند الطباعة */
             .answer-key { display: none !important; }
         }
         body {
             font-family: 'Cairo', sans-serif;
             background: white;
-            direction: rtl;
+            /* أزلنا direction: rtl من هنا */
             padding: 0;
             margin: 0;
             color: #1d1d1f;
@@ -60,6 +59,7 @@
             border-bottom: 2px solid #0071e3;
             padding-bottom: 1rem;
             margin-bottom: 1.5rem;
+            direction: rtl; /* نجعل الترويسة RTL */
         }
         .header img {
             height: 60px;
@@ -79,6 +79,7 @@
             align-items: center;
             font-size: 0.7rem;
             color: #555;
+            direction: rtl; /* نجعل التذييل RTL */
         }
         .footer img {
             height: 40px;
@@ -114,6 +115,7 @@
             border-radius: 12px;
             padding: 1rem;
             background: #f0f5ff;
+            direction: rtl; /* نجعل ورقة الإجابة RTL */
         }
         .answer-key h3 {
             color: #0071e3;
@@ -127,6 +129,13 @@
             justify-content: space-between;
         }
         .answer-item:last-child { border-bottom: none; }
+        
+        /* قاعدة عامة: أي نص إنجليزي سيكون LTR تلقائيًا */
+        [lang="en"], .english, .ltr {
+            direction: ltr;
+            text-align: left;
+            unicode-bidi: isolate;
+        }
     </style>
 </head>
 <body>
