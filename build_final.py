@@ -11,7 +11,6 @@ def escape(txt):
 def wrap_en(txt):
     if not txt:
         return ""
-    # bdo dir=ltr يفرض الاتجاه حتى مع وجود dir=rtl في الصفحة
     return f'<bdo dir="ltr">{txt}</bdo>'
 
 def build_reading(day_num):
@@ -47,7 +46,6 @@ def build_vocab(day_num):
     words = v.get("words", [])
     sec = '<section class="vocabulary">\n<h2 class="section-title">المفردات</h2>\n'
     if words:
-        # جدول المعاني
         table_rows = ""
         for i, w in enumerate(words):
             eng = escape(w.get("english",""))
@@ -55,9 +53,8 @@ def build_vocab(day_num):
             table_rows += f'<tr><td>{i+1}</td><td class="en" dir="ltr" style="text-align: left;">{eng}</td><td class="ar">{ara}</td></tr>\n'
         table = f'<div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>{table_rows}</tbody></table></div>'
         
-        # أسئلة المفردات (أول 20 سؤال)
         all_questions = [w.get("question") for w in words if w.get("question")]
-        all_questions = all_questions[:20]  # 20 سؤال كحد أقصى
+        all_questions = all_questions[:20]
         questions_html = ""
         if all_questions:
             questions_html = '<div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>\n'
@@ -70,7 +67,6 @@ def build_vocab(day_num):
                 questions_html += '</ol></li>\n'
             questions_html += '</ol></div>\n'
         
-        # تخطيط متوازي (جدول + أسئلة) إذا كانت الأسئلة موجودة
         if questions_html:
             sec += '<div class="vocab-flex">\n'
             sec += f'<div class="vocab-col">{table}</div>\n'
@@ -109,7 +105,7 @@ def build_grammar_test(day_num):
     if not g: return ""
     questions = g.get("questions", []) if isinstance(g, dict) else g
     if not questions: return ""
-    questions = questions[:20]  # 20 سؤال فقط
+    questions = questions[:20]
     sec = '<section class="grammar-test">\n<h2 class="section-title">اختبار القواعد</h2>\n<ol>\n'
     for q in questions:
         q_text = escape(q.get("q", ""))
@@ -182,7 +178,6 @@ for d in range(1, 8):
 
 day_titles = [get_reading_title(d) for d in range(1, 8)]
 
-# ---------- المقدمة باللغة الإنجليزية ----------
 intro_text = """
 <h2>Welcome to the APNE-ITC Comprehensive Guide</h2>
 <p>This book is the fruit of extensive effort and dedication, designed to provide you with the most effective preparation for the <strong>APNE-ITC</strong> exam. Every section has been carefully crafted to ensure you master the required skills in reading, vocabulary, grammar, and dictation.</p>
@@ -338,7 +333,6 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <div class="book">
 '''
 
-# ---------- صفحة الغلاف ----------
 html += '<div class="cover">'
 html += '<img src="assets/images/reyadah-logo.png" alt="Reyadah Logo" class="logo" width="180">'
 html += '<h1>APNE-ITC Master Guide</h1>'
