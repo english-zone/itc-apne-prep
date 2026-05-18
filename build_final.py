@@ -11,8 +11,8 @@ def escape(txt):
 def wrap_en(txt):
     if not txt:
         return ""
-    # نستخدم <bdi> لعزل الاتجاه تماماً، مع ضمان اتجاه LTR داخلياً
-    return f'<bdi dir="ltr">{txt}</bdi>'
+    # bdo dir=ltr يفرض الاتجاه حتى مع وجود dir=rtl في الصفحة
+    return f'<bdo dir="ltr">{txt}</bdo>'
 
 def build_reading(day_num):
     r = load_json(f"content/day-{day_num:02d}/reading.json")
@@ -182,16 +182,16 @@ for d in range(1, 8):
 
 day_titles = [get_reading_title(d) for d in range(1, 8)]
 
+# ---------- المقدمة باللغة الإنجليزية ----------
 intro_text = """
-الحمد لله الذي علّم بالقلم، علّم الإنسان ما لم يعلم، والصلاة والسلام على سيدنا محمد ﷺ، خير معلمٍ للبشرية.
+<h2>Welcome to the APNE-ITC Comprehensive Guide</h2>
+<p>This book is the fruit of extensive effort and dedication, designed to provide you with the most effective preparation for the <strong>APNE-ITC</strong> exam. Every section has been carefully crafted to ensure you master the required skills in reading, vocabulary, grammar, and dictation.</p>
+<p>Over seven intensive days, with two hours of study per day, you will progress step by step through real exam materials, practical exercises, and full mock tests. The content is drawn from authentic sources and organized in a clear, logical sequence.</p>
+<p>My goal is to make your learning journey as smooth and successful as possible. May this book be a key to your success, and may your hard work bring you the results you deserve.</p>
 
-أضع بين أيديكم هذا الكتاب التعليمي الشامل المخصص للتحضير لاختبار APNE-ITC...
-أسأل الله أن ينفع بهذا العمل.
-
-<br>
-<div style="text-align:left; margin-top:2rem;">
-<strong>المؤلف والمدرب</strong><br>
-أنس عبد الرحمن
+<div style="text-align:left; margin-top:3rem;">
+    <strong>Author & Instructor</strong><br>
+    <span style="font-size:1.2rem;">Anas Abdulrahman</span>
 </div>
 """
 
@@ -200,7 +200,7 @@ html = '''<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>دليل الطالب للتميز في APNE‑ITC – معهد الريادة للتدريب</title>
+<title>APNE-ITC Master Guide – Al-Reyadah Training Institute</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600;700&display=swap');
 :root {
@@ -244,11 +244,38 @@ body {
   transition: all 0.3s;
 }
 .print-btn:hover { background: #00264d; transform: translateY(-2px); }
-.cover { text-align: center; margin-bottom: 3rem; page-break-after: always; }
-.cover h1 { font-size: 3.5rem; color: var(--primary); font-weight: 700; margin-bottom: 0.5rem; }
-.cover .subtitle { font-size: 1.5rem; color: #555; }
-.cover .logo { margin: 2rem 0; }
-.cover .author { font-size: 1.2rem; margin-top: 2rem; }
+.cover { text-align: center; margin-bottom: 3rem; page-break-after: always;
+    background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%);
+    padding: 4rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+.cover h1 {
+    font-size: 4rem;
+    color: var(--primary);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.05);
+}
+.cover .subtitle {
+    font-size: 1.8rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+.cover .logo {
+    margin: 3rem 0;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+}
+.cover .author {
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    color: #444;
+}
+.cover .contact {
+    font-size: 1rem;
+    color: #777;
+    margin-top: 0.5rem;
+}
 .section-title { font-size: 2rem; color: var(--primary); border-bottom: 3px solid var(--primary); padding-bottom: 0.3rem; margin: 3rem 0 1.5rem; }
 article.passage { margin-bottom: 2.5rem; }
 .passage-text { background: #f9f9f6; padding: 1.5rem; border-right: 5px solid var(--accent); margin: 1rem 0; white-space: pre-line; }
@@ -258,7 +285,6 @@ table.word-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
 table.word-table th { background: var(--primary); color: white; padding: 10px; font-family: 'Inter', sans-serif; }
 table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 12px; }
 .en { font-family: 'Inter', sans-serif; }
-/* bdo يضمن الاتجاه الصحيح دون الحاجة إلى CSS */
 
 .dictation ul { list-style: square; padding-right: 2rem; }
 .grammar-lesson { border: 1px solid #ddd; padding: 2rem; border-radius: 8px; background: #fafafa; margin: 1rem 0; }
@@ -312,11 +338,13 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <div class="book">
 '''
 
+# ---------- صفحة الغلاف ----------
 html += '<div class="cover">'
-html += '<img src="assets/images/reyadah-logo.png" alt="شعار المعهد" class="logo" width="150">'
-html += '<h1>دليل الطالب للتميز في APNE‑ITC</h1>'
-html += '<p class="subtitle">الدليل الشامل للتحضير لاختبار APNE – إعداد معهد الريادة للتدريب</p>'
-html += '<p class="author">إعداد المدرب: <strong>أنس عبد الرحمن</strong><br>للتسجيل: 0546088130 – 0548775199</p>'
+html += '<img src="assets/images/reyadah-logo.png" alt="Reyadah Logo" class="logo" width="180">'
+html += '<h1>APNE-ITC Master Guide</h1>'
+html += '<p class="subtitle">The Ultimate Preparation Course<br>by Al-Reyadah Training Institute</p>'
+html += '<p class="author"><strong>Anas Abdulrahman</strong><br>Instructor & Author</p>'
+html += '<p class="contact">📞 0546088130 | 0548775199</p>'
 html += '</div>'
 
 html += '<section class="intro">'
@@ -335,7 +363,6 @@ for d in range(1, 8):
     html += build_reading(d)
     html += build_vocab(d)
     html += build_dictation(d)
-    # تخطيط متوازي: شرح القواعد على اليمين، اختبار القواعد على اليسار
     html += '<div class="grammar-flex">'
     html += '<div class="grammar-col lesson-col">'
     html += build_grammar_lesson(d)
@@ -369,7 +396,7 @@ for r in refs:
 html += '</section>'
 
 html += '<div class="footer-note">'
-html += '<p><strong>معهد الريادة للتدريب</strong><br>إعداد المدرب: أنس عبد الرحمن<br>0546088130 | 0548775199</p>'
+html += '<p><strong>Al-Reyadah Training Institute</strong><br>Instructor: Anas Abdulrahman<br>0546088130 | 0548775199</p>'
 html += '</div>'
 
 html += '</div></body></html>'
