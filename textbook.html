@@ -66,10 +66,12 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
   text-align: left !important;
   unicode-bidi: isolate !important;
 }
-bdi[dir="ltr"] {
-  direction: ltr !important;
+/* override any inherited RTL alignment for English elements */
+.questions li span[dir="ltr"],
+.questions li div[dir="ltr"],
+.en[dir="ltr"] {
+  display: inline-block;
   text-align: left !important;
-  unicode-bidi: isolate !important;
 }
 
 .dictation ul { list-style: square; padding-right: 2rem; }
@@ -132,7 +134,7 @@ bdi[dir="ltr"] {
 <tr><td>اليوم 7</td><td>Tintin in Tibet (Passage 1)</td><td>Final Review Vocabulary (Aurora &amp; Al-Faw)</td><td>قواعد جديدة ومراجعة شاملة</td></tr>
 </tbody></table></section><div class="day" id="day-1"><h1 class="section-title">اليوم 1 – Letter to the Editor</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
 <article class="passage"><h3>Letter to the Editor</h3>
-<div class="passage-text" dir="ltr">This letter is a response to yesterday&#x27;s article, &quot;Online Advertising is Every Business&#x27;s Best Choice&quot; by L.C.Arnold. I own my own company, T-shirts for all, which sells T-shirts for adults of ages 18-25. Based on my experience, I strongly disagree with Arnold, who writes,&quot; businesses should forget about advertising in newspapers and magazines. Advertising online is the only way to succeed.&quot; This is not true.<br><br>I paid someone thousands of Dollars to put up online ads. But they didn&#x27;t increase my company&#x27;s sales. I lost so much money that I almost had to close my business. I want to protect new business owners from making the same mistake. Arnold thinks that online advertising is better, but I prefer traditional advertising, such as in newspapers and magazines, for three reasons.<br><br>First, not everyone spends a lot of time online, so some people see very few online advertisements. That young adults are often online, but the international marketing Association (IMA) Recently reported that &quot;Older adults are online for 75% less time than younger adults.&quot; So, It is likely that a grandmother buying a shirt for her grandson will never see an online ad that only traditional advertisements could influence her purchase. Another reason that I prefer traditional ads is because they can get readers attention more easily.<br><br>Internet users constantly surf, visiting many different websites. It is difficult for an online ad to get a surfer&#x27;s attention. Our local university recently studied how young adults act when they surf the Internet. 90% of the young adults who answered said they do not click on the Internet ads; they are too busy looking at all of the other information. My final strongest reason to support the traditional advertisements is that it is much easier to prove how effective they are. A newspaper can provide statistics, such as the number of people who buy a daily paper.<br><br>These statistics tell you how many people may receive your advertising message. A website can also provide statistics, but they cannot be trusted. Many people might visit a website, but we don&#x27;t know how long they stay there and carefully read the information. Think about how often you go to a website and immediately leave, because you clicked on the wrong box.<br><br>I think that every company should think carefully about where it advertises. Ads in the newspapers and magazines are the most likely to be read by buyers of all ages, who pay attention to the ad. Advertisers can get reliable statistics that proves how effective their ads are.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">This letter is a response to yesterday&#x27;s article, &quot;Online Advertising is Every Business&#x27;s Best Choice&quot; by L.C.Arnold. I own my own company, T-shirts for all, which sells T-shirts for adults of ages 18-25. Based on my experience, I strongly disagree with Arnold, who writes,&quot; businesses should forget about advertising in newspapers and magazines. Advertising online is the only way to succeed.&quot; This is not true.<br><br>I paid someone thousands of Dollars to put up online ads. But they didn&#x27;t increase my company&#x27;s sales. I lost so much money that I almost had to close my business. I want to protect new business owners from making the same mistake. Arnold thinks that online advertising is better, but I prefer traditional advertising, such as in newspapers and magazines, for three reasons.<br><br>First, not everyone spends a lot of time online, so some people see very few online advertisements. That young adults are often online, but the international marketing Association (IMA) Recently reported that &quot;Older adults are online for 75% less time than younger adults.&quot; So, It is likely that a grandmother buying a shirt for her grandson will never see an online ad that only traditional advertisements could influence her purchase. Another reason that I prefer traditional ads is because they can get readers attention more easily.<br><br>Internet users constantly surf, visiting many different websites. It is difficult for an online ad to get a surfer&#x27;s attention. Our local university recently studied how young adults act when they surf the Internet. 90% of the young adults who answered said they do not click on the Internet ads; they are too busy looking at all of the other information. My final strongest reason to support the traditional advertisements is that it is much easier to prove how effective they are. A newspaper can provide statistics, such as the number of people who buy a daily paper.<br><br>These statistics tell you how many people may receive your advertising message. A website can also provide statistics, but they cannot be trusted. Many people might visit a website, but we don&#x27;t know how long they stay there and carefully read the information. Think about how often you go to a website and immediately leave, because you clicked on the wrong box.<br><br>I think that every company should think carefully about where it advertises. Ads in the newspapers and magazines are the most likely to be read by buyers of all ages, who pay attention to the ad. Advertisers can get reliable statistics that proves how effective their ads are.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">1. What is Paul Workman&#x27;s opinion?</bdi><ol type="a">
 <li><bdi dir="ltr">Online advertising is better than traditional advertising.</bdi></li>
@@ -179,7 +181,7 @@ bdi[dir="ltr"] {
 </ol></div>
 </article>
 <article class="passage"><h3>The Risks of Farming</h3>
-<div class="passage-text" dir="ltr">Most of us perceive farming as a very safe, simple job. According to a recent survey, however, farming is one of the ten most dangerous jobs in the United States. Farm workers are more than five times more likely than other workers to die from an on-the-job injury. The risks to farmers are caused by the outdoor environment where they work and by the chemicals and machinery they use.<br><br>Many of us would enjoy working outdoors, but both hot and cold weather conditions can create risks. Some people have a tolerance for the heat, but they can still suffer because of the Sun. Frequent exposure to the Sun can cause skin cancer. In the United States, farmers are three times more likely than the average citizen to get skin cancer. Extreme cold can also damage a person&#x27;s skin. Some of us love winter, but even if you are the kind of person who enjoys the cold, caring for animals every day in freezing weather can be unappealing, as well as risky. The majority of us would&#x27;ve probably been much happier working inside, away from the cold.<br><br>More risks are created by chemicals and machinery. Farmers often work with some very dangerous chemicals, but they may have little training in how to use them safely. They may not take the necessary precautions to keep chemicals away from their skin or clothes. The poisons can even get into the water supply the farmers and their animals drink. Also, farmers use a great deal of equipment, such as tractors and chainsaws. Accidents with this machinery can cause a variety of injuries, or even death.<br><br>Certain types of people can accept the level of risk that comes with being a farmer. They enjoy the farmers lifestyle so much that they choose to take the chance of injury. But most of us are content to have someone else do the dangerous work that gets food on our tables.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">Most of us perceive farming as a very safe, simple job. According to a recent survey, however, farming is one of the ten most dangerous jobs in the United States. Farm workers are more than five times more likely than other workers to die from an on-the-job injury. The risks to farmers are caused by the outdoor environment where they work and by the chemicals and machinery they use.<br><br>Many of us would enjoy working outdoors, but both hot and cold weather conditions can create risks. Some people have a tolerance for the heat, but they can still suffer because of the Sun. Frequent exposure to the Sun can cause skin cancer. In the United States, farmers are three times more likely than the average citizen to get skin cancer. Extreme cold can also damage a person&#x27;s skin. Some of us love winter, but even if you are the kind of person who enjoys the cold, caring for animals every day in freezing weather can be unappealing, as well as risky. The majority of us would&#x27;ve probably been much happier working inside, away from the cold.<br><br>More risks are created by chemicals and machinery. Farmers often work with some very dangerous chemicals, but they may have little training in how to use them safely. They may not take the necessary precautions to keep chemicals away from their skin or clothes. The poisons can even get into the water supply the farmers and their animals drink. Also, farmers use a great deal of equipment, such as tractors and chainsaws. Accidents with this machinery can cause a variety of injuries, or even death.<br><br>Certain types of people can accept the level of risk that comes with being a farmer. They enjoy the farmers lifestyle so much that they choose to take the chance of injury. But most of us are content to have someone else do the dangerous work that gets food on our tables.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">8. What is the article&#x27;s main idea?</bdi><ol type="a">
 <li><bdi dir="ltr">Farming is a very risky job.</bdi></li>
@@ -232,7 +234,7 @@ bdi[dir="ltr"] {
 </ol></div>
 </article>
 <article class="passage"><h3>Voluntary Service Overseas</h3>
-<div class="passage-text" dir="ltr">Voluntary service overseas, or VSO, is an organization in the United Kingdom that fights poverty around the world with the help of volunteers. The organization takes social responsibility to a global level by working in more than 40 countries. Its aim is to solve some common social problems that happen in disadvantaged areas around the world. People in these areas often do not have basic things, such as housing or education. VSO wants to make these areas better places to live and work.<br><br>One common problem VSO addresses is that some places have poor educational systems, or they don&#x27;t have enough teachers. To improve the educational systems, VSO volunteers work in colleges and schools to train teachers and to establish good methods that help people learn. As a result, students enjoy the learning process. They may stay in school longer, learning more skills that can improve their lives. To help the problem of the shortage of teachers, VSO volunteers sometimes teach in a primary or secondary school. They can also work as mentors with local teachers in the classrooms, offering the teachers advice and suggestions to improve their methods.<br><br>Through these actions, the volunteers improve the system and decrease the number of teachers that are needed. Other issues in disadvantaged areas include poor healthcare and a shortage of doctors, nurses, or surgeons. VSO tries to find volunteers who are medical professionals. VSO doctors, nurses, and surgeons help directly by providing healthcare to people who need it. Because they are already trained, volunteers can also help the local healthcare professionals become better at their jobs. VSO volunteers work within the local healthcare system to manage hospitals and improve the quality of care.<br><br>In poor communities many people struggle to make enough money to live. VSO volunteers work with individuals in these communities to help them find ways to earn money, either by using the natural environment or starting new businesses. The volunteers help residents develop their personal skills in ways that can help them professionally. For example, a volunteer may work with local farmers, showing them how to grow crops more efficiently and feed more people. A volunteer who is an engineer can teach local community members more advanced technical skills. The goal is for people to become more effective workers so that they can increase their income. By identifying problems and working to solve them, VSO volunteers help people in disadvantaged areas achieve a better quality of life. Thanks to many volunteers, the VSO has made a difference in many communities around the world.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">Voluntary service overseas, or VSO, is an organization in the United Kingdom that fights poverty around the world with the help of volunteers. The organization takes social responsibility to a global level by working in more than 40 countries. Its aim is to solve some common social problems that happen in disadvantaged areas around the world. People in these areas often do not have basic things, such as housing or education. VSO wants to make these areas better places to live and work.<br><br>One common problem VSO addresses is that some places have poor educational systems, or they don&#x27;t have enough teachers. To improve the educational systems, VSO volunteers work in colleges and schools to train teachers and to establish good methods that help people learn. As a result, students enjoy the learning process. They may stay in school longer, learning more skills that can improve their lives. To help the problem of the shortage of teachers, VSO volunteers sometimes teach in a primary or secondary school. They can also work as mentors with local teachers in the classrooms, offering the teachers advice and suggestions to improve their methods.<br><br>Through these actions, the volunteers improve the system and decrease the number of teachers that are needed. Other issues in disadvantaged areas include poor healthcare and a shortage of doctors, nurses, or surgeons. VSO tries to find volunteers who are medical professionals. VSO doctors, nurses, and surgeons help directly by providing healthcare to people who need it. Because they are already trained, volunteers can also help the local healthcare professionals become better at their jobs. VSO volunteers work within the local healthcare system to manage hospitals and improve the quality of care.<br><br>In poor communities many people struggle to make enough money to live. VSO volunteers work with individuals in these communities to help them find ways to earn money, either by using the natural environment or starting new businesses. The volunteers help residents develop their personal skills in ways that can help them professionally. For example, a volunteer may work with local farmers, showing them how to grow crops more efficiently and feed more people. A volunteer who is an engineer can teach local community members more advanced technical skills. The goal is for people to become more effective workers so that they can increase their income. By identifying problems and working to solve them, VSO volunteers help people in disadvantaged areas achieve a better quality of life. Thanks to many volunteers, the VSO has made a difference in many communities around the world.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">16. Where does this international organization do its work?</bdi><ol type="a">
 <li><bdi dir="ltr">In more than 40 countries</bdi></li>
@@ -282,55 +284,55 @@ bdi[dir="ltr"] {
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
 <table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
-<tr><td>1</td><td class="en" dir="ltr">advertise</td><td class="ar">يعلن</td></tr>
-<tr><td>2</td><td class="en" dir="ltr">traditional</td><td class="ar">تقليدي</td></tr>
-<tr><td>3</td><td class="en" dir="ltr">statistics</td><td class="ar">إحصائيات</td></tr>
-<tr><td>4</td><td class="en" dir="ltr">attention</td><td class="ar">انتباه</td></tr>
-<tr><td>5</td><td class="en" dir="ltr">prove</td><td class="ar">يثبت</td></tr>
-<tr><td>6</td><td class="en" dir="ltr">effective</td><td class="ar">فعال</td></tr>
-<tr><td>7</td><td class="en" dir="ltr">respond</td><td class="ar">يستجيب</td></tr>
-<tr><td>8</td><td class="en" dir="ltr">influence</td><td class="ar">يؤثر</td></tr>
-<tr><td>9</td><td class="en" dir="ltr">purchase</td><td class="ar">شراء</td></tr>
-<tr><td>10</td><td class="en" dir="ltr">advertisement</td><td class="ar">إعلان</td></tr>
-<tr><td>11</td><td class="en" dir="ltr">farming</td><td class="ar">زراعة</td></tr>
-<tr><td>12</td><td class="en" dir="ltr">dangerous</td><td class="ar">خطير</td></tr>
-<tr><td>13</td><td class="en" dir="ltr">environment</td><td class="ar">بيئة</td></tr>
-<tr><td>14</td><td class="en" dir="ltr">tolerance</td><td class="ar">تحمل</td></tr>
-<tr><td>15</td><td class="en" dir="ltr">exposure</td><td class="ar">تعرض</td></tr>
-<tr><td>16</td><td class="en" dir="ltr">cancer</td><td class="ar">سرطان</td></tr>
-<tr><td>17</td><td class="en" dir="ltr">chemicals</td><td class="ar">مواد كيميائية</td></tr>
-<tr><td>18</td><td class="en" dir="ltr">precautions</td><td class="ar">احتياطات</td></tr>
-<tr><td>19</td><td class="en" dir="ltr">equipment</td><td class="ar">معدات</td></tr>
-<tr><td>20</td><td class="en" dir="ltr">injuries</td><td class="ar">إصابات</td></tr>
-<tr><td>21</td><td class="en" dir="ltr">lifestyle</td><td class="ar">نمط حياة</td></tr>
-<tr><td>22</td><td class="en" dir="ltr">voluntary</td><td class="ar">تطوعي</td></tr>
-<tr><td>23</td><td class="en" dir="ltr">poverty</td><td class="ar">فقر</td></tr>
-<tr><td>24</td><td class="en" dir="ltr">disadvantaged</td><td class="ar">محروم</td></tr>
-<tr><td>25</td><td class="en" dir="ltr">volunteer</td><td class="ar">متطوع</td></tr>
-<tr><td>26</td><td class="en" dir="ltr">organization</td><td class="ar">منظمة</td></tr>
-<tr><td>27</td><td class="en" dir="ltr">healthcare</td><td class="ar">رعاية صحية</td></tr>
-<tr><td>28</td><td class="en" dir="ltr">mentor</td><td class="ar">مرشد</td></tr>
-<tr><td>29</td><td class="en" dir="ltr">method</td><td class="ar">طريقة</td></tr>
-<tr><td>30</td><td class="en" dir="ltr">establish</td><td class="ar">يؤسس</td></tr>
-<tr><td>31</td><td class="en" dir="ltr">improve</td><td class="ar">يحسن</td></tr>
-<tr><td>32</td><td class="en" dir="ltr">struggle</td><td class="ar">يكافح</td></tr>
-<tr><td>33</td><td class="en" dir="ltr">income</td><td class="ar">دخل</td></tr>
-<tr><td>34</td><td class="en" dir="ltr">professional</td><td class="ar">مهني</td></tr>
-<tr><td>35</td><td class="en" dir="ltr">crops</td><td class="ar">محاصيل</td></tr>
-<tr><td>36</td><td class="en" dir="ltr">efficiently</td><td class="ar">بكفاءة</td></tr>
-<tr><td>37</td><td class="en" dir="ltr">identify</td><td class="ar">يحدد</td></tr>
-<tr><td>38</td><td class="en" dir="ltr">achieve</td><td class="ar">يحقق</td></tr>
-<tr><td>39</td><td class="en" dir="ltr">quality</td><td class="ar">جودة</td></tr>
-<tr><td>40</td><td class="en" dir="ltr">difference</td><td class="ar">فرق</td></tr>
-<tr><td>41</td><td class="en" dir="ltr">trust</td><td class="ar">يثق</td></tr>
-<tr><td>42</td><td class="en" dir="ltr">reliable</td><td class="ar">موثوق</td></tr>
-<tr><td>43</td><td class="en" dir="ltr">immediately</td><td class="ar">فوراً</td></tr>
-<tr><td>44</td><td class="en" dir="ltr">survey</td><td class="ar">استقصاء</td></tr>
-<tr><td>45</td><td class="en" dir="ltr">majority</td><td class="ar">أغلبية</td></tr>
-<tr><td>46</td><td class="en" dir="ltr">content</td><td class="ar">راضٍ</td></tr>
-<tr><td>47</td><td class="en" dir="ltr">variety</td><td class="ar">تنوع</td></tr>
-<tr><td>48</td><td class="en" dir="ltr">essentially</td><td class="ar">أساساً</td></tr>
-<tr><td>49</td><td class="en" dir="ltr">demand</td><td class="ar">طلب</td></tr>
+<tr><td>1</td><td class="en" dir="ltr" style="text-align: left;">advertise</td><td class="ar">يعلن</td></tr>
+<tr><td>2</td><td class="en" dir="ltr" style="text-align: left;">traditional</td><td class="ar">تقليدي</td></tr>
+<tr><td>3</td><td class="en" dir="ltr" style="text-align: left;">statistics</td><td class="ar">إحصائيات</td></tr>
+<tr><td>4</td><td class="en" dir="ltr" style="text-align: left;">attention</td><td class="ar">انتباه</td></tr>
+<tr><td>5</td><td class="en" dir="ltr" style="text-align: left;">prove</td><td class="ar">يثبت</td></tr>
+<tr><td>6</td><td class="en" dir="ltr" style="text-align: left;">effective</td><td class="ar">فعال</td></tr>
+<tr><td>7</td><td class="en" dir="ltr" style="text-align: left;">respond</td><td class="ar">يستجيب</td></tr>
+<tr><td>8</td><td class="en" dir="ltr" style="text-align: left;">influence</td><td class="ar">يؤثر</td></tr>
+<tr><td>9</td><td class="en" dir="ltr" style="text-align: left;">purchase</td><td class="ar">شراء</td></tr>
+<tr><td>10</td><td class="en" dir="ltr" style="text-align: left;">advertisement</td><td class="ar">إعلان</td></tr>
+<tr><td>11</td><td class="en" dir="ltr" style="text-align: left;">farming</td><td class="ar">زراعة</td></tr>
+<tr><td>12</td><td class="en" dir="ltr" style="text-align: left;">dangerous</td><td class="ar">خطير</td></tr>
+<tr><td>13</td><td class="en" dir="ltr" style="text-align: left;">environment</td><td class="ar">بيئة</td></tr>
+<tr><td>14</td><td class="en" dir="ltr" style="text-align: left;">tolerance</td><td class="ar">تحمل</td></tr>
+<tr><td>15</td><td class="en" dir="ltr" style="text-align: left;">exposure</td><td class="ar">تعرض</td></tr>
+<tr><td>16</td><td class="en" dir="ltr" style="text-align: left;">cancer</td><td class="ar">سرطان</td></tr>
+<tr><td>17</td><td class="en" dir="ltr" style="text-align: left;">chemicals</td><td class="ar">مواد كيميائية</td></tr>
+<tr><td>18</td><td class="en" dir="ltr" style="text-align: left;">precautions</td><td class="ar">احتياطات</td></tr>
+<tr><td>19</td><td class="en" dir="ltr" style="text-align: left;">equipment</td><td class="ar">معدات</td></tr>
+<tr><td>20</td><td class="en" dir="ltr" style="text-align: left;">injuries</td><td class="ar">إصابات</td></tr>
+<tr><td>21</td><td class="en" dir="ltr" style="text-align: left;">lifestyle</td><td class="ar">نمط حياة</td></tr>
+<tr><td>22</td><td class="en" dir="ltr" style="text-align: left;">voluntary</td><td class="ar">تطوعي</td></tr>
+<tr><td>23</td><td class="en" dir="ltr" style="text-align: left;">poverty</td><td class="ar">فقر</td></tr>
+<tr><td>24</td><td class="en" dir="ltr" style="text-align: left;">disadvantaged</td><td class="ar">محروم</td></tr>
+<tr><td>25</td><td class="en" dir="ltr" style="text-align: left;">volunteer</td><td class="ar">متطوع</td></tr>
+<tr><td>26</td><td class="en" dir="ltr" style="text-align: left;">organization</td><td class="ar">منظمة</td></tr>
+<tr><td>27</td><td class="en" dir="ltr" style="text-align: left;">healthcare</td><td class="ar">رعاية صحية</td></tr>
+<tr><td>28</td><td class="en" dir="ltr" style="text-align: left;">mentor</td><td class="ar">مرشد</td></tr>
+<tr><td>29</td><td class="en" dir="ltr" style="text-align: left;">method</td><td class="ar">طريقة</td></tr>
+<tr><td>30</td><td class="en" dir="ltr" style="text-align: left;">establish</td><td class="ar">يؤسس</td></tr>
+<tr><td>31</td><td class="en" dir="ltr" style="text-align: left;">improve</td><td class="ar">يحسن</td></tr>
+<tr><td>32</td><td class="en" dir="ltr" style="text-align: left;">struggle</td><td class="ar">يكافح</td></tr>
+<tr><td>33</td><td class="en" dir="ltr" style="text-align: left;">income</td><td class="ar">دخل</td></tr>
+<tr><td>34</td><td class="en" dir="ltr" style="text-align: left;">professional</td><td class="ar">مهني</td></tr>
+<tr><td>35</td><td class="en" dir="ltr" style="text-align: left;">crops</td><td class="ar">محاصيل</td></tr>
+<tr><td>36</td><td class="en" dir="ltr" style="text-align: left;">efficiently</td><td class="ar">بكفاءة</td></tr>
+<tr><td>37</td><td class="en" dir="ltr" style="text-align: left;">identify</td><td class="ar">يحدد</td></tr>
+<tr><td>38</td><td class="en" dir="ltr" style="text-align: left;">achieve</td><td class="ar">يحقق</td></tr>
+<tr><td>39</td><td class="en" dir="ltr" style="text-align: left;">quality</td><td class="ar">جودة</td></tr>
+<tr><td>40</td><td class="en" dir="ltr" style="text-align: left;">difference</td><td class="ar">فرق</td></tr>
+<tr><td>41</td><td class="en" dir="ltr" style="text-align: left;">trust</td><td class="ar">يثق</td></tr>
+<tr><td>42</td><td class="en" dir="ltr" style="text-align: left;">reliable</td><td class="ar">موثوق</td></tr>
+<tr><td>43</td><td class="en" dir="ltr" style="text-align: left;">immediately</td><td class="ar">فوراً</td></tr>
+<tr><td>44</td><td class="en" dir="ltr" style="text-align: left;">survey</td><td class="ar">استقصاء</td></tr>
+<tr><td>45</td><td class="en" dir="ltr" style="text-align: left;">majority</td><td class="ar">أغلبية</td></tr>
+<tr><td>46</td><td class="en" dir="ltr" style="text-align: left;">content</td><td class="ar">راضٍ</td></tr>
+<tr><td>47</td><td class="en" dir="ltr" style="text-align: left;">variety</td><td class="ar">تنوع</td></tr>
+<tr><td>48</td><td class="en" dir="ltr" style="text-align: left;">essentially</td><td class="ar">أساساً</td></tr>
+<tr><td>49</td><td class="en" dir="ltr" style="text-align: left;">demand</td><td class="ar">طلب</td></tr>
 </tbody></table>
 <div class="questions"><h4>أسئلة المفردات</h4><ol>
 <li><bdi dir="ltr">The company decided to _______ their new product on television to reach more people.</bdi><ol type="a">
@@ -1374,7 +1376,7 @@ bdi[dir="ltr"] {
 </section>
 </div><div class="day" id="day-2"><h1 class="section-title">اليوم 2 – Bicycles</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
 <article class="passage"><h3>Bicycles</h3>
-<div class="passage-text" dir="ltr">Bicycles are not a new invention. The first ones were built in the late 1700&#x27;s, but they didn&#x27;t have any pedals. To move them, people pushed their feet against the ground. These bicycles were very uncomfortable as well. Their wheels were made of wood. In the 1830&#x27;s Kirkpatrick Macmillan fixed foot levers to his bicycle. They were joined to the back wheel. When Macmillan sat on his machine, he pushed his feet up and down on the levers. In this way the wheels turned. About thirty years passed. Then, in 1861 pedals were fixed to the front wheels of bicycles. This made them much easier to ride. More people bought them. Bicycle riding became a sport. Riders wanted to go faster and faster, so they made machines with very high wheels. Some front wheels were 1.5 meters high. This made the machines dangerous. Riders often fell off them. At last, in the 1880s, safer and more comfortable bicycles began to be made. These machines had air-filled tires which looked like modern bicycle wheels. They also had chains. When the rider turned the pedals, the chain drove the back wheel of the bicycle. The bicycle hasn&#x27;t changed very much since.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">Bicycles are not a new invention. The first ones were built in the late 1700&#x27;s, but they didn&#x27;t have any pedals. To move them, people pushed their feet against the ground. These bicycles were very uncomfortable as well. Their wheels were made of wood. In the 1830&#x27;s Kirkpatrick Macmillan fixed foot levers to his bicycle. They were joined to the back wheel. When Macmillan sat on his machine, he pushed his feet up and down on the levers. In this way the wheels turned. About thirty years passed. Then, in 1861 pedals were fixed to the front wheels of bicycles. This made them much easier to ride. More people bought them. Bicycle riding became a sport. Riders wanted to go faster and faster, so they made machines with very high wheels. Some front wheels were 1.5 meters high. This made the machines dangerous. Riders often fell off them. At last, in the 1880s, safer and more comfortable bicycles began to be made. These machines had air-filled tires which looked like modern bicycle wheels. They also had chains. When the rider turned the pedals, the chain drove the back wheel of the bicycle. The bicycle hasn&#x27;t changed very much since.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">1. The first bicycles were very uncomfortable because</bdi><ol type="a">
 <li><bdi dir="ltr">they were a new invention</bdi></li>
@@ -1421,7 +1423,7 @@ bdi[dir="ltr"] {
 </ol></div>
 </article>
 <article class="passage"><h3>The Red Sea</h3>
-<div class="passage-text" dir="ltr">Water which comes from the Gulf of Aden at the southern end. However, the sea is very narrow there, and in the past the channel has closed. When that happened, the sea dried up. The salt was left behind and, today, there are some places where the salt is almost 4 km thick. Most of this salt is now covered with rock. Today, some companies are mining the bottom of the Red Sea. There are cracks in the sea bottom and warm sea water enters them. The water carries different salts and minerals out of the cracks back to the sea floor. There, the hot sea water, which is heavier than ordinary sea water, forms pools. These pools cool and the salts and minerals become solid again. Because of this process, there are large quantities of copper (Cu), nickel (Ni) and other metals on the seafloor. These metals are very useful, but we must make sure that we don&#x27;t damage the animal and plant life of the Red Sea.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">Water which comes from the Gulf of Aden at the southern end. However, the sea is very narrow there, and in the past the channel has closed. When that happened, the sea dried up. The salt was left behind and, today, there are some places where the salt is almost 4 km thick. Most of this salt is now covered with rock. Today, some companies are mining the bottom of the Red Sea. There are cracks in the sea bottom and warm sea water enters them. The water carries different salts and minerals out of the cracks back to the sea floor. There, the hot sea water, which is heavier than ordinary sea water, forms pools. These pools cool and the salts and minerals become solid again. Because of this process, there are large quantities of copper (Cu), nickel (Ni) and other metals on the seafloor. These metals are very useful, but we must make sure that we don&#x27;t damage the animal and plant life of the Red Sea.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">8. Water which comes from the Gulf of Aden enters the Red Sea through</bdi><ol type="a">
 <li><bdi dir="ltr">the northern end</bdi></li>
@@ -1468,7 +1470,7 @@ bdi[dir="ltr"] {
 </ol></div>
 </article>
 <article class="passage"><h3>Diabetes</h3>
-<div class="passage-text" dir="ltr">There are two types of diabetes: insulin-dependent (Type I) and non-insulin-dependent (Type II). Most diabetics do not produce enough insulin, which is necessary for the body to process glucose. Glucose, a simple sugar, is a primary source of energy for the body. When insulin is lacking, glucose cannot be absorbed by cells and remains in the bloodstream. People with insulin-dependent diabetes must receive daily insulin injections to survive. People with non-insulin dependent diabetes usually produce some insulin in their pancreas, but the body&#x27;s tissues do not respond very well to the insulin signal and therefore do not metabolize the glucose properly. This condition is also known as insulin resistance. There&#x27;s no cure for diabetes yet. However, there are ways to alleviate its symptoms. In 1986, a National Institutes of Health panel of experts recommended that the best treatment for Type II diabetes is a diet that helps one maintain a normal weight and balances all food groups. Many experts, including those in the American Diabetes Association, recommend that 50-60 percent of daily calories come from carbohydrates, 12-20 percent from protein, and no more than 30% from fat. Foods that are rich in carbohydrates, like breads, cereals, fruits, and vegetables break down into glucose during digestion, causing blood glucose to rise. Additionally, studies have shown that cooked foods raise blood glucose higher than raw foods.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">There are two types of diabetes: insulin-dependent (Type I) and non-insulin-dependent (Type II). Most diabetics do not produce enough insulin, which is necessary for the body to process glucose. Glucose, a simple sugar, is a primary source of energy for the body. When insulin is lacking, glucose cannot be absorbed by cells and remains in the bloodstream. People with insulin-dependent diabetes must receive daily insulin injections to survive. People with non-insulin dependent diabetes usually produce some insulin in their pancreas, but the body&#x27;s tissues do not respond very well to the insulin signal and therefore do not metabolize the glucose properly. This condition is also known as insulin resistance. There&#x27;s no cure for diabetes yet. However, there are ways to alleviate its symptoms. In 1986, a National Institutes of Health panel of experts recommended that the best treatment for Type II diabetes is a diet that helps one maintain a normal weight and balances all food groups. Many experts, including those in the American Diabetes Association, recommend that 50-60 percent of daily calories come from carbohydrates, 12-20 percent from protein, and no more than 30% from fat. Foods that are rich in carbohydrates, like breads, cereals, fruits, and vegetables break down into glucose during digestion, causing blood glucose to rise. Additionally, studies have shown that cooked foods raise blood glucose higher than raw foods.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">15. What is the main purpose of this passage?</bdi><ol type="a">
 <li><bdi dir="ltr">to show readers how to prevent diabetes</bdi></li>
@@ -1524,46 +1526,46 @@ bdi[dir="ltr"] {
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
 <table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
-<tr><td>1</td><td class="en" dir="ltr">ring</td><td class="ar">خاتم</td></tr>
-<tr><td>2</td><td class="en" dir="ltr">watch</td><td class="ar">ساعة يد</td></tr>
-<tr><td>3</td><td class="en" dir="ltr">hat</td><td class="ar">قبعة</td></tr>
-<tr><td>4</td><td class="en" dir="ltr">belt</td><td class="ar">حزام</td></tr>
-<tr><td>5</td><td class="en" dir="ltr">raincoat</td><td class="ar">معطف مطر</td></tr>
-<tr><td>6</td><td class="en" dir="ltr">sweater</td><td class="ar">سترة صوفية</td></tr>
-<tr><td>7</td><td class="en" dir="ltr">trainers</td><td class="ar">حذاء رياضي</td></tr>
-<tr><td>8</td><td class="en" dir="ltr">gloves</td><td class="ar">قفازات</td></tr>
-<tr><td>9</td><td class="en" dir="ltr">umbrella</td><td class="ar">مظلة</td></tr>
-<tr><td>10</td><td class="en" dir="ltr">scarf</td><td class="ar">وشاح</td></tr>
-<tr><td>11</td><td class="en" dir="ltr">thobe</td><td class="ar">ثوب</td></tr>
-<tr><td>12</td><td class="en" dir="ltr">tie</td><td class="ar">ربطة عنق</td></tr>
-<tr><td>13</td><td class="en" dir="ltr">suit</td><td class="ar">بدلة</td></tr>
-<tr><td>14</td><td class="en" dir="ltr">goggles</td><td class="ar">نظارات واقية</td></tr>
-<tr><td>15</td><td class="en" dir="ltr">old fashioned</td><td class="ar">قديم الطراز</td></tr>
-<tr><td>16</td><td class="en" dir="ltr">modern</td><td class="ar">حديث</td></tr>
-<tr><td>17</td><td class="en" dir="ltr">thirsty</td><td class="ar">عطشان</td></tr>
-<tr><td>18</td><td class="en" dir="ltr">hungry</td><td class="ar">جائع</td></tr>
-<tr><td>19</td><td class="en" dir="ltr">delicious</td><td class="ar">لذيذ</td></tr>
-<tr><td>20</td><td class="en" dir="ltr">awful</td><td class="ar">فظيع</td></tr>
-<tr><td>21</td><td class="en" dir="ltr">pedal</td><td class="ar">دواسة</td></tr>
-<tr><td>22</td><td class="en" dir="ltr">lever</td><td class="ar">رافعة</td></tr>
-<tr><td>23</td><td class="en" dir="ltr">invention</td><td class="ar">اختراع</td></tr>
-<tr><td>24</td><td class="en" dir="ltr">crack</td><td class="ar">صدع</td></tr>
-<tr><td>25</td><td class="en" dir="ltr">mineral</td><td class="ar">معدن</td></tr>
-<tr><td>26</td><td class="en" dir="ltr">evaporated</td><td class="ar">تبخر</td></tr>
-<tr><td>27</td><td class="en" dir="ltr">copper</td><td class="ar">نحاس</td></tr>
-<tr><td>28</td><td class="en" dir="ltr">diabetes</td><td class="ar">مرض السكري</td></tr>
-<tr><td>29</td><td class="en" dir="ltr">insulin</td><td class="ar">أنسولين</td></tr>
-<tr><td>30</td><td class="en" dir="ltr">glucose</td><td class="ar">جلوكوز</td></tr>
-<tr><td>31</td><td class="en" dir="ltr">carbohydrates</td><td class="ar">كربوهيدرات</td></tr>
-<tr><td>32</td><td class="en" dir="ltr">alleviate</td><td class="ar">يخفف</td></tr>
-<tr><td>33</td><td class="en" dir="ltr">symptom</td><td class="ar">عرض مرضي</td></tr>
-<tr><td>34</td><td class="en" dir="ltr">tissue</td><td class="ar">نسيج</td></tr>
-<tr><td>35</td><td class="en" dir="ltr">digestion</td><td class="ar">هضم</td></tr>
-<tr><td>36</td><td class="en" dir="ltr">diet</td><td class="ar">نظام غذائي</td></tr>
-<tr><td>37</td><td class="en" dir="ltr">visible</td><td class="ar">مرئي</td></tr>
-<tr><td>38</td><td class="en" dir="ltr">gravitational</td><td class="ar">جاذبي</td></tr>
-<tr><td>39</td><td class="en" dir="ltr">beverage</td><td class="ar">مشروب</td></tr>
-<tr><td>40</td><td class="en" dir="ltr">optical</td><td class="ar">بصري</td></tr>
+<tr><td>1</td><td class="en" dir="ltr" style="text-align: left;">ring</td><td class="ar">خاتم</td></tr>
+<tr><td>2</td><td class="en" dir="ltr" style="text-align: left;">watch</td><td class="ar">ساعة يد</td></tr>
+<tr><td>3</td><td class="en" dir="ltr" style="text-align: left;">hat</td><td class="ar">قبعة</td></tr>
+<tr><td>4</td><td class="en" dir="ltr" style="text-align: left;">belt</td><td class="ar">حزام</td></tr>
+<tr><td>5</td><td class="en" dir="ltr" style="text-align: left;">raincoat</td><td class="ar">معطف مطر</td></tr>
+<tr><td>6</td><td class="en" dir="ltr" style="text-align: left;">sweater</td><td class="ar">سترة صوفية</td></tr>
+<tr><td>7</td><td class="en" dir="ltr" style="text-align: left;">trainers</td><td class="ar">حذاء رياضي</td></tr>
+<tr><td>8</td><td class="en" dir="ltr" style="text-align: left;">gloves</td><td class="ar">قفازات</td></tr>
+<tr><td>9</td><td class="en" dir="ltr" style="text-align: left;">umbrella</td><td class="ar">مظلة</td></tr>
+<tr><td>10</td><td class="en" dir="ltr" style="text-align: left;">scarf</td><td class="ar">وشاح</td></tr>
+<tr><td>11</td><td class="en" dir="ltr" style="text-align: left;">thobe</td><td class="ar">ثوب</td></tr>
+<tr><td>12</td><td class="en" dir="ltr" style="text-align: left;">tie</td><td class="ar">ربطة عنق</td></tr>
+<tr><td>13</td><td class="en" dir="ltr" style="text-align: left;">suit</td><td class="ar">بدلة</td></tr>
+<tr><td>14</td><td class="en" dir="ltr" style="text-align: left;">goggles</td><td class="ar">نظارات واقية</td></tr>
+<tr><td>15</td><td class="en" dir="ltr" style="text-align: left;">old fashioned</td><td class="ar">قديم الطراز</td></tr>
+<tr><td>16</td><td class="en" dir="ltr" style="text-align: left;">modern</td><td class="ar">حديث</td></tr>
+<tr><td>17</td><td class="en" dir="ltr" style="text-align: left;">thirsty</td><td class="ar">عطشان</td></tr>
+<tr><td>18</td><td class="en" dir="ltr" style="text-align: left;">hungry</td><td class="ar">جائع</td></tr>
+<tr><td>19</td><td class="en" dir="ltr" style="text-align: left;">delicious</td><td class="ar">لذيذ</td></tr>
+<tr><td>20</td><td class="en" dir="ltr" style="text-align: left;">awful</td><td class="ar">فظيع</td></tr>
+<tr><td>21</td><td class="en" dir="ltr" style="text-align: left;">pedal</td><td class="ar">دواسة</td></tr>
+<tr><td>22</td><td class="en" dir="ltr" style="text-align: left;">lever</td><td class="ar">رافعة</td></tr>
+<tr><td>23</td><td class="en" dir="ltr" style="text-align: left;">invention</td><td class="ar">اختراع</td></tr>
+<tr><td>24</td><td class="en" dir="ltr" style="text-align: left;">crack</td><td class="ar">صدع</td></tr>
+<tr><td>25</td><td class="en" dir="ltr" style="text-align: left;">mineral</td><td class="ar">معدن</td></tr>
+<tr><td>26</td><td class="en" dir="ltr" style="text-align: left;">evaporated</td><td class="ar">تبخر</td></tr>
+<tr><td>27</td><td class="en" dir="ltr" style="text-align: left;">copper</td><td class="ar">نحاس</td></tr>
+<tr><td>28</td><td class="en" dir="ltr" style="text-align: left;">diabetes</td><td class="ar">مرض السكري</td></tr>
+<tr><td>29</td><td class="en" dir="ltr" style="text-align: left;">insulin</td><td class="ar">أنسولين</td></tr>
+<tr><td>30</td><td class="en" dir="ltr" style="text-align: left;">glucose</td><td class="ar">جلوكوز</td></tr>
+<tr><td>31</td><td class="en" dir="ltr" style="text-align: left;">carbohydrates</td><td class="ar">كربوهيدرات</td></tr>
+<tr><td>32</td><td class="en" dir="ltr" style="text-align: left;">alleviate</td><td class="ar">يخفف</td></tr>
+<tr><td>33</td><td class="en" dir="ltr" style="text-align: left;">symptom</td><td class="ar">عرض مرضي</td></tr>
+<tr><td>34</td><td class="en" dir="ltr" style="text-align: left;">tissue</td><td class="ar">نسيج</td></tr>
+<tr><td>35</td><td class="en" dir="ltr" style="text-align: left;">digestion</td><td class="ar">هضم</td></tr>
+<tr><td>36</td><td class="en" dir="ltr" style="text-align: left;">diet</td><td class="ar">نظام غذائي</td></tr>
+<tr><td>37</td><td class="en" dir="ltr" style="text-align: left;">visible</td><td class="ar">مرئي</td></tr>
+<tr><td>38</td><td class="en" dir="ltr" style="text-align: left;">gravitational</td><td class="ar">جاذبي</td></tr>
+<tr><td>39</td><td class="en" dir="ltr" style="text-align: left;">beverage</td><td class="ar">مشروب</td></tr>
+<tr><td>40</td><td class="en" dir="ltr" style="text-align: left;">optical</td><td class="ar">بصري</td></tr>
 </tbody></table>
 <div class="questions"><h4>أسئلة المفردات</h4><ol>
 <li><bdi dir="ltr">They exchanged wedding ________ made of gold.</bdi><ol type="a">
@@ -2508,7 +2510,7 @@ bdi[dir="ltr"] {
 </section>
 </div><div class="day" id="day-3"><h1 class="section-title">اليوم 3 – Amelia Earhart</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
 <article class="passage"><h3>Amelia Earhart</h3>
-<div class="passage-text" dir="ltr">Amelia Earhart was born in Kansas in 1897. Thirty one years later, she received a phone call that would change her life. She was invited to become the first woman passenger to cross the Atlantic Ocean in a plane. The flight took more than 20 hours - about three times longer than it routinely takes today to cross the Atlantic by plane. Earhart was twelve years old before she ever saw an airplane, and she didn&#x27;t take her first flight until 1920. But she was so thrilled by her first experience in a plane that she quickly began to take flying lessons. She wrote, &quot;As soon as I left the ground, I knew I myself had to fly.&quot;<br><br>After that flight Earhart became a media sensation. She was given a ticker tape parade down Broadway in New York and even President Coolidge called to congratulate her. Because her record-breaking career and physical appearance were similar to pioneering pilot and American hero Charles Lindbergh, she earned the nickname &quot;Lady Lindy.&quot; She wrote a book about her flight across the Atlantic, called 20 Hrs., 40 Min.<br><br>Earhart continued to break records, and also polished her skills as a speaker and writer, always advocating women&#x27;s achievements, especially in aviation. Her next goal was to achieve a transatlantic crossing alone. In 1927 Charles Lindbergh became the first person to make a solo nonstop flight across the Atlantic. Five years later, Earhart became the first woman to repeat that feat. Her popularity grew even more and she was the undisputed queen of the air. She then wanted to fly around the world, and in June 1937 she left Miami with Fred Noonan as her navigator. No one knows why she left behind important communication and navigation instruments. Perhaps it was to make room for additional fuel for the long flight. The pair made it to New Guinea in 21 days and then left for Howland Island, a tiny island in the middle of the Pacific Ocean. The last communication from Earhart and Noonan was on July 2, 1937. They were never seen again.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">Amelia Earhart was born in Kansas in 1897. Thirty one years later, she received a phone call that would change her life. She was invited to become the first woman passenger to cross the Atlantic Ocean in a plane. The flight took more than 20 hours - about three times longer than it routinely takes today to cross the Atlantic by plane. Earhart was twelve years old before she ever saw an airplane, and she didn&#x27;t take her first flight until 1920. But she was so thrilled by her first experience in a plane that she quickly began to take flying lessons. She wrote, &quot;As soon as I left the ground, I knew I myself had to fly.&quot;<br><br>After that flight Earhart became a media sensation. She was given a ticker tape parade down Broadway in New York and even President Coolidge called to congratulate her. Because her record-breaking career and physical appearance were similar to pioneering pilot and American hero Charles Lindbergh, she earned the nickname &quot;Lady Lindy.&quot; She wrote a book about her flight across the Atlantic, called 20 Hrs., 40 Min.<br><br>Earhart continued to break records, and also polished her skills as a speaker and writer, always advocating women&#x27;s achievements, especially in aviation. Her next goal was to achieve a transatlantic crossing alone. In 1927 Charles Lindbergh became the first person to make a solo nonstop flight across the Atlantic. Five years later, Earhart became the first woman to repeat that feat. Her popularity grew even more and she was the undisputed queen of the air. She then wanted to fly around the world, and in June 1937 she left Miami with Fred Noonan as her navigator. No one knows why she left behind important communication and navigation instruments. Perhaps it was to make room for additional fuel for the long flight. The pair made it to New Guinea in 21 days and then left for Howland Island, a tiny island in the middle of the Pacific Ocean. The last communication from Earhart and Noonan was on July 2, 1937. They were never seen again.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">1. When did Amelia Earhart take her first flight?</bdi><ol type="a">
 <li><bdi dir="ltr">1897</bdi></li>
@@ -2555,7 +2557,7 @@ bdi[dir="ltr"] {
 </ol></div>
 </article>
 <article class="passage"><h3>The Super Bus</h3>
-<div class="passage-text" dir="ltr">Everyone notices the high-tech changes that are happening to our personal automobiles, with GPS systems now a standard feature and cars that drive themselves coming soon. But some companies are also working on developing high-tech bus systems. Most recently, the first ever &#x27;Super bus&#x27; is being developed by a Dutch company. The company is run by Wuboo Ockels, who is a former astronaut and the creator of the amazing super bus.<br><br>What makes the bus so &#x27;super&#x27;? First of all, it&#x27;s very fast. It has a top speed of 250 kph (155mph). In order to travel that fast, the bus will run on special roads. However, unlike a train, which must always use rail lines, the super bus can also travel on normal roads at normal speeds. This means the bus can travel quickly between cities like a train, but take passengers to specific destinations within the city, like a normal bus. When it travels on the special high-speed highway, it travels very low - only 7 cm off the ground. This helps the super bus travel faster and remain more stable, but of course it can only travel that low on a special highway. When it moves onto normal city streets, it moves to a more typical height of 43 cm.<br><br>Knowing how fast it is, you may be surprised to learn that the super bus is powered by electricity. It can travel 200 km on a single battery. When the bus has gone 200km, it will make a quick stop so the driver can switch batteries. The battery has been designed so that it&#x27;s very easy for any person to pull out and replace quickly.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">Everyone notices the high-tech changes that are happening to our personal automobiles, with GPS systems now a standard feature and cars that drive themselves coming soon. But some companies are also working on developing high-tech bus systems. Most recently, the first ever &#x27;Super bus&#x27; is being developed by a Dutch company. The company is run by Wuboo Ockels, who is a former astronaut and the creator of the amazing super bus.<br><br>What makes the bus so &#x27;super&#x27;? First of all, it&#x27;s very fast. It has a top speed of 250 kph (155mph). In order to travel that fast, the bus will run on special roads. However, unlike a train, which must always use rail lines, the super bus can also travel on normal roads at normal speeds. This means the bus can travel quickly between cities like a train, but take passengers to specific destinations within the city, like a normal bus. When it travels on the special high-speed highway, it travels very low - only 7 cm off the ground. This helps the super bus travel faster and remain more stable, but of course it can only travel that low on a special highway. When it moves onto normal city streets, it moves to a more typical height of 43 cm.<br><br>Knowing how fast it is, you may be surprised to learn that the super bus is powered by electricity. It can travel 200 km on a single battery. When the bus has gone 200km, it will make a quick stop so the driver can switch batteries. The battery has been designed so that it&#x27;s very easy for any person to pull out and replace quickly.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">8. What is the top speed of the super bus?</bdi><ol type="a">
 <li><bdi dir="ltr">155 mph</bdi></li>
@@ -2602,7 +2604,7 @@ bdi[dir="ltr"] {
 </ol></div>
 </article>
 <article class="passage"><h3>Professional Email Etiquette</h3>
-<div class="passage-text" dir="ltr">Even though email has become a common form of communication, there are still many people who do not follow some basic rules, or etiquette, when they compose emails. Email etiquette is especially important in formal situations, such as at work or school. Good etiquette can get you positive results. Being professional when you write emails means following certain standards.<br><br>First of all, a formal email should be complete. Always put a subject in the subject line, and try to make it as specific as possible, so the other person knows the purpose of your email. Writing information isn&#x27;t enough, but putting information about your interview is. There should always be a greeting in formal emails, such as those to teachers. When students don&#x27;t use an instructor&#x27;s formal name, they could offend the instructor. Dear Prof. Winter is better than a teacher or nothing at all.<br><br>Formal emails also need to have correct grammar, spelling, and punctuation. After you have finished writing an email, read it from the beginning to end and edit your sentences. Missing commas or periods might demonstrate to others that you are not careful, which could lead to a bad impression. Use the &#x27;spell check&#x27; feature to check your spelling before sending the email, and avoid using slang or abbreviations like LOL or BTW.<br><br>Schools and businesses require more formal writing, and they expect people to use proper email etiquette. Following some simple rules can help you write more professional emails. When you are careful about how you write, you can leave a good first impression on others.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">Even though email has become a common form of communication, there are still many people who do not follow some basic rules, or etiquette, when they compose emails. Email etiquette is especially important in formal situations, such as at work or school. Good etiquette can get you positive results. Being professional when you write emails means following certain standards.<br><br>First of all, a formal email should be complete. Always put a subject in the subject line, and try to make it as specific as possible, so the other person knows the purpose of your email. Writing information isn&#x27;t enough, but putting information about your interview is. There should always be a greeting in formal emails, such as those to teachers. When students don&#x27;t use an instructor&#x27;s formal name, they could offend the instructor. Dear Prof. Winter is better than a teacher or nothing at all.<br><br>Formal emails also need to have correct grammar, spelling, and punctuation. After you have finished writing an email, read it from the beginning to end and edit your sentences. Missing commas or periods might demonstrate to others that you are not careful, which could lead to a bad impression. Use the &#x27;spell check&#x27; feature to check your spelling before sending the email, and avoid using slang or abbreviations like LOL or BTW.<br><br>Schools and businesses require more formal writing, and they expect people to use proper email etiquette. Following some simple rules can help you write more professional emails. When you are careful about how you write, you can leave a good first impression on others.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">15. What does &#x27;etiquette&#x27; mean?</bdi><ol type="a">
 <li><bdi dir="ltr">A good first impression</bdi></li>
@@ -2658,46 +2660,46 @@ bdi[dir="ltr"] {
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
 <table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
-<tr><td>1</td><td class="en" dir="ltr">asthma</td><td class="ar">ربو</td></tr>
-<tr><td>2</td><td class="en" dir="ltr">toothache</td><td class="ar">وجع أسنان</td></tr>
-<tr><td>3</td><td class="en" dir="ltr">headache</td><td class="ar">صداع</td></tr>
-<tr><td>4</td><td class="en" dir="ltr">fever</td><td class="ar">حمى</td></tr>
-<tr><td>5</td><td class="en" dir="ltr">aspirin</td><td class="ar">أسبرين</td></tr>
-<tr><td>6</td><td class="en" dir="ltr">sneeze</td><td class="ar">عطس</td></tr>
-<tr><td>7</td><td class="en" dir="ltr">antacid</td><td class="ar">مضاد حموضة</td></tr>
-<tr><td>8</td><td class="en" dir="ltr">sick</td><td class="ar">مريض</td></tr>
-<tr><td>9</td><td class="en" dir="ltr">injection</td><td class="ar">حقنة</td></tr>
-<tr><td>10</td><td class="en" dir="ltr">dental hygiene</td><td class="ar">نظافة الأسنان</td></tr>
-<tr><td>11</td><td class="en" dir="ltr">experiment</td><td class="ar">تجربة</td></tr>
-<tr><td>12</td><td class="en" dir="ltr">symptom</td><td class="ar">عرض مرضي</td></tr>
-<tr><td>13</td><td class="en" dir="ltr">requirement</td><td class="ar">متطلب</td></tr>
-<tr><td>14</td><td class="en" dir="ltr">worsen</td><td class="ar">يسوء</td></tr>
-<tr><td>15</td><td class="en" dir="ltr">dentist</td><td class="ar">طبيب أسنان</td></tr>
-<tr><td>16</td><td class="en" dir="ltr">patient</td><td class="ar">مريض</td></tr>
-<tr><td>17</td><td class="en" dir="ltr">cure</td><td class="ar">علاج</td></tr>
-<tr><td>18</td><td class="en" dir="ltr">disease</td><td class="ar">مرض</td></tr>
-<tr><td>19</td><td class="en" dir="ltr">aviation</td><td class="ar">طيران</td></tr>
-<tr><td>20</td><td class="en" dir="ltr">navigator</td><td class="ar">ملاح</td></tr>
-<tr><td>21</td><td class="en" dir="ltr">solo</td><td class="ar">منفرد</td></tr>
-<tr><td>22</td><td class="en" dir="ltr">etiquette</td><td class="ar">آداب</td></tr>
-<tr><td>23</td><td class="en" dir="ltr">greeting</td><td class="ar">تحية</td></tr>
-<tr><td>24</td><td class="en" dir="ltr">slang</td><td class="ar">عامية</td></tr>
-<tr><td>25</td><td class="en" dir="ltr">abbreviation</td><td class="ar">اختصار</td></tr>
-<tr><td>26</td><td class="en" dir="ltr">crude oil</td><td class="ar">نفط خام</td></tr>
-<tr><td>27</td><td class="en" dir="ltr">biodegradable</td><td class="ar">قابل للتحلل</td></tr>
-<tr><td>28</td><td class="en" dir="ltr">dynasty</td><td class="ar">سلالة</td></tr>
-<tr><td>29</td><td class="en" dir="ltr">visible</td><td class="ar">مرئي</td></tr>
-<tr><td>30</td><td class="en" dir="ltr">auditory</td><td class="ar">سمعي</td></tr>
-<tr><td>31</td><td class="en" dir="ltr">limbic</td><td class="ar">حوفي</td></tr>
-<tr><td>32</td><td class="en" dir="ltr">nostalgic</td><td class="ar">حنين للماضي</td></tr>
-<tr><td>33</td><td class="en" dir="ltr">therapy</td><td class="ar">علاج</td></tr>
-<tr><td>34</td><td class="en" dir="ltr">evolution</td><td class="ar">تطور</td></tr>
-<tr><td>35</td><td class="en" dir="ltr">simultaneously</td><td class="ar">في آن واحد</td></tr>
-<tr><td>36</td><td class="en" dir="ltr">throwaway</td><td class="ar">استخدام مرة واحدة</td></tr>
-<tr><td>37</td><td class="en" dir="ltr">countermeasure</td><td class="ar">إجراء مضاد</td></tr>
-<tr><td>38</td><td class="en" dir="ltr">psychological</td><td class="ar">نفسي</td></tr>
-<tr><td>39</td><td class="en" dir="ltr">multi-planetary</td><td class="ar">متعدد الكواكب</td></tr>
-<tr><td>40</td><td class="en" dir="ltr">shield</td><td class="ar">درع / يقي</td></tr>
+<tr><td>1</td><td class="en" dir="ltr" style="text-align: left;">asthma</td><td class="ar">ربو</td></tr>
+<tr><td>2</td><td class="en" dir="ltr" style="text-align: left;">toothache</td><td class="ar">وجع أسنان</td></tr>
+<tr><td>3</td><td class="en" dir="ltr" style="text-align: left;">headache</td><td class="ar">صداع</td></tr>
+<tr><td>4</td><td class="en" dir="ltr" style="text-align: left;">fever</td><td class="ar">حمى</td></tr>
+<tr><td>5</td><td class="en" dir="ltr" style="text-align: left;">aspirin</td><td class="ar">أسبرين</td></tr>
+<tr><td>6</td><td class="en" dir="ltr" style="text-align: left;">sneeze</td><td class="ar">عطس</td></tr>
+<tr><td>7</td><td class="en" dir="ltr" style="text-align: left;">antacid</td><td class="ar">مضاد حموضة</td></tr>
+<tr><td>8</td><td class="en" dir="ltr" style="text-align: left;">sick</td><td class="ar">مريض</td></tr>
+<tr><td>9</td><td class="en" dir="ltr" style="text-align: left;">injection</td><td class="ar">حقنة</td></tr>
+<tr><td>10</td><td class="en" dir="ltr" style="text-align: left;">dental hygiene</td><td class="ar">نظافة الأسنان</td></tr>
+<tr><td>11</td><td class="en" dir="ltr" style="text-align: left;">experiment</td><td class="ar">تجربة</td></tr>
+<tr><td>12</td><td class="en" dir="ltr" style="text-align: left;">symptom</td><td class="ar">عرض مرضي</td></tr>
+<tr><td>13</td><td class="en" dir="ltr" style="text-align: left;">requirement</td><td class="ar">متطلب</td></tr>
+<tr><td>14</td><td class="en" dir="ltr" style="text-align: left;">worsen</td><td class="ar">يسوء</td></tr>
+<tr><td>15</td><td class="en" dir="ltr" style="text-align: left;">dentist</td><td class="ar">طبيب أسنان</td></tr>
+<tr><td>16</td><td class="en" dir="ltr" style="text-align: left;">patient</td><td class="ar">مريض</td></tr>
+<tr><td>17</td><td class="en" dir="ltr" style="text-align: left;">cure</td><td class="ar">علاج</td></tr>
+<tr><td>18</td><td class="en" dir="ltr" style="text-align: left;">disease</td><td class="ar">مرض</td></tr>
+<tr><td>19</td><td class="en" dir="ltr" style="text-align: left;">aviation</td><td class="ar">طيران</td></tr>
+<tr><td>20</td><td class="en" dir="ltr" style="text-align: left;">navigator</td><td class="ar">ملاح</td></tr>
+<tr><td>21</td><td class="en" dir="ltr" style="text-align: left;">solo</td><td class="ar">منفرد</td></tr>
+<tr><td>22</td><td class="en" dir="ltr" style="text-align: left;">etiquette</td><td class="ar">آداب</td></tr>
+<tr><td>23</td><td class="en" dir="ltr" style="text-align: left;">greeting</td><td class="ar">تحية</td></tr>
+<tr><td>24</td><td class="en" dir="ltr" style="text-align: left;">slang</td><td class="ar">عامية</td></tr>
+<tr><td>25</td><td class="en" dir="ltr" style="text-align: left;">abbreviation</td><td class="ar">اختصار</td></tr>
+<tr><td>26</td><td class="en" dir="ltr" style="text-align: left;">crude oil</td><td class="ar">نفط خام</td></tr>
+<tr><td>27</td><td class="en" dir="ltr" style="text-align: left;">biodegradable</td><td class="ar">قابل للتحلل</td></tr>
+<tr><td>28</td><td class="en" dir="ltr" style="text-align: left;">dynasty</td><td class="ar">سلالة</td></tr>
+<tr><td>29</td><td class="en" dir="ltr" style="text-align: left;">visible</td><td class="ar">مرئي</td></tr>
+<tr><td>30</td><td class="en" dir="ltr" style="text-align: left;">auditory</td><td class="ar">سمعي</td></tr>
+<tr><td>31</td><td class="en" dir="ltr" style="text-align: left;">limbic</td><td class="ar">حوفي</td></tr>
+<tr><td>32</td><td class="en" dir="ltr" style="text-align: left;">nostalgic</td><td class="ar">حنين للماضي</td></tr>
+<tr><td>33</td><td class="en" dir="ltr" style="text-align: left;">therapy</td><td class="ar">علاج</td></tr>
+<tr><td>34</td><td class="en" dir="ltr" style="text-align: left;">evolution</td><td class="ar">تطور</td></tr>
+<tr><td>35</td><td class="en" dir="ltr" style="text-align: left;">simultaneously</td><td class="ar">في آن واحد</td></tr>
+<tr><td>36</td><td class="en" dir="ltr" style="text-align: left;">throwaway</td><td class="ar">استخدام مرة واحدة</td></tr>
+<tr><td>37</td><td class="en" dir="ltr" style="text-align: left;">countermeasure</td><td class="ar">إجراء مضاد</td></tr>
+<tr><td>38</td><td class="en" dir="ltr" style="text-align: left;">psychological</td><td class="ar">نفسي</td></tr>
+<tr><td>39</td><td class="en" dir="ltr" style="text-align: left;">multi-planetary</td><td class="ar">متعدد الكواكب</td></tr>
+<tr><td>40</td><td class="en" dir="ltr" style="text-align: left;">shield</td><td class="ar">درع / يقي</td></tr>
 </tbody></table>
 <div class="questions"><h4>أسئلة المفردات</h4><ol>
 <li><bdi dir="ltr">He uses an inhaler because he suffers from _______.</bdi><ol type="a">
@@ -3496,7 +3498,7 @@ bdi[dir="ltr"] {
 </section>
 </div><div class="day" id="day-4"><h1 class="section-title">اليوم 4 – Japan</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
 <article class="passage"><h3>Japan</h3>
-<div class="passage-text" dir="ltr">Japan, an island nation in East Asia, is known for its rich cultural heritage and advanced technological advancements. Comprised of four main islands—Honshu, Hokkaido, Kyushu, and Shikoku—Japan balances its ancient traditions with modern innovation. The country&#x27;s history dates back thousands of years, with a unique blend of indigenous traditions and influences from neighboring China and Korea.<br><br>Japan&#x27;s economy is one of the largest and most developed in the world. It is a global leader in various industries, including automotive, electronics, robotics, and animation. Companies such as Toyota, Sony, and Panasonic are renowned worldwide. Despite facing economic challenges over the years, Japan continues to be a major player in the global market.<br><br>Education is highly prioritized in Japan, with a rigorous system that emphasizes discipline and respect. Japanese students consistently score high in international assessments, particularly in mathematics and science. The education system is divided into primary, secondary, and tertiary levels, with a strong focus on academic achievement and extracurricular activities.<br><br>Culturally, Japan is famous for its cuisine, festivals, and traditional arts such as tea ceremonies, calligraphy, and ikebana (flower arranging). Japanese cuisine, including sushi, ramen, and tempura, is popular worldwide. Festivals like Hanami, which celebrates cherry blossom viewing, and Tanabata, the star festival, showcase Japan&#x27;s rich cultural traditions.<br><br>Japan faces several challenges, including an aging population and natural disasters due to its geographic location. Earthquakes, tsunamis, and typhoons are frequent, prompting the development of advanced disaster preparedness and response systems. Despite these challenges, Japan remains resilient and continues to innovate and adapt to changing circumstances.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">Japan, an island nation in East Asia, is known for its rich cultural heritage and advanced technological advancements. Comprised of four main islands—Honshu, Hokkaido, Kyushu, and Shikoku—Japan balances its ancient traditions with modern innovation. The country&#x27;s history dates back thousands of years, with a unique blend of indigenous traditions and influences from neighboring China and Korea.<br><br>Japan&#x27;s economy is one of the largest and most developed in the world. It is a global leader in various industries, including automotive, electronics, robotics, and animation. Companies such as Toyota, Sony, and Panasonic are renowned worldwide. Despite facing economic challenges over the years, Japan continues to be a major player in the global market.<br><br>Education is highly prioritized in Japan, with a rigorous system that emphasizes discipline and respect. Japanese students consistently score high in international assessments, particularly in mathematics and science. The education system is divided into primary, secondary, and tertiary levels, with a strong focus on academic achievement and extracurricular activities.<br><br>Culturally, Japan is famous for its cuisine, festivals, and traditional arts such as tea ceremonies, calligraphy, and ikebana (flower arranging). Japanese cuisine, including sushi, ramen, and tempura, is popular worldwide. Festivals like Hanami, which celebrates cherry blossom viewing, and Tanabata, the star festival, showcase Japan&#x27;s rich cultural traditions.<br><br>Japan faces several challenges, including an aging population and natural disasters due to its geographic location. Earthquakes, tsunamis, and typhoons are frequent, prompting the development of advanced disaster preparedness and response systems. Despite these challenges, Japan remains resilient and continues to innovate and adapt to changing circumstances.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">1. How many main islands does Japan have?</bdi><ol type="a">
 <li><bdi dir="ltr">Three</bdi></li>
@@ -3543,7 +3545,7 @@ bdi[dir="ltr"] {
 </ol></div>
 </article>
 <article class="passage"><h3>USA Federal Government</h3>
-<div class="passage-text" dir="ltr">The federal government of the United States is composed of three branches: the legislative, executive, and judicial branches. This structure was established by the U.S. Constitution to ensure a system of checks and balances. The legislative branch makes laws, the executive branch enforces laws, and the judicial branch interprets laws.<br><br>The legislative branch consists of Congress, which is divided into two houses: the Senate and the House of Representatives. Each state is represented by two senators, while the number of representatives is based on the state’s population. Congress is responsible for passing federal laws, approving the budget, and declaring war.<br><br>The executive branch is headed by the President of the United States, who serves as both the head of state and the head of government. The President is responsible for implementing and enforcing federal laws, issuing executive orders, and serving as the commander-in-chief of the armed forces. The executive branch also includes the Vice President and the President&#x27;s Cabinet.<br><br>The judicial branch is made up of a system of courts, with the Supreme Court being the highest court in the land. The Supreme Court has the final say on matters of constitutional law and can overturn laws or executive actions it deems unconstitutional. Justices of the Supreme Court are appointed by the President and confirmed by the Senate.<br><br>The system of checks and balances ensures that no single branch of government becomes too powerful. This framework fosters cooperation and conflict among the branches, as each has distinct powers and responsibilities. The federal government’s structure is designed to protect the rights and freedoms of American citizens and maintain the rule of law.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">The federal government of the United States is composed of three branches: the legislative, executive, and judicial branches. This structure was established by the U.S. Constitution to ensure a system of checks and balances. The legislative branch makes laws, the executive branch enforces laws, and the judicial branch interprets laws.<br><br>The legislative branch consists of Congress, which is divided into two houses: the Senate and the House of Representatives. Each state is represented by two senators, while the number of representatives is based on the state’s population. Congress is responsible for passing federal laws, approving the budget, and declaring war.<br><br>The executive branch is headed by the President of the United States, who serves as both the head of state and the head of government. The President is responsible for implementing and enforcing federal laws, issuing executive orders, and serving as the commander-in-chief of the armed forces. The executive branch also includes the Vice President and the President&#x27;s Cabinet.<br><br>The judicial branch is made up of a system of courts, with the Supreme Court being the highest court in the land. The Supreme Court has the final say on matters of constitutional law and can overturn laws or executive actions it deems unconstitutional. Justices of the Supreme Court are appointed by the President and confirmed by the Senate.<br><br>The system of checks and balances ensures that no single branch of government becomes too powerful. This framework fosters cooperation and conflict among the branches, as each has distinct powers and responsibilities. The federal government’s structure is designed to protect the rights and freedoms of American citizens and maintain the rule of law.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">8. What are the three branches of the federal government?</bdi><ol type="a">
 <li><bdi dir="ltr">Legislative, Executive, Judicial</bdi></li>
@@ -3590,7 +3592,7 @@ bdi[dir="ltr"] {
 </ol></div>
 </article>
 <article class="passage"><h3>Water Desalination</h3>
-<div class="passage-text" dir="ltr">Water desalination is the process of removing salt and other impurities from seawater to produce fresh water suitable for drinking and irrigation. This technology is essential in arid regions and places where freshwater resources are limited. Desalination helps provide a reliable source of water in areas facing water scarcity.<br><br>There are several methods of desalination, with the most common being reverse osmosis and thermal distillation. Reverse osmosis involves forcing seawater through a semipermeable membrane to filter out salts and impurities. Thermal distillation, on the other hand, involves heating seawater to produce steam, which is then condensed into fresh water.<br><br>Desalination plants are primarily located in the Middle East, North Africa, and parts of the United States, such as California. These regions rely heavily on desalinated water to meet their freshwater needs. The construction and operation of desalination plants are costly, but advancements in technology are gradually reducing these expenses.<br><br>Despite its benefits, desalination poses environmental challenges. The process requires significant energy, which often comes from fossil fuels, contributing to greenhouse gas emissions. Additionally, the disposal of concentrated brine, a byproduct of desalination, can harm marine ecosystems if not managed properly.<br><br>To address these challenges, researchers are exploring renewable energy sources to power desalination plants and developing more efficient technologies. Innovations such as solar desalination and improved membrane materials hold promise for making the process more sustainable. As global water demand continues to rise, desalination will play a crucial role in ensuring water security.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">Water desalination is the process of removing salt and other impurities from seawater to produce fresh water suitable for drinking and irrigation. This technology is essential in arid regions and places where freshwater resources are limited. Desalination helps provide a reliable source of water in areas facing water scarcity.<br><br>There are several methods of desalination, with the most common being reverse osmosis and thermal distillation. Reverse osmosis involves forcing seawater through a semipermeable membrane to filter out salts and impurities. Thermal distillation, on the other hand, involves heating seawater to produce steam, which is then condensed into fresh water.<br><br>Desalination plants are primarily located in the Middle East, North Africa, and parts of the United States, such as California. These regions rely heavily on desalinated water to meet their freshwater needs. The construction and operation of desalination plants are costly, but advancements in technology are gradually reducing these expenses.<br><br>Despite its benefits, desalination poses environmental challenges. The process requires significant energy, which often comes from fossil fuels, contributing to greenhouse gas emissions. Additionally, the disposal of concentrated brine, a byproduct of desalination, can harm marine ecosystems if not managed properly.<br><br>To address these challenges, researchers are exploring renewable energy sources to power desalination plants and developing more efficient technologies. Innovations such as solar desalination and improved membrane materials hold promise for making the process more sustainable. As global water demand continues to rise, desalination will play a crucial role in ensuring water security.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">15. What is the primary purpose of water desalination?</bdi><ol type="a">
 <li><bdi dir="ltr">To produce salt</bdi></li>
@@ -3646,61 +3648,61 @@ bdi[dir="ltr"] {
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
 <table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
-<tr><td>1</td><td class="en" dir="ltr">heritage</td><td class="ar">تراث</td></tr>
-<tr><td>2</td><td class="en" dir="ltr">cuisine</td><td class="ar">مطبخ (أسلوب طهي)</td></tr>
-<tr><td>3</td><td class="en" dir="ltr">discipline</td><td class="ar">انضباط</td></tr>
-<tr><td>4</td><td class="en" dir="ltr">rigorous</td><td class="ar">صارم</td></tr>
-<tr><td>5</td><td class="en" dir="ltr">constitution</td><td class="ar">دستور</td></tr>
-<tr><td>6</td><td class="en" dir="ltr">legislative</td><td class="ar">تشريعي</td></tr>
-<tr><td>7</td><td class="en" dir="ltr">executive</td><td class="ar">تنفيذي</td></tr>
-<tr><td>8</td><td class="en" dir="ltr">judicial</td><td class="ar">قضائي</td></tr>
-<tr><td>9</td><td class="en" dir="ltr">desalination</td><td class="ar">تحلية المياه</td></tr>
-<tr><td>10</td><td class="en" dir="ltr">arid</td><td class="ar">جاف</td></tr>
-<tr><td>11</td><td class="en" dir="ltr">membrane</td><td class="ar">غشاء</td></tr>
-<tr><td>12</td><td class="en" dir="ltr">brine</td><td class="ar">محلول ملحي</td></tr>
-<tr><td>13</td><td class="en" dir="ltr">fossil fuel</td><td class="ar">وقود أحفوري</td></tr>
-<tr><td>14</td><td class="en" dir="ltr">greenhouse</td><td class="ar">غازات الدفيئة</td></tr>
-<tr><td>15</td><td class="en" dir="ltr">indigenous</td><td class="ar">السكان الأصليون</td></tr>
-<tr><td>16</td><td class="en" dir="ltr">innovation</td><td class="ar">ابتكار</td></tr>
-<tr><td>17</td><td class="en" dir="ltr">automotive</td><td class="ar">صناعة السيارات</td></tr>
-<tr><td>18</td><td class="en" dir="ltr">electronics</td><td class="ar">إلكترونيات</td></tr>
-<tr><td>19</td><td class="en" dir="ltr">robotics</td><td class="ar">الروبوتات</td></tr>
-<tr><td>20</td><td class="en" dir="ltr">animation</td><td class="ar">الرسوم المتحركة</td></tr>
-<tr><td>21</td><td class="en" dir="ltr">prioritized</td><td class="ar">يعطي أولوية</td></tr>
-<tr><td>22</td><td class="en" dir="ltr">assessments</td><td class="ar">تقييمات</td></tr>
-<tr><td>23</td><td class="en" dir="ltr">extracurricular</td><td class="ar">لامنهجي</td></tr>
-<tr><td>24</td><td class="en" dir="ltr">calligraphy</td><td class="ar">فن الخط</td></tr>
-<tr><td>25</td><td class="en" dir="ltr">ikebana</td><td class="ar">فن تنسيق الزهور</td></tr>
-<tr><td>26</td><td class="en" dir="ltr">typhoons</td><td class="ar">أعاصير</td></tr>
-<tr><td>27</td><td class="en" dir="ltr">resilient</td><td class="ar">صامد</td></tr>
-<tr><td>28</td><td class="en" dir="ltr">senators</td><td class="ar">أعضاء مجلس الشيوخ</td></tr>
-<tr><td>29</td><td class="en" dir="ltr">representatives</td><td class="ar">نواب</td></tr>
-<tr><td>30</td><td class="en" dir="ltr">budget</td><td class="ar">ميزانية</td></tr>
-<tr><td>31</td><td class="en" dir="ltr">declare</td><td class="ar">يعلن</td></tr>
-<tr><td>32</td><td class="en" dir="ltr">implement</td><td class="ar">ينفذ</td></tr>
-<tr><td>33</td><td class="en" dir="ltr">commander-in-chief</td><td class="ar">القائد الأعلى للقوات المسلحة</td></tr>
-<tr><td>34</td><td class="en" dir="ltr">cabinet</td><td class="ar">مجلس الوزراء</td></tr>
-<tr><td>35</td><td class="en" dir="ltr">interpret</td><td class="ar">يفسر</td></tr>
-<tr><td>36</td><td class="en" dir="ltr">overturn</td><td class="ar">يلغي</td></tr>
-<tr><td>37</td><td class="en" dir="ltr">appointed</td><td class="ar">مُعيّن</td></tr>
-<tr><td>38</td><td class="en" dir="ltr">confirmed</td><td class="ar">يُثبّت (يوافق على)</td></tr>
-<tr><td>39</td><td class="en" dir="ltr">checks and balances</td><td class="ar">الضوابط والتوازنات</td></tr>
-<tr><td>40</td><td class="en" dir="ltr">fosters</td><td class="ar">يعزز</td></tr>
-<tr><td>41</td><td class="en" dir="ltr">distinct</td><td class="ar">متميز</td></tr>
-<tr><td>42</td><td class="en" dir="ltr">reverse osmosis</td><td class="ar">التناضح العكسي</td></tr>
-<tr><td>43</td><td class="en" dir="ltr">thermal distillation</td><td class="ar">التقطير الحراري</td></tr>
-<tr><td>44</td><td class="en" dir="ltr">scarcity</td><td class="ar">ندرة</td></tr>
-<tr><td>45</td><td class="en" dir="ltr">rely</td><td class="ar">يعتمد على</td></tr>
-<tr><td>46</td><td class="en" dir="ltr">costly</td><td class="ar">مكلف</td></tr>
-<tr><td>47</td><td class="en" dir="ltr">advancements</td><td class="ar">تطورات</td></tr>
-<tr><td>48</td><td class="en" dir="ltr">poses</td><td class="ar">يشكل</td></tr>
-<tr><td>49</td><td class="en" dir="ltr">significant</td><td class="ar">كبير</td></tr>
-<tr><td>50</td><td class="en" dir="ltr">disposal</td><td class="ar">التخلص من</td></tr>
-<tr><td>51</td><td class="en" dir="ltr">marine</td><td class="ar">بحري</td></tr>
-<tr><td>52</td><td class="en" dir="ltr">ecosystems</td><td class="ar">أنظمة بيئية</td></tr>
-<tr><td>53</td><td class="en" dir="ltr">renewable</td><td class="ar">متجدد</td></tr>
-<tr><td>54</td><td class="en" dir="ltr">sustainable</td><td class="ar">مستدام</td></tr>
-<tr><td>55</td><td class="en" dir="ltr">crucial</td><td class="ar">حاسم</td></tr>
+<tr><td>1</td><td class="en" dir="ltr" style="text-align: left;">heritage</td><td class="ar">تراث</td></tr>
+<tr><td>2</td><td class="en" dir="ltr" style="text-align: left;">cuisine</td><td class="ar">مطبخ (أسلوب طهي)</td></tr>
+<tr><td>3</td><td class="en" dir="ltr" style="text-align: left;">discipline</td><td class="ar">انضباط</td></tr>
+<tr><td>4</td><td class="en" dir="ltr" style="text-align: left;">rigorous</td><td class="ar">صارم</td></tr>
+<tr><td>5</td><td class="en" dir="ltr" style="text-align: left;">constitution</td><td class="ar">دستور</td></tr>
+<tr><td>6</td><td class="en" dir="ltr" style="text-align: left;">legislative</td><td class="ar">تشريعي</td></tr>
+<tr><td>7</td><td class="en" dir="ltr" style="text-align: left;">executive</td><td class="ar">تنفيذي</td></tr>
+<tr><td>8</td><td class="en" dir="ltr" style="text-align: left;">judicial</td><td class="ar">قضائي</td></tr>
+<tr><td>9</td><td class="en" dir="ltr" style="text-align: left;">desalination</td><td class="ar">تحلية المياه</td></tr>
+<tr><td>10</td><td class="en" dir="ltr" style="text-align: left;">arid</td><td class="ar">جاف</td></tr>
+<tr><td>11</td><td class="en" dir="ltr" style="text-align: left;">membrane</td><td class="ar">غشاء</td></tr>
+<tr><td>12</td><td class="en" dir="ltr" style="text-align: left;">brine</td><td class="ar">محلول ملحي</td></tr>
+<tr><td>13</td><td class="en" dir="ltr" style="text-align: left;">fossil fuel</td><td class="ar">وقود أحفوري</td></tr>
+<tr><td>14</td><td class="en" dir="ltr" style="text-align: left;">greenhouse</td><td class="ar">غازات الدفيئة</td></tr>
+<tr><td>15</td><td class="en" dir="ltr" style="text-align: left;">indigenous</td><td class="ar">السكان الأصليون</td></tr>
+<tr><td>16</td><td class="en" dir="ltr" style="text-align: left;">innovation</td><td class="ar">ابتكار</td></tr>
+<tr><td>17</td><td class="en" dir="ltr" style="text-align: left;">automotive</td><td class="ar">صناعة السيارات</td></tr>
+<tr><td>18</td><td class="en" dir="ltr" style="text-align: left;">electronics</td><td class="ar">إلكترونيات</td></tr>
+<tr><td>19</td><td class="en" dir="ltr" style="text-align: left;">robotics</td><td class="ar">الروبوتات</td></tr>
+<tr><td>20</td><td class="en" dir="ltr" style="text-align: left;">animation</td><td class="ar">الرسوم المتحركة</td></tr>
+<tr><td>21</td><td class="en" dir="ltr" style="text-align: left;">prioritized</td><td class="ar">يعطي أولوية</td></tr>
+<tr><td>22</td><td class="en" dir="ltr" style="text-align: left;">assessments</td><td class="ar">تقييمات</td></tr>
+<tr><td>23</td><td class="en" dir="ltr" style="text-align: left;">extracurricular</td><td class="ar">لامنهجي</td></tr>
+<tr><td>24</td><td class="en" dir="ltr" style="text-align: left;">calligraphy</td><td class="ar">فن الخط</td></tr>
+<tr><td>25</td><td class="en" dir="ltr" style="text-align: left;">ikebana</td><td class="ar">فن تنسيق الزهور</td></tr>
+<tr><td>26</td><td class="en" dir="ltr" style="text-align: left;">typhoons</td><td class="ar">أعاصير</td></tr>
+<tr><td>27</td><td class="en" dir="ltr" style="text-align: left;">resilient</td><td class="ar">صامد</td></tr>
+<tr><td>28</td><td class="en" dir="ltr" style="text-align: left;">senators</td><td class="ar">أعضاء مجلس الشيوخ</td></tr>
+<tr><td>29</td><td class="en" dir="ltr" style="text-align: left;">representatives</td><td class="ar">نواب</td></tr>
+<tr><td>30</td><td class="en" dir="ltr" style="text-align: left;">budget</td><td class="ar">ميزانية</td></tr>
+<tr><td>31</td><td class="en" dir="ltr" style="text-align: left;">declare</td><td class="ar">يعلن</td></tr>
+<tr><td>32</td><td class="en" dir="ltr" style="text-align: left;">implement</td><td class="ar">ينفذ</td></tr>
+<tr><td>33</td><td class="en" dir="ltr" style="text-align: left;">commander-in-chief</td><td class="ar">القائد الأعلى للقوات المسلحة</td></tr>
+<tr><td>34</td><td class="en" dir="ltr" style="text-align: left;">cabinet</td><td class="ar">مجلس الوزراء</td></tr>
+<tr><td>35</td><td class="en" dir="ltr" style="text-align: left;">interpret</td><td class="ar">يفسر</td></tr>
+<tr><td>36</td><td class="en" dir="ltr" style="text-align: left;">overturn</td><td class="ar">يلغي</td></tr>
+<tr><td>37</td><td class="en" dir="ltr" style="text-align: left;">appointed</td><td class="ar">مُعيّن</td></tr>
+<tr><td>38</td><td class="en" dir="ltr" style="text-align: left;">confirmed</td><td class="ar">يُثبّت (يوافق على)</td></tr>
+<tr><td>39</td><td class="en" dir="ltr" style="text-align: left;">checks and balances</td><td class="ar">الضوابط والتوازنات</td></tr>
+<tr><td>40</td><td class="en" dir="ltr" style="text-align: left;">fosters</td><td class="ar">يعزز</td></tr>
+<tr><td>41</td><td class="en" dir="ltr" style="text-align: left;">distinct</td><td class="ar">متميز</td></tr>
+<tr><td>42</td><td class="en" dir="ltr" style="text-align: left;">reverse osmosis</td><td class="ar">التناضح العكسي</td></tr>
+<tr><td>43</td><td class="en" dir="ltr" style="text-align: left;">thermal distillation</td><td class="ar">التقطير الحراري</td></tr>
+<tr><td>44</td><td class="en" dir="ltr" style="text-align: left;">scarcity</td><td class="ar">ندرة</td></tr>
+<tr><td>45</td><td class="en" dir="ltr" style="text-align: left;">rely</td><td class="ar">يعتمد على</td></tr>
+<tr><td>46</td><td class="en" dir="ltr" style="text-align: left;">costly</td><td class="ar">مكلف</td></tr>
+<tr><td>47</td><td class="en" dir="ltr" style="text-align: left;">advancements</td><td class="ar">تطورات</td></tr>
+<tr><td>48</td><td class="en" dir="ltr" style="text-align: left;">poses</td><td class="ar">يشكل</td></tr>
+<tr><td>49</td><td class="en" dir="ltr" style="text-align: left;">significant</td><td class="ar">كبير</td></tr>
+<tr><td>50</td><td class="en" dir="ltr" style="text-align: left;">disposal</td><td class="ar">التخلص من</td></tr>
+<tr><td>51</td><td class="en" dir="ltr" style="text-align: left;">marine</td><td class="ar">بحري</td></tr>
+<tr><td>52</td><td class="en" dir="ltr" style="text-align: left;">ecosystems</td><td class="ar">أنظمة بيئية</td></tr>
+<tr><td>53</td><td class="en" dir="ltr" style="text-align: left;">renewable</td><td class="ar">متجدد</td></tr>
+<tr><td>54</td><td class="en" dir="ltr" style="text-align: left;">sustainable</td><td class="ar">مستدام</td></tr>
+<tr><td>55</td><td class="en" dir="ltr" style="text-align: left;">crucial</td><td class="ar">حاسم</td></tr>
 </tbody></table>
 <div class="questions"><h4>أسئلة المفردات</h4><ol>
 <li><bdi dir="ltr">Japan is known for its rich cultural _______, including ancient temples and traditional festivals.</bdi><ol type="a">
@@ -4616,7 +4618,7 @@ bdi[dir="ltr"] {
 </section>
 </div><div class="day" id="day-5"><h1 class="section-title">اليوم 5 – California</h1><section class="reading"><h2 class="section-title">قطع القراءة (2 قطع)</h2>
 <article class="passage"><h3>California</h3>
-<div class="passage-text" dir="ltr">California, located on the west coast of the United States, is the most populous state in the country. Known for its diverse geography, California features beautiful coastlines, lush forests, vast deserts, and towering mountain ranges. Major cities like Los Angeles, San Francisco, and San Diego are hubs of culture, entertainment, and technology.<br><br>The economy of California is one of the largest and most diverse in the world. The state is a global leader in technology, entertainment, agriculture, and tourism. Silicon Valley, located in the San Francisco Bay Area, is home to many of the world&#x27;s leading tech companies, including Apple, Google, and Facebook.<br><br>California&#x27;s agricultural sector is a critical component of the state&#x27;s economy. The Central Valley is one of the most productive agricultural regions in the world, producing a significant portion of the nation&#x27;s fruits, vegetables, and nuts. However, California&#x27;s agriculture faces challenges such as water scarcity and environmental regulations.<br><br>Tourism is another major industry in California. The state attracts millions of visitors each year to its national parks, beaches, and vibrant cities. Attractions like Disneyland, Yosemite National Park, and the Golden Gate Bridge are popular destinations for tourists from around the world.<br><br>California also faces several significant challenges, including natural disasters like wildfires, earthquakes, and droughts. The state has implemented various measures to address these issues, such as improving infrastructure, enhancing emergency response systems, and promoting sustainable practices to mitigate the impact of these natural events.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">California, located on the west coast of the United States, is the most populous state in the country. Known for its diverse geography, California features beautiful coastlines, lush forests, vast deserts, and towering mountain ranges. Major cities like Los Angeles, San Francisco, and San Diego are hubs of culture, entertainment, and technology.<br><br>The economy of California is one of the largest and most diverse in the world. The state is a global leader in technology, entertainment, agriculture, and tourism. Silicon Valley, located in the San Francisco Bay Area, is home to many of the world&#x27;s leading tech companies, including Apple, Google, and Facebook.<br><br>California&#x27;s agricultural sector is a critical component of the state&#x27;s economy. The Central Valley is one of the most productive agricultural regions in the world, producing a significant portion of the nation&#x27;s fruits, vegetables, and nuts. However, California&#x27;s agriculture faces challenges such as water scarcity and environmental regulations.<br><br>Tourism is another major industry in California. The state attracts millions of visitors each year to its national parks, beaches, and vibrant cities. Attractions like Disneyland, Yosemite National Park, and the Golden Gate Bridge are popular destinations for tourists from around the world.<br><br>California also faces several significant challenges, including natural disasters like wildfires, earthquakes, and droughts. The state has implemented various measures to address these issues, such as improving infrastructure, enhancing emergency response systems, and promoting sustainable practices to mitigate the impact of these natural events.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">1. What is California known for?</bdi><ol type="a">
 <li><bdi dir="ltr">Vast rainforests</bdi></li>
@@ -4663,7 +4665,7 @@ bdi[dir="ltr"] {
 </ol></div>
 </article>
 <article class="passage"><h3>Egypt</h3>
-<div class="passage-text" dir="ltr">Egypt, a country located in northeastern Africa, is known for its rich history and cultural heritage. The Nile River, which runs through the heart of the nation, is the lifeblood of Egypt, providing water and sustenance to its people for millennia. This ancient civilization is famous for its monumental architecture, including the Great Pyramids of Giza and the temples of Luxor and Karnak.<br><br>The capital city, Cairo, is a bustling metropolis that combines both historic and modern elements. The city is home to the Egyptian Museum, which houses an extensive collection of ancient artifacts, including the treasures of Tutankhamun. Additionally, Cairo&#x27;s vibrant markets, known as souks, are filled with local crafts, spices, and textiles, offering a glimpse into the daily life of Egyptians.<br><br>Egypt&#x27;s climate is predominantly arid, with hot summers and mild winters. The majority of the population lives along the Nile, where the climate is more hospitable for agriculture. Farming is a vital part of the economy, with crops such as rice, wheat, and cotton being cultivated. Despite the challenges posed by limited rainfall, Egyptian farmers have developed sophisticated irrigation techniques that maximize the productivity of their land.<br><br>Tourism plays a significant role in Egypt&#x27;s economy. The country attracts millions of visitors each year who are eager to explore its ancient sites and experience its unique culture. Popular activities for tourists include cruising down the Nile, visiting the Valley of the Kings, and exploring the coastal cities along the Red Sea.<br><br>In recent years, Egypt has faced various challenges, including economic fluctuations and political changes. However, the government has been making efforts to revive the tourism sector and improve infrastructure to ensure a better experience for visitors. Conservation projects are also underway to preserve and protect the country&#x27;s archaeological treasures.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">Egypt, a country located in northeastern Africa, is known for its rich history and cultural heritage. The Nile River, which runs through the heart of the nation, is the lifeblood of Egypt, providing water and sustenance to its people for millennia. This ancient civilization is famous for its monumental architecture, including the Great Pyramids of Giza and the temples of Luxor and Karnak.<br><br>The capital city, Cairo, is a bustling metropolis that combines both historic and modern elements. The city is home to the Egyptian Museum, which houses an extensive collection of ancient artifacts, including the treasures of Tutankhamun. Additionally, Cairo&#x27;s vibrant markets, known as souks, are filled with local crafts, spices, and textiles, offering a glimpse into the daily life of Egyptians.<br><br>Egypt&#x27;s climate is predominantly arid, with hot summers and mild winters. The majority of the population lives along the Nile, where the climate is more hospitable for agriculture. Farming is a vital part of the economy, with crops such as rice, wheat, and cotton being cultivated. Despite the challenges posed by limited rainfall, Egyptian farmers have developed sophisticated irrigation techniques that maximize the productivity of their land.<br><br>Tourism plays a significant role in Egypt&#x27;s economy. The country attracts millions of visitors each year who are eager to explore its ancient sites and experience its unique culture. Popular activities for tourists include cruising down the Nile, visiting the Valley of the Kings, and exploring the coastal cities along the Red Sea.<br><br>In recent years, Egypt has faced various challenges, including economic fluctuations and political changes. However, the government has been making efforts to revive the tourism sector and improve infrastructure to ensure a better experience for visitors. Conservation projects are also underway to preserve and protect the country&#x27;s archaeological treasures.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">8. What is notable about Cairo?</bdi><ol type="a">
 <li><bdi dir="ltr">It has no historical sites.</bdi></li>
@@ -4713,46 +4715,46 @@ bdi[dir="ltr"] {
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
 <table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
-<tr><td>1</td><td class="en" dir="ltr">populous</td><td class="ar">مكتظ بالسكان</td></tr>
-<tr><td>2</td><td class="en" dir="ltr">diverse</td><td class="ar">متنوع</td></tr>
-<tr><td>3</td><td class="en" dir="ltr">coastlines</td><td class="ar">سواحل</td></tr>
-<tr><td>4</td><td class="en" dir="ltr">lush</td><td class="ar">خصبة</td></tr>
-<tr><td>5</td><td class="en" dir="ltr">deserts</td><td class="ar">صحاري</td></tr>
-<tr><td>6</td><td class="en" dir="ltr">towering</td><td class="ar">شاهقة</td></tr>
-<tr><td>7</td><td class="en" dir="ltr">hubs</td><td class="ar">مراكز</td></tr>
-<tr><td>8</td><td class="en" dir="ltr">agriculture</td><td class="ar">زراعة</td></tr>
-<tr><td>9</td><td class="en" dir="ltr">component</td><td class="ar">مكون</td></tr>
-<tr><td>10</td><td class="en" dir="ltr">productive</td><td class="ar">منتجة</td></tr>
-<tr><td>11</td><td class="en" dir="ltr">portion</td><td class="ar">جزء</td></tr>
-<tr><td>12</td><td class="en" dir="ltr">scarcity</td><td class="ar">ندرة</td></tr>
-<tr><td>13</td><td class="en" dir="ltr">regulations</td><td class="ar">لوائح</td></tr>
-<tr><td>14</td><td class="en" dir="ltr">attractions</td><td class="ar">معالم جذب</td></tr>
-<tr><td>15</td><td class="en" dir="ltr">vibrant</td><td class="ar">نابض بالحياة</td></tr>
-<tr><td>16</td><td class="en" dir="ltr">infrastructure</td><td class="ar">بنية تحتية</td></tr>
-<tr><td>17</td><td class="en" dir="ltr">enhance</td><td class="ar">يعزز</td></tr>
-<tr><td>18</td><td class="en" dir="ltr">sustainable</td><td class="ar">مستدام</td></tr>
-<tr><td>19</td><td class="en" dir="ltr">mitigate</td><td class="ar">يخفف</td></tr>
-<tr><td>20</td><td class="en" dir="ltr">heritage</td><td class="ar">تراث</td></tr>
-<tr><td>21</td><td class="en" dir="ltr">lifeblood</td><td class="ar">شريان الحياة</td></tr>
-<tr><td>22</td><td class="en" dir="ltr">sustenance</td><td class="ar">قوت</td></tr>
-<tr><td>23</td><td class="en" dir="ltr">millennia</td><td class="ar">آلاف السنين</td></tr>
-<tr><td>24</td><td class="en" dir="ltr">monumental</td><td class="ar">ضخم / أثري</td></tr>
-<tr><td>25</td><td class="en" dir="ltr">profound</td><td class="ar">عميق</td></tr>
-<tr><td>26</td><td class="en" dir="ltr">bustling</td><td class="ar">صاخب</td></tr>
-<tr><td>27</td><td class="en" dir="ltr">metropolis</td><td class="ar">مدينة كبرى</td></tr>
-<tr><td>28</td><td class="en" dir="ltr">artifacts</td><td class="ar">قطع أثرية</td></tr>
-<tr><td>29</td><td class="en" dir="ltr">souks</td><td class="ar">أسواق</td></tr>
-<tr><td>30</td><td class="en" dir="ltr">juxtaposition</td><td class="ar">تجاور</td></tr>
-<tr><td>31</td><td class="en" dir="ltr">arid</td><td class="ar">جاف</td></tr>
-<tr><td>32</td><td class="en" dir="ltr">hospitable</td><td class="ar">ملائم</td></tr>
-<tr><td>33</td><td class="en" dir="ltr">cultivated</td><td class="ar">مزروع</td></tr>
-<tr><td>34</td><td class="en" dir="ltr">sophisticated</td><td class="ar">متطور</td></tr>
-<tr><td>35</td><td class="en" dir="ltr">hospitality</td><td class="ar">ضيافة</td></tr>
-<tr><td>36</td><td class="en" dir="ltr">tapestry</td><td class="ar">نسيج</td></tr>
-<tr><td>37</td><td class="en" dir="ltr">fluctuations</td><td class="ar">تذبذبات</td></tr>
-<tr><td>38</td><td class="en" dir="ltr">revive</td><td class="ar">ينعش</td></tr>
-<tr><td>39</td><td class="en" dir="ltr">conservation</td><td class="ar">حفظ / صيانة</td></tr>
-<tr><td>40</td><td class="en" dir="ltr">archaeological</td><td class="ar">أثري</td></tr>
+<tr><td>1</td><td class="en" dir="ltr" style="text-align: left;">populous</td><td class="ar">مكتظ بالسكان</td></tr>
+<tr><td>2</td><td class="en" dir="ltr" style="text-align: left;">diverse</td><td class="ar">متنوع</td></tr>
+<tr><td>3</td><td class="en" dir="ltr" style="text-align: left;">coastlines</td><td class="ar">سواحل</td></tr>
+<tr><td>4</td><td class="en" dir="ltr" style="text-align: left;">lush</td><td class="ar">خصبة</td></tr>
+<tr><td>5</td><td class="en" dir="ltr" style="text-align: left;">deserts</td><td class="ar">صحاري</td></tr>
+<tr><td>6</td><td class="en" dir="ltr" style="text-align: left;">towering</td><td class="ar">شاهقة</td></tr>
+<tr><td>7</td><td class="en" dir="ltr" style="text-align: left;">hubs</td><td class="ar">مراكز</td></tr>
+<tr><td>8</td><td class="en" dir="ltr" style="text-align: left;">agriculture</td><td class="ar">زراعة</td></tr>
+<tr><td>9</td><td class="en" dir="ltr" style="text-align: left;">component</td><td class="ar">مكون</td></tr>
+<tr><td>10</td><td class="en" dir="ltr" style="text-align: left;">productive</td><td class="ar">منتجة</td></tr>
+<tr><td>11</td><td class="en" dir="ltr" style="text-align: left;">portion</td><td class="ar">جزء</td></tr>
+<tr><td>12</td><td class="en" dir="ltr" style="text-align: left;">scarcity</td><td class="ar">ندرة</td></tr>
+<tr><td>13</td><td class="en" dir="ltr" style="text-align: left;">regulations</td><td class="ar">لوائح</td></tr>
+<tr><td>14</td><td class="en" dir="ltr" style="text-align: left;">attractions</td><td class="ar">معالم جذب</td></tr>
+<tr><td>15</td><td class="en" dir="ltr" style="text-align: left;">vibrant</td><td class="ar">نابض بالحياة</td></tr>
+<tr><td>16</td><td class="en" dir="ltr" style="text-align: left;">infrastructure</td><td class="ar">بنية تحتية</td></tr>
+<tr><td>17</td><td class="en" dir="ltr" style="text-align: left;">enhance</td><td class="ar">يعزز</td></tr>
+<tr><td>18</td><td class="en" dir="ltr" style="text-align: left;">sustainable</td><td class="ar">مستدام</td></tr>
+<tr><td>19</td><td class="en" dir="ltr" style="text-align: left;">mitigate</td><td class="ar">يخفف</td></tr>
+<tr><td>20</td><td class="en" dir="ltr" style="text-align: left;">heritage</td><td class="ar">تراث</td></tr>
+<tr><td>21</td><td class="en" dir="ltr" style="text-align: left;">lifeblood</td><td class="ar">شريان الحياة</td></tr>
+<tr><td>22</td><td class="en" dir="ltr" style="text-align: left;">sustenance</td><td class="ar">قوت</td></tr>
+<tr><td>23</td><td class="en" dir="ltr" style="text-align: left;">millennia</td><td class="ar">آلاف السنين</td></tr>
+<tr><td>24</td><td class="en" dir="ltr" style="text-align: left;">monumental</td><td class="ar">ضخم / أثري</td></tr>
+<tr><td>25</td><td class="en" dir="ltr" style="text-align: left;">profound</td><td class="ar">عميق</td></tr>
+<tr><td>26</td><td class="en" dir="ltr" style="text-align: left;">bustling</td><td class="ar">صاخب</td></tr>
+<tr><td>27</td><td class="en" dir="ltr" style="text-align: left;">metropolis</td><td class="ar">مدينة كبرى</td></tr>
+<tr><td>28</td><td class="en" dir="ltr" style="text-align: left;">artifacts</td><td class="ar">قطع أثرية</td></tr>
+<tr><td>29</td><td class="en" dir="ltr" style="text-align: left;">souks</td><td class="ar">أسواق</td></tr>
+<tr><td>30</td><td class="en" dir="ltr" style="text-align: left;">juxtaposition</td><td class="ar">تجاور</td></tr>
+<tr><td>31</td><td class="en" dir="ltr" style="text-align: left;">arid</td><td class="ar">جاف</td></tr>
+<tr><td>32</td><td class="en" dir="ltr" style="text-align: left;">hospitable</td><td class="ar">ملائم</td></tr>
+<tr><td>33</td><td class="en" dir="ltr" style="text-align: left;">cultivated</td><td class="ar">مزروع</td></tr>
+<tr><td>34</td><td class="en" dir="ltr" style="text-align: left;">sophisticated</td><td class="ar">متطور</td></tr>
+<tr><td>35</td><td class="en" dir="ltr" style="text-align: left;">hospitality</td><td class="ar">ضيافة</td></tr>
+<tr><td>36</td><td class="en" dir="ltr" style="text-align: left;">tapestry</td><td class="ar">نسيج</td></tr>
+<tr><td>37</td><td class="en" dir="ltr" style="text-align: left;">fluctuations</td><td class="ar">تذبذبات</td></tr>
+<tr><td>38</td><td class="en" dir="ltr" style="text-align: left;">revive</td><td class="ar">ينعش</td></tr>
+<tr><td>39</td><td class="en" dir="ltr" style="text-align: left;">conservation</td><td class="ar">حفظ / صيانة</td></tr>
+<tr><td>40</td><td class="en" dir="ltr" style="text-align: left;">archaeological</td><td class="ar">أثري</td></tr>
 </tbody></table>
 <div class="questions"><h4>أسئلة المفردات</h4><ol>
 <li><bdi dir="ltr">California is the most _______ state in the United States, with over 39 million residents.</bdi><ol type="a">
@@ -5629,7 +5631,7 @@ bdi[dir="ltr"] {
 </section>
 </div><div class="day" id="day-6"><h1 class="section-title">اليوم 6 – The All Blacks (New Zealand Rugby)</h1><section class="reading"><h2 class="section-title">قطع القراءة (2 قطع)</h2>
 <article class="passage"><h3>The All Blacks (New Zealand Rugby)</h3>
-<div class="passage-text" dir="ltr">As football is to the people of Brazil, so is rugby to the people of New Zealand — that is to say, it is a national obsession. Rugby is a tough, highly physical contact sport contested by two teams of 15 players. Although, like football, the game of rugby originated in 19th-Century England, the New Zealand national team, known around the world as the “All Blacks,” have raised the skill-level of the game to new heights and, like their footballing counterparts in Brazil, have set the standard for other teams to follow. The All Blacks take their name from their distinctive all-black playing uniform, or “kit,” which they have been wearing ever since they made their first tour of Europe in 1905. The team’s emblem, or badge, is a silver fern — a feather-like plant that is the symbol of New Zealand. The All Blacks are the most famous, recognizable, and successful team in world rugby, and the “All Blacks” name is a highly marketable global brand that represents an attractive proposition for corporate sponsors. The German sportswear company Adidas has been the All Blacks’ official kit supplier since 1999. The All Blacks’ current nine-year deal with Adidas is worth $200 million, and was negotiated on the basis that the All Blacks would be expected to win around 75% of their matches. In recent years, and somewhat controversially, the All Blacks have allowed the name of the U.S. financial services group AIG to appear on the front of the famous black jersey. Although no official figures have been released, this deal is thought to have been worth in the region of $80 million over five years.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">As football is to the people of Brazil, so is rugby to the people of New Zealand — that is to say, it is a national obsession. Rugby is a tough, highly physical contact sport contested by two teams of 15 players. Although, like football, the game of rugby originated in 19th-Century England, the New Zealand national team, known around the world as the “All Blacks,” have raised the skill-level of the game to new heights and, like their footballing counterparts in Brazil, have set the standard for other teams to follow. The All Blacks take their name from their distinctive all-black playing uniform, or “kit,” which they have been wearing ever since they made their first tour of Europe in 1905. The team’s emblem, or badge, is a silver fern — a feather-like plant that is the symbol of New Zealand. The All Blacks are the most famous, recognizable, and successful team in world rugby, and the “All Blacks” name is a highly marketable global brand that represents an attractive proposition for corporate sponsors. The German sportswear company Adidas has been the All Blacks’ official kit supplier since 1999. The All Blacks’ current nine-year deal with Adidas is worth $200 million, and was negotiated on the basis that the All Blacks would be expected to win around 75% of their matches. In recent years, and somewhat controversially, the All Blacks have allowed the name of the U.S. financial services group AIG to appear on the front of the famous black jersey. Although no official figures have been released, this deal is thought to have been worth in the region of $80 million over five years.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">1. What is rugby to New Zealanders?</bdi><ol type="a">
 <li><bdi dir="ltr">A minor sport</bdi></li>
@@ -5688,7 +5690,7 @@ bdi[dir="ltr"] {
 </ol></div>
 </article>
 <article class="passage"><h3>Tambora Volcanic Eruption</h3>
-<div class="passage-text" dir="ltr">The year 1815 CE has become synonymous with one of history’s most celebrated battles, Waterloo, at which the reign of France’s Emperor Napoleon was brought to an end by a combined British and Allied army led by the Duke of Wellington. Perhaps it is this association in popular imagination that has served to airbrush out another tumultuous event that occurred in that same year, half a world away, in Indonesia. As we shall discover, that event, a volcanic eruption, was to have consequences for the future of humanity that were every bit as profound as those of Waterloo. Since 1982, the magnitude of volcanic eruptions has been measured on a scale known as the Volcanic Explosivity Index, commonly abbreviated to VEI. The VEI scale has values ranging between zero and a maximum of 8, and, between VEI-2 and VEI-8, is logarithmic rather than linear, meaning that a one-point increase on the scale represents a 10-fold increase in the amount of volcanic material ejected into the atmosphere. This means that a VEI-6 eruption is 10-times as great as a VEI-5 eruption; in turn, a VEI-7 eruption is 10-times as great as a VEI-6 eruption, and so on. As one might expect, frequency and magnitude are inversely correlated, and volcanic eruptions that are designated as VEI-8 — sometimes referred to as “supervolcanoes” — are extremely rare. Indeed, there have been no VEI-8 events in recent human history; the last volcanic event of this magnitude was the Oruanui eruption that formed Lake Taupo in New Zealand, around 26,500 years ago. The present geological era, known as the Holocene, has only witnessed a dozen or so volcanic events of magnitude VEI-7.<br><br>Prior to the catastrophic events of 1815, the dormant volcanic cone of Mount Tambora, having a diameter of 60 kilometers at its base, rose to a height of over 4,300 meters, making it one of the tallest peaks in the Indonesian archipelago. Radiocarbon dating has established that Tambora had erupted three times during the present geological era, that is, during the 11,000-year period since the end of the last Ice Age, before its 1815 eruption, which is believed to be both the largest in recorded human history and the largest of the Holocene era to date. The first warning signs that the dormant volcano was about to awaken appeared three years earlier, in 1812, when Tambora began to emit ominous noises and dark clouds of ash. On April 5th, 1815, the thunderous explosions from a moderate-sized eruption were heard in Batavia (modern-day Jakarta), and, on April 6th, thick volcanic ash descended on eastern Java. The eruptions intensified dramatically on the evening of April 10th, and Tambora became a flowing mass of liquid fire. An estimated 100 cubic kilometers of pyroclastic material was ejected skywards, and pyroclastic flows cascaded down the mountainside in all directions, annihilating everything in their path. Twelve thousand people, the inhabitants of nearby villages, met their deaths instantly. Tambora&#x27;s summit was utterly blown away, leaving a volcanic caldera seven kilometers in diameter and 700 meters deep. The skies went dark for several days, and, over 2,000 kilometers away on Java, Sir Stamford Raffles, the British founder of Singapore, reported hearing what he thought was heavy gunfire.<br><br>Fine particles of volcanic ash, ejected high into the stratosphere, were carried by longitudinal winds around the globe, producing brilliantly colored sunsets of red, green, orange, pink, and purple to be captured by artists such as Turner. But spectacular skies above London were one of Tambora&#x27;s few benign legacies. Once it was realized that the &quot;gunfire&quot; was, in fact, the distant echo of a major volcanic eruption, Raffles sent his lieutenants to investigate, and their reports provide a sober documentation of the devastation and human misery that they encountered. The aftermath of Tambora&#x27;s 1815 eruption saw the death toll climb inexorably. While estimates of total fatalities vary somewhat, it would appear that as many as 100,000 people may have perished on the islands of Sumbawa and Lombok. Most were victims either of starvation, as food sources were wiped out, or of intestinal diseases, such as dysentery, caused by drinking polluted water. Volcanic eruptions of VEI-5 and above always impact weather patterns, and invariably produce a significant global cooling effect due to the vast quantities of sulfur that are ejected. After Tambora had spewed 100-million tons of sulfur into the Earth&#x27;s upper atmosphere, the Northern Hemisphere waited in vain for the spring of 1816 to arrive. It never did. Instead, 1816 became known as &quot;the year without a summer&quot; as snow fell in July and rivers froze in August. Millions died of starvation as staple food crops failed repeatedly, causing widespread famine from Europe to China. A typhus epidemic ravaged the Mediterranean, while, in India, up to a million died from an outbreak of cholera.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">The year 1815 CE has become synonymous with one of history’s most celebrated battles, Waterloo, at which the reign of France’s Emperor Napoleon was brought to an end by a combined British and Allied army led by the Duke of Wellington. Perhaps it is this association in popular imagination that has served to airbrush out another tumultuous event that occurred in that same year, half a world away, in Indonesia. As we shall discover, that event, a volcanic eruption, was to have consequences for the future of humanity that were every bit as profound as those of Waterloo. Since 1982, the magnitude of volcanic eruptions has been measured on a scale known as the Volcanic Explosivity Index, commonly abbreviated to VEI. The VEI scale has values ranging between zero and a maximum of 8, and, between VEI-2 and VEI-8, is logarithmic rather than linear, meaning that a one-point increase on the scale represents a 10-fold increase in the amount of volcanic material ejected into the atmosphere. This means that a VEI-6 eruption is 10-times as great as a VEI-5 eruption; in turn, a VEI-7 eruption is 10-times as great as a VEI-6 eruption, and so on. As one might expect, frequency and magnitude are inversely correlated, and volcanic eruptions that are designated as VEI-8 — sometimes referred to as “supervolcanoes” — are extremely rare. Indeed, there have been no VEI-8 events in recent human history; the last volcanic event of this magnitude was the Oruanui eruption that formed Lake Taupo in New Zealand, around 26,500 years ago. The present geological era, known as the Holocene, has only witnessed a dozen or so volcanic events of magnitude VEI-7.<br><br>Prior to the catastrophic events of 1815, the dormant volcanic cone of Mount Tambora, having a diameter of 60 kilometers at its base, rose to a height of over 4,300 meters, making it one of the tallest peaks in the Indonesian archipelago. Radiocarbon dating has established that Tambora had erupted three times during the present geological era, that is, during the 11,000-year period since the end of the last Ice Age, before its 1815 eruption, which is believed to be both the largest in recorded human history and the largest of the Holocene era to date. The first warning signs that the dormant volcano was about to awaken appeared three years earlier, in 1812, when Tambora began to emit ominous noises and dark clouds of ash. On April 5th, 1815, the thunderous explosions from a moderate-sized eruption were heard in Batavia (modern-day Jakarta), and, on April 6th, thick volcanic ash descended on eastern Java. The eruptions intensified dramatically on the evening of April 10th, and Tambora became a flowing mass of liquid fire. An estimated 100 cubic kilometers of pyroclastic material was ejected skywards, and pyroclastic flows cascaded down the mountainside in all directions, annihilating everything in their path. Twelve thousand people, the inhabitants of nearby villages, met their deaths instantly. Tambora&#x27;s summit was utterly blown away, leaving a volcanic caldera seven kilometers in diameter and 700 meters deep. The skies went dark for several days, and, over 2,000 kilometers away on Java, Sir Stamford Raffles, the British founder of Singapore, reported hearing what he thought was heavy gunfire.<br><br>Fine particles of volcanic ash, ejected high into the stratosphere, were carried by longitudinal winds around the globe, producing brilliantly colored sunsets of red, green, orange, pink, and purple to be captured by artists such as Turner. But spectacular skies above London were one of Tambora&#x27;s few benign legacies. Once it was realized that the &quot;gunfire&quot; was, in fact, the distant echo of a major volcanic eruption, Raffles sent his lieutenants to investigate, and their reports provide a sober documentation of the devastation and human misery that they encountered. The aftermath of Tambora&#x27;s 1815 eruption saw the death toll climb inexorably. While estimates of total fatalities vary somewhat, it would appear that as many as 100,000 people may have perished on the islands of Sumbawa and Lombok. Most were victims either of starvation, as food sources were wiped out, or of intestinal diseases, such as dysentery, caused by drinking polluted water. Volcanic eruptions of VEI-5 and above always impact weather patterns, and invariably produce a significant global cooling effect due to the vast quantities of sulfur that are ejected. After Tambora had spewed 100-million tons of sulfur into the Earth&#x27;s upper atmosphere, the Northern Hemisphere waited in vain for the spring of 1816 to arrive. It never did. Instead, 1816 became known as &quot;the year without a summer&quot; as snow fell in July and rivers froze in August. Millions died of starvation as staple food crops failed repeatedly, causing widespread famine from Europe to China. A typhus epidemic ravaged the Mediterranean, while, in India, up to a million died from an outbreak of cholera.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">10. What was the VEI of Tambora eruption?</bdi><ol type="a">
 <li><bdi dir="ltr">VEI-5</bdi></li>
@@ -5750,50 +5752,50 @@ bdi[dir="ltr"] {
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
 <table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
-<tr><td>1</td><td class="en" dir="ltr">obsession</td><td class="ar">هوس</td></tr>
-<tr><td>2</td><td class="en" dir="ltr">tough</td><td class="ar">شاق / قاسٍ</td></tr>
-<tr><td>3</td><td class="en" dir="ltr">contact sport</td><td class="ar">رياضة احتكاك</td></tr>
-<tr><td>4</td><td class="en" dir="ltr">originated</td><td class="ar">نشأ</td></tr>
-<tr><td>5</td><td class="en" dir="ltr">distinctive</td><td class="ar">مميز</td></tr>
-<tr><td>6</td><td class="en" dir="ltr">kit</td><td class="ar">طقم رياضي</td></tr>
-<tr><td>7</td><td class="en" dir="ltr">emblem</td><td class="ar">شعار</td></tr>
-<tr><td>8</td><td class="en" dir="ltr">brand</td><td class="ar">علامة تجارية</td></tr>
-<tr><td>9</td><td class="en" dir="ltr">corporate</td><td class="ar">مؤسسي / شركات</td></tr>
-<tr><td>10</td><td class="en" dir="ltr">sponsor</td><td class="ar">راعٍ</td></tr>
-<tr><td>11</td><td class="en" dir="ltr">negotiated</td><td class="ar">تفاوض</td></tr>
-<tr><td>12</td><td class="en" dir="ltr">jersey</td><td class="ar">قميص رياضي</td></tr>
-<tr><td>13</td><td class="en" dir="ltr">catastrophic</td><td class="ar">كارثي</td></tr>
-<tr><td>14</td><td class="en" dir="ltr">eruption</td><td class="ar">ثوران</td></tr>
-<tr><td>15</td><td class="en" dir="ltr">consequences</td><td class="ar">عواقب</td></tr>
-<tr><td>16</td><td class="en" dir="ltr">magnitude</td><td class="ar">حجم / قوة</td></tr>
-<tr><td>17</td><td class="en" dir="ltr">dormant</td><td class="ar">خامد</td></tr>
-<tr><td>18</td><td class="en" dir="ltr">ominous</td><td class="ar">مشؤوم</td></tr>
-<tr><td>19</td><td class="en" dir="ltr">intensified</td><td class="ar">اشتد</td></tr>
-<tr><td>20</td><td class="en" dir="ltr">pyroclastic</td><td class="ar">حمم بركانية</td></tr>
-<tr><td>21</td><td class="en" dir="ltr">annihilated</td><td class="ar">أبيد</td></tr>
-<tr><td>22</td><td class="en" dir="ltr">caldera</td><td class="ar">فوهة بركانية</td></tr>
-<tr><td>23</td><td class="en" dir="ltr">stratosphere</td><td class="ar">الستراتوسفير</td></tr>
-<tr><td>24</td><td class="en" dir="ltr">devastation</td><td class="ar">دمار</td></tr>
-<tr><td>25</td><td class="en" dir="ltr">fatalities</td><td class="ar">وفيات</td></tr>
-<tr><td>26</td><td class="en" dir="ltr">starvation</td><td class="ar">مجاعة</td></tr>
-<tr><td>27</td><td class="en" dir="ltr">intestinal</td><td class="ar">معوي</td></tr>
-<tr><td>28</td><td class="en" dir="ltr">sulfur</td><td class="ar">كبريت</td></tr>
-<tr><td>29</td><td class="en" dir="ltr">hemisphere</td><td class="ar">نصف الكرة الأرضية</td></tr>
-<tr><td>30</td><td class="en" dir="ltr">staple</td><td class="ar">غذاء أساسي</td></tr>
-<tr><td>31</td><td class="en" dir="ltr">famine</td><td class="ar">مجاعة</td></tr>
-<tr><td>32</td><td class="en" dir="ltr">typhus</td><td class="ar">التيفوس</td></tr>
-<tr><td>33</td><td class="en" dir="ltr">cholera</td><td class="ar">الكوليرا</td></tr>
-<tr><td>34</td><td class="en" dir="ltr">reign</td><td class="ar">حكم</td></tr>
-<tr><td>35</td><td class="en" dir="ltr">tumultuous</td><td class="ar">مضطرب</td></tr>
-<tr><td>36</td><td class="en" dir="ltr">synonymous</td><td class="ar">مرادف</td></tr>
-<tr><td>37</td><td class="en" dir="ltr">correlated</td><td class="ar">مترابط</td></tr>
-<tr><td>38</td><td class="en" dir="ltr">logarithmic</td><td class="ar">لوغاريتمي</td></tr>
-<tr><td>39</td><td class="en" dir="ltr">diameter</td><td class="ar">قطر</td></tr>
-<tr><td>40</td><td class="en" dir="ltr">summit</td><td class="ar">قمة</td></tr>
-<tr><td>41</td><td class="en" dir="ltr">benign</td><td class="ar">حميد</td></tr>
-<tr><td>42</td><td class="en" dir="ltr">legacy</td><td class="ar">إرث</td></tr>
-<tr><td>43</td><td class="en" dir="ltr">aftermath</td><td class="ar">ما بعد الكارثة</td></tr>
-<tr><td>44</td><td class="en" dir="ltr">epidemic</td><td class="ar">وباء</td></tr>
+<tr><td>1</td><td class="en" dir="ltr" style="text-align: left;">obsession</td><td class="ar">هوس</td></tr>
+<tr><td>2</td><td class="en" dir="ltr" style="text-align: left;">tough</td><td class="ar">شاق / قاسٍ</td></tr>
+<tr><td>3</td><td class="en" dir="ltr" style="text-align: left;">contact sport</td><td class="ar">رياضة احتكاك</td></tr>
+<tr><td>4</td><td class="en" dir="ltr" style="text-align: left;">originated</td><td class="ar">نشأ</td></tr>
+<tr><td>5</td><td class="en" dir="ltr" style="text-align: left;">distinctive</td><td class="ar">مميز</td></tr>
+<tr><td>6</td><td class="en" dir="ltr" style="text-align: left;">kit</td><td class="ar">طقم رياضي</td></tr>
+<tr><td>7</td><td class="en" dir="ltr" style="text-align: left;">emblem</td><td class="ar">شعار</td></tr>
+<tr><td>8</td><td class="en" dir="ltr" style="text-align: left;">brand</td><td class="ar">علامة تجارية</td></tr>
+<tr><td>9</td><td class="en" dir="ltr" style="text-align: left;">corporate</td><td class="ar">مؤسسي / شركات</td></tr>
+<tr><td>10</td><td class="en" dir="ltr" style="text-align: left;">sponsor</td><td class="ar">راعٍ</td></tr>
+<tr><td>11</td><td class="en" dir="ltr" style="text-align: left;">negotiated</td><td class="ar">تفاوض</td></tr>
+<tr><td>12</td><td class="en" dir="ltr" style="text-align: left;">jersey</td><td class="ar">قميص رياضي</td></tr>
+<tr><td>13</td><td class="en" dir="ltr" style="text-align: left;">catastrophic</td><td class="ar">كارثي</td></tr>
+<tr><td>14</td><td class="en" dir="ltr" style="text-align: left;">eruption</td><td class="ar">ثوران</td></tr>
+<tr><td>15</td><td class="en" dir="ltr" style="text-align: left;">consequences</td><td class="ar">عواقب</td></tr>
+<tr><td>16</td><td class="en" dir="ltr" style="text-align: left;">magnitude</td><td class="ar">حجم / قوة</td></tr>
+<tr><td>17</td><td class="en" dir="ltr" style="text-align: left;">dormant</td><td class="ar">خامد</td></tr>
+<tr><td>18</td><td class="en" dir="ltr" style="text-align: left;">ominous</td><td class="ar">مشؤوم</td></tr>
+<tr><td>19</td><td class="en" dir="ltr" style="text-align: left;">intensified</td><td class="ar">اشتد</td></tr>
+<tr><td>20</td><td class="en" dir="ltr" style="text-align: left;">pyroclastic</td><td class="ar">حمم بركانية</td></tr>
+<tr><td>21</td><td class="en" dir="ltr" style="text-align: left;">annihilated</td><td class="ar">أبيد</td></tr>
+<tr><td>22</td><td class="en" dir="ltr" style="text-align: left;">caldera</td><td class="ar">فوهة بركانية</td></tr>
+<tr><td>23</td><td class="en" dir="ltr" style="text-align: left;">stratosphere</td><td class="ar">الستراتوسفير</td></tr>
+<tr><td>24</td><td class="en" dir="ltr" style="text-align: left;">devastation</td><td class="ar">دمار</td></tr>
+<tr><td>25</td><td class="en" dir="ltr" style="text-align: left;">fatalities</td><td class="ar">وفيات</td></tr>
+<tr><td>26</td><td class="en" dir="ltr" style="text-align: left;">starvation</td><td class="ar">مجاعة</td></tr>
+<tr><td>27</td><td class="en" dir="ltr" style="text-align: left;">intestinal</td><td class="ar">معوي</td></tr>
+<tr><td>28</td><td class="en" dir="ltr" style="text-align: left;">sulfur</td><td class="ar">كبريت</td></tr>
+<tr><td>29</td><td class="en" dir="ltr" style="text-align: left;">hemisphere</td><td class="ar">نصف الكرة الأرضية</td></tr>
+<tr><td>30</td><td class="en" dir="ltr" style="text-align: left;">staple</td><td class="ar">غذاء أساسي</td></tr>
+<tr><td>31</td><td class="en" dir="ltr" style="text-align: left;">famine</td><td class="ar">مجاعة</td></tr>
+<tr><td>32</td><td class="en" dir="ltr" style="text-align: left;">typhus</td><td class="ar">التيفوس</td></tr>
+<tr><td>33</td><td class="en" dir="ltr" style="text-align: left;">cholera</td><td class="ar">الكوليرا</td></tr>
+<tr><td>34</td><td class="en" dir="ltr" style="text-align: left;">reign</td><td class="ar">حكم</td></tr>
+<tr><td>35</td><td class="en" dir="ltr" style="text-align: left;">tumultuous</td><td class="ar">مضطرب</td></tr>
+<tr><td>36</td><td class="en" dir="ltr" style="text-align: left;">synonymous</td><td class="ar">مرادف</td></tr>
+<tr><td>37</td><td class="en" dir="ltr" style="text-align: left;">correlated</td><td class="ar">مترابط</td></tr>
+<tr><td>38</td><td class="en" dir="ltr" style="text-align: left;">logarithmic</td><td class="ar">لوغاريتمي</td></tr>
+<tr><td>39</td><td class="en" dir="ltr" style="text-align: left;">diameter</td><td class="ar">قطر</td></tr>
+<tr><td>40</td><td class="en" dir="ltr" style="text-align: left;">summit</td><td class="ar">قمة</td></tr>
+<tr><td>41</td><td class="en" dir="ltr" style="text-align: left;">benign</td><td class="ar">حميد</td></tr>
+<tr><td>42</td><td class="en" dir="ltr" style="text-align: left;">legacy</td><td class="ar">إرث</td></tr>
+<tr><td>43</td><td class="en" dir="ltr" style="text-align: left;">aftermath</td><td class="ar">ما بعد الكارثة</td></tr>
+<tr><td>44</td><td class="en" dir="ltr" style="text-align: left;">epidemic</td><td class="ar">وباء</td></tr>
 </tbody></table>
 <div class="questions"><h4>أسئلة المفردات</h4><ol>
 <li><bdi dir="ltr">Football is more than just a sport in Brazil; it&#x27;s a national _______.</bdi><ol type="a">
@@ -6563,7 +6565,7 @@ It is important <b>to arrive</b> on time.
 </section>
 </div><div class="day" id="day-7"><h1 class="section-title">اليوم 7 – Tintin in Tibet (Passage 1)</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
 <article class="passage"><h3>Tintin in Tibet (Passage 1)</h3>
-<div class="passage-text" dir="ltr">Are you familiar with the cartoon character Tintin? If so, you may be familiar with the comic book Tintin in Tibet, which first appeared in 1960. Perhaps you have read the Arabic version. In the story, Tintin hears the terrible news that the airplane carrying his Chinese friend, Chang, has crashed in the snowy Himalayan mountains of Tibet with no survivors. Tintin then has a dream, in which he sees that Chang is still alive, and so he travels high into the Himalayas to find and rescue his friend. The world&#x27;s highest and most formidable mountain range was a fitting setting for this heart-warming tale of tragedy, friendship, and courage. East Asia is, by far, the world&#x27;s busiest and most populous region, with billions of people constantly on the move by land, sea, and air. And yet, if you open up a live air-traffic map of East Asia, you will see that aviation activity is totally absent from one vast region within the region: Tibet is essentially a no-fly zone.<br><br>The autonomous region of Tibet lies in southwest China. Covering an area of 2.5 million square kilometers, Tibet is 20% larger than Saudi Arabia. In addition to its great size, the Tibetan plateau is the highest region on Earth, with an average elevation of around 4,000 meters. Mount Everest, the world&#x27;s highest mountain, is located in the south of the region, on Tibet&#x27;s border with the neighboring country of Nepal. The presence of the Himalayan range within its territory has earned Tibet the nickname &quot;The Roof of the World,&quot; and many of Asia&#x27;s most famous rivers, such as the Yangtze, the Indus, and the Mekong have their source here. Despite its vast size, however, Tibet&#x27;s population is only around 3 million, and there is virtually no internal demand for air travel. This lack of demand for either international or domestic air travel means that Lhasa, Tibet&#x27;s capital, hosts the region&#x27;s sole international airport.<br><br>An early indication of the extreme dangers of flying in such an inhospitable environment was provided in the 1940s, during World War II. The British needed to airlift supplies from their bases in northeastern India into China to assist the Chinese in their struggle against the Japanese forces that were occupying Chinese territory at the time. The extreme weather conditions that the pilots encountered on these missions included wind speeds of up to 320 kilometers per hour. Over a three-and-a-half-year period, a total of 594 aircraft were lost and 1,659 fatalities were recorded. To put these numbers into perspective, these non-combat losses were even greater than the combat losses suffered by the allied air crews at the hands of the German Luftwaffe during the Battle of Britain. Indeed, in some months, as many as 50% of the aircraft flying these routes were crashing into the mountains of the Tibetan plateau.<br><br>Even today, 75 years after World War II, the elevated terrain of the Tibetan plateau presents very real dangers for all types of aircraft. These dangers take many forms. For example, commercial airliners usually cruise at an altitude of around 11,000 meters, which is well above even Mount Everest. But, in emergency situations, such as a cabin depressurization or an engine failure, standard procedure is for the aircraft to descend to a much lower altitude of around 3,000 meters to enable the passengers and crew to breathe normally, as the emergency oxygen supply will only last for 20 minutes. However, because the average elevation of the Tibetan plateau is around 4,000 meters, the aircraft would almost certainly crash into a mountainside if such a descent were attempted. Faced with the need to divert the aircraft to a suitable airport for an emergency landing, pilots flying over the Tibetan plateau have very few options.<br><br>Turbulence - the sudden, jerky, up-and-down movement of an aircraft caused by irregular airflow - poses a potential hazard in the skies above the Tibetan plateau. Fortunately, modern passenger planes are engineered to withstand almost anything the sky can throw at them, so, although turbulence is a common in-flight occurrence, it is rarely dangerous. That said, so-called &quot;mountain wave turbulence&quot; can be a very different matter. The towering Himalayan peaks force the high-speed winds sharply upwards, and this creates severe waves of turbulence as the air passes over the mountain peaks. Scientists in India have reportedly succeeded in modeling turbulence parameters over the central Himalayas for the first time, and it is hoped that this breakthrough could make air travel in the region less of a risk. Nevertheless, the unforgiving Tibetan plateau will likely remain a &quot;next-to-no-fly zone&quot; for many years to come.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">Are you familiar with the cartoon character Tintin? If so, you may be familiar with the comic book Tintin in Tibet, which first appeared in 1960. Perhaps you have read the Arabic version. In the story, Tintin hears the terrible news that the airplane carrying his Chinese friend, Chang, has crashed in the snowy Himalayan mountains of Tibet with no survivors. Tintin then has a dream, in which he sees that Chang is still alive, and so he travels high into the Himalayas to find and rescue his friend. The world&#x27;s highest and most formidable mountain range was a fitting setting for this heart-warming tale of tragedy, friendship, and courage. East Asia is, by far, the world&#x27;s busiest and most populous region, with billions of people constantly on the move by land, sea, and air. And yet, if you open up a live air-traffic map of East Asia, you will see that aviation activity is totally absent from one vast region within the region: Tibet is essentially a no-fly zone.<br><br>The autonomous region of Tibet lies in southwest China. Covering an area of 2.5 million square kilometers, Tibet is 20% larger than Saudi Arabia. In addition to its great size, the Tibetan plateau is the highest region on Earth, with an average elevation of around 4,000 meters. Mount Everest, the world&#x27;s highest mountain, is located in the south of the region, on Tibet&#x27;s border with the neighboring country of Nepal. The presence of the Himalayan range within its territory has earned Tibet the nickname &quot;The Roof of the World,&quot; and many of Asia&#x27;s most famous rivers, such as the Yangtze, the Indus, and the Mekong have their source here. Despite its vast size, however, Tibet&#x27;s population is only around 3 million, and there is virtually no internal demand for air travel. This lack of demand for either international or domestic air travel means that Lhasa, Tibet&#x27;s capital, hosts the region&#x27;s sole international airport.<br><br>An early indication of the extreme dangers of flying in such an inhospitable environment was provided in the 1940s, during World War II. The British needed to airlift supplies from their bases in northeastern India into China to assist the Chinese in their struggle against the Japanese forces that were occupying Chinese territory at the time. The extreme weather conditions that the pilots encountered on these missions included wind speeds of up to 320 kilometers per hour. Over a three-and-a-half-year period, a total of 594 aircraft were lost and 1,659 fatalities were recorded. To put these numbers into perspective, these non-combat losses were even greater than the combat losses suffered by the allied air crews at the hands of the German Luftwaffe during the Battle of Britain. Indeed, in some months, as many as 50% of the aircraft flying these routes were crashing into the mountains of the Tibetan plateau.<br><br>Even today, 75 years after World War II, the elevated terrain of the Tibetan plateau presents very real dangers for all types of aircraft. These dangers take many forms. For example, commercial airliners usually cruise at an altitude of around 11,000 meters, which is well above even Mount Everest. But, in emergency situations, such as a cabin depressurization or an engine failure, standard procedure is for the aircraft to descend to a much lower altitude of around 3,000 meters to enable the passengers and crew to breathe normally, as the emergency oxygen supply will only last for 20 minutes. However, because the average elevation of the Tibetan plateau is around 4,000 meters, the aircraft would almost certainly crash into a mountainside if such a descent were attempted. Faced with the need to divert the aircraft to a suitable airport for an emergency landing, pilots flying over the Tibetan plateau have very few options.<br><br>Turbulence - the sudden, jerky, up-and-down movement of an aircraft caused by irregular airflow - poses a potential hazard in the skies above the Tibetan plateau. Fortunately, modern passenger planes are engineered to withstand almost anything the sky can throw at them, so, although turbulence is a common in-flight occurrence, it is rarely dangerous. That said, so-called &quot;mountain wave turbulence&quot; can be a very different matter. The towering Himalayan peaks force the high-speed winds sharply upwards, and this creates severe waves of turbulence as the air passes over the mountain peaks. Scientists in India have reportedly succeeded in modeling turbulence parameters over the central Himalayas for the first time, and it is hoped that this breakthrough could make air travel in the region less of a risk. Nevertheless, the unforgiving Tibetan plateau will likely remain a &quot;next-to-no-fly zone&quot; for many years to come.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">15. According to paragraph 4, what is the usual cruising altitude of commercial airliners?</bdi><ol type="a">
 <li><bdi dir="ltr">11,000 meters</bdi></li>
@@ -6598,7 +6600,7 @@ It is important <b>to arrive</b> on time.
 </ol></div>
 </article>
 <article class="passage"><h3>Yellowstone National Park (Passage 2)</h3>
-<div class="passage-text" dir="ltr">On September 8, 1978, UNESCO added the Yellowstone National Park to its list of World Heritage Sites. This addition was a recognition of the natural beauty of Yellowstone and its unique place in the history of environmental conservation. Yellowstone National Park is located in the northwest of the continental United States. Although its boundaries extend across three states: Wyoming, Montana, and Idaho, 96% of the park&#x27;s 3,470 square miles lies within the state of Wyoming. Because the park is situated high up on the Yellowstone plateau, which forms part of the Rocky Mountain range, its average elevation is 2,400 meters above sea level. Yellowstone Lake, at 136 square miles, is the most significant body of water within the park and the largest high-altitude lake in North America.<br><br>Archaeological discoveries show that human habitation of the Yellowstone region dates back at least 11,000 years, to a time when Native Americans were fashioning weapons and tools from a flint-like stone called obsidian to hunt and fish in the area. However, Yellowstone&#x27;s remoteness and inaccessibility meant that organized exploration of the area by Americans of European origin was not seriously attempted until the late 1860s, after the American Civil War. Reports from these early explorers describing the many natural wonders that they had encountered on their travels soon led to the recognition that Yellowstone was a very special place and should be valued and protected. And so, on March 1, 1872, United States President Ulysses S. Grant signed a law officially establishing Yellowstone as the world&#x27;s very first National Park.<br><br>Among the most famous of Yellowstone&#x27;s geological features are hundreds of geysers - jets of boiling water and steam that shoot up from the ground at regular intervals. Fully two-thirds of the world&#x27;s geysers are found in Yellowstone. The most famous geyser in Yellowstone is named &quot;Old Faithful&quot; because it erupts every 90 minutes, without fail. Yellowstone experiences thousands of minor earthquakes each year, and, occasionally, major ones, such as the magnitude 7.5 earthquake that struck the region in 1959. And the reason for the unusually high level of geothermal activity? Yellowstone&#x27;s natural beauty hides a terrifying secret: the park sits directly on top of one of the largest supervolcanoes on Earth. The good news is that, on average, the Yellowstone supervolcano only erupts once every 600,000 years; the bad news is that the last recorded eruption occurred approximately 600,000 years ago!<br><br>Yellowstone is thought to be the largest remaining intact ecosystem in the northern temperate zone. The park is home to nearly 2,000 species of trees, and many dozens of species of flowering plants, most of which flower during the summer months of May through September. Yellowstone is also blessed with a great variety of animal life, including bison, grizzly and black bears, moose, wolves, lynx, and cougars. Despite the rich variety of wildlife, however, many of Yellowstone&#x27;s unique plant and animal species are endangered, either as a result of diseases, migration, or hunting by predators, including humans. Until fairly recently, forest fires were seen as a threat to be countered wherever possible. However, professional attitudes have shifted, and it is now recognized that wildfires are an integral part of the natural world, clearing the ground and promoting new, fresh growth.<br><br>Yellowstone is ranked among the most popular national parks in the United States, with over two million tourists visiting the park each year. During the peak summer season, the park employs over 4,500 people as part of a tourist infrastructure consisting of hotels and lodges offering a total of 2,500 rooms, a 500-kilometer road network, numerous visitor centers and museums, educational tours, camping grounds and hiking trails, and boating facilities on Yellowstone Lake. Visitor safety is a major concern for the Yellowstone National Park authorities; several tourists have died from injuries sustained as a result of attacks by bears, and an extensive network of paved trails has been constructed to protect walkers from the dangers posed by the park&#x27;s geothermal features.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">On September 8, 1978, UNESCO added the Yellowstone National Park to its list of World Heritage Sites. This addition was a recognition of the natural beauty of Yellowstone and its unique place in the history of environmental conservation. Yellowstone National Park is located in the northwest of the continental United States. Although its boundaries extend across three states: Wyoming, Montana, and Idaho, 96% of the park&#x27;s 3,470 square miles lies within the state of Wyoming. Because the park is situated high up on the Yellowstone plateau, which forms part of the Rocky Mountain range, its average elevation is 2,400 meters above sea level. Yellowstone Lake, at 136 square miles, is the most significant body of water within the park and the largest high-altitude lake in North America.<br><br>Archaeological discoveries show that human habitation of the Yellowstone region dates back at least 11,000 years, to a time when Native Americans were fashioning weapons and tools from a flint-like stone called obsidian to hunt and fish in the area. However, Yellowstone&#x27;s remoteness and inaccessibility meant that organized exploration of the area by Americans of European origin was not seriously attempted until the late 1860s, after the American Civil War. Reports from these early explorers describing the many natural wonders that they had encountered on their travels soon led to the recognition that Yellowstone was a very special place and should be valued and protected. And so, on March 1, 1872, United States President Ulysses S. Grant signed a law officially establishing Yellowstone as the world&#x27;s very first National Park.<br><br>Among the most famous of Yellowstone&#x27;s geological features are hundreds of geysers - jets of boiling water and steam that shoot up from the ground at regular intervals. Fully two-thirds of the world&#x27;s geysers are found in Yellowstone. The most famous geyser in Yellowstone is named &quot;Old Faithful&quot; because it erupts every 90 minutes, without fail. Yellowstone experiences thousands of minor earthquakes each year, and, occasionally, major ones, such as the magnitude 7.5 earthquake that struck the region in 1959. And the reason for the unusually high level of geothermal activity? Yellowstone&#x27;s natural beauty hides a terrifying secret: the park sits directly on top of one of the largest supervolcanoes on Earth. The good news is that, on average, the Yellowstone supervolcano only erupts once every 600,000 years; the bad news is that the last recorded eruption occurred approximately 600,000 years ago!<br><br>Yellowstone is thought to be the largest remaining intact ecosystem in the northern temperate zone. The park is home to nearly 2,000 species of trees, and many dozens of species of flowering plants, most of which flower during the summer months of May through September. Yellowstone is also blessed with a great variety of animal life, including bison, grizzly and black bears, moose, wolves, lynx, and cougars. Despite the rich variety of wildlife, however, many of Yellowstone&#x27;s unique plant and animal species are endangered, either as a result of diseases, migration, or hunting by predators, including humans. Until fairly recently, forest fires were seen as a threat to be countered wherever possible. However, professional attitudes have shifted, and it is now recognized that wildfires are an integral part of the natural world, clearing the ground and promoting new, fresh growth.<br><br>Yellowstone is ranked among the most popular national parks in the United States, with over two million tourists visiting the park each year. During the peak summer season, the park employs over 4,500 people as part of a tourist infrastructure consisting of hotels and lodges offering a total of 2,500 rooms, a 500-kilometer road network, numerous visitor centers and museums, educational tours, camping grounds and hiking trails, and boating facilities on Yellowstone Lake. Visitor safety is a major concern for the Yellowstone National Park authorities; several tourists have died from injuries sustained as a result of attacks by bears, and an extensive network of paved trails has been constructed to protect walkers from the dangers posed by the park&#x27;s geothermal features.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">20. According to paragraph 5, how many tourists visit Yellowstone each year?</bdi><ol type="a">
 <li><bdi dir="ltr">2,500</bdi></li>
@@ -6633,7 +6635,7 @@ It is important <b>to arrive</b> on time.
 </ol></div>
 </article>
 <article class="passage"><h3>The Sahara Desert (Passage 3)</h3>
-<div class="passage-text" dir="ltr">The Sahara is the largest hot desert on Earth, stretching across much of North Africa from the Atlantic Ocean in the west to the Red Sea in the east. Covering approximately 9.2 million square kilometers, it is comparable in size to the entire United States. The desert occupies parts of eleven countries, including Algeria, Egypt, Libya, Morocco, and Sudan. Despite its reputation as a barren wasteland, the Sahara is home to a surprisingly diverse range of plant and animal species that have adapted to its harsh climate.<br><br>Temperatures in the Sahara can soar to over 50°C in the daytime and drop to near freezing at night. Rainfall is extremely rare, with some areas receiving less than 25 millimeters annually. However, the Sahara was not always a desert. About 10,000 years ago, the region experienced a wetter climate with lakes and rivers, supporting a variety of wildlife and early human settlements. Rock paintings found in the Sahara depict elephants, giraffes, and crocodiles, indicating a much greener past.<br><br>The Sahara&#x27;s economy depends heavily on the extraction of natural resources. The desert contains vast reserves of oil and natural gas, particularly in Algeria and Libya. Additionally, rich deposits of phosphates, iron ore, and uranium contribute significantly to the national income of several Saharan countries. However, the exploitation of these resources has raised environmental concerns, including pollution and the destruction of natural habitats.<br><br>Desertification, the process by which fertile land becomes desert, is a major problem along the Sahara&#x27;s southern border, the Sahel region. Overgrazing by livestock, deforestation, and poor agricultural practices have accelerated the spread of the desert, threatening the livelihoods of millions of people. International organizations are working with local governments to combat desertification through reforestation projects and sustainable farming methods.<br><br>In recent years, the Sahara has attracted attention as a potential source of solar energy. The vast expanses of sun-baked sand receive more sunlight than anywhere else on Earth, making the desert an ideal location for large-scale solar power plants. Projects such as the Desertec initiative aim to harness this energy and export it to Europe, providing a clean and abundant source of electricity. If these ambitious plans succeed, the Sahara could one day become a global hub for renewable energy, transforming both the local and global economies.</div>
+<div class="passage-text" dir="ltr" style="text-align: left;">The Sahara is the largest hot desert on Earth, stretching across much of North Africa from the Atlantic Ocean in the west to the Red Sea in the east. Covering approximately 9.2 million square kilometers, it is comparable in size to the entire United States. The desert occupies parts of eleven countries, including Algeria, Egypt, Libya, Morocco, and Sudan. Despite its reputation as a barren wasteland, the Sahara is home to a surprisingly diverse range of plant and animal species that have adapted to its harsh climate.<br><br>Temperatures in the Sahara can soar to over 50°C in the daytime and drop to near freezing at night. Rainfall is extremely rare, with some areas receiving less than 25 millimeters annually. However, the Sahara was not always a desert. About 10,000 years ago, the region experienced a wetter climate with lakes and rivers, supporting a variety of wildlife and early human settlements. Rock paintings found in the Sahara depict elephants, giraffes, and crocodiles, indicating a much greener past.<br><br>The Sahara&#x27;s economy depends heavily on the extraction of natural resources. The desert contains vast reserves of oil and natural gas, particularly in Algeria and Libya. Additionally, rich deposits of phosphates, iron ore, and uranium contribute significantly to the national income of several Saharan countries. However, the exploitation of these resources has raised environmental concerns, including pollution and the destruction of natural habitats.<br><br>Desertification, the process by which fertile land becomes desert, is a major problem along the Sahara&#x27;s southern border, the Sahel region. Overgrazing by livestock, deforestation, and poor agricultural practices have accelerated the spread of the desert, threatening the livelihoods of millions of people. International organizations are working with local governments to combat desertification through reforestation projects and sustainable farming methods.<br><br>In recent years, the Sahara has attracted attention as a potential source of solar energy. The vast expanses of sun-baked sand receive more sunlight than anywhere else on Earth, making the desert an ideal location for large-scale solar power plants. Projects such as the Desertec initiative aim to harness this energy and export it to Europe, providing a clean and abundant source of electricity. If these ambitious plans succeed, the Sahara could one day become a global hub for renewable energy, transforming both the local and global economies.</div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
 <li><bdi dir="ltr">1. What is the approximate area of the Sahara?</bdi><ol type="a">
 <li><bdi dir="ltr">2.5 million km²</bdi></li>
@@ -6671,46 +6673,46 @@ It is important <b>to arrive</b> on time.
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
 <table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
-<tr><td>1</td><td class="en" dir="ltr">aurora</td><td class="ar">شفق قطبي</td></tr>
-<tr><td>2</td><td class="en" dir="ltr">crackling</td><td class="ar">طقطقة</td></tr>
-<tr><td>3</td><td class="en" dir="ltr">sizzling</td><td class="ar">أزيز</td></tr>
-<tr><td>4</td><td class="en" dir="ltr">geomagnetic</td><td class="ar">مغناطيسية أرضية</td></tr>
-<tr><td>5</td><td class="en" dir="ltr">induce</td><td class="ar">يحث / يولد</td></tr>
-<tr><td>6</td><td class="en" dir="ltr">vibrate</td><td class="ar">يهتز</td></tr>
-<tr><td>7</td><td class="en" dir="ltr">elusive</td><td class="ar">بعيد المنال / صعب الإمساك</td></tr>
-<tr><td>8</td><td class="en" dir="ltr">folklore</td><td class="ar">فولكلور / تراث شعبي</td></tr>
-<tr><td>9</td><td class="en" dir="ltr">sensory</td><td class="ar">حسي</td></tr>
-<tr><td>10</td><td class="en" dir="ltr">celestial</td><td class="ar">سماوي</td></tr>
-<tr><td>11</td><td class="en" dir="ltr">colossus</td><td class="ar">تمثال ضخم / عملاق</td></tr>
-<tr><td>12</td><td class="en" dir="ltr">frankincense</td><td class="ar">لبان / بخور</td></tr>
-<tr><td>13</td><td class="en" dir="ltr">caravan</td><td class="ar">قافلة</td></tr>
-<tr><td>14</td><td class="en" dir="ltr">cosmopolitan</td><td class="ar">عالمي / متعدد الثقافات</td></tr>
-<tr><td>15</td><td class="en" dir="ltr">irrigation</td><td class="ar">ري</td></tr>
-<tr><td>16</td><td class="en" dir="ltr">inscription</td><td class="ar">نقش / كتابة</td></tr>
-<tr><td>17</td><td class="en" dir="ltr">decline</td><td class="ar">انحدار / تراجع</td></tr>
-<tr><td>18</td><td class="en" dir="ltr">UNESCO</td><td class="ar">اليونسكو</td></tr>
-<tr><td>19</td><td class="en" dir="ltr">subterranean</td><td class="ar">تحت الأرض</td></tr>
-<tr><td>20</td><td class="en" dir="ltr">labyrinth</td><td class="ar">متاهة</td></tr>
-<tr><td>21</td><td class="en" dir="ltr">sustainable</td><td class="ar">مستدام</td></tr>
-<tr><td>22</td><td class="en" dir="ltr">innovation</td><td class="ar">ابتكار</td></tr>
-<tr><td>23</td><td class="en" dir="ltr">ecosystem</td><td class="ar">نظام بيئي</td></tr>
-<tr><td>24</td><td class="en" dir="ltr">phenomenon</td><td class="ar">ظاهرة</td></tr>
-<tr><td>25</td><td class="en" dir="ltr">navigation</td><td class="ar">ملاحة</td></tr>
-<tr><td>26</td><td class="en" dir="ltr">heritage</td><td class="ar">تراث</td></tr>
-<tr><td>27</td><td class="en" dir="ltr">renewable</td><td class="ar">متجدد</td></tr>
-<tr><td>28</td><td class="en" dir="ltr">infrastructure</td><td class="ar">بنية تحتية</td></tr>
-<tr><td>29</td><td class="en" dir="ltr">satellite</td><td class="ar">قمر صناعي</td></tr>
-<tr><td>30</td><td class="en" dir="ltr">drought</td><td class="ar">جفاف</td></tr>
-<tr><td>31</td><td class="en" dir="ltr">obesity</td><td class="ar">سمنة</td></tr>
-<tr><td>32</td><td class="en" dir="ltr">immune</td><td class="ar">مناعي</td></tr>
-<tr><td>33</td><td class="en" dir="ltr">cognitive</td><td class="ar">معرفي</td></tr>
-<tr><td>34</td><td class="en" dir="ltr">deprivation</td><td class="ar">حرمان</td></tr>
-<tr><td>35</td><td class="en" dir="ltr">consolidation</td><td class="ar">توطيد</td></tr>
-<tr><td>36</td><td class="en" dir="ltr">shield</td><td class="ar">درع / يقي</td></tr>
-<tr><td>37</td><td class="en" dir="ltr">emission</td><td class="ar">انبعاث</td></tr>
-<tr><td>38</td><td class="en" dir="ltr">grid</td><td class="ar">شبكة كهرباء</td></tr>
-<tr><td>39</td><td class="en" dir="ltr">capacity</td><td class="ar">سعة</td></tr>
-<tr><td>40</td><td class="en" dir="ltr">strategically</td><td class="ar">استراتيجياً</td></tr>
+<tr><td>1</td><td class="en" dir="ltr" style="text-align: left;">aurora</td><td class="ar">شفق قطبي</td></tr>
+<tr><td>2</td><td class="en" dir="ltr" style="text-align: left;">crackling</td><td class="ar">طقطقة</td></tr>
+<tr><td>3</td><td class="en" dir="ltr" style="text-align: left;">sizzling</td><td class="ar">أزيز</td></tr>
+<tr><td>4</td><td class="en" dir="ltr" style="text-align: left;">geomagnetic</td><td class="ar">مغناطيسية أرضية</td></tr>
+<tr><td>5</td><td class="en" dir="ltr" style="text-align: left;">induce</td><td class="ar">يحث / يولد</td></tr>
+<tr><td>6</td><td class="en" dir="ltr" style="text-align: left;">vibrate</td><td class="ar">يهتز</td></tr>
+<tr><td>7</td><td class="en" dir="ltr" style="text-align: left;">elusive</td><td class="ar">بعيد المنال / صعب الإمساك</td></tr>
+<tr><td>8</td><td class="en" dir="ltr" style="text-align: left;">folklore</td><td class="ar">فولكلور / تراث شعبي</td></tr>
+<tr><td>9</td><td class="en" dir="ltr" style="text-align: left;">sensory</td><td class="ar">حسي</td></tr>
+<tr><td>10</td><td class="en" dir="ltr" style="text-align: left;">celestial</td><td class="ar">سماوي</td></tr>
+<tr><td>11</td><td class="en" dir="ltr" style="text-align: left;">colossus</td><td class="ar">تمثال ضخم / عملاق</td></tr>
+<tr><td>12</td><td class="en" dir="ltr" style="text-align: left;">frankincense</td><td class="ar">لبان / بخور</td></tr>
+<tr><td>13</td><td class="en" dir="ltr" style="text-align: left;">caravan</td><td class="ar">قافلة</td></tr>
+<tr><td>14</td><td class="en" dir="ltr" style="text-align: left;">cosmopolitan</td><td class="ar">عالمي / متعدد الثقافات</td></tr>
+<tr><td>15</td><td class="en" dir="ltr" style="text-align: left;">irrigation</td><td class="ar">ري</td></tr>
+<tr><td>16</td><td class="en" dir="ltr" style="text-align: left;">inscription</td><td class="ar">نقش / كتابة</td></tr>
+<tr><td>17</td><td class="en" dir="ltr" style="text-align: left;">decline</td><td class="ar">انحدار / تراجع</td></tr>
+<tr><td>18</td><td class="en" dir="ltr" style="text-align: left;">UNESCO</td><td class="ar">اليونسكو</td></tr>
+<tr><td>19</td><td class="en" dir="ltr" style="text-align: left;">subterranean</td><td class="ar">تحت الأرض</td></tr>
+<tr><td>20</td><td class="en" dir="ltr" style="text-align: left;">labyrinth</td><td class="ar">متاهة</td></tr>
+<tr><td>21</td><td class="en" dir="ltr" style="text-align: left;">sustainable</td><td class="ar">مستدام</td></tr>
+<tr><td>22</td><td class="en" dir="ltr" style="text-align: left;">innovation</td><td class="ar">ابتكار</td></tr>
+<tr><td>23</td><td class="en" dir="ltr" style="text-align: left;">ecosystem</td><td class="ar">نظام بيئي</td></tr>
+<tr><td>24</td><td class="en" dir="ltr" style="text-align: left;">phenomenon</td><td class="ar">ظاهرة</td></tr>
+<tr><td>25</td><td class="en" dir="ltr" style="text-align: left;">navigation</td><td class="ar">ملاحة</td></tr>
+<tr><td>26</td><td class="en" dir="ltr" style="text-align: left;">heritage</td><td class="ar">تراث</td></tr>
+<tr><td>27</td><td class="en" dir="ltr" style="text-align: left;">renewable</td><td class="ar">متجدد</td></tr>
+<tr><td>28</td><td class="en" dir="ltr" style="text-align: left;">infrastructure</td><td class="ar">بنية تحتية</td></tr>
+<tr><td>29</td><td class="en" dir="ltr" style="text-align: left;">satellite</td><td class="ar">قمر صناعي</td></tr>
+<tr><td>30</td><td class="en" dir="ltr" style="text-align: left;">drought</td><td class="ar">جفاف</td></tr>
+<tr><td>31</td><td class="en" dir="ltr" style="text-align: left;">obesity</td><td class="ar">سمنة</td></tr>
+<tr><td>32</td><td class="en" dir="ltr" style="text-align: left;">immune</td><td class="ar">مناعي</td></tr>
+<tr><td>33</td><td class="en" dir="ltr" style="text-align: left;">cognitive</td><td class="ar">معرفي</td></tr>
+<tr><td>34</td><td class="en" dir="ltr" style="text-align: left;">deprivation</td><td class="ar">حرمان</td></tr>
+<tr><td>35</td><td class="en" dir="ltr" style="text-align: left;">consolidation</td><td class="ar">توطيد</td></tr>
+<tr><td>36</td><td class="en" dir="ltr" style="text-align: left;">shield</td><td class="ar">درع / يقي</td></tr>
+<tr><td>37</td><td class="en" dir="ltr" style="text-align: left;">emission</td><td class="ar">انبعاث</td></tr>
+<tr><td>38</td><td class="en" dir="ltr" style="text-align: left;">grid</td><td class="ar">شبكة كهرباء</td></tr>
+<tr><td>39</td><td class="en" dir="ltr" style="text-align: left;">capacity</td><td class="ar">سعة</td></tr>
+<tr><td>40</td><td class="en" dir="ltr" style="text-align: left;">strategically</td><td class="ar">استراتيجياً</td></tr>
 </tbody></table>
 <div class="questions"><h4>أسئلة المفردات</h4><ol>
 <li><bdi dir="ltr">She set her alarm for 2 AM and drove far from the city lights, hoping to witness the green _______ dance across the sky.</bdi><ol type="a">
