@@ -26,7 +26,7 @@ def build_reading(day_num):
         text = escape(p.get("text", "")).replace("\n", "<br>")
         questions = p.get("questions", [])
         sec += f'<article class="passage"><h3>{title}</h3>\n'
-        sec += f'<div class="passage-text" dir="ltr" style="text-align: left;">{text}</div>\n'
+        sec += f'<div class="passage-text"><bdo dir="ltr">{text}</bdo></div>\n'
         if questions:
             sec += '<div class="questions"><h4>أسئلة الفهم</h4><ol>\n'
             for q in questions:
@@ -51,7 +51,7 @@ def build_vocab(day_num):
         for i, w in enumerate(words):
             eng = escape(w.get("english",""))
             ara = escape(w.get("arabic",""))
-            sec += f'<tr><td>{i+1}</td><td class="en" dir="ltr" style="text-align: left;">{eng}</td><td class="ar">{ara}</td></tr>\n'
+            sec += f'<tr><td>{i+1}</td><td class="en"><bdo dir="ltr">{eng}</bdo></td><td class="ar">{ara}</td></tr>\n'
         sec += '</tbody></table>\n'
         all_questions = []
         for w in words:
@@ -247,18 +247,7 @@ table.word-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
 table.word-table th { background: var(--primary); color: white; padding: 10px; font-family: 'Inter', sans-serif; }
 table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 12px; }
 .en { font-family: 'Inter', sans-serif; }
-[dir="ltr"] {
-  direction: ltr !important;
-  text-align: left !important;
-  unicode-bidi: isolate !important;
-}
-/* override any inherited RTL alignment for English elements */
-.questions li span[dir="ltr"],
-.questions li div[dir="ltr"],
-.en[dir="ltr"] {
-  display: inline-block;
-  text-align: left !important;
-}
+/* bdo يضمن الاتجاه الصحيح دون الحاجة إلى CSS */
 
 .dictation ul { list-style: square; padding-right: 2rem; }
 .grammar-lesson { border: 1px solid #ddd; padding: 2rem; border-radius: 8px; background: #fafafa; margin: 1rem 0; }
