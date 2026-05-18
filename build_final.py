@@ -47,27 +47,37 @@ def build_vocab(day_num):
     words = v.get("words", [])
     sec = '<section class="vocabulary">\n<h2 class="section-title">المفردات</h2>\n'
     if words:
-        sec += '<table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>\n'
+        # جدول المعاني
+        table_rows = ""
         for i, w in enumerate(words):
             eng = escape(w.get("english",""))
             ara = escape(w.get("arabic",""))
-            sec += f'<tr><td>{i+1}</td><td class="en"><bdo dir="ltr">{eng}</bdo></td><td class="ar">{ara}</td></tr>\n'
-        sec += '</tbody></table>\n'
-        all_questions = []
-        for w in words:
-            q_data = w.get("question")
-            if q_data:
-                all_questions.append(q_data)
+            table_rows += f'<tr><td>{i+1}</td><td class="en" dir="ltr" style="text-align: left;">{eng}</td><td class="ar">{ara}</td></tr>\n'
+        table = f'<div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>{table_rows}</tbody></table></div>'
+        
+        # أسئلة المفردات (أول 20 سؤال)
+        all_questions = [w.get("question") for w in words if w.get("question")]
+        all_questions = all_questions[:20]  # 20 سؤال كحد أقصى
+        questions_html = ""
         if all_questions:
-            sec += '<div class="questions"><h4>أسئلة المفردات</h4><ol>\n'
+            questions_html = '<div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>\n'
             for q in all_questions:
                 q_text = escape(q.get("q", ""))
                 opts = q.get("options", [])
-                sec += f'<li>{wrap_en(q_text)}<ol type="a">\n'
+                questions_html += f'<li>{wrap_en(q_text)}<ol type="a">\n'
                 for opt in opts:
-                    sec += f'<li>{wrap_en(escape(opt))}</li>\n'
-                sec += '</ol></li>\n'
-            sec += '</ol></div>\n'
+                    questions_html += f'<li>{wrap_en(escape(opt))}</li>\n'
+                questions_html += '</ol></li>\n'
+            questions_html += '</ol></div>\n'
+        
+        # تخطيط متوازي (جدول + أسئلة) إذا كانت الأسئلة موجودة
+        if questions_html:
+            sec += '<div class="vocab-flex">\n'
+            sec += f'<div class="vocab-col">{table}</div>\n'
+            sec += f'<div class="vocab-col">{questions_html}</div>\n'
+            sec += '</div>\n'
+        else:
+            sec += table
     sec += '</section>\n'
     return sec
 
@@ -99,6 +109,7 @@ def build_grammar_test(day_num):
     if not g: return ""
     questions = g.get("questions", []) if isinstance(g, dict) else g
     if not questions: return ""
+    questions = questions[:20]  # 20 سؤال فقط
     sec = '<section class="grammar-test">\n<h2 class="section-title">اختبار القواعد</h2>\n<ol>\n'
     for q in questions:
         q_text = escape(q.get("q", ""))
@@ -261,7 +272,17 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 .references p { margin: 0.3rem 0; }
 .footer-note { text-align: center; margin-top: 4rem; padding: 2rem; background: #f0ede5; border-radius: 8px; }
 
+.vocab-flex { display: flex; gap: 2rem; flex-wrap: wrap; }
+.vocab-col { flex: 1 1 45%; }
+.grammar-flex { display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 1rem; }
+.grammar-col { flex: 1 1 45%; }
+.lesson-col { border-left: 1px solid #ddd; padding-left: 1rem; }
+.test-col { padding-right: 1rem; }
 @media (max-width: 768px) {
+  .vocab-flex, .grammar-flex { flex-direction: column; }
+  .vocab-col, .grammar-col { flex: 1 1 100%; }
+  .lesson-col { border-left: none; padding-left: 0; }
+  .test-col { padding-right: 0; }
   body { padding: 0.5rem; font-size: 1rem; }
   .book { padding: 1.5rem; }
   .cover h1 { font-size: 2.2rem; }
@@ -314,8 +335,15 @@ for d in range(1, 8):
     html += build_reading(d)
     html += build_vocab(d)
     html += build_dictation(d)
+    # تخطيط متوازي: شرح القواعد على اليمين، اختبار القواعد على اليسار
+    html += '<div class="grammar-flex">'
+    html += '<div class="grammar-col lesson-col">'
     html += build_grammar_lesson(d)
+    html += '</div>'
+    html += '<div class="grammar-col test-col">'
     html += build_grammar_test(d)
+    html += '</div>'
+    html += '</div>'
     html += '</div>'
 
 html += '<section class="compilations">'

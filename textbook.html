@@ -75,7 +75,17 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 .references p { margin: 0.3rem 0; }
 .footer-note { text-align: center; margin-top: 4rem; padding: 2rem; background: #f0ede5; border-radius: 8px; }
 
+.vocab-flex { display: flex; gap: 2rem; flex-wrap: wrap; }
+.vocab-col { flex: 1 1 45%; }
+.grammar-flex { display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 1rem; }
+.grammar-col { flex: 1 1 45%; }
+.lesson-col { border-left: 1px solid #ddd; padding-left: 1rem; }
+.test-col { padding-right: 1rem; }
 @media (max-width: 768px) {
+  .vocab-flex, .grammar-flex { flex-direction: column; }
+  .vocab-col, .grammar-col { flex: 1 1 100%; }
+  .lesson-col { border-left: none; padding-left: 0; }
+  .test-col { padding-right: 0; }
   body { padding: 0.5rem; font-size: 1rem; }
   .book { padding: 1.5rem; }
   .cover h1 { font-size: 2.2rem; }
@@ -272,58 +282,58 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 </section>
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
-<table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
-<tr><td>1</td><td class="en"><bdo dir="ltr">advertise</bdo></td><td class="ar">يعلن</td></tr>
-<tr><td>2</td><td class="en"><bdo dir="ltr">traditional</bdo></td><td class="ar">تقليدي</td></tr>
-<tr><td>3</td><td class="en"><bdo dir="ltr">statistics</bdo></td><td class="ar">إحصائيات</td></tr>
-<tr><td>4</td><td class="en"><bdo dir="ltr">attention</bdo></td><td class="ar">انتباه</td></tr>
-<tr><td>5</td><td class="en"><bdo dir="ltr">prove</bdo></td><td class="ar">يثبت</td></tr>
-<tr><td>6</td><td class="en"><bdo dir="ltr">effective</bdo></td><td class="ar">فعال</td></tr>
-<tr><td>7</td><td class="en"><bdo dir="ltr">respond</bdo></td><td class="ar">يستجيب</td></tr>
-<tr><td>8</td><td class="en"><bdo dir="ltr">influence</bdo></td><td class="ar">يؤثر</td></tr>
-<tr><td>9</td><td class="en"><bdo dir="ltr">purchase</bdo></td><td class="ar">شراء</td></tr>
-<tr><td>10</td><td class="en"><bdo dir="ltr">advertisement</bdo></td><td class="ar">إعلان</td></tr>
-<tr><td>11</td><td class="en"><bdo dir="ltr">farming</bdo></td><td class="ar">زراعة</td></tr>
-<tr><td>12</td><td class="en"><bdo dir="ltr">dangerous</bdo></td><td class="ar">خطير</td></tr>
-<tr><td>13</td><td class="en"><bdo dir="ltr">environment</bdo></td><td class="ar">بيئة</td></tr>
-<tr><td>14</td><td class="en"><bdo dir="ltr">tolerance</bdo></td><td class="ar">تحمل</td></tr>
-<tr><td>15</td><td class="en"><bdo dir="ltr">exposure</bdo></td><td class="ar">تعرض</td></tr>
-<tr><td>16</td><td class="en"><bdo dir="ltr">cancer</bdo></td><td class="ar">سرطان</td></tr>
-<tr><td>17</td><td class="en"><bdo dir="ltr">chemicals</bdo></td><td class="ar">مواد كيميائية</td></tr>
-<tr><td>18</td><td class="en"><bdo dir="ltr">precautions</bdo></td><td class="ar">احتياطات</td></tr>
-<tr><td>19</td><td class="en"><bdo dir="ltr">equipment</bdo></td><td class="ar">معدات</td></tr>
-<tr><td>20</td><td class="en"><bdo dir="ltr">injuries</bdo></td><td class="ar">إصابات</td></tr>
-<tr><td>21</td><td class="en"><bdo dir="ltr">lifestyle</bdo></td><td class="ar">نمط حياة</td></tr>
-<tr><td>22</td><td class="en"><bdo dir="ltr">voluntary</bdo></td><td class="ar">تطوعي</td></tr>
-<tr><td>23</td><td class="en"><bdo dir="ltr">poverty</bdo></td><td class="ar">فقر</td></tr>
-<tr><td>24</td><td class="en"><bdo dir="ltr">disadvantaged</bdo></td><td class="ar">محروم</td></tr>
-<tr><td>25</td><td class="en"><bdo dir="ltr">volunteer</bdo></td><td class="ar">متطوع</td></tr>
-<tr><td>26</td><td class="en"><bdo dir="ltr">organization</bdo></td><td class="ar">منظمة</td></tr>
-<tr><td>27</td><td class="en"><bdo dir="ltr">healthcare</bdo></td><td class="ar">رعاية صحية</td></tr>
-<tr><td>28</td><td class="en"><bdo dir="ltr">mentor</bdo></td><td class="ar">مرشد</td></tr>
-<tr><td>29</td><td class="en"><bdo dir="ltr">method</bdo></td><td class="ar">طريقة</td></tr>
-<tr><td>30</td><td class="en"><bdo dir="ltr">establish</bdo></td><td class="ar">يؤسس</td></tr>
-<tr><td>31</td><td class="en"><bdo dir="ltr">improve</bdo></td><td class="ar">يحسن</td></tr>
-<tr><td>32</td><td class="en"><bdo dir="ltr">struggle</bdo></td><td class="ar">يكافح</td></tr>
-<tr><td>33</td><td class="en"><bdo dir="ltr">income</bdo></td><td class="ar">دخل</td></tr>
-<tr><td>34</td><td class="en"><bdo dir="ltr">professional</bdo></td><td class="ar">مهني</td></tr>
-<tr><td>35</td><td class="en"><bdo dir="ltr">crops</bdo></td><td class="ar">محاصيل</td></tr>
-<tr><td>36</td><td class="en"><bdo dir="ltr">efficiently</bdo></td><td class="ar">بكفاءة</td></tr>
-<tr><td>37</td><td class="en"><bdo dir="ltr">identify</bdo></td><td class="ar">يحدد</td></tr>
-<tr><td>38</td><td class="en"><bdo dir="ltr">achieve</bdo></td><td class="ar">يحقق</td></tr>
-<tr><td>39</td><td class="en"><bdo dir="ltr">quality</bdo></td><td class="ar">جودة</td></tr>
-<tr><td>40</td><td class="en"><bdo dir="ltr">difference</bdo></td><td class="ar">فرق</td></tr>
-<tr><td>41</td><td class="en"><bdo dir="ltr">trust</bdo></td><td class="ar">يثق</td></tr>
-<tr><td>42</td><td class="en"><bdo dir="ltr">reliable</bdo></td><td class="ar">موثوق</td></tr>
-<tr><td>43</td><td class="en"><bdo dir="ltr">immediately</bdo></td><td class="ar">فوراً</td></tr>
-<tr><td>44</td><td class="en"><bdo dir="ltr">survey</bdo></td><td class="ar">استقصاء</td></tr>
-<tr><td>45</td><td class="en"><bdo dir="ltr">majority</bdo></td><td class="ar">أغلبية</td></tr>
-<tr><td>46</td><td class="en"><bdo dir="ltr">content</bdo></td><td class="ar">راضٍ</td></tr>
-<tr><td>47</td><td class="en"><bdo dir="ltr">variety</bdo></td><td class="ar">تنوع</td></tr>
-<tr><td>48</td><td class="en"><bdo dir="ltr">essentially</bdo></td><td class="ar">أساساً</td></tr>
-<tr><td>49</td><td class="en"><bdo dir="ltr">demand</bdo></td><td class="ar">طلب</td></tr>
-</tbody></table>
-<div class="questions"><h4>أسئلة المفردات</h4><ol>
+<div class="vocab-flex">
+<div class="vocab-col"><div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody><tr><td>1</td><td class="en" dir="ltr" style="text-align: left;">advertise</td><td class="ar">يعلن</td></tr>
+<tr><td>2</td><td class="en" dir="ltr" style="text-align: left;">traditional</td><td class="ar">تقليدي</td></tr>
+<tr><td>3</td><td class="en" dir="ltr" style="text-align: left;">statistics</td><td class="ar">إحصائيات</td></tr>
+<tr><td>4</td><td class="en" dir="ltr" style="text-align: left;">attention</td><td class="ar">انتباه</td></tr>
+<tr><td>5</td><td class="en" dir="ltr" style="text-align: left;">prove</td><td class="ar">يثبت</td></tr>
+<tr><td>6</td><td class="en" dir="ltr" style="text-align: left;">effective</td><td class="ar">فعال</td></tr>
+<tr><td>7</td><td class="en" dir="ltr" style="text-align: left;">respond</td><td class="ar">يستجيب</td></tr>
+<tr><td>8</td><td class="en" dir="ltr" style="text-align: left;">influence</td><td class="ar">يؤثر</td></tr>
+<tr><td>9</td><td class="en" dir="ltr" style="text-align: left;">purchase</td><td class="ar">شراء</td></tr>
+<tr><td>10</td><td class="en" dir="ltr" style="text-align: left;">advertisement</td><td class="ar">إعلان</td></tr>
+<tr><td>11</td><td class="en" dir="ltr" style="text-align: left;">farming</td><td class="ar">زراعة</td></tr>
+<tr><td>12</td><td class="en" dir="ltr" style="text-align: left;">dangerous</td><td class="ar">خطير</td></tr>
+<tr><td>13</td><td class="en" dir="ltr" style="text-align: left;">environment</td><td class="ar">بيئة</td></tr>
+<tr><td>14</td><td class="en" dir="ltr" style="text-align: left;">tolerance</td><td class="ar">تحمل</td></tr>
+<tr><td>15</td><td class="en" dir="ltr" style="text-align: left;">exposure</td><td class="ar">تعرض</td></tr>
+<tr><td>16</td><td class="en" dir="ltr" style="text-align: left;">cancer</td><td class="ar">سرطان</td></tr>
+<tr><td>17</td><td class="en" dir="ltr" style="text-align: left;">chemicals</td><td class="ar">مواد كيميائية</td></tr>
+<tr><td>18</td><td class="en" dir="ltr" style="text-align: left;">precautions</td><td class="ar">احتياطات</td></tr>
+<tr><td>19</td><td class="en" dir="ltr" style="text-align: left;">equipment</td><td class="ar">معدات</td></tr>
+<tr><td>20</td><td class="en" dir="ltr" style="text-align: left;">injuries</td><td class="ar">إصابات</td></tr>
+<tr><td>21</td><td class="en" dir="ltr" style="text-align: left;">lifestyle</td><td class="ar">نمط حياة</td></tr>
+<tr><td>22</td><td class="en" dir="ltr" style="text-align: left;">voluntary</td><td class="ar">تطوعي</td></tr>
+<tr><td>23</td><td class="en" dir="ltr" style="text-align: left;">poverty</td><td class="ar">فقر</td></tr>
+<tr><td>24</td><td class="en" dir="ltr" style="text-align: left;">disadvantaged</td><td class="ar">محروم</td></tr>
+<tr><td>25</td><td class="en" dir="ltr" style="text-align: left;">volunteer</td><td class="ar">متطوع</td></tr>
+<tr><td>26</td><td class="en" dir="ltr" style="text-align: left;">organization</td><td class="ar">منظمة</td></tr>
+<tr><td>27</td><td class="en" dir="ltr" style="text-align: left;">healthcare</td><td class="ar">رعاية صحية</td></tr>
+<tr><td>28</td><td class="en" dir="ltr" style="text-align: left;">mentor</td><td class="ar">مرشد</td></tr>
+<tr><td>29</td><td class="en" dir="ltr" style="text-align: left;">method</td><td class="ar">طريقة</td></tr>
+<tr><td>30</td><td class="en" dir="ltr" style="text-align: left;">establish</td><td class="ar">يؤسس</td></tr>
+<tr><td>31</td><td class="en" dir="ltr" style="text-align: left;">improve</td><td class="ar">يحسن</td></tr>
+<tr><td>32</td><td class="en" dir="ltr" style="text-align: left;">struggle</td><td class="ar">يكافح</td></tr>
+<tr><td>33</td><td class="en" dir="ltr" style="text-align: left;">income</td><td class="ar">دخل</td></tr>
+<tr><td>34</td><td class="en" dir="ltr" style="text-align: left;">professional</td><td class="ar">مهني</td></tr>
+<tr><td>35</td><td class="en" dir="ltr" style="text-align: left;">crops</td><td class="ar">محاصيل</td></tr>
+<tr><td>36</td><td class="en" dir="ltr" style="text-align: left;">efficiently</td><td class="ar">بكفاءة</td></tr>
+<tr><td>37</td><td class="en" dir="ltr" style="text-align: left;">identify</td><td class="ar">يحدد</td></tr>
+<tr><td>38</td><td class="en" dir="ltr" style="text-align: left;">achieve</td><td class="ar">يحقق</td></tr>
+<tr><td>39</td><td class="en" dir="ltr" style="text-align: left;">quality</td><td class="ar">جودة</td></tr>
+<tr><td>40</td><td class="en" dir="ltr" style="text-align: left;">difference</td><td class="ar">فرق</td></tr>
+<tr><td>41</td><td class="en" dir="ltr" style="text-align: left;">trust</td><td class="ar">يثق</td></tr>
+<tr><td>42</td><td class="en" dir="ltr" style="text-align: left;">reliable</td><td class="ar">موثوق</td></tr>
+<tr><td>43</td><td class="en" dir="ltr" style="text-align: left;">immediately</td><td class="ar">فوراً</td></tr>
+<tr><td>44</td><td class="en" dir="ltr" style="text-align: left;">survey</td><td class="ar">استقصاء</td></tr>
+<tr><td>45</td><td class="en" dir="ltr" style="text-align: left;">majority</td><td class="ar">أغلبية</td></tr>
+<tr><td>46</td><td class="en" dir="ltr" style="text-align: left;">content</td><td class="ar">راضٍ</td></tr>
+<tr><td>47</td><td class="en" dir="ltr" style="text-align: left;">variety</td><td class="ar">تنوع</td></tr>
+<tr><td>48</td><td class="en" dir="ltr" style="text-align: left;">essentially</td><td class="ar">أساساً</td></tr>
+<tr><td>49</td><td class="en" dir="ltr" style="text-align: left;">demand</td><td class="ar">طلب</td></tr>
+</tbody></table></div></div>
+<div class="vocab-col"><div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>
 <li><bdi dir="ltr">The company decided to _______ their new product on television to reach more people.</bdi><ol type="a">
 <li><bdi dir="ltr">advertise</bdi></li>
 <li><bdi dir="ltr">ignore</bdi></li>
@@ -444,181 +454,9 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><bdi dir="ltr">paintings</bdi></li>
 <li><bdi dir="ltr">songs</bdi></li>
 </ol></li>
-<li><bdi dir="ltr">She chose a healthy _______ with regular exercise and balanced meals.</bdi><ol type="a">
-<li><bdi dir="ltr">lifestyle</bdi></li>
-<li><bdi dir="ltr">problem</bdi></li>
-<li><bdi dir="ltr">mistake</bdi></li>
-<li><bdi dir="ltr">accident</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He does _______ work at the hospital every Saturday without getting paid.</bdi><ol type="a">
-<li><bdi dir="ltr">voluntary</bdi></li>
-<li><bdi dir="ltr">forced</bdi></li>
-<li><bdi dir="ltr">paid</bdi></li>
-<li><bdi dir="ltr">difficult</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The charity helps people who live in _______ and cannot afford basic needs.</bdi><ol type="a">
-<li><bdi dir="ltr">poverty</bdi></li>
-<li><bdi dir="ltr">wealth</bdi></li>
-<li><bdi dir="ltr">luxury</bdi></li>
-<li><bdi dir="ltr">comfort</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The government provides extra support to schools in _______ areas.</bdi><ol type="a">
-<li><bdi dir="ltr">disadvantaged</bdi></li>
-<li><bdi dir="ltr">wealthy</bdi></li>
-<li><bdi dir="ltr">rich</bdi></li>
-<li><bdi dir="ltr">comfortable</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Many _______s helped clean the beach after the storm.</bdi><ol type="a">
-<li><bdi dir="ltr">volunteer</bdi></li>
-<li><bdi dir="ltr">prisoner</bdi></li>
-<li><bdi dir="ltr">tourist</bdi></li>
-<li><bdi dir="ltr">visitor</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The United Nations is an international _______ that promotes peace.</bdi><ol type="a">
-<li><bdi dir="ltr">organization</bdi></li>
-<li><bdi dir="ltr">problem</bdi></li>
-<li><bdi dir="ltr">animal</bdi></li>
-<li><bdi dir="ltr">machine</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The government should provide free _______ to all citizens.</bdi><ol type="a">
-<li><bdi dir="ltr">healthcare</bdi></li>
-<li><bdi dir="ltr">entertainment</bdi></li>
-<li><bdi dir="ltr">transport</bdi></li>
-<li><bdi dir="ltr">sport</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">A good _______ helps young people develop their skills and confidence.</bdi><ol type="a">
-<li><bdi dir="ltr">mentor</bdi></li>
-<li><bdi dir="ltr">student</bdi></li>
-<li><bdi dir="ltr">patient</bdi></li>
-<li><bdi dir="ltr">customer</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She found a new _______ to solve the math problem quickly.</bdi><ol type="a">
-<li><bdi dir="ltr">method</bdi></li>
-<li><bdi dir="ltr">mistake</bdi></li>
-<li><bdi dir="ltr">accident</bdi></li>
-<li><bdi dir="ltr">failure</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The company plans to _______ a new branch in the city next year.</bdi><ol type="a">
-<li><bdi dir="ltr">establish</bdi></li>
-<li><bdi dir="ltr">destroy</bdi></li>
-<li><bdi dir="ltr">ignore</bdi></li>
-<li><bdi dir="ltr">cancel</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Reading books every day can help _______ your vocabulary.</bdi><ol type="a">
-<li><bdi dir="ltr">improve</bdi></li>
-<li><bdi dir="ltr">worsen</bdi></li>
-<li><bdi dir="ltr">forget</bdi></li>
-<li><bdi dir="ltr">lose</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Many families _______ to pay their bills when prices keep rising.</bdi><ol type="a">
-<li><bdi dir="ltr">struggle</bdi></li>
-<li><bdi dir="ltr">celebrate</bdi></li>
-<li><bdi dir="ltr">relax</bdi></li>
-<li><bdi dir="ltr">enjoy</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He needs a steady _______ to support his family and pay the rent.</bdi><ol type="a">
-<li><bdi dir="ltr">income</bdi></li>
-<li><bdi dir="ltr">hobby</bdi></li>
-<li><bdi dir="ltr">dream</bdi></li>
-<li><bdi dir="ltr">vacation</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She is a _______ photographer and takes excellent photos for magazines.</bdi><ol type="a">
-<li><bdi dir="ltr">professional</bdi></li>
-<li><bdi dir="ltr">amateur</bdi></li>
-<li><bdi dir="ltr">careless</bdi></li>
-<li><bdi dir="ltr">lazy</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The heavy rain destroyed all the _______ that the farmer had planted.</bdi><ol type="a">
-<li><bdi dir="ltr">crops</bdi></li>
-<li><bdi dir="ltr">buildings</bdi></li>
-<li><bdi dir="ltr">books</bdi></li>
-<li><bdi dir="ltr">cars</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The new machine works more _______ than the old one, saving time and energy.</bdi><ol type="a">
-<li><bdi dir="ltr">efficiently</bdi></li>
-<li><bdi dir="ltr">slowly</bdi></li>
-<li><bdi dir="ltr">carelessly</bdi></li>
-<li><bdi dir="ltr">loudly</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The police used fingerprints to _______ the criminal.</bdi><ol type="a">
-<li><bdi dir="ltr">identify</bdi></li>
-<li><bdi dir="ltr">hide</bdi></li>
-<li><bdi dir="ltr">release</bdi></li>
-<li><bdi dir="ltr">forget</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">If you work hard, you can _______ your goals in life.</bdi><ol type="a">
-<li><bdi dir="ltr">achieve</bdi></li>
-<li><bdi dir="ltr">lose</bdi></li>
-<li><bdi dir="ltr">destroy</bdi></li>
-<li><bdi dir="ltr">ignore</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The _______ of this product is very high; it will last for many years.</bdi><ol type="a">
-<li><bdi dir="ltr">quality</bdi></li>
-<li><bdi dir="ltr">price</bdi></li>
-<li><bdi dir="ltr">color</bdi></li>
-<li><bdi dir="ltr">size</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">There is a big _______ between knowing the truth and proving it.</bdi><ol type="a">
-<li><bdi dir="ltr">difference</bdi></li>
-<li><bdi dir="ltr">similarity</bdi></li>
-<li><bdi dir="ltr">secret</bdi></li>
-<li><bdi dir="ltr">problem</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">You should _______ your friends, but always verify important information yourself.</bdi><ol type="a">
-<li><bdi dir="ltr">trust</bdi></li>
-<li><bdi dir="ltr">doubt</bdi></li>
-<li><bdi dir="ltr">hate</bdi></li>
-<li><bdi dir="ltr">fear</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">We need a _______ source of information; the internet has too many false stories.</bdi><ol type="a">
-<li><bdi dir="ltr">reliable</bdi></li>
-<li><bdi dir="ltr">weak</bdi></li>
-<li><bdi dir="ltr">slow</bdi></li>
-<li><bdi dir="ltr">noisy</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">When the fire alarm rang, everyone left the building _______.</bdi><ol type="a">
-<li><bdi dir="ltr">immediately</bdi></li>
-<li><bdi dir="ltr">slowly</bdi></li>
-<li><bdi dir="ltr">carelessly</bdi></li>
-<li><bdi dir="ltr">angrily</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The company conducted a _______ to find out what customers think about their products.</bdi><ol type="a">
-<li><bdi dir="ltr">survey</bdi></li>
-<li><bdi dir="ltr">party</bdi></li>
-<li><bdi dir="ltr">game</bdi></li>
-<li><bdi dir="ltr">movie</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The _______ of students in the class prefer studying in the morning rather than at night.</bdi><ol type="a">
-<li><bdi dir="ltr">majority</bdi></li>
-<li><bdi dir="ltr">minority</bdi></li>
-<li><bdi dir="ltr">few</bdi></li>
-<li><bdi dir="ltr">none</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">After a good meal, he felt _______ and didn&#x27;t want to eat anything more.</bdi><ol type="a">
-<li><bdi dir="ltr">content</bdi></li>
-<li><bdi dir="ltr">hungry</bdi></li>
-<li><bdi dir="ltr">angry</bdi></li>
-<li><bdi dir="ltr">worried</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The supermarket offers a wide _______ of fruits and vegetables from around the world.</bdi><ol type="a">
-<li><bdi dir="ltr">variety</bdi></li>
-<li><bdi dir="ltr">shortage</bdi></li>
-<li><bdi dir="ltr">problem</bdi></li>
-<li><bdi dir="ltr">failure</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The two designs are _______ the same; there is very little difference between them.</bdi><ol type="a">
-<li><bdi dir="ltr">essentially</bdi></li>
-<li><bdi dir="ltr">completely</bdi></li>
-<li><bdi dir="ltr">rarely</bdi></li>
-<li><bdi dir="ltr">accidentally</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">There is a high _______ for cold drinks during the hot summer months.</bdi><ol type="a">
-<li><bdi dir="ltr">demand</bdi></li>
-<li><bdi dir="ltr">supply</bdi></li>
-<li><bdi dir="ltr">waste</bdi></li>
-<li><bdi dir="ltr">silence</bdi></li>
-</ol></li>
 </ol></div>
+</div>
+</div>
 </section>
 <section class="dictation">
 <h2 class="section-title">الإملاء</h2>
@@ -635,7 +473,7 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><strong><bdi dir="ltr">chest</bdi></strong> — <bdi dir="ltr">cheast, chist, chest</bdi></li>
 </ul>
 </section>
-<section class="grammar-lesson">
+<div class="grammar-flex"><div class="grammar-col lesson-col"><section class="grammar-lesson">
 <h2 class="section-title">درس القواعد</h2>
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
@@ -1040,7 +878,7 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 </html>
 
 </section>
-<section class="grammar-test">
+</div><div class="grammar-col test-col"><section class="grammar-test">
 <h2 class="section-title">اختبار القواعد</h2>
 <ol>
 <li><bdi dir="ltr">Some teachers ____ much homework.</bdi><ol type="a">
@@ -1163,207 +1001,9 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><bdi dir="ltr">yours</bdi></li>
 <li><bdi dir="ltr">your</bdi></li>
 </ol></li>
-<li><bdi dir="ltr">Ali has broken ____ leg.</bdi><ol type="a">
-<li><bdi dir="ltr">hers</bdi></li>
-<li><bdi dir="ltr">his</bdi></li>
-<li><bdi dir="ltr">their</bdi></li>
-<li><bdi dir="ltr">her</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">We gave them our telephone number, and they gave us ____.</bdi><ol type="a">
-<li><bdi dir="ltr">their</bdi></li>
-<li><bdi dir="ltr">our</bdi></li>
-<li><bdi dir="ltr">ours</bdi></li>
-<li><bdi dir="ltr">theirs</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">My car is cheap, but ____ is expensive.</bdi><ol type="a">
-<li><bdi dir="ltr">our</bdi></li>
-<li><bdi dir="ltr">hers</bdi></li>
-<li><bdi dir="ltr">your</bdi></li>
-<li><bdi dir="ltr">her</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">You can&#x27;t have any chocolate! It&#x27;s all ____.</bdi><ol type="a">
-<li><bdi dir="ltr">my</bdi></li>
-<li><bdi dir="ltr">her</bdi></li>
-<li><bdi dir="ltr">their</bdi></li>
-<li><bdi dir="ltr">his</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Hold the bag please while I put the shopping in ____.</bdi><ol type="a">
-<li><bdi dir="ltr">him</bdi></li>
-<li><bdi dir="ltr">it</bdi></li>
-<li><bdi dir="ltr">them</bdi></li>
-<li><bdi dir="ltr">us</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Essam watched the children carefully as ____ crossed the road.</bdi><ol type="a">
-<li><bdi dir="ltr">them</bdi></li>
-<li><bdi dir="ltr">him</bdi></li>
-<li><bdi dir="ltr">they</bdi></li>
-<li><bdi dir="ltr">us</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I wonder why Rashed rushed off. Did you upset ____?</bdi><ol type="a">
-<li><bdi dir="ltr">he</bdi></li>
-<li><bdi dir="ltr">him</bdi></li>
-<li><bdi dir="ltr">we</bdi></li>
-<li><bdi dir="ltr">they</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Thank you for collecting ____.</bdi><ol type="a">
-<li><bdi dir="ltr">me</bdi></li>
-<li><bdi dir="ltr">he</bdi></li>
-<li><bdi dir="ltr">she</bdi></li>
-<li><bdi dir="ltr">they</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Open the door. It&#x27;s ____.</bdi><ol type="a">
-<li><bdi dir="ltr">I</bdi></li>
-<li><bdi dir="ltr">they</bdi></li>
-<li><bdi dir="ltr">me</bdi></li>
-<li><bdi dir="ltr">her</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The teacher ____ teaches us English is very kind.</bdi><ol type="a">
-<li><bdi dir="ltr">which</bdi></li>
-<li><bdi dir="ltr">whom</bdi></li>
-<li><bdi dir="ltr">who</bdi></li>
-<li><bdi dir="ltr">whose</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The car ____ I bought is very fast.</bdi><ol type="a">
-<li><bdi dir="ltr">which</bdi></li>
-<li><bdi dir="ltr">who</bdi></li>
-<li><bdi dir="ltr">whom</bdi></li>
-<li><bdi dir="ltr">whose</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The boy ____ bag was stolen is crying.</bdi><ol type="a">
-<li><bdi dir="ltr">which</bdi></li>
-<li><bdi dir="ltr">who</bdi></li>
-<li><bdi dir="ltr">whom</bdi></li>
-<li><bdi dir="ltr">whose</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Every student ____ to follow the rules.</bdi><ol type="a">
-<li><bdi dir="ltr">have</bdi></li>
-<li><bdi dir="ltr">has</bdi></li>
-<li><bdi dir="ltr">are</bdi></li>
-<li><bdi dir="ltr">were</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Neither Ali nor his sisters ____ here.</bdi><ol type="a">
-<li><bdi dir="ltr">is</bdi></li>
-<li><bdi dir="ltr">are</bdi></li>
-<li><bdi dir="ltr">was</bdi></li>
-<li><bdi dir="ltr">has</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">There ____ a lot of cars in the parking lot.</bdi><ol type="a">
-<li><bdi dir="ltr">is</bdi></li>
-<li><bdi dir="ltr">are</bdi></li>
-<li><bdi dir="ltr">was</bdi></li>
-<li><bdi dir="ltr">has</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Mathematics ____ my favorite subject.</bdi><ol type="a">
-<li><bdi dir="ltr">is</bdi></li>
-<li><bdi dir="ltr">are</bdi></li>
-<li><bdi dir="ltr">were</bdi></li>
-<li><bdi dir="ltr">have</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Everybody ____ to be happy.</bdi><ol type="a">
-<li><bdi dir="ltr">want</bdi></li>
-<li><bdi dir="ltr">wants</bdi></li>
-<li><bdi dir="ltr">wanting</bdi></li>
-<li><bdi dir="ltr">have wanted</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Neither the teacher nor the students ____ satisfied.</bdi><ol type="a">
-<li><bdi dir="ltr">is</bdi></li>
-<li><bdi dir="ltr">are</bdi></li>
-<li><bdi dir="ltr">was</bdi></li>
-<li><bdi dir="ltr">has</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Either Sarah or her brother ____ taking the car.</bdi><ol type="a">
-<li><bdi dir="ltr">is</bdi></li>
-<li><bdi dir="ltr">are</bdi></li>
-<li><bdi dir="ltr">were</bdi></li>
-<li><bdi dir="ltr">have</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">There ____ some water on the floor.</bdi><ol type="a">
-<li><bdi dir="ltr">is</bdi></li>
-<li><bdi dir="ltr">are</bdi></li>
-<li><bdi dir="ltr">were</bdi></li>
-<li><bdi dir="ltr">have</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I made the cake by ____.</bdi><ol type="a">
-<li><bdi dir="ltr">me</bdi></li>
-<li><bdi dir="ltr">myself</bdi></li>
-<li><bdi dir="ltr">my</bdi></li>
-<li><bdi dir="ltr">mine</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The person ____ I spoke to was helpful.</bdi><ol type="a">
-<li><bdi dir="ltr">which</bdi></li>
-<li><bdi dir="ltr">whom</bdi></li>
-<li><bdi dir="ltr">whose</bdi></li>
-<li><bdi dir="ltr">what</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">One ____, two ____.</bdi><ol type="a">
-<li><bdi dir="ltr">child / childs</bdi></li>
-<li><bdi dir="ltr">child / children</bdi></li>
-<li><bdi dir="ltr">child / childrens</bdi></li>
-<li><bdi dir="ltr">children / children</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">My ____ are very clean.</bdi><ol type="a">
-<li><bdi dir="ltr">tooth</bdi></li>
-<li><bdi dir="ltr">teeth</bdi></li>
-<li><bdi dir="ltr">tooths</bdi></li>
-<li><bdi dir="ltr">teeths</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He has many ____ on his farm.</bdi><ol type="a">
-<li><bdi dir="ltr">sheep</bdi></li>
-<li><bdi dir="ltr">sheeps</bdi></li>
-<li><bdi dir="ltr">sheepes</bdi></li>
-<li><bdi dir="ltr">sheep&#x27;s</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Two ____ are walking in the forest.</bdi><ol type="a">
-<li><bdi dir="ltr">wolfs</bdi></li>
-<li><bdi dir="ltr">wolves</bdi></li>
-<li><bdi dir="ltr">wolfes</bdi></li>
-<li><bdi dir="ltr">wolve</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I don&#x27;t have ____ friends in this city.</bdi><ol type="a">
-<li><bdi dir="ltr">much</bdi></li>
-<li><bdi dir="ltr">many</bdi></li>
-<li><bdi dir="ltr">a little</bdi></li>
-<li><bdi dir="ltr">little</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She has ____ money, so she can buy the book.</bdi><ol type="a">
-<li><bdi dir="ltr">few</bdi></li>
-<li><bdi dir="ltr">a few</bdi></li>
-<li><bdi dir="ltr">little</bdi></li>
-<li><bdi dir="ltr">a little</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">There is too ____ salt in the soup.</bdi><ol type="a">
-<li><bdi dir="ltr">many</bdi></li>
-<li><bdi dir="ltr">much</bdi></li>
-<li><bdi dir="ltr">few</bdi></li>
-<li><bdi dir="ltr">a few</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">We have ____ chairs for everyone. We don&#x27;t need more.</bdi><ol type="a">
-<li><bdi dir="ltr">few</bdi></li>
-<li><bdi dir="ltr">little</bdi></li>
-<li><bdi dir="ltr">enough</bdi></li>
-<li><bdi dir="ltr">too</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He feels lonely because he has very ____ friends.</bdi><ol type="a">
-<li><bdi dir="ltr">few</bdi></li>
-<li><bdi dir="ltr">a few</bdi></li>
-<li><bdi dir="ltr">little</bdi></li>
-<li><bdi dir="ltr">a little</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">There is ____ hope left. We will lose.</bdi><ol type="a">
-<li><bdi dir="ltr">a little</bdi></li>
-<li><bdi dir="ltr">little</bdi></li>
-<li><bdi dir="ltr">much</bdi></li>
-<li><bdi dir="ltr">many</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">This coffee is ____ hot to drink.</bdi><ol type="a">
-<li><bdi dir="ltr">enough</bdi></li>
-<li><bdi dir="ltr">too</bdi></li>
-<li><bdi dir="ltr">a little</bdi></li>
-<li><bdi dir="ltr">much</bdi></li>
-</ol></li>
 </ol>
 </section>
-</div><div class="day" id="day-2"><h1 class="section-title">اليوم 2 – Bicycles</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
+</div></div></div><div class="day" id="day-2"><h1 class="section-title">اليوم 2 – Bicycles</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
 <article class="passage"><h3>Bicycles</h3>
 <div class="passage-text"><bdo dir="ltr">Bicycles are not a new invention. The first ones were built in the late 1700&#x27;s, but they didn&#x27;t have any pedals. To move them, people pushed their feet against the ground. These bicycles were very uncomfortable as well. Their wheels were made of wood. In the 1830&#x27;s Kirkpatrick Macmillan fixed foot levers to his bicycle. They were joined to the back wheel. When Macmillan sat on his machine, he pushed his feet up and down on the levers. In this way the wheels turned. About thirty years passed. Then, in 1861 pedals were fixed to the front wheels of bicycles. This made them much easier to ride. More people bought them. Bicycle riding became a sport. Riders wanted to go faster and faster, so they made machines with very high wheels. Some front wheels were 1.5 meters high. This made the machines dangerous. Riders often fell off them. At last, in the 1880s, safer and more comfortable bicycles began to be made. These machines had air-filled tires which looked like modern bicycle wheels. They also had chains. When the rider turned the pedals, the chain drove the back wheel of the bicycle. The bicycle hasn&#x27;t changed very much since.</bdo></div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
@@ -1514,49 +1154,49 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 </section>
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
-<table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
-<tr><td>1</td><td class="en"><bdo dir="ltr">ring</bdo></td><td class="ar">خاتم</td></tr>
-<tr><td>2</td><td class="en"><bdo dir="ltr">watch</bdo></td><td class="ar">ساعة يد</td></tr>
-<tr><td>3</td><td class="en"><bdo dir="ltr">hat</bdo></td><td class="ar">قبعة</td></tr>
-<tr><td>4</td><td class="en"><bdo dir="ltr">belt</bdo></td><td class="ar">حزام</td></tr>
-<tr><td>5</td><td class="en"><bdo dir="ltr">raincoat</bdo></td><td class="ar">معطف مطر</td></tr>
-<tr><td>6</td><td class="en"><bdo dir="ltr">sweater</bdo></td><td class="ar">سترة صوفية</td></tr>
-<tr><td>7</td><td class="en"><bdo dir="ltr">trainers</bdo></td><td class="ar">حذاء رياضي</td></tr>
-<tr><td>8</td><td class="en"><bdo dir="ltr">gloves</bdo></td><td class="ar">قفازات</td></tr>
-<tr><td>9</td><td class="en"><bdo dir="ltr">umbrella</bdo></td><td class="ar">مظلة</td></tr>
-<tr><td>10</td><td class="en"><bdo dir="ltr">scarf</bdo></td><td class="ar">وشاح</td></tr>
-<tr><td>11</td><td class="en"><bdo dir="ltr">thobe</bdo></td><td class="ar">ثوب</td></tr>
-<tr><td>12</td><td class="en"><bdo dir="ltr">tie</bdo></td><td class="ar">ربطة عنق</td></tr>
-<tr><td>13</td><td class="en"><bdo dir="ltr">suit</bdo></td><td class="ar">بدلة</td></tr>
-<tr><td>14</td><td class="en"><bdo dir="ltr">goggles</bdo></td><td class="ar">نظارات واقية</td></tr>
-<tr><td>15</td><td class="en"><bdo dir="ltr">old fashioned</bdo></td><td class="ar">قديم الطراز</td></tr>
-<tr><td>16</td><td class="en"><bdo dir="ltr">modern</bdo></td><td class="ar">حديث</td></tr>
-<tr><td>17</td><td class="en"><bdo dir="ltr">thirsty</bdo></td><td class="ar">عطشان</td></tr>
-<tr><td>18</td><td class="en"><bdo dir="ltr">hungry</bdo></td><td class="ar">جائع</td></tr>
-<tr><td>19</td><td class="en"><bdo dir="ltr">delicious</bdo></td><td class="ar">لذيذ</td></tr>
-<tr><td>20</td><td class="en"><bdo dir="ltr">awful</bdo></td><td class="ar">فظيع</td></tr>
-<tr><td>21</td><td class="en"><bdo dir="ltr">pedal</bdo></td><td class="ar">دواسة</td></tr>
-<tr><td>22</td><td class="en"><bdo dir="ltr">lever</bdo></td><td class="ar">رافعة</td></tr>
-<tr><td>23</td><td class="en"><bdo dir="ltr">invention</bdo></td><td class="ar">اختراع</td></tr>
-<tr><td>24</td><td class="en"><bdo dir="ltr">crack</bdo></td><td class="ar">صدع</td></tr>
-<tr><td>25</td><td class="en"><bdo dir="ltr">mineral</bdo></td><td class="ar">معدن</td></tr>
-<tr><td>26</td><td class="en"><bdo dir="ltr">evaporated</bdo></td><td class="ar">تبخر</td></tr>
-<tr><td>27</td><td class="en"><bdo dir="ltr">copper</bdo></td><td class="ar">نحاس</td></tr>
-<tr><td>28</td><td class="en"><bdo dir="ltr">diabetes</bdo></td><td class="ar">مرض السكري</td></tr>
-<tr><td>29</td><td class="en"><bdo dir="ltr">insulin</bdo></td><td class="ar">أنسولين</td></tr>
-<tr><td>30</td><td class="en"><bdo dir="ltr">glucose</bdo></td><td class="ar">جلوكوز</td></tr>
-<tr><td>31</td><td class="en"><bdo dir="ltr">carbohydrates</bdo></td><td class="ar">كربوهيدرات</td></tr>
-<tr><td>32</td><td class="en"><bdo dir="ltr">alleviate</bdo></td><td class="ar">يخفف</td></tr>
-<tr><td>33</td><td class="en"><bdo dir="ltr">symptom</bdo></td><td class="ar">عرض مرضي</td></tr>
-<tr><td>34</td><td class="en"><bdo dir="ltr">tissue</bdo></td><td class="ar">نسيج</td></tr>
-<tr><td>35</td><td class="en"><bdo dir="ltr">digestion</bdo></td><td class="ar">هضم</td></tr>
-<tr><td>36</td><td class="en"><bdo dir="ltr">diet</bdo></td><td class="ar">نظام غذائي</td></tr>
-<tr><td>37</td><td class="en"><bdo dir="ltr">visible</bdo></td><td class="ar">مرئي</td></tr>
-<tr><td>38</td><td class="en"><bdo dir="ltr">gravitational</bdo></td><td class="ar">جاذبي</td></tr>
-<tr><td>39</td><td class="en"><bdo dir="ltr">beverage</bdo></td><td class="ar">مشروب</td></tr>
-<tr><td>40</td><td class="en"><bdo dir="ltr">optical</bdo></td><td class="ar">بصري</td></tr>
-</tbody></table>
-<div class="questions"><h4>أسئلة المفردات</h4><ol>
+<div class="vocab-flex">
+<div class="vocab-col"><div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody><tr><td>1</td><td class="en" dir="ltr" style="text-align: left;">ring</td><td class="ar">خاتم</td></tr>
+<tr><td>2</td><td class="en" dir="ltr" style="text-align: left;">watch</td><td class="ar">ساعة يد</td></tr>
+<tr><td>3</td><td class="en" dir="ltr" style="text-align: left;">hat</td><td class="ar">قبعة</td></tr>
+<tr><td>4</td><td class="en" dir="ltr" style="text-align: left;">belt</td><td class="ar">حزام</td></tr>
+<tr><td>5</td><td class="en" dir="ltr" style="text-align: left;">raincoat</td><td class="ar">معطف مطر</td></tr>
+<tr><td>6</td><td class="en" dir="ltr" style="text-align: left;">sweater</td><td class="ar">سترة صوفية</td></tr>
+<tr><td>7</td><td class="en" dir="ltr" style="text-align: left;">trainers</td><td class="ar">حذاء رياضي</td></tr>
+<tr><td>8</td><td class="en" dir="ltr" style="text-align: left;">gloves</td><td class="ar">قفازات</td></tr>
+<tr><td>9</td><td class="en" dir="ltr" style="text-align: left;">umbrella</td><td class="ar">مظلة</td></tr>
+<tr><td>10</td><td class="en" dir="ltr" style="text-align: left;">scarf</td><td class="ar">وشاح</td></tr>
+<tr><td>11</td><td class="en" dir="ltr" style="text-align: left;">thobe</td><td class="ar">ثوب</td></tr>
+<tr><td>12</td><td class="en" dir="ltr" style="text-align: left;">tie</td><td class="ar">ربطة عنق</td></tr>
+<tr><td>13</td><td class="en" dir="ltr" style="text-align: left;">suit</td><td class="ar">بدلة</td></tr>
+<tr><td>14</td><td class="en" dir="ltr" style="text-align: left;">goggles</td><td class="ar">نظارات واقية</td></tr>
+<tr><td>15</td><td class="en" dir="ltr" style="text-align: left;">old fashioned</td><td class="ar">قديم الطراز</td></tr>
+<tr><td>16</td><td class="en" dir="ltr" style="text-align: left;">modern</td><td class="ar">حديث</td></tr>
+<tr><td>17</td><td class="en" dir="ltr" style="text-align: left;">thirsty</td><td class="ar">عطشان</td></tr>
+<tr><td>18</td><td class="en" dir="ltr" style="text-align: left;">hungry</td><td class="ar">جائع</td></tr>
+<tr><td>19</td><td class="en" dir="ltr" style="text-align: left;">delicious</td><td class="ar">لذيذ</td></tr>
+<tr><td>20</td><td class="en" dir="ltr" style="text-align: left;">awful</td><td class="ar">فظيع</td></tr>
+<tr><td>21</td><td class="en" dir="ltr" style="text-align: left;">pedal</td><td class="ar">دواسة</td></tr>
+<tr><td>22</td><td class="en" dir="ltr" style="text-align: left;">lever</td><td class="ar">رافعة</td></tr>
+<tr><td>23</td><td class="en" dir="ltr" style="text-align: left;">invention</td><td class="ar">اختراع</td></tr>
+<tr><td>24</td><td class="en" dir="ltr" style="text-align: left;">crack</td><td class="ar">صدع</td></tr>
+<tr><td>25</td><td class="en" dir="ltr" style="text-align: left;">mineral</td><td class="ar">معدن</td></tr>
+<tr><td>26</td><td class="en" dir="ltr" style="text-align: left;">evaporated</td><td class="ar">تبخر</td></tr>
+<tr><td>27</td><td class="en" dir="ltr" style="text-align: left;">copper</td><td class="ar">نحاس</td></tr>
+<tr><td>28</td><td class="en" dir="ltr" style="text-align: left;">diabetes</td><td class="ar">مرض السكري</td></tr>
+<tr><td>29</td><td class="en" dir="ltr" style="text-align: left;">insulin</td><td class="ar">أنسولين</td></tr>
+<tr><td>30</td><td class="en" dir="ltr" style="text-align: left;">glucose</td><td class="ar">جلوكوز</td></tr>
+<tr><td>31</td><td class="en" dir="ltr" style="text-align: left;">carbohydrates</td><td class="ar">كربوهيدرات</td></tr>
+<tr><td>32</td><td class="en" dir="ltr" style="text-align: left;">alleviate</td><td class="ar">يخفف</td></tr>
+<tr><td>33</td><td class="en" dir="ltr" style="text-align: left;">symptom</td><td class="ar">عرض مرضي</td></tr>
+<tr><td>34</td><td class="en" dir="ltr" style="text-align: left;">tissue</td><td class="ar">نسيج</td></tr>
+<tr><td>35</td><td class="en" dir="ltr" style="text-align: left;">digestion</td><td class="ar">هضم</td></tr>
+<tr><td>36</td><td class="en" dir="ltr" style="text-align: left;">diet</td><td class="ar">نظام غذائي</td></tr>
+<tr><td>37</td><td class="en" dir="ltr" style="text-align: left;">visible</td><td class="ar">مرئي</td></tr>
+<tr><td>38</td><td class="en" dir="ltr" style="text-align: left;">gravitational</td><td class="ar">جاذبي</td></tr>
+<tr><td>39</td><td class="en" dir="ltr" style="text-align: left;">beverage</td><td class="ar">مشروب</td></tr>
+<tr><td>40</td><td class="en" dir="ltr" style="text-align: left;">optical</td><td class="ar">بصري</td></tr>
+</tbody></table></div></div>
+<div class="vocab-col"><div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>
 <li><bdi dir="ltr">They exchanged wedding ________ made of gold.</bdi><ol type="a">
 <li><bdi dir="ltr">belt</bdi></li>
 <li><bdi dir="ltr">hat</bdi></li>
@@ -1677,127 +1317,9 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><bdi dir="ltr">delicious</bdi></li>
 <li><bdi dir="ltr">awful</bdi></li>
 </ol></li>
-<li><bdi dir="ltr">He pressed the ________ harder to cycle up the steep hill.</bdi><ol type="a">
-<li><bdi dir="ltr">chains</bdi></li>
-<li><bdi dir="ltr">pedals</bdi></li>
-<li><bdi dir="ltr">brakes</bdi></li>
-<li><bdi dir="ltr">wheels</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Macmillan fixed foot ________ to his bicycle to move it forward.</bdi><ol type="a">
-<li><bdi dir="ltr">levers</bdi></li>
-<li><bdi dir="ltr">pedals</bdi></li>
-<li><bdi dir="ltr">wheels</bdi></li>
-<li><bdi dir="ltr">chains</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The telephone is a revolutionary ________ that changed communication.</bdi><ol type="a">
-<li><bdi dir="ltr">invention</bdi></li>
-<li><bdi dir="ltr">destruction</bdi></li>
-<li><bdi dir="ltr">game</bdi></li>
-<li><bdi dir="ltr">problem</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Water seeped through a ________ in the sea floor.</bdi><ol type="a">
-<li><bdi dir="ltr">valleys</bdi></li>
-<li><bdi dir="ltr">tunnels</bdi></li>
-<li><bdi dir="ltr">mountains</bdi></li>
-<li><bdi dir="ltr">cracks</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Salt is a natural ________ found in many foods.</bdi><ol type="a">
-<li><bdi dir="ltr">plant</bdi></li>
-<li><bdi dir="ltr">mineral</bdi></li>
-<li><bdi dir="ltr">animal</bdi></li>
-<li><bdi dir="ltr">liquid</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The puddle ________ in the hot sun within an hour.</bdi><ol type="a">
-<li><bdi dir="ltr">flooded</bdi></li>
-<li><bdi dir="ltr">expanded</bdi></li>
-<li><bdi dir="ltr">froze</bdi></li>
-<li><bdi dir="ltr">evaporated</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Wires inside the cable are made of ________ because it conducts electricity well.</bdi><ol type="a">
-<li><bdi dir="ltr">Iron</bdi></li>
-<li><bdi dir="ltr">Silver</bdi></li>
-<li><bdi dir="ltr">Zinc</bdi></li>
-<li><bdi dir="ltr">Copper</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">People with ________ must monitor their blood sugar regularly.</bdi><ol type="a">
-<li><bdi dir="ltr">Cancer</bdi></li>
-<li><bdi dir="ltr">Diabetes</bdi></li>
-<li><bdi dir="ltr">Asthma</bdi></li>
-<li><bdi dir="ltr">Headache</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Type I diabetics need daily ________ injections to survive.</bdi><ol type="a">
-<li><bdi dir="ltr">antibiotic</bdi></li>
-<li><bdi dir="ltr">insulin</bdi></li>
-<li><bdi dir="ltr">vitamin</bdi></li>
-<li><bdi dir="ltr">calcium</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">During digestion, carbohydrates are broken down into ________ for energy.</bdi><ol type="a">
-<li><bdi dir="ltr">Fiber</bdi></li>
-<li><bdi dir="ltr">Fat</bdi></li>
-<li><bdi dir="ltr">Protein</bdi></li>
-<li><bdi dir="ltr">Glucose</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Pasta and bread are rich in ________, which give you energy.</bdi><ol type="a">
-<li><bdi dir="ltr">fats</bdi></li>
-<li><bdi dir="ltr">vitamins</bdi></li>
-<li><bdi dir="ltr">carbohydrates</bdi></li>
-<li><bdi dir="ltr">proteins</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The doctor gave her medicine to ________ the severe back pain.</bdi><ol type="a">
-<li><bdi dir="ltr">increase</bdi></li>
-<li><bdi dir="ltr">ignore</bdi></li>
-<li><bdi dir="ltr">worsen</bdi></li>
-<li><bdi dir="ltr">alleviate</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">A runny nose and sneezing are common ________ of a cold.</bdi><ol type="a">
-<li><bdi dir="ltr">disease</bdi></li>
-<li><bdi dir="ltr">symptom</bdi></li>
-<li><bdi dir="ltr">cause</bdi></li>
-<li><bdi dir="ltr">cure</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The doctor examined a sample of ________ under the microscope.</bdi><ol type="a">
-<li><bdi dir="ltr">bones</bdi></li>
-<li><bdi dir="ltr">teeth</bdi></li>
-<li><bdi dir="ltr">tissues</bdi></li>
-<li><bdi dir="ltr">muscles</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Drinking water aids the process of ________ after a heavy meal.</bdi><ol type="a">
-<li><bdi dir="ltr">exercise</bdi></li>
-<li><bdi dir="ltr">digestion</bdi></li>
-<li><bdi dir="ltr">sleep</bdi></li>
-<li><bdi dir="ltr">reading</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">A healthy ________ includes plenty of fruits, vegetables, and whole grains.</bdi><ol type="a">
-<li><bdi dir="ltr">diet</bdi></li>
-<li><bdi dir="ltr">habit</bdi></li>
-<li><bdi dir="ltr">exercise</bdi></li>
-<li><bdi dir="ltr">hobby</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Only the top of the iceberg is ________ above the water; the rest lies hidden.</bdi><ol type="a">
-<li><bdi dir="ltr">invisible</bdi></li>
-<li><bdi dir="ltr">dark</bdi></li>
-<li><bdi dir="ltr">visible</bdi></li>
-<li><bdi dir="ltr">hidden</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The moon&#x27;s ________ pull causes the ocean tides.</bdi><ol type="a">
-<li><bdi dir="ltr">electrical</bdi></li>
-<li><bdi dir="ltr">chemical</bdi></li>
-<li><bdi dir="ltr">thermal</bdi></li>
-<li><bdi dir="ltr">gravitational</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Tea is the most popular hot ________ in the world, especially in Britain.</bdi><ol type="a">
-<li><bdi dir="ltr">machine</bdi></li>
-<li><bdi dir="ltr">sport</bdi></li>
-<li><bdi dir="ltr">food</bdi></li>
-<li><bdi dir="ltr">beverage</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">A mirage is an ________ illusion caused by the bending of light rays.</bdi><ol type="a">
-<li><bdi dir="ltr">musical</bdi></li>
-<li><bdi dir="ltr">optical</bdi></li>
-<li><bdi dir="ltr">mechanical</bdi></li>
-<li><bdi dir="ltr">medical</bdi></li>
-</ol></li>
 </ol></div>
+</div>
+</div>
 </section>
 <section class="dictation">
 <h2 class="section-title">الإملاء</h2>
@@ -1816,7 +1338,7 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><strong><bdi dir="ltr">minerals</bdi></strong> — <bdi dir="ltr">minerals, minrels, minarils, minarals</bdi></li>
 </ul>
 </section>
-<section class="grammar-lesson">
+<div class="grammar-flex"><div class="grammar-col lesson-col"><section class="grammar-lesson">
 <h2 class="section-title">درس القواعد</h2>
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
@@ -2252,7 +1774,7 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 </html>
 
 </section>
-<section class="grammar-test">
+</div><div class="grammar-col test-col"><section class="grammar-test">
 <h2 class="section-title">اختبار القواعد</h2>
 <ol>
 <li><bdi dir="ltr">Today, I ____ studying for my exam.</bdi><ol type="a">
@@ -2375,129 +1897,9 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><bdi dir="ltr">The</bdi></li>
 <li><bdi dir="ltr">–</bdi></li>
 </ol></li>
-<li><bdi dir="ltr">She is ____ best player in the team.</bdi><ol type="a">
-<li><bdi dir="ltr">a</bdi></li>
-<li><bdi dir="ltr">an</bdi></li>
-<li><bdi dir="ltr">c.the</bdi></li>
-<li><bdi dir="ltr">–</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I love ____ Chinese food.</bdi><ol type="a">
-<li><bdi dir="ltr">a</bdi></li>
-<li><bdi dir="ltr">an</bdi></li>
-<li><bdi dir="ltr">the</bdi></li>
-<li><bdi dir="ltr">–</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">____ United Kingdom voted to leave the European Union.</bdi><ol type="a">
-<li><bdi dir="ltr">A</bdi></li>
-<li><bdi dir="ltr">An</bdi></li>
-<li><bdi dir="ltr">The</bdi></li>
-<li><bdi dir="ltr">–</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He goes to work by ____ bus.</bdi><ol type="a">
-<li><bdi dir="ltr">a</bdi></li>
-<li><bdi dir="ltr">an</bdi></li>
-<li><bdi dir="ltr">the</bdi></li>
-<li><bdi dir="ltr">–</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">____ water is essential for life.</bdi><ol type="a">
-<li><bdi dir="ltr">A</bdi></li>
-<li><bdi dir="ltr">An</bdi></li>
-<li><bdi dir="ltr">The</bdi></li>
-<li><bdi dir="ltr">–</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I am the first person here, ____?</bdi><ol type="a">
-<li><bdi dir="ltr">amn&#x27;t I?</bdi></li>
-<li><bdi dir="ltr">aren&#x27;t I?</bdi></li>
-<li><bdi dir="ltr">isn&#x27;t it?</bdi></li>
-<li><bdi dir="ltr">don&#x27;t I?</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Open the window, ____?</bdi><ol type="a">
-<li><bdi dir="ltr">don&#x27;t you?</bdi></li>
-<li><bdi dir="ltr">shall we?</bdi></li>
-<li><bdi dir="ltr">will you?</bdi></li>
-<li><bdi dir="ltr">won&#x27;t you?</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Look! The boys ____ in the garden.</bdi><ol type="a">
-<li><bdi dir="ltr">play</bdi></li>
-<li><bdi dir="ltr">played</bdi></li>
-<li><bdi dir="ltr">are playing</bdi></li>
-<li><bdi dir="ltr">were playing</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">While I ____ dinner, the phone rang.</bdi><ol type="a">
-<li><bdi dir="ltr">cook</bdi></li>
-<li><bdi dir="ltr">cooked</bdi></li>
-<li><bdi dir="ltr">was cooking</bdi></li>
-<li><bdi dir="ltr">am cooking</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">This time next week, we ____ on a plane to London.</bdi><ol type="a">
-<li><bdi dir="ltr">sit</bdi></li>
-<li><bdi dir="ltr">will sit</bdi></li>
-<li><bdi dir="ltr">will be sitting</bdi></li>
-<li><bdi dir="ltr">are sitting</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She ____ her room at the moment.</bdi><ol type="a">
-<li><bdi dir="ltr">cleans</bdi></li>
-<li><bdi dir="ltr">is cleaning</bdi></li>
-<li><bdi dir="ltr">cleaned</bdi></li>
-<li><bdi dir="ltr">will clean</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He ____ TV when I arrived.</bdi><ol type="a">
-<li><bdi dir="ltr">watches</bdi></li>
-<li><bdi dir="ltr">watched</bdi></li>
-<li><bdi dir="ltr">was watching</bdi></li>
-<li><bdi dir="ltr">is watching</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">They ____ football tomorrow at 5 pm.</bdi><ol type="a">
-<li><bdi dir="ltr">play</bdi></li>
-<li><bdi dir="ltr">played</bdi></li>
-<li><bdi dir="ltr">will be playing</bdi></li>
-<li><bdi dir="ltr">are playing</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She is a good student, ____?</bdi><ol type="a">
-<li><bdi dir="ltr">is she?</bdi></li>
-<li><bdi dir="ltr">isn&#x27;t she?</bdi></li>
-<li><bdi dir="ltr">does she?</bdi></li>
-<li><bdi dir="ltr">doesn&#x27;t she?</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">You haven&#x27;t seen this film, ____?</bdi><ol type="a">
-<li><bdi dir="ltr">haven&#x27;t you?</bdi></li>
-<li><bdi dir="ltr">have you?</bdi></li>
-<li><bdi dir="ltr">did you?</bdi></li>
-<li><bdi dir="ltr">didn&#x27;t you?</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Let&#x27;s go for a walk, ____?</bdi><ol type="a">
-<li><bdi dir="ltr">will we?</bdi></li>
-<li><bdi dir="ltr">shall we?</bdi></li>
-<li><bdi dir="ltr">don&#x27;t we?</bdi></li>
-<li><bdi dir="ltr">won&#x27;t we?</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He can&#x27;t drive, ____?</bdi><ol type="a">
-<li><bdi dir="ltr">can he?</bdi></li>
-<li><bdi dir="ltr">can&#x27;t he?</bdi></li>
-<li><bdi dir="ltr">does he?</bdi></li>
-<li><bdi dir="ltr">doesn&#x27;t he?</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">We saw ____ beautiful bird in the tree. ____ bird was blue.</bdi><ol type="a">
-<li><bdi dir="ltr">a, A</bdi></li>
-<li><bdi dir="ltr">a, The</bdi></li>
-<li><bdi dir="ltr">the, A</bdi></li>
-<li><bdi dir="ltr">the, The</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Mount Everest is ____ highest mountain in the world.</bdi><ol type="a">
-<li><bdi dir="ltr">a</bdi></li>
-<li><bdi dir="ltr">an</bdi></li>
-<li><bdi dir="ltr">the</bdi></li>
-<li><bdi dir="ltr">–</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I have ____ breakfast at 7 am every day.</bdi><ol type="a">
-<li><bdi dir="ltr">a</bdi></li>
-<li><bdi dir="ltr">an</bdi></li>
-<li><bdi dir="ltr">the</bdi></li>
-<li><bdi dir="ltr">–</bdi></li>
-</ol></li>
 </ol>
 </section>
-</div><div class="day" id="day-3"><h1 class="section-title">اليوم 3 – Amelia Earhart</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
+</div></div></div><div class="day" id="day-3"><h1 class="section-title">اليوم 3 – Amelia Earhart</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
 <article class="passage"><h3>Amelia Earhart</h3>
 <div class="passage-text"><bdo dir="ltr">Amelia Earhart was born in Kansas in 1897. Thirty one years later, she received a phone call that would change her life. She was invited to become the first woman passenger to cross the Atlantic Ocean in a plane. The flight took more than 20 hours - about three times longer than it routinely takes today to cross the Atlantic by plane. Earhart was twelve years old before she ever saw an airplane, and she didn&#x27;t take her first flight until 1920. But she was so thrilled by her first experience in a plane that she quickly began to take flying lessons. She wrote, &quot;As soon as I left the ground, I knew I myself had to fly.&quot;<br><br>After that flight Earhart became a media sensation. She was given a ticker tape parade down Broadway in New York and even President Coolidge called to congratulate her. Because her record-breaking career and physical appearance were similar to pioneering pilot and American hero Charles Lindbergh, she earned the nickname &quot;Lady Lindy.&quot; She wrote a book about her flight across the Atlantic, called 20 Hrs., 40 Min.<br><br>Earhart continued to break records, and also polished her skills as a speaker and writer, always advocating women&#x27;s achievements, especially in aviation. Her next goal was to achieve a transatlantic crossing alone. In 1927 Charles Lindbergh became the first person to make a solo nonstop flight across the Atlantic. Five years later, Earhart became the first woman to repeat that feat. Her popularity grew even more and she was the undisputed queen of the air. She then wanted to fly around the world, and in June 1937 she left Miami with Fred Noonan as her navigator. No one knows why she left behind important communication and navigation instruments. Perhaps it was to make room for additional fuel for the long flight. The pair made it to New Guinea in 21 days and then left for Howland Island, a tiny island in the middle of the Pacific Ocean. The last communication from Earhart and Noonan was on July 2, 1937. They were never seen again.</bdo></div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
@@ -2648,49 +2050,49 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 </section>
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
-<table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
-<tr><td>1</td><td class="en"><bdo dir="ltr">asthma</bdo></td><td class="ar">ربو</td></tr>
-<tr><td>2</td><td class="en"><bdo dir="ltr">toothache</bdo></td><td class="ar">وجع أسنان</td></tr>
-<tr><td>3</td><td class="en"><bdo dir="ltr">headache</bdo></td><td class="ar">صداع</td></tr>
-<tr><td>4</td><td class="en"><bdo dir="ltr">fever</bdo></td><td class="ar">حمى</td></tr>
-<tr><td>5</td><td class="en"><bdo dir="ltr">aspirin</bdo></td><td class="ar">أسبرين</td></tr>
-<tr><td>6</td><td class="en"><bdo dir="ltr">sneeze</bdo></td><td class="ar">عطس</td></tr>
-<tr><td>7</td><td class="en"><bdo dir="ltr">antacid</bdo></td><td class="ar">مضاد حموضة</td></tr>
-<tr><td>8</td><td class="en"><bdo dir="ltr">sick</bdo></td><td class="ar">مريض</td></tr>
-<tr><td>9</td><td class="en"><bdo dir="ltr">injection</bdo></td><td class="ar">حقنة</td></tr>
-<tr><td>10</td><td class="en"><bdo dir="ltr">dental hygiene</bdo></td><td class="ar">نظافة الأسنان</td></tr>
-<tr><td>11</td><td class="en"><bdo dir="ltr">experiment</bdo></td><td class="ar">تجربة</td></tr>
-<tr><td>12</td><td class="en"><bdo dir="ltr">symptom</bdo></td><td class="ar">عرض مرضي</td></tr>
-<tr><td>13</td><td class="en"><bdo dir="ltr">requirement</bdo></td><td class="ar">متطلب</td></tr>
-<tr><td>14</td><td class="en"><bdo dir="ltr">worsen</bdo></td><td class="ar">يسوء</td></tr>
-<tr><td>15</td><td class="en"><bdo dir="ltr">dentist</bdo></td><td class="ar">طبيب أسنان</td></tr>
-<tr><td>16</td><td class="en"><bdo dir="ltr">patient</bdo></td><td class="ar">مريض</td></tr>
-<tr><td>17</td><td class="en"><bdo dir="ltr">cure</bdo></td><td class="ar">علاج</td></tr>
-<tr><td>18</td><td class="en"><bdo dir="ltr">disease</bdo></td><td class="ar">مرض</td></tr>
-<tr><td>19</td><td class="en"><bdo dir="ltr">aviation</bdo></td><td class="ar">طيران</td></tr>
-<tr><td>20</td><td class="en"><bdo dir="ltr">navigator</bdo></td><td class="ar">ملاح</td></tr>
-<tr><td>21</td><td class="en"><bdo dir="ltr">solo</bdo></td><td class="ar">منفرد</td></tr>
-<tr><td>22</td><td class="en"><bdo dir="ltr">etiquette</bdo></td><td class="ar">آداب</td></tr>
-<tr><td>23</td><td class="en"><bdo dir="ltr">greeting</bdo></td><td class="ar">تحية</td></tr>
-<tr><td>24</td><td class="en"><bdo dir="ltr">slang</bdo></td><td class="ar">عامية</td></tr>
-<tr><td>25</td><td class="en"><bdo dir="ltr">abbreviation</bdo></td><td class="ar">اختصار</td></tr>
-<tr><td>26</td><td class="en"><bdo dir="ltr">crude oil</bdo></td><td class="ar">نفط خام</td></tr>
-<tr><td>27</td><td class="en"><bdo dir="ltr">biodegradable</bdo></td><td class="ar">قابل للتحلل</td></tr>
-<tr><td>28</td><td class="en"><bdo dir="ltr">dynasty</bdo></td><td class="ar">سلالة</td></tr>
-<tr><td>29</td><td class="en"><bdo dir="ltr">visible</bdo></td><td class="ar">مرئي</td></tr>
-<tr><td>30</td><td class="en"><bdo dir="ltr">auditory</bdo></td><td class="ar">سمعي</td></tr>
-<tr><td>31</td><td class="en"><bdo dir="ltr">limbic</bdo></td><td class="ar">حوفي</td></tr>
-<tr><td>32</td><td class="en"><bdo dir="ltr">nostalgic</bdo></td><td class="ar">حنين للماضي</td></tr>
-<tr><td>33</td><td class="en"><bdo dir="ltr">therapy</bdo></td><td class="ar">علاج</td></tr>
-<tr><td>34</td><td class="en"><bdo dir="ltr">evolution</bdo></td><td class="ar">تطور</td></tr>
-<tr><td>35</td><td class="en"><bdo dir="ltr">simultaneously</bdo></td><td class="ar">في آن واحد</td></tr>
-<tr><td>36</td><td class="en"><bdo dir="ltr">throwaway</bdo></td><td class="ar">استخدام مرة واحدة</td></tr>
-<tr><td>37</td><td class="en"><bdo dir="ltr">countermeasure</bdo></td><td class="ar">إجراء مضاد</td></tr>
-<tr><td>38</td><td class="en"><bdo dir="ltr">psychological</bdo></td><td class="ar">نفسي</td></tr>
-<tr><td>39</td><td class="en"><bdo dir="ltr">multi-planetary</bdo></td><td class="ar">متعدد الكواكب</td></tr>
-<tr><td>40</td><td class="en"><bdo dir="ltr">shield</bdo></td><td class="ar">درع / يقي</td></tr>
-</tbody></table>
-<div class="questions"><h4>أسئلة المفردات</h4><ol>
+<div class="vocab-flex">
+<div class="vocab-col"><div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody><tr><td>1</td><td class="en" dir="ltr" style="text-align: left;">asthma</td><td class="ar">ربو</td></tr>
+<tr><td>2</td><td class="en" dir="ltr" style="text-align: left;">toothache</td><td class="ar">وجع أسنان</td></tr>
+<tr><td>3</td><td class="en" dir="ltr" style="text-align: left;">headache</td><td class="ar">صداع</td></tr>
+<tr><td>4</td><td class="en" dir="ltr" style="text-align: left;">fever</td><td class="ar">حمى</td></tr>
+<tr><td>5</td><td class="en" dir="ltr" style="text-align: left;">aspirin</td><td class="ar">أسبرين</td></tr>
+<tr><td>6</td><td class="en" dir="ltr" style="text-align: left;">sneeze</td><td class="ar">عطس</td></tr>
+<tr><td>7</td><td class="en" dir="ltr" style="text-align: left;">antacid</td><td class="ar">مضاد حموضة</td></tr>
+<tr><td>8</td><td class="en" dir="ltr" style="text-align: left;">sick</td><td class="ar">مريض</td></tr>
+<tr><td>9</td><td class="en" dir="ltr" style="text-align: left;">injection</td><td class="ar">حقنة</td></tr>
+<tr><td>10</td><td class="en" dir="ltr" style="text-align: left;">dental hygiene</td><td class="ar">نظافة الأسنان</td></tr>
+<tr><td>11</td><td class="en" dir="ltr" style="text-align: left;">experiment</td><td class="ar">تجربة</td></tr>
+<tr><td>12</td><td class="en" dir="ltr" style="text-align: left;">symptom</td><td class="ar">عرض مرضي</td></tr>
+<tr><td>13</td><td class="en" dir="ltr" style="text-align: left;">requirement</td><td class="ar">متطلب</td></tr>
+<tr><td>14</td><td class="en" dir="ltr" style="text-align: left;">worsen</td><td class="ar">يسوء</td></tr>
+<tr><td>15</td><td class="en" dir="ltr" style="text-align: left;">dentist</td><td class="ar">طبيب أسنان</td></tr>
+<tr><td>16</td><td class="en" dir="ltr" style="text-align: left;">patient</td><td class="ar">مريض</td></tr>
+<tr><td>17</td><td class="en" dir="ltr" style="text-align: left;">cure</td><td class="ar">علاج</td></tr>
+<tr><td>18</td><td class="en" dir="ltr" style="text-align: left;">disease</td><td class="ar">مرض</td></tr>
+<tr><td>19</td><td class="en" dir="ltr" style="text-align: left;">aviation</td><td class="ar">طيران</td></tr>
+<tr><td>20</td><td class="en" dir="ltr" style="text-align: left;">navigator</td><td class="ar">ملاح</td></tr>
+<tr><td>21</td><td class="en" dir="ltr" style="text-align: left;">solo</td><td class="ar">منفرد</td></tr>
+<tr><td>22</td><td class="en" dir="ltr" style="text-align: left;">etiquette</td><td class="ar">آداب</td></tr>
+<tr><td>23</td><td class="en" dir="ltr" style="text-align: left;">greeting</td><td class="ar">تحية</td></tr>
+<tr><td>24</td><td class="en" dir="ltr" style="text-align: left;">slang</td><td class="ar">عامية</td></tr>
+<tr><td>25</td><td class="en" dir="ltr" style="text-align: left;">abbreviation</td><td class="ar">اختصار</td></tr>
+<tr><td>26</td><td class="en" dir="ltr" style="text-align: left;">crude oil</td><td class="ar">نفط خام</td></tr>
+<tr><td>27</td><td class="en" dir="ltr" style="text-align: left;">biodegradable</td><td class="ar">قابل للتحلل</td></tr>
+<tr><td>28</td><td class="en" dir="ltr" style="text-align: left;">dynasty</td><td class="ar">سلالة</td></tr>
+<tr><td>29</td><td class="en" dir="ltr" style="text-align: left;">visible</td><td class="ar">مرئي</td></tr>
+<tr><td>30</td><td class="en" dir="ltr" style="text-align: left;">auditory</td><td class="ar">سمعي</td></tr>
+<tr><td>31</td><td class="en" dir="ltr" style="text-align: left;">limbic</td><td class="ar">حوفي</td></tr>
+<tr><td>32</td><td class="en" dir="ltr" style="text-align: left;">nostalgic</td><td class="ar">حنين للماضي</td></tr>
+<tr><td>33</td><td class="en" dir="ltr" style="text-align: left;">therapy</td><td class="ar">علاج</td></tr>
+<tr><td>34</td><td class="en" dir="ltr" style="text-align: left;">evolution</td><td class="ar">تطور</td></tr>
+<tr><td>35</td><td class="en" dir="ltr" style="text-align: left;">simultaneously</td><td class="ar">في آن واحد</td></tr>
+<tr><td>36</td><td class="en" dir="ltr" style="text-align: left;">throwaway</td><td class="ar">استخدام مرة واحدة</td></tr>
+<tr><td>37</td><td class="en" dir="ltr" style="text-align: left;">countermeasure</td><td class="ar">إجراء مضاد</td></tr>
+<tr><td>38</td><td class="en" dir="ltr" style="text-align: left;">psychological</td><td class="ar">نفسي</td></tr>
+<tr><td>39</td><td class="en" dir="ltr" style="text-align: left;">multi-planetary</td><td class="ar">متعدد الكواكب</td></tr>
+<tr><td>40</td><td class="en" dir="ltr" style="text-align: left;">shield</td><td class="ar">درع / يقي</td></tr>
+</tbody></table></div></div>
+<div class="vocab-col"><div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>
 <li><bdi dir="ltr">He uses an inhaler because he suffers from _______.</bdi><ol type="a">
 <li><bdi dir="ltr">fever</bdi></li>
 <li><bdi dir="ltr">asthma</bdi></li>
@@ -2811,127 +2213,9 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><bdi dir="ltr">husband</bdi></li>
 <li><bdi dir="ltr">navigator</bdi></li>
 </ol></li>
-<li><bdi dir="ltr">The musician gave a _______ performance without any backing band.</bdi><ol type="a">
-<li><bdi dir="ltr">group</bdi></li>
-<li><bdi dir="ltr">passenger</bdi></li>
-<li><bdi dir="ltr">family</bdi></li>
-<li><bdi dir="ltr">solo</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Knowing proper _______ is essential when attending formal dinners.</bdi><ol type="a">
-<li><bdi dir="ltr">password</bdi></li>
-<li><bdi dir="ltr">address</bdi></li>
-<li><bdi dir="ltr">box</bdi></li>
-<li><bdi dir="ltr">etiquette</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">A friendly _______ can make guests feel welcome.</bdi><ol type="a">
-<li><bdi dir="ltr">complaint</bdi></li>
-<li><bdi dir="ltr">warning</bdi></li>
-<li><bdi dir="ltr">mistake</bdi></li>
-<li><bdi dir="ltr">greeting</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Using too much _______ in your essay will lower your grade.</bdi><ol type="a">
-<li><bdi dir="ltr">punctuation</bdi></li>
-<li><bdi dir="ltr">sentences</bdi></li>
-<li><bdi dir="ltr">subjects</bdi></li>
-<li><bdi dir="ltr">slang</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The doctor used a medical _______ that the patient didn&#x27;t understand.</bdi><ol type="a">
-<li><bdi dir="ltr">message</bdi></li>
-<li><bdi dir="ltr">paragraph</bdi></li>
-<li><bdi dir="ltr">essay</bdi></li>
-<li><bdi dir="ltr">abbreviation</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">_______ is refined to produce petrol and diesel.</bdi><ol type="a">
-<li><bdi dir="ltr">wood</bdi></li>
-<li><bdi dir="ltr">sand</bdi></li>
-<li><bdi dir="ltr">water</bdi></li>
-<li><bdi dir="ltr">crude oil</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The company now uses _______ packaging to reduce waste.</bdi><ol type="a">
-<li><bdi dir="ltr">heavier</bdi></li>
-<li><bdi dir="ltr">cheaper</bdi></li>
-<li><bdi dir="ltr">stronger</bdi></li>
-<li><bdi dir="ltr">biodegradable</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The Ming _______ ruled China for almost 300 years.</bdi><ol type="a">
-<li><bdi dir="ltr">republic</bdi></li>
-<li><bdi dir="ltr">empire</bdi></li>
-<li><bdi dir="ltr">continent</bdi></li>
-<li><bdi dir="ltr">dynasty</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The stars are clearly _______ on a cloudless night.</bdi><ol type="a">
-<li><bdi dir="ltr">tangible</bdi></li>
-<li><bdi dir="ltr">invisible</bdi></li>
-<li><bdi dir="ltr">audible</bdi></li>
-<li><bdi dir="ltr">visible</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The _______ nerve sends sound signals to the brain.</bdi><ol type="a">
-<li><bdi dir="ltr">motor</bdi></li>
-<li><bdi dir="ltr">olfactory</bdi></li>
-<li><bdi dir="ltr">visual</bdi></li>
-<li><bdi dir="ltr">auditory</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The _______ system is responsible for our emotional responses.</bdi><ol type="a">
-<li><bdi dir="ltr">respiratory</bdi></li>
-<li><bdi dir="ltr">digestive</bdi></li>
-<li><bdi dir="ltr">nervous</bdi></li>
-<li><bdi dir="ltr">limbic</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Looking at old photographs made her feel _______.</bdi><ol type="a">
-<li><bdi dir="ltr">hungry</bdi></li>
-<li><bdi dir="ltr">tired</bdi></li>
-<li><bdi dir="ltr">angry</bdi></li>
-<li><bdi dir="ltr">nostalgic</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Physical _______ helped him recover after the accident.</bdi><ol type="a">
-<li><bdi dir="ltr">injection</bdi></li>
-<li><bdi dir="ltr">surgery</bdi></li>
-<li><bdi dir="ltr">pill</bdi></li>
-<li><bdi dir="ltr">therapy</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Darwin&#x27;s theory of _______ explains how species change over time.</bdi><ol type="a">
-<li><bdi dir="ltr">destruction</bdi></li>
-<li><bdi dir="ltr">pollution</bdi></li>
-<li><bdi dir="ltr">confusion</bdi></li>
-<li><bdi dir="ltr">evolution</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The two events happened _______, so we couldn&#x27;t attend both.</bdi><ol type="a">
-<li><bdi dir="ltr">separately</bdi></li>
-<li><bdi dir="ltr">slowly</bdi></li>
-<li><bdi dir="ltr">never</bdi></li>
-<li><bdi dir="ltr">simultaneously</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">We live in a _______ society that discards too many products after a single use.</bdi><ol type="a">
-<li><bdi dir="ltr">green</bdi></li>
-<li><bdi dir="ltr">traditional</bdi></li>
-<li><bdi dir="ltr">recycling</bdi></li>
-<li><bdi dir="ltr">throwaway</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The government introduced a new security _______ to prevent cyberattacks.</bdi><ol type="a">
-<li><bdi dir="ltr">rocket</bdi></li>
-<li><bdi dir="ltr">suit</bdi></li>
-<li><bdi dir="ltr">window</bdi></li>
-<li><bdi dir="ltr">countermeasure</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The war left deep _______ scars on the survivors.</bdi><ol type="a">
-<li><bdi dir="ltr">physical</bdi></li>
-<li><bdi dir="ltr">biological</bdi></li>
-<li><bdi dir="ltr">chemical</bdi></li>
-<li><bdi dir="ltr">psychological</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Elon Musk dreams of making humanity a _______ species.</bdi><ol type="a">
-<li><bdi dir="ltr">small</bdi></li>
-<li><bdi dir="ltr">lost</bdi></li>
-<li><bdi dir="ltr">single-planet</bdi></li>
-<li><bdi dir="ltr">multi-planetary</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The thick walls _______ the inhabitants from the extreme heat.</bdi><ol type="a">
-<li><bdi dir="ltr">burn</bdi></li>
-<li><bdi dir="ltr">harm</bdi></li>
-<li><bdi dir="ltr">expose</bdi></li>
-<li><bdi dir="ltr">shield</bdi></li>
-</ol></li>
 </ol></div>
+</div>
+</div>
 </section>
 <section class="dictation">
 <h2 class="section-title">الإملاء</h2>
@@ -2950,7 +2234,7 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><strong><bdi dir="ltr">requirement</bdi></strong> — <bdi dir="ltr">requirment, requirement, reqirement</bdi></li>
 </ul>
 </section>
-<section class="grammar-lesson">
+<div class="grammar-flex"><div class="grammar-col lesson-col"><section class="grammar-lesson">
 <h2 class="section-title">درس القواعد</h2>
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
@@ -3240,7 +2524,7 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 </html>
 
 </section>
-<section class="grammar-test">
+</div><div class="grammar-col test-col"><section class="grammar-test">
 <h2 class="section-title">اختبار القواعد</h2>
 <ol>
 <li><bdi dir="ltr">I ____ my keys. I can&#x27;t open the door.</bdi><ol type="a">
@@ -3363,129 +2647,9 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><bdi dir="ltr">at</bdi></li>
 <li><bdi dir="ltr">for</bdi></li>
 </ol></li>
-<li><bdi dir="ltr">He lives ____ Riyadh.</bdi><ol type="a">
-<li><bdi dir="ltr">in</bdi></li>
-<li><bdi dir="ltr">on</bdi></li>
-<li><bdi dir="ltr">at</bdi></li>
-<li><bdi dir="ltr">for</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Put the book ____ the table.</bdi><ol type="a">
-<li><bdi dir="ltr">in</bdi></li>
-<li><bdi dir="ltr">on</bdi></li>
-<li><bdi dir="ltr">at</bdi></li>
-<li><bdi dir="ltr">for</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I&#x27;ll see you ____ the morning.</bdi><ol type="a">
-<li><bdi dir="ltr">in</bdi></li>
-<li><bdi dir="ltr">on</bdi></li>
-<li><bdi dir="ltr">at</bdi></li>
-<li><bdi dir="ltr">for</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She&#x27;s waiting ____ the bus stop.</bdi><ol type="a">
-<li><bdi dir="ltr">in</bdi></li>
-<li><bdi dir="ltr">on</bdi></li>
-<li><bdi dir="ltr">at</bdi></li>
-<li><bdi dir="ltr">for</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He succeeded ____ passing the exam.</bdi><ol type="a">
-<li><bdi dir="ltr">on</bdi></li>
-<li><bdi dir="ltr">in</bdi></li>
-<li><bdi dir="ltr">for</bdi></li>
-<li><bdi dir="ltr">of</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I&#x27;m looking ____ my glasses. Have you seen them?</bdi><ol type="a">
-<li><bdi dir="ltr">at</bdi></li>
-<li><bdi dir="ltr">after</bdi></li>
-<li><bdi dir="ltr">for</bdi></li>
-<li><bdi dir="ltr">out</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">This picture reminds me ____ our holiday.</bdi><ol type="a">
-<li><bdi dir="ltr">for</bdi></li>
-<li><bdi dir="ltr">to</bdi></li>
-<li><bdi dir="ltr">of</bdi></li>
-<li><bdi dir="ltr">in</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She takes care ____ her little brother.</bdi><ol type="a">
-<li><bdi dir="ltr">of</bdi></li>
-<li><bdi dir="ltr">for</bdi></li>
-<li><bdi dir="ltr">on</bdi></li>
-<li><bdi dir="ltr">to</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">We depend ____ technology a lot.</bdi><ol type="a">
-<li><bdi dir="ltr">in</bdi></li>
-<li><bdi dir="ltr">on</bdi></li>
-<li><bdi dir="ltr">to</bdi></li>
-<li><bdi dir="ltr">of</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I forgave him ____ breaking my toy.</bdi><ol type="a">
-<li><bdi dir="ltr">to</bdi></li>
-<li><bdi dir="ltr">for</bdi></li>
-<li><bdi dir="ltr">on</bdi></li>
-<li><bdi dir="ltr">of</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Don&#x27;t worry ____ the test. You&#x27;ll do great.</bdi><ol type="a">
-<li><bdi dir="ltr">for</bdi></li>
-<li><bdi dir="ltr">about</bdi></li>
-<li><bdi dir="ltr">on</bdi></li>
-<li><bdi dir="ltr">of</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Thank you ____ helping me.</bdi><ol type="a">
-<li><bdi dir="ltr">to</bdi></li>
-<li><bdi dir="ltr">for</bdi></li>
-<li><bdi dir="ltr">on</bdi></li>
-<li><bdi dir="ltr">of</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I&#x27;m thinking ____ buying a new car.</bdi><ol type="a">
-<li><bdi dir="ltr">in</bdi></li>
-<li><bdi dir="ltr">on</bdi></li>
-<li><bdi dir="ltr">about</bdi></li>
-<li><bdi dir="ltr">of</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He got rid ____ all the old newspapers.</bdi><ol type="a">
-<li><bdi dir="ltr">from</bdi></li>
-<li><bdi dir="ltr">with</bdi></li>
-<li><bdi dir="ltr">of</bdi></li>
-<li><bdi dir="ltr">for</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I&#x27;ve never ____ to that restaurant.</bdi><ol type="a">
-<li><bdi dir="ltr">been</bdi></li>
-<li><bdi dir="ltr">went</bdi></li>
-<li><bdi dir="ltr">gone</bdi></li>
-<li><bdi dir="ltr">be</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">They haven&#x27;t arrived ____.</bdi><ol type="a">
-<li><bdi dir="ltr">yet</bdi></li>
-<li><bdi dir="ltr">already</bdi></li>
-<li><bdi dir="ltr">just</bdi></li>
-<li><bdi dir="ltr">ever</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She has ____ finished her project.</bdi><ol type="a">
-<li><bdi dir="ltr">yet</bdi></li>
-<li><bdi dir="ltr">just</bdi></li>
-<li><bdi dir="ltr">ever</bdi></li>
-<li><bdi dir="ltr">never</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">This is the first time I ____ such a beautiful view.</bdi><ol type="a">
-<li><bdi dir="ltr">saw</bdi></li>
-<li><bdi dir="ltr">have seen</bdi></li>
-<li><bdi dir="ltr">had seen</bdi></li>
-<li><bdi dir="ltr">will see</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The film ____ by the time we got to the cinema.</bdi><ol type="a">
-<li><bdi dir="ltr">started</bdi></li>
-<li><bdi dir="ltr">had started</bdi></li>
-<li><bdi dir="ltr">has started</bdi></li>
-<li><bdi dir="ltr">starts</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">By 2030, Saudi Arabia ____ a lot of new projects.</bdi><ol type="a">
-<li><bdi dir="ltr">completes</bdi></li>
-<li><bdi dir="ltr">completed</bdi></li>
-<li><bdi dir="ltr">will have completed</bdi></li>
-<li><bdi dir="ltr">is completing</bdi></li>
-</ol></li>
 </ol>
 </section>
-</div><div class="day" id="day-4"><h1 class="section-title">اليوم 4 – Japan</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
+</div></div></div><div class="day" id="day-4"><h1 class="section-title">اليوم 4 – Japan</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
 <article class="passage"><h3>Japan</h3>
 <div class="passage-text"><bdo dir="ltr">Japan, an island nation in East Asia, is known for its rich cultural heritage and advanced technological advancements. Comprised of four main islands—Honshu, Hokkaido, Kyushu, and Shikoku—Japan balances its ancient traditions with modern innovation. The country&#x27;s history dates back thousands of years, with a unique blend of indigenous traditions and influences from neighboring China and Korea.<br><br>Japan&#x27;s economy is one of the largest and most developed in the world. It is a global leader in various industries, including automotive, electronics, robotics, and animation. Companies such as Toyota, Sony, and Panasonic are renowned worldwide. Despite facing economic challenges over the years, Japan continues to be a major player in the global market.<br><br>Education is highly prioritized in Japan, with a rigorous system that emphasizes discipline and respect. Japanese students consistently score high in international assessments, particularly in mathematics and science. The education system is divided into primary, secondary, and tertiary levels, with a strong focus on academic achievement and extracurricular activities.<br><br>Culturally, Japan is famous for its cuisine, festivals, and traditional arts such as tea ceremonies, calligraphy, and ikebana (flower arranging). Japanese cuisine, including sushi, ramen, and tempura, is popular worldwide. Festivals like Hanami, which celebrates cherry blossom viewing, and Tanabata, the star festival, showcase Japan&#x27;s rich cultural traditions.<br><br>Japan faces several challenges, including an aging population and natural disasters due to its geographic location. Earthquakes, tsunamis, and typhoons are frequent, prompting the development of advanced disaster preparedness and response systems. Despite these challenges, Japan remains resilient and continues to innovate and adapt to changing circumstances.</bdo></div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
@@ -3636,64 +2800,64 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 </section>
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
-<table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
-<tr><td>1</td><td class="en"><bdo dir="ltr">heritage</bdo></td><td class="ar">تراث</td></tr>
-<tr><td>2</td><td class="en"><bdo dir="ltr">cuisine</bdo></td><td class="ar">مطبخ (أسلوب طهي)</td></tr>
-<tr><td>3</td><td class="en"><bdo dir="ltr">discipline</bdo></td><td class="ar">انضباط</td></tr>
-<tr><td>4</td><td class="en"><bdo dir="ltr">rigorous</bdo></td><td class="ar">صارم</td></tr>
-<tr><td>5</td><td class="en"><bdo dir="ltr">constitution</bdo></td><td class="ar">دستور</td></tr>
-<tr><td>6</td><td class="en"><bdo dir="ltr">legislative</bdo></td><td class="ar">تشريعي</td></tr>
-<tr><td>7</td><td class="en"><bdo dir="ltr">executive</bdo></td><td class="ar">تنفيذي</td></tr>
-<tr><td>8</td><td class="en"><bdo dir="ltr">judicial</bdo></td><td class="ar">قضائي</td></tr>
-<tr><td>9</td><td class="en"><bdo dir="ltr">desalination</bdo></td><td class="ar">تحلية المياه</td></tr>
-<tr><td>10</td><td class="en"><bdo dir="ltr">arid</bdo></td><td class="ar">جاف</td></tr>
-<tr><td>11</td><td class="en"><bdo dir="ltr">membrane</bdo></td><td class="ar">غشاء</td></tr>
-<tr><td>12</td><td class="en"><bdo dir="ltr">brine</bdo></td><td class="ar">محلول ملحي</td></tr>
-<tr><td>13</td><td class="en"><bdo dir="ltr">fossil fuel</bdo></td><td class="ar">وقود أحفوري</td></tr>
-<tr><td>14</td><td class="en"><bdo dir="ltr">greenhouse</bdo></td><td class="ar">غازات الدفيئة</td></tr>
-<tr><td>15</td><td class="en"><bdo dir="ltr">indigenous</bdo></td><td class="ar">السكان الأصليون</td></tr>
-<tr><td>16</td><td class="en"><bdo dir="ltr">innovation</bdo></td><td class="ar">ابتكار</td></tr>
-<tr><td>17</td><td class="en"><bdo dir="ltr">automotive</bdo></td><td class="ar">صناعة السيارات</td></tr>
-<tr><td>18</td><td class="en"><bdo dir="ltr">electronics</bdo></td><td class="ar">إلكترونيات</td></tr>
-<tr><td>19</td><td class="en"><bdo dir="ltr">robotics</bdo></td><td class="ar">الروبوتات</td></tr>
-<tr><td>20</td><td class="en"><bdo dir="ltr">animation</bdo></td><td class="ar">الرسوم المتحركة</td></tr>
-<tr><td>21</td><td class="en"><bdo dir="ltr">prioritized</bdo></td><td class="ar">يعطي أولوية</td></tr>
-<tr><td>22</td><td class="en"><bdo dir="ltr">assessments</bdo></td><td class="ar">تقييمات</td></tr>
-<tr><td>23</td><td class="en"><bdo dir="ltr">extracurricular</bdo></td><td class="ar">لامنهجي</td></tr>
-<tr><td>24</td><td class="en"><bdo dir="ltr">calligraphy</bdo></td><td class="ar">فن الخط</td></tr>
-<tr><td>25</td><td class="en"><bdo dir="ltr">ikebana</bdo></td><td class="ar">فن تنسيق الزهور</td></tr>
-<tr><td>26</td><td class="en"><bdo dir="ltr">typhoons</bdo></td><td class="ar">أعاصير</td></tr>
-<tr><td>27</td><td class="en"><bdo dir="ltr">resilient</bdo></td><td class="ar">صامد</td></tr>
-<tr><td>28</td><td class="en"><bdo dir="ltr">senators</bdo></td><td class="ar">أعضاء مجلس الشيوخ</td></tr>
-<tr><td>29</td><td class="en"><bdo dir="ltr">representatives</bdo></td><td class="ar">نواب</td></tr>
-<tr><td>30</td><td class="en"><bdo dir="ltr">budget</bdo></td><td class="ar">ميزانية</td></tr>
-<tr><td>31</td><td class="en"><bdo dir="ltr">declare</bdo></td><td class="ar">يعلن</td></tr>
-<tr><td>32</td><td class="en"><bdo dir="ltr">implement</bdo></td><td class="ar">ينفذ</td></tr>
-<tr><td>33</td><td class="en"><bdo dir="ltr">commander-in-chief</bdo></td><td class="ar">القائد الأعلى للقوات المسلحة</td></tr>
-<tr><td>34</td><td class="en"><bdo dir="ltr">cabinet</bdo></td><td class="ar">مجلس الوزراء</td></tr>
-<tr><td>35</td><td class="en"><bdo dir="ltr">interpret</bdo></td><td class="ar">يفسر</td></tr>
-<tr><td>36</td><td class="en"><bdo dir="ltr">overturn</bdo></td><td class="ar">يلغي</td></tr>
-<tr><td>37</td><td class="en"><bdo dir="ltr">appointed</bdo></td><td class="ar">مُعيّن</td></tr>
-<tr><td>38</td><td class="en"><bdo dir="ltr">confirmed</bdo></td><td class="ar">يُثبّت (يوافق على)</td></tr>
-<tr><td>39</td><td class="en"><bdo dir="ltr">checks and balances</bdo></td><td class="ar">الضوابط والتوازنات</td></tr>
-<tr><td>40</td><td class="en"><bdo dir="ltr">fosters</bdo></td><td class="ar">يعزز</td></tr>
-<tr><td>41</td><td class="en"><bdo dir="ltr">distinct</bdo></td><td class="ar">متميز</td></tr>
-<tr><td>42</td><td class="en"><bdo dir="ltr">reverse osmosis</bdo></td><td class="ar">التناضح العكسي</td></tr>
-<tr><td>43</td><td class="en"><bdo dir="ltr">thermal distillation</bdo></td><td class="ar">التقطير الحراري</td></tr>
-<tr><td>44</td><td class="en"><bdo dir="ltr">scarcity</bdo></td><td class="ar">ندرة</td></tr>
-<tr><td>45</td><td class="en"><bdo dir="ltr">rely</bdo></td><td class="ar">يعتمد على</td></tr>
-<tr><td>46</td><td class="en"><bdo dir="ltr">costly</bdo></td><td class="ar">مكلف</td></tr>
-<tr><td>47</td><td class="en"><bdo dir="ltr">advancements</bdo></td><td class="ar">تطورات</td></tr>
-<tr><td>48</td><td class="en"><bdo dir="ltr">poses</bdo></td><td class="ar">يشكل</td></tr>
-<tr><td>49</td><td class="en"><bdo dir="ltr">significant</bdo></td><td class="ar">كبير</td></tr>
-<tr><td>50</td><td class="en"><bdo dir="ltr">disposal</bdo></td><td class="ar">التخلص من</td></tr>
-<tr><td>51</td><td class="en"><bdo dir="ltr">marine</bdo></td><td class="ar">بحري</td></tr>
-<tr><td>52</td><td class="en"><bdo dir="ltr">ecosystems</bdo></td><td class="ar">أنظمة بيئية</td></tr>
-<tr><td>53</td><td class="en"><bdo dir="ltr">renewable</bdo></td><td class="ar">متجدد</td></tr>
-<tr><td>54</td><td class="en"><bdo dir="ltr">sustainable</bdo></td><td class="ar">مستدام</td></tr>
-<tr><td>55</td><td class="en"><bdo dir="ltr">crucial</bdo></td><td class="ar">حاسم</td></tr>
-</tbody></table>
-<div class="questions"><h4>أسئلة المفردات</h4><ol>
+<div class="vocab-flex">
+<div class="vocab-col"><div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody><tr><td>1</td><td class="en" dir="ltr" style="text-align: left;">heritage</td><td class="ar">تراث</td></tr>
+<tr><td>2</td><td class="en" dir="ltr" style="text-align: left;">cuisine</td><td class="ar">مطبخ (أسلوب طهي)</td></tr>
+<tr><td>3</td><td class="en" dir="ltr" style="text-align: left;">discipline</td><td class="ar">انضباط</td></tr>
+<tr><td>4</td><td class="en" dir="ltr" style="text-align: left;">rigorous</td><td class="ar">صارم</td></tr>
+<tr><td>5</td><td class="en" dir="ltr" style="text-align: left;">constitution</td><td class="ar">دستور</td></tr>
+<tr><td>6</td><td class="en" dir="ltr" style="text-align: left;">legislative</td><td class="ar">تشريعي</td></tr>
+<tr><td>7</td><td class="en" dir="ltr" style="text-align: left;">executive</td><td class="ar">تنفيذي</td></tr>
+<tr><td>8</td><td class="en" dir="ltr" style="text-align: left;">judicial</td><td class="ar">قضائي</td></tr>
+<tr><td>9</td><td class="en" dir="ltr" style="text-align: left;">desalination</td><td class="ar">تحلية المياه</td></tr>
+<tr><td>10</td><td class="en" dir="ltr" style="text-align: left;">arid</td><td class="ar">جاف</td></tr>
+<tr><td>11</td><td class="en" dir="ltr" style="text-align: left;">membrane</td><td class="ar">غشاء</td></tr>
+<tr><td>12</td><td class="en" dir="ltr" style="text-align: left;">brine</td><td class="ar">محلول ملحي</td></tr>
+<tr><td>13</td><td class="en" dir="ltr" style="text-align: left;">fossil fuel</td><td class="ar">وقود أحفوري</td></tr>
+<tr><td>14</td><td class="en" dir="ltr" style="text-align: left;">greenhouse</td><td class="ar">غازات الدفيئة</td></tr>
+<tr><td>15</td><td class="en" dir="ltr" style="text-align: left;">indigenous</td><td class="ar">السكان الأصليون</td></tr>
+<tr><td>16</td><td class="en" dir="ltr" style="text-align: left;">innovation</td><td class="ar">ابتكار</td></tr>
+<tr><td>17</td><td class="en" dir="ltr" style="text-align: left;">automotive</td><td class="ar">صناعة السيارات</td></tr>
+<tr><td>18</td><td class="en" dir="ltr" style="text-align: left;">electronics</td><td class="ar">إلكترونيات</td></tr>
+<tr><td>19</td><td class="en" dir="ltr" style="text-align: left;">robotics</td><td class="ar">الروبوتات</td></tr>
+<tr><td>20</td><td class="en" dir="ltr" style="text-align: left;">animation</td><td class="ar">الرسوم المتحركة</td></tr>
+<tr><td>21</td><td class="en" dir="ltr" style="text-align: left;">prioritized</td><td class="ar">يعطي أولوية</td></tr>
+<tr><td>22</td><td class="en" dir="ltr" style="text-align: left;">assessments</td><td class="ar">تقييمات</td></tr>
+<tr><td>23</td><td class="en" dir="ltr" style="text-align: left;">extracurricular</td><td class="ar">لامنهجي</td></tr>
+<tr><td>24</td><td class="en" dir="ltr" style="text-align: left;">calligraphy</td><td class="ar">فن الخط</td></tr>
+<tr><td>25</td><td class="en" dir="ltr" style="text-align: left;">ikebana</td><td class="ar">فن تنسيق الزهور</td></tr>
+<tr><td>26</td><td class="en" dir="ltr" style="text-align: left;">typhoons</td><td class="ar">أعاصير</td></tr>
+<tr><td>27</td><td class="en" dir="ltr" style="text-align: left;">resilient</td><td class="ar">صامد</td></tr>
+<tr><td>28</td><td class="en" dir="ltr" style="text-align: left;">senators</td><td class="ar">أعضاء مجلس الشيوخ</td></tr>
+<tr><td>29</td><td class="en" dir="ltr" style="text-align: left;">representatives</td><td class="ar">نواب</td></tr>
+<tr><td>30</td><td class="en" dir="ltr" style="text-align: left;">budget</td><td class="ar">ميزانية</td></tr>
+<tr><td>31</td><td class="en" dir="ltr" style="text-align: left;">declare</td><td class="ar">يعلن</td></tr>
+<tr><td>32</td><td class="en" dir="ltr" style="text-align: left;">implement</td><td class="ar">ينفذ</td></tr>
+<tr><td>33</td><td class="en" dir="ltr" style="text-align: left;">commander-in-chief</td><td class="ar">القائد الأعلى للقوات المسلحة</td></tr>
+<tr><td>34</td><td class="en" dir="ltr" style="text-align: left;">cabinet</td><td class="ar">مجلس الوزراء</td></tr>
+<tr><td>35</td><td class="en" dir="ltr" style="text-align: left;">interpret</td><td class="ar">يفسر</td></tr>
+<tr><td>36</td><td class="en" dir="ltr" style="text-align: left;">overturn</td><td class="ar">يلغي</td></tr>
+<tr><td>37</td><td class="en" dir="ltr" style="text-align: left;">appointed</td><td class="ar">مُعيّن</td></tr>
+<tr><td>38</td><td class="en" dir="ltr" style="text-align: left;">confirmed</td><td class="ar">يُثبّت (يوافق على)</td></tr>
+<tr><td>39</td><td class="en" dir="ltr" style="text-align: left;">checks and balances</td><td class="ar">الضوابط والتوازنات</td></tr>
+<tr><td>40</td><td class="en" dir="ltr" style="text-align: left;">fosters</td><td class="ar">يعزز</td></tr>
+<tr><td>41</td><td class="en" dir="ltr" style="text-align: left;">distinct</td><td class="ar">متميز</td></tr>
+<tr><td>42</td><td class="en" dir="ltr" style="text-align: left;">reverse osmosis</td><td class="ar">التناضح العكسي</td></tr>
+<tr><td>43</td><td class="en" dir="ltr" style="text-align: left;">thermal distillation</td><td class="ar">التقطير الحراري</td></tr>
+<tr><td>44</td><td class="en" dir="ltr" style="text-align: left;">scarcity</td><td class="ar">ندرة</td></tr>
+<tr><td>45</td><td class="en" dir="ltr" style="text-align: left;">rely</td><td class="ar">يعتمد على</td></tr>
+<tr><td>46</td><td class="en" dir="ltr" style="text-align: left;">costly</td><td class="ar">مكلف</td></tr>
+<tr><td>47</td><td class="en" dir="ltr" style="text-align: left;">advancements</td><td class="ar">تطورات</td></tr>
+<tr><td>48</td><td class="en" dir="ltr" style="text-align: left;">poses</td><td class="ar">يشكل</td></tr>
+<tr><td>49</td><td class="en" dir="ltr" style="text-align: left;">significant</td><td class="ar">كبير</td></tr>
+<tr><td>50</td><td class="en" dir="ltr" style="text-align: left;">disposal</td><td class="ar">التخلص من</td></tr>
+<tr><td>51</td><td class="en" dir="ltr" style="text-align: left;">marine</td><td class="ar">بحري</td></tr>
+<tr><td>52</td><td class="en" dir="ltr" style="text-align: left;">ecosystems</td><td class="ar">أنظمة بيئية</td></tr>
+<tr><td>53</td><td class="en" dir="ltr" style="text-align: left;">renewable</td><td class="ar">متجدد</td></tr>
+<tr><td>54</td><td class="en" dir="ltr" style="text-align: left;">sustainable</td><td class="ar">مستدام</td></tr>
+<tr><td>55</td><td class="en" dir="ltr" style="text-align: left;">crucial</td><td class="ar">حاسم</td></tr>
+</tbody></table></div></div>
+<div class="vocab-col"><div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>
 <li><bdi dir="ltr">Japan is known for its rich cultural _______, including ancient temples and traditional festivals.</bdi><ol type="a">
 <li><bdi dir="ltr">problem</bdi></li>
 <li><bdi dir="ltr">disaster</bdi></li>
@@ -3814,217 +2978,9 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><bdi dir="ltr">construction</bdi></li>
 <li><bdi dir="ltr">medicine</bdi></li>
 </ol></li>
-<li><bdi dir="ltr">Education is highly _______ in Japan, with the government spending a large portion of its budget on schools.</bdi><ol type="a">
-<li><bdi dir="ltr">prioritized</bdi></li>
-<li><bdi dir="ltr">ignored</bdi></li>
-<li><bdi dir="ltr">rejected</bdi></li>
-<li><bdi dir="ltr">delayed</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Students take international _______ to compare their performance with others around the world.</bdi><ol type="a">
-<li><bdi dir="ltr">assessments</bdi></li>
-<li><bdi dir="ltr">holidays</bdi></li>
-<li><bdi dir="ltr">games</bdi></li>
-<li><bdi dir="ltr">parties</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The school offers many _______ activities such as sports clubs, music lessons, and drama.</bdi><ol type="a">
-<li><bdi dir="ltr">extracurricular</bdi></li>
-<li><bdi dir="ltr">academic</bdi></li>
-<li><bdi dir="ltr">difficult</bdi></li>
-<li><bdi dir="ltr">boring</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The art of beautiful writing, known as _______, is still practiced in many cultures.</bdi><ol type="a">
-<li><bdi dir="ltr">calligraphy</bdi></li>
-<li><bdi dir="ltr">photography</bdi></li>
-<li><bdi dir="ltr">architecture</bdi></li>
-<li><bdi dir="ltr">sculpture</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">_______ is the Japanese art of flower arranging, focusing on harmony and balance.</bdi><ol type="a">
-<li><bdi dir="ltr">Ikebana</bdi></li>
-<li><bdi dir="ltr">Origami</bdi></li>
-<li><bdi dir="ltr">Sushi</bdi></li>
-<li><bdi dir="ltr">Karate</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Strong _______ hit the coast every summer, bringing heavy rain and powerful winds.</bdi><ol type="a">
-<li><bdi dir="ltr">typhoons</bdi></li>
-<li><bdi dir="ltr">earthquakes</bdi></li>
-<li><bdi dir="ltr">volcanoes</bdi></li>
-<li><bdi dir="ltr">droughts</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Despite many natural disasters, the people remain _______ and quickly rebuild their communities.</bdi><ol type="a">
-<li><bdi dir="ltr">resilient</bdi></li>
-<li><bdi dir="ltr">weak</bdi></li>
-<li><bdi dir="ltr">afraid</bdi></li>
-<li><bdi dir="ltr">lazy</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Each state elects two _______ to represent it in the upper house of Congress.</bdi><ol type="a">
-<li><bdi dir="ltr">senators</bdi></li>
-<li><bdi dir="ltr">presidents</bdi></li>
-<li><bdi dir="ltr">judges</bdi></li>
-<li><bdi dir="ltr">mayors</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The number of _______ each state has depends on its population.</bdi><ol type="a">
-<li><bdi dir="ltr">representatives</bdi></li>
-<li><bdi dir="ltr">senators</bdi></li>
-<li><bdi dir="ltr">governors</bdi></li>
-<li><bdi dir="ltr">ministers</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Congress approves the national _______, deciding how money is spent on defense, education, and healthcare.</bdi><ol type="a">
-<li><bdi dir="ltr">budget</bdi></li>
-<li><bdi dir="ltr">flag</bdi></li>
-<li><bdi dir="ltr">anthem</bdi></li>
-<li><bdi dir="ltr">holiday</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Only Congress has the power to _______ war against another country.</bdi><ol type="a">
-<li><bdi dir="ltr">declare</bdi></li>
-<li><bdi dir="ltr">celebrate</bdi></li>
-<li><bdi dir="ltr">ignore</bdi></li>
-<li><bdi dir="ltr">cancel</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The executive branch must _______ the laws that Congress passes.</bdi><ol type="a">
-<li><bdi dir="ltr">implement</bdi></li>
-<li><bdi dir="ltr">ignore</bdi></li>
-<li><bdi dir="ltr">destroy</bdi></li>
-<li><bdi dir="ltr">forget</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The President serves as the _______ of the armed forces.</bdi><ol type="a">
-<li><bdi dir="ltr">commander-in-chief</bdi></li>
-<li><bdi dir="ltr">teacher</bdi></li>
-<li><bdi dir="ltr">doctor</bdi></li>
-<li><bdi dir="ltr">lawyer</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The President meets with his _______ regularly to discuss important national issues.</bdi><ol type="a">
-<li><bdi dir="ltr">cabinet</bdi></li>
-<li><bdi dir="ltr">family</bdi></li>
-<li><bdi dir="ltr">students</bdi></li>
-<li><bdi dir="ltr">athletes</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Judges must _______ the meaning of laws to apply them correctly.</bdi><ol type="a">
-<li><bdi dir="ltr">interpret</bdi></li>
-<li><bdi dir="ltr">ignore</bdi></li>
-<li><bdi dir="ltr">write</bdi></li>
-<li><bdi dir="ltr">delete</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The Supreme Court can _______ a law if it goes against the constitution.</bdi><ol type="a">
-<li><bdi dir="ltr">overturn</bdi></li>
-<li><bdi dir="ltr">support</bdi></li>
-<li><bdi dir="ltr">write</bdi></li>
-<li><bdi dir="ltr">publish</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Supreme Court justices are _______ by the President and confirmed by the Senate.</bdi><ol type="a">
-<li><bdi dir="ltr">appointed</bdi></li>
-<li><bdi dir="ltr">elected</bdi></li>
-<li><bdi dir="ltr">hired</bdi></li>
-<li><bdi dir="ltr">bought</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The Senate must _______ the President&#x27;s nominations before they take office.</bdi><ol type="a">
-<li><bdi dir="ltr">confirmed</bdi></li>
-<li><bdi dir="ltr">rejected</bdi></li>
-<li><bdi dir="ltr">ignored</bdi></li>
-<li><bdi dir="ltr">forgotten</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The system of _______ ensures that no single branch of government becomes too powerful.</bdi><ol type="a">
-<li><bdi dir="ltr">checks and balances</bdi></li>
-<li><bdi dir="ltr">free market</bdi></li>
-<li><bdi dir="ltr">military rule</bdi></li>
-<li><bdi dir="ltr">absolute power</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The new policy _______ cooperation between different government departments.</bdi><ol type="a">
-<li><bdi dir="ltr">fosters</bdi></li>
-<li><bdi dir="ltr">destroys</bdi></li>
-<li><bdi dir="ltr">ignores</bdi></li>
-<li><bdi dir="ltr">weakens</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Each branch of government has _______ powers and responsibilities.</bdi><ol type="a">
-<li><bdi dir="ltr">distinct</bdi></li>
-<li><bdi dir="ltr">identical</bdi></li>
-<li><bdi dir="ltr">shared</bdi></li>
-<li><bdi dir="ltr">unclear</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">_______ is a water purification method that uses a semipermeable membrane to remove salt.</bdi><ol type="a">
-<li><bdi dir="ltr">Reverse osmosis</bdi></li>
-<li><bdi dir="ltr">Thermal distillation</bdi></li>
-<li><bdi dir="ltr">Solar power</bdi></li>
-<li><bdi dir="ltr">Wind energy</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">_______ involves heating seawater to create steam, which is then condensed into fresh water.</bdi><ol type="a">
-<li><bdi dir="ltr">Thermal distillation</bdi></li>
-<li><bdi dir="ltr">Reverse osmosis</bdi></li>
-<li><bdi dir="ltr">Freezing</bdi></li>
-<li><bdi dir="ltr">Mixing</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Water _______ is a serious problem in desert regions where rainfall is very low.</bdi><ol type="a">
-<li><bdi dir="ltr">scarcity</bdi></li>
-<li><bdi dir="ltr">abundance</bdi></li>
-<li><bdi dir="ltr">purity</bdi></li>
-<li><bdi dir="ltr">color</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Many Middle Eastern countries _______ heavily on desalination for their fresh water supply.</bdi><ol type="a">
-<li><bdi dir="ltr">rely</bdi></li>
-<li><bdi dir="ltr">ignore</bdi></li>
-<li><bdi dir="ltr">waste</bdi></li>
-<li><bdi dir="ltr">pollute</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Building and operating desalination plants is very _______ due to the energy and equipment required.</bdi><ol type="a">
-<li><bdi dir="ltr">costly</bdi></li>
-<li><bdi dir="ltr">cheap</bdi></li>
-<li><bdi dir="ltr">simple</bdi></li>
-<li><bdi dir="ltr">fast</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Technological _______ have made desalination more efficient and less expensive over time.</bdi><ol type="a">
-<li><bdi dir="ltr">advancements</bdi></li>
-<li><bdi dir="ltr">problems</bdi></li>
-<li><bdi dir="ltr">failures</bdi></li>
-<li><bdi dir="ltr">delays</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Desalination _______ environmental challenges because it consumes large amounts of energy.</bdi><ol type="a">
-<li><bdi dir="ltr">poses</bdi></li>
-<li><bdi dir="ltr">solves</bdi></li>
-<li><bdi dir="ltr">ignores</bdi></li>
-<li><bdi dir="ltr">celebrates</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The project requires a _______ amount of funding to complete on time.</bdi><ol type="a">
-<li><bdi dir="ltr">significant</bdi></li>
-<li><bdi dir="ltr">small</bdi></li>
-<li><bdi dir="ltr">tiny</bdi></li>
-<li><bdi dir="ltr">minor</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Proper _______ of chemical waste is essential to protect the environment.</bdi><ol type="a">
-<li><bdi dir="ltr">disposal</bdi></li>
-<li><bdi dir="ltr">creation</bdi></li>
-<li><bdi dir="ltr">collection</bdi></li>
-<li><bdi dir="ltr">storage</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The oil spill caused great damage to _______ life along the coast.</bdi><ol type="a">
-<li><bdi dir="ltr">marine</bdi></li>
-<li><bdi dir="ltr">land</bdi></li>
-<li><bdi dir="ltr">air</bdi></li>
-<li><bdi dir="ltr">urban</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Coral reefs are delicate _______ that can be destroyed by pollution and climate change.</bdi><ol type="a">
-<li><bdi dir="ltr">ecosystems</bdi></li>
-<li><bdi dir="ltr">buildings</bdi></li>
-<li><bdi dir="ltr">machines</bdi></li>
-<li><bdi dir="ltr">vehicles</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Solar and wind power are examples of _______ energy sources that will never run out.</bdi><ol type="a">
-<li><bdi dir="ltr">renewable</bdi></li>
-<li><bdi dir="ltr">fossil</bdi></li>
-<li><bdi dir="ltr">nuclear</bdi></li>
-<li><bdi dir="ltr">limited</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">We need to find _______ solutions to protect the planet for future generations.</bdi><ol type="a">
-<li><bdi dir="ltr">sustainable</bdi></li>
-<li><bdi dir="ltr">temporary</bdi></li>
-<li><bdi dir="ltr">dangerous</bdi></li>
-<li><bdi dir="ltr">expensive</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Clean water is _______ for human survival; without it, we cannot live.</bdi><ol type="a">
-<li><bdi dir="ltr">crucial</bdi></li>
-<li><bdi dir="ltr">optional</bdi></li>
-<li><bdi dir="ltr">unnecessary</bdi></li>
-<li><bdi dir="ltr">harmful</bdi></li>
-</ol></li>
 </ol></div>
+</div>
+</div>
 </section>
 <section class="dictation">
 <h2 class="section-title">الإملاء</h2>
@@ -4043,7 +2999,7 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><strong><bdi dir="ltr">priority</bdi></strong> — <bdi dir="ltr">priorety, prioreti, priority, prioritee</bdi></li>
 </ul>
 </section>
-<section class="grammar-lesson">
+<div class="grammar-flex"><div class="grammar-col lesson-col"><section class="grammar-lesson">
 <h2 class="section-title">درس القواعد</h2>
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
@@ -4360,7 +3316,7 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 </html>
 
 </section>
-<section class="grammar-test">
+</div><div class="grammar-col test-col"><section class="grammar-test">
 <h2 class="section-title">اختبار القواعد</h2>
 <ol>
 <li><bdi dir="ltr">I ____ my keys. I can&#x27;t open the door.</bdi><ol type="a">
@@ -4483,129 +3439,9 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><bdi dir="ltr">so</bdi></li>
 <li><bdi dir="ltr">nor</bdi></li>
 </ol></li>
-<li><bdi dir="ltr">He doesn&#x27;t smoke, ____ does he drink.</bdi><ol type="a">
-<li><bdi dir="ltr">and</bdi></li>
-<li><bdi dir="ltr">but</bdi></li>
-<li><bdi dir="ltr">or</bdi></li>
-<li><bdi dir="ltr">nor</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She went to bed early, ____ she was very tired.</bdi><ol type="a">
-<li><bdi dir="ltr">so</bdi></li>
-<li><bdi dir="ltr">yet</bdi></li>
-<li><bdi dir="ltr">for</bdi></li>
-<li><bdi dir="ltr">and</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">____ it was cold, we went swimming.</bdi><ol type="a">
-<li><bdi dir="ltr">Because</bdi></li>
-<li><bdi dir="ltr">Although</bdi></li>
-<li><bdi dir="ltr">If</bdi></li>
-<li><bdi dir="ltr">Unless</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">You can&#x27;t enter ____ you have a ticket.</bdi><ol type="a">
-<li><bdi dir="ltr">if</bdi></li>
-<li><bdi dir="ltr">unless</bdi></li>
-<li><bdi dir="ltr">when</bdi></li>
-<li><bdi dir="ltr">because</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">You can borrow my car ____ you drive carefully.</bdi><ol type="a">
-<li><bdi dir="ltr">unless</bdi></li>
-<li><bdi dir="ltr">although</bdi></li>
-<li><bdi dir="ltr">provided that</bdi></li>
-<li><bdi dir="ltr">but</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I&#x27;ll call you ____ I arrive.</bdi><ol type="a">
-<li><bdi dir="ltr">while</bdi></li>
-<li><bdi dir="ltr">when</bdi></li>
-<li><bdi dir="ltr">although</bdi></li>
-<li><bdi dir="ltr">unless</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">____ you study hard, you will fail.</bdi><ol type="a">
-<li><bdi dir="ltr">If</bdi></li>
-<li><bdi dir="ltr">Unless</bdi></li>
-<li><bdi dir="ltr">When</bdi></li>
-<li><bdi dir="ltr">Because</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He passed the exam ____ he didn&#x27;t study much.</bdi><ol type="a">
-<li><bdi dir="ltr">because</bdi></li>
-<li><bdi dir="ltr">even though</bdi></li>
-<li><bdi dir="ltr">if</bdi></li>
-<li><bdi dir="ltr">so</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I listened to music ____ I worked.</bdi><ol type="a">
-<li><bdi dir="ltr">while</bdi></li>
-<li><bdi dir="ltr">because</bdi></li>
-<li><bdi dir="ltr">unless</bdi></li>
-<li><bdi dir="ltr">or</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She hasn&#x27;t eaten anything ____ breakfast.</bdi><ol type="a">
-<li><bdi dir="ltr">for</bdi></li>
-<li><bdi dir="ltr">since</bdi></li>
-<li><bdi dir="ltr">in</bdi></li>
-<li><bdi dir="ltr">on</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">We have lived in this house ____ ten years.</bdi><ol type="a">
-<li><bdi dir="ltr">since</bdi></li>
-<li><bdi dir="ltr">for</bdi></li>
-<li><bdi dir="ltr">in</bdi></li>
-<li><bdi dir="ltr">at</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The book ____ by my father in 1990.</bdi><ol type="a">
-<li><bdi dir="ltr">wrote</bdi></li>
-<li><bdi dir="ltr">was written</bdi></li>
-<li><bdi dir="ltr">has written</bdi></li>
-<li><bdi dir="ltr">writes</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The window ____ by the wind last night.</bdi><ol type="a">
-<li><bdi dir="ltr">broke</bdi></li>
-<li><bdi dir="ltr">was broken</bdi></li>
-<li><bdi dir="ltr">breaks</bdi></li>
-<li><bdi dir="ltr">is broken</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">All the food ____ before we arrived.</bdi><ol type="a">
-<li><bdi dir="ltr">eaten</bdi></li>
-<li><bdi dir="ltr">had been eaten</bdi></li>
-<li><bdi dir="ltr">ate</bdi></li>
-<li><bdi dir="ltr">is eaten</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">By the time we got there, the concert ____.</bdi><ol type="a">
-<li><bdi dir="ltr">started</bdi></li>
-<li><bdi dir="ltr">has started</bdi></li>
-<li><bdi dir="ltr">had started</bdi></li>
-<li><bdi dir="ltr">was started</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Don&#x27;t worry ____ the exam. You&#x27;ll do great.</bdi><ol type="a">
-<li><bdi dir="ltr">for</bdi></li>
-<li><bdi dir="ltr">about</bdi></li>
-<li><bdi dir="ltr">on</bdi></li>
-<li><bdi dir="ltr">of</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Thank you ____ helping me.</bdi><ol type="a">
-<li><bdi dir="ltr">to</bdi></li>
-<li><bdi dir="ltr">for</bdi></li>
-<li><bdi dir="ltr">on</bdi></li>
-<li><bdi dir="ltr">of</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He got rid ____ all the old newspapers.</bdi><ol type="a">
-<li><bdi dir="ltr">from</bdi></li>
-<li><bdi dir="ltr">with</bdi></li>
-<li><bdi dir="ltr">of</bdi></li>
-<li><bdi dir="ltr">for</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I&#x27;ve never ____ to that restaurant.</bdi><ol type="a">
-<li><bdi dir="ltr">been</bdi></li>
-<li><bdi dir="ltr">went</bdi></li>
-<li><bdi dir="ltr">gone</bdi></li>
-<li><bdi dir="ltr">be</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">This is the first time I ____ such a beautiful view.</bdi><ol type="a">
-<li><bdi dir="ltr">saw</bdi></li>
-<li><bdi dir="ltr">have seen</bdi></li>
-<li><bdi dir="ltr">had seen</bdi></li>
-<li><bdi dir="ltr">will see</bdi></li>
-</ol></li>
 </ol>
 </section>
-</div><div class="day" id="day-5"><h1 class="section-title">اليوم 5 – California</h1><section class="reading"><h2 class="section-title">قطع القراءة (2 قطع)</h2>
+</div></div></div><div class="day" id="day-5"><h1 class="section-title">اليوم 5 – California</h1><section class="reading"><h2 class="section-title">قطع القراءة (2 قطع)</h2>
 <article class="passage"><h3>California</h3>
 <div class="passage-text"><bdo dir="ltr">California, located on the west coast of the United States, is the most populous state in the country. Known for its diverse geography, California features beautiful coastlines, lush forests, vast deserts, and towering mountain ranges. Major cities like Los Angeles, San Francisco, and San Diego are hubs of culture, entertainment, and technology.<br><br>The economy of California is one of the largest and most diverse in the world. The state is a global leader in technology, entertainment, agriculture, and tourism. Silicon Valley, located in the San Francisco Bay Area, is home to many of the world&#x27;s leading tech companies, including Apple, Google, and Facebook.<br><br>California&#x27;s agricultural sector is a critical component of the state&#x27;s economy. The Central Valley is one of the most productive agricultural regions in the world, producing a significant portion of the nation&#x27;s fruits, vegetables, and nuts. However, California&#x27;s agriculture faces challenges such as water scarcity and environmental regulations.<br><br>Tourism is another major industry in California. The state attracts millions of visitors each year to its national parks, beaches, and vibrant cities. Attractions like Disneyland, Yosemite National Park, and the Golden Gate Bridge are popular destinations for tourists from around the world.<br><br>California also faces several significant challenges, including natural disasters like wildfires, earthquakes, and droughts. The state has implemented various measures to address these issues, such as improving infrastructure, enhancing emergency response systems, and promoting sustainable practices to mitigate the impact of these natural events.</bdo></div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
@@ -4703,49 +3539,49 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 </section>
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
-<table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
-<tr><td>1</td><td class="en"><bdo dir="ltr">populous</bdo></td><td class="ar">مكتظ بالسكان</td></tr>
-<tr><td>2</td><td class="en"><bdo dir="ltr">diverse</bdo></td><td class="ar">متنوع</td></tr>
-<tr><td>3</td><td class="en"><bdo dir="ltr">coastlines</bdo></td><td class="ar">سواحل</td></tr>
-<tr><td>4</td><td class="en"><bdo dir="ltr">lush</bdo></td><td class="ar">خصبة</td></tr>
-<tr><td>5</td><td class="en"><bdo dir="ltr">deserts</bdo></td><td class="ar">صحاري</td></tr>
-<tr><td>6</td><td class="en"><bdo dir="ltr">towering</bdo></td><td class="ar">شاهقة</td></tr>
-<tr><td>7</td><td class="en"><bdo dir="ltr">hubs</bdo></td><td class="ar">مراكز</td></tr>
-<tr><td>8</td><td class="en"><bdo dir="ltr">agriculture</bdo></td><td class="ar">زراعة</td></tr>
-<tr><td>9</td><td class="en"><bdo dir="ltr">component</bdo></td><td class="ar">مكون</td></tr>
-<tr><td>10</td><td class="en"><bdo dir="ltr">productive</bdo></td><td class="ar">منتجة</td></tr>
-<tr><td>11</td><td class="en"><bdo dir="ltr">portion</bdo></td><td class="ar">جزء</td></tr>
-<tr><td>12</td><td class="en"><bdo dir="ltr">scarcity</bdo></td><td class="ar">ندرة</td></tr>
-<tr><td>13</td><td class="en"><bdo dir="ltr">regulations</bdo></td><td class="ar">لوائح</td></tr>
-<tr><td>14</td><td class="en"><bdo dir="ltr">attractions</bdo></td><td class="ar">معالم جذب</td></tr>
-<tr><td>15</td><td class="en"><bdo dir="ltr">vibrant</bdo></td><td class="ar">نابض بالحياة</td></tr>
-<tr><td>16</td><td class="en"><bdo dir="ltr">infrastructure</bdo></td><td class="ar">بنية تحتية</td></tr>
-<tr><td>17</td><td class="en"><bdo dir="ltr">enhance</bdo></td><td class="ar">يعزز</td></tr>
-<tr><td>18</td><td class="en"><bdo dir="ltr">sustainable</bdo></td><td class="ar">مستدام</td></tr>
-<tr><td>19</td><td class="en"><bdo dir="ltr">mitigate</bdo></td><td class="ar">يخفف</td></tr>
-<tr><td>20</td><td class="en"><bdo dir="ltr">heritage</bdo></td><td class="ar">تراث</td></tr>
-<tr><td>21</td><td class="en"><bdo dir="ltr">lifeblood</bdo></td><td class="ar">شريان الحياة</td></tr>
-<tr><td>22</td><td class="en"><bdo dir="ltr">sustenance</bdo></td><td class="ar">قوت</td></tr>
-<tr><td>23</td><td class="en"><bdo dir="ltr">millennia</bdo></td><td class="ar">آلاف السنين</td></tr>
-<tr><td>24</td><td class="en"><bdo dir="ltr">monumental</bdo></td><td class="ar">ضخم / أثري</td></tr>
-<tr><td>25</td><td class="en"><bdo dir="ltr">profound</bdo></td><td class="ar">عميق</td></tr>
-<tr><td>26</td><td class="en"><bdo dir="ltr">bustling</bdo></td><td class="ar">صاخب</td></tr>
-<tr><td>27</td><td class="en"><bdo dir="ltr">metropolis</bdo></td><td class="ar">مدينة كبرى</td></tr>
-<tr><td>28</td><td class="en"><bdo dir="ltr">artifacts</bdo></td><td class="ar">قطع أثرية</td></tr>
-<tr><td>29</td><td class="en"><bdo dir="ltr">souks</bdo></td><td class="ar">أسواق</td></tr>
-<tr><td>30</td><td class="en"><bdo dir="ltr">juxtaposition</bdo></td><td class="ar">تجاور</td></tr>
-<tr><td>31</td><td class="en"><bdo dir="ltr">arid</bdo></td><td class="ar">جاف</td></tr>
-<tr><td>32</td><td class="en"><bdo dir="ltr">hospitable</bdo></td><td class="ar">ملائم</td></tr>
-<tr><td>33</td><td class="en"><bdo dir="ltr">cultivated</bdo></td><td class="ar">مزروع</td></tr>
-<tr><td>34</td><td class="en"><bdo dir="ltr">sophisticated</bdo></td><td class="ar">متطور</td></tr>
-<tr><td>35</td><td class="en"><bdo dir="ltr">hospitality</bdo></td><td class="ar">ضيافة</td></tr>
-<tr><td>36</td><td class="en"><bdo dir="ltr">tapestry</bdo></td><td class="ar">نسيج</td></tr>
-<tr><td>37</td><td class="en"><bdo dir="ltr">fluctuations</bdo></td><td class="ar">تذبذبات</td></tr>
-<tr><td>38</td><td class="en"><bdo dir="ltr">revive</bdo></td><td class="ar">ينعش</td></tr>
-<tr><td>39</td><td class="en"><bdo dir="ltr">conservation</bdo></td><td class="ar">حفظ / صيانة</td></tr>
-<tr><td>40</td><td class="en"><bdo dir="ltr">archaeological</bdo></td><td class="ar">أثري</td></tr>
-</tbody></table>
-<div class="questions"><h4>أسئلة المفردات</h4><ol>
+<div class="vocab-flex">
+<div class="vocab-col"><div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody><tr><td>1</td><td class="en" dir="ltr" style="text-align: left;">populous</td><td class="ar">مكتظ بالسكان</td></tr>
+<tr><td>2</td><td class="en" dir="ltr" style="text-align: left;">diverse</td><td class="ar">متنوع</td></tr>
+<tr><td>3</td><td class="en" dir="ltr" style="text-align: left;">coastlines</td><td class="ar">سواحل</td></tr>
+<tr><td>4</td><td class="en" dir="ltr" style="text-align: left;">lush</td><td class="ar">خصبة</td></tr>
+<tr><td>5</td><td class="en" dir="ltr" style="text-align: left;">deserts</td><td class="ar">صحاري</td></tr>
+<tr><td>6</td><td class="en" dir="ltr" style="text-align: left;">towering</td><td class="ar">شاهقة</td></tr>
+<tr><td>7</td><td class="en" dir="ltr" style="text-align: left;">hubs</td><td class="ar">مراكز</td></tr>
+<tr><td>8</td><td class="en" dir="ltr" style="text-align: left;">agriculture</td><td class="ar">زراعة</td></tr>
+<tr><td>9</td><td class="en" dir="ltr" style="text-align: left;">component</td><td class="ar">مكون</td></tr>
+<tr><td>10</td><td class="en" dir="ltr" style="text-align: left;">productive</td><td class="ar">منتجة</td></tr>
+<tr><td>11</td><td class="en" dir="ltr" style="text-align: left;">portion</td><td class="ar">جزء</td></tr>
+<tr><td>12</td><td class="en" dir="ltr" style="text-align: left;">scarcity</td><td class="ar">ندرة</td></tr>
+<tr><td>13</td><td class="en" dir="ltr" style="text-align: left;">regulations</td><td class="ar">لوائح</td></tr>
+<tr><td>14</td><td class="en" dir="ltr" style="text-align: left;">attractions</td><td class="ar">معالم جذب</td></tr>
+<tr><td>15</td><td class="en" dir="ltr" style="text-align: left;">vibrant</td><td class="ar">نابض بالحياة</td></tr>
+<tr><td>16</td><td class="en" dir="ltr" style="text-align: left;">infrastructure</td><td class="ar">بنية تحتية</td></tr>
+<tr><td>17</td><td class="en" dir="ltr" style="text-align: left;">enhance</td><td class="ar">يعزز</td></tr>
+<tr><td>18</td><td class="en" dir="ltr" style="text-align: left;">sustainable</td><td class="ar">مستدام</td></tr>
+<tr><td>19</td><td class="en" dir="ltr" style="text-align: left;">mitigate</td><td class="ar">يخفف</td></tr>
+<tr><td>20</td><td class="en" dir="ltr" style="text-align: left;">heritage</td><td class="ar">تراث</td></tr>
+<tr><td>21</td><td class="en" dir="ltr" style="text-align: left;">lifeblood</td><td class="ar">شريان الحياة</td></tr>
+<tr><td>22</td><td class="en" dir="ltr" style="text-align: left;">sustenance</td><td class="ar">قوت</td></tr>
+<tr><td>23</td><td class="en" dir="ltr" style="text-align: left;">millennia</td><td class="ar">آلاف السنين</td></tr>
+<tr><td>24</td><td class="en" dir="ltr" style="text-align: left;">monumental</td><td class="ar">ضخم / أثري</td></tr>
+<tr><td>25</td><td class="en" dir="ltr" style="text-align: left;">profound</td><td class="ar">عميق</td></tr>
+<tr><td>26</td><td class="en" dir="ltr" style="text-align: left;">bustling</td><td class="ar">صاخب</td></tr>
+<tr><td>27</td><td class="en" dir="ltr" style="text-align: left;">metropolis</td><td class="ar">مدينة كبرى</td></tr>
+<tr><td>28</td><td class="en" dir="ltr" style="text-align: left;">artifacts</td><td class="ar">قطع أثرية</td></tr>
+<tr><td>29</td><td class="en" dir="ltr" style="text-align: left;">souks</td><td class="ar">أسواق</td></tr>
+<tr><td>30</td><td class="en" dir="ltr" style="text-align: left;">juxtaposition</td><td class="ar">تجاور</td></tr>
+<tr><td>31</td><td class="en" dir="ltr" style="text-align: left;">arid</td><td class="ar">جاف</td></tr>
+<tr><td>32</td><td class="en" dir="ltr" style="text-align: left;">hospitable</td><td class="ar">ملائم</td></tr>
+<tr><td>33</td><td class="en" dir="ltr" style="text-align: left;">cultivated</td><td class="ar">مزروع</td></tr>
+<tr><td>34</td><td class="en" dir="ltr" style="text-align: left;">sophisticated</td><td class="ar">متطور</td></tr>
+<tr><td>35</td><td class="en" dir="ltr" style="text-align: left;">hospitality</td><td class="ar">ضيافة</td></tr>
+<tr><td>36</td><td class="en" dir="ltr" style="text-align: left;">tapestry</td><td class="ar">نسيج</td></tr>
+<tr><td>37</td><td class="en" dir="ltr" style="text-align: left;">fluctuations</td><td class="ar">تذبذبات</td></tr>
+<tr><td>38</td><td class="en" dir="ltr" style="text-align: left;">revive</td><td class="ar">ينعش</td></tr>
+<tr><td>39</td><td class="en" dir="ltr" style="text-align: left;">conservation</td><td class="ar">حفظ / صيانة</td></tr>
+<tr><td>40</td><td class="en" dir="ltr" style="text-align: left;">archaeological</td><td class="ar">أثري</td></tr>
+</tbody></table></div></div>
+<div class="vocab-col"><div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>
 <li><bdi dir="ltr">California is the most _______ state in the United States, with over 39 million residents.</bdi><ol type="a">
 <li><bdi dir="ltr">empty</bdi></li>
 <li><bdi dir="ltr">quiet</bdi></li>
@@ -4866,127 +3702,9 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><bdi dir="ltr">disaster</bdi></li>
 <li><bdi dir="ltr">economy</bdi></li>
 </ol></li>
-<li><bdi dir="ltr">The Nile River is the _______ of Egypt, providing water for drinking, farming, and transportation.</bdi><ol type="a">
-<li><bdi dir="ltr">lifeblood</bdi></li>
-<li><bdi dir="ltr">problem</bdi></li>
-<li><bdi dir="ltr">enemy</bdi></li>
-<li><bdi dir="ltr">waste</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">For thousands of years, the river has provided _______ to the people living along its banks.</bdi><ol type="a">
-<li><bdi dir="ltr">sustenance</bdi></li>
-<li><bdi dir="ltr">destruction</bdi></li>
-<li><bdi dir="ltr">pollution</bdi></li>
-<li><bdi dir="ltr">confusion</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Egyptian civilization has existed for several _______, dating back to ancient times.</bdi><ol type="a">
-<li><bdi dir="ltr">millennia</bdi></li>
-<li><bdi dir="ltr">days</bdi></li>
-<li><bdi dir="ltr">months</bdi></li>
-<li><bdi dir="ltr">weeks</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The pyramids are _______ structures that have stood for over 4,000 years.</bdi><ol type="a">
-<li><bdi dir="ltr">monumental</bdi></li>
-<li><bdi dir="ltr">tiny</bdi></li>
-<li><bdi dir="ltr">modern</bdi></li>
-<li><bdi dir="ltr">simple</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The ancient Egyptians had a _______ understanding of mathematics and engineering.</bdi><ol type="a">
-<li><bdi dir="ltr">profound</bdi></li>
-<li><bdi dir="ltr">shallow</bdi></li>
-<li><bdi dir="ltr">weak</bdi></li>
-<li><bdi dir="ltr">simple</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Cairo is a _______ city, full of people, traffic, and activity at all hours.</bdi><ol type="a">
-<li><bdi dir="ltr">bustling</bdi></li>
-<li><bdi dir="ltr">quiet</bdi></li>
-<li><bdi dir="ltr">empty</bdi></li>
-<li><bdi dir="ltr">sleepy</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">As a major _______, Cairo combines modern skyscrapers with historic mosques and markets.</bdi><ol type="a">
-<li><bdi dir="ltr">metropolis</bdi></li>
-<li><bdi dir="ltr">village</bdi></li>
-<li><bdi dir="ltr">desert</bdi></li>
-<li><bdi dir="ltr">forest</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The Egyptian Museum contains thousands of ancient _______, including jewelry and statues.</bdi><ol type="a">
-<li><bdi dir="ltr">artifacts</bdi></li>
-<li><bdi dir="ltr">animals</bdi></li>
-<li><bdi dir="ltr">plants</bdi></li>
-<li><bdi dir="ltr">machines</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Tourists visit the traditional _______ in Cairo to buy spices, perfumes, and handmade crafts.</bdi><ol type="a">
-<li><bdi dir="ltr">souks</bdi></li>
-<li><bdi dir="ltr">malls</bdi></li>
-<li><bdi dir="ltr">airports</bdi></li>
-<li><bdi dir="ltr">factories</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The _______ of old and new architecture makes Cairo a fascinating city to explore.</bdi><ol type="a">
-<li><bdi dir="ltr">juxtaposition</bdi></li>
-<li><bdi dir="ltr">destruction</bdi></li>
-<li><bdi dir="ltr">separation</bdi></li>
-<li><bdi dir="ltr">removal</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Most of Egypt has an _______ climate, with very hot summers and almost no rain.</bdi><ol type="a">
-<li><bdi dir="ltr">arid</bdi></li>
-<li><bdi dir="ltr">rainy</bdi></li>
-<li><bdi dir="ltr">humid</bdi></li>
-<li><bdi dir="ltr">cold</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The land along the Nile is more _______ for farming because of the river&#x27;s water.</bdi><ol type="a">
-<li><bdi dir="ltr">hospitable</bdi></li>
-<li><bdi dir="ltr">hostile</bdi></li>
-<li><bdi dir="ltr">dangerous</bdi></li>
-<li><bdi dir="ltr">useless</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Rice, wheat, and cotton are widely _______ in the fertile land near the Nile.</bdi><ol type="a">
-<li><bdi dir="ltr">cultivated</bdi></li>
-<li><bdi dir="ltr">destroyed</bdi></li>
-<li><bdi dir="ltr">ignored</bdi></li>
-<li><bdi dir="ltr">wasted</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Egyptian farmers developed _______ irrigation systems to make the most of limited water.</bdi><ol type="a">
-<li><bdi dir="ltr">sophisticated</bdi></li>
-<li><bdi dir="ltr">simple</bdi></li>
-<li><bdi dir="ltr">useless</bdi></li>
-<li><bdi dir="ltr">broken</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The _______ of the Egyptian people makes visitors feel welcome and at home.</bdi><ol type="a">
-<li><bdi dir="ltr">hospitality</bdi></li>
-<li><bdi dir="ltr">anger</bdi></li>
-<li><bdi dir="ltr">rudeness</bdi></li>
-<li><bdi dir="ltr">coldness</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Egypt&#x27;s history is a rich _______ of different cultures, traditions, and civilizations.</bdi><ol type="a">
-<li><bdi dir="ltr">tapestry</bdi></li>
-<li><bdi dir="ltr">thread</bdi></li>
-<li><bdi dir="ltr">cloth</bdi></li>
-<li><bdi dir="ltr">fabric</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Economic _______ have made it difficult for some businesses to plan for the future.</bdi><ol type="a">
-<li><bdi dir="ltr">fluctuations</bdi></li>
-<li><bdi dir="ltr">stability</bdi></li>
-<li><bdi dir="ltr">certainty</bdi></li>
-<li><bdi dir="ltr">predictability</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The government is taking steps to _______ the tourism industry after years of decline.</bdi><ol type="a">
-<li><bdi dir="ltr">revive</bdi></li>
-<li><bdi dir="ltr">destroy</bdi></li>
-<li><bdi dir="ltr">ignore</bdi></li>
-<li><bdi dir="ltr">weaken</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">_______ projects help protect Egypt&#x27;s ancient monuments from damage and decay.</bdi><ol type="a">
-<li><bdi dir="ltr">Conservation</bdi></li>
-<li><bdi dir="ltr">Destruction</bdi></li>
-<li><bdi dir="ltr">Neglect</bdi></li>
-<li><bdi dir="ltr">Abandonment</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The _______ sites in Luxor attract scholars and tourists from all over the world.</bdi><ol type="a">
-<li><bdi dir="ltr">archaeological</bdi></li>
-<li><bdi dir="ltr">modern</bdi></li>
-<li><bdi dir="ltr">industrial</bdi></li>
-<li><bdi dir="ltr">residential</bdi></li>
-</ol></li>
 </ol></div>
+</div>
+</div>
 </section>
 <section class="dictation">
 <h2 class="section-title">الإملاء</h2>
@@ -5005,7 +3723,7 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><strong><bdi dir="ltr">priority</bdi></strong> — <bdi dir="ltr">prioreti, priority, prioritee, priorety</bdi></li>
 </ul>
 </section>
-<section class="grammar-lesson">
+<div class="grammar-flex"><div class="grammar-col lesson-col"><section class="grammar-lesson">
 <h2 class="section-title">درس القواعد</h2>
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
@@ -5373,7 +4091,7 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 </html>
 
 </section>
-<section class="grammar-test">
+</div><div class="grammar-col test-col"><section class="grammar-test">
 <h2 class="section-title">اختبار القواعد</h2>
 <ol>
 <li><bdi dir="ltr">My sister is two years ____ than me.</bdi><ol type="a">
@@ -5496,129 +4214,9 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><bdi dir="ltr">most careful</bdi></li>
 <li><bdi dir="ltr">the most careful</bdi></li>
 </ol></li>
-<li><bdi dir="ltr">My bag is as ____ as yours.</bdi><ol type="a">
-<li><bdi dir="ltr">heavy</bdi></li>
-<li><bdi dir="ltr">heavier</bdi></li>
-<li><bdi dir="ltr">heaviest</bdi></li>
-<li><bdi dir="ltr">more heavy</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">This lesson is ____ than the last one.</bdi><ol type="a">
-<li><bdi dir="ltr">easy</bdi></li>
-<li><bdi dir="ltr">easier</bdi></li>
-<li><bdi dir="ltr">easiest</bdi></li>
-<li><bdi dir="ltr">the easiest</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She sings ____ than anyone else.</bdi><ol type="a">
-<li><bdi dir="ltr">beautiful</bdi></li>
-<li><bdi dir="ltr">more beautifully</bdi></li>
-<li><bdi dir="ltr">most beautifully</bdi></li>
-<li><bdi dir="ltr">beautifuller</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">That was the ____ trip I&#x27;ve ever taken.</bdi><ol type="a">
-<li><bdi dir="ltr">long</bdi></li>
-<li><bdi dir="ltr">longer</bdi></li>
-<li><bdi dir="ltr">longest</bdi></li>
-<li><bdi dir="ltr">most long</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">This cake is ____ delicious ____ the one we had yesterday.</bdi><ol type="a">
-<li><bdi dir="ltr">as / as</bdi></li>
-<li><bdi dir="ltr">more / as</bdi></li>
-<li><bdi dir="ltr">as / than</bdi></li>
-<li><bdi dir="ltr">most / than</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">We stayed in a ____ hotel during our vacation.</bdi><ol type="a">
-<li><bdi dir="ltr">five-star</bdi></li>
-<li><bdi dir="ltr">five stars</bdi></li>
-<li><bdi dir="ltr">five-starred</bdi></li>
-<li><bdi dir="ltr">five-star&#x27;s</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She is a very ____ person; she always helps others.</bdi><ol type="a">
-<li><bdi dir="ltr">kind-hearted</bdi></li>
-<li><bdi dir="ltr">kind hearted</bdi></li>
-<li><bdi dir="ltr">kind-heart</bdi></li>
-<li><bdi dir="ltr">kind heart</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He bought a ____ car yesterday.</bdi><ol type="a">
-<li><bdi dir="ltr">two-doors</bdi></li>
-<li><bdi dir="ltr">two-door</bdi></li>
-<li><bdi dir="ltr">two doors</bdi></li>
-<li><bdi dir="ltr">two-door&#x27;s</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I have a ____ daughter.</bdi><ol type="a">
-<li><bdi dir="ltr">ten years old</bdi></li>
-<li><bdi dir="ltr">ten-year-old</bdi></li>
-<li><bdi dir="ltr">ten years-old</bdi></li>
-<li><bdi dir="ltr">ten year old</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">This is a ____ battery; it lasts for days.</bdi><ol type="a">
-<li><bdi dir="ltr">long-lasting</bdi></li>
-<li><bdi dir="ltr">long-lasted</bdi></li>
-<li><bdi dir="ltr">longing-lasting</bdi></li>
-<li><bdi dir="ltr">long-last</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">My grandfather still uses an ____ phone.</bdi><ol type="a">
-<li><bdi dir="ltr">old-fashion</bdi></li>
-<li><bdi dir="ltr">old-fashioned</bdi></li>
-<li><bdi dir="ltr">old-fashioning</bdi></li>
-<li><bdi dir="ltr">old fashion</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">That actor is very ____; everyone knows him.</bdi><ol type="a">
-<li><bdi dir="ltr">well-known</bdi></li>
-<li><bdi dir="ltr">good-known</bdi></li>
-<li><bdi dir="ltr">well-knowing</bdi></li>
-<li><bdi dir="ltr">well-know</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I prefer ____ drinks without sugar.</bdi><ol type="a">
-<li><bdi dir="ltr">sugar-free</bdi></li>
-<li><bdi dir="ltr">sugar-freed</bdi></li>
-<li><bdi dir="ltr">sugar-freen</bdi></li>
-<li><bdi dir="ltr">free-sugar</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He is a ____ man; he never gets angry.</bdi><ol type="a">
-<li><bdi dir="ltr">cold-blood</bdi></li>
-<li><bdi dir="ltr">cold-blooded</bdi></li>
-<li><bdi dir="ltr">cold-blooding</bdi></li>
-<li><bdi dir="ltr">blood-cold</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She wore a ____ dress to the party.</bdi><ol type="a">
-<li><bdi dir="ltr">good-looking</bdi></li>
-<li><bdi dir="ltr">well-looking</bdi></li>
-<li><bdi dir="ltr">good-looked</bdi></li>
-<li><bdi dir="ltr">good-look</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">This is a ____ opportunity; don&#x27;t waste it.</bdi><ol type="a">
-<li><bdi dir="ltr">life-changed</bdi></li>
-<li><bdi dir="ltr">life-changing</bdi></li>
-<li><bdi dir="ltr">life-changes</bdi></li>
-<li><bdi dir="ltr">changing-life</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">We saw a ____ documentary about space.</bdi><ol type="a">
-<li><bdi dir="ltr">thought-provoking</bdi></li>
-<li><bdi dir="ltr">thought-provoked</bdi></li>
-<li><bdi dir="ltr">thought-provokes</bdi></li>
-<li><bdi dir="ltr">thought-provoke</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The ____ criminal was finally caught.</bdi><ol type="a">
-<li><bdi dir="ltr">cold-blooded</bdi></li>
-<li><bdi dir="ltr">cold-blood</bdi></li>
-<li><bdi dir="ltr">cold-blooding</bdi></li>
-<li><bdi dir="ltr">blood-cold</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I&#x27;m looking for a ____ apartment.</bdi><ol type="a">
-<li><bdi dir="ltr">two-bedroom</bdi></li>
-<li><bdi dir="ltr">two-bedrooms</bdi></li>
-<li><bdi dir="ltr">two-bedroom&#x27;s</bdi></li>
-<li><bdi dir="ltr">two-bed</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She works in a ____ environment and is always stressed.</bdi><ol type="a">
-<li><bdi dir="ltr">high-pressure</bdi></li>
-<li><bdi dir="ltr">high-pressured</bdi></li>
-<li><bdi dir="ltr">highly-pressure</bdi></li>
-<li><bdi dir="ltr">high-pressuring</bdi></li>
-</ol></li>
 </ol>
 </section>
-</div><div class="day" id="day-6"><h1 class="section-title">اليوم 6 – The All Blacks (New Zealand Rugby)</h1><section class="reading"><h2 class="section-title">قطع القراءة (2 قطع)</h2>
+</div></div></div><div class="day" id="day-6"><h1 class="section-title">اليوم 6 – The All Blacks (New Zealand Rugby)</h1><section class="reading"><h2 class="section-title">قطع القراءة (2 قطع)</h2>
 <article class="passage"><h3>The All Blacks (New Zealand Rugby)</h3>
 <div class="passage-text"><bdo dir="ltr">As football is to the people of Brazil, so is rugby to the people of New Zealand — that is to say, it is a national obsession. Rugby is a tough, highly physical contact sport contested by two teams of 15 players. Although, like football, the game of rugby originated in 19th-Century England, the New Zealand national team, known around the world as the “All Blacks,” have raised the skill-level of the game to new heights and, like their footballing counterparts in Brazil, have set the standard for other teams to follow. The All Blacks take their name from their distinctive all-black playing uniform, or “kit,” which they have been wearing ever since they made their first tour of Europe in 1905. The team’s emblem, or badge, is a silver fern — a feather-like plant that is the symbol of New Zealand. The All Blacks are the most famous, recognizable, and successful team in world rugby, and the “All Blacks” name is a highly marketable global brand that represents an attractive proposition for corporate sponsors. The German sportswear company Adidas has been the All Blacks’ official kit supplier since 1999. The All Blacks’ current nine-year deal with Adidas is worth $200 million, and was negotiated on the basis that the All Blacks would be expected to win around 75% of their matches. In recent years, and somewhat controversially, the All Blacks have allowed the name of the U.S. financial services group AIG to appear on the front of the famous black jersey. Although no official figures have been released, this deal is thought to have been worth in the region of $80 million over five years.</bdo></div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
@@ -5740,53 +4338,53 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 </section>
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
-<table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
-<tr><td>1</td><td class="en"><bdo dir="ltr">obsession</bdo></td><td class="ar">هوس</td></tr>
-<tr><td>2</td><td class="en"><bdo dir="ltr">tough</bdo></td><td class="ar">شاق / قاسٍ</td></tr>
-<tr><td>3</td><td class="en"><bdo dir="ltr">contact sport</bdo></td><td class="ar">رياضة احتكاك</td></tr>
-<tr><td>4</td><td class="en"><bdo dir="ltr">originated</bdo></td><td class="ar">نشأ</td></tr>
-<tr><td>5</td><td class="en"><bdo dir="ltr">distinctive</bdo></td><td class="ar">مميز</td></tr>
-<tr><td>6</td><td class="en"><bdo dir="ltr">kit</bdo></td><td class="ar">طقم رياضي</td></tr>
-<tr><td>7</td><td class="en"><bdo dir="ltr">emblem</bdo></td><td class="ar">شعار</td></tr>
-<tr><td>8</td><td class="en"><bdo dir="ltr">brand</bdo></td><td class="ar">علامة تجارية</td></tr>
-<tr><td>9</td><td class="en"><bdo dir="ltr">corporate</bdo></td><td class="ar">مؤسسي / شركات</td></tr>
-<tr><td>10</td><td class="en"><bdo dir="ltr">sponsor</bdo></td><td class="ar">راعٍ</td></tr>
-<tr><td>11</td><td class="en"><bdo dir="ltr">negotiated</bdo></td><td class="ar">تفاوض</td></tr>
-<tr><td>12</td><td class="en"><bdo dir="ltr">jersey</bdo></td><td class="ar">قميص رياضي</td></tr>
-<tr><td>13</td><td class="en"><bdo dir="ltr">catastrophic</bdo></td><td class="ar">كارثي</td></tr>
-<tr><td>14</td><td class="en"><bdo dir="ltr">eruption</bdo></td><td class="ar">ثوران</td></tr>
-<tr><td>15</td><td class="en"><bdo dir="ltr">consequences</bdo></td><td class="ar">عواقب</td></tr>
-<tr><td>16</td><td class="en"><bdo dir="ltr">magnitude</bdo></td><td class="ar">حجم / قوة</td></tr>
-<tr><td>17</td><td class="en"><bdo dir="ltr">dormant</bdo></td><td class="ar">خامد</td></tr>
-<tr><td>18</td><td class="en"><bdo dir="ltr">ominous</bdo></td><td class="ar">مشؤوم</td></tr>
-<tr><td>19</td><td class="en"><bdo dir="ltr">intensified</bdo></td><td class="ar">اشتد</td></tr>
-<tr><td>20</td><td class="en"><bdo dir="ltr">pyroclastic</bdo></td><td class="ar">حمم بركانية</td></tr>
-<tr><td>21</td><td class="en"><bdo dir="ltr">annihilated</bdo></td><td class="ar">أبيد</td></tr>
-<tr><td>22</td><td class="en"><bdo dir="ltr">caldera</bdo></td><td class="ar">فوهة بركانية</td></tr>
-<tr><td>23</td><td class="en"><bdo dir="ltr">stratosphere</bdo></td><td class="ar">الستراتوسفير</td></tr>
-<tr><td>24</td><td class="en"><bdo dir="ltr">devastation</bdo></td><td class="ar">دمار</td></tr>
-<tr><td>25</td><td class="en"><bdo dir="ltr">fatalities</bdo></td><td class="ar">وفيات</td></tr>
-<tr><td>26</td><td class="en"><bdo dir="ltr">starvation</bdo></td><td class="ar">مجاعة</td></tr>
-<tr><td>27</td><td class="en"><bdo dir="ltr">intestinal</bdo></td><td class="ar">معوي</td></tr>
-<tr><td>28</td><td class="en"><bdo dir="ltr">sulfur</bdo></td><td class="ar">كبريت</td></tr>
-<tr><td>29</td><td class="en"><bdo dir="ltr">hemisphere</bdo></td><td class="ar">نصف الكرة الأرضية</td></tr>
-<tr><td>30</td><td class="en"><bdo dir="ltr">staple</bdo></td><td class="ar">غذاء أساسي</td></tr>
-<tr><td>31</td><td class="en"><bdo dir="ltr">famine</bdo></td><td class="ar">مجاعة</td></tr>
-<tr><td>32</td><td class="en"><bdo dir="ltr">typhus</bdo></td><td class="ar">التيفوس</td></tr>
-<tr><td>33</td><td class="en"><bdo dir="ltr">cholera</bdo></td><td class="ar">الكوليرا</td></tr>
-<tr><td>34</td><td class="en"><bdo dir="ltr">reign</bdo></td><td class="ar">حكم</td></tr>
-<tr><td>35</td><td class="en"><bdo dir="ltr">tumultuous</bdo></td><td class="ar">مضطرب</td></tr>
-<tr><td>36</td><td class="en"><bdo dir="ltr">synonymous</bdo></td><td class="ar">مرادف</td></tr>
-<tr><td>37</td><td class="en"><bdo dir="ltr">correlated</bdo></td><td class="ar">مترابط</td></tr>
-<tr><td>38</td><td class="en"><bdo dir="ltr">logarithmic</bdo></td><td class="ar">لوغاريتمي</td></tr>
-<tr><td>39</td><td class="en"><bdo dir="ltr">diameter</bdo></td><td class="ar">قطر</td></tr>
-<tr><td>40</td><td class="en"><bdo dir="ltr">summit</bdo></td><td class="ar">قمة</td></tr>
-<tr><td>41</td><td class="en"><bdo dir="ltr">benign</bdo></td><td class="ar">حميد</td></tr>
-<tr><td>42</td><td class="en"><bdo dir="ltr">legacy</bdo></td><td class="ar">إرث</td></tr>
-<tr><td>43</td><td class="en"><bdo dir="ltr">aftermath</bdo></td><td class="ar">ما بعد الكارثة</td></tr>
-<tr><td>44</td><td class="en"><bdo dir="ltr">epidemic</bdo></td><td class="ar">وباء</td></tr>
-</tbody></table>
-<div class="questions"><h4>أسئلة المفردات</h4><ol>
+<div class="vocab-flex">
+<div class="vocab-col"><div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody><tr><td>1</td><td class="en" dir="ltr" style="text-align: left;">obsession</td><td class="ar">هوس</td></tr>
+<tr><td>2</td><td class="en" dir="ltr" style="text-align: left;">tough</td><td class="ar">شاق / قاسٍ</td></tr>
+<tr><td>3</td><td class="en" dir="ltr" style="text-align: left;">contact sport</td><td class="ar">رياضة احتكاك</td></tr>
+<tr><td>4</td><td class="en" dir="ltr" style="text-align: left;">originated</td><td class="ar">نشأ</td></tr>
+<tr><td>5</td><td class="en" dir="ltr" style="text-align: left;">distinctive</td><td class="ar">مميز</td></tr>
+<tr><td>6</td><td class="en" dir="ltr" style="text-align: left;">kit</td><td class="ar">طقم رياضي</td></tr>
+<tr><td>7</td><td class="en" dir="ltr" style="text-align: left;">emblem</td><td class="ar">شعار</td></tr>
+<tr><td>8</td><td class="en" dir="ltr" style="text-align: left;">brand</td><td class="ar">علامة تجارية</td></tr>
+<tr><td>9</td><td class="en" dir="ltr" style="text-align: left;">corporate</td><td class="ar">مؤسسي / شركات</td></tr>
+<tr><td>10</td><td class="en" dir="ltr" style="text-align: left;">sponsor</td><td class="ar">راعٍ</td></tr>
+<tr><td>11</td><td class="en" dir="ltr" style="text-align: left;">negotiated</td><td class="ar">تفاوض</td></tr>
+<tr><td>12</td><td class="en" dir="ltr" style="text-align: left;">jersey</td><td class="ar">قميص رياضي</td></tr>
+<tr><td>13</td><td class="en" dir="ltr" style="text-align: left;">catastrophic</td><td class="ar">كارثي</td></tr>
+<tr><td>14</td><td class="en" dir="ltr" style="text-align: left;">eruption</td><td class="ar">ثوران</td></tr>
+<tr><td>15</td><td class="en" dir="ltr" style="text-align: left;">consequences</td><td class="ar">عواقب</td></tr>
+<tr><td>16</td><td class="en" dir="ltr" style="text-align: left;">magnitude</td><td class="ar">حجم / قوة</td></tr>
+<tr><td>17</td><td class="en" dir="ltr" style="text-align: left;">dormant</td><td class="ar">خامد</td></tr>
+<tr><td>18</td><td class="en" dir="ltr" style="text-align: left;">ominous</td><td class="ar">مشؤوم</td></tr>
+<tr><td>19</td><td class="en" dir="ltr" style="text-align: left;">intensified</td><td class="ar">اشتد</td></tr>
+<tr><td>20</td><td class="en" dir="ltr" style="text-align: left;">pyroclastic</td><td class="ar">حمم بركانية</td></tr>
+<tr><td>21</td><td class="en" dir="ltr" style="text-align: left;">annihilated</td><td class="ar">أبيد</td></tr>
+<tr><td>22</td><td class="en" dir="ltr" style="text-align: left;">caldera</td><td class="ar">فوهة بركانية</td></tr>
+<tr><td>23</td><td class="en" dir="ltr" style="text-align: left;">stratosphere</td><td class="ar">الستراتوسفير</td></tr>
+<tr><td>24</td><td class="en" dir="ltr" style="text-align: left;">devastation</td><td class="ar">دمار</td></tr>
+<tr><td>25</td><td class="en" dir="ltr" style="text-align: left;">fatalities</td><td class="ar">وفيات</td></tr>
+<tr><td>26</td><td class="en" dir="ltr" style="text-align: left;">starvation</td><td class="ar">مجاعة</td></tr>
+<tr><td>27</td><td class="en" dir="ltr" style="text-align: left;">intestinal</td><td class="ar">معوي</td></tr>
+<tr><td>28</td><td class="en" dir="ltr" style="text-align: left;">sulfur</td><td class="ar">كبريت</td></tr>
+<tr><td>29</td><td class="en" dir="ltr" style="text-align: left;">hemisphere</td><td class="ar">نصف الكرة الأرضية</td></tr>
+<tr><td>30</td><td class="en" dir="ltr" style="text-align: left;">staple</td><td class="ar">غذاء أساسي</td></tr>
+<tr><td>31</td><td class="en" dir="ltr" style="text-align: left;">famine</td><td class="ar">مجاعة</td></tr>
+<tr><td>32</td><td class="en" dir="ltr" style="text-align: left;">typhus</td><td class="ar">التيفوس</td></tr>
+<tr><td>33</td><td class="en" dir="ltr" style="text-align: left;">cholera</td><td class="ar">الكوليرا</td></tr>
+<tr><td>34</td><td class="en" dir="ltr" style="text-align: left;">reign</td><td class="ar">حكم</td></tr>
+<tr><td>35</td><td class="en" dir="ltr" style="text-align: left;">tumultuous</td><td class="ar">مضطرب</td></tr>
+<tr><td>36</td><td class="en" dir="ltr" style="text-align: left;">synonymous</td><td class="ar">مرادف</td></tr>
+<tr><td>37</td><td class="en" dir="ltr" style="text-align: left;">correlated</td><td class="ar">مترابط</td></tr>
+<tr><td>38</td><td class="en" dir="ltr" style="text-align: left;">logarithmic</td><td class="ar">لوغاريتمي</td></tr>
+<tr><td>39</td><td class="en" dir="ltr" style="text-align: left;">diameter</td><td class="ar">قطر</td></tr>
+<tr><td>40</td><td class="en" dir="ltr" style="text-align: left;">summit</td><td class="ar">قمة</td></tr>
+<tr><td>41</td><td class="en" dir="ltr" style="text-align: left;">benign</td><td class="ar">حميد</td></tr>
+<tr><td>42</td><td class="en" dir="ltr" style="text-align: left;">legacy</td><td class="ar">إرث</td></tr>
+<tr><td>43</td><td class="en" dir="ltr" style="text-align: left;">aftermath</td><td class="ar">ما بعد الكارثة</td></tr>
+<tr><td>44</td><td class="en" dir="ltr" style="text-align: left;">epidemic</td><td class="ar">وباء</td></tr>
+</tbody></table></div></div>
+<div class="vocab-col"><div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>
 <li><bdi dir="ltr">Football is more than just a sport in Brazil; it&#x27;s a national _______.</bdi><ol type="a">
 <li><bdi dir="ltr">obsession</bdi></li>
 <li><bdi dir="ltr">hobby</bdi></li>
@@ -5907,151 +4505,9 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><bdi dir="ltr">Snow</bdi></li>
 <li><bdi dir="ltr">Sand</bdi></li>
 </ol></li>
-<li><bdi dir="ltr">The entire village was _______ by the powerful explosion, leaving nothing standing.</bdi><ol type="a">
-<li><bdi dir="ltr">annihilated</bdi></li>
-<li><bdi dir="ltr">built</bdi></li>
-<li><bdi dir="ltr">saved</bdi></li>
-<li><bdi dir="ltr">protected</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">After the eruption, a large _______ formed where the mountain&#x27;s peak had been blown away.</bdi><ol type="a">
-<li><bdi dir="ltr">caldera</bdi></li>
-<li><bdi dir="ltr">river</bdi></li>
-<li><bdi dir="ltr">forest</bdi></li>
-<li><bdi dir="ltr">lake</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The volcanic ash was ejected into the _______, where it circled the globe for months.</bdi><ol type="a">
-<li><bdi dir="ltr">stratosphere</bdi></li>
-<li><bdi dir="ltr">ocean</bdi></li>
-<li><bdi dir="ltr">river</bdi></li>
-<li><bdi dir="ltr">forest</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The earthquake caused widespread _______, destroying homes, roads, and schools.</bdi><ol type="a">
-<li><bdi dir="ltr">devastation</bdi></li>
-<li><bdi dir="ltr">celebration</bdi></li>
-<li><bdi dir="ltr">construction</bdi></li>
-<li><bdi dir="ltr">decoration</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The war resulted in thousands of _______, including both soldiers and civilians.</bdi><ol type="a">
-<li><bdi dir="ltr">fatalities</bdi></li>
-<li><bdi dir="ltr">births</bdi></li>
-<li><bdi dir="ltr">celebrations</bdi></li>
-<li><bdi dir="ltr">victories</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">During the drought, many people died of _______ because crops failed completely.</bdi><ol type="a">
-<li><bdi dir="ltr">starvation</bdi></li>
-<li><bdi dir="ltr">wealth</bdi></li>
-<li><bdi dir="ltr">health</bdi></li>
-<li><bdi dir="ltr">fitness</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Contaminated water can cause _______ diseases that affect the stomach and digestion.</bdi><ol type="a">
-<li><bdi dir="ltr">intestinal</bdi></li>
-<li><bdi dir="ltr">visual</bdi></li>
-<li><bdi dir="ltr">auditory</bdi></li>
-<li><bdi dir="ltr">dental</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">_______ dioxide is a gas released by volcanoes that can reflect sunlight and cool the Earth.</bdi><ol type="a">
-<li><bdi dir="ltr">Sulfur</bdi></li>
-<li><bdi dir="ltr">Oxygen</bdi></li>
-<li><bdi dir="ltr">Nitrogen</bdi></li>
-<li><bdi dir="ltr">Hydrogen</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Canada is located in the Northern _______, while Australia is in the Southern _______.</bdi><ol type="a">
-<li><bdi dir="ltr">hemisphere</bdi></li>
-<li><bdi dir="ltr">continent</bdi></li>
-<li><bdi dir="ltr">country</bdi></li>
-<li><bdi dir="ltr">city</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Rice is a _______ food in many Asian countries, eaten with almost every meal.</bdi><ol type="a">
-<li><bdi dir="ltr">staple</bdi></li>
-<li><bdi dir="ltr">luxury</bdi></li>
-<li><bdi dir="ltr">rare</bdi></li>
-<li><bdi dir="ltr">occasional</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Crop failure and drought led to widespread _______, with millions of people facing hunger.</bdi><ol type="a">
-<li><bdi dir="ltr">famine</bdi></li>
-<li><bdi dir="ltr">feast</bdi></li>
-<li><bdi dir="ltr">harvest</bdi></li>
-<li><bdi dir="ltr">abundance</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">_______ is a disease spread by lice and fleas, causing high fever and body rash.</bdi><ol type="a">
-<li><bdi dir="ltr">Typhus</bdi></li>
-<li><bdi dir="ltr">Diabetes</bdi></li>
-<li><bdi dir="ltr">Asthma</bdi></li>
-<li><bdi dir="ltr">Cancer</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Drinking contaminated water can cause _______, a disease that leads to severe dehydration.</bdi><ol type="a">
-<li><bdi dir="ltr">cholera</bdi></li>
-<li><bdi dir="ltr">malaria</bdi></li>
-<li><bdi dir="ltr">influenza</bdi></li>
-<li><bdi dir="ltr">allergy</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The king&#x27;s _______ lasted for 40 years, bringing peace and prosperity to the country.</bdi><ol type="a">
-<li><bdi dir="ltr">reign</bdi></li>
-<li><bdi dir="ltr">fall</bdi></li>
-<li><bdi dir="ltr">destruction</bdi></li>
-<li><bdi dir="ltr">chaos</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The country went through a _______ period of political change, with protests and elections.</bdi><ol type="a">
-<li><bdi dir="ltr">tumultuous</bdi></li>
-<li><bdi dir="ltr">calm</bdi></li>
-<li><bdi dir="ltr">quiet</bdi></li>
-<li><bdi dir="ltr">peaceful</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The city of Paris is often _______ with romance and love.</bdi><ol type="a">
-<li><bdi dir="ltr">synonymous</bdi></li>
-<li><bdi dir="ltr">unrelated</bdi></li>
-<li><bdi dir="ltr">opposite</bdi></li>
-<li><bdi dir="ltr">different</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Smoking is strongly _______ with lung cancer; smokers have a much higher risk.</bdi><ol type="a">
-<li><bdi dir="ltr">correlated</bdi></li>
-<li><bdi dir="ltr">unrelated</bdi></li>
-<li><bdi dir="ltr">disconnected</bdi></li>
-<li><bdi dir="ltr">separate</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The _______ scale means that each step represents a tenfold increase, not a simple addition.</bdi><ol type="a">
-<li><bdi dir="ltr">logarithmic</bdi></li>
-<li><bdi dir="ltr">linear</bdi></li>
-<li><bdi dir="ltr">simple</bdi></li>
-<li><bdi dir="ltr">flat</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The _______ of the circle is 10 meters, meaning it is 5 meters from the center to the edge.</bdi><ol type="a">
-<li><bdi dir="ltr">diameter</bdi></li>
-<li><bdi dir="ltr">radius</bdi></li>
-<li><bdi dir="ltr">circumference</bdi></li>
-<li><bdi dir="ltr">length</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">After days of climbing, they finally reached the _______ of the mountain.</bdi><ol type="a">
-<li><bdi dir="ltr">summit</bdi></li>
-<li><bdi dir="ltr">base</bdi></li>
-<li><bdi dir="ltr">valley</bdi></li>
-<li><bdi dir="ltr">river</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The doctor said the tumor was _______, so there was no need to worry.</bdi><ol type="a">
-<li><bdi dir="ltr">benign</bdi></li>
-<li><bdi dir="ltr">dangerous</bdi></li>
-<li><bdi dir="ltr">deadly</bdi></li>
-<li><bdi dir="ltr">harmful</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The scientist&#x27;s _______ includes several important discoveries that changed medicine.</bdi><ol type="a">
-<li><bdi dir="ltr">legacy</bdi></li>
-<li><bdi dir="ltr">failure</bdi></li>
-<li><bdi dir="ltr">mistake</bdi></li>
-<li><bdi dir="ltr">problem</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">In the _______ of the earthquake, rescue teams searched for survivors under the rubble.</bdi><ol type="a">
-<li><bdi dir="ltr">aftermath</bdi></li>
-<li><bdi dir="ltr">beginning</bdi></li>
-<li><bdi dir="ltr">start</bdi></li>
-<li><bdi dir="ltr">peak</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The country faced a serious _______ of influenza, affecting millions of people.</bdi><ol type="a">
-<li><bdi dir="ltr">epidemic</bdi></li>
-<li><bdi dir="ltr">celebration</bdi></li>
-<li><bdi dir="ltr">construction</bdi></li>
-<li><bdi dir="ltr">education</bdi></li>
-</ol></li>
 </ol></div>
+</div>
+</div>
 </section>
 <section class="dictation">
 <h2 class="section-title">الإملاء</h2>
@@ -6070,7 +4526,7 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 
 <li><strong><bdi dir="ltr">famine</bdi></strong> — <bdi dir="ltr">famin, fammin, famine, fameen</bdi></li>
 </ul>
 </section>
-<section class="grammar-lesson">
+<div class="grammar-flex"><div class="grammar-col lesson-col"><section class="grammar-lesson">
 <h2 class="section-title">درس القواعد</h2>
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
@@ -6307,7 +4763,7 @@ It is important <b>to arrive</b> on time.
 </html>
 
 </section>
-<section class="grammar-test">
+</div><div class="grammar-col test-col"><section class="grammar-test">
 <h2 class="section-title">اختبار القواعد</h2>
 <ol>
 <li><bdi dir="ltr">She enjoys ____ in the park.</bdi><ol type="a">
@@ -6430,129 +4886,9 @@ It is important <b>to arrive</b> on time.
 <li><bdi dir="ltr">get used to</bdi></li>
 <li><bdi dir="ltr">use to</bdi></li>
 </ol></li>
-<li><bdi dir="ltr">He didn&#x27;t ____ like vegetables, but now he does.</bdi><ol type="a">
-<li><bdi dir="ltr">used to</bdi></li>
-<li><bdi dir="ltr">use to</bdi></li>
-<li><bdi dir="ltr">be used to</bdi></li>
-<li><bdi dir="ltr">get used to</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I ____ waking up early because I do it every day.</bdi><ol type="a">
-<li><bdi dir="ltr">used to</bdi></li>
-<li><bdi dir="ltr">am used to</bdi></li>
-<li><bdi dir="ltr">get used to</bdi></li>
-<li><bdi dir="ltr">use to</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">They ____ take a walk by the river when they lived there.</bdi><ol type="a">
-<li><bdi dir="ltr">used to</bdi></li>
-<li><bdi dir="ltr">are used to</bdi></li>
-<li><bdi dir="ltr">get used to</bdi></li>
-<li><bdi dir="ltr">use to</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He keeps ____ even though I asked him to stop.</bdi><ol type="a">
-<li><bdi dir="ltr">talk</bdi></li>
-<li><bdi dir="ltr">to talk</bdi></li>
-<li><bdi dir="ltr">talking</bdi></li>
-<li><bdi dir="ltr">to talking</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She finished ____ her homework before dinner.</bdi><ol type="a">
-<li><bdi dir="ltr">do</bdi></li>
-<li><bdi dir="ltr">to do</bdi></li>
-<li><bdi dir="ltr">doing</bdi></li>
-<li><bdi dir="ltr">to doing</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">We hope ____ you soon.</bdi><ol type="a">
-<li><bdi dir="ltr">see</bdi></li>
-<li><bdi dir="ltr">to see</bdi></li>
-<li><bdi dir="ltr">seeing</bdi></li>
-<li><bdi dir="ltr">to seeing</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He offered ____ us with the bags.</bdi><ol type="a">
-<li><bdi dir="ltr">help</bdi></li>
-<li><bdi dir="ltr">to help</bdi></li>
-<li><bdi dir="ltr">helping</bdi></li>
-<li><bdi dir="ltr">to helping</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I would like ____ a cup of tea.</bdi><ol type="a">
-<li><bdi dir="ltr">have</bdi></li>
-<li><bdi dir="ltr">to have</bdi></li>
-<li><bdi dir="ltr">having</bdi></li>
-<li><bdi dir="ltr">to having</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She seems ____ very happy today.</bdi><ol type="a">
-<li><bdi dir="ltr">be</bdi></li>
-<li><bdi dir="ltr">to be</bdi></li>
-<li><bdi dir="ltr">being</bdi></li>
-<li><bdi dir="ltr">to being</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He admitted ____ the window.</bdi><ol type="a">
-<li><bdi dir="ltr">break</bdi></li>
-<li><bdi dir="ltr">to break</bdi></li>
-<li><bdi dir="ltr">breaking</bdi></li>
-<li><bdi dir="ltr">to breaking</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She denied ____ the money.</bdi><ol type="a">
-<li><bdi dir="ltr">take</bdi></li>
-<li><bdi dir="ltr">to take</bdi></li>
-<li><bdi dir="ltr">taking</bdi></li>
-<li><bdi dir="ltr">to taking</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">We are looking forward to ____ you.</bdi><ol type="a">
-<li><bdi dir="ltr">see</bdi></li>
-<li><bdi dir="ltr">to see</bdi></li>
-<li><bdi dir="ltr">seeing</bdi></li>
-<li><bdi dir="ltr">to seeing</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He is good at ____ problems.</bdi><ol type="a">
-<li><bdi dir="ltr">solve</bdi></li>
-<li><bdi dir="ltr">to solve</bdi></li>
-<li><bdi dir="ltr">solving</bdi></li>
-<li><bdi dir="ltr">to solving</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I am tired of ____ the same thing every day.</bdi><ol type="a">
-<li><bdi dir="ltr">do</bdi></li>
-<li><bdi dir="ltr">to do</bdi></li>
-<li><bdi dir="ltr">doing</bdi></li>
-<li><bdi dir="ltr">to doing</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She left without ____ goodbye.</bdi><ol type="a">
-<li><bdi dir="ltr">say</bdi></li>
-<li><bdi dir="ltr">to say</bdi></li>
-<li><bdi dir="ltr">saying</bdi></li>
-<li><bdi dir="ltr">to saying</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He ____ be a heavy smoker, but he quit last year.</bdi><ol type="a">
-<li><bdi dir="ltr">used to</bdi></li>
-<li><bdi dir="ltr">is used to</bdi></li>
-<li><bdi dir="ltr">get used to</bdi></li>
-<li><bdi dir="ltr">use to</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">My grandmother ____ telling us stories before bed. She did it every night.</bdi><ol type="a">
-<li><bdi dir="ltr">used to</bdi></li>
-<li><bdi dir="ltr">was used to</bdi></li>
-<li><bdi dir="ltr">got used to</bdi></li>
-<li><bdi dir="ltr">is used to</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I can&#x27;t ____ the hot weather; I&#x27;m always sweating.</bdi><ol type="a">
-<li><bdi dir="ltr">used to</bdi></li>
-<li><bdi dir="ltr">am used to</bdi></li>
-<li><bdi dir="ltr">get used to</bdi></li>
-<li><bdi dir="ltr">use to</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He is a soldier, so he ____ dangerous situations.</bdi><ol type="a">
-<li><bdi dir="ltr">used to</bdi></li>
-<li><bdi dir="ltr">is used to</bdi></li>
-<li><bdi dir="ltr">get used to</bdi></li>
-<li><bdi dir="ltr">use to</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">When I was a child, I ____ believe in magic.</bdi><ol type="a">
-<li><bdi dir="ltr">use to</bdi></li>
-<li><bdi dir="ltr">used to</bdi></li>
-<li><bdi dir="ltr">am used to</bdi></li>
-<li><bdi dir="ltr">get used to</bdi></li>
-</ol></li>
 </ol>
 </section>
-</div><div class="day" id="day-7"><h1 class="section-title">اليوم 7 – Tintin in Tibet (Passage 1)</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
+</div></div></div><div class="day" id="day-7"><h1 class="section-title">اليوم 7 – Tintin in Tibet (Passage 1)</h1><section class="reading"><h2 class="section-title">قطع القراءة (3 قطع)</h2>
 <article class="passage"><h3>Tintin in Tibet (Passage 1)</h3>
 <div class="passage-text"><bdo dir="ltr">Are you familiar with the cartoon character Tintin? If so, you may be familiar with the comic book Tintin in Tibet, which first appeared in 1960. Perhaps you have read the Arabic version. In the story, Tintin hears the terrible news that the airplane carrying his Chinese friend, Chang, has crashed in the snowy Himalayan mountains of Tibet with no survivors. Tintin then has a dream, in which he sees that Chang is still alive, and so he travels high into the Himalayas to find and rescue his friend. The world&#x27;s highest and most formidable mountain range was a fitting setting for this heart-warming tale of tragedy, friendship, and courage. East Asia is, by far, the world&#x27;s busiest and most populous region, with billions of people constantly on the move by land, sea, and air. And yet, if you open up a live air-traffic map of East Asia, you will see that aviation activity is totally absent from one vast region within the region: Tibet is essentially a no-fly zone.<br><br>The autonomous region of Tibet lies in southwest China. Covering an area of 2.5 million square kilometers, Tibet is 20% larger than Saudi Arabia. In addition to its great size, the Tibetan plateau is the highest region on Earth, with an average elevation of around 4,000 meters. Mount Everest, the world&#x27;s highest mountain, is located in the south of the region, on Tibet&#x27;s border with the neighboring country of Nepal. The presence of the Himalayan range within its territory has earned Tibet the nickname &quot;The Roof of the World,&quot; and many of Asia&#x27;s most famous rivers, such as the Yangtze, the Indus, and the Mekong have their source here. Despite its vast size, however, Tibet&#x27;s population is only around 3 million, and there is virtually no internal demand for air travel. This lack of demand for either international or domestic air travel means that Lhasa, Tibet&#x27;s capital, hosts the region&#x27;s sole international airport.<br><br>An early indication of the extreme dangers of flying in such an inhospitable environment was provided in the 1940s, during World War II. The British needed to airlift supplies from their bases in northeastern India into China to assist the Chinese in their struggle against the Japanese forces that were occupying Chinese territory at the time. The extreme weather conditions that the pilots encountered on these missions included wind speeds of up to 320 kilometers per hour. Over a three-and-a-half-year period, a total of 594 aircraft were lost and 1,659 fatalities were recorded. To put these numbers into perspective, these non-combat losses were even greater than the combat losses suffered by the allied air crews at the hands of the German Luftwaffe during the Battle of Britain. Indeed, in some months, as many as 50% of the aircraft flying these routes were crashing into the mountains of the Tibetan plateau.<br><br>Even today, 75 years after World War II, the elevated terrain of the Tibetan plateau presents very real dangers for all types of aircraft. These dangers take many forms. For example, commercial airliners usually cruise at an altitude of around 11,000 meters, which is well above even Mount Everest. But, in emergency situations, such as a cabin depressurization or an engine failure, standard procedure is for the aircraft to descend to a much lower altitude of around 3,000 meters to enable the passengers and crew to breathe normally, as the emergency oxygen supply will only last for 20 minutes. However, because the average elevation of the Tibetan plateau is around 4,000 meters, the aircraft would almost certainly crash into a mountainside if such a descent were attempted. Faced with the need to divert the aircraft to a suitable airport for an emergency landing, pilots flying over the Tibetan plateau have very few options.<br><br>Turbulence - the sudden, jerky, up-and-down movement of an aircraft caused by irregular airflow - poses a potential hazard in the skies above the Tibetan plateau. Fortunately, modern passenger planes are engineered to withstand almost anything the sky can throw at them, so, although turbulence is a common in-flight occurrence, it is rarely dangerous. That said, so-called &quot;mountain wave turbulence&quot; can be a very different matter. The towering Himalayan peaks force the high-speed winds sharply upwards, and this creates severe waves of turbulence as the air passes over the mountain peaks. Scientists in India have reportedly succeeded in modeling turbulence parameters over the central Himalayas for the first time, and it is hoped that this breakthrough could make air travel in the region less of a risk. Nevertheless, the unforgiving Tibetan plateau will likely remain a &quot;next-to-no-fly zone&quot; for many years to come.</bdo></div>
 <div class="questions"><h4>أسئلة الفهم</h4><ol>
@@ -6661,49 +4997,49 @@ It is important <b>to arrive</b> on time.
 </section>
 <section class="vocabulary">
 <h2 class="section-title">المفردات</h2>
-<table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>
-<tr><td>1</td><td class="en"><bdo dir="ltr">aurora</bdo></td><td class="ar">شفق قطبي</td></tr>
-<tr><td>2</td><td class="en"><bdo dir="ltr">crackling</bdo></td><td class="ar">طقطقة</td></tr>
-<tr><td>3</td><td class="en"><bdo dir="ltr">sizzling</bdo></td><td class="ar">أزيز</td></tr>
-<tr><td>4</td><td class="en"><bdo dir="ltr">geomagnetic</bdo></td><td class="ar">مغناطيسية أرضية</td></tr>
-<tr><td>5</td><td class="en"><bdo dir="ltr">induce</bdo></td><td class="ar">يحث / يولد</td></tr>
-<tr><td>6</td><td class="en"><bdo dir="ltr">vibrate</bdo></td><td class="ar">يهتز</td></tr>
-<tr><td>7</td><td class="en"><bdo dir="ltr">elusive</bdo></td><td class="ar">بعيد المنال / صعب الإمساك</td></tr>
-<tr><td>8</td><td class="en"><bdo dir="ltr">folklore</bdo></td><td class="ar">فولكلور / تراث شعبي</td></tr>
-<tr><td>9</td><td class="en"><bdo dir="ltr">sensory</bdo></td><td class="ar">حسي</td></tr>
-<tr><td>10</td><td class="en"><bdo dir="ltr">celestial</bdo></td><td class="ar">سماوي</td></tr>
-<tr><td>11</td><td class="en"><bdo dir="ltr">colossus</bdo></td><td class="ar">تمثال ضخم / عملاق</td></tr>
-<tr><td>12</td><td class="en"><bdo dir="ltr">frankincense</bdo></td><td class="ar">لبان / بخور</td></tr>
-<tr><td>13</td><td class="en"><bdo dir="ltr">caravan</bdo></td><td class="ar">قافلة</td></tr>
-<tr><td>14</td><td class="en"><bdo dir="ltr">cosmopolitan</bdo></td><td class="ar">عالمي / متعدد الثقافات</td></tr>
-<tr><td>15</td><td class="en"><bdo dir="ltr">irrigation</bdo></td><td class="ar">ري</td></tr>
-<tr><td>16</td><td class="en"><bdo dir="ltr">inscription</bdo></td><td class="ar">نقش / كتابة</td></tr>
-<tr><td>17</td><td class="en"><bdo dir="ltr">decline</bdo></td><td class="ar">انحدار / تراجع</td></tr>
-<tr><td>18</td><td class="en"><bdo dir="ltr">UNESCO</bdo></td><td class="ar">اليونسكو</td></tr>
-<tr><td>19</td><td class="en"><bdo dir="ltr">subterranean</bdo></td><td class="ar">تحت الأرض</td></tr>
-<tr><td>20</td><td class="en"><bdo dir="ltr">labyrinth</bdo></td><td class="ar">متاهة</td></tr>
-<tr><td>21</td><td class="en"><bdo dir="ltr">sustainable</bdo></td><td class="ar">مستدام</td></tr>
-<tr><td>22</td><td class="en"><bdo dir="ltr">innovation</bdo></td><td class="ar">ابتكار</td></tr>
-<tr><td>23</td><td class="en"><bdo dir="ltr">ecosystem</bdo></td><td class="ar">نظام بيئي</td></tr>
-<tr><td>24</td><td class="en"><bdo dir="ltr">phenomenon</bdo></td><td class="ar">ظاهرة</td></tr>
-<tr><td>25</td><td class="en"><bdo dir="ltr">navigation</bdo></td><td class="ar">ملاحة</td></tr>
-<tr><td>26</td><td class="en"><bdo dir="ltr">heritage</bdo></td><td class="ar">تراث</td></tr>
-<tr><td>27</td><td class="en"><bdo dir="ltr">renewable</bdo></td><td class="ar">متجدد</td></tr>
-<tr><td>28</td><td class="en"><bdo dir="ltr">infrastructure</bdo></td><td class="ar">بنية تحتية</td></tr>
-<tr><td>29</td><td class="en"><bdo dir="ltr">satellite</bdo></td><td class="ar">قمر صناعي</td></tr>
-<tr><td>30</td><td class="en"><bdo dir="ltr">drought</bdo></td><td class="ar">جفاف</td></tr>
-<tr><td>31</td><td class="en"><bdo dir="ltr">obesity</bdo></td><td class="ar">سمنة</td></tr>
-<tr><td>32</td><td class="en"><bdo dir="ltr">immune</bdo></td><td class="ar">مناعي</td></tr>
-<tr><td>33</td><td class="en"><bdo dir="ltr">cognitive</bdo></td><td class="ar">معرفي</td></tr>
-<tr><td>34</td><td class="en"><bdo dir="ltr">deprivation</bdo></td><td class="ar">حرمان</td></tr>
-<tr><td>35</td><td class="en"><bdo dir="ltr">consolidation</bdo></td><td class="ar">توطيد</td></tr>
-<tr><td>36</td><td class="en"><bdo dir="ltr">shield</bdo></td><td class="ar">درع / يقي</td></tr>
-<tr><td>37</td><td class="en"><bdo dir="ltr">emission</bdo></td><td class="ar">انبعاث</td></tr>
-<tr><td>38</td><td class="en"><bdo dir="ltr">grid</bdo></td><td class="ar">شبكة كهرباء</td></tr>
-<tr><td>39</td><td class="en"><bdo dir="ltr">capacity</bdo></td><td class="ar">سعة</td></tr>
-<tr><td>40</td><td class="en"><bdo dir="ltr">strategically</bdo></td><td class="ar">استراتيجياً</td></tr>
-</tbody></table>
-<div class="questions"><h4>أسئلة المفردات</h4><ol>
+<div class="vocab-flex">
+<div class="vocab-col"><div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody><tr><td>1</td><td class="en" dir="ltr" style="text-align: left;">aurora</td><td class="ar">شفق قطبي</td></tr>
+<tr><td>2</td><td class="en" dir="ltr" style="text-align: left;">crackling</td><td class="ar">طقطقة</td></tr>
+<tr><td>3</td><td class="en" dir="ltr" style="text-align: left;">sizzling</td><td class="ar">أزيز</td></tr>
+<tr><td>4</td><td class="en" dir="ltr" style="text-align: left;">geomagnetic</td><td class="ar">مغناطيسية أرضية</td></tr>
+<tr><td>5</td><td class="en" dir="ltr" style="text-align: left;">induce</td><td class="ar">يحث / يولد</td></tr>
+<tr><td>6</td><td class="en" dir="ltr" style="text-align: left;">vibrate</td><td class="ar">يهتز</td></tr>
+<tr><td>7</td><td class="en" dir="ltr" style="text-align: left;">elusive</td><td class="ar">بعيد المنال / صعب الإمساك</td></tr>
+<tr><td>8</td><td class="en" dir="ltr" style="text-align: left;">folklore</td><td class="ar">فولكلور / تراث شعبي</td></tr>
+<tr><td>9</td><td class="en" dir="ltr" style="text-align: left;">sensory</td><td class="ar">حسي</td></tr>
+<tr><td>10</td><td class="en" dir="ltr" style="text-align: left;">celestial</td><td class="ar">سماوي</td></tr>
+<tr><td>11</td><td class="en" dir="ltr" style="text-align: left;">colossus</td><td class="ar">تمثال ضخم / عملاق</td></tr>
+<tr><td>12</td><td class="en" dir="ltr" style="text-align: left;">frankincense</td><td class="ar">لبان / بخور</td></tr>
+<tr><td>13</td><td class="en" dir="ltr" style="text-align: left;">caravan</td><td class="ar">قافلة</td></tr>
+<tr><td>14</td><td class="en" dir="ltr" style="text-align: left;">cosmopolitan</td><td class="ar">عالمي / متعدد الثقافات</td></tr>
+<tr><td>15</td><td class="en" dir="ltr" style="text-align: left;">irrigation</td><td class="ar">ري</td></tr>
+<tr><td>16</td><td class="en" dir="ltr" style="text-align: left;">inscription</td><td class="ar">نقش / كتابة</td></tr>
+<tr><td>17</td><td class="en" dir="ltr" style="text-align: left;">decline</td><td class="ar">انحدار / تراجع</td></tr>
+<tr><td>18</td><td class="en" dir="ltr" style="text-align: left;">UNESCO</td><td class="ar">اليونسكو</td></tr>
+<tr><td>19</td><td class="en" dir="ltr" style="text-align: left;">subterranean</td><td class="ar">تحت الأرض</td></tr>
+<tr><td>20</td><td class="en" dir="ltr" style="text-align: left;">labyrinth</td><td class="ar">متاهة</td></tr>
+<tr><td>21</td><td class="en" dir="ltr" style="text-align: left;">sustainable</td><td class="ar">مستدام</td></tr>
+<tr><td>22</td><td class="en" dir="ltr" style="text-align: left;">innovation</td><td class="ar">ابتكار</td></tr>
+<tr><td>23</td><td class="en" dir="ltr" style="text-align: left;">ecosystem</td><td class="ar">نظام بيئي</td></tr>
+<tr><td>24</td><td class="en" dir="ltr" style="text-align: left;">phenomenon</td><td class="ar">ظاهرة</td></tr>
+<tr><td>25</td><td class="en" dir="ltr" style="text-align: left;">navigation</td><td class="ar">ملاحة</td></tr>
+<tr><td>26</td><td class="en" dir="ltr" style="text-align: left;">heritage</td><td class="ar">تراث</td></tr>
+<tr><td>27</td><td class="en" dir="ltr" style="text-align: left;">renewable</td><td class="ar">متجدد</td></tr>
+<tr><td>28</td><td class="en" dir="ltr" style="text-align: left;">infrastructure</td><td class="ar">بنية تحتية</td></tr>
+<tr><td>29</td><td class="en" dir="ltr" style="text-align: left;">satellite</td><td class="ar">قمر صناعي</td></tr>
+<tr><td>30</td><td class="en" dir="ltr" style="text-align: left;">drought</td><td class="ar">جفاف</td></tr>
+<tr><td>31</td><td class="en" dir="ltr" style="text-align: left;">obesity</td><td class="ar">سمنة</td></tr>
+<tr><td>32</td><td class="en" dir="ltr" style="text-align: left;">immune</td><td class="ar">مناعي</td></tr>
+<tr><td>33</td><td class="en" dir="ltr" style="text-align: left;">cognitive</td><td class="ar">معرفي</td></tr>
+<tr><td>34</td><td class="en" dir="ltr" style="text-align: left;">deprivation</td><td class="ar">حرمان</td></tr>
+<tr><td>35</td><td class="en" dir="ltr" style="text-align: left;">consolidation</td><td class="ar">توطيد</td></tr>
+<tr><td>36</td><td class="en" dir="ltr" style="text-align: left;">shield</td><td class="ar">درع / يقي</td></tr>
+<tr><td>37</td><td class="en" dir="ltr" style="text-align: left;">emission</td><td class="ar">انبعاث</td></tr>
+<tr><td>38</td><td class="en" dir="ltr" style="text-align: left;">grid</td><td class="ar">شبكة كهرباء</td></tr>
+<tr><td>39</td><td class="en" dir="ltr" style="text-align: left;">capacity</td><td class="ar">سعة</td></tr>
+<tr><td>40</td><td class="en" dir="ltr" style="text-align: left;">strategically</td><td class="ar">استراتيجياً</td></tr>
+</tbody></table></div></div>
+<div class="vocab-col"><div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>
 <li><bdi dir="ltr">She set her alarm for 2 AM and drove far from the city lights, hoping to witness the green _______ dance across the sky.</bdi><ol type="a">
 <li><bdi dir="ltr">satellite</bdi></li>
 <li><bdi dir="ltr">phenomenon</bdi></li>
@@ -6824,127 +5160,9 @@ It is important <b>to arrive</b> on time.
 <li><bdi dir="ltr">folklore</bdi></li>
 <li><bdi dir="ltr">crackling</bdi></li>
 </ol></li>
-<li><bdi dir="ltr">The company switched to _______ packaging made from recycled materials that won&#x27;t end up in landfills.</bdi><ol type="a">
-<li><bdi dir="ltr">infrastructure</bdi></li>
-<li><bdi dir="ltr">phenomenon</bdi></li>
-<li><bdi dir="ltr">sustainable</bdi></li>
-<li><bdi dir="ltr">irrigation</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The new electric car design is a great _______; it solves many problems that older models struggled with.</bdi><ol type="a">
-<li><bdi dir="ltr">capacity</bdi></li>
-<li><bdi dir="ltr">innovation</bdi></li>
-<li><bdi dir="ltr">caravan</bdi></li>
-<li><bdi dir="ltr">labyrinth</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The introduction of a new predator into the lake completely disrupted the natural _______ and many fish populations declined.</bdi><ol type="a">
-<li><bdi dir="ltr">elusive</bdi></li>
-<li><bdi dir="ltr">ecosystem</bdi></li>
-<li><bdi dir="ltr">decline</bdi></li>
-<li><bdi dir="ltr">UNESCO</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The sudden increase in temperature across the entire continent was a natural _______ that scientists rushed to understand.</bdi><ol type="a">
-<li><bdi dir="ltr">inscription</bdi></li>
-<li><bdi dir="ltr">phenomenon</bdi></li>
-<li><bdi dir="ltr">deprivation</bdi></li>
-<li><bdi dir="ltr">cosmopolitan</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Before GPS was invented, sailors relied on the stars and a compass for accurate _______ across the ocean.</bdi><ol type="a">
-<li><bdi dir="ltr">sustainable</bdi></li>
-<li><bdi dir="ltr">folklore</bdi></li>
-<li><bdi dir="ltr">emission</bdi></li>
-<li><bdi dir="ltr">navigation</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The traditional dance has been passed down for generations and is now protected as part of the country&#x27;s cultural _______.</bdi><ol type="a">
-<li><bdi dir="ltr">subterranean</bdi></li>
-<li><bdi dir="ltr">colossus</bdi></li>
-<li><bdi dir="ltr">immuna</bdi></li>
-<li><bdi dir="ltr">heritage</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Unlike oil and gas, which will eventually run out, solar and wind power are _______ sources of energy.</bdi><ol type="a">
-<li><bdi dir="ltr">induce</bdi></li>
-<li><bdi dir="ltr">labyrinth</bdi></li>
-<li><bdi dir="ltr">renewable</bdi></li>
-<li><bdi dir="ltr">capacity</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The government is investing heavily in _______ projects such as roads, bridges, and high-speed internet for rural areas.</bdi><ol type="a">
-<li><bdi dir="ltr">sensory</bdi></li>
-<li><bdi dir="ltr">infrastructure</bdi></li>
-<li><bdi dir="ltr">decline</bdi></li>
-<li><bdi dir="ltr">drought</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The television channels are broadcast from a _______ orbiting thousands of kilometres above the Earth.</bdi><ol type="a">
-<li><bdi dir="ltr">crackling</bdi></li>
-<li><bdi dir="ltr">satellite</bdi></li>
-<li><bdi dir="ltr">caravan</bdi></li>
-<li><bdi dir="ltr">obesity</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The severe _______ lasted for three years; rivers dried up completely and farmers lost their entire harvest.</bdi><ol type="a">
-<li><bdi dir="ltr">UNESCO</bdi></li>
-<li><bdi dir="ltr">cognitive</bdi></li>
-<li><bdi dir="ltr">drought</bdi></li>
-<li><bdi dir="ltr">sizzling</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Doctors are concerned about the rise in childhood _______ because it leads to diabetes and heart problems later in life.</bdi><ol type="a">
-<li><bdi dir="ltr">grid</bdi></li>
-<li><bdi dir="ltr">innovation</bdi></li>
-<li><bdi dir="ltr">obesity</bdi></li>
-<li><bdi dir="ltr">folklore</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Getting enough sleep and eating well can strengthen your _______ system and help you fight off infections.</bdi><ol type="a">
-<li><bdi dir="ltr">irrigation</bdi></li>
-<li><bdi dir="ltr">immune</bdi></li>
-<li><bdi dir="ltr">inscription</bdi></li>
-<li><bdi dir="ltr">phenomenon</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Reading books and solving puzzles can help maintain _______ abilities as people get older.</bdi><ol type="a">
-<li><bdi dir="ltr">geothermal</bdi></li>
-<li><bdi dir="ltr">cognitive</bdi></li>
-<li><bdi dir="ltr">celestial</bdi></li>
-<li><bdi dir="ltr">heritage</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Sleep _______ for several nights in a row can cause serious health problems, including high blood pressure.</bdi><ol type="a">
-<li><bdi dir="ltr">deprivation</bdi></li>
-<li><bdi dir="ltr">ecosystem</bdi></li>
-<li><bdi dir="ltr">navigation</bdi></li>
-<li><bdi dir="ltr">frankincense</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The _______ of several departments into one large team saved the company money and improved efficiency.</bdi><ol type="a">
-<li><bdi dir="ltr">shielding</bdi></li>
-<li><bdi dir="ltr">vibrate</bdi></li>
-<li><bdi dir="ltr">consolidation</bdi></li>
-<li><bdi dir="ltr">aurora</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The thick concrete walls were designed to _______ the workers inside from dangerous radiation.</bdi><ol type="a">
-<li><bdi dir="ltr">shield</bdi></li>
-<li><bdi dir="ltr">elusive</bdi></li>
-<li><bdi dir="ltr">subterranean</bdi></li>
-<li><bdi dir="ltr">colossus</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The government introduced strict limits on carbon _______ from factories to combat climate change.</bdi><ol type="a">
-<li><bdi dir="ltr">sustainable</bdi></li>
-<li><bdi dir="ltr">emission</bdi></li>
-<li><bdi dir="ltr">cosmopolitan</bdi></li>
-<li><bdi dir="ltr">labyrinth</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">When lightning struck the power station, the entire _______ went down and the city was in darkness for hours.</bdi><ol type="a">
-<li><bdi dir="ltr">grid</bdi></li>
-<li><bdi dir="ltr">phenomenon</bdi></li>
-<li><bdi dir="ltr">caravan</bdi></li>
-<li><bdi dir="ltr">obesity</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The concert hall has a seating _______ of 2,000 people, and all tickets were sold out within hours.</bdi><ol type="a">
-<li><bdi dir="ltr">innovation</bdi></li>
-<li><bdi dir="ltr">capacity</bdi></li>
-<li><bdi dir="ltr">stratosphere</bdi></li>
-<li><bdi dir="ltr">decline</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The company _______ placed its new warehouse near the motorway to reduce transport costs and delivery times.</bdi><ol type="a">
-<li><bdi dir="ltr">strategically</bdi></li>
-<li><bdi dir="ltr">sizzling</bdi></li>
-<li><bdi dir="ltr">UNESCO</bdi></li>
-<li><bdi dir="ltr">drought</bdi></li>
-</ol></li>
 </ol></div>
+</div>
+</div>
 </section>
 <section class="dictation">
 <h2 class="section-title">الإملاء</h2>
@@ -6961,7 +5179,7 @@ It is important <b>to arrive</b> on time.
 <li><strong><bdi dir="ltr">amount</bdi></strong> — <bdi dir="ltr">amont, amount</bdi></li>
 </ul>
 </section>
-<section class="grammar-lesson">
+<div class="grammar-flex"><div class="grammar-col lesson-col"><section class="grammar-lesson">
 <h2 class="section-title">درس القواعد</h2>
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
@@ -7344,7 +5562,7 @@ It is important <b>to arrive</b> on time.
 </html>
 
 </section>
-<section class="grammar-test">
+</div><div class="grammar-col test-col"><section class="grammar-test">
 <h2 class="section-title">اختبار القواعد</h2>
 <ol>
 <li><bdi dir="ltr">Bilal hasn&#x27;t read ______ the book to understand the story.</bdi><ol type="a">
@@ -7467,129 +5685,9 @@ It is important <b>to arrive</b> on time.
 <li><bdi dir="ltr">don&#x27;t finish</bdi></li>
 <li><bdi dir="ltr">wasn&#x27;t finish</bdi></li>
 </ol></li>
-<li><bdi dir="ltr">She said that she ____ tired.</bdi><ol type="a">
-<li><bdi dir="ltr">is</bdi></li>
-<li><bdi dir="ltr">was</bdi></li>
-<li><bdi dir="ltr">has been</bdi></li>
-<li><bdi dir="ltr">will be</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">If I ____ you, I would apologize.</bdi><ol type="a">
-<li><bdi dir="ltr">am</bdi></li>
-<li><bdi dir="ltr">was</bdi></li>
-<li><bdi dir="ltr">were</bdi></li>
-<li><bdi dir="ltr">be</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">If he had studied, he ____ the exam.</bdi><ol type="a">
-<li><bdi dir="ltr">passes</bdi></li>
-<li><bdi dir="ltr">will pass</bdi></li>
-<li><bdi dir="ltr">would pass</bdi></li>
-<li><bdi dir="ltr">would have passed</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">You ____ smoke here. It&#x27;s a hospital.</bdi><ol type="a">
-<li><bdi dir="ltr">mustn&#x27;t</bdi></li>
-<li><bdi dir="ltr">needn&#x27;t</bdi></li>
-<li><bdi dir="ltr">should</bdi></li>
-<li><bdi dir="ltr">can</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I had my car ____ yesterday.</bdi><ol type="a">
-<li><bdi dir="ltr">repair</bdi></li>
-<li><bdi dir="ltr">repaired</bdi></li>
-<li><bdi dir="ltr">repairing</bdi></li>
-<li><bdi dir="ltr">to repair</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I would rather ____ at home tonight.</bdi><ol type="a">
-<li><bdi dir="ltr">stay</bdi></li>
-<li><bdi dir="ltr">staying</bdi></li>
-<li><bdi dir="ltr">to stay</bdi></li>
-<li><bdi dir="ltr">stayed</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I wish I ____ more money.</bdi><ol type="a">
-<li><bdi dir="ltr">have</bdi></li>
-<li><bdi dir="ltr">had</bdi></li>
-<li><bdi dir="ltr">will have</bdi></li>
-<li><bdi dir="ltr">having</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Do you know where ____?</bdi><ol type="a">
-<li><bdi dir="ltr">is the bank</bdi></li>
-<li><bdi dir="ltr">the bank is</bdi></li>
-<li><bdi dir="ltr">the bank</bdi></li>
-<li><bdi dir="ltr">bank is</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She prefers walking ____ driving.</bdi><ol type="a">
-<li><bdi dir="ltr">than</bdi></li>
-<li><bdi dir="ltr">to</bdi></li>
-<li><bdi dir="ltr">from</bdi></li>
-<li><bdi dir="ltr">for</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">You&#x27;d better ____ now, or you&#x27;ll miss the bus.</bdi><ol type="a">
-<li><bdi dir="ltr">leave</bdi></li>
-<li><bdi dir="ltr">leaving</bdi></li>
-<li><bdi dir="ltr">to leave</bdi></li>
-<li><bdi dir="ltr">left</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">He denied ____ the money.</bdi><ol type="a">
-<li><bdi dir="ltr">take</bdi></li>
-<li><bdi dir="ltr">to take</bdi></li>
-<li><bdi dir="ltr">taking</bdi></li>
-<li><bdi dir="ltr">took</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">If water boils, it ____ into steam.</bdi><ol type="a">
-<li><bdi dir="ltr">turn</bdi></li>
-<li><bdi dir="ltr">turns</bdi></li>
-<li><bdi dir="ltr">turned</bdi></li>
-<li><bdi dir="ltr">will turn</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The teacher asked the students ____ quiet.</bdi><ol type="a">
-<li><bdi dir="ltr">be</bdi></li>
-<li><bdi dir="ltr">to be</bdi></li>
-<li><bdi dir="ltr">being</bdi></li>
-<li><bdi dir="ltr">been</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">She is not ____ to drive yet.</bdi><ol type="a">
-<li><bdi dir="ltr">enough old</bdi></li>
-<li><bdi dir="ltr">old enough</bdi></li>
-<li><bdi dir="ltr">too old</bdi></li>
-<li><bdi dir="ltr">very old</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Neither Ali nor Sami ____ here.</bdi><ol type="a">
-<li><bdi dir="ltr">is</bdi></li>
-<li><bdi dir="ltr">are</bdi></li>
-<li><bdi dir="ltr">be</bdi></li>
-<li><bdi dir="ltr">were</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">I saw ____ cat. ____ cat was black.</bdi><ol type="a">
-<li><bdi dir="ltr">a, The</bdi></li>
-<li><bdi dir="ltr">the, A</bdi></li>
-<li><bdi dir="ltr">a, A</bdi></li>
-<li><bdi dir="ltr">the, The</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">You are a student, ____?</bdi><ol type="a">
-<li><bdi dir="ltr">aren&#x27;t you?</bdi></li>
-<li><bdi dir="ltr">isn&#x27;t it?</bdi></li>
-<li><bdi dir="ltr">don&#x27;t you?</bdi></li>
-<li><bdi dir="ltr">you are?</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">Give me ____ pen, please. This one is broken.</bdi><ol type="a">
-<li><bdi dir="ltr">other</bdi></li>
-<li><bdi dir="ltr">another</bdi></li>
-<li><bdi dir="ltr">others</bdi></li>
-<li><bdi dir="ltr">the others</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">It was ____ a beautiful day that we went to the beach.</bdi><ol type="a">
-<li><bdi dir="ltr">so</bdi></li>
-<li><bdi dir="ltr">such</bdi></li>
-<li><bdi dir="ltr">very</bdi></li>
-<li><bdi dir="ltr">too</bdi></li>
-</ol></li>
-<li><bdi dir="ltr">The concert starts ____ 7 p.m.</bdi><ol type="a">
-<li><bdi dir="ltr">in</bdi></li>
-<li><bdi dir="ltr">on</bdi></li>
-<li><bdi dir="ltr">at</bdi></li>
-<li><bdi dir="ltr">from</bdi></li>
-</ol></li>
 </ol>
 </section>
-</div><section class="compilations"></section><section class="glossary"><h2 class="section-title">مسرد الكلمات</h2><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody><tr><td>1</td><td class="en" lang="en">advertise</td><td class="ar">يعلن</td></tr>
+</div></div></div><section class="compilations"></section><section class="glossary"><h2 class="section-title">مسرد الكلمات</h2><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody><tr><td>1</td><td class="en" lang="en">advertise</td><td class="ar">يعلن</td></tr>
 <tr><td>2</td><td class="en" lang="en">traditional</td><td class="ar">تقليدي</td></tr>
 <tr><td>3</td><td class="en" lang="en">statistics</td><td class="ar">إحصائيات</td></tr>
 <tr><td>4</td><td class="en" lang="en">attention</td><td class="ar">انتباه</td></tr>
