@@ -8,10 +8,11 @@ def load_json(path):
 def escape(txt):
     return html_mod.escape(str(txt)) if txt else ""
 
-def txt):
+def wrap_en(txt):
     if not txt:
         return ""
-    return f'<bdo dir="ltr">{txt}</bdo>'
+    # نستخدم span بسيط بدون bdo وسيتولى CSS مهمة الاتجاه
+    return f'<span class="ltr-text">{txt}</span>'
 
 def build_reading(day_num):
     r = load_json(f"content/day-{day_num:02d}/reading.json")
@@ -25,15 +26,15 @@ def build_reading(day_num):
         text = escape(p.get("text", "")).replace("\n", "<br>")
         questions = p.get("questions", [])
         sec += f'<article class="passage"><h3>{title}</h3>\n'
-        sec += f'<div class="passage-text"><bdo dir="ltr">{text}</bdo></div>\n'
+        sec += f'<div class="passage-text">{text}</div>\n'
         if questions:
             sec += '<div class="questions"><h4>أسئلة الفهم</h4><ol>\n'
             for q in questions:
                 q_text = escape(q.get("q", ""))
                 opts = q.get("options", [])
-                sec += f'<li>{q_text}<ol type="a">\n'
+                sec += f'<li>{wrap_en(q_text)}<ol type="a">\n'
                 for opt in opts:
-                    sec += f'<li>{escape(opt)}</li>\n'
+                    sec += f'<li>{wrap_en(escape(opt))}</li>\n'
                 sec += '</ol></li>\n'
             sec += '</ol></div>\n'
         sec += '</article>\n'
@@ -50,7 +51,7 @@ def build_vocab(day_num):
         for i, w in enumerate(words):
             eng = escape(w.get("english",""))
             ara = escape(w.get("arabic",""))
-            table_rows += f'<tr><td>{i+1}</td><td class="en" dir="ltr" style="text-align: left;">{eng}</td><td class="ar">{ara}</td></tr>\n'
+            table_rows += f'<tr><td>{i+1}</td><td class="en">{eng}</td><td class="ar">{ara}</td></tr>\n'
         table = f'<div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>{table_rows}</tbody></table></div>'
         
         all_questions = [w.get("question") for w in words if w.get("question")]
@@ -61,9 +62,9 @@ def build_vocab(day_num):
             for q in all_questions:
                 q_text = escape(q.get("q", ""))
                 opts = q.get("options", [])
-                questions_html += f'<li>{q_text}<ol type="a">\n'
+                questions_html += f'<li>{wrap_en(q_text)}<ol type="a">\n'
                 for opt in opts:
-                    questions_html += f'<li>{escape(opt)}</li>\n'
+                    questions_html += f'<li>{wrap_en(escape(opt))}</li>\n'
                 questions_html += '</ol></li>\n'
             questions_html += '</ol></div>\n'
         
@@ -87,9 +88,9 @@ def build_dictation(day_num):
         if isinstance(w, dict):
             correct = escape(w.get("correct", ""))
             opts = w.get("options", [])
-            sec += f'<li><strong>{correct}</strong> — {", ".join(opts)}</li>\n'
+            sec += f'<li><strong>{wrap_en(correct)}</strong> — {wrap_en(", ".join(opts))}</li>\n'
         else:
-            sec += f'<li>{escape(w)}</li>\n'
+            sec += f'<li>{wrap_en(escape(w))}</li>\n'
     sec += '</ul>\n</section>\n'
     return sec
 
@@ -110,9 +111,9 @@ def build_grammar_test(day_num):
     for q in questions:
         q_text = escape(q.get("q", ""))
         opts = q.get("options", [])
-        sec += f'<li>{q_text}<ol type="a">\n'
+        sec += f'<li>{wrap_en(q_text)}<ol type="a">\n'
         for opt in opts:
-            sec += f'<li>{escape(opt)}</li>\n'
+            sec += f'<li>{wrap_en(escape(opt))}</li>\n'
         sec += '</ol></li>\n'
     sec += '</ol>\n</section>\n'
     return sec
@@ -126,9 +127,9 @@ def build_compilation(i):
     for q in questions:
         q_text = escape(q.get("q", ""))
         opts = q.get("options", [])
-        sec += f'<li>{q_text}<ol type="a">\n'
+        sec += f'<li>{wrap_en(q_text)}<ol type="a">\n'
         for opt in opts:
-            sec += f'<li>{escape(opt)}</li>\n'
+            sec += f'<li>{wrap_en(escape(opt))}</li>\n'
         sec += '</ol></li>\n'
     sec += '</ol>\n</section>\n'
     return sec
@@ -147,7 +148,7 @@ def build_glossary():
         if eng not in seen:
             seen.add(eng)
             idx += 1
-            rows += f'<tr><td>{idx}</td><td class="en" lang="en">{escape(eng)}</td><td class="ar">{escape(w.get("arabic",""))}</td></tr>\n'
+            rows += f'<tr><td>{idx}</td><td class="en">{escape(eng)}</td><td class="ar">{escape(w.get("arabic",""))}</td></tr>\n'
     return f'<section class="glossary"><h2 class="section-title">مسرد الكلمات</h2><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>{rows}</tbody></table></section>'
 
 def get_reading_title(day_num):
@@ -178,11 +179,13 @@ for d in range(1, 8):
 
 day_titles = [get_reading_title(d) for d in range(1, 8)]
 
+# ---------- المقدمة بالإنجليزية مع الإهداء ----------
 intro_text = """
 <h2>Welcome to the APNE-ITC Comprehensive Guide</h2>
 <p>This book is the fruit of extensive effort and dedication, designed to provide you with the most effective preparation for the <strong>APNE-ITC</strong> exam. Every section has been carefully crafted to ensure you master the required skills in reading, vocabulary, grammar, and dictation.</p>
 <p>Over seven intensive days, with two hours of study per day, you will progress step by step through real exam materials, practical exercises, and full mock tests. The content is drawn from authentic sources and organized in a clear, logical sequence.</p>
 <p>My goal is to make your learning journey as smooth and successful as possible. May this book be a key to your success, and may your hard work bring you the results you deserve.</p>
+<p><em>To the light of my life, my first teacher, my father.</em></p>
 
 <div style="text-align:left; margin-top:3rem;">
     <strong>Author & Instructor</strong><br>
@@ -190,13 +193,8 @@ intro_text = """
 </div>
 """
 
-html = '''<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>APNE-ITC Master Guide – Al-Reyadah Training Institute</title>
-<style>
+# ---------- CSS المتكامل من Claude ----------
+style = '''
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;500;600;700&family=Amiri:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
@@ -218,7 +216,6 @@ body {
   padding: 2rem 1rem;
 }
 
-/* ── Print button ─────────────────────────────── */
 .print-btn {
   position: fixed; top: 20px; right: 20px; z-index: 999;
   background: var(--primary); color: white; border: none;
@@ -229,7 +226,6 @@ body {
 }
 .print-btn:hover { background: #00264d; transform: translateY(-2px); }
 
-/* ── Book wrapper ─────────────────────────────── */
 .book {
   max-width: 1100px; margin: 0 auto;
   background: var(--paper);
@@ -237,7 +233,6 @@ body {
   border-radius: 4px; padding: 3rem 3.5rem; position: relative;
 }
 
-/* ── Cover ────────────────────────────────────── */
 .cover {
   text-align: center; margin-bottom: 3rem; page-break-after: always;
   background: linear-gradient(135deg,#f9f9f9,#fff);
@@ -256,7 +251,6 @@ body {
 .cover .author { font-size: 1.3rem; margin-top: 3rem; color: #444; direction: ltr; }
 .cover .contact { font-size: 1rem; color: #777; margin-top: .5rem; }
 
-/* ── Section titles (Arabic) ──────────────────── */
 .section-title {
   font-size: 2rem; color: var(--primary);
   border-bottom: 3px solid var(--primary);
@@ -265,16 +259,13 @@ body {
   font-family: 'Cairo', sans-serif;
 }
 
-/* ── Passages ─────────────────────────────────── */
 article.passage { margin-bottom: 2.5rem; }
-
 article.passage h3 {
   direction: ltr; text-align: left;
   font-family: 'Inter', sans-serif;
   font-size: 1.4rem; font-weight: 700; color: var(--primary);
   margin: .5rem 0 1rem;
 }
-
 .passage-text {
   background: #f9f9f6; padding: 1.4rem 1.5rem;
   border-left: 5px solid var(--accent);
@@ -285,7 +276,6 @@ article.passage h3 {
   font-size: .97rem; line-height: 1.9;
 }
 
-/* ── Questions ────────────────────────────────── */
 .questions { margin-top: 1.5rem; }
 .questions h4 {
   direction: rtl; text-align: right;
@@ -311,7 +301,6 @@ article.passage h3 {
 }
 .questions ol[type="a"] li { padding-left: 0; margin-bottom: .3rem; }
 
-/* ── VOCABULARY: 2-col grid ───────────────────── */
 .vocab-flex {
   display: grid !important;
   grid-template-columns: 1fr 1fr !important;
@@ -367,7 +356,6 @@ table.word-table td.ar {
   list-style: lower-alpha; padding-left: 1.2rem; margin-top: .25rem;
 }
 
-/* ── GRAMMAR: 2-col grid ──────────────────────── */
 .grammar-flex {
   display: grid !important;
   grid-template-columns: 1fr 1fr !important;
@@ -384,7 +372,6 @@ table.word-table td.ar {
 }
 .test-col { padding-right: 0 !important; padding-left: .5rem; }
 
-/* Grammar lesson inner */
 .grammar-lesson {
   font-family: 'Inter', sans-serif; font-size: .88rem;
   border: none !important; background: transparent !important;
@@ -415,7 +402,6 @@ table.word-table td.ar {
   border-bottom: 1px solid #e0e8f5;
   background: #fafcff;
 }
-/* Nested container cleanup */
 .grammar-lesson .container,
 .grammar-lesson .page {
   padding: 0 !important; box-shadow: none !important;
@@ -427,7 +413,6 @@ table.word-table td.ar {
   display: none;
 }
 
-/* Grammar test */
 .grammar-test h2.section-title {
   direction: rtl; text-align: right; font-family: 'Cairo', sans-serif;
 }
@@ -441,7 +426,6 @@ table.word-table td.ar {
   list-style: lower-alpha; padding-left: 1.2rem; margin-top: .25rem;
 }
 
-/* ── Dictation ────────────────────────────────── */
 .dictation ul {
   list-style: none; padding: 0;
   direction: ltr; text-align: left;
@@ -452,13 +436,11 @@ table.word-table td.ar {
 }
 .dictation ul li strong { color: var(--primary); font-weight: 700; }
 
-/* ── Syllabus ─────────────────────────────────── */
 .syllabus table.word-table th,
 .syllabus table.word-table td {
   text-align: center; font-family: 'Cairo', sans-serif;
 }
 
-/* ── Glossary ─────────────────────────────────── */
 .glossary table.word-table td:nth-child(2) {
   direction: ltr; text-align: left; font-family: 'Inter', sans-serif;
 }
@@ -466,7 +448,6 @@ table.word-table td.ar {
   direction: rtl; text-align: right; font-family: 'Cairo', sans-serif;
 }
 
-/* ── References / footer ──────────────────────── */
 .references p, .footer-note p {
   direction: rtl; text-align: right; font-family: 'Cairo', sans-serif;
 }
@@ -477,7 +458,11 @@ table.word-table td.ar {
   direction: ltr; text-align: left; font-family: 'Inter', sans-serif;
 }
 
-/* ── Responsive ───────────────────────────────── */
+.ltr-text {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
 @media (max-width: 900px) {
   .vocab-flex, .grammar-flex {
     grid-template-columns: 1fr !important;
@@ -505,24 +490,33 @@ table.word-table td.ar {
   .book { box-shadow: none; border-radius: 0; padding: 2cm; max-width: 100%; }
   .print-btn { display: none; }
   .word-table-wrap { max-height: none; overflow: visible; }
-  @page { margin: 1.5cm; @bottom-center { content: counter(page); font-family: 'Cairo'; } }
+  @page { margin: 1.5cm; @bottom-center { content: counter(page); font-family: 'Cairo'; font-size: 11px; } }
   .section-title { page-break-before: always; }
   .cover { page-break-after: always; }
   .vocab-flex, .grammar-flex { grid-template-columns: 1fr 1fr !important; }
   .lesson-col { border-right: 1px solid #ccc; }
 }
-</style>
+'''
+
+html = f'''<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APNE-ITC Master Guide – Al-Reyadah Training Institute</title>
+<style>{style}</style>
 </head>
 <body>
 <button class="print-btn" onclick="window.print()">🖨️ طباعة / PDF</button>
 <div class="book">
 '''
 
+# غلاف باسم English Zone Team فقط
 html += '<div class="cover">'
 html += '<img src="assets/images/reyadah-logo.png" alt="Reyadah Logo" class="logo" width="180">'
 html += '<h1>APNE-ITC Master Guide</h1>'
 html += '<p class="subtitle">The Ultimate Preparation Course<br>by Al-Reyadah Training Institute</p>'
-html += '<p class="author"><strong>English Zone Team</strong><br>English Zone Team</p>'
+html += '<p class="author"><strong>English Zone Team</strong></p>'
 html += '<p class="contact">📞 0546088130 | 0548775199</p>'
 html += '</div>'
 
