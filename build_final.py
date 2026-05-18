@@ -337,7 +337,7 @@ html += '<div class="cover">'
 html += '<img src="assets/images/reyadah-logo.png" alt="Reyadah Logo" class="logo" width="180">'
 html += '<h1>APNE-ITC Master Guide</h1>'
 html += '<p class="subtitle">The Ultimate Preparation Course<br>by Al-Reyadah Training Institute</p>'
-html += '<p class="author"><strong>Anas Abdulrahman</strong><br>Instructor & Author</p>'
+html += '<p class="author"><strong>Anas Abdulrahman</strong><br>English Zone Team</p>'
 html += '<p class="contact">📞 0546088130 | 0548775199</p>'
 html += '</div>'
 
