@@ -30,6 +30,14 @@ body { font-family: 'Cairo', sans-serif; background: #f5f7fb; padding: 1.5rem; c
 .dictation-word { display: inline-block; background: #eef2ff; padding: 0.4rem 1.2rem; border-radius: 20px; margin: 0.3rem; font-family: 'Inter', sans-serif; }
 .correct-word { font-weight: bold; color: #0071e3; background: #e6f0ff; }
 @media (max-width: 768px) { .container { padding: 1rem; } .header h1 { font-size: 1.6rem; } .section-title { font-size: 1.3rem; } }
+
+  .ans-correct, .ans-wrong, .ans-tip { display: none; }
+  .q-card.revealed .ans-correct,
+  .q-card.revealed .ans-wrong,
+  .q-card.revealed .ans-tip { display: block; }
+  .opt { cursor: pointer; user-select: none; }
+  .opt:hover { background: #e2e8f0; }
+
 </style>
 </head>
 <body>
@@ -161,5 +169,22 @@ body { font-family: 'Cairo', sans-serif; background: #f5f7fb; padding: 1.5rem; c
     <p>👨‍🏫 مع تمنياتي لكم بالتوفيق – أ. أنس عبدالرحمن</p>
   </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const cards = document.querySelectorAll('.q-card');
+  cards.forEach(card => {
+    const opts = card.querySelectorAll('.opt');
+    opts.forEach(opt => {
+      opt.addEventListener('click', function() {
+        // إذا تم الكشف مسبقاً، لا تفعل شيئاً
+        if (card.classList.contains('revealed')) return;
+        card.classList.add('revealed');
+      });
+    });
+  });
+});
+</script>
+
 </body>
 </html>
