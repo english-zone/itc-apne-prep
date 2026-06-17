@@ -3,446 +3,215 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>جلسة البث المباشر – APNE-ITC English</title>
+<title>APNE-ITC English Preparation – Live Session</title>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --primary: #0b2b4f;
-    --accent: #0071e3;
-    --green: #16a34a;
-    --green-light: #dcfce7;
-    --red: #dc2626;
-    --red-light: #fee2e2;
-    --gold: #d97706;
-    --gold-light: #fef3c7;
-    --gray: #64748b;
-    --border: #e2e8f0;
-    --bg: #f8fafc;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: 'Cairo', sans-serif;
-    background: var(--bg);
-    color: #1e293b;
-    line-height: 1.8;
-  }
+:root {
+  --primary: #0b2b4f; --accent: #0071e3;
+  --green: #16a34a; --green-light: #dcfce7;
+  --red: #dc2626; --red-light: #fee2e2;
+  --gold: #d97706; --gold-light: #fef3c7;
+  --gray: #64748b; --border: #e2e8f0; --bg: #f8fafc;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Cairo', sans-serif; background: var(--bg);
+  color: #1e293b; line-height: 1.8; direction: rtl;
+}
 
-  .hero {
-    background: linear-gradient(135deg, #0b2b4f 0%, #1a4a8a 60%, #0071e3 100%);
-    color: white;
-    text-align: center;
-    padding: 3rem 2rem 2.5rem;
-  }
-  .hero-badge {
-    display: inline-block;
-    background: rgba(255,255,255,0.15);
-    border: 1px solid rgba(255,255,255,0.3);
-    border-radius: 999px;
-    padding: 0.3rem 1.2rem;
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
-    letter-spacing: 0.05em;
-  }
-  .hero h1 { font-size: 2.4rem; font-weight: 900; margin-bottom: 0.4rem; }
-  .hero .sub { font-size: 1.1rem; opacity: 0.85; }
-  .hero .meta { margin-top: 1.2rem; display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; }
-  .hero .meta span {
-    background: rgba(255,255,255,0.12);
-    border-radius: 10px;
-    padding: 0.4rem 1rem;
-    font-size: 0.9rem;
-  }
+/* ====== HEADER ====== */
+.hero {
+  background: linear-gradient(135deg, #0b2b4f 0%, #1a4a8a 60%, #0071e3 100%);
+  color: white; text-align: center; padding: 3rem 2rem 2.5rem;
+}
+.hero img { height: 60px; margin-bottom: 1rem; }
+.hero h1 { font-size: 2.4rem; font-weight: 900; margin-bottom: 0.4rem; }
+.hero .sub { font-size: 1.1rem; opacity: 0.85; margin-bottom: 1rem; }
+.hero .contact { color: rgba(255,255,255,0.9); margin: 0.5rem 0; font-size: 0.95rem; }
+.hero .meta { margin-top: 1.2rem; display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; }
+.hero .meta span { background: rgba(255,255,255,0.12); border-radius: 10px; padding: 0.4rem 1rem; font-size: 0.9rem; }
 
-  .container { max-width: 1050px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+/* ====== CONTAINER ====== */
+.container { max-width: 1050px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
 
-  .sec-title {
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary);
-    margin: 3rem 0 1.5rem;
-    padding-bottom: 0.8rem;
-    border-bottom: 2px solid var(--border);
-  }
-  .sec-title .icon {
-    width: 42px; height: 42px;
-    background: #e8f1fd;
-    border-radius: 10px;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 1.3rem;
-  }
+/* ====== SECTION TITLES ====== */
+.sec-title {
+  display: flex; align-items: center; gap: 0.8rem;
+  font-size: 1.5rem; font-weight: 700; color: var(--primary);
+  margin: 3rem 0 1.5rem; padding-bottom: 0.8rem;
+  border-bottom: 2px solid var(--border);
+  direction: rtl; text-align: right;
+}
+.sec-title .icon {
+  width: 42px; height: 42px; background: #e8f1fd;
+  border-radius: 10px; display: flex; align-items: center; justify-content: center;
+  font-size: 1.3rem;
+}
 
-  .passage-box {
-    background: white;
-    border-radius: 16px;
-    border: 1px solid var(--border);
-    overflow: hidden;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
-    margin-bottom: 1.5rem;
-  }
-  .passage-header {
-    background: var(--primary);
-    color: white;
-    padding: 1rem 1.5rem;
-    font-size: 1.1rem;
-    font-weight: 700;
-  }
-  .passage-body {
-    padding: 1.5rem;
-    font-family: 'Inter', sans-serif;
-    direction: ltr;
-    text-align: left;
-    line-height: 2;
-    font-size: 0.97rem;
-    color: #334155;
-  }
+/* ====== PASSAGE (LTR) ====== */
+.passage-box {
+  background: white; border-radius: 16px; border: 1px solid var(--border);
+  overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  margin-bottom: 1.5rem; direction: ltr; text-align: left;
+}
+.passage-header {
+  background: var(--primary); color: white;
+  padding: 1rem 1.5rem; font-size: 1.1rem; font-weight: 700;
+  direction: ltr; text-align: left; font-family: 'Inter', sans-serif;
+}
+.passage-body {
+  padding: 1.5rem; font-family: 'Inter', sans-serif;
+  line-height: 2; font-size: 0.97rem; color: #334155;
+  direction: ltr; text-align: left; unicode-bidi: isolate;
+}
 
-  .q-card {
-    background: white;
-    border-radius: 16px;
-    border: 1px solid var(--border);
-    padding: 1.5rem;
-    margin: 1.2rem 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-  }
-  .q-num {
-    display: inline-flex;
-    align-items: center; justify-content: center;
-    width: 30px; height: 30px;
-    background: var(--accent);
-    color: white;
-    border-radius: 50%;
-    font-size: 0.9rem;
-    font-weight: 700;
-    margin-left: 0.6rem;
-  }
-  .q-text { font-size: 1.05rem; font-weight: 600; color: var(--primary); margin-bottom: 1rem; }
-  .options { display: grid; gap: 0.5rem; margin: 0.8rem 0 1rem; }
-  .opt {
-    font-family: 'Inter', sans-serif;
-    direction: ltr; text-align: left;
-    padding: 0.6rem 1rem;
-    border-radius: 8px;
-    background: #f1f5f9;
-    border: 1px solid #e2e8f0;
-    font-size: 0.95rem;
-    color: #334155;
-    cursor: pointer;
-    user-select: none;
-    transition: background 0.2s;
-  }
-  .opt:hover { background: #e2e8f0; }
-  .opt.correct { background: var(--green-light); border-color: var(--green); color: #14532d; font-weight: 600; display: none; }
+/* ====== QUESTION CARDS ====== */
+.q-card {
+  background: white; border-radius: 16px; border: 1px solid var(--border);
+  padding: 1.5rem; margin: 1.2rem 0; box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  direction: rtl; text-align: right;
+}
+.q-num {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 30px; height: 30px; background: var(--accent); color: white;
+  border-radius: 50%; font-size: 0.9rem; font-weight: 700;
+  margin-left: 0.6rem;
+}
+.q-text { font-size: 1.05rem; font-weight: 600; color: var(--primary); margin-bottom: 1rem; }
+.options {
+  display: grid; gap: 0.5rem; margin: 0.8rem 0 1rem;
+  direction: ltr; text-align: left;
+}
+.opt {
+  font-family: 'Inter', sans-serif; direction: ltr; text-align: left;
+  padding: 0.6rem 1rem; border-radius: 8px;
+  background: #f1f5f9; border: 1px solid #e2e8f0;
+  font-size: 0.95rem; color: #334155;
+  cursor: pointer; user-select: none; transition: background 0.2s;
+  unicode-bidi: isolate;
+}
+.opt:hover { background: #e2e8f0; }
+.opt.correct {
+  background: var(--green-light); border-color: var(--green);
+  color: #14532d; font-weight: 600; display: none;
+}
 .q-card.revealed .opt.correct { display: block; }
-  .q-card.revealed .opt.correct { display: block; }
 
-  .ans-correct {
-    background: var(--green-light);
-    border-right: 4px solid var(--green);
-    border-radius: 10px;
-    padding: 0.8rem 1rem;
-    margin-top: 0.8rem;
-    font-size: 0.95rem;
-    color: #14532d;
-    display: none;
-  }
-  .q-card.revealed .ans-correct { display: block; }
-  .ans-wrong {
-    background: var(--red-light);
-    border-right: 4px solid var(--red);
-    border-radius: 10px;
-    padding: 0.8rem 1rem;
-    margin-top: 0.5rem;
-    font-size: 0.9rem;
-    color: #7f1d1d;
-    display: none;
-  }
-  .q-card.revealed .ans-wrong { display: block; }
-  .ans-tip {
-    background: var(--gold-light);
-    border-right: 4px solid var(--gold);
-    border-radius: 10px;
-    padding: 0.8rem 1rem;
-    margin-top: 0.5rem;
-    font-size: 0.9rem;
-    color: #78350f;
-    display: none;
-  }
-  .q-card.revealed .ans-tip { display: block; }
+.ans-correct {
+  background: var(--green-light); border-right: 4px solid var(--green);
+  border-radius: 10px; padding: 0.8rem 1rem; margin-top: 0.8rem;
+  font-size: 0.95rem; color: #14532d; display: none;
+  direction: rtl; text-align: right;
+}
+.q-card.revealed .ans-correct { display: block; }
+.ans-wrong {
+  background: var(--red-light); border-right: 4px solid var(--red);
+  border-radius: 10px; padding: 0.8rem 1rem; margin-top: 0.5rem;
+  font-size: 0.9rem; color: #7f1d1d; display: none;
+  direction: rtl; text-align: right;
+}
+.q-card.revealed .ans-wrong { display: block; }
+.ans-tip {
+  background: var(--gold-light); border-right: 4px solid var(--gold);
+  border-radius: 10px; padding: 0.8rem 1rem; margin-top: 0.5rem;
+  font-size: 0.9rem; color: #78350f; display: none;
+  direction: rtl; text-align: right;
+}
+.q-card.revealed .ans-tip { display: block; }
 
-  .dict-grid { display: flex; flex-wrap: wrap; gap: 0.8rem; margin: 1rem 0; }
-  .dict-item {
-    background: white;
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 0.8rem 1.2rem;
-    font-family: 'Inter', sans-serif;
-    direction: ltr;
-    text-align: center;
-    min-width: 160px;
-  }
-  .dict-item .correct-spelling {
-    font-size: 1.1rem; font-weight: 700; color: var(--accent);
-    display: block; margin-bottom: 0.3rem;
-  }
-  .dict-item .wrong-spellings { font-size: 0.8rem; color: var(--gray); text-decoration: line-through; }
+/* ====== DICTATION ====== */
+.dict-grid { display: flex; flex-wrap: wrap; gap: 0.8rem; margin: 1rem 0; }
+.dict-item {
+  background: white; border: 1px solid var(--border);
+  border-radius: 12px; padding: 0.8rem 1.2rem;
+  font-family: 'Inter', sans-serif;
+  direction: ltr; text-align: left; unicode-bidi: isolate;
+  min-width: 160px;
+}
+.dict-item .correct-spelling {
+  font-size: 1.1rem; font-weight: 700; color: var(--accent);
+  display: block; margin-bottom: 0.3rem;
+}
+.dict-item .wrong-spellings { font-size: 0.8rem; color: var(--gray); text-decoration: line-through; }
 
-  .tips-box {
-    background: linear-gradient(135deg, #0b2b4f, #1a4a8a);
-    color: white;
-    border-radius: 20px;
-    padding: 2rem;
-    margin-top: 3rem;
-    text-align: center;
-  }
-  .tips-box h3 { font-size: 1.3rem; margin-bottom: 1rem; }
-  .tips-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem; }
-  .tip-item {
-    background: rgba(255,255,255,0.1);
-    border-radius: 12px;
-    padding: 1rem;
-    font-size: 0.9rem;
-  }
-  .tip-item .tip-icon { font-size: 1.5rem; display: block; margin-bottom: 0.4rem; }
+/* ====== TIPS ====== */
+.tips-box {
+  background: linear-gradient(135deg, #0b2b4f, #1a4a8a);
+  color: white; border-radius: 20px;
+  padding: 2rem; margin-top: 3rem; text-align: center;
+  direction: rtl;
+}
+.tips-box h3 { font-size: 1.3rem; margin-bottom: 1rem; }
+.tips-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.tip-item { background: rgba(255,255,255,0.1); border-radius: 12px; padding: 1rem; font-size: 0.9rem; }
+.tip-item .tip-icon { font-size: 1.5rem; display: block; margin-bottom: 0.4rem; }
 
-  @media (max-width: 600px) {
-    .hero h1 { font-size: 1.6rem; }
-    .sec-title { font-size: 1.2rem; }
-  }
-
+/* ====== PRINT ====== */
+.print-btn { text-align: center; margin: 2rem 0; }
+.print-btn button {
+  background: var(--accent); color: white; border: none;
+  padding: 0.8rem 2.5rem; font-size: 1.1rem;
+  border-radius: 50px; cursor: pointer; font-family: 'Cairo', sans-serif;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
 @media print {
-  .q-card { break-inside: avoid; }
-  .q-card.revealed .ans-correct,
-  .q-card.revealed .ans-wrong,
-  .q-card.revealed .ans-tip { display: block; }
+  .q-card.revealed .ans-correct, .q-card.revealed .ans-wrong, .q-card.revealed .ans-tip { display: block; }
   .q-card .opt.correct { display: block; }
-  button, .hero-badge, .hero .meta { display: none; }
+  .print-btn, .hero-badge, .hero .meta { display: none; }
   body { background: white; }
   @page { margin: 1.5cm; }
 }
 
+@media (max-width: 600px) {
+  .hero h1 { font-size: 1.6rem; }
+  .sec-title { font-size: 1.2rem; }
+}
 </style>
 </head>
 <body>
-
 <div class="hero">
-  
-  <img src="assets/images/reyadah-logo.png" alt="شعار معهد الريادة" style="height:60px; margin-bottom:1rem;" onerror="this.style.display='none'">
-  <p style="color: rgba(255,255,255,0.9); margin: 0.5rem 0; font-size: 0.95rem;">للتسجيل: <strong>0546088130</strong> – <strong>0548775199</strong></p>
-<div class="hero-badge">🎙️ LIVE SESSION – البث المباشر</div>
+  <img src="assets/images/reyadah-logo.png" alt="شعار معهد الريادة" onerror="this.style.display='none'">
+  <p class="contact">للتسجيل: <strong>0546088130</strong> – <strong>0548775199</strong></p>
   <h1>APNE-ITC English Preparation</h1>
-  <div class="sub">مع المدرب: أ. أنس عبدالرحمن &nbsp;|&nbsp; معهد الريادة للتدريب</div>
+  <div class="sub">مع المدرب: أ. أنس عبدالرحمن | معهد الريادة للتدريب</div>
   <div class="meta">
-    <span>📖 قراءة</span>
-    <span>📘 قواعد</span>
-    <span>🧠 مفردات</span>
-    <span>✍️ إملاء</span>
+    <span>📖 قراءة</span> <span>📘 قواعد</span> <span>🧠 مفردات</span> <span>✍️ إملاء</span>
   </div>
 </div>
 
 <div class="container">
 
+  <!-- READING -->
   <div class="sec-title"><div class="icon">📖</div> قسم القراءة – Reading Comprehension</div>
-
   <div class="passage-box">
-    <div class="passage-header">📄 Yellowstone National Park (Passage 2)</div>
+    <div class="passage-header">Yellowstone National Park (Passage 2)</div>
     <div class="passage-body">On September 8, 1978, UNESCO added the Yellowstone National Park to its list of World Heritage Sites. This addition was a recognition of the natural beauty of Yellowstone and its unique place in the history of environmental conservation. Yellowstone National Park is located in the northwest of the continental United States. Although its boundaries extend across three states: Wyoming, Montana, and Idaho, 96% of the park's 3,470 square miles lies within the state of Wyoming. Because the park is situated high up on the Yellowstone plateau, which forms part of the Rocky Mountain range, its average elevation is 2,400 meters above sea level. Yellowstone Lake, at 136 square miles, is the most significant body of water within the park and the largest high-altitude lake in North America.<br><br>Archaeological discoveries show that human habitation of the Yellowstone region dates back at least 11,000 years, to a time when Native Americans were fashioning weapons and tools from a flint-like stone called obsidian to hunt and fish in the area. However, Yellowstone's remoteness and inaccessibility meant that organized exploration of the area by Americans of European origin was not seriously attempted until the late 1860s, after the American Civil War. Reports from these early explorers describing the many natural wonders that they had encountered on their travels soon led to the recognition that Yellowstone was a very special place and should be valued and protected. And so, on March 1, 1872, United States President Ulysses S. Grant signed a law officially establishing Yellowstone as the world's very first National Park.<br><br>Among the most famous of Yellowstone's geological features are hundreds of geysers - jets of boiling water and steam that shoot up from the ground at regular intervals. Fully two-thirds of the world's geysers are found in Yellowstone. The most famous geyser in Yellowstone is named "Old Faithful" because it erupts every 90 minutes, without fail. Yellowstone experiences thousands of minor earthquakes each year, and, occasionally, major ones, such as the magnitude 7.5 earthquake that struck the region in 1959. And the reason for the unusually high level of geothermal activity? Yellowstone's natural beauty hides a terrifying secret: the park sits directly on top of one of the largest supervolcanoes on Earth. The good news is that, on average, the Yellowstone supervolcano only erupts once every 600,000 years; the bad news is that the last recorded eruption occurred approximately 600,000 years ago!<br><br>Yellowstone is thought to be the largest remaining intact ecosystem in the northern temperate zone. The park is home to nearly 2,000 species of trees, and many dozens of species of flowering plants, most of which flower during the summer months of May through September. Yellowstone is also blessed with a great variety of animal life, including bison, grizzly and black bears, moose, wolves, lynx, and cougars. Despite the rich variety of wildlife, however, many of Yellowstone's unique plant and animal species are endangered, either as a result of diseases, migration, or hunting by predators, including humans. Until fairly recently, forest fires were seen as a threat to be countered wherever possible. However, professional attitudes have shifted, and it is now recognized that wildfires are an integral part of the natural world, clearing the ground and promoting new, fresh growth.<br><br>Yellowstone is ranked among the most popular national parks in the United States, with over two million tourists visiting the park each year. During the peak summer season, the park employs over 4,500 people as part of a tourist infrastructure consisting of hotels and lodges offering a total of 2,500 rooms, a 500-kilometer road network, numerous visitor centers and museums, educational tours, camping grounds and hiking trails, and boating facilities on Yellowstone Lake. Visitor safety is a major concern for the Yellowstone National Park authorities; several tourists have died from injuries sustained as a result of attacks by bears, and an extensive network of paved trails has been constructed to protect walkers from the dangers posed by the park's geothermal features.</div>
   </div>
-
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">1</span> 20. According to paragraph 5, how many tourists visit Yellowstone each year?</div>
-    <div class="options"><div class="opt">A) 2,500</div><div class="opt">B) 500</div><div class="opt">C) over two million</div><div class="opt">D) 4,500</div></div>
-    <div class="ans-correct" data-correct="true">✅ <strong>الإجابة الصحيحة: over two million</strong> – النص يدعم هذا الخيار.</div>
-    <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة لأنها لا تتطابق مع محتوى القطعة.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">2</span> 21. In paragraph 2, fashioning means:</div>
-    <div class="options"><div class="opt">A) cooking</div><div class="opt">B) making</div><div class="opt">C) burying</div><div class="opt">D) liking</div></div>
-    <div class="ans-correct" data-correct="true">✅ <strong>الإجابة الصحيحة: making</strong> – النص يدعم هذا الخيار.</div>
-    <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة لأنها لا تتطابق مع محتوى القطعة.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">3</span> 22. According to paragraph 3,</div>
-    <div class="options"><div class="opt">A) Old Faithful was discovered in 1959</div><div class="opt">B) the supervolcano last erupted in 1959</div><div class="opt">C) Yellowstone experienced a major earthquake in 1959</div><div class="opt">D) Yellowstone's beauty has been top secret since 1959</div></div>
-    <div class="ans-correct" data-correct="true">✅ <strong>الإجابة الصحيحة: Yellowstone experienced a major earthquake in 1959</strong> – النص يدعم هذا الخيار.</div>
-    <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة لأنها لا تتطابق مع محتوى القطعة.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">4</span> 23. From reading paragraph 1, you can guess that</div>
-    <div class="options"><div class="opt">A) Wyoming is the largest of the three states</div><div class="opt">B) Yellowstone was not the first UNESCO site</div><div class="opt">C) the Rocky Mtns are the youngest on Earth</div><div class="opt">D) UNESCO was set up in 1978</div></div>
-    <div class="ans-correct" data-correct="true">✅ <strong>الإجابة الصحيحة: Yellowstone was not the first UNESCO site</strong> – النص يدعم هذا الخيار.</div>
-    <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة لأنها لا تتطابق مع محتوى القطعة.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">5</span> 24. In paragraph 4, wolves, bears, and cougars are examples of</div>
-    <div class="options"><div class="opt">A) animals living in Yellowstone</div><div class="opt">B) flowering plants</div><div class="opt">C) threats to be countered</div><div class="opt">D) wildfires</div></div>
-    <div class="ans-correct" data-correct="true">✅ <strong>الإجابة الصحيحة: animals living in Yellowstone</strong> – النص يدعم هذا الخيار.</div>
-    <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة لأنها لا تتطابق مع محتوى القطعة.</div>
-  </div><div class="sec-title"><div class="icon">📘</div> قسم القواعد – Grammar</div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">1</span> Some teachers ____ much homework.</div>
-    <div class="options"><div class="opt">A) give</div><div class="opt">B) gives</div><div class="opt">C) are give</div><div class="opt">D) is give</div></div>
-    <div class="ans-correct" data-correct="true">✅ <strong>الإجابة الصحيحة: give</strong><br>💬 'Some teachers' جمع، لذا الفعل 'give' بدون s.</div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة: لا تتوافق مع القاعدة.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">2</span> Ahmad and Rida ____ good friends.</div>
-    <div class="options"><div class="opt">A) be</div><div class="opt">B) is</div><div class="opt">C) are</div><div class="opt">D) does</div></div>
-    <div class="ans-correct" data-correct="true">✅ <strong>الإجابة الصحيحة: are</strong><br>💬 'Ahmad and Rida' جمع، نستخدم 'are'.</div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة: لا تتوافق مع القاعدة.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">3</span> Today, I ____ studying for my exam.</div>
-    <div class="options"><div class="opt">A) Am</div><div class="opt">B) Is</div><div class="opt">C) Are</div><div class="opt">D) None</div></div>
-    <div class="ans-correct" data-correct="true">✅ <strong>الإجابة الصحيحة: Am</strong><br>💬 تطبيق القاعدة النحوية المناسبة.</div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة: لا تتوافق مع القاعدة.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">4</span> Hurry! They ____ waiting for you.</div>
-    <div class="options"><div class="opt">A) 'm</div><div class="opt">B) 's</div><div class="opt">C) 'es</div><div class="opt">D) 're</div></div>
-    <div class="ans-correct" data-correct="true">✅ <strong>الإجابة الصحيحة: 're</strong><br>💬 تطبيق القاعدة النحوية المناسبة.</div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة: لا تتوافق مع القاعدة.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">5</span> I ____ my keys. I can't open the door.</div>
-    <div class="options"><div class="opt">A) have lost</div><div class="opt">B) lost</div><div class="opt">C) am losing</div><div class="opt">D) will lose</div></div>
-    <div class="ans-correct" data-correct="true">✅ <strong>الإجابة الصحيحة: have lost</strong><br>💬 تطبيق القاعدة النحوية المناسبة.</div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة: لا تتوافق مع القاعدة.</div>
-  </div><div class="sec-title"><div class="icon">🧠</div> قسم المفردات – Vocabulary</div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">1</span> The company decided to _______ their new product on television to reach more people.</div>
-    <div class="options"><div class="opt">A) advertise</div><div class="opt">B) ignore</div><div class="opt">C) hide</div><div class="opt">D) cancel</div></div>
-    <div class="ans-correct" data-correct="true">✅ <strong>الإجابة الصحيحة: advertise</strong><br>💬 'advertise' means to promote a product publicly. 'ignore' means pay no attention, 'hide' means conceal, and 'cancel' means call off.</div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة: لا تناسب المعنى المطلوب.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">2</span> Many people still prefer _______ methods of learning, such as reading books and attending lectures.</div>
-    <div class="options"><div class="opt">A) traditional</div><div class="opt">B) modern</div><div class="opt">C) digital</div><div class="opt">D) advanced</div></div>
-    <div class="ans-correct" data-correct="true">✅ <strong>الإجابة الصحيحة: traditional</strong><br>💬 'traditional' means old-style, long-established. 'modern' means current, 'digital' means electronic, 'advanced' means highly developed.</div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة: لا تناسب المعنى المطلوب.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">3</span> According to government _______, the population of the city increased by 20% last year.</div>
-    <div class="options"><div class="opt">A) statistics</div><div class="opt">B) stories</div><div class="opt">C) pictures</div><div class="opt">D) songs</div></div>
-    <div class="ans-correct" data-correct="true">✅ <strong>الإجابة الصحيحة: statistics</strong><br>💬 'statistics' are numerical facts or data. 'stories' are narratives, 'pictures' are images, 'songs' are musical compositions.</div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة: لا تناسب المعنى المطلوب.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">4</span> The teacher asked the students to pay _______ during the lesson.</div>
-    <div class="options"><div class="opt">A) attention</div><div class="opt">B) money</div><div class="opt">C) respect</div><div class="opt">D) time</div></div>
-    <div class="ans-correct" data-correct="true">✅ <strong>الإجابة الصحيحة: attention</strong><br>💬 'attention' means focus or concentration. 'money' is currency, 'respect' is admiration, 'time' is duration.</div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة: لا تناسب المعنى المطلوب.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">5</span> The lawyer needed more evidence to _______ that his client was innocent.</div>
-    <div class="options"><div class="opt">A) prove</div><div class="opt">B) hide</div><div class="opt">C) deny</div><div class="opt">D) forget</div></div>
-    <div class="ans-correct" data-correct="true">✅ <strong>الإجابة الصحيحة: prove</strong><br>💬 'prove' means demonstrate the truth. 'hide' means conceal, 'deny' means refuse to admit, 'forget' means fail to remember.</div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة: لا تناسب المعنى المطلوب.</div>
-  </div>
-  
-  <div class="sec-title"><div class="icon">✍️</div> قسم الإملاء – Spelling & Dictation</div>
-  <p style="margin-bottom:1.2rem; color: var(--gray);">اختر التهجئة الصحيحة لكل كلمة — انقر على أي خيار لرؤية الإجابة:</p>
-
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">1</span> Which spelling is correct?</div>
-    <div class="options"><div class="opt">grandfather</div><div class="opt">grandfother</div><div class="opt">grandfater</div><div class="opt">grandfathar</div></div>
-    <div class="ans-correct" data-correct="true">✅ التهجئة الصحيحة: <strong>grandfather</strong></div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة إملائياً.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">2</span> Which spelling is correct?</div>
-    <div class="options"><div class="opt">hasbund</div><div class="opt">husband</div><div class="opt">husbend</div><div class="opt">husbant</div></div>
-    <div class="ans-correct" data-correct="true">✅ التهجئة الصحيحة: <strong>husband</strong></div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة إملائياً.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">3</span> Which spelling is correct?</div>
-    <div class="options"><div class="opt">unkle</div><div class="opt">uncle</div><div class="opt">uncl</div><div class="opt">uncal</div></div>
-    <div class="ans-correct" data-correct="true">✅ التهجئة الصحيحة: <strong>uncle</strong></div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة إملائياً.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">4</span> Which spelling is correct?</div>
-    <div class="options"><div class="opt">awnt</div><div class="opt">aunty</div><div class="opt">aunt</div><div class="opt">ant</div></div>
-    <div class="ans-correct" data-correct="true">✅ التهجئة الصحيحة: <strong>aunt</strong></div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة إملائياً.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">5</span> Which spelling is correct?</div>
-    <div class="options"><div class="opt">raincoate</div><div class="opt">raincoat</div><div class="opt">rainecoat</div><div class="opt">raincot</div></div>
-    <div class="ans-correct" data-correct="true">✅ التهجئة الصحيحة: <strong>raincoat</strong></div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة إملائياً.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">6</span> Which spelling is correct?</div>
-    <div class="options"><div class="opt">sweater</div><div class="opt">sweter</div><div class="opt">sweatter</div><div class="opt">sweatar</div></div>
-    <div class="ans-correct" data-correct="true">✅ التهجئة الصحيحة: <strong>sweater</strong></div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة إملائياً.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">7</span> Which spelling is correct?</div>
-    <div class="options"><div class="opt">traners</div><div class="opt">trainars</div><div class="opt">trainors</div><div class="opt">trainers</div></div>
-    <div class="ans-correct" data-correct="true">✅ التهجئة الصحيحة: <strong>trainers</strong></div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة إملائياً.</div>
-  </div>
-  <div class="q-card">
-    <div class="q-text"><span class="q-num">8</span> Which spelling is correct?</div>
-    <div class="options"><div class="opt">umbrela</div><div class="opt">umbralla</div><div class="opt">umbrella</div><div class="opt">umbrealla</div></div>
-    <div class="ans-correct" data-correct="true">✅ التهجئة الصحيحة: <strong>umbrella</strong></div>
-    <div class="ans-wrong">❌ الخيارات الأخرى خاطئة إملائياً.</div>
-  </div>
-<div class="tips-box">
+<div class="q-card"><div class="q-text"><span class="q-num">1</span> 20. According to paragraph 5, how many tourists visit Yellowstone each year?</div><div class="options"><div class="opt" data-correct="false">A) 2,500</div><div class="opt" data-correct="false">B) 500</div><div class="opt" data-correct="true">C) over two million</div><div class="opt" data-correct="false">D) 4,500</div></div><div class="ans-correct">✅ الإجابة: over two million</div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة.</div></div><div class="q-card"><div class="q-text"><span class="q-num">2</span> 21. In paragraph 2, fashioning means:</div><div class="options"><div class="opt" data-correct="false">A) cooking</div><div class="opt" data-correct="true">B) making</div><div class="opt" data-correct="false">C) burying</div><div class="opt" data-correct="false">D) liking</div></div><div class="ans-correct">✅ الإجابة: making</div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة.</div></div><div class="q-card"><div class="q-text"><span class="q-num">3</span> 22. According to paragraph 3,</div><div class="options"><div class="opt" data-correct="false">A) Old Faithful was discovered in 1959</div><div class="opt" data-correct="false">B) the supervolcano last erupted in 1959</div><div class="opt" data-correct="true">C) Yellowstone experienced a major earthquake in 1959</div><div class="opt" data-correct="false">D) Yellowstone's beauty has been top secret since 1959</div></div><div class="ans-correct">✅ الإجابة: Yellowstone experienced a major earthquake in 1959</div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة.</div></div><div class="q-card"><div class="q-text"><span class="q-num">4</span> 23. From reading paragraph 1, you can guess that</div><div class="options"><div class="opt" data-correct="false">A) Wyoming is the largest of the three states</div><div class="opt" data-correct="true">B) Yellowstone was not the first UNESCO site</div><div class="opt" data-correct="false">C) the Rocky Mtns are the youngest on Earth</div><div class="opt" data-correct="false">D) UNESCO was set up in 1978</div></div><div class="ans-correct">✅ الإجابة: Yellowstone was not the first UNESCO site</div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة.</div></div><div class="q-card"><div class="q-text"><span class="q-num">5</span> 24. In paragraph 4, wolves, bears, and cougars are examples of</div><div class="options"><div class="opt" data-correct="true">A) animals living in Yellowstone</div><div class="opt" data-correct="false">B) flowering plants</div><div class="opt" data-correct="false">C) threats to be countered</div><div class="opt" data-correct="false">D) wildfires</div></div><div class="ans-correct">✅ الإجابة: animals living in Yellowstone</div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة.</div></div><div class="sec-title"><div class="icon">📘</div> قسم القواعد – Grammar</div><div class="q-card"><div class="q-text"><span class="q-num">1</span> Some teachers ____ much homework.</div><div class="options"><div class="opt" data-correct="true">A) give</div><div class="opt" data-correct="false">B) gives</div><div class="opt" data-correct="false">C) are give</div><div class="opt" data-correct="false">D) is give</div></div><div class="ans-correct">✅ الإجابة: give</div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة.</div></div><div class="q-card"><div class="q-text"><span class="q-num">2</span> Ahmad and Rida ____ good friends.</div><div class="options"><div class="opt" data-correct="false">A) be</div><div class="opt" data-correct="false">B) is</div><div class="opt" data-correct="true">C) are</div><div class="opt" data-correct="false">D) does</div></div><div class="ans-correct">✅ الإجابة: are</div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة.</div></div><div class="q-card"><div class="q-text"><span class="q-num">3</span> Today, I ____ studying for my exam.</div><div class="options"><div class="opt" data-correct="true">A) Am</div><div class="opt" data-correct="false">B) Is</div><div class="opt" data-correct="false">C) Are</div><div class="opt" data-correct="false">D) None</div></div><div class="ans-correct">✅ الإجابة: Am</div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة.</div></div><div class="q-card"><div class="q-text"><span class="q-num">4</span> Hurry! They ____ waiting for you.</div><div class="options"><div class="opt" data-correct="false">A) 'm</div><div class="opt" data-correct="false">B) 's</div><div class="opt" data-correct="false">C) 'es</div><div class="opt" data-correct="true">D) 're</div></div><div class="ans-correct">✅ الإجابة: 're</div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة.</div></div><div class="q-card"><div class="q-text"><span class="q-num">5</span> I ____ my keys. I can't open the door.</div><div class="options"><div class="opt" data-correct="true">A) have lost</div><div class="opt" data-correct="false">B) lost</div><div class="opt" data-correct="false">C) am losing</div><div class="opt" data-correct="false">D) will lose</div></div><div class="ans-correct">✅ الإجابة: have lost</div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة.</div></div><div class="sec-title"><div class="icon">🧠</div> قسم المفردات – Vocabulary</div><div class="q-card"><div class="q-text"><span class="q-num">1</span> The company decided to _______ their new product on television to reach more people.</div><div class="options"><div class="opt" data-correct="true">A) advertise</div><div class="opt" data-correct="false">B) ignore</div><div class="opt" data-correct="false">C) hide</div><div class="opt" data-correct="false">D) cancel</div></div><div class="ans-correct">✅ الإجابة: advertise</div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة.</div></div><div class="q-card"><div class="q-text"><span class="q-num">2</span> Many people still prefer _______ methods of learning, such as reading books and attending lectures.</div><div class="options"><div class="opt" data-correct="true">A) traditional</div><div class="opt" data-correct="false">B) modern</div><div class="opt" data-correct="false">C) digital</div><div class="opt" data-correct="false">D) advanced</div></div><div class="ans-correct">✅ الإجابة: traditional</div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة.</div></div><div class="q-card"><div class="q-text"><span class="q-num">3</span> According to government _______, the population of the city increased by 20% last year.</div><div class="options"><div class="opt" data-correct="true">A) statistics</div><div class="opt" data-correct="false">B) stories</div><div class="opt" data-correct="false">C) pictures</div><div class="opt" data-correct="false">D) songs</div></div><div class="ans-correct">✅ الإجابة: statistics</div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة.</div></div><div class="q-card"><div class="q-text"><span class="q-num">4</span> The teacher asked the students to pay _______ during the lesson.</div><div class="options"><div class="opt" data-correct="true">A) attention</div><div class="opt" data-correct="false">B) money</div><div class="opt" data-correct="false">C) respect</div><div class="opt" data-correct="false">D) time</div></div><div class="ans-correct">✅ الإجابة: attention</div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة.</div></div><div class="q-card"><div class="q-text"><span class="q-num">5</span> The lawyer needed more evidence to _______ that his client was innocent.</div><div class="options"><div class="opt" data-correct="true">A) prove</div><div class="opt" data-correct="false">B) hide</div><div class="opt" data-correct="false">C) deny</div><div class="opt" data-correct="false">D) forget</div></div><div class="ans-correct">✅ الإجابة: prove</div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة.</div></div><div class="sec-title"><div class="icon">✍️</div> قسم الإملاء – Spelling & Dictation</div><p style="margin-bottom:1.2rem; color: var(--gray);">اختر التهجئة الصحيحة لكل كلمة:</p><div class="q-card"><div class="q-text"><span class="q-num">1</span> Which spelling is correct?</div><div class="options"><div class="opt" data-correct="true">grandfather</div><div class="opt" data-correct="false">grandfother</div><div class="opt" data-correct="false">grandfater</div><div class="opt" data-correct="false">grandfathar</div></div><div class="ans-correct">✅ التهجئة الصحيحة: <strong>grandfather</strong></div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة إملائياً.</div></div><div class="q-card"><div class="q-text"><span class="q-num">2</span> Which spelling is correct?</div><div class="options"><div class="opt" data-correct="false">hasbund</div><div class="opt" data-correct="true">husband</div><div class="opt" data-correct="false">husbend</div><div class="opt" data-correct="false">husbant</div></div><div class="ans-correct">✅ التهجئة الصحيحة: <strong>husband</strong></div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة إملائياً.</div></div><div class="q-card"><div class="q-text"><span class="q-num">3</span> Which spelling is correct?</div><div class="options"><div class="opt" data-correct="false">unkle</div><div class="opt" data-correct="true">uncle</div><div class="opt" data-correct="false">uncl</div><div class="opt" data-correct="false">uncal</div></div><div class="ans-correct">✅ التهجئة الصحيحة: <strong>uncle</strong></div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة إملائياً.</div></div><div class="q-card"><div class="q-text"><span class="q-num">4</span> Which spelling is correct?</div><div class="options"><div class="opt" data-correct="false">awnt</div><div class="opt" data-correct="false">aunty</div><div class="opt" data-correct="true">aunt</div><div class="opt" data-correct="false">ant</div></div><div class="ans-correct">✅ التهجئة الصحيحة: <strong>aunt</strong></div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة إملائياً.</div></div><div class="q-card"><div class="q-text"><span class="q-num">5</span> Which spelling is correct?</div><div class="options"><div class="opt" data-correct="false">raincoate</div><div class="opt" data-correct="true">raincoat</div><div class="opt" data-correct="false">rainecoat</div><div class="opt" data-correct="false">raincot</div></div><div class="ans-correct">✅ التهجئة الصحيحة: <strong>raincoat</strong></div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة إملائياً.</div></div><div class="q-card"><div class="q-text"><span class="q-num">6</span> Which spelling is correct?</div><div class="options"><div class="opt" data-correct="true">sweater</div><div class="opt" data-correct="false">sweter</div><div class="opt" data-correct="false">sweatter</div><div class="opt" data-correct="false">sweatar</div></div><div class="ans-correct">✅ التهجئة الصحيحة: <strong>sweater</strong></div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة إملائياً.</div></div><div class="q-card"><div class="q-text"><span class="q-num">7</span> Which spelling is correct?</div><div class="options"><div class="opt" data-correct="false">traners</div><div class="opt" data-correct="false">trainars</div><div class="opt" data-correct="false">trainors</div><div class="opt" data-correct="true">trainers</div></div><div class="ans-correct">✅ التهجئة الصحيحة: <strong>trainers</strong></div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة إملائياً.</div></div><div class="q-card"><div class="q-text"><span class="q-num">8</span> Which spelling is correct?</div><div class="options"><div class="opt" data-correct="false">umbrela</div><div class="opt" data-correct="false">umbralla</div><div class="opt" data-correct="true">umbrella</div><div class="opt" data-correct="false">umbrealla</div></div><div class="ans-correct">✅ التهجئة الصحيحة: <strong>umbrella</strong></div><div class="ans-wrong">❌ الخيارات الأخرى خاطئة إملائياً.</div></div>
+  <div class="print-btn"><button onclick="window.print()">🖨️ طباعة المحتوى</button></div>
+  <div class="tips-box">
     <h3>💡 نصائح للاستفادة القصوى من الاختبار</h3>
     <div class="tips-grid">
-      <div class="tip-item">
-        <span class="tip-icon">📖</span>
-        اقرأ النص كاملاً أولاً قبل الأسئلة
-      </div>
-      <div class="tip-item">
-        <span class="tip-icon">✏️</span>
-        حدّد الكلمات المفتاحية في كل سؤال
-      </div>
-      <div class="tip-item">
-        <span class="tip-icon">⏱️</span>
-        لا تقضِ وقتاً طويلاً على سؤال واحد
-      </div>
-      <div class="tip-item">
-        <span class="tip-icon">🔄</span>
-        راجع إجاباتك قبل التسليم
-      </div>
+      <div class="tip-item"><span class="tip-icon">📖</span> اقرأ النص كاملاً أولاً قبل الأسئلة</div>
+      <div class="tip-item"><span class="tip-icon">✏️</span> حدّد الكلمات المفتاحية في كل سؤال</div>
+      <div class="tip-item"><span class="tip-icon">⏱️</span> لا تقضِ وقتاً طويلاً على سؤال واحد</div>
+      <div class="tip-item"><span class="tip-icon">🔄</span> راجع إجاباتك قبل التسليم</div>
     </div>
   </div>
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.q-card').forEach(card => {
-    // إيجاد الخيار الصحيح داخل البطاقة
-    const correctOpt = card.querySelector('.opt[data-correct="true"]');
-    
-    card.querySelectorAll('.opt').forEach(opt => {
-      opt.addEventListener('click', function() {
-        // إذا كانت البطاقة مكشوفة مسبقاً، لا نفعل شيئاً
-        if (card.classList.contains('revealed')) return;
-        // الكشف عن البطاقة وإظهار الخيار الصحيح
-        card.classList.add('revealed');
-        if (correctOpt) {
-          correctOpt.style.display = 'block';  // إظهار الخيار الصحيح
-          correctOpt.classList.add('correct');
-        }
-      });
+document.querySelectorAll('.q-card').forEach(card => {
+  card.querySelectorAll('.opt').forEach(opt => {
+    opt.addEventListener('click', function() {
+      if (card.classList.contains('revealed')) return;
+      card.classList.add('revealed');
+      // إظهار الخيار الصحيح تلقائياً عند الكشف
+      const correct = card.querySelector('.opt[data-correct="true"]');
+      if (correct) correct.classList.add('correct');
     });
   });
 });
 </script>
-
-<div style="text-align:center; margin: 2rem 0;">
-  <button onclick="window.print()" style="background: var(--accent); color: white; border: none; padding: 0.8rem 2.5rem; font-size: 1.1rem; border-radius: 50px; cursor: pointer; font-family: 'Cairo', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-    🖨️ طباعة المحتوى
-  </button>
-</div>
-
 </body>
 </html>
