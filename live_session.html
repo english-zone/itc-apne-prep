@@ -210,12 +210,27 @@
     .hero h1 { font-size: 1.6rem; }
     .sec-title { font-size: 1.2rem; }
   }
+
+@media print {
+  .q-card { break-inside: avoid; }
+  .q-card.revealed .ans-correct,
+  .q-card.revealed .ans-wrong,
+  .q-card.revealed .ans-tip { display: block; }
+  .q-card .opt.correct { display: block; }
+  button, .hero-badge, .hero .meta { display: none; }
+  body { background: white; }
+  @page { margin: 1.5cm; }
+}
+
 </style>
 </head>
 <body>
 
 <div class="hero">
-  <div class="hero-badge">🎙️ LIVE SESSION – البث المباشر</div>
+  
+  <img src="assets/images/reyadah-logo.png" alt="شعار معهد الريادة" style="height:60px; margin-bottom:1rem;" onerror="this.style.display='none'">
+  <p style="color: rgba(255,255,255,0.9); margin: 0.5rem 0; font-size: 0.95rem;">للتسجيل: <strong>0546088130</strong> – <strong>0548775199</strong></p>
+<div class="hero-badge">🎙️ LIVE SESSION – البث المباشر</div>
   <h1>ITC AVP English Preparation</h1>
   <div class="sub">مع المدرب: أ. أنس عبدالرحمن &nbsp;|&nbsp; معهد الريادة للتدريب</div>
   <div class="meta">
@@ -359,5 +374,12 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+
+<div style="text-align:center; margin: 2rem 0;">
+  <button onclick="window.print()" style="background: var(--accent); color: white; border: none; padding: 0.8rem 2.5rem; font-size: 1.1rem; border-radius: 50px; cursor: pointer; font-family: 'Cairo', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    🖨️ طباعة المحتوى
+  </button>
+</div>
+
 </body>
 </html>
