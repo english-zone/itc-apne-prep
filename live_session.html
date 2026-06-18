@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--primary:#0b2b4f;--accent:#0071e3;--green:#16a34a;--green-light:#dcfce7;--green-dark:#14532d;--red:#dc2626;--red-light:#fee2e2;--red-dark:#7f1d1d;--gray:#64748b;--border:#e2e8f0;--bg:#f8fafc;--card-shadow:0 2px 12px rgba(0,0,0,0.06)}
+:root{--primary:#0b2b4f;--accent:#0071e3;--green:#16a34a;--green-light:#dcfce7;--green-dark:#14532d;--red:#dc2626;--red-light:#fee2e2;--red-dark:#7f1d1d;--gold:#d97706;--gold-light:#fef3c7;--gray:#64748b;--border:#e2e8f0;--bg:#f8fafc;--card-shadow:0 2px 12px rgba(0,0,0,0.06);--highlight-yellow:#fff176}
 body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-height:1.8}
 .ar{direction:rtl;text-align:right;font-family:'Cairo',sans-serif;unicode-bidi:isolate}
 .en,.ltr-block{direction:ltr;text-align:left;font-family:'Inter',sans-serif;unicode-bidi:isolate}
@@ -28,6 +28,8 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 .passage-box{background:#fff;border-radius:16px;border:1px solid var(--border);box-shadow:var(--card-shadow);overflow:hidden;margin-bottom:2rem;direction:ltr}
 .passage-header{background:var(--primary);color:#fff;padding:0.9rem 1.5rem;font-family:'Inter',sans-serif;font-size:1.05rem;font-weight:700;direction:ltr;text-align:left}
 .passage-body{padding:1.5rem;font-family:'Inter',sans-serif;font-size:0.97rem;line-height:2;color:#334155;direction:ltr;text-align:left}
+.passage-paragraph{margin-bottom:1rem}
+.passage-paragraph.highlight{background:var(--highlight-yellow);padding:0.5rem;border-radius:8px;transition:background 0.3s}
 .q-card{background:#fff;border-radius:16px;border:1px solid var(--border);padding:1.4rem 1.5rem 1.2rem;margin:1.2rem 0;box-shadow:var(--card-shadow)}
 .q-num{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;background:var(--accent);color:#fff;border-radius:50%;font-size:0.88rem;font-weight:700;flex-shrink:0;margin-inline-end:0.5rem;font-family:'Inter',sans-serif}
 .q-text{font-size:1.02rem;font-weight:600;color:var(--primary);margin-bottom:1rem;display:flex;align-items:flex-start;gap:0.4rem}
@@ -52,6 +54,9 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 .print-btn{text-align:center;margin:2rem 0}
 .print-btn button{background:var(--accent);color:#fff;border:none;padding:0.75rem 2.5rem;font-size:1rem;font-family:'Cairo',sans-serif;font-weight:700;border-radius:50px;cursor:pointer;box-shadow:0 4px 14px rgba(0,113,227,0.3);transition:opacity 0.2s}
 .print-btn button:hover{opacity:0.88}
+.golden-tip{background:var(--gold-light);border-right:4px solid var(--gold);border-radius:10px;padding:1.2rem;margin:1.5rem 0;direction:rtl;color:var(--gold-dark)}
+.golden-tip h4{font-size:1.1rem;margin-bottom:0.5rem}
+.golden-tip p{margin-bottom:0.5rem}
 @media print{.print-btn,.hero .badges{display:none}body{background:#fff}.q-card.revealed .ans-correct,.q-card.revealed .ans-wrong{display:block!important}@page{margin:1.5cm}}
 </style>
 </head>
@@ -67,9 +72,22 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </header>
 <div class="container">
 <div class="sec-header ar"><div class="sec-icon">📖</div><div><div class="sec-title-ar">قسم القراءة</div><div class="sec-title-en">Reading Comprehension</div></div></div>
-<div class="passage-box"><div class="passage-header en">Yellowstone National Park (Passage 2)</div><div class="passage-body en">On September 8, 1978, UNESCO added the Yellowstone National Park to its list of World Heritage Sites. This addition was a recognition of the natural beauty of Yellowstone and its unique place in the history of environmental conservation. Yellowstone National Park is located in the northwest of the continental United States. Although its boundaries extend across three states: Wyoming, Montana, and Idaho, 96% of the park's 3,470 square miles lies within the state of Wyoming. Because the park is situated high up on the Yellowstone plateau, which forms part of the Rocky Mountain range, its average elevation is 2,400 meters above sea level. Yellowstone Lake, at 136 square miles, is the most significant body of water within the park and the largest high-altitude lake in North America.<br><br>Archaeological discoveries show that human habitation of the Yellowstone region dates back at least 11,000 years, to a time when Native Americans were fashioning weapons and tools from a flint-like stone called obsidian to hunt and fish in the area. However, Yellowstone's remoteness and inaccessibility meant that organized exploration of the area by Americans of European origin was not seriously attempted until the late 1860s, after the American Civil War. Reports from these early explorers describing the many natural wonders that they had encountered on their travels soon led to the recognition that Yellowstone was a very special place and should be valued and protected. And so, on March 1, 1872, United States President Ulysses S. Grant signed a law officially establishing Yellowstone as the world's very first National Park.<br><br>Among the most famous of Yellowstone's geological features are hundreds of geysers - jets of boiling water and steam that shoot up from the ground at regular intervals. Fully two-thirds of the world's geysers are found in Yellowstone. The most famous geyser in Yellowstone is named "Old Faithful" because it erupts every 90 minutes, without fail. Yellowstone experiences thousands of minor earthquakes each year, and, occasionally, major ones, such as the magnitude 7.5 earthquake that struck the region in 1959. And the reason for the unusually high level of geothermal activity? Yellowstone's natural beauty hides a terrifying secret: the park sits directly on top of one of the largest supervolcanoes on Earth. The good news is that, on average, the Yellowstone supervolcano only erupts once every 600,000 years; the bad news is that the last recorded eruption occurred approximately 600,000 years ago!<br><br>Yellowstone is thought to be the largest remaining intact ecosystem in the northern temperate zone. The park is home to nearly 2,000 species of trees, and many dozens of species of flowering plants, most of which flower during the summer months of May through September. Yellowstone is also blessed with a great variety of animal life, including bison, grizzly and black bears, moose, wolves, lynx, and cougars. Despite the rich variety of wildlife, however, many of Yellowstone's unique plant and animal species are endangered, either as a result of diseases, migration, or hunting by predators, including humans. Until fairly recently, forest fires were seen as a threat to be countered wherever possible. However, professional attitudes have shifted, and it is now recognized that wildfires are an integral part of the natural world, clearing the ground and promoting new, fresh growth.<br><br>Yellowstone is ranked among the most popular national parks in the United States, with over two million tourists visiting the park each year. During the peak summer season, the park employs over 4,500 people as part of a tourist infrastructure consisting of hotels and lodges offering a total of 2,500 rooms, a 500-kilometer road network, numerous visitor centers and museums, educational tours, camping grounds and hiking trails, and boating facilities on Yellowstone Lake. Visitor safety is a major concern for the Yellowstone National Park authorities; several tourists have died from injuries sustained as a result of attacks by bears, and an extensive network of paved trails has been constructed to protect walkers from the dangers posed by the park's geothermal features.</div></div>
+<div class="passage-box"><div class="passage-header en">Yellowstone National Park (Passage 2)</div><div class="passage-body en"><p id="p1" class="passage-paragraph">On September 8, 1978, UNESCO added the Yellowstone National Park to its list of World Heritage Sites. This addition was a recognition of the natural beauty of Yellowstone and its unique place in the history of environmental conservation. Yellowstone National Park is located in the northwest of the continental United States. Although its boundaries extend across three states: Wyoming, Montana, and Idaho, 96% of the park's 3,470 square miles lies within the state of Wyoming. Because the park is situated high up on the Yellowstone plateau, which forms part of the Rocky Mountain range, its average elevation is 2,400 meters above sea level. Yellowstone Lake, at 136 square miles, is the most significant body of water within the park and the largest high-altitude lake in North America.</p>
+<p id="p2" class="passage-paragraph">Archaeological discoveries show that human habitation of the Yellowstone region dates back at least 11,000 years, to a time when Native Americans were fashioning weapons and tools from a flint-like stone called obsidian to hunt and fish in the area. However, Yellowstone's remoteness and inaccessibility meant that organized exploration of the area by Americans of European origin was not seriously attempted until the late 1860s, after the American Civil War. Reports from these early explorers describing the many natural wonders that they had encountered on their travels soon led to the recognition that Yellowstone was a very special place and should be valued and protected. And so, on March 1, 1872, United States President Ulysses S. Grant signed a law officially establishing Yellowstone as the world's very first National Park.</p>
+<p id="p3" class="passage-paragraph">Among the most famous of Yellowstone's geological features are hundreds of geysers - jets of boiling water and steam that shoot up from the ground at regular intervals. Fully two-thirds of the world's geysers are found in Yellowstone. The most famous geyser in Yellowstone is named "Old Faithful" because it erupts every 90 minutes, without fail. Yellowstone experiences thousands of minor earthquakes each year, and, occasionally, major ones, such as the magnitude 7.5 earthquake that struck the region in 1959. And the reason for the unusually high level of geothermal activity? Yellowstone's natural beauty hides a terrifying secret: the park sits directly on top of one of the largest supervolcanoes on Earth. The good news is that, on average, the Yellowstone supervolcano only erupts once every 600,000 years; the bad news is that the last recorded eruption occurred approximately 600,000 years ago!</p>
+<p id="p4" class="passage-paragraph">Yellowstone is thought to be the largest remaining intact ecosystem in the northern temperate zone. The park is home to nearly 2,000 species of trees, and many dozens of species of flowering plants, most of which flower during the summer months of May through September. Yellowstone is also blessed with a great variety of animal life, including bison, grizzly and black bears, moose, wolves, lynx, and cougars. Despite the rich variety of wildlife, however, many of Yellowstone's unique plant and animal species are endangered, either as a result of diseases, migration, or hunting by predators, including humans. Until fairly recently, forest fires were seen as a threat to be countered wherever possible. However, professional attitudes have shifted, and it is now recognized that wildfires are an integral part of the natural world, clearing the ground and promoting new, fresh growth.</p>
+<p id="p5" class="passage-paragraph">Yellowstone is ranked among the most popular national parks in the United States, with over two million tourists visiting the park each year. During the peak summer season, the park employs over 4,500 people as part of a tourist infrastructure consisting of hotels and lodges offering a total of 2,500 rooms, a 500-kilometer road network, numerous visitor centers and museums, educational tours, camping grounds and hiking trails, and boating facilities on Yellowstone Lake. Visitor safety is a major concern for the Yellowstone National Park authorities; several tourists have died from injuries sustained as a result of attacks by bears, and an extensive network of paved trails has been constructed to protect walkers from the dangers posed by the park's geothermal features.</p>
+</div></div>
 
-<div class="q-card">
+<div class="golden-tip">
+<h4>💡 نصيحة ذهبية: Skimming vs Scanning</h4>
+<p><strong>Skimming (التصفح السريع):</strong> استخدمه في البداية لتفهم الفكرة العامة للقطعة خلال 30-60 ثانية. اقرأ الجملة الأولى والأخيرة من كل فقرة فقط.</p>
+<p><strong>Scanning (البحث السريع):</strong> استخدمه للبحث عن كلمة مفتاحية من السؤال (مثل تاريخ، اسم، رقم). يستغرق 10-20 ثانية للسؤال الواحد.</p>
+<p>⏱️ <strong>الوقت النموذجي:</strong> خصص 60-90 ثانية لكل سؤال قراءة (يشمل العودة للنص والتحقق).</p>
+</div>
+
+
+<div class="q-card" data-paragraph="1">
   <div class="q-text en"><span class="q-num">1</span> 20. According to paragraph 5, how many tourists visit Yellowstone each year?</div>
   <div class="options ltr-block"><div class="opt" data-correct="false"><span class="opt-letter">A</span><span class="opt-text">2,500</span></div>
 <div class="opt" data-correct="false"><span class="opt-letter">B</span><span class="opt-text">500</span></div>
@@ -79,7 +97,7 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">over two million</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
 </div>
-<div class="q-card">
+<div class="q-card" data-paragraph="2">
   <div class="q-text en"><span class="q-num">2</span> 21. In paragraph 2, fashioning means:</div>
   <div class="options ltr-block"><div class="opt" data-correct="false"><span class="opt-letter">A</span><span class="opt-text">cooking</span></div>
 <div class="opt" data-correct="true"><span class="opt-letter">B</span><span class="opt-text">making</span></div>
@@ -89,7 +107,7 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">making</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
 </div>
-<div class="q-card">
+<div class="q-card" data-paragraph="2">
   <div class="q-text en"><span class="q-num">3</span> 22. According to paragraph 3,</div>
   <div class="options ltr-block"><div class="opt" data-correct="false"><span class="opt-letter">A</span><span class="opt-text">Old Faithful was discovered in 1959</span></div>
 <div class="opt" data-correct="false"><span class="opt-letter">B</span><span class="opt-text">the supervolcano last erupted in 1959</span></div>
@@ -99,7 +117,7 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">Yellowstone experienced a major earthquake in 1959</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
 </div>
-<div class="q-card">
+<div class="q-card" data-paragraph="3">
   <div class="q-text en"><span class="q-num">4</span> 23. From reading paragraph 1, you can guess that</div>
   <div class="options ltr-block"><div class="opt" data-correct="false"><span class="opt-letter">A</span><span class="opt-text">Wyoming is the largest of the three states</span></div>
 <div class="opt" data-correct="true"><span class="opt-letter">B</span><span class="opt-text">Yellowstone was not the first UNESCO site</span></div>
@@ -109,7 +127,7 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">Yellowstone was not the first UNESCO site</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
 </div>
-<div class="q-card">
+<div class="q-card" data-paragraph="1">
   <div class="q-text en"><span class="q-num">5</span> 24. In paragraph 4, wolves, bears, and cougars are examples of</div>
   <div class="options ltr-block"><div class="opt" data-correct="true"><span class="opt-letter">A</span><span class="opt-text">animals living in Yellowstone</span></div>
 <div class="opt" data-correct="false"><span class="opt-letter">B</span><span class="opt-text">flowering plants</span></div>
@@ -119,6 +137,7 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">animals living in Yellowstone</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
 </div>
+
 <div class="sec-header ar"><div class="sec-icon">📘</div><div><div class="sec-title-ar">قسم القواعد</div><div class="sec-title-en">Grammar</div></div></div>
 
 <div class="q-card">
@@ -171,6 +190,7 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">have lost</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
 </div>
+
 <div class="sec-header ar"><div class="sec-icon">🧠</div><div><div class="sec-title-ar">قسم المفردات</div><div class="sec-title-en">Vocabulary</div></div></div>
 
 <div class="q-card">
@@ -223,6 +243,7 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">prove</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
 </div>
+
 <div class="sec-header ar"><div class="sec-icon">✍️</div><div><div class="sec-title-ar">قسم الإملاء</div><div class="sec-title-en">Spelling &amp; Dictation</div></div></div>
 <p class="ar" style="color:var(--gray);margin-bottom:1rem">اختر التهجئة الصحيحة لكل كلمة:</p>
 
@@ -306,6 +327,7 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">arteries</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
 </div>
+
 <div class="print-btn"><button onclick="revealAll();window.print()">🖨️ كشف الإجابات وطباعة</button></div>
 <div class="tips-box"><h3>💡 نصائح للاستفادة القصوى من الاختبار</h3><div class="tips-grid"><div class="tip-item"><span class="tip-icon">📖</span>اقرأ النص كاملاً قبل الإجابة</div><div class="tip-item"><span class="tip-icon">✏️</span>حدّد الكلمات المفتاحية في كل سؤال</div><div class="tip-item"><span class="tip-icon">⏱️</span>لا تقضِ وقتاً طويلاً على سؤال واحد</div><div class="tip-item"><span class="tip-icon">🔄</span>راجع إجاباتك قبل التسليم</div></div></div>
 </div>
@@ -317,6 +339,15 @@ if(card.classList.contains("revealed"))return;
 card.classList.add("revealed");
 var correct=card.querySelector('.opt[data-correct="true"]');
 if(correct)correct.classList.add("revealed-correct");
+
+var paraNum = card.getAttribute('data-paragraph');
+if (paraNum) {
+    var para = document.getElementById('p' + paraNum);
+    if (para) {
+        para.classList.add('highlight');
+        para.scrollIntoView({behavior:'smooth',block:'center'});
+    }
+}
 }
 document.querySelectorAll(".q-card").forEach(function(card){
 card.querySelectorAll(".opt").forEach(function(opt){
