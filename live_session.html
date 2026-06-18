@@ -7,7 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--primary:#0b2b4f;--accent:#0071e3;--green:#16a34a;--green-light:#dcfce7;--green-dark:#14532d;--red:#dc2626;--red-light:#fee2e2;--red-dark:#7f1d1d;--gold:#d97706;--gold-light:#fef3c7;--gray:#64748b;--border:#e2e8f0;--bg:#f8fafc;--card-shadow:0 2px 12px rgba(0,0,0,0.06);--highlight-yellow:#fff176;--explain-bg:#f0f8ff}
+:root{--primary:#0b2b4f;--accent:#0071e3;--green:#16a34a;--green-light:#dcfce7;--green-dark:#14532d;--red:#dc2626;--red-light:#fee2e2;--red-dark:#7f1d1d;--gold:#d97706;--gold-light:#fef3c7;--gray:#64748b;--border:#e2e8f0;--bg:#f8fafc;--card-shadow:0 2px 12px rgba(0,0,0,0.06);--highlight-yellow:#fff176}
 body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-height:1.8}
 .ar{direction:rtl;text-align:right;font-family:'Cairo',sans-serif;unicode-bidi:isolate}
 .en,.ltr-block{direction:ltr;text-align:left;font-family:'Inter',sans-serif;unicode-bidi:isolate}
@@ -42,13 +42,9 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 .opt[data-correct="true"].revealed-correct{background:var(--green-light);border-color:var(--green)}
 .opt[data-correct="true"].revealed-correct .opt-letter{background:var(--green);color:#fff}
 .opt[data-correct="true"].revealed-correct .opt-text{color:var(--green-dark);font-weight:600}
-.ans-correct,.ans-wrong,.ans-explanation{display:none;border-radius:10px;padding:0.75rem 1rem;margin-top:0.6rem;font-size:0.94rem;direction:rtl;text-align:right}
+.ans-correct,.ans-wrong{display:none;border-radius:10px;padding:0.75rem 1rem;margin-top:0.6rem;font-size:0.94rem;direction:rtl;text-align:right}
 .q-card.revealed .ans-correct{display:block;background:var(--green-light);border-right:4px solid var(--green);color:var(--green-dark)}
 .q-card.revealed .ans-wrong{display:block;background:var(--red-light);border-right:4px solid var(--red);color:var(--red-dark)}
-.q-card.revealed .ans-explanation{display:block;background:var(--explain-bg);border:1px solid var(--accent);border-right:4px solid var(--accent);margin-top:0.8rem}
-.ans-explanation h4{color:var(--primary);margin-bottom:0.5rem;font-size:1.05rem}
-.ans-explanation ul{padding-right:1.5rem;margin:0.5rem 0}
-.ans-explanation li{margin-bottom:0.3rem}
 .tips-box{background:linear-gradient(135deg,#0b2b4f,#1a4a8a);color:#fff;border-radius:20px;padding:2rem 1.5rem;margin-top:3rem;direction:rtl;text-align:right}
 .tips-box h3{font-size:1.25rem;font-weight:700;margin-bottom:1.2rem;text-align:center}
 .tips-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1rem}
@@ -60,7 +56,7 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 .golden-tip{background:var(--gold-light);border-right:4px solid var(--gold);border-radius:10px;padding:1.2rem;margin:1.5rem 0;direction:rtl;color:var(--gold-dark)}
 .golden-tip h4{font-size:1.1rem;margin-bottom:0.5rem}
 .golden-tip p{margin-bottom:0.5rem}
-@media print{.print-btn,.hero .badges{display:none}body{background:#fff}.q-card.revealed .ans-correct,.q-card.revealed .ans-wrong,.q-card.revealed .ans-explanation{display:block!important}@page{margin:1.5cm}}
+@media print{.print-btn,.hero .badges{display:none}body{background:#fff}.q-card.revealed .ans-correct,.q-card.revealed .ans-wrong{display:block!important}@page{margin:1.5cm}}
 </style>
 </head>
 <body>
@@ -121,7 +117,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">over two million</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 <div class="q-card" data-sentence="s6">
   <div class="q-text en"><span class="q-num">2</span> 21. In paragraph 2, fashioning means:</div>
@@ -132,7 +127,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">making</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 <div class="q-card" data-sentence="s7">
   <div class="q-text en"><span class="q-num">3</span> 22. According to paragraph 3,</div>
@@ -143,7 +137,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">Yellowstone experienced a major earthquake in 1959</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 <div class="q-card" data-sentence="s11">
   <div class="q-text en"><span class="q-num">4</span> 23. From reading paragraph 1, you can guess that</div>
@@ -154,7 +147,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">Yellowstone was not the first UNESCO site</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 <div class="q-card" data-sentence="s2">
   <div class="q-text en"><span class="q-num">5</span> 24. In paragraph 4, wolves, bears, and cougars are examples of</div>
@@ -165,7 +157,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">animals living in Yellowstone</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 
 <div class="sec-header ar"><div class="sec-icon">📘</div><div><div class="sec-title-ar">قسم القواعد</div><div class="sec-title-en">Grammar</div></div></div>
@@ -179,17 +170,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">give</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  <div class="ans-explanation">
-    <h4>📘 Present Simple – المضارع البسيط</h4>
-    <p><strong>القاعدة:</strong> مع الضمائر <em>he, she, it</em> (المفرد الغائب)، يُضاف <strong>-s</strong> أو <strong>-es</strong> إلى الفعل في المضارع البسيط.</p>
-    <ul>
-      <li>✅ <strong>goes</strong>: الصيغة الصحيحة للفعل <em>go</em> مع <em>She</em>.</li>
-      <li>❌ <strong>go</strong>: تُستخدم مع <em>I, you, we, they</em> فقط.</li>
-      <li>❌ <strong>going</strong>: اسم فاعل يحتاج إلى <em>is</em> قبله (She is going).</li>
-      <li>❌ <strong>gone</strong>: تصريف ثالث لا يُستخدم بمفرده في المضارع.</li>
-    </ul>
-    <p><strong>💡 تذكّر:</strong> أي فاعل مفرد غائب يأخذ فعلاً مضافاً إليه <em>-s</em> في المضارع البسيط.</p>
-    </div>
 </div>
 <div class="q-card">
   <div class="q-text en"><span class="q-num">2</span> Ahmad and Rida ____ good friends.</div>
@@ -200,17 +180,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">are</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  <div class="ans-explanation">
-    <h4>📘 Past Perfect – الماضي التام</h4>
-    <p><strong>القاعدة:</strong> نستخدم <strong>had + V3</strong> للتعبير عن حدث وقع <strong>قبل</strong> حدث آخر في الماضي.</p>
-    <ul>
-      <li>✅ <strong>had</strong>: "By the time he arrived" تشير إلى حدث لاحق؛ المغادرة حدثت قبله، لذا نحتاج <em>had left</em>.</li>
-      <li>❌ <strong>has</strong>: مضارع تام، لا يتوافق مع زمن الماضي في الجملة.</li>
-      <li>❌ <strong>have</strong>: مضارع أيضاً، ولا يُستخدم مع <em>she</em>.</li>
-      <li>❌ <strong>was</strong>: فعل مساعد للماضي المستمر أو المبني للمجهول، ولا يصلح مع التصريف الثالث بهذا المعنى.</li>
-    </ul>
-    <p><strong>💡 تذكّر:</strong> <em>By the time</em> + ماضٍ بسيط = إشارة قوية لاستخدام الماضي التام في الجملة الأخرى.</p>
-    </div>
 </div>
 <div class="q-card">
   <div class="q-text en"><span class="q-num">3</span> Today, I ____ studying for my exam.</div>
@@ -221,17 +190,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">Am</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  <div class="ans-explanation">
-    <h4>📘 Second Conditional – الشرطية الثانية</h4>
-    <p><strong>القاعدة:</strong> للتعبير عن موقف غير حقيقي في الحاضر أو المستقبل، نستخدم: <strong>If + فاعل + were/V2, would + V1</strong>.</p>
-    <ul>
-      <li>✅ <strong>were</strong>: الصيغة الوحيدة المقبولة مع <em>I</em> في الجمل الشرطية غير الحقيقية (Subjunctive Mood).</li>
-      <li>❌ <strong>am</strong>: مضارع حقيقي، لا يُستخدم في الفرضيات.</li>
-      <li>❌ <strong>was</strong>: شائع في العامية، لكن <em>were</em> هي الصيغة القياسية الفُضلى في الاختبارات.</li>
-      <li>❌ <strong>be</strong>: مصدر، لا يصلح بعد <em>If I</em> مباشرة.</li>
-    </ul>
-    <p><strong>💡 تذكّر:</strong> في الاختبارات، اختر <em>were</em> دائماً مع <em>If I / he / she / it</em> عندما تكون الجملة غير حقيقية.</p>
-    </div>
 </div>
 <div class="q-card">
   <div class="q-text en"><span class="q-num">4</span> Hurry! They ____ waiting for you.</div>
@@ -242,17 +200,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">'re</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  <div class="ans-explanation">
-    <h4>📘 Passive Voice (Past Simple) – المبني للمجهول في الماضي</h4>
-    <p><strong>القاعدة:</strong> يتكون المبني للمجهول من <strong>be + V3</strong>. وللماضي البسيط نستخدم <strong>was / were + V3</strong>.</p>
-    <ul>
-      <li>✅ <strong>was</strong>: <em>The report</em> مفرد، والزمن ماضٍ ("last week")، لذا <em>was written</em> هو الصواب.</li>
-      <li>❌ <strong>is</strong>: مضارع، يتعارض مع "last week".</li>
-      <li>❌ <strong>were</strong>: تُستخدم مع الفاعل الجمع، وليس المفرد.</li>
-      <li>❌ <strong>has been</strong>: مضارع تام مبني للمجهول، لا يتوافق مع ظرف الزمن الماضي المحدد.</li>
-    </ul>
-    <p><strong>💡 تذكّر:</strong> وجود <em>by + فاعل</em> غالباً يشير إلى أن الجملة مبنية للمجهول.</p>
-    </div>
 </div>
 <div class="q-card">
   <div class="q-text en"><span class="q-num">5</span> I ____ my keys. I can't open the door.</div>
@@ -263,17 +210,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">have lost</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  <div class="ans-explanation">
-    <h4>📘 Subject-Verb Agreement (Neither...nor) – توافق الفعل مع الفاعل</h4>
-    <p><strong>القاعدة:</strong> مع <strong>Neither...nor</strong> و <strong>Either...or</strong>، الفعل يتطابق مع <strong>أقرب فاعل</strong> إليه.</p>
-    <ul>
-      <li>✅ <strong>was</strong>: أقرب فاعل هو <em>the teacher</em> (مفرد)، لذا نستخدم <em>was</em> (ماضٍ).</li>
-      <li>❌ <strong>are</strong>: تُستخدم مع الجمع، ولا تتوافق مع المفرد القريب.</li>
-      <li>❌ <strong>were</strong>: صيغة الجمع في الماضي، لا تتوافق مع <em>the teacher</em>.</li>
-      <li>❌ <strong>is</strong>: مضارع، بينما الجملة في سياق الماضي.</li>
-    </ul>
-    <p><strong>💡 تذكّر:</strong> تجاهل الفاعل الأول (الطلاب)؛ الفعل يتبع الفاعل الأقرب إليه (<em>the teacher</em>).</p>
-    </div>
 </div>
 
 <div class="sec-header ar"><div class="sec-icon">🧠</div><div><div class="sec-title-ar">قسم المفردات</div><div class="sec-title-en">Vocabulary</div></div></div>
@@ -287,7 +223,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">advertise</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 <div class="q-card">
   <div class="q-text en"><span class="q-num">2</span> Many people still prefer _______ methods of learning, such as reading books and attending lectures.</div>
@@ -298,7 +233,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">traditional</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 <div class="q-card">
   <div class="q-text en"><span class="q-num">3</span> According to government _______, the population of the city increased by 20% last year.</div>
@@ -309,7 +243,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">statistics</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 <div class="q-card">
   <div class="q-text en"><span class="q-num">4</span> The teacher asked the students to pay _______ during the lesson.</div>
@@ -320,7 +253,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">attention</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 <div class="q-card">
   <div class="q-text en"><span class="q-num">5</span> The lawyer needed more evidence to _______ that his client was innocent.</div>
@@ -331,7 +263,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">prove</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 
 <div class="sec-header ar"><div class="sec-icon">✍️</div><div><div class="sec-title-ar">قسم الإملاء</div><div class="sec-title-en">Spelling &amp; Dictation</div></div></div>
@@ -346,7 +277,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">grandfather</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 <div class="q-card">
   <div class="q-text en"><span class="q-num">2</span> Which spelling is correct?</div>
@@ -357,7 +287,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">husband</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 <div class="q-card">
   <div class="q-text en"><span class="q-num">3</span> Which spelling is correct?</div>
@@ -368,7 +297,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">uncle</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 <div class="q-card">
   <div class="q-text en"><span class="q-num">4</span> Which spelling is correct?</div>
@@ -379,7 +307,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">aunt</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 <div class="q-card">
   <div class="q-text en"><span class="q-num">5</span> Which spelling is correct?</div>
@@ -390,7 +317,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">niece</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 <div class="q-card">
   <div class="q-text en"><span class="q-num">6</span> Which spelling is correct?</div>
@@ -401,7 +327,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">shoulder</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 <div class="q-card">
   <div class="q-text en"><span class="q-num">7</span> Which spelling is correct?</div>
@@ -412,7 +337,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">forehead</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 <div class="q-card">
   <div class="q-text en"><span class="q-num">8</span> Which spelling is correct?</div>
@@ -423,7 +347,6 @@ body{font-family:'Cairo',sans-serif;background:var(--bg);color:#1e293b;line-heig
 </div>
   <div class="ans-correct">✅ الإجابة الصحيحة: <strong class="ltr-inline">arteries</strong></div>
   <div class="ans-wrong">❌ الخيارات الأخرى غير صحيحة.</div>
-  
 </div>
 
 <div class="print-btn"><button onclick="revealAll();window.print()">🖨️ كشف الإجابات وطباعة</button></div>
@@ -440,6 +363,7 @@ if(correct)correct.classList.add("revealed-correct");
 
 var sentId = card.getAttribute('data-sentence');
 if (sentId) {
+    // إزالة التمييز السابق
     document.querySelectorAll('.sentence.highlight').forEach(function(el){ el.classList.remove('highlight'); });
     var sent = document.getElementById(sentId);
     if (sent) {
