@@ -8,8 +8,13 @@
       "page": "69",
       "question": {
         "q": "They exchanged wedding ________ made of gold.",
-        "options": ["belt", "hat", "ring", "watch"],
-        "answer": 2,
+        "options": [
+          "watch",
+          "ring",
+          "belt",
+          "hat"
+        ],
+        "answer": 1,
         "justification": "في حفلات الزفاف، يتبادل الزوجان الخواتم (ring). الساعة (watch) تُلبس في أي وقت، والقبعة (hat) والحزام (belt) ليسا من طقوس الزواج.",
         "context_sentence": "They exchanged wedding ________ made of gold."
       }
@@ -20,8 +25,13 @@
       "page": "69",
       "question": {
         "q": "I glanced at my ________ to see if I was late.",
-        "options": ["belt", "hat", "ring", "watch"],
-        "answer": 3,
+        "options": [
+          "ring",
+          "hat",
+          "watch",
+          "belt"
+        ],
+        "answer": 2,
         "justification": "الوقت يُعرف من ساعة اليد (watch). الخاتم (ring) للزينة، والحزام (belt) للملابس، والقبعة (hat) للرأس، وكلها لا تُظهر الوقت.",
         "context_sentence": "I glanced at my ________ to see if I was late."
       }
@@ -32,8 +42,13 @@
       "page": "69",
       "question": {
         "q": "She put on a wide‑brimmed ________ to protect her face from the sun.",
-        "options": ["scarf", "gloves", "hat", "belt"],
-        "answer": 2,
+        "options": [
+          "gloves",
+          "scarf",
+          "belt",
+          "hat"
+        ],
+        "answer": 3,
         "justification": "القبعة (hat) تحمي الرأس من الشمس. الوشاح (scarf) للرقبة، والقفازات (gloves) لليدين، والحزام (belt) للخصر.",
         "context_sentence": "She put on a wide‑brimmed ________ to protect her face from the sun."
       }
@@ -44,8 +59,13 @@
       "page": "69",
       "question": {
         "q": "His trousers kept slipping, so he fastened his ________ tighter.",
-        "options": ["tie", "ring", "watch", "belt"],
-        "answer": 3,
+        "options": [
+          "ring",
+          "belt",
+          "watch",
+          "tie"
+        ],
+        "answer": 1,
         "justification": "عندما يكون البنطال واسعاً، نشد الحزام (belt). ربطة العنق (tie) على الرقبة، والساعة (watch) في المعصم، والخاتم (ring) في الإصبع.",
         "context_sentence": "His trousers kept slipping, so he fastened his ________ tighter."
       }
@@ -56,7 +76,12 @@
       "page": "69",
       "question": {
         "q": "The children put on their yellow ________ before splashing in the puddles.",
-        "options": ["shoes", "glasses", "sweater", "raincoat"],
+        "options": [
+          "shoes",
+          "sweater",
+          "glasses",
+          "raincoat"
+        ],
         "answer": 3,
         "justification": "في المطر نرتدي معطف المطر (raincoat). السترة الصوفية (sweater) للتدفئة، والحذاء (shoes) للقدمين، والنظارات (glasses) للعينين.",
         "context_sentence": "The children put on their yellow ________ before splashing in the puddles."
@@ -68,7 +93,12 @@
       "page": "69",
       "question": {
         "q": "It's chilly outside, so I'll grab a thick ________.",
-        "options": ["trainers", "sweater", "thobe", "umbrella"],
+        "options": [
+          "thobe",
+          "sweater",
+          "trainers",
+          "umbrella"
+        ],
         "answer": 1,
         "justification": "للتدفئة في البرد نرتدي سترة صوفية (sweater). المظلة (umbrella) للمطر، والحذاء الرياضي (trainers) للرياضة، والثوب (thobe) لباس تقليدي.",
         "context_sentence": "It's chilly outside, so I'll grab a thick ________."
@@ -80,8 +110,13 @@
       "page": "69",
       "question": {
         "q": "For gym class, you must wear comfortable ________.",
-        "options": ["shoes", "trainers", "gloves", "belt"],
-        "answer": 1,
+        "options": [
+          "belt",
+          "shoes",
+          "gloves",
+          "trainers"
+        ],
+        "answer": 3,
         "justification": "لكرة القدم نحتاج حذاء رياضياً (trainers). الأحذية العادية (shoes) ليست مناسبة للملاعب، والقفازات (gloves) لليدين، والحزام (belt) ليس للرياضة.",
         "context_sentence": "For gym class, you must wear comfortable ________."
       }
@@ -92,8 +127,13 @@
       "page": "69",
       "question": {
         "q": "She wore woolen ________ to keep her fingers warm in the snow.",
-        "options": ["hats", "belts", "rings", "gloves"],
-        "answer": 3,
+        "options": [
+          "rings",
+          "gloves",
+          "hats",
+          "belts"
+        ],
+        "answer": 1,
         "justification": "القفازات (gloves) تحافظ على دفء اليدين. الخواتم (rings) للزينة، والأحزمة (belts) للخصر، والقبعات (hats) للرأس.",
         "context_sentence": "She wore woolen ________ to keep her fingers warm in the snow."
       }
@@ -104,8 +144,13 @@
       "page": "69",
       "question": {
         "q": "He opened his ________ as the rain started to pour.",
-        "options": ["goggles", "umbrella", "bag", "scarf"],
-        "answer": 1,
+        "options": [
+          "bag",
+          "goggles",
+          "scarf",
+          "umbrella"
+        ],
+        "answer": 3,
         "justification": "المظلة (umbrella) تقي من المطر. النظارات الواقية (goggles) للعيون، والحقيبة (bag) للحمل، والوشاح (scarf) للرقبة.",
         "context_sentence": "He opened his ________ as the rain started to pour."
       }
@@ -116,7 +161,12 @@
       "page": "69",
       "question": {
         "q": "She wrapped a colorful ________ around her neck before heading out.",
-        "options": ["belt", "scarf", "tie", "glove"],
+        "options": [
+          "tie",
+          "scarf",
+          "glove",
+          "belt"
+        ],
         "answer": 1,
         "justification": "الوشاح (scarf) يُلف حول الرقبة للتدفئة. ربطة العنق (tie) للأناقة، والحزام (belt) للخصر، والقفاز (glove) لليد.",
         "context_sentence": "She wrapped a colorful ________ around her neck before heading out."
@@ -128,8 +178,13 @@
       "page": "69",
       "question": {
         "q": "The man wore a crisp white ________ for the national celebration.",
-        "options": ["tie", "shirt", "thobe", "suit"],
-        "answer": 2,
+        "options": [
+          "tie",
+          "thobe",
+          "shirt",
+          "suit"
+        ],
+        "answer": 1,
         "justification": "الثوب (thobe) هو الزي التقليدي للرجال في السعودية. ربطة العنق (tie) والبدلة (suit) والقميص (shirt) لباس غربي أو رسمي ولكن ليس الزي اليومي التقليدي.",
         "context_sentence": "The man wore a crisp white ________ for the national celebration."
       }
@@ -140,8 +195,13 @@
       "page": "69",
       "question": {
         "q": "He wore a silk ________ that matched his pocket square perfectly.",
-        "options": ["scarf", "belt", "thobe", "tie"],
-        "answer": 3,
+        "options": [
+          "tie",
+          "belt",
+          "thobe",
+          "scarf"
+        ],
+        "answer": 0,
         "justification": "مع البدلة تُلبس ربطة العنق (tie). الحزام (belt) موجود أيضاً ولكن السؤال يركز على ما يُلبس مع البدلة تحديداً حول الرقبة.",
         "context_sentence": "He wore a silk ________ that matched his pocket square perfectly."
       }
@@ -152,8 +212,13 @@
       "page": "69",
       "question": {
         "q": "For his job interview, he bought a dark blue ________.",
-        "options": ["scarf", "jacket", "thobe", "suit"],
-        "answer": 3,
+        "options": [
+          "thobe",
+          "jacket",
+          "suit",
+          "scarf"
+        ],
+        "answer": 2,
         "justification": "للمقابلة الرسمية يشتري بدلة (suit). الوشاح (scarf) ليس رسمياً، والثوب (thobe) تقليدي، والسترة (jacket) أقل رسمية من البدلة الكاملة.",
         "context_sentence": "For his job interview, he bought a dark blue ________."
       }
@@ -164,7 +229,12 @@
       "page": "69",
       "question": {
         "q": "The swimmer adjusted her ________ before diving into the pool.",
-        "options": ["gloves", "hats", "umbrellas", "goggles"],
+        "options": [
+          "hats",
+          "umbrellas",
+          "gloves",
+          "goggles"
+        ],
         "answer": 3,
         "justification": "السباحون يضعون نظارات واقية (goggles) لحماية العينين من الماء. المظلات (umbrellas) والقبعات (hats) والقفازات (gloves) لا تستخدم في الماء.",
         "context_sentence": "The swimmer adjusted her ________ before diving into the pool."
@@ -176,7 +246,12 @@
       "page": "70",
       "question": {
         "q": "My grandmother still uses an ________ sewing machine, but it works perfectly.",
-        "options": ["modern", "popular", "trendy", "old fashioned"],
+        "options": [
+          "trendy",
+          "popular",
+          "modern",
+          "old fashioned"
+        ],
         "answer": 3,
         "justification": "إذا كان الشيء يبدو قديماً مقارنة بالموديلات الحديثة، فهو (old fashioned). 'modern' يعني حديث، و'trendy' يعني على الموضة، و'popular' يعني مشهور.",
         "context_sentence": "My grandmother still uses an ________ sewing machine, but it works perfectly."
@@ -188,8 +263,13 @@
       "page": "70",
       "question": {
         "q": "The city skyline is full of ________ glass towers.",
-        "options": ["broken", "ancient", "old", "modern"],
-        "answer": 3,
+        "options": [
+          "old",
+          "modern",
+          "broken",
+          "ancient"
+        ],
+        "answer": 1,
         "justification": "دبي معروفة بالمباني الحديثة (modern). 'old' قديم، و'ancient' أثري، و'broken' مكسور، وكلها لا تصف أفق دبي.",
         "context_sentence": "The city skyline is full of ________ glass towers."
       }
@@ -200,8 +280,13 @@
       "page": "70",
       "question": {
         "q": "After running for an hour, he felt extremely ________ and drank a whole bottle.",
-        "options": ["tired", "sleepy", "hungry", "thirsty"],
-        "answer": 3,
+        "options": [
+          "sleepy",
+          "hungry",
+          "thirsty",
+          "tired"
+        ],
+        "answer": 2,
         "justification": "عندما تحتاج إلى ماء، فأنت عطشان (thirsty). 'hungry' جائع، 'tired' متعب، 'sleepy' نعسان.",
         "context_sentence": "After running for an hour, he felt extremely ________ and drank a whole bottle."
       }
@@ -212,7 +297,12 @@
       "page": "70",
       "question": {
         "q": "The hikers were ________ after the long walk, so they ate sandwiches.",
-        "options": ["thirsty", "angry", "happy", "hungry"],
+        "options": [
+          "happy",
+          "angry",
+          "thirsty",
+          "hungry"
+        ],
         "answer": 3,
         "justification": "بعد مجهود كبير، يشعر المرء بالجوع (hungry). 'thirsty' عطش، 'happy' سعادة، 'angry' غضب.",
         "context_sentence": "The hikers were ________ after the long walk, so they ate sandwiches."
@@ -224,8 +314,13 @@
       "page": "70",
       "question": {
         "q": "The homemade soup tasted ________, with just the right amount of spices.",
-        "options": ["bitter", "salty", "awful", "delicious"],
-        "answer": 3,
+        "options": [
+          "bitter",
+          "delicious",
+          "awful",
+          "salty"
+        ],
+        "answer": 1,
         "justification": "عندما يكون الطعم طيباً نقول (delicious). 'awful' فظيع، 'salty' مالح، 'bitter' مر، وكلها صفات سلبية غير مناسبة للطعام الجيد.",
         "context_sentence": "The homemade soup tasted ________, with just the right amount of spices."
       }
@@ -236,7 +331,12 @@
       "page": "70",
       "question": {
         "q": "The weather today is ________; it's stormy and freezing cold.",
-        "options": ["pleasant", "wonderful", "delicious", "awful"],
+        "options": [
+          "delicious",
+          "pleasant",
+          "wonderful",
+          "awful"
+        ],
         "answer": 3,
         "justification": "الجو البارد والممطر سيئ أو فظيع (awful). 'delicious' لذيذ (للطعام)، 'pleasant' لطيف، 'wonderful' رائع، وكلها إيجابية.",
         "context_sentence": "The weather today is ________; it's stormy and freezing cold."
@@ -248,8 +348,13 @@
       "page": "96",
       "question": {
         "q": "He pressed the ________ harder to cycle up the steep hill.",
-        "options": ["chains", "pedals", "brakes", "wheels"],
-        "answer": 1,
+        "options": [
+          "pedals",
+          "brakes",
+          "chains",
+          "wheels"
+        ],
+        "answer": 0,
         "justification": "الدراجات الأولى لم يكن بها دواسات (pedals). كانت لها عجلات (wheels)، والسلاسل (chains) والفرامل (brakes) أتت لاحقاً.",
         "context_sentence": "He pressed the ________ harder to cycle up the steep hill."
       }
@@ -260,7 +365,12 @@
       "page": "96",
       "question": {
         "q": "Macmillan fixed foot ________ to his bicycle to move it forward.",
-        "options": ["levers", "pedals", "wheels", "chains"],
+        "options": [
+          "pedals",
+          "chains",
+          "levers",
+          "wheels"
+        ],
         "answer": 0,
         "justification": "ماكميلان أضاف روافع (levers) تُحرك بالقدم. 'pedals' دواسات (اختراع لاحق)، 'wheels' عجلات، 'chains' سلاسل.",
         "context_sentence": "Macmillan fixed foot ________ to his bicycle to move it forward."
@@ -272,8 +382,13 @@
       "page": "96",
       "question": {
         "q": "The telephone is a revolutionary ________ that changed communication.",
-        "options": ["invention", "destruction", "game", "problem"],
-        "answer": 0,
+        "options": [
+          "destruction",
+          "invention",
+          "problem",
+          "game"
+        ],
+        "answer": 1,
         "justification": "الدراجة ليست اختراعاً (invention) جديداً. 'destruction' تدمير، 'game' لعبة، 'problem' مشكلة.",
         "context_sentence": "The telephone is a revolutionary ________ that changed communication."
       }
@@ -284,8 +399,13 @@
       "page": "97",
       "question": {
         "q": "Water seeped through a ________ in the sea floor.",
-        "options": ["valleys", "tunnels", "mountains", "cracks"],
-        "answer": 3,
+        "options": [
+          "tunnels",
+          "mountains",
+          "valleys",
+          "cracks"
+        ],
+        "answer": 0,
         "justification": "الماء يدخل من خلال الشقوق أو الصدوع (cracks) في قاع البحر. 'mountains' جبال، 'valleys' وديان، 'tunnels' أنفاق.",
         "context_sentence": "Water seeped through a ________ in the sea floor."
       }
@@ -296,8 +416,13 @@
       "page": "97",
       "question": {
         "q": "Salt is a natural ________ found in many foods.",
-        "options": ["plant", "mineral", "animal", "liquid"],
-        "answer": 1,
+        "options": [
+          "animal",
+          "liquid",
+          "plant",
+          "mineral"
+        ],
+        "answer": 3,
         "justification": "الملح معدن (mineral) شائع. 'plant' نبات، 'animal' حيوان، 'liquid' سائل.",
         "context_sentence": "Salt is a natural ________ found in many foods."
       }
@@ -308,7 +433,12 @@
       "page": "97",
       "question": {
         "q": "The puddle ________ in the hot sun within an hour.",
-        "options": ["flooded", "expanded", "froze", "evaporated"],
+        "options": [
+          "flooded",
+          "expanded",
+          "froze",
+          "evaporated"
+        ],
         "answer": 3,
         "justification": "البحر تبخر (evaporated) تماماً. 'froze' تجمد، 'expanded' توسع، 'flooded' فاض.",
         "context_sentence": "The puddle ________ in the hot sun within an hour."
@@ -320,8 +450,13 @@
       "page": "98",
       "question": {
         "q": "Wires inside the cable are made of ________ because it conducts electricity well.",
-        "options": ["Iron", "Silver", "Zinc", "Copper"],
-        "answer": 3,
+        "options": [
+          "Iron",
+          "Copper",
+          "Silver",
+          "Zinc"
+        ],
+        "answer": 1,
         "justification": "النحاس (Copper) معدن أحمر اللون. الحديد (Iron) رمادي، والفضة (Silver) بيضاء، والزنك (Zinc) أبيض مائل للزرقة.",
         "context_sentence": "Wires inside the cable are made of ________ because it conducts electricity well."
       }
@@ -332,8 +467,13 @@
       "page": "100",
       "question": {
         "q": "People with ________ must monitor their blood sugar regularly.",
-        "options": ["Cancer", "Diabetes", "Asthma", "Headache"],
-        "answer": 1,
+        "options": [
+          "Diabetes",
+          "Headache",
+          "Cancer",
+          "Asthma"
+        ],
+        "answer": 0,
         "justification": "السكري (Diabetes) هو المرض الذي يؤثر على استخدام الجسم للسكر. 'Asthma' ربو، 'Cancer' سرطان، 'Headache' صداع.",
         "context_sentence": "People with ________ must monitor their blood sugar regularly."
       }
@@ -344,8 +484,13 @@
       "page": "100",
       "question": {
         "q": "Type I diabetics need daily ________ injections to survive.",
-        "options": ["antibiotic", "insulin", "vitamin", "calcium"],
-        "answer": 1,
+        "options": [
+          "vitamin",
+          "antibiotic",
+          "insulin",
+          "calcium"
+        ],
+        "answer": 2,
         "justification": "مرضى السكري من النوع الأول يحتاجون حقن الأنسولين (insulin). 'vitamin' فيتامين، 'calcium' كالسيوم، 'antibiotic' مضاد حيوي.",
         "context_sentence": "Type I diabetics need daily ________ injections to survive."
       }
@@ -356,7 +501,12 @@
       "page": "100",
       "question": {
         "q": "During digestion, carbohydrates are broken down into ________ for energy.",
-        "options": ["Fiber", "Fat", "Protein", "Glucose"],
+        "options": [
+          "Protein",
+          "Fiber",
+          "Fat",
+          "Glucose"
+        ],
         "answer": 3,
         "justification": "الجلوكوز (Glucose) هو سكر بسيط يعطي طاقة. 'Protein' بروتين، 'Fat' دهن، 'Fiber' ألياف.",
         "context_sentence": "During digestion, carbohydrates are broken down into ________ for energy."
@@ -368,7 +518,12 @@
       "page": "100",
       "question": {
         "q": "Pasta and bread are rich in ________, which give you energy.",
-        "options": ["fats", "vitamins", "carbohydrates", "proteins"],
+        "options": [
+          "fats",
+          "proteins",
+          "carbohydrates",
+          "vitamins"
+        ],
         "answer": 2,
         "justification": "الخبز والأرز مصادر للكربوهيدرات (carbohydrates). 'fats' دهون، 'proteins' بروتينات، 'vitamins' فيتامينات.",
         "context_sentence": "Pasta and bread are rich in ________, which give you energy."
@@ -380,8 +535,13 @@
       "page": "100",
       "question": {
         "q": "The doctor gave her medicine to ________ the severe back pain.",
-        "options": ["increase", "ignore", "worsen", "alleviate"],
-        "answer": 3,
+        "options": [
+          "worsen",
+          "alleviate",
+          "ignore",
+          "increase"
+        ],
+        "answer": 1,
         "justification": "الدواء يخفف (alleviate) الألم. 'worsen' يزيده سوءاً، 'ignore' يتجاهل، 'increase' يزيد.",
         "context_sentence": "The doctor gave her medicine to ________ the severe back pain."
       }
@@ -392,7 +552,12 @@
       "page": "100",
       "question": {
         "q": "A runny nose and sneezing are common ________ of a cold.",
-        "options": ["disease", "symptom", "cause", "cure"],
+        "options": [
+          "disease",
+          "symptom",
+          "cure",
+          "cause"
+        ],
         "answer": 1,
         "justification": "الحمى عرض (symptom) من أعراض الإنفلونزا. 'cause' سبب، 'cure' علاج، 'disease' مرض.",
         "context_sentence": "A runny nose and sneezing are common ________ of a cold."
@@ -404,8 +569,13 @@
       "page": "100",
       "question": {
         "q": "The doctor examined a sample of ________ under the microscope.",
-        "options": ["bones", "teeth", "tissues", "muscles"],
-        "answer": 2,
+        "options": [
+          "bones",
+          "muscles",
+          "tissues",
+          "teeth"
+        ],
+        "answer": 0,
         "justification": "الأنسجة (tissues) هي التي تتضرر بالأمراض. 'bones' عظام، 'muscles' عضلات، 'teeth' أسنان.",
         "context_sentence": "The doctor examined a sample of ________ under the microscope."
       }
@@ -416,8 +586,13 @@
       "page": "101",
       "question": {
         "q": "Drinking water aids the process of ________ after a heavy meal.",
-        "options": ["exercise", "digestion", "sleep", "reading"],
-        "answer": 1,
+        "options": [
+          "sleep",
+          "reading",
+          "digestion",
+          "exercise"
+        ],
+        "answer": 2,
         "justification": "الطعام يُهضم أثناء عملية الهضم (digestion). 'sleep' نوم، 'exercise' تمارين، 'reading' قراءة.",
         "context_sentence": "Drinking water aids the process of ________ after a heavy meal."
       }
@@ -428,8 +603,13 @@
       "page": "100",
       "question": {
         "q": "A healthy ________ includes plenty of fruits, vegetables, and whole grains.",
-        "options": ["diet", "habit", "exercise", "hobby"],
-        "answer": 0,
+        "options": [
+          "hobby",
+          "exercise",
+          "diet",
+          "habit"
+        ],
+        "answer": 2,
         "justification": "النظام الغذائي (diet) المتوازن أساسي للصحة. 'exercise' تمارين، 'hobby' هواية، 'habit' عادة.",
         "context_sentence": "A healthy ________ includes plenty of fruits, vegetables, and whole grains."
       }
@@ -440,8 +620,13 @@
       "page": "Extra 2",
       "question": {
         "q": "Only the top of the iceberg is ________ above the water; the rest lies hidden.",
-        "options": ["invisible", "dark", "visible", "hidden"],
-        "answer": 2,
+        "options": [
+          "visible",
+          "dark",
+          "invisible",
+          "hidden"
+        ],
+        "answer": 0,
         "justification": "المادة المرئية (visible) هي التي تُرى. 'dark' مظلم، 'hidden' مخفي، 'invisible' غير مرئي.",
         "context_sentence": "Only the top of the iceberg is ________ above the water; the rest lies hidden."
       }
@@ -452,8 +637,13 @@
       "page": "Extra 2",
       "question": {
         "q": "The moon's ________ pull causes the ocean tides.",
-        "options": ["electrical", "chemical", "thermal", "gravitational"],
-        "answer": 3,
+        "options": [
+          "electrical",
+          "gravitational",
+          "chemical",
+          "thermal"
+        ],
+        "answer": 1,
         "justification": "للمادة المظلمة تأثيرات جاذبية (gravitational). 'electrical' كهربائية، 'chemical' كيميائية، 'thermal' حرارية.",
         "context_sentence": "The moon's ________ pull causes the ocean tides."
       }
@@ -464,8 +654,13 @@
       "page": "Extra 2",
       "question": {
         "q": "Tea is the most popular hot ________ in the world, especially in Britain.",
-        "options": ["machine", "sport", "food", "beverage"],
-        "answer": 3,
+        "options": [
+          "food",
+          "sport",
+          "beverage",
+          "machine"
+        ],
+        "answer": 2,
         "justification": "القهوة مشروب (beverage) شعبي. 'food' طعام، 'sport' رياضة، 'machine' آلة.",
         "context_sentence": "Tea is the most popular hot ________ in the world, especially in Britain."
       }
@@ -476,7 +671,12 @@
       "page": "Extra 2",
       "question": {
         "q": "A mirage is an ________ illusion caused by the bending of light rays.",
-        "options": ["musical", "optical", "mechanical", "medical"],
+        "options": [
+          "medical",
+          "optical",
+          "musical",
+          "mechanical"
+        ],
         "answer": 1,
         "justification": "قوس قزح ظاهرة بصرية (optical). 'musical' موسيقية، 'medical' طبية، 'mechanical' ميكانيكية.",
         "context_sentence": "A mirage is an ________ illusion caused by the bending of light rays."

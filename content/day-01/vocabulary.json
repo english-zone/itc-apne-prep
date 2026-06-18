@@ -8,8 +8,13 @@
       "page": "87",
       "question": {
         "q": "The company decided to _______ their new product on television to reach more people.",
-        "options": ["advertise", "ignore", "hide", "cancel"],
-        "answer": 0,
+        "options": [
+          "ignore",
+          "advertise",
+          "cancel",
+          "hide"
+        ],
+        "answer": 1,
         "justification": "'advertise' means to promote a product publicly. 'ignore' means pay no attention, 'hide' means conceal, and 'cancel' means call off.",
         "context_sentence": "The company decided to _______ their new product on television to reach more people."
       }
@@ -20,8 +25,13 @@
       "page": "87",
       "question": {
         "q": "Many people still prefer _______ methods of learning, such as reading books and attending lectures.",
-        "options": ["traditional", "modern", "digital", "advanced"],
-        "answer": 0,
+        "options": [
+          "digital",
+          "advanced",
+          "modern",
+          "traditional"
+        ],
+        "answer": 3,
         "justification": "'traditional' means old-style, long-established. 'modern' means current, 'digital' means electronic, 'advanced' means highly developed.",
         "context_sentence": "Many people still prefer _______ methods of learning, such as reading books and attending lectures."
       }
@@ -32,8 +42,13 @@
       "page": "88",
       "question": {
         "q": "According to government _______, the population of the city increased by 20% last year.",
-        "options": ["statistics", "stories", "pictures", "songs"],
-        "answer": 0,
+        "options": [
+          "songs",
+          "stories",
+          "pictures",
+          "statistics"
+        ],
+        "answer": 3,
         "justification": "'statistics' are numerical facts or data. 'stories' are narratives, 'pictures' are images, 'songs' are musical compositions.",
         "context_sentence": "According to government _______, the population of the city increased by 20% last year."
       }
@@ -44,8 +59,13 @@
       "page": "87",
       "question": {
         "q": "The teacher asked the students to pay _______ during the lesson.",
-        "options": ["attention", "money", "respect", "time"],
-        "answer": 0,
+        "options": [
+          "time",
+          "respect",
+          "attention",
+          "money"
+        ],
+        "answer": 2,
         "justification": "'attention' means focus or concentration. 'money' is currency, 'respect' is admiration, 'time' is duration.",
         "context_sentence": "The teacher asked the students to pay _______ during the lesson."
       }
@@ -56,8 +76,13 @@
       "page": "88",
       "question": {
         "q": "The lawyer needed more evidence to _______ that his client was innocent.",
-        "options": ["prove", "hide", "deny", "forget"],
-        "answer": 0,
+        "options": [
+          "deny",
+          "forget",
+          "prove",
+          "hide"
+        ],
+        "answer": 2,
         "justification": "'prove' means demonstrate the truth. 'hide' means conceal, 'deny' means refuse to admit, 'forget' means fail to remember.",
         "context_sentence": "The lawyer needed more evidence to _______ that his client was innocent."
       }
@@ -68,7 +93,12 @@
       "page": "88",
       "question": {
         "q": "This medicine is very _______ against headaches; you'll feel better in minutes.",
-        "options": ["effective", "useless", "expensive", "dangerous"],
+        "options": [
+          "effective",
+          "expensive",
+          "dangerous",
+          "useless"
+        ],
         "answer": 0,
         "justification": "'effective' means producing the intended result. 'useless' means not working, 'expensive' means costly, 'dangerous' means risky.",
         "context_sentence": "This medicine is very _______ against headaches; you'll feel better in minutes."
@@ -80,8 +110,13 @@
       "page": "87",
       "question": {
         "q": "I sent him an email, but he didn't _______ until three days later.",
-        "options": ["respond", "leave", "arrive", "sleep"],
-        "answer": 0,
+        "options": [
+          "leave",
+          "arrive",
+          "respond",
+          "sleep"
+        ],
+        "answer": 2,
         "justification": "'respond' means reply or answer. 'leave' means depart, 'arrive' means reach, 'sleep' means rest.",
         "context_sentence": "I sent him an email, but he didn't _______ until three days later."
       }
@@ -92,8 +127,13 @@
       "page": "87",
       "question": {
         "q": "Parents have a great _______ on their children's behavior.",
-        "options": ["influence", "problem", "secret", "distance"],
-        "answer": 0,
+        "options": [
+          "problem",
+          "influence",
+          "distance",
+          "secret"
+        ],
+        "answer": 1,
         "justification": "'influence' means effect or impact. 'problem' means difficulty, 'secret' means hidden information, 'distance' means space between.",
         "context_sentence": "Parents have a great _______ on their children's behavior."
       }
@@ -104,8 +144,13 @@
       "page": "87",
       "question": {
         "q": "She made a large _______ at the store and bought clothes, shoes, and a handbag.",
-        "options": ["purchase", "mistake", "noise", "promise"],
-        "answer": 0,
+        "options": [
+          "mistake",
+          "promise",
+          "purchase",
+          "noise"
+        ],
+        "answer": 2,
         "justification": "'purchase' means buy. 'mistake' means error, 'noise' means sound, 'promise' means commitment.",
         "context_sentence": "She made a large _______ at the store and bought clothes, shoes, and a handbag."
       }
@@ -116,8 +161,13 @@
       "page": "87",
       "question": {
         "q": "The new _______ on social media attracted thousands of customers to the online store.",
-        "options": ["advertisement", "newspaper", "dictionary", "recipe"],
-        "answer": 0,
+        "options": [
+          "dictionary",
+          "recipe",
+          "newspaper",
+          "advertisement"
+        ],
+        "answer": 3,
         "justification": "'advertisement' is a public promotion. 'newspaper' is a printed publication, 'dictionary' is a word reference, 'recipe' is cooking instructions.",
         "context_sentence": "The new _______ on social media attracted thousands of customers to the online store."
       }
@@ -128,7 +178,12 @@
       "page": "90",
       "question": {
         "q": "_______ is a hard job that requires waking up very early every morning.",
-        "options": ["Farming", "Teaching", "Painting", "Dancing"],
+        "options": [
+          "Farming",
+          "Dancing",
+          "Teaching",
+          "Painting"
+        ],
         "answer": 0,
         "justification": "'farming' means agriculture. 'teaching' means education, 'painting' means art, 'dancing' means moving to music.",
         "context_sentence": "_______ is a hard job that requires waking up very early every morning."
@@ -140,8 +195,13 @@
       "page": "90",
       "question": {
         "q": "Playing with fire is extremely _______ and can cause serious injuries.",
-        "options": ["dangerous", "fun", "safe", "exciting"],
-        "answer": 0,
+        "options": [
+          "fun",
+          "safe",
+          "exciting",
+          "dangerous"
+        ],
+        "answer": 3,
         "justification": "'dangerous' means risky or unsafe. 'fun' means enjoyable, 'safe' means secure, 'exciting' means thrilling.",
         "context_sentence": "Playing with fire is extremely _______ and can cause serious injuries."
       }
@@ -152,8 +212,13 @@
       "page": "90",
       "question": {
         "q": "We should protect our _______ by reducing pollution and planting more trees.",
-        "options": ["environment", "building", "computer", "vehicle"],
-        "answer": 0,
+        "options": [
+          "building",
+          "computer",
+          "environment",
+          "vehicle"
+        ],
+        "answer": 2,
         "justification": "'environment' means surroundings or nature. 'building' is a structure, 'computer' is a device, 'vehicle' is a transport machine.",
         "context_sentence": "We should protect our _______ by reducing pollution and planting more trees."
       }
@@ -164,7 +229,12 @@
       "page": "90",
       "question": {
         "q": "He has a low _______ for pain, so even a small cut makes him cry.",
-        "options": ["tolerance", "appetite", "memory", "speed"],
+        "options": [
+          "tolerance",
+          "speed",
+          "memory",
+          "appetite"
+        ],
         "answer": 0,
         "justification": "'tolerance' means ability to endure. 'appetite' means hunger, 'memory' means ability to remember, 'speed' means quickness.",
         "context_sentence": "He has a low _______ for pain, so even a small cut makes him cry."
@@ -176,8 +246,13 @@
       "page": "90",
       "question": {
         "q": "Long _______ to the sun can damage your skin.",
-        "options": ["exposure", "distance", "protection", "freedom"],
-        "answer": 0,
+        "options": [
+          "protection",
+          "distance",
+          "freedom",
+          "exposure"
+        ],
+        "answer": 3,
         "justification": "'exposure' means being in contact with something. 'distance' means space, 'protection' means safety, 'freedom' means liberty.",
         "context_sentence": "Long _______ to the sun can damage your skin."
       }
@@ -188,8 +263,13 @@
       "page": "91",
       "question": {
         "q": "Smoking is a major cause of lung _______.",
-        "options": ["cancer", "energy", "comfort", "joy"],
-        "answer": 0,
+        "options": [
+          "energy",
+          "cancer",
+          "comfort",
+          "joy"
+        ],
+        "answer": 1,
         "justification": "'cancer' is a serious disease. 'energy' means power, 'comfort' means ease, 'joy' means happiness.",
         "context_sentence": "Smoking is a major cause of lung _______."
       }
@@ -200,8 +280,13 @@
       "page": "91",
       "question": {
         "q": "Farmers should wear protective clothing when they spray _______ on crops.",
-        "options": ["chemicals", "water", "seeds", "flowers"],
-        "answer": 0,
+        "options": [
+          "water",
+          "seeds",
+          "chemicals",
+          "flowers"
+        ],
+        "answer": 2,
         "justification": "'chemicals' are substances used in industry or farming. 'water' is liquid, 'seeds' are for planting, 'flowers' are plants.",
         "context_sentence": "Farmers should wear protective clothing when they spray _______ on crops."
       }
@@ -212,7 +297,12 @@
       "page": "91",
       "question": {
         "q": "Before riding a bike, you should take safety _______ such as wearing a helmet.",
-        "options": ["precautions", "photos", "breaks", "holidays"],
+        "options": [
+          "precautions",
+          "breaks",
+          "photos",
+          "holidays"
+        ],
         "answer": 0,
         "justification": "'precautions' are safety measures. 'photos' are images, 'breaks' are pauses, 'holidays' are vacations.",
         "context_sentence": "Before riding a bike, you should take safety _______ such as wearing a helmet."
@@ -224,8 +314,13 @@
       "page": "91",
       "question": {
         "q": "The construction workers used heavy _______ to lift the large stones.",
-        "options": ["equipment", "paintings", "books", "clothes"],
-        "answer": 0,
+        "options": [
+          "books",
+          "equipment",
+          "paintings",
+          "clothes"
+        ],
+        "answer": 1,
         "justification": "'equipment' means tools or machinery. 'paintings' are art, 'books' are reading material, 'clothes' are garments.",
         "context_sentence": "The construction workers used heavy _______ to lift the large stones."
       }
@@ -236,8 +331,13 @@
       "page": "91",
       "question": {
         "q": "The car accident caused serious _______ to the driver.",
-        "options": ["injuries", "celebrations", "paintings", "songs"],
-        "answer": 0,
+        "options": [
+          "paintings",
+          "songs",
+          "injuries",
+          "celebrations"
+        ],
+        "answer": 2,
         "justification": "'injuries' means physical harm. 'celebrations' means parties, 'paintings' means art, 'songs' means music.",
         "context_sentence": "The car accident caused serious _______ to the driver."
       }
@@ -248,8 +348,13 @@
       "page": "91",
       "question": {
         "q": "She chose a healthy _______ with regular exercise and balanced meals.",
-        "options": ["lifestyle", "problem", "mistake", "accident"],
-        "answer": 0,
+        "options": [
+          "problem",
+          "lifestyle",
+          "mistake",
+          "accident"
+        ],
+        "answer": 1,
         "justification": "'lifestyle' means way of living. 'problem' means difficulty, 'mistake' means error, 'accident' means unintentional event.",
         "context_sentence": "She chose a healthy _______ with regular exercise and balanced meals."
       }
@@ -260,8 +365,13 @@
       "page": "93",
       "question": {
         "q": "He does _______ work at the hospital every Saturday without getting paid.",
-        "options": ["voluntary", "forced", "paid", "difficult"],
-        "answer": 0,
+        "options": [
+          "paid",
+          "forced",
+          "voluntary",
+          "difficult"
+        ],
+        "answer": 2,
         "justification": "'voluntary' means done freely without payment. 'forced' means compelled, 'paid' means with money, 'difficult' means hard.",
         "context_sentence": "He does _______ work at the hospital every Saturday without getting paid."
       }
@@ -272,8 +382,13 @@
       "page": "93",
       "question": {
         "q": "The charity helps people who live in _______ and cannot afford basic needs.",
-        "options": ["poverty", "wealth", "luxury", "comfort"],
-        "answer": 0,
+        "options": [
+          "luxury",
+          "poverty",
+          "wealth",
+          "comfort"
+        ],
+        "answer": 1,
         "justification": "'poverty' means state of being poor. 'wealth' means richness, 'luxury' means great comfort, 'comfort' means ease.",
         "context_sentence": "The charity helps people who live in _______ and cannot afford basic needs."
       }
@@ -284,8 +399,13 @@
       "page": "93",
       "question": {
         "q": "The government provides extra support to schools in _______ areas.",
-        "options": ["disadvantaged", "wealthy", "rich", "comfortable"],
-        "answer": 0,
+        "options": [
+          "comfortable",
+          "rich",
+          "disadvantaged",
+          "wealthy"
+        ],
+        "answer": 2,
         "justification": "'disadvantaged' means lacking basic resources. 'wealthy' means rich, 'rich' means wealthy, 'comfortable' means pleasant.",
         "context_sentence": "The government provides extra support to schools in _______ areas."
       }
@@ -296,8 +416,13 @@
       "page": "93",
       "question": {
         "q": "Many _______s helped clean the beach after the storm.",
-        "options": ["volunteer", "prisoner", "tourist", "visitor"],
-        "answer": 0,
+        "options": [
+          "prisoner",
+          "visitor",
+          "volunteer",
+          "tourist"
+        ],
+        "answer": 2,
         "justification": "'volunteer' means someone who offers to help without pay. 'prisoner' means captive, 'tourist' means traveler, 'visitor' means guest.",
         "context_sentence": "Many _______s helped clean the beach after the storm."
       }
@@ -308,8 +433,13 @@
       "page": "93",
       "question": {
         "q": "The United Nations is an international _______ that promotes peace.",
-        "options": ["organization", "problem", "animal", "machine"],
-        "answer": 0,
+        "options": [
+          "animal",
+          "organization",
+          "problem",
+          "machine"
+        ],
+        "answer": 1,
         "justification": "'organization' means a structured group. 'problem' means difficulty, 'animal' means creature, 'machine' means device.",
         "context_sentence": "The United Nations is an international _______ that promotes peace."
       }
@@ -320,8 +450,13 @@
       "page": "94",
       "question": {
         "q": "The government should provide free _______ to all citizens.",
-        "options": ["healthcare", "entertainment", "transport", "sport"],
-        "answer": 0,
+        "options": [
+          "sport",
+          "entertainment",
+          "healthcare",
+          "transport"
+        ],
+        "answer": 2,
         "justification": "'healthcare' means medical services. 'entertainment' means amusement, 'transport' means movement, 'sport' means physical activity.",
         "context_sentence": "The government should provide free _______ to all citizens."
       }
@@ -332,8 +467,13 @@
       "page": "94",
       "question": {
         "q": "A good _______ helps young people develop their skills and confidence.",
-        "options": ["mentor", "student", "patient", "customer"],
-        "answer": 0,
+        "options": [
+          "customer",
+          "patient",
+          "mentor",
+          "student"
+        ],
+        "answer": 2,
         "justification": "'mentor' means guide or advisor. 'student' means learner, 'patient' means sick person, 'customer' means buyer.",
         "context_sentence": "A good _______ helps young people develop their skills and confidence."
       }
@@ -344,8 +484,13 @@
       "page": "94",
       "question": {
         "q": "She found a new _______ to solve the math problem quickly.",
-        "options": ["method", "mistake", "accident", "failure"],
-        "answer": 0,
+        "options": [
+          "mistake",
+          "accident",
+          "method",
+          "failure"
+        ],
+        "answer": 2,
         "justification": "'method' means a way of doing something. 'mistake' means error, 'accident' means unintentional event, 'failure' means lack of success.",
         "context_sentence": "She found a new _______ to solve the math problem quickly."
       }
@@ -356,8 +501,13 @@
       "page": "93",
       "question": {
         "q": "The company plans to _______ a new branch in the city next year.",
-        "options": ["establish", "destroy", "ignore", "cancel"],
-        "answer": 0,
+        "options": [
+          "ignore",
+          "cancel",
+          "destroy",
+          "establish"
+        ],
+        "answer": 3,
         "justification": "'establish' means set up or create. 'destroy' means ruin, 'ignore' means disregard, 'cancel' means call off.",
         "context_sentence": "The company plans to _______ a new branch in the city next year."
       }
@@ -368,7 +518,12 @@
       "page": "94",
       "question": {
         "q": "Reading books every day can help _______ your vocabulary.",
-        "options": ["improve", "worsen", "forget", "lose"],
+        "options": [
+          "improve",
+          "lose",
+          "forget",
+          "worsen"
+        ],
         "answer": 0,
         "justification": "'improve' means make better. 'worsen' means make worse, 'forget' means fail to remember, 'lose' means misplace.",
         "context_sentence": "Reading books every day can help _______ your vocabulary."
@@ -380,8 +535,13 @@
       "page": "95",
       "question": {
         "q": "Many families _______ to pay their bills when prices keep rising.",
-        "options": ["struggle", "celebrate", "relax", "enjoy"],
-        "answer": 0,
+        "options": [
+          "enjoy",
+          "relax",
+          "celebrate",
+          "struggle"
+        ],
+        "answer": 3,
         "justification": "'struggle' means face difficulty. 'celebrate' means enjoy an event, 'relax' means rest, 'enjoy' means take pleasure.",
         "context_sentence": "Many families _______ to pay their bills when prices keep rising."
       }
@@ -392,7 +552,12 @@
       "page": "95",
       "question": {
         "q": "He needs a steady _______ to support his family and pay the rent.",
-        "options": ["income", "hobby", "dream", "vacation"],
+        "options": [
+          "income",
+          "dream",
+          "hobby",
+          "vacation"
+        ],
         "answer": 0,
         "justification": "'income' means money earned. 'hobby' means leisure activity, 'dream' means aspiration, 'vacation' means holiday.",
         "context_sentence": "He needs a steady _______ to support his family and pay the rent."
@@ -404,8 +569,13 @@
       "page": "94",
       "question": {
         "q": "She is a _______ photographer and takes excellent photos for magazines.",
-        "options": ["professional", "amateur", "careless", "lazy"],
-        "answer": 0,
+        "options": [
+          "careless",
+          "professional",
+          "amateur",
+          "lazy"
+        ],
+        "answer": 1,
         "justification": "'professional' means trained and skilled. 'amateur' means non-professional, 'careless' means not careful, 'lazy' means unwilling to work.",
         "context_sentence": "She is a _______ photographer and takes excellent photos for magazines."
       }
@@ -416,8 +586,13 @@
       "page": "95",
       "question": {
         "q": "The heavy rain destroyed all the _______ that the farmer had planted.",
-        "options": ["crops", "buildings", "books", "cars"],
-        "answer": 0,
+        "options": [
+          "buildings",
+          "books",
+          "crops",
+          "cars"
+        ],
+        "answer": 2,
         "justification": "'crops' are plants grown for food. 'buildings' are structures, 'books' are reading material, 'cars' are vehicles.",
         "context_sentence": "The heavy rain destroyed all the _______ that the farmer had planted."
       }
@@ -428,8 +603,13 @@
       "page": "95",
       "question": {
         "q": "The new machine works more _______ than the old one, saving time and energy.",
-        "options": ["efficiently", "slowly", "carelessly", "loudly"],
-        "answer": 0,
+        "options": [
+          "slowly",
+          "loudly",
+          "carelessly",
+          "efficiently"
+        ],
+        "answer": 3,
         "justification": "'efficiently' means in a productive manner. 'slowly' means at low speed, 'carelessly' means without care, 'loudly' means with high volume.",
         "context_sentence": "The new machine works more _______ than the old one, saving time and energy."
       }
@@ -440,8 +620,13 @@
       "page": "95",
       "question": {
         "q": "The police used fingerprints to _______ the criminal.",
-        "options": ["identify", "hide", "release", "forget"],
-        "answer": 0,
+        "options": [
+          "forget",
+          "identify",
+          "release",
+          "hide"
+        ],
+        "answer": 1,
         "justification": "'identify' means recognize or name. 'hide' means conceal, 'release' means set free, 'forget' means fail to remember.",
         "context_sentence": "The police used fingerprints to _______ the criminal."
       }
@@ -452,8 +637,13 @@
       "page": "95",
       "question": {
         "q": "If you work hard, you can _______ your goals in life.",
-        "options": ["achieve", "lose", "destroy", "ignore"],
-        "answer": 0,
+        "options": [
+          "destroy",
+          "achieve",
+          "lose",
+          "ignore"
+        ],
+        "answer": 1,
         "justification": "'achieve' means reach or accomplish. 'lose' means misplace, 'destroy' means ruin, 'ignore' means disregard.",
         "context_sentence": "If you work hard, you can _______ your goals in life."
       }
@@ -464,8 +654,13 @@
       "page": "95",
       "question": {
         "q": "The _______ of this product is very high; it will last for many years.",
-        "options": ["quality", "price", "color", "size"],
-        "answer": 0,
+        "options": [
+          "size",
+          "color",
+          "price",
+          "quality"
+        ],
+        "answer": 3,
         "justification": "'quality' means standard or excellence. 'price' means cost, 'color' means hue, 'size' means dimensions.",
         "context_sentence": "The _______ of this product is very high; it will last for many years."
       }
@@ -476,7 +671,12 @@
       "page": "95",
       "question": {
         "q": "There is a big _______ between knowing the truth and proving it.",
-        "options": ["difference", "similarity", "secret", "problem"],
+        "options": [
+          "difference",
+          "secret",
+          "problem",
+          "similarity"
+        ],
         "answer": 0,
         "justification": "'difference' means distinction. 'similarity' means likeness, 'secret' means hidden information, 'problem' means difficulty.",
         "context_sentence": "There is a big _______ between knowing the truth and proving it."
@@ -488,8 +688,13 @@
       "page": "88",
       "question": {
         "q": "You should _______ your friends, but always verify important information yourself.",
-        "options": ["trust", "doubt", "hate", "fear"],
-        "answer": 0,
+        "options": [
+          "fear",
+          "hate",
+          "trust",
+          "doubt"
+        ],
+        "answer": 2,
         "justification": "'trust' means have confidence in. 'doubt' means question, 'hate' means dislike intensely, 'fear' means be afraid of.",
         "context_sentence": "You should _______ your friends, but always verify important information yourself."
       }
@@ -500,8 +705,13 @@
       "page": "88",
       "question": {
         "q": "We need a _______ source of information; the internet has too many false stories.",
-        "options": ["reliable", "weak", "slow", "noisy"],
-        "answer": 0,
+        "options": [
+          "slow",
+          "noisy",
+          "weak",
+          "reliable"
+        ],
+        "answer": 3,
         "justification": "'reliable' means dependable or trustworthy. 'weak' means not strong, 'slow' means not fast, 'noisy' means loud.",
         "context_sentence": "We need a _______ source of information; the internet has too many false stories."
       }
@@ -512,7 +722,12 @@
       "page": "89",
       "question": {
         "q": "When the fire alarm rang, everyone left the building _______.",
-        "options": ["immediately", "slowly", "carelessly", "angrily"],
+        "options": [
+          "immediately",
+          "angrily",
+          "slowly",
+          "carelessly"
+        ],
         "answer": 0,
         "justification": "'immediately' means without delay. 'slowly' means at low speed, 'carelessly' means without care, 'angrily' means with anger.",
         "context_sentence": "When the fire alarm rang, everyone left the building _______."
@@ -524,8 +739,13 @@
       "page": "90",
       "question": {
         "q": "The company conducted a _______ to find out what customers think about their products.",
-        "options": ["survey", "party", "game", "movie"],
-        "answer": 0,
+        "options": [
+          "game",
+          "party",
+          "movie",
+          "survey"
+        ],
+        "answer": 3,
         "justification": "'survey' means a study of opinions. 'party' means celebration, 'game' means sport or play, 'movie' means film.",
         "context_sentence": "The company conducted a _______ to find out what customers think about their products."
       }
@@ -536,8 +756,13 @@
       "page": "90",
       "question": {
         "q": "The _______ of students in the class prefer studying in the morning rather than at night.",
-        "options": ["majority", "minority", "few", "none"],
-        "answer": 0,
+        "options": [
+          "few",
+          "none",
+          "minority",
+          "majority"
+        ],
+        "answer": 3,
         "justification": "'majority' means most or more than half. 'minority' means less than half, 'few' means not many, 'none' means zero.",
         "context_sentence": "The _______ of students in the class prefer studying in the morning rather than at night."
       }
@@ -548,7 +773,12 @@
       "page": "91",
       "question": {
         "q": "After a good meal, he felt _______ and didn't want to eat anything more.",
-        "options": ["content", "hungry", "angry", "worried"],
+        "options": [
+          "content",
+          "worried",
+          "hungry",
+          "angry"
+        ],
         "answer": 0,
         "justification": "'content' means satisfied. 'hungry' means wanting food, 'angry' means mad, 'worried' means anxious.",
         "context_sentence": "After a good meal, he felt _______ and didn't want to eat anything more."
@@ -560,7 +790,12 @@
       "page": "91",
       "question": {
         "q": "The supermarket offers a wide _______ of fruits and vegetables from around the world.",
-        "options": ["variety", "shortage", "problem", "failure"],
+        "options": [
+          "variety",
+          "failure",
+          "shortage",
+          "problem"
+        ],
         "answer": 0,
         "justification": "'variety' means range or diversity. 'shortage' means lack, 'problem' means difficulty, 'failure' means lack of success.",
         "context_sentence": "The supermarket offers a wide _______ of fruits and vegetables from around the world."
@@ -572,8 +807,13 @@
       "page": "92",
       "question": {
         "q": "The two designs are _______ the same; there is very little difference between them.",
-        "options": ["essentially", "completely", "rarely", "accidentally"],
-        "answer": 0,
+        "options": [
+          "completely",
+          "accidentally",
+          "rarely",
+          "essentially"
+        ],
+        "answer": 3,
         "justification": "'essentially' means basically or fundamentally. 'completely' means fully, 'rarely' means seldom, 'accidentally' means by chance.",
         "context_sentence": "The two designs are _______ the same; there is very little difference between them."
       }
@@ -584,8 +824,13 @@
       "page": "93",
       "question": {
         "q": "There is a high _______ for cold drinks during the hot summer months.",
-        "options": ["demand", "supply", "waste", "silence"],
-        "answer": 0,
+        "options": [
+          "silence",
+          "supply",
+          "demand",
+          "waste"
+        ],
+        "answer": 2,
         "justification": "'demand' means need or desire. 'supply' means provision, 'waste' means rubbish, 'silence' means quietness.",
         "context_sentence": "There is a high _______ for cold drinks during the hot summer months."
       }
