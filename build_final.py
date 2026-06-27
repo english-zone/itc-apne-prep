@@ -219,7 +219,7 @@ html = '''<!DOCTYPE html>
 :root { --primary: #0b2b4f; --accent: #c4450c; --paper: #fffef9; }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: 'Amiri', serif; background: #f5f2eb; color: #1e1e1e; line-height: 2.2; font-size: 1.2rem; padding: 2rem 1rem; }
-.book { max-width: 1000px; margin: 0 auto; background: var(--paper); box-shadow: 0 20px 60px rgba(0,0,0,0.12); border-radius: 4px; padding: 3rem 3.5rem; position: relative; }
+.book { max-width: 1100px; margin: 0 auto; background: var(--paper); box-shadow: 0 20px 60px rgba(0,0,0,0.12); border-radius: 4px; padding: 3rem 3.5rem; position: relative; }
 .print-btn { position: fixed; top: 20px; right: 20px; z-index: 999; background: var(--primary); color: white; border: none; padding: 12px 28px; font-size: 1.1rem; font-family: 'Inter', sans-serif; font-weight: 600; border-radius: 50px; cursor: pointer; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: all .3s; }
 .print-btn:hover { background: #00264d; transform: translateY(-2px); }
 .cover { text-align: center; margin-bottom: 3rem; page-break-after: always; background: linear-gradient(135deg,#f9f9f9,#fff); padding: 4rem 2rem; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
@@ -228,22 +228,29 @@ body { font-family: 'Amiri', serif; background: #f5f2eb; color: #1e1e1e; line-he
 .cover .logo { margin: 3rem 0; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1)); }
 .cover .author { font-size: 1.3rem; margin-top: 3rem; color: #444; }
 .cover .contact { font-size: 1rem; color: #777; margin-top: .5rem; }
-.section-title { font-size: 2rem; color: var(--primary); border-bottom: 3px solid var(--primary); padding-bottom: .3rem; margin: 3rem 0 1.5rem; }
-article.passage { margin-bottom: 2.5rem; }
-.passage-text { background: #f9f9f6; padding: 1.5rem; border-right: 5px solid var(--accent); margin: 1rem 0; white-space: pre-line; }
+.section-title { font-size: 1.8rem; color: var(--primary); border-bottom: 3px solid var(--primary); padding-bottom: .3rem; margin: 2rem 0 1rem; }
+article.passage { margin-bottom: 2rem; }
+.passage-text { background: #f9f9f6; padding: 1.2rem; border-right: 5px solid var(--accent); margin: 1rem 0; white-space: pre-line; font-size: 1rem; }
 .questions ol { list-style: none; counter-reset: q-counter; }
 .questions > ol > li::before { counter-increment: q-counter; content: counter(q-counter) ". "; font-weight: bold; color: var(--primary); }
-table.word-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
-table.word-table th { background: var(--primary); color: white; padding: 10px; font-family: 'Inter', sans-serif; }
-table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 8px 12px; }
+table.word-table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+table.word-table th { background: var(--primary); color: white; padding: 8px; font-family: 'Inter', sans-serif; }
+table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 10px; }
 .en { font-family: 'Inter', sans-serif; }
 .dictation ul { list-style: square; padding-right: 2rem; }
-.grammar-test h2.section-title { margin-top: 2rem; }
-.daily-tips { background: #fef9e7; border-right: 5px solid #f39c12; padding: 1.2rem; margin: 1.5rem 0; border-radius: 10px; font-size: 1rem; color: #7d6608; line-height: 2; }
-.tip-item { margin-bottom: 0.8rem; padding-bottom: 0.5rem; border-bottom: 1px dashed #e0c36a; }
+.grammar-test h2.section-title { font-size: 1.5rem; }
+.daily-tips { background: #fef9e7; border-right: 5px solid #f39c12; padding: 1rem; margin: 1rem 0; border-radius: 10px; font-size: 0.95rem; color: #7d6608; line-height: 1.9; }
+.tip-item { margin-bottom: 0.6rem; padding-bottom: 0.4rem; border-bottom: 1px dashed #e0c36a; }
 .tip-item:last-child { border-bottom: none; margin-bottom: 0; }
 .footer-note { text-align: center; margin-top: 4rem; padding: 2rem; background: #f0ede5; border-radius: 8px; }
-@media print { body { background: white; padding: 0; } .book { box-shadow: none; border-radius: 0; padding: 2cm; max-width: 100%; } .print-btn { display: none; } @page { margin: 1.5cm; @bottom-center { content: counter(page); font-family: 'Amiri'; } } .section-title { page-break-before: always; } .cover { page-break-after: always; } }
+
+/* تخطيط متوازي: القراءة (يمين) + القواعد (يسار) */
+.day-flex { display: flex; gap: 2rem; margin: 1.5rem 0; }
+.reading-col { flex: 0 0 60%; }
+.grammar-col { flex: 0 0 38%; }
+@media (max-width: 800px) { .day-flex { flex-direction: column; } .reading-col, .grammar-col { flex: 0 0 100%; } }
+
+@media print { body { background: white; padding: 0; } .book { box-shadow: none; border-radius: 0; padding: 1.5cm; max-width: 100%; } .print-btn { display: none; } @page { margin: 1.5cm; @bottom-center { content: counter(page); font-family: 'Amiri'; } } .section-title { page-break-before: always; } .cover { page-break-after: always; } }
 </style>
 </head>
 <body>
@@ -278,10 +285,16 @@ for d in range(1, 8):
     html += f'<div class="day" id="day-{d}">'
     html += f'<h1 class="section-title">اليوم {d} – {day_titles[d-1]}</h1>'
     html += get_daily_tips(d)
+    html += '<div class="day-flex">'
+    html += '<div class="reading-col">'
     html += build_reading(d)
+    html += '</div>'
+    html += '<div class="grammar-col">'
+    html += build_grammar_test(d)
+    html += '</div>'
+    html += '</div>'
     html += build_vocab(d)
     html += build_dictation(d)
-    html += build_grammar_test(d)
     html += '</div>'
 
 # ====== التجميعات ======
@@ -300,4 +313,4 @@ html += '</div></body></html>'
 with open('textbook.html', 'w', encoding='utf-8') as f:
     f.write(html)
 
-print("✅ textbook.html built successfully")
+print("✅ textbook.html built with side-by-side reading and grammar")
