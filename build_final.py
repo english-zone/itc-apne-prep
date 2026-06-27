@@ -285,6 +285,7 @@ for d in range(1, 8):
     html += f'<div class="day" id="day-{d}">'
     html += f'<h1 class="section-title">اليوم {d} – {day_titles[d-1]}</h1>'
     html += get_daily_tips(d)
+    html += get_daily_tips(d)
     html += '<div class="day-flex">'
     html += '<div class="reading-col">'
     html += build_reading(d)
