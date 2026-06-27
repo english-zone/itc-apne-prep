@@ -47,34 +47,22 @@ def build_vocab(day_num):
     words = v.get("words", [])
     sec = '<section class="vocabulary">\n<h2 class="section-title">المفردات</h2>\n'
     if words:
-        table_rows = ""
-        for i, w in enumerate(words):
-            eng = escape(w.get("english",""))
-            ara = escape(w.get("arabic",""))
-            table_rows += f'<tr><td>{i+1}</td><td class="en">{eng}</td><td class="ar">{ara}</td></tr>\n'
-        table = f'<div class="word-table-wrap"><table class="word-table"><thead><tr><th>#</th><th>English</th><th>العربية</th></tr></thead><tbody>{table_rows}</tbody></table></div>'
-        
         all_questions = [w.get("question") for w in words if w.get("question")]
         all_questions = all_questions[:20]
-        questions_html = ""
         if all_questions:
-            questions_html = '<div class="vocab-questions"><h4>أسئلة المفردات</h4><ol>\n'
+            sec += '<div class="vocab-questions"><ol>\n'
             for q in all_questions:
                 q_text = escape(q.get("q", ""))
                 opts = q.get("options", [])
-                questions_html += f'<li>{wrap_en(q_text)}<ol type="a">\n'
+                sec += f'<li>{wrap_en(q_text)}<ol type="a">\n'
                 for opt in opts:
-                    questions_html += f'<li>{wrap_en(escape(opt))}</li>\n'
-                questions_html += '</ol></li>\n'
-            questions_html += '</ol></div>\n'
-        
-        if questions_html:
-            sec += '<div class="vocab-flex">\n'
-            sec += f'<div class="vocab-col">{table}</div>\n'
-            sec += f'<div class="vocab-col">{questions_html}</div>\n'
-            sec += '</div>\n'
+                    sec += f'<li>{wrap_en(escape(opt))}</li>\n'
+                sec += '</ol></li>\n'
+            sec += '</ol></div>\n'
         else:
-            sec += table
+            sec += '<p>لا توجد أسئلة مفردات لهذا اليوم.</p>'
+    else:
+        sec += '<p>لا توجد مفردات لهذا اليوم.</p>'
     sec += '</section>\n'
     return sec
 
@@ -538,7 +526,7 @@ for d in range(1, 8):
     html += build_dictation(d)
     html += '<div class="grammar-flex">'
     html += '<div class="grammar-col lesson-col">'
-    html += build_grammar_lesson(d)
+    
     html += '</div>'
     html += '<div class="grammar-col test-col">'
     html += build_grammar_test(d)
@@ -551,7 +539,7 @@ for i in range(1, 7):
     html += build_compilation(i)
 html += '</section>'
 
-html += build_glossary()
+
 
 html += '<section class="references"><h2 class="section-title">المصادر والمراجع</h2>'
 refs = [
