@@ -59,10 +59,6 @@ def build_vocab(day_num):
                     sec += f'<li>{wrap_en(escape(opt))}</li>\n'
                 sec += '</ol></li>\n'
             sec += '</ol></div>\n'
-        else:
-            sec += '<p>لا توجد أسئلة مفردات لهذا اليوم.</p>'
-    else:
-        sec += '<p>لا توجد مفردات لهذا اليوم.</p>'
     sec += '</section>\n'
     return sec
 
@@ -492,7 +488,8 @@ html = f'''<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>APNE-ITC Master Guide – Al-Reyadah Training Institute</title>
-<style>{style}</style>
+<style>{style}.daily-tip { background: #fef9e7; border-right: 5px solid #f39c12; padding: 1.2rem; margin: 1.5rem 0 1rem; border-radius: 10px; font-size: 1.05rem; color: #7d6608; line-height: 1.8; }
+</style>
 </head>
 <body>
 <button class="print-btn" onclick="window.print()">🖨️ طباعة / PDF</button>
@@ -529,7 +526,7 @@ for d in range(1, 8):
     
     html += '</div>'
     html += '<div class="grammar-col test-col">'
-    html += build_grammar_test(d)
+    
     html += '</div>'
     html += '</div>'
     html += '</div>'
