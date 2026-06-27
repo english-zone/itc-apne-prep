@@ -10,7 +10,8 @@ def escape(txt):
 
 def wrap_en(txt):
     if not txt: return ""
-    return f'<bdo dir="ltr">{txt}</bdo>'
+    # إجبار النص الإنجليزي على LTR مع عزل كامل
+    return f'<span dir="ltr" style="unicode-bidi:isolate; direction:ltr;">{txt}</span>'
 
 def build_reading(day_num):
     r = load_json(f"content/day-{day_num:02d}/reading.json")
@@ -24,7 +25,7 @@ def build_reading(day_num):
         text = escape(p.get("text", "")).replace("\n", "<br>")
         questions = p.get("questions", [])
         sec += f'<article class="passage"><h3>{title}</h3>\n'
-        sec += f'<div class="passage-text"><bdo dir="ltr">{text}</bdo></div>\n'
+        sec += f'<div class="passage-text" dir="ltr">{text}</div>\n'
         if questions:
             sec += '<div class="questions"><h4>أسئلة الفهم</h4><ol>\n'
             for q in questions:
@@ -202,7 +203,7 @@ intro_text = """
 <p>This book is the fruit of extensive effort and dedication...</p>
 <p><em>To the light of my life, my first teacher, my father.</em></p>
 <div style="text-align:left; margin-top:3rem;">
-    <strong>English Zone Team</strong><br>
+    <strong>Author & Instructor</strong><br>
     <span style="font-size:1.2rem;">English Zone Team</span>
 </div>
 """
@@ -250,6 +251,9 @@ table.word-table td, table.word-table th { border: 1px solid #ccc; padding: 6px 
 .grammar-col { flex: 0 0 38%; }
 @media (max-width: 800px) { .day-flex { flex-direction: column; } .reading-col, .grammar-col { flex: 0 0 100%; } }
 
+/* إصلاح نهائي لاتجاه النص الإنجليزي */
+[dir="ltr"] { direction: ltr !important; text-align: left !important; unicode-bidi: isolate !important; }
+
 @media print { body { background: white; padding: 0; } .book { box-shadow: none; border-radius: 0; padding: 1.5cm; max-width: 100%; } .print-btn { display: none; } @page { margin: 1.5cm; @bottom-center { content: counter(page); font-family: 'Amiri'; } } .section-title { page-break-before: always; } .cover { page-break-after: always; } }
 </style>
 </head>
@@ -263,7 +267,7 @@ html += '<div class="cover">'
 html += '<img src="assets/images/reyadah-logo.png" alt="Reyadah Logo" class="logo" width="180">'
 html += '<h1>APNE-ITC Master Guide</h1>'
 html += '<p class="subtitle">The Ultimate Preparation Course<br>by Al-Reyadah Training Institute</p>'
-html += '<p class="author"><strong>English Zone Team</strong><br>English Zone Team</p>'
+html += '<p class="author"><strong>English Zone Team</strong></p>'
 html += '<p class="contact">📞 0546088130 | 0548775199</p>'
 html += '</div>'
 
@@ -285,7 +289,6 @@ for d in range(1, 8):
     html += f'<div class="day" id="day-{d}">'
     html += f'<h1 class="section-title">اليوم {d} – {day_titles[d-1]}</h1>'
     html += get_daily_tips(d)
-    html += get_daily_tips(d)
     html += '<div class="day-flex">'
     html += '<div class="reading-col">'
     html += build_reading(d)
@@ -306,7 +309,7 @@ html += '</section>'
 
 # ====== التذييل ======
 html += '<div class="footer-note">'
-html += '<p><strong>Al-Reyadah Training Institute</strong><br>Instructor: English Zone Team<br>0546088130 | 0548775199</p>'
+html += '<p><strong>Al-Reyadah Training Institute</strong><br>English Zone Team<br>0546088130 | 0548775199</p>'
 html += '</div>'
 
 html += '</div></body></html>'
@@ -314,4 +317,4 @@ html += '</div></body></html>'
 with open('textbook.html', 'w', encoding='utf-8') as f:
     f.write(html)
 
-print("✅ textbook.html built with side-by-side reading and grammar")
+print("✅ تم بناء الكتاب مع إصلاح الاتجاه الإنجليزي وتقليل الهوامش")
