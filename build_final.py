@@ -202,8 +202,8 @@ intro_text = """
 <p>This book is the fruit of extensive effort and dedication...</p>
 <p><em>To the light of my life, my first teacher, my father.</em></p>
 <div style="text-align:left; margin-top:3rem;">
-    <strong>Author & Instructor</strong><br>
-    <span style="font-size:1.2rem;">Anas Abdulrahman</span>
+    <strong>English Zone Team</strong><br>
+    <span style="font-size:1.2rem;">English Zone Team</span>
 </div>
 """
 
@@ -263,7 +263,7 @@ html += '<div class="cover">'
 html += '<img src="assets/images/reyadah-logo.png" alt="Reyadah Logo" class="logo" width="180">'
 html += '<h1>APNE-ITC Master Guide</h1>'
 html += '<p class="subtitle">The Ultimate Preparation Course<br>by Al-Reyadah Training Institute</p>'
-html += '<p class="author"><strong>Anas Abdulrahman</strong><br>Instructor & Author</p>'
+html += '<p class="author"><strong>English Zone Team</strong><br>English Zone Team</p>'
 html += '<p class="contact">📞 0546088130 | 0548775199</p>'
 html += '</div>'
 
@@ -306,7 +306,7 @@ html += '</section>'
 
 # ====== التذييل ======
 html += '<div class="footer-note">'
-html += '<p><strong>Al-Reyadah Training Institute</strong><br>Instructor: Anas Abdulrahman<br>0546088130 | 0548775199</p>'
+html += '<p><strong>Al-Reyadah Training Institute</strong><br>Instructor: English Zone Team<br>0546088130 | 0548775199</p>'
 html += '</div>'
 
 html += '</div></body></html>'
