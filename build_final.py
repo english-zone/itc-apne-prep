@@ -8,16 +8,12 @@ def load_json(path):
 def escape(txt):
     return html_mod.escape(str(txt)) if txt else ""
 
-def wrap_en(txt):
-    if not txt: return ""
-    return str(txt)
-
-def q_li(q_text, opts, level="outer"):
-    html = f'<li class="q-en"><span class="q-text">{escape(q_text)}</span>\n<ol type="a" class="opts-en">\n'
+def q_li(q_text, opts):
+    html_code = f'<li class="q-en"><span class="q-text">{escape(q_text)}</span>\n<ol type="a" class="opts-en">\n'
     for opt in opts:
-        html += f'<li class="opt-en">{escape(opt)}</li>\n'
-    html += '</ol></li>\n'
-    return html
+        html_code += f'<li class="opt-en">{escape(opt)}</li>\n'
+    html_code += '</ol></li>\n'
+    return html_code
 
 def build_reading(day_num):
     r = load_json(f"content/day-{day_num:02d}/reading.json")
@@ -207,7 +203,8 @@ html = '''<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>APNE-ITC Master Guide – Al-Reyadah Training Institute</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Tajawal:wght@400;500;700&family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap');
+
 :root {
   --primary: #0b2b4f;
   --accent:  #c4450c;
@@ -215,9 +212,11 @@ html = '''<!DOCTYPE html>
   --text:    #1e1e1e;
   --border:  #e0e0e0;
 }
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
+
 body {
-  font-family: 'Amiri', serif;
+  font-family: 'Amiri', 'Tajawal', serif;
   background: #f5f2eb;
   color: var(--text);
   line-height: 2;
@@ -225,16 +224,19 @@ body {
   padding: 2rem 1rem;
   direction: rtl;
 }
+
 .en-title {
   direction: ltr;
   unicode-bidi: isolate;
   text-align: left;
 }
+
 .en-cell {
   direction: ltr;
   unicode-bidi: isolate;
   text-align: left;
 }
+
 .passage-text {
   direction: ltr;
   unicode-bidi: isolate;
@@ -244,19 +246,21 @@ body {
   border-left: 5px solid var(--accent);
   margin: 0.8rem 0;
   white-space: pre-line;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Serif 4', Georgia, serif;
   font-size: 1rem;
   border-radius: 4px;
 }
+
 li.q-en {
   direction: ltr;
   unicode-bidi: isolate;
   text-align: left;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Serif 4', Georgia, serif;
   font-size: 1rem;
   margin-bottom: 0.8rem;
   list-style: none;
 }
+
 ol.q-list {
   counter-reset: q-counter;
   padding: 0;
@@ -267,7 +271,9 @@ ol.q-list > li.q-en::before {
   content: counter(q-counter) ". ";
   font-weight: 700;
   color: var(--primary);
+  margin-left: 0;
 }
+
 ol.opts-en {
   list-style: lower-alpha;
   direction: ltr;
@@ -283,6 +289,7 @@ li.opt-en {
   font-size: 0.97rem;
   margin-bottom: 0.2rem;
 }
+
 ul.dict-list {
   list-style: square;
   padding-left: 2rem;
@@ -295,12 +302,14 @@ li.dict-item {
   font-family: 'Inter', sans-serif;
   margin-bottom: 0.5rem;
 }
+
 .intro-sign {
   direction: ltr;
   unicode-bidi: isolate;
   text-align: left;
   margin-top: 3rem;
 }
+
 .book {
   max-width: 210mm;
   margin: 0 auto;
@@ -309,6 +318,7 @@ li.dict-item {
   border-radius: 4px;
   padding: 2.5cm 2cm;
 }
+
 .print-btn {
   position: fixed;
   top: 20px; right: 20px;
@@ -326,6 +336,7 @@ li.dict-item {
   transition: all .3s;
 }
 .print-btn:hover { background: #00264d; transform: translateY(-2px); }
+
 .cover {
   text-align: center;
   margin-bottom: 3rem;
@@ -340,6 +351,7 @@ li.dict-item {
 .cover .logo     { margin: 2rem 0; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1)); }
 .cover .author   { font-size: 1.2rem; margin-top: 2rem; color: #444; direction: ltr; }
 .cover .contact  { font-size: 0.95rem; color: #777; margin-top: 0.5rem; direction: ltr; }
+
 .section-title {
   font-size: 1.6rem;
   color: var(--primary);
@@ -347,9 +359,11 @@ li.dict-item {
   padding-bottom: 0.4rem;
   margin: 2rem 0 1rem;
 }
+
 article.passage        { margin-bottom: 2rem; }
 .passage h3.en-title   { font-size: 1.2rem; color: var(--primary); margin-bottom: 0.5rem; }
 .questions h4          { margin: 0.8rem 0 0.4rem; }
+
 table.word-table {
   width: 100%;
   border-collapse: collapse;
@@ -366,6 +380,7 @@ table.word-table th {
   border: 1px solid var(--border);
   padding: 6px 10px;
 }
+
 .daily-tips {
   background: #fef9e7;
   border-right: 5px solid #f39c12;
@@ -382,6 +397,7 @@ table.word-table th {
   border-bottom: 1px dashed #e0c36a;
 }
 .tip-item:last-child { border-bottom: none; margin-bottom: 0; }
+
 .side-by-side {
   display: flex;
   gap: 2rem;
@@ -390,6 +406,7 @@ table.word-table th {
 }
 .side-left  { flex: 1 1 55%; }
 .side-right { flex: 1 1 45%; }
+
 .footer-note {
   text-align: center;
   margin-top: 4rem;
@@ -397,31 +414,174 @@ table.word-table th {
   background: #f0ede5;
   border-radius: 8px;
 }
+
 @media (max-width: 800px) {
   .side-by-side { flex-direction: column; }
   .book { padding: 1.5rem; }
 }
+
 @media print {
-  body { background: white; padding: 0; }
-  .book {
-    box-shadow: none;
-    border-radius: 0;
-    padding: 0;
-    max-width: 100%;
-  }
-  .print-btn { display: none; }
   @page {
-    size: A4;
-    margin: 2cm;
+    size: A4 portrait;
+    margin: 1.8cm 1.5cm 2cm 1.5cm;
+    @top-left {
+      content: "APNE-ITC Master Guide";
+      font-family: 'Inter', sans-serif;
+      font-size: 8pt;
+      color: #888;
+      border-bottom: 0.5pt solid #ccc;
+      padding-bottom: 4pt;
+    }
+    @top-right {
+      content: "Al-Reyadah Training Institute";
+      font-family: 'Inter', sans-serif;
+      font-size: 8pt;
+      color: #888;
+      border-bottom: 0.5pt solid #ccc;
+      padding-bottom: 4pt;
+    }
     @bottom-center {
-      content: counter(page);
+      content: "— " counter(page) " —";
       font-family: 'Amiri', serif;
-      font-size: 11px;
+      font-size: 10pt;
+      color: #555;
     }
   }
-  .section-title  { page-break-before: always; }
-  .cover          { page-break-after: always; }
-  .side-by-side   { page-break-inside: avoid; }
+
+  @page :first {
+    @top-left   { content: none; }
+    @top-right  { content: none; }
+    @bottom-center { content: none; }
+  }
+
+  body {
+    background: white !important;
+    padding: 0 !important;
+    font-size: 10pt !important;
+    line-height: 1.65 !important;
+    color: #111 !important;
+  }
+
+  .book {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .print-btn { display: none !important; }
+
+  .cover {
+    page-break-after: always !important;
+    break-after: page !important;
+    min-height: 24cm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: white !important;
+    padding: 3cm 2cm !important;
+  }
+  .cover h1        { font-size: 28pt !important; margin-bottom: 0.6cm; }
+  .cover .subtitle { font-size: 14pt !important; }
+  .cover .author   { font-size: 12pt !important; }
+  .cover .contact  { font-size: 10pt !important; }
+  .cover .logo     { width: 120px !important; }
+
+  .day { page-break-before: always !important; break-before: page !important; }
+
+  .section-title {
+    font-size: 14pt !important;
+    border-bottom: 2pt solid #0b2b4f !important;
+    padding-bottom: 3pt !important;
+    margin: 0 0 8pt !important;
+    color: #0b2b4f !important;
+  }
+
+  .passage-text {
+    font-size: 9.5pt !important;
+    line-height: 1.6 !important;
+    padding: 6pt 10pt !important;
+    border-left: 3pt solid #c4450c !important;
+    background: #fafaf8 !important;
+    margin: 6pt 0 !important;
+  }
+
+  li.q-en {
+    font-size: 9.5pt !important;
+    line-height: 1.55 !important;
+    margin-bottom: 5pt !important;
+  }
+  li.opt-en {
+    font-size: 9pt !important;
+    line-height: 1.5 !important;
+  }
+  ol.opts-en { margin-top: 2pt !important; padding-left: 14pt !important; }
+
+  li.dict-item { font-size: 9.5pt !important; margin-bottom: 3pt !important; }
+
+  .side-by-side {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    gap: 1cm !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    align-items: flex-start !important;
+  }
+  .side-left  {
+    flex: 0 0 55% !important;
+    width: 55% !important;
+    max-width: 55% !important;
+  }
+  .side-right {
+    flex: 0 0 42% !important;
+    width: 42% !important;
+    max-width: 42% !important;
+  }
+
+  table.word-table {
+    width: 100% !important;
+    font-size: 9.5pt !important;
+    border-collapse: collapse !important;
+  }
+  table.word-table th { font-size: 9pt !important; padding: 4pt 6pt !important; }
+  table.word-table td { padding: 3pt 6pt !important; }
+
+  .daily-tips {
+    font-size: 9pt !important;
+    line-height: 1.5 !important;
+    padding: 5pt 8pt !important;
+    margin: 6pt 0 !important;
+    border-right: 3pt solid #f39c12 !important;
+    background: #fffbe6 !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+  .tip-item { margin-bottom: 3pt !important; padding-bottom: 2pt !important; }
+
+  .compilation { page-break-before: always !important; break-before: page !important; }
+
+  .footer-note {
+    font-size: 9pt !important;
+    padding: 8pt !important;
+    margin-top: 1cm !important;
+    background: #f0ede5 !important;
+    page-break-inside: avoid !important;
+  }
+
+  article.passage   { page-break-inside: avoid !important; break-inside: avoid !important; }
+  .questions        { page-break-inside: avoid !important; break-inside: avoid !important; }
+  .dictation        { page-break-inside: avoid !important; break-inside: avoid !important; }
+
+  h2.section-title, h3.en-title {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
 }
 </style>
 </head>
